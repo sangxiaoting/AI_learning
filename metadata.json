@@ -1,0 +1,5 @@
+{
+  "name": "Personal Learning Hub",
+  "description": "A modern dashboard to track and summarize daily learning from Podcasts, YouTube, and Twitter, synced with GitHub data.",
+  "requestFramePermissions": []
+}
