@@ -22,6 +22,7 @@ import { format, isSameDay, parseISO } from 'date-fns';
 import { cn } from './lib/utils';
 import { LearningItem, ContentType } from './types';
 import { MOCK_DATA } from './mockData';
+import { loadLearningData } from './dataLoader';
 
 // --- Components ---
 
@@ -322,28 +323,22 @@ export default function App() {
   const [selectedDate, setSelectedDate] = useState<string | 'all'>('all');
   const [selectedItem, setSelectedItem] = useState<LearningItem | null>(null);
 
-  // GitHub Fetching Logic
+  // Data Loading Logic
   useEffect(() => {
     const fetchData = async () => {
-      // Replace this with your actual GitHub Raw URL
-      // Example: https://raw.githubusercontent.com/username/repo/main/data.json
-      const GITHUB_URL = 'https://raw.githubusercontent.com/your-username/your-repo/main/learning-data.json';
-      
       try {
         setLoading(true);
-        const response = await fetch(GITHUB_URL);
-        if (response.ok) {
-          const json = await response.json();
-          setData(json);
-        }
+        const loadedData = await loadLearningData();
+        setData(loadedData);
       } catch (error) {
-        console.error("Failed to fetch GitHub data, using mock data.", error);
+        console.error("Failed to load data, using mock data.", error);
+        setData(MOCK_DATA);
       } finally {
         setLoading(false);
       }
     };
 
-    // fetchData(); // Uncomment this to enable real fetching
+    fetchData();
   }, []);
 
   const filteredData = useMemo(() => {
