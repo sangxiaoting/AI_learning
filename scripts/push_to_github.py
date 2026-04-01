@@ -45,7 +45,7 @@ def main() -> None:
         init_git_repo()
 
     # Add all new/changed files
-    git("add", "data/", "content/", "transcripts/", "state/", "logs/")
+    git("add", "data/", "content/", "transcripts/", "state/")
 
     # Check if there are changes
     status = git("status", "--porcelain")
