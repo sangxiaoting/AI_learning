@@ -1,0 +1,74 @@
+{
+  "channels": [
+    {
+      "name": "Intentional Product Manager",
+      "url": "https://www.youtube.com/@IntentionalProductManager",
+      "category": "product",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "Aakash Gupta",
+      "url": "https://www.youtube.com/@growproduct",
+      "category": "product",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "PM Accelerator",
+      "url": "https://www.youtube.com/@DrNancyLi",
+      "category": "product",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "AI Explained",
+      "url": "https://www.youtube.com/@aiexplained-official",
+      "category": "tech",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "Two Minute Papers",
+      "url": "https://www.youtube.com/@TwoMinutePapers",
+      "category": "tech",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "Matthew Berman",
+      "url": "https://www.youtube.com/@matthew_berman",
+      "category": "tech",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/@DwarkeshPatel",
+      "category": "industry",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "Lex Fridman",
+      "url": "https://www.youtube.com/@lexfridman",
+      "category": "industry",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "Matt Wolfe",
+      "url": "https://www.youtube.com/@mreflow",
+      "category": "industry",
+      "lang": "en",
+      "enabled": true
+    },
+    {
+      "name": "DeepLearning.AI",
+      "url": "https://www.youtube.com/@Deeplearningai",
+      "category": "foundation",
+      "lang": "en",
+      "enabled": true
+    }
+  ]
+}

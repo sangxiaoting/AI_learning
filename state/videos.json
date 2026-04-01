@@ -1,0 +1,24 @@
+{
+  "videos": {
+    "vqo64rHIsLE": {
+      "title": "If I Were Looking For An AI Product Manager Job In 2026, This Is Exactly What I'd Do",
+      "channel": "Intentional Product Manager",
+      "url": "https://www.youtube.com/watch?v=vqo64rHIsLE",
+      "date": "2026-03-30",
+      "duration": "16:28",
+      "status": "done",
+      "updatedAt": "2026-03-31T09:28:55.607262Z",
+      "outputJson": "data/youtube/2026-03-30/intentional-product-manager-vqo64rHIsLE.json"
+    },
+    "Eqh2iwSl570": {
+      "title": "Claude Code Secrets for PMs: The Operating System, Skills, and Data Viz",
+      "channel": "Aakash Gupta",
+      "url": "https://www.youtube.com/watch?v=Eqh2iwSl570",
+      "date": "2026-03-30",
+      "duration": "1:06:48",
+      "status": "done",
+      "updatedAt": "2026-03-31T09:35:33.827542Z",
+      "outputJson": "data/youtube/2026-03-30/aakash-gupta-Eqh2iwSl570.json"
+    }
+  }
+}
