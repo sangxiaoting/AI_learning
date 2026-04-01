@@ -1,0 +1,36 @@
+# TensorFlow Developer Professional Certificate
+
+- Author: `DeepLearningAI`
+- Date: `2026-03-23`
+- Duration: `3:30`
+- Link: https://www.youtube.com/watch?v=lzKmZzmy29Y
+- Tags: TensorFlow, Deep Learning, AI Development, Machine Learning, Career, DeepLearningAI
+
+## TL;DR
+
+Andrew Ng 介绍 TensorFlow 开发者专业证书课程，Google 开发者倡导者 Lawrence Moroni 分享他从 Ng 的课程学习 AI 到如今 teaching AI 的完整旅程，强调业界对 AI 开发人才的迫切需求。
+
+## Takeaways
+
+- 全球约 2600 万软件开发者中仅有约 30 万 AI 从业者，人才缺口巨大
+- TensorFlow、PyTorch 等编程框架能显著简化深度学习算法的实现过程
+- 机器学习和深度学习已不再是纯技术领域的事，每个行业都需要理解和应用
+- 新编程范式正在开启以往无法实现的场景，为开发者带来全新机遇
+- 本系列课程的目标是将大量非 AI 开发者转化为能够构建 AI 应用的从业者
+
+## Quote
+
+> I've seen surveys of like you know 25 26 million software developers and like maybe 300,000 AI practitioners. So part of my personal passion is to try and turn like those 24.7 nonAI practitioners, a significant portion of them into people who can understand AI and who can build the the new and exciting things that we can't think of.
+
+## Detailed Breakdown
+
+### 课程与讲师介绍
+
+- **核心观点归纳**: Andrew Ng 推出 TensorFlow 开发者专业证书课程，旨在帮助开发者掌握 TensorFlow 框架实现深度学习算法
+- **关键数据/案例**: 讲师 Lawrence Moroni 是 Google 开发者倡导者，著有 30 多本编程书籍和 4 本科幻小说，曾从 Ng 的课程学习 AI
+
+### AI 人才供需现状
+
+- **核心观点归纳**: AI 技能正变得前所未有的重要，但全球 AI 开发者数量严重不足
+- **关键数据/案例**: 全球约 2600 万软件开发者中仅有约 30 万 AI 从业者，比例极低
+- **AI PM 视角/启发**: 这意味着 AI 教育产品有巨大的市场空间，帮助开发者转型是重要机会

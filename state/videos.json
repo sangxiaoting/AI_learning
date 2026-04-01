@@ -19,6 +19,96 @@
       "status": "done",
       "updatedAt": "2026-03-31T09:35:33.827542Z",
       "outputJson": "data/youtube/2026-03-30/aakash-gupta-Eqh2iwSl570.json"
+    },
+    "7DfEhNO3UKQ": {
+      "title": "How I Finally Landed a Product Management Job After Months of Unemployment | Christian's Story",
+      "channel": "Intentional Product Manager",
+      "url": "https://www.youtube.com/watch?v=7DfEhNO3UKQ",
+      "date": "2026-03-31",
+      "duration": "15:04",
+      "status": "failed",
+      "updatedAt": "2026-04-01T08:34:05.831524Z",
+      "error": "'NoneType' object is not subscriptable"
+    },
+    "sjZWA4mWtZ8": {
+      "title": "From Wall Street to Meta GenAI: How to Stay Relevant in the AI Product Management Era",
+      "channel": "Dr. Nancy Li - Director of Product",
+      "url": "https://www.youtube.com/watch?v=sjZWA4mWtZ8",
+      "date": "2026-02-12",
+      "duration": "28:49",
+      "status": "failed",
+      "updatedAt": "2026-04-01T08:34:59.942084Z",
+      "error": "'NoneType' object is not subscriptable"
+    },
+    "s4tptozUJ8Y": {
+      "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
+      "channel": "AI Explained",
+      "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
+      "date": "2026-03-26",
+      "duration": "16:27",
+      "status": "failed",
+      "updatedAt": "2026-04-01T08:35:43.463349Z",
+      "error": "'NoneType' object is not subscriptable"
+    },
+    "Io_GqmbNBbY": {
+      "title": "DeepMind’s New AI Just Changed Science Forever",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=Io_GqmbNBbY",
+      "date": "2026-03-27",
+      "duration": "10:07",
+      "status": "failed",
+      "updatedAt": "2026-04-01T08:36:07.509930Z",
+      "error": "'NoneType' object is not subscriptable"
+    },
+    "dYG8JxtSgmM": {
+      "title": "Claude Code was just leaked... (WOAH)",
+      "channel": "Matthew Berman",
+      "url": "https://www.youtube.com/watch?v=dYG8JxtSgmM",
+      "date": "2026-04-01",
+      "duration": "15:00",
+      "status": "done",
+      "updatedAt": "2026-04-01T08:36:36.646918Z",
+      "outputJson": "data/youtube/2026-04-01/matthew-berman-dYG8JxtSgmM.json"
+    },
+    "Q8Fkpi18QXU": {
+      "title": "Terence Tao – How the world’s top mathematician uses AI",
+      "channel": "Dwarkesh Patel",
+      "url": "https://www.youtube.com/watch?v=Q8Fkpi18QXU",
+      "date": "2026-03-20",
+      "duration": "1:23:44",
+      "status": "failed",
+      "updatedAt": "2026-04-01T08:38:05.108007Z",
+      "error": "'NoneType' object is not subscriptable"
+    },
+    "vif8NQcjVf0": {
+      "title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494",
+      "channel": "Lex Fridman",
+      "url": "https://www.youtube.com/watch?v=vif8NQcjVf0",
+      "date": "2026-03-23",
+      "duration": "2:25:58",
+      "status": "failed",
+      "updatedAt": "2026-04-01T08:38:47.394923Z",
+      "error": "'NoneType' object is not subscriptable"
+    },
+    "OYyS0Gu5xj8": {
+      "title": "AI News: Anthropic Went Crazy This Week!",
+      "channel": "Matt Wolfe",
+      "url": "https://www.youtube.com/watch?v=OYyS0Gu5xj8",
+      "date": "2026-03-27",
+      "duration": "31:52",
+      "status": "done",
+      "updatedAt": "2026-04-01T08:39:18.323625Z",
+      "outputJson": "data/youtube/2026-03-27/matt-wolfe-OYyS0Gu5xj8.json"
+    },
+    "lzKmZzmy29Y": {
+      "title": "TensorFlow Developer Professional Certificate",
+      "channel": "DeepLearningAI",
+      "url": "https://www.youtube.com/watch?v=lzKmZzmy29Y",
+      "date": "2026-03-23",
+      "duration": "3:30",
+      "status": "done",
+      "updatedAt": "2026-04-01T08:40:40.223595Z",
+      "outputJson": "data/youtube/2026-03-23/deeplearning-ai-lzKmZzmy29Y.json"
     }
   }
 }
