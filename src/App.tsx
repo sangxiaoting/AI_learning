@@ -301,17 +301,17 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
                   </p>
                 </div>
 
-                {item.takeaways.length > 0 && (
+                {item.whyItMatters && (
                   <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                    <h4 className="text-gray-900 font-bold mb-3">Digest</h4>
+                    <h4 className="text-gray-900 font-bold mb-3">Why it matters</h4>
                     <p className="text-gray-700 leading-relaxed text-base">
-                      {item.takeaways[0]}
+                      {item.whyItMatters}
                     </p>
                   </div>
                 )}
 
                 <div className="bg-gray-900 text-white rounded-2xl p-8 shadow-xl">
-                  <h4 className="text-sm font-bold text-sky-300 mb-4 tracking-wider">原文翻译</h4>
+                  <h4 className="text-sm font-bold text-sky-300 mb-4 tracking-wider">中文提炼 / 转述</h4>
                   <p className="text-lg leading-relaxed font-serif whitespace-pre-wrap">
                     {item.content}
                   </p>
@@ -319,7 +319,12 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
 
                 {item.quote && (
                   <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                    <h4 className="text-gray-900 font-bold mb-3">英文原文</h4>
+                    <div className="flex items-center justify-between gap-3 mb-3">
+                      <h4 className="text-gray-900 font-bold">英文原文</h4>
+                      {typeof item.confidence === 'number' && (
+                        <span className="text-xs font-semibold text-gray-500">置信度 {Math.round(item.confidence * 100)}%</span>
+                      )}
+                    </div>
                     <p className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
                       {item.quote}
                     </p>

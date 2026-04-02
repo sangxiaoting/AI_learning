@@ -60,25 +60,31 @@ function normalizeFollowBuildersItems(payload: any): LearningItem[] {
     .map((item: any, index: number) => {
       const author = item.author || '未知作者';
       const role = shortenRole(item.role);
+      const title = cleanText(item.title, 120) || cleanText(item.summary, 120) || 'Builder 更新';
       const summary = cleanText(item.summary, 220) || '暂无摘要。';
-      const digest = cleanText(item.digest, 600) || summary;
-      const translatedFullText = cleanText(item.translatedFullText || item.fullText, 1600) || summary;
+      const whyItMatters = cleanText(item.whyItMatters, 320);
+      const translatedText = cleanText(item.translatedText, 1600) || summary;
       const originalText = cleanText(item.originalText, 1600);
+      const takeaways = [whyItMatters].filter(Boolean) as string[];
       return {
         id: item.id || item.url || `follow-builders-${index}`,
         type: 'twitter' as const,
-        title: summary,
+        title,
         author,
         role,
         sourceLabel: 'Builder 动态',
         date: item.publishedAt || payload?.date || new Date().toISOString(),
         dateText: formatDateText(item.publishedAt || payload?.date),
         tldr: summary,
-        takeaways: digest ? [digest] : [],
-        content: translatedFullText,
+        takeaways,
+        content: translatedText,
         quote: originalText || undefined,
         link: item.url || '#',
-        tags: ['Builder 动态', 'X'],
+        tags: ['Builder 动态', 'X', item.contentType].filter(Boolean),
+        whyItMatters: whyItMatters || undefined,
+        originalText: originalText || undefined,
+        contentType: item.contentType,
+        confidence: item.confidence,
       };
     })
     .filter((item: LearningItem) => item.content && item.content.length > 12);

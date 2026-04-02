@@ -23,10 +23,14 @@ export interface LearningItem {
   quote?: string;
   link: string;
   tags: string[];
-  content?: string; // For twitter threads
+  content?: string; // For twitter translated/full content
   detailedBreakdown?: Chapter[]; // For YouTube
   role?: string;
   sourceLabel?: string;
+  whyItMatters?: string;
+  originalText?: string;
+  contentType?: string;
+  confidence?: number;
 }
 
 export interface ActivityData {
