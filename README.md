@@ -64,6 +64,37 @@ export GITHUB_REMOTE='https://github.com/sangxiaoting/AI_learning.git'
 bash ./scripts/run_full_pipeline.sh
 ```
 
+### 本地保存配置（推荐）
+
+在仓库根目录创建 `.env.local`：
+
+```bash
+MINIMAX_API_KEY=你的key
+GITHUB_REMOTE=https://github.com/你的用户名/你的仓库.git
+```
+
+然后直接运行：
+
+```bash
+bash ./scripts/run_cron_pipeline.sh
+```
+
+这个脚本会自动读取 `.env.local`，所以不需要每次手动 export。
+
+### 定时任务
+
+可用 cron 定时执行，例如每天 10:30 和 18:30：
+
+```cron
+30 10,18 * * * /Users/sangxiaoting/.openclaw/workspace/youtube-pipeline/scripts/run_cron_pipeline.sh
+```
+
+日志会写到：
+
+```bash
+/Users/sangxiaoting/.openclaw/workspace/youtube-pipeline/logs/cron.log
+```
+
 ## 原仓库说明
 
 远程仓库原本包含一个前端应用；相关前端代码和 `public/` 目录仍然保留，可继续直接消费 YouTube / Podcast 数据。
