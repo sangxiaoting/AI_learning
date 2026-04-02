@@ -25,6 +25,8 @@ export interface LearningItem {
   tags: string[];
   content?: string; // For twitter threads
   detailedBreakdown?: Chapter[]; // For YouTube
+  role?: string;
+  sourceLabel?: string;
 }
 
 export interface ActivityData {

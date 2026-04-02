@@ -33,23 +33,62 @@ function formatDateText(date?: string): string {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
+function cleanText(text?: string, max = 180): string {
+  if (!text) return '';
+  const cleaned = String(text)
+    .replace(/https?:\/\/\S+/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (!cleaned) return '';
+  return cleaned.length > max ? cleaned.slice(0, max - 1).trimEnd() + '…' : cleaned;
+}
+
+function shortenRole(role?: string): string | undefined {
+  if (!role) return undefined;
+  const cleaned = cleanText(role, 90)
+    .replace(/\b(prev|previous|join|links?|youtube|github)\b.*$/i, '')
+    .replace(/[|•·]+$/g, '')
+    .trim();
+  return cleaned || undefined;
+}
+
+function buildTwitterTitle(author: string, summary?: string): string {
+  const cleaned = cleanText(summary, 72);
+  if (!cleaned) return `${author} insight`;
+  return cleaned;
+}
+
+function buildTwitterTakeaways(summary?: string): string[] {
+  const cleaned = cleanText(summary, 220);
+  if (!cleaned) return [];
+  return [cleaned];
+}
+
 function normalizeFollowBuildersItems(payload: any): LearningItem[] {
   const items = Array.isArray(payload?.items) ? payload.items : [];
   return items
     .filter((item: any) => item.type === 'x_post')
-    .map((item: any, index: number) => ({
-      id: item.url || `follow-builders-${index}`,
-      type: 'twitter' as const,
-      title: `${item.author || 'Builder'} update`,
-      author: item.author || 'Unknown',
-      date: item.publishedAt || payload?.date || new Date().toISOString(),
-      dateText: formatDateText(item.publishedAt || payload?.date),
-      tldr: item.summary || 'No summary available.',
-      takeaways: item.summary ? [item.summary] : [],
-      content: item.summary || '',
-      link: item.url || '#',
-      tags: ['Follow Builders', 'X', ...(item.role ? [item.role] : [])],
-    }));
+    .map((item: any, index: number) => {
+      const author = item.author || 'Unknown';
+      const role = shortenRole(item.role);
+      const summary = cleanText(item.summary, 220) || 'No summary available.';
+      return {
+        id: item.url || `follow-builders-${index}`,
+        type: 'twitter' as const,
+        title: buildTwitterTitle(author, item.summary),
+        author,
+        role,
+        sourceLabel: 'Follow Builders',
+        date: item.publishedAt || payload?.date || new Date().toISOString(),
+        dateText: formatDateText(item.publishedAt || payload?.date),
+        tldr: summary,
+        takeaways: buildTwitterTakeaways(item.summary),
+        content: summary,
+        link: item.url || '#',
+        tags: ['Follow Builders', 'X'],
+      };
+    })
+    .filter((item: LearningItem) => item.content && item.content.length > 12);
 }
 
 async function loadJson(url: string): Promise<any> {

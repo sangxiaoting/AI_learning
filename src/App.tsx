@@ -37,6 +37,61 @@ const TagBadge = ({ children }: TagBadgeProps) => (
   </span>
 );
 
+const TwitterCard = ({ item, onClick }: ContentCardProps) => (
+  <motion.div
+    layout
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    whileHover={{ y: -4, boxShadow: '0 10px 25px -5px rgba(14, 165, 233, 0.12), 0 8px 10px -6px rgba(14, 165, 233, 0.12)' }}
+    onClick={onClick}
+    className="bg-white rounded-2xl p-5 shadow-sm border border-sky-100 cursor-pointer relative group transition-all"
+  >
+    <div className="flex items-start justify-between gap-3 mb-4">
+      <div className="flex items-start gap-3 min-w-0">
+        <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-sky-50 flex-shrink-0">
+          <Twitter className="w-5 h-5 text-sky-500" />
+        </div>
+        <div className="min-w-0">
+          <div className="flex items-center gap-2 flex-wrap">
+            <h3 className="font-bold text-gray-900 leading-tight group-hover:text-sky-600 transition-colors line-clamp-2">
+              {item.author}
+            </h3>
+            {item.sourceLabel && <TagBadge>{item.sourceLabel}</TagBadge>}
+          </div>
+          {item.role && <p className="text-xs text-gray-500 mt-1 line-clamp-2">{item.role}</p>}
+        </div>
+      </div>
+      <span className="text-[11px] text-gray-400 font-semibold whitespace-nowrap">{item.dateText}</span>
+    </div>
+
+    <div className="space-y-3">
+      <p className="text-sm font-semibold text-gray-900 leading-relaxed line-clamp-3">
+        {item.title}
+      </p>
+      <p className="text-sm text-gray-600 leading-relaxed line-clamp-4">
+        {item.tldr}
+      </p>
+    </div>
+
+    <div className="mt-4 flex items-center justify-between">
+      <div className="flex gap-1.5 flex-wrap">
+        {item.tags.slice(0, 2).map(tag => (
+          <TagBadge key={tag}>{tag}</TagBadge>
+        ))}
+      </div>
+      <a
+        href={item.link}
+        target="_blank"
+        rel="noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        className="inline-flex items-center gap-1 text-xs font-bold text-sky-600 hover:text-sky-700"
+      >
+        View post <ExternalLink className="w-3.5 h-3.5" />
+      </a>
+    </div>
+  </motion.div>
+);
+
 interface ContentCardProps {
   item: LearningItem;
   onClick: () => void;
@@ -508,7 +563,7 @@ export default function App() {
             </div>
             <div className="space-y-5">
               {twitter.map(item => (
-                <ContentCard key={item.id} item={item} onClick={() => setSelectedItem(item)} />
+                <TwitterCard key={item.id} item={item} onClick={() => setSelectedItem(item)} />
               ))}
               {twitter.length === 0 && <EmptyState />}
             </div>
