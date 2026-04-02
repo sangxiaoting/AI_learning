@@ -1,0 +1,14 @@
+#!/bin/bash
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+ROOT="$(pwd)"
+LOG_DIR="$ROOT/logs"
+LOG_FILE="$LOG_DIR/follow-builders-cron.log"
+
+mkdir -p "$LOG_DIR"
+
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting follow-builders JSON export" | tee -a "$LOG_FILE"
+/usr/bin/env node "$ROOT/scripts/export-follow-builders-json.mjs" >> "$LOG_FILE" 2>&1
+/usr/bin/env zsh "$ROOT/scripts/push-follow-builders-json.sh" >> "$LOG_FILE" 2>&1
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Finished follow-builders JSON export" | tee -a "$LOG_FILE"
