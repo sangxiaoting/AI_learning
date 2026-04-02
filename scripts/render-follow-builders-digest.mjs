@@ -64,8 +64,24 @@ function makeZhSummary(author, text) {
 }
 
 function makeZhTitle(author, text) {
-  const s = short(text, 32);
-  return s || `${author} 的最新观点`;
+  const t = clean(text);
+  const lower = t.toLowerCase();
+  if (!t) return `${author} 的最新观点`;
+
+  if (/local models?/.test(lower)) return `${author} 看好本地模型的重要性`;
+  if (/signups are growing|mom/.test(lower)) return `${author} 提到业务增长正在明显加速`;
+  if (/linear agent/.test(lower)) return `${author} 认为 Linear Agent 能降低读代码门槛`;
+  if (/plan mode/.test(lower)) return `${author} 质疑 plan mode 的必要性`;
+  if (/openclaw/.test(lower) && /to-do list|task/.test(lower)) return `${author} 在用 OpenClaw 重构待办管理方式`;
+  if (/agent 4/.test(lower)) return `${author} 介绍 Agent 4 带来的平台变化`;
+  if (/claude code/.test(lower) && /mobile/.test(lower)) return `${author} 分享 Claude Code 的移动端使用场景`;
+  if (/saas/.test(lower) && /agent-native/.test(lower)) return `${author} 认为 SaaS 需要转向 agent-native`;
+  if (/default setting|read the code/.test(lower)) return `${author} 讨论让非工程角色直接读取代码的价值`;
+  if (/brains of an entire generation/.test(lower)) return `${author} 讨论短视频对注意力的侵蚀`;
+  if (/wealth creation/.test(lower)) return `${author} 谈到了当下财富创造速度的变化`;
+  if (/bookmark this page/.test(lower)) return `${author} 推荐关注一个即将发生的重要页面`;
+
+  return `${author} 的一个重要观点`;
 }
 
 function isNotable(text = '') {
