@@ -26,7 +26,8 @@ async function main() {
         url: post.url,
         publishedAt: post.publishedAt,
         title: post.title,
-        summary: post.summary
+        summary: post.summary,
+        originalText: post.raw
       });
     }
   }

@@ -68,6 +68,15 @@ function makeZhTitle(author, text) {
   return s || `${author} 的最新观点`;
 }
 
+function isNotable(text = '') {
+  const t = clean(text);
+  if (!t || t.length < 20) return false;
+  if (/^@\w+/.test(t) && t.length < 50) return false;
+  if (/^(see you there|oh dear|louder|apr 1 lmao)$/i.test(t)) return false;
+  if (/^https?:\/\//i.test(t)) return false;
+  return /(agent|model|llm|gpt|claude|launch|release|tool|skill|growth|signup|revenue|users|product|pm|engineer|code|ai)/i.test(t) || t.length > 80;
+}
+
 function groupByAuthor(xItems = []) {
   const map = new Map();
   for (const item of xItems) {
@@ -81,13 +90,13 @@ function groupByAuthor(xItems = []) {
     }
     for (const tweet of item.tweets || []) {
       const plain = clean(tweet.text || '');
-      if (!plain || plain.length < 8) continue;
+      if (!isNotable(plain)) continue;
       map.get(key).posts.push({
         url: tweet.url || null,
         publishedAt: tweet.createdAt || null,
         title: makeZhTitle(key, plain),
         summary: makeZhSummary(key, plain),
-        raw: short(plain, 220)
+        raw: plain
       });
     }
   }

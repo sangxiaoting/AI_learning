@@ -294,10 +294,22 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
             )}
 
             {item.type === 'twitter' && item.content && (
-              <section className="bg-gray-900 text-white rounded-2xl p-8 shadow-xl">
-                <p className="text-xl leading-relaxed font-serif italic">
-                  "{item.content}"
-                </p>
+              <section className="space-y-5">
+                <div className="bg-indigo-50/50 rounded-2xl p-6 border border-indigo-100">
+                  <h4 className="text-indigo-900 font-bold mb-3 flex items-center gap-2">
+                    <Lightbulb className="w-5 h-5" /> 重要观点
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed text-lg font-medium">
+                    {item.tldr}
+                  </p>
+                </div>
+
+                <div className="bg-gray-900 text-white rounded-2xl p-8 shadow-xl">
+                  <h4 className="text-sm font-bold text-sky-300 mb-4 tracking-wider">原文</h4>
+                  <p className="text-lg leading-relaxed font-serif">
+                    {item.content}
+                  </p>
+                </div>
               </section>
             )}
 

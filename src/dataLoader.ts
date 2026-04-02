@@ -75,7 +75,7 @@ function normalizeFollowBuildersItems(payload: any): LearningItem[] {
       return {
         id: item.url || `follow-builders-${index}`,
         type: 'twitter' as const,
-        title: buildTwitterTitle(author, item.summary),
+        title: item.title || buildTwitterTitle(author, item.summary),
         author,
         role,
         sourceLabel: 'Builder 动态',
@@ -83,7 +83,7 @@ function normalizeFollowBuildersItems(payload: any): LearningItem[] {
         dateText: formatDateText(item.publishedAt || payload?.date),
         tldr: summary,
         takeaways: buildTwitterTakeaways(item.summary),
-        content: summary,
+        content: item.originalText || summary,
         link: item.url || '#',
         tags: ['Builder 动态', 'X'],
       };
