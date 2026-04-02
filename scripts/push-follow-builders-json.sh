@@ -5,6 +5,7 @@ ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
 node scripts/export-follow-builders-json.mjs
+node scripts/export-follow-builders-lite.mjs
 
 git add data/follow-builders
 

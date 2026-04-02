@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0-lite",
+  "generatedAt": "2026-04-02T09:44:59.992Z",
+  "date": "2026-04-02",
+  "sourceStats": {
+    "xBuilders": 13,
+    "totalTweets": 27,
+    "podcastEpisodes": 1,
+    "blogPosts": 5,
+    "feedsGeneratedAt": "2026-04-02T07:09:15.204Z"
+  },
+  "items": [
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Improving frontend design through Skills",
+      "url": "https://claude.com/blog/improving-frontend-design-through-skills",
+      "publishedAt": "Nov 12, 2025",
+      "summary": "You might notice that when you ask an LLM to build a landing page without guidance, it will almost always conform to Inter fonts, purple gradients on white backgrounds, and minimal animations. The issue? Distributional convergence. During sampling, models predict tokens based on statistical patterns in training data. Safe design choices–those that work universally and offend no one–dominate web t…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Claude now creates interactive charts, diagrams and visualizations",
+      "url": "https://claude.com/blog/claude-builds-visuals",
+      "publishedAt": "Mar 12, 2026",
+      "summary": "Claude’s conversations already include artifacts : permanent tools and documents created by Claude, designed to be shared or downloaded as more polished work. By contrast, these charts, diagrams and visualizations serve a different purpose: Claude builds them to aid users’ understanding as it’s discussing the topic at hand. They appear in-line, rather than in a side panel, and they’re temporary—t…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "How enterprises are building AI agents in 2026",
+      "url": "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026",
+      "publishedAt": "Dec 09, 2025",
+      "summary": "AI agents have moved from experimental to an essential part of an organization’s tech stack. But how are enterprises actually using them? In partnership with research firm Material, we surveyed over 500 technical leaders across industries and company sizes to understand how organizations are deploying agents today and where they see opportunity ahead. The findings show a clear pattern: organizati…"
+    },
+    {
+      "type": "x_post",
+      "author": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "url": "https://x.com/zarazhangrui/status/2039599038358814961",
+      "publishedAt": "2026-04-02T07:01:19.000Z",
+      "summary": "Just had an aha moment with OpenClaw. I'm replacing my to-do list with \"braindumping to-dos to OpenClaw\". Whenever I think of a quick task, I just message it to OpenClaw Not only will it record those tasks, but it will …"
+    },
+    {
+      "type": "x_post",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "url": "https://x.com/swyx/status/2039597048585167265",
+      "publishedAt": "2026-04-02T06:53:24.000Z",
+      "summary": "@aiDotEngineer bookmark this page for next week https://t.co/Q660nLKtwE"
+    },
+    {
+      "type": "x_post",
+      "author": "Garry Tan",
+      "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "url": "https://x.com/garrytan/status/2039573921956327489",
+      "publishedAt": "2026-04-02T05:21:31.000Z",
+      "summary": "https://t.co/IcFZWEDeyL"
+    },
+    {
+      "type": "x_post",
+      "author": "Garry Tan",
+      "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "url": "https://x.com/garrytan/status/2039568811440128137",
+      "publishedAt": "2026-04-02T05:01:12.000Z",
+      "summary": "Local models are a very very good thing https://t.co/8lO3MeN5T4"
+    },
+    {
+      "type": "x_post",
+      "author": "Garry Tan",
+      "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "url": "https://x.com/garrytan/status/2039567372152164686",
+      "publishedAt": "2026-04-02T04:55:29.000Z",
+      "summary": "Apr 1 lmao https://t.co/OQh758HuFe"
+    },
+    {
+      "type": "x_post",
+      "author": "Peter Yang",
+      "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "url": "https://x.com/petergyang/status/2039563521885901091",
+      "publishedAt": "2026-04-02T04:40:11.000Z",
+      "summary": "I think the combination of mobile and short video has rotted the brains of an entire generation of kids. See so many kids staring at their TikTok, YouTube Shorts, Reels, etc like zombies."
+    },
+    {
+      "type": "x_post",
+      "author": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "url": "https://x.com/amasad/status/2039552681493336250",
+      "publishedAt": "2026-04-02T03:57:06.000Z",
+      "summary": "We’re in an unprecedented era of rapid wealth creation. https://t.co/P6qoQrvTEn"
+    },
+    {
+      "type": "x_post",
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
+      "url": "https://x.com/steipete/status/2039551079621566812",
+      "publishedAt": "2026-04-02T03:50:45.000Z",
+      "summary": "I never use plan mode. The main reason this was added to codex is for claude-pilled people who struggle with changing their habits. just talk with your agent. https://t.co/72fL0alajL"
+    },
+    {
+      "type": "x_post",
+      "author": "Nan Yu",
+      "role": "head of product @linear",
+      "url": "https://x.com/thenanyu/status/2039530536050274648",
+      "publishedAt": "2026-04-02T02:29:07.000Z",
+      "summary": "Doona is the Notion of strollers https://t.co/nAAanA98vM"
+    },
+    {
+      "type": "x_post",
+      "author": "Nan Yu",
+      "role": "head of product @linear",
+      "url": "https://x.com/thenanyu/status/2039528627281240106",
+      "publishedAt": "2026-04-02T02:21:32.000Z",
+      "summary": "LOUDER https://t.co/PRWbD9dHji"
+    },
+    {
+      "type": "x_post",
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
+      "url": "https://x.com/steipete/status/2039496525282496861",
+      "publishedAt": "2026-04-02T00:13:58.000Z",
+      "summary": "See you there! https://t.co/XjfDQ6s8ri"
+    },
+    {
+      "type": "x_post",
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "url": "https://x.com/rauchg/status/2039493013043626427",
+      "publishedAt": "2026-04-02T00:00:00.000Z",
+      "summary": "Vercel signups are growing at 52% MoM (up from 23%, up from 17%)"
+    },
+    {
+      "type": "x_post",
+      "author": "Nan Yu",
+      "role": "head of product @linear",
+      "url": "https://x.com/thenanyu/status/2039490349941526770",
+      "publishedAt": "2026-04-01T23:49:25.000Z",
+      "summary": "If you're a PM or on sales or support, how many times have you needed to bother an engineer to find out exactly how the app works? I wanted to know exactly what the default setting was for a personal configuration for a…"
+    },
+    {
+      "type": "x_post",
+      "author": "Peter Yang",
+      "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "url": "https://x.com/petergyang/status/2039485214532190359",
+      "publishedAt": "2026-04-01T23:29:01.000Z",
+      "summary": "Oh dear https://t.co/TXlIAquaA4 https://t.co/EWs4SSE3pv"
+    },
+    {
+      "type": "x_post",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "url": "https://x.com/swyx/status/2039479213854728517",
+      "publishedAt": "2026-04-01T23:05:10.000Z",
+      "summary": "@latentspacepod https://t.co/E9fx0LmOfS interesting triangles here"
+    },
+    {
+      "type": "x_post",
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @dxtipshq - @cognition - @temporalio - @aidotengineer - @latentspacepod",
+      "url": "https://x.com/swyx/status/2039472186600427903",
+      "publishedAt": "2026-04-01T22:37:15.000Z",
+      "summary": "\"We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, becaus…"
+    },
+    {
+      "type": "x_post",
+      "author": "Peter Yang",
+      "role": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "url": "https://x.com/petergyang/status/2039463035992191283",
+      "publishedAt": "2026-04-01T22:00:53.000Z",
+      "summary": "Me and my OpenClaw are ready for Disneyland Shanghai https://t.co/IyfrvZiIEl"
+    },
+    {
+      "type": "x_post",
+      "author": "Thariq",
+      "role": "Claude Code @anthropicai. prev YC W20, mit media lab. towards machines of loving grace",
+      "url": "https://x.com/trq212/status/2039453692592873587",
+      "publishedAt": "2026-04-01T21:23:46.000Z",
+      "summary": "not an April Fools joke, we rewrote the Claude Code renderer to use a virtual viewport you can use your mouse, the prompt input stays at the bottom, and a lot more small UX wins people have been asking for it's experime…"
+    },
+    {
+      "type": "x_post",
+      "author": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "url": "https://x.com/amasad/status/2039429759344730549",
+      "publishedAt": "2026-04-01T19:48:40.000Z",
+      "summary": "Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills. https://t.co/xqEOEdHmEJ"
+    },
+    {
+      "type": "x_post",
+      "author": "Cat Wu",
+      "role": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "url": "https://x.com/_catwu/status/2039421527935033854",
+      "publishedAt": "2026-04-01T19:15:57.000Z",
+      "summary": "I love using Claude Code on Claude mobile app to fire off ideas on the go, then pick them up on my laptop later. We support easily teleporting sessions to your local CLI. Download link for Claude iOS and Android apps: h…"
+    },
+    {
+      "type": "x_post",
+      "author": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "url": "https://x.com/levie/status/2039414479084278239",
+      "publishedAt": "2026-04-01T18:47:56.000Z",
+      "summary": "My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon. https://t.co/zKY9KacBIb https://t.co/H6flCdU61B"
+    },
+    {
+      "type": "x_post",
+      "author": "Nikunj Kothari",
+      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "url": "https://x.com/nikunj/status/2039371652287652109",
+      "publishedAt": "2026-04-01T15:57:46.000Z",
+      "summary": "confirmed bionic 🤖 https://t.co/iX6dTntoYS"
+    },
+    {
+      "type": "x_post",
+      "author": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "url": "https://x.com/zarazhangrui/status/2039368921959293126",
+      "publishedAt": "2026-04-01T15:46:55.000Z",
+      "summary": "Skill: https://t.co/o33m9N8yYV"
+    },
+    {
+      "type": "x_post",
+      "author": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
+      "url": "https://x.com/zarazhangrui/status/2039368866741277074",
+      "publishedAt": "2026-04-01T15:46:42.000Z",
+      "summary": "Introducing the \"Follow builders\" skill: the best way to stay on top of the insane happenings in AI I carefully curated 25 X accounts & podcasts that share the highest-quality, first-hand insights on AI (by builders fro…"
+    },
+    {
+      "type": "x_post",
+      "author": "Dan Shipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "url": "https://x.com/danshipper/status/2039357945310277717",
+      "publishedAt": "2026-04-01T15:03:18.000Z",
+      "summary": "@linear YouTube: https://t.co/vsvM6vT7Qx Spotify: https://t.co/EGgmmaMHHM"
+    },
+    {
+      "type": "x_post",
+      "author": "Dan Shipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "url": "https://x.com/danshipper/status/2039357127903350960",
+      "publishedAt": "2026-04-01T15:00:03.000Z",
+      "summary": "SaaS isn’t dead, it just needs to become agent-native. Linear (@linear) is a great example of how: They pivoted the product to be used by both humans and agents, and that has made them one of the premier software tools …"
+    },
+    {
+      "type": "x_post",
+      "author": "Dan Shipper",
+      "role": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "url": "https://x.com/danshipper/status/2039344530990752076",
+      "publishedAt": "2026-04-01T14:10:00.000Z",
+      "summary": "@every @NotionHQ technically this camp is sponsored by Notion but ive been a fan and power user since i met @ivanhzhao in 2018 and he showed me Notion 2.0 tbh i feel like notion was made for this moment in AI—a pleasure…"
+    },
+    {
+      "type": "podcast_episode",
+      "podcast": "Latent Space",
+      "title": "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
+      "url": "https://youtube.com/watch?v=SUjA25ijcNs",
+      "publishedAt": "2026-03-30T00:00:00.000Z",
+      "summary": "When customers use this offtheshelf close model, what's very sad is that they are not leveraging, you know, these data that they have been collecting for for years or sometime for decades. So much data, sometimes it's trillions of tokens of data in a very specific domain, their domain, which is data that you will not find in the in the public on the public internet. So data on which like the clos…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "publishedAt": null,
+      "summary": "Agentic coding benchmarks like SWE-bench and Terminal-Bench are commonly used to compare the software engineering capabilities of frontier models—with top spots on leaderboards often separated by just a few percentage points. These scores are often treated as precise measurements of relative model capability and increasingly inform decisions about which models to deploy. However, we’ve found that…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Harness design for long-running application development",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "publishedAt": null,
+      "summary": "Written by Prithvi Rajasekaran, a member of our Labs team. Over the past several months I’ve been working on two interconnected problems: getting Claude to produce high-quality frontend designs, and getting it to build complete applications without human intervention. This work originated with earlier efforts on our frontend design skill and long-running coding agent harness , where my colleagues…"
+    }
+  ]
+}
