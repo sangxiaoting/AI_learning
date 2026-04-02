@@ -7,7 +7,7 @@ export const MOCK_DATA: LearningItem[] = [
     title: 'The Future of AGI & Agents',
     author: 'Lex Fridman Podcast #420',
     date: '2026-03-30',
-    dateText: 'Today',
+    dateText: '今天',
     duration: '1h 45min',
     tldr: 'AGI will arrive within 10 years, agents will automate most knowledge work. The podcast dives deep into the technical, ethical, and societal implications of artificial general intelligence and autonomous agents.',
     takeaways: [
@@ -47,7 +47,7 @@ export const MOCK_DATA: LearningItem[] = [
     title: 'The State of AI Revolution',
     author: 'Andrej Karpathy',
     date: '2026-03-30',
-    dateText: 'Today',
+    dateText: '今天',
     duration: '45min',
     tldr: 'AI is undergoing a paradigm shift toward self-improvement and agentic behavior.',
     takeaways: [
@@ -84,7 +84,7 @@ export const MOCK_DATA: LearningItem[] = [
     title: 'Key Insight by @sama',
     author: '@sama',
     date: '2026-03-30',
-    dateText: 'Today',
+    dateText: '今天',
     tldr: 'Systems that act independently are the next era.',
     takeaways: ['Models are just the beginning', 'Agency is the goal'],
     content: 'The next era of AI is not about models — it’s about systems that can act independently in the world.',

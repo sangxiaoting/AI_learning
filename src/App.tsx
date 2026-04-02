@@ -86,7 +86,7 @@ const TwitterCard = ({ item, onClick }: ContentCardProps) => (
         onClick={(e) => e.stopPropagation()}
         className="inline-flex items-center gap-1 text-xs font-bold text-sky-600 hover:text-sky-700"
       >
-        View post <ExternalLink className="w-3.5 h-3.5" />
+        查看原帖 <ExternalLink className="w-3.5 h-3.5" />
       </a>
     </div>
   </motion.div>
@@ -120,7 +120,7 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
           <h3 className="font-bold text-gray-900 leading-tight group-hover:text-indigo-600 transition-colors line-clamp-1">
             {item.title}
           </h3>
-          <p className="text-[11px] text-gray-500 font-medium uppercase tracking-wider">
+          <p className="text-[11px] text-gray-500 font-medium tracking-wider">
             {item.author} • {item.dateText}
           </p>
         </div>
@@ -128,11 +128,11 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
 
       <div className="space-y-3">
         <p className="text-sm text-gray-600 line-clamp-2 leading-relaxed">
-          <span className="font-bold text-gray-900">TL;DR:</span> {item.tldr}
+          <span className="font-bold text-gray-900">摘要：</span> {item.tldr}
         </p>
         {item.type !== 'twitter' && item.takeaways.length > 0 && (
           <p className="text-sm text-gray-600 line-clamp-1">
-            <span className="font-bold text-gray-900">Key:</span> {item.takeaways[0]}
+            <span className="font-bold text-gray-900">要点：</span> {item.takeaways[0]}
           </p>
         )}
       </div>
@@ -145,7 +145,7 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
 
       <div className={cn(
         "absolute bottom-4 right-4 w-2 h-2 rounded-full",
-        item.dateText === 'Today' ? "bg-emerald-500 animate-pulse" : "bg-gray-300"
+        item.dateText === '今天' ? "bg-emerald-500 animate-pulse" : "bg-gray-300"
       )} />
     </motion.div>
   );
@@ -252,7 +252,7 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
             {item.type !== 'youtube' && (
               <section className="bg-indigo-50/50 rounded-2xl p-6 border border-indigo-100">
                 <h4 className="text-indigo-900 font-bold mb-3 flex items-center gap-2">
-                  <Lightbulb className="w-5 h-5" /> TL;DR Summary
+                  <Lightbulb className="w-5 h-5" /> 摘要
                 </h4>
                 <p className="text-gray-700 leading-relaxed text-lg font-medium">
                   {item.tldr}
@@ -305,7 +305,7 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
               <section>
                 <h3 className="text-xl font-black text-gray-900 mb-6 flex items-center gap-3">
                   <div className="w-1.5 h-6 bg-indigo-600 rounded-full" />
-                  Key Takeaways
+                  关键要点
                 </h3>
                 <ul className="space-y-4">
                   {item.takeaways.map((point, i) => (
@@ -324,7 +324,7 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
               <section>
                 <h3 className="text-xl font-black text-gray-900 mb-6 flex items-center gap-3">
                   <Quote className="w-6 h-6 text-amber-500" />
-                  Memorable Quote
+                  金句摘录
                 </h3>
                 <div className="bg-amber-50 border-l-4 border-amber-400 p-8 rounded-r-2xl italic text-2xl text-gray-800 font-serif leading-snug">
                   "{item.quote}"
@@ -431,7 +431,7 @@ export default function App() {
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 group-focus-within:text-indigo-600 transition-colors" />
             <input 
               type="text" 
-              placeholder="Search insights, authors, or tags..."
+              placeholder="搜索观点、作者或标签..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-11 pr-4 py-3 bg-gray-100 border-transparent focus:bg-white focus:border-indigo-500 focus:ring-4 focus:ring-indigo-50 rounded-2xl outline-none transition-all text-sm"
@@ -440,8 +440,8 @@ export default function App() {
 
           <div className="flex items-center gap-4">
             <div className="hidden md:flex flex-col items-end">
-              <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">Streak</span>
-              <span className="text-sm font-black text-indigo-600">12 Days</span>
+              <span className="text-xs font-bold text-gray-400 tracking-widest">连续记录</span>
+              <span className="text-sm font-black text-indigo-600">12 天</span>
             </div>
             <div className="w-10 h-10 rounded-full bg-indigo-50 border-2 border-white shadow-sm flex items-center justify-center overflow-hidden">
               <User className="w-5 h-5 text-indigo-600" />
@@ -465,7 +465,7 @@ export default function App() {
                     : "bg-white text-gray-500 hover:bg-gray-50 border border-gray-100"
                 )}
               >
-                {type === 'all' ? 'All Sources' : type + 's'}
+                {type === 'all' ? '全部来源' : type === 'podcast' ? '播客' : type === 'youtube' ? 'YouTube' : 'Twitter'}
               </button>
             ))}
             
@@ -479,7 +479,7 @@ export default function App() {
                   selectedDate === 'all' ? "bg-indigo-100 text-indigo-700" : "text-gray-500 hover:bg-gray-100"
                 )}
               >
-                All Time
+                全部时间
               </button>
               <button
                 onClick={() => setSelectedDate('2026-03-30')}
@@ -488,7 +488,7 @@ export default function App() {
                   selectedDate === '2026-03-30' ? "bg-indigo-100 text-indigo-700" : "text-gray-500 hover:bg-gray-100"
                 )}
               >
-                Today
+                今天
               </button>
             </div>
           </div>
@@ -505,12 +505,12 @@ export default function App() {
             </div>
             <div className="flex gap-6 text-sm">
               <div>
-                <span className="block text-xs font-bold text-gray-400 uppercase">Total</span>
-                <span className="font-black text-gray-900">{data.length} Items</span>
+                <span className="block text-xs font-bold text-gray-400">总计</span>
+                <span className="font-black text-gray-900">{data.length} 条</span>
               </div>
               <div>
-                <span className="block text-xs font-bold text-gray-400 uppercase">New</span>
-                <span className="font-black text-emerald-600">+3 Today</span>
+                <span className="block text-xs font-bold text-gray-400">新增</span>
+                <span className="font-black text-emerald-600">+3 今日</span>
               </div>
             </div>
           </div>
@@ -523,7 +523,7 @@ export default function App() {
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-black text-gray-900 flex items-center gap-2">
                 <Podcast className="w-5 h-5 text-purple-600" />
-                Podcasts
+                播客
               </h2>
               <span className="text-xs font-bold text-gray-400 bg-gray-100 px-2 py-1 rounded-md">{podcasts.length}</span>
             </div>
@@ -557,7 +557,7 @@ export default function App() {
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-black text-gray-900 flex items-center gap-2">
                 <Twitter className="w-5 h-5 text-sky-500" />
-                Twitter
+                Twitter / X
               </h2>
               <span className="text-xs font-bold text-gray-400 bg-gray-100 px-2 py-1 rounded-md">{twitter.length}</span>
             </div>
@@ -591,7 +591,7 @@ export default function App() {
 function EmptyState() {
   return (
     <div className="py-12 text-center bg-white rounded-2xl border border-dashed border-gray-200">
-      <p className="text-sm text-gray-400 font-medium">No items found for this filter.</p>
+      <p className="text-sm text-gray-400 font-medium">这个筛选条件下还没有内容。</p>
     </div>
   );
 }

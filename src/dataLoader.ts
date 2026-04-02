@@ -24,13 +24,13 @@ function normalizeRemoteItems(items: any[], type: 'youtube' | 'podcast'): Learni
 }
 
 function formatDateText(date?: string): string {
-  if (!date) return 'Unknown';
+  if (!date) return '未知';
   const d = new Date(date);
   if (Number.isNaN(d.getTime())) return String(date);
   const now = new Date();
   const sameDay = d.getFullYear() === now.getFullYear() && d.getMonth() === now.getMonth() && d.getDate() === now.getDate();
-  if (sameDay) return 'Today';
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  if (sameDay) return '今天';
+  return d.toLocaleDateString('zh-CN', { month: 'short', day: 'numeric' });
 }
 
 function cleanText(text?: string, max = 180): string {
@@ -54,7 +54,7 @@ function shortenRole(role?: string): string | undefined {
 
 function buildTwitterTitle(author: string, summary?: string): string {
   const cleaned = cleanText(summary, 72);
-  if (!cleaned) return `${author} insight`;
+  if (!cleaned) return `${author} 观点`;
   return cleaned;
 }
 
@@ -69,23 +69,23 @@ function normalizeFollowBuildersItems(payload: any): LearningItem[] {
   return items
     .filter((item: any) => item.type === 'x_post')
     .map((item: any, index: number) => {
-      const author = item.author || 'Unknown';
+      const author = item.author || '未知作者';
       const role = shortenRole(item.role);
-      const summary = cleanText(item.summary, 220) || 'No summary available.';
+      const summary = cleanText(item.summary, 220) || '暂无摘要。';
       return {
         id: item.url || `follow-builders-${index}`,
         type: 'twitter' as const,
         title: buildTwitterTitle(author, item.summary),
         author,
         role,
-        sourceLabel: 'Follow Builders',
+        sourceLabel: 'Builder 动态',
         date: item.publishedAt || payload?.date || new Date().toISOString(),
         dateText: formatDateText(item.publishedAt || payload?.date),
         tldr: summary,
         takeaways: buildTwitterTakeaways(item.summary),
         content: summary,
         link: item.url || '#',
-        tags: ['Follow Builders', 'X'],
+        tags: ['Builder 动态', 'X'],
       };
     })
     .filter((item: LearningItem) => item.content && item.content.length > 12);
