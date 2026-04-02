@@ -1,0 +1,306 @@
+{
+  "schemaVersion": "1.0-digest-zh",
+  "generatedAt": "2026-04-02T10:19:10.804Z",
+  "date": "2026-04-02",
+  "language": "zh",
+  "sourceStats": {
+    "xBuilders": 13,
+    "totalTweets": 27,
+    "podcastEpisodes": 1,
+    "blogPosts": 5,
+    "feedsGeneratedAt": "2026-04-02T07:09:15.204Z"
+  },
+  "twitterDigest": [
+    {
+      "author": "Zara Zhang",
+      "role": "Builder. Dangerously skips permissions. Harvard…",
+      "posts": [
+        {
+          "url": "https://x.com/zarazhangrui/status/2039599038358814961",
+          "publishedAt": "2026-04-02T07:01:19.000Z",
+          "title": "Just had an aha moment with Ope…",
+          "summary": "Zara Zhang 提到了业务增长或市场信号：Just had an aha moment with OpenClaw. I'm replacing my to-do list with \"braindumping to-dos to OpenClaw\". Whenever I think of a quick task,…",
+          "raw": "Just had an aha moment with OpenClaw. I'm replacing my to-do list with \"braindumping to-dos to OpenClaw\". Whenever I think of a quick task, I just message it to OpenClaw Not only will it record those tasks, but it will…"
+        },
+        {
+          "url": "https://x.com/zarazhangrui/status/2039368866741277074",
+          "publishedAt": "2026-04-01T15:46:42.000Z",
+          "title": "Introducing the \"Follow builder…",
+          "summary": "Zara Zhang 分享了产品或功能更新：Introducing the \"Follow builders\" skill: the best way to stay on top of the insane happenings in AI I carefully curated 25 X accounts & pod…",
+          "raw": "Introducing the \"Follow builders\" skill: the best way to stay on top of the insane happenings in AI I carefully curated 25 X accounts & podcasts that share the highest-quality, first-hand insights on AI (by builders fro…"
+        }
+      ]
+    },
+    {
+      "author": "Swyx",
+      "role": "achieve ambition with intentionality, intensity…",
+      "posts": [
+        {
+          "url": "https://x.com/swyx/status/2039597048585167265",
+          "publishedAt": "2026-04-02T06:53:24.000Z",
+          "title": "@aiDotEngineer bookmark this pa…",
+          "summary": "Swyx 的最新动态：@aiDotEngineer bookmark this page for next week",
+          "raw": "@aiDotEngineer bookmark this page for next week"
+        },
+        {
+          "url": "https://x.com/swyx/status/2039479213854728517",
+          "publishedAt": "2026-04-01T23:05:10.000Z",
+          "title": "@latentspacepod interesting tri…",
+          "summary": "Swyx 的最新动态：@latentspacepod interesting triangles here",
+          "raw": "@latentspacepod interesting triangles here"
+        },
+        {
+          "url": "https://x.com/swyx/status/2039472186600427903",
+          "publishedAt": "2026-04-01T22:37:15.000Z",
+          "title": "\"We choose to go to the Moon in…",
+          "summary": "Swyx 提到了 agent / 工具相关的新动态：\"We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goa…",
+          "raw": "\"We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, becaus…"
+        }
+      ]
+    },
+    {
+      "author": "Garry Tan",
+      "role": "总裁兼 CEO @ycombinator —创始人 @garryslist—Creator o…",
+      "posts": [
+        {
+          "url": "https://x.com/garrytan/status/2039568811440128137",
+          "publishedAt": "2026-04-02T05:01:12.000Z",
+          "title": "Local models are a very very go…",
+          "summary": "Garry Tan 分享了对模型能力或模型生态的看法：Local models are a very very good thing",
+          "raw": "Local models are a very very good thing"
+        },
+        {
+          "url": "https://x.com/garrytan/status/2039567372152164686",
+          "publishedAt": "2026-04-02T04:55:29.000Z",
+          "title": "Apr 1 lmao",
+          "summary": "Garry Tan 的最新动态：Apr 1 lmao",
+          "raw": "Apr 1 lmao"
+        }
+      ]
+    },
+    {
+      "author": "Peter Yang",
+      "role": "I share extremely practical AI tutorials and in…",
+      "posts": [
+        {
+          "url": "https://x.com/petergyang/status/2039563521885901091",
+          "publishedAt": "2026-04-02T04:40:11.000Z",
+          "title": "I think the combination of mobi…",
+          "summary": "Peter Yang 表达了一个比较鲜明的观点：I think the combination of mobile and short video has rotted the brains of an entire generation of kids. See so many kids staring at their…",
+          "raw": "I think the combination of mobile and short video has rotted the brains of an entire generation of kids. See so many kids staring at their TikTok, YouTube Shorts, Reels, etc like zombies."
+        },
+        {
+          "url": "https://x.com/petergyang/status/2039463035992191283",
+          "publishedAt": "2026-04-01T22:00:53.000Z",
+          "title": "Me and my OpenClaw are ready fo…",
+          "summary": "Peter Yang 的最新动态：Me and my OpenClaw are ready for Disneyland Shanghai",
+          "raw": "Me and my OpenClaw are ready for Disneyland Shanghai"
+        }
+      ]
+    },
+    {
+      "author": "Amjad Masad",
+      "role": "CEO @replit. civilizationist",
+      "posts": [
+        {
+          "url": "https://x.com/amasad/status/2039552681493336250",
+          "publishedAt": "2026-04-02T03:57:06.000Z",
+          "title": "We’re in an unprecedented era o…",
+          "summary": "Amjad Masad 的最新动态：We’re in an unprecedented era of rapid wealth creation.",
+          "raw": "We’re in an unprecedented era of rapid wealth creation."
+        },
+        {
+          "url": "https://x.com/amasad/status/2039429759344730549",
+          "publishedAt": "2026-04-01T19:48:40.000Z",
+          "title": "Agent 4 made Replit into an OS…",
+          "summary": "Amjad Masad 提到了 agent / 工具相关的新动态：Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills.",
+          "raw": "Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills."
+        }
+      ]
+    },
+    {
+      "author": "Peter Steinberger",
+      "role": "Polyagentmorous ClawFather. Came back from reti…",
+      "posts": [
+        {
+          "url": "https://x.com/steipete/status/2039551079621566812",
+          "publishedAt": "2026-04-02T03:50:45.000Z",
+          "title": "I never use plan mode. The main…",
+          "summary": "Peter Steinberger 提到了 agent / 工具相关的新动态：I never use plan mode. The main reason this was added to codex is for claude-pilled people who struggle with changing their habits. just ta…",
+          "raw": "I never use plan mode. The main reason this was added to codex is for claude-pilled people who struggle with changing their habits. just talk with your agent."
+        },
+        {
+          "url": "https://x.com/steipete/status/2039496525282496861",
+          "publishedAt": "2026-04-02T00:13:58.000Z",
+          "title": "See you there!",
+          "summary": "Peter Steinberger 的最新动态：See you there!",
+          "raw": "See you there!"
+        }
+      ]
+    },
+    {
+      "author": "Nan Yu",
+      "role": "产品负责人 @linear",
+      "posts": [
+        {
+          "url": "https://x.com/thenanyu/status/2039530536050274648",
+          "publishedAt": "2026-04-02T02:29:07.000Z",
+          "title": "Doona is the Notion of strollers",
+          "summary": "Nan Yu 的最新动态：Doona is the Notion of strollers",
+          "raw": "Doona is the Notion of strollers"
+        },
+        {
+          "url": "https://x.com/thenanyu/status/2039490349941526770",
+          "publishedAt": "2026-04-01T23:49:25.000Z",
+          "title": "If you're a PM or on sales or s…",
+          "summary": "Nan Yu 分享了产品或功能更新：If you're a PM or on sales or support, how many times have you needed to bother an engineer to find out exactly how the app works? I wanted…",
+          "raw": "If you're a PM or on sales or support, how many times have you needed to bother an engineer to find out exactly how the app works? I wanted to know exactly what the default setting was for a personal configuration for a…"
+        }
+      ]
+    },
+    {
+      "author": "Guillermo Rauch",
+      "role": "@vercel CEO",
+      "posts": [
+        {
+          "url": "https://x.com/rauchg/status/2039493013043626427",
+          "publishedAt": "2026-04-02T00:00:00.000Z",
+          "title": "Vercel signups are growing at 5…",
+          "summary": "Guillermo Rauch 提到了业务增长或市场信号：Vercel signups are growing at 52% MoM (up from 23%, up from 17%)",
+          "raw": "Vercel signups are growing at 52% MoM (up from 23%, up from 17%)"
+        }
+      ]
+    },
+    {
+      "author": "Thariq",
+      "role": "Claude Code @anthropicai. prev YC W20, mit medi…",
+      "posts": [
+        {
+          "url": "https://x.com/trq212/status/2039453692592873587",
+          "publishedAt": "2026-04-01T21:23:46.000Z",
+          "title": "not an April Fools joke, we rew…",
+          "summary": "Thariq 分享了对模型能力或模型生态的看法：not an April Fools joke, we rewrote the Claude Code renderer to use a virtual viewport you can use your mouse, the prompt input stays at th…",
+          "raw": "not an April Fools joke, we rewrote the Claude Code renderer to use a virtual viewport you can use your mouse, the prompt input stays at the bottom, and a lot more small UX wins people have been asking for it's experime…"
+        }
+      ]
+    },
+    {
+      "author": "Cat Wu",
+      "role": "claude code + cowork @anthropicai,",
+      "posts": [
+        {
+          "url": "https://x.com/_catwu/status/2039421527935033854",
+          "publishedAt": "2026-04-01T19:15:57.000Z",
+          "title": "I love using Claude Code on Cla…",
+          "summary": "Cat Wu 分享了产品或功能更新：I love using Claude Code on Claude mobile app to fire off ideas on the go, then pick them up on my laptop later. We support easily teleport…",
+          "raw": "I love using Claude Code on Claude mobile app to fire off ideas on the go, then pick them up on my laptop later. We support easily teleporting sessions to your local CLI. Download link for Claude iOS and Android apps:"
+        }
+      ]
+    },
+    {
+      "author": "Aaron Levie",
+      "role": "CEO @box - your business lives in content. unle…",
+      "posts": [
+        {
+          "url": "https://x.com/levie/status/2039414479084278239",
+          "publishedAt": "2026-04-01T18:47:56.000Z",
+          "title": "My team is going to kill me for…",
+          "summary": "Aaron Levie 的最新动态：My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon.",
+          "raw": "My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon."
+        }
+      ]
+    },
+    {
+      "author": "Nikunj Kothari",
+      "role": "合伙人 @fpvventures - investing in seed/A. previou…",
+      "posts": [
+        {
+          "url": "https://x.com/nikunj/status/2039371652287652109",
+          "publishedAt": "2026-04-01T15:57:46.000Z",
+          "title": "confirmed bionic 🤖",
+          "summary": "Nikunj Kothari 的最新动态：confirmed bionic 🤖",
+          "raw": "confirmed bionic 🤖"
+        }
+      ]
+    },
+    {
+      "author": "Dan Shipper",
+      "role": "CEO @every",
+      "posts": [
+        {
+          "url": "https://x.com/danshipper/status/2039357945310277717",
+          "publishedAt": "2026-04-01T15:03:18.000Z",
+          "title": "@linear YouTube: Spotify:",
+          "summary": "Dan Shipper 的最新动态：@linear YouTube: Spotify:",
+          "raw": "@linear YouTube: Spotify:"
+        },
+        {
+          "url": "https://x.com/danshipper/status/2039357127903350960",
+          "publishedAt": "2026-04-01T15:00:03.000Z",
+          "title": "SaaS isn’t dead, it just needs…",
+          "summary": "Dan Shipper 分享了产品或功能更新：SaaS isn’t dead, it just needs to become agent-native. Linear (@linear) is a great example of how: They pivoted the product to be used by b…",
+          "raw": "SaaS isn’t dead, it just needs to become agent-native. Linear (@linear) is a great example of how: They pivoted the product to be used by both humans and agents, and that has made them one of the premier software tools…"
+        },
+        {
+          "url": "https://x.com/danshipper/status/2039344530990752076",
+          "publishedAt": "2026-04-01T14:10:00.000Z",
+          "title": "@every @NotionHQ technically th…",
+          "summary": "Dan Shipper 提到了业务增长或市场信号：@every @NotionHQ technically this camp is sponsored by Notion but ive been a fan and power user since i met @ivanhzhao in 2018 and he showe…",
+          "raw": "@every @NotionHQ technically this camp is sponsored by Notion but ive been a fan and power user since i met @ivanhzhao in 2018 and he showed me Notion 2.0 tbh i feel like notion was made for this moment in AI—a pleasure…"
+        }
+      ]
+    }
+  ],
+  "podcastDigest": [
+    {
+      "type": "podcast_episode",
+      "podcast": "Latent Space",
+      "title": "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
+      "url": "https://youtube.com/watch?v=SUjA25ijcNs",
+      "publishedAt": "2026-03-30T00:00:00.000Z",
+      "summary": "这期播客《Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample》的重点是：When customers use this offtheshelf close model, what's very sad is that they are not leveraging, you know, these data that they have been collecting for for years or sometime for decades. So much data, sometimes it's trillions of tokens o…"
+    }
+  ],
+  "blogDigest": [
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "publishedAt": null,
+      "summary": "这篇文章《Quantifying infrastructure noise in agentic coding evals》的重点是：Agentic coding benchmarks like SWE-bench and Terminal-Bench are commonly used to compare the software engineering capabilities of frontier models—with top spots on leaderboards often separated by just a few percentage points. These scores…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Harness design for long-running application development",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "publishedAt": null,
+      "summary": "这篇文章《Harness design for long-running application development》的重点是：Written by Prithvi Rajasekaran, a member of our Labs team. Over the past several months I’ve been working on two interconnected problems: getting Claude to produce high-quality frontend designs, and getting it to build complete application…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Claude now creates interactive charts, diagrams and visualizations",
+      "url": "https://claude.com/blog/claude-builds-visuals",
+      "publishedAt": "Mar 12, 2026",
+      "summary": "这篇文章《Claude now creates interactive charts, diagrams and visualizations》的重点是：Claude’s conversations already include artifacts : permanent tools and documents created by Claude, designed to be shared or downloaded as more polished work. By contrast, these charts, diagrams and visualizations serve a different purpose…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "How enterprises are building AI agents in 2026",
+      "url": "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026",
+      "publishedAt": "Dec 09, 2025",
+      "summary": "这篇文章《How enterprises are building AI agents in 2026》的重点是：AI agents have moved from experimental to an essential part of an organization’s tech stack. But how are enterprises actually using them? In partnership with research firm Material, we surveyed over 500 technical leaders across industries…"
+    },
+    {
+      "type": "blog_post",
+      "source": "blog",
+      "title": "Improving frontend design through Skills",
+      "url": "https://claude.com/blog/improving-frontend-design-through-skills",
+      "publishedAt": "Nov 12, 2025",
+      "summary": "这篇文章《Improving frontend design through Skills》的重点是：You might notice that when you ask an LLM to build a landing page without guidance, it will almost always conform to Inter fonts, purple gradients on white backgrounds, and minimal animations. The issue? Distributional convergence. During…"
+    }
+  ]
+}
