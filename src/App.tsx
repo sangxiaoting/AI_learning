@@ -557,7 +557,7 @@ export default function App() {
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-black text-gray-900 flex items-center gap-2">
                 <Twitter className="w-5 h-5 text-sky-500" />
-                Twitter / X
+                Builder 动态
               </h2>
               <span className="text-xs font-bold text-gray-400 bg-gray-100 px-2 py-1 rounded-md">{twitter.length}</span>
             </div>
