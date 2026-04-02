@@ -62,7 +62,8 @@ function normalizeFollowBuildersItems(payload: any): LearningItem[] {
       const role = shortenRole(item.role);
       const summary = cleanText(item.summary, 220) || '暂无摘要。';
       const digest = cleanText(item.digest, 600) || summary;
-      const fullText = cleanText(item.fullText, 1200) || summary;
+      const translatedFullText = cleanText(item.translatedFullText || item.fullText, 1600) || summary;
+      const originalText = cleanText(item.originalText, 1600);
       return {
         id: item.id || item.url || `follow-builders-${index}`,
         type: 'twitter' as const,
@@ -74,7 +75,8 @@ function normalizeFollowBuildersItems(payload: any): LearningItem[] {
         dateText: formatDateText(item.publishedAt || payload?.date),
         tldr: summary,
         takeaways: digest ? [digest] : [],
-        content: fullText,
+        content: translatedFullText,
+        quote: originalText || undefined,
         link: item.url || '#',
         tags: ['Builder 动态', 'X'],
       };

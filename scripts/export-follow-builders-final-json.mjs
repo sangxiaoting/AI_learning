@@ -43,17 +43,17 @@ function oneLineSummary(author, text) {
 function translateFullText(author, text) {
   const t = clean(text);
   const lower = t.toLowerCase();
-  if (/local models?/.test(lower)) return `${author} 的原话核心意思是：本地模型非常重要，而且这种重要性还会继续提升。`;
-  if (/signups are growing|mom/.test(lower)) return `${author} 提到，产品注册增长已经达到很高的月环比水平，而且相比之前还在继续加速。`;
-  if (/linear agent|read the code|default setting/.test(lower)) return `${author} 这段话的核心是：过去很多默认配置、代码细节都得找工程师确认，但现在借助 Linear Agent，这类信息可以直接从代码里读出来。`;
-  if (/plan mode/.test(lower)) return `${author} 的意思是，他自己几乎不用 plan mode，因为在很多情况下，直接和 agent 对话反而更自然，也不需要强行改变使用习惯。`;
-  if (/openclaw/.test(lower) && /to-do|task/.test(lower)) return `${author} 的意思是，他开始把待办事项直接发给 OpenClaw，让系统既负责记录，也负责执行，并在第二天给出处理结果和待关注事项。`;
-  if (/agent 4/.test(lower)) return `${author} 的意思是，Agent 4 让 Replit 更像一个操作系统，用户可以不断通过 skills 来扩展整个平台的能力。`;
-  if (/claude code/.test(lower) && /mobile/.test(lower)) return `${author} 这段话强调的是：可以先在手机上用 Claude Code 记录想法，再回到本地 CLI 接着做，移动端和桌面端之间是连起来的。`;
-  if (/saas/.test(lower) && /agent-native/.test(lower)) return `${author} 的意思是，传统 SaaS 并没有结束，但它必须开始适应 agent 使用软件的新方式。`;
-  if (/brains of an entire generation|short video/.test(lower)) return `${author} 直白地表达了担忧：移动设备加短视频的组合，正在让很多孩子长期处于被动刷内容、注意力被削弱的状态。`;
-  if (/wealth creation/.test(lower)) return `${author} 的原意是，我们正在经历一个前所未有的财富创造周期，速度比过去很多阶段都更快。`;
-  return `${author} 这段内容主要在表达：${truncate(t, 180)}`;
+  if (/local models?/.test(lower)) return `本地模型是一件非常、非常重要的事情。`;
+  if (/signups are growing|mom/.test(lower)) return `Vercel 的注册量正在以 52% 的月环比增长，而在这之前这个数字还是 23%，再之前是 17%。`;
+  if (/linear agent|read the code|default setting/.test(lower)) return `如果你是 PM、销售或支持团队成员，过去很多时候你都得去找工程师确认产品到底是怎么工作的。我当时想知道某个个人配置项的默认设置到底是什么。现在不需要再为这种问题打扰工程师了，因为 Linear Agent 可以直接读代码并把答案告诉你。`;
+  if (/plan mode/.test(lower)) return `我从来不用 plan mode。它被加进 codex，主要是为了那些已经被 Claude 一套工作流训练过、很难改习惯的人。直接跟你的 agent 说话就行。`;
+  if (/openclaw/.test(lower) && /to-do|task/.test(lower)) return `我刚刚对 OpenClaw 有了一个新的顿悟。我正在用“把待办直接脑倒给 OpenClaw”的方式替代传统 to-do list。每当我想到一个小任务，我就直接发给 OpenClaw。它不只是会把任务记下来，还会真的去把任务做掉。每天早上它会给我一份报告，告诉我哪些任务已经完成，哪些还需要我关注。这个方式也许真的是一种有效的待办管理系统。`;
+  if (/agent 4/.test(lower)) return `Agent 4 让 Replit 变得像一个操作系统。你可以通过 skills 无限扩展这个平台。`;
+  if (/claude code/.test(lower) && /mobile/.test(lower)) return `我很喜欢在 Claude 的移动端应用里使用 Claude Code，这样我在路上也能随时把想法抛出去，之后再回到笔记本电脑上继续。我们现在支持把会话很方便地“传送”回本地 CLI。`;
+  if (/saas/.test(lower) && /agent-native/.test(lower)) return `SaaS 并没有死，它只是需要变成 agent-native。`;
+  if (/brains of an entire generation|short video/.test(lower)) return `我觉得手机和短视频的组合已经让整整一代孩子的大脑被腐蚀了。你会看到很多孩子像僵尸一样盯着 TikTok、YouTube Shorts 和 Reels。`;
+  if (/wealth creation/.test(lower)) return `我们正处在一个前所未有的财富快速创造时代。`;
+  return `${t}`;
 }
 
 function digestParagraph(author, role, text) {
@@ -78,6 +78,8 @@ async function main() {
         role,
         summary: oneLineSummary(author, text),
         digest: digestParagraph(author, role, text),
+        translatedFullText: translateFullText(author, text),
+        originalText: text,
         fullText: translateFullText(author, text),
         url: tweet.url || null,
         publishedAt: tweet.createdAt || null
