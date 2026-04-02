@@ -8,7 +8,7 @@ import sys
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -293,7 +293,7 @@ def main() -> int:
                 "date": video.upload_date,
                 "duration": video.duration,
                 "status": "discovered" if args.discover_only else "pending",
-                "updatedAt": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
+                "updatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
             }
             videos_state[video.video_id] = record
             save_json(STATE_PATH, state)

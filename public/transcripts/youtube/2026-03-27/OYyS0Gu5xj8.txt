@@ -1,0 +1,921 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=OYyS0Gu5xj8
+
+Kind: captions
+Language: en
+Well, there's been a ton of news in the
+AI world this week, and I want to help
+you sift through the signal from the
+noise. So, let's not waste any time and
+jump right in. And let's start on
+anthropic because lately they have been
+shipping a new feature pretty much every
+single day. In fact, this website, the
+product compass, put out an article here
+where they put together a little
+calendar that shows they shipped 74
+releases in 52 days. Now, we've talked
+about most of these releases during past
+weekly roundup videos, but let's talk
+about some that have come out in the
+past week here since last Friday. We got
+cloud tasks, projects and co-work dom
+selection, effort and skills, some cloud
+code updates, computer use, cloud code
+schedule, cloud, cloud code channels,
+permission prompts, cloud code channels
+for teams and enterprise, and well, this
+chart only went through the 24th. We've
+even got more since then. We also got
+the ability to use tools like Figma
+design, canvas slides, Amplitude
+dashboards from your mobile phone with
+Claude, and we got auto mode for Claude
+code. Now, let me sort of zoom in for a
+minute and talk about some of the
+releases that I think are more impactful
+to the most amount of people because
+it's a lot and most of them are for
+coders. However, this one here felt
+pretty significant. Put Claude to work
+on your computer with this feature that
+rolled out on the 23rd in Claude Co-work
+and Claude Code. Claude can use your
+computer to point click and complete
+tasks. So, you can actually give Claude
+the ability to manipulate your computer,
+your mouse, and your keyboard now. And
+since last week they rolled out this
+dispatch feature, combining the ability
+to use your computer with this dispatch
+feature on your phone is really powerful
+cuz you can be like away from your house
+and you could need your computer to go
+and you know do some work on your behalf
+and you can just sort of text your
+computer to go and do something for you
+and it will actually click around and
+move your mouse and handle that
+situation for you. Okay, so here I have
+the Clyde app open on my computer. Now,
+in order to use this computer use plan,
+I believe you need to be on one of their
+paid plans. So, at least like their $20
+a month plan. But if you're a paying
+member, you do need to turn it on. So,
+if we come into our settings here, come
+down to the general option under desktop
+app and then make sure you have computer
+use turned on. If this little switch
+isn't turned on in your settings, well,
+then this feature is not going to work.
+But with this setting on, I can tell it
+to open an app and click around for me.
+So, let's say open Da Vinci Resolve and
+show me where the magic mask feature is.
+And then I can click let's go. And then
+from this point on, I am completely
+hands off. You can see my screen is now
+glowing with like a little orange glow
+around it. It says Claude is using your
+computer. And I am going to speed this
+up a little bit because although it's
+very cool that it can take control of my
+computer, it's also very very very slow
+right now. And my first attempt didn't
+even work. It looks like the computer
+use tools are timing out right now. So,
+I won't be able to open the app
+directly. And then it gives me
+directions on how to do it. Let me just
+tell it to try again. I promise this did
+work last time I tested it. Okay, so
+this time it appears to be working. You
+can see Da Vinci Resolve is opening. I'm
+not actually touching it. Look,
+hands-free. Da Vinci is opened. It's
+opening up a video now. Again, I'm still
+not touching anything. It's on the color
+page now. And now it got me out of the
+computer use. Mahodin is explaining how
+to use it. Now, you probably couldn't
+tell from the way I edited this, but
+it's really slow. Like, it took like 5
+minutes to open up Da Vinci Resolve,
+click to the color page, and then tell
+me where the magic mask button was. But,
+it can use your computer for you now.
+So, you might be wondering, what is the
+point of this if it's going to take like
+5 minutes to do a task that normally
+would take me like 10 seconds to do
+myself? Well, again, if you combine this
+with their dispatch feature, which is a
+feature that allows you to control cloud
+code and cloud co-work from your phone,
+you can be away from your computer
+telling your computer to do things,
+which if that's the case, you probably
+don't care as much how long it's taking
+to do the tasks as long as the tasks
+actually happen. But if you're actually
+sitting at your computer trying to get
+it to do things on your behalf, it is
+painfully slow. But again, that's just
+one of the features that they've rolled
+out within the last few days. Like
+Enthropic ships something new basically
+every day. At least one new thing every
+day, actually. Like Claude Co-work also
+got a new projects ability so you can
+better organize whatever you're working
+on inside of Claude, as well as give
+those projects custom instructions so
+they know how to handle them. So,
+jumping back into the Collad app here
+and being in co-work, you can see we now
+have this work in a project dropdown
+here and we can create a new project.
+And I'll just call it start from scratch
+Matt's example project. And we can give
+it custom instructions like always
+respond like a gym bro and call me dude
+and bro constantly. You can also add
+files so it better adds context to
+whatever you're doing. And it works just
+like projects inside of claude or
+chatgpt or any of the other platforms
+that have projects. I can click create
+and say how's it going? And it says hey
+dude it's going great. Just here ready
+to crush whatever you throw at me bro.
+What's up? What can I help you with
+today? Now, obviously, you probably
+wouldn't use it in this way. You would
+give it context around something
+actually valuable, but you could use it
+this way. And this is just a silly
+example. Like I mentioned earlier, you
+also got the ability to use Figma
+designs and create canvas slides and
+check amplitude dashboards all from your
+phone inside the Cloud app. Now, and if
+you use AI for coding, well, this is
+definitely a welcome feature. Auto mode
+for cloud code. Now, if you've used
+Claude code at all, you've probably been
+in the situation where you give it a
+prompt and say, "Hey, go build me this
+feature." And then maybe you walk away
+from your computer and you come back 20
+minutes later thinking the feature will
+have been built and it'll have something
+on the screen that'll say, "Do I have
+permission to browse the web for you?"
+And you're like, "I thought you were
+already working this whole time." Yes,
+you have permission. And then you walk
+away again. And then you come back and
+it's like, "Do I have permission to run
+this terminal command?" And you're like,
+"Oh my god, why didn't you just do it
+that like you can do that terminal
+command?" Well, now they turned on auto
+mode where a lot of the like more benign
+commands like some of the harmless
+terminal commands and the ability to go
+and do like a quick web search for you,
+it's not going to ask permission
+anymore, which I think every Claude Code
+user is going to be happy about this
+simple little feature getting added in.
+But Anthropic wasn't the only company
+that's been in ship mode this week.
+Another cool new AI tool that I've seen
+around a lot lately and was curious
+about myself is called GenSpark. They
+actually had a pretty big Super Bowl ad
+recently. It's basically this all-in-one
+AI workspace. It has all these models
+and you can make presentations or
+analyze data and write reports all in
+one platform. But one of the coolest
+things about it is that until December
+31st, 2026, you can use AI Chat and AI
+image using these models with unlimited
+usage if you have their paid plan, which
+is just 20 bucks a month. And this is
+pretty great because each of these
+models, if you wanted unlimited access
+to them, you'd be paying almost 20 bucks
+a month separately for each one. And
+these are some overall pretty great
+models, but each one kind of has its own
+specialty. So with Gen Spark, it's not
+just a chat interface. You can actually
+use these AI models together to help you
+get real work done a lot faster and
+cheaper. You can generate presentations,
+spreadsheets, websites, images, videos,
+or even full brand assets, all without
+switching tabs and signing up for
+another subscription. Like making slide
+decks is one of those things where AI
+can help make the process so much
+faster. So in GenSpark, it will research
+the topic for you, structure the slides,
+design the visuals, and export it as a
+presentation. Or if you need to make
+media assets, you can generate images
+and even turn them into videos or add
+music and voiceovers right in the same
+platform. So thank you to GenSpark for
+supporting my channel and sponsoring
+this portion of today's video. And if
+you want to try it for yourself, they've
+got a free tier with limited credits to
+get started. And again, their $20 plan
+currently includes unlimited AI chat and
+image generation through all of 2026,
+which is honestly pretty wild. So check
+it out in the link in the description.
+Google shipped a whole bunch of new
+releases this week as well, including
+Gemini 3.1 Flash Live. So this is the
+Gemini 3.1 Flash model, but it's the
+model that you actually have
+conversations with. And they're rolling
+out this new model inside of everything.
+It's available in the API. It's
+available for enterprise users. It's
+available in their search. It's
+available in Gemini Live. So if I go
+over to a studio.google.com google.com
+and I come up to our model up here. I
+can switch it to live. Gemini 3.1
+flashive. And this model you can talk
+to. You can let it view your webcam. You
+can share your screen. You could change
+what the voice sounds like. Let's give
+it webcam access. What are you looking
+at right now?
+&gt;&gt; I'm looking at a man in what looks like
+a recording studio. He's wearing a
+baseball cap, headphones, and talking
+into a microphone. There's also a
+digital display behind him showing a
+picture. Is there anything specific you
+were curious about? Do you know who it
+is you're looking at?
+&gt;&gt; I don't recognize him personally, but
+based on the setup, he might be a
+podcaster or content creator. Is there a
+specific channel or personality you had
+in mind?
+&gt;&gt; All right, so I turned off the webcam.
+Now, let's do a screen share here. And I
+will actually share my second screen
+which actually has OBS going on it. You
+can see that right here. And now let's
+go ahead and ask again. Now, what do you
+see?
+&gt;&gt; Ah, now I see the full screen. It looks
+like you're using OBS Studio, which is a
+popular program for streaming and
+recording. I can see the different
+scenes you've set up, the audio mixer,
+and the controls on the right. Is there
+something specific you wanted to work on
+within OBS?
+&gt;&gt; And I can ask it, you know, how do I do
+things inside of OBS? Get it to point
+things out for me. If this is my first
+time setting up something, it'll help
+walk me through it because it can see my
+screen and tell me what to do next. I
+always thought that Google's live
+features are super underrated and not
+talked about enough because you could
+literally get it to like teach you how
+to do things, just show your screen and
+have it walk you through stuff. And it's
+pretty impressive when you do. This is
+also a feature they're adding into
+search. When you go live with search,
+you can have an interactive multimodal
+conversation in AI mode. So, if I open
+up the Google app on my phone here, I
+could click on this little button next
+to AI mode with the little star on it.
+What's something that quietly changed
+the world this week?
+&gt;&gt; Well, there were several quiet shifts.
+For one, Google upgraded its LIIA AI to
+create longer, more structured songs,
+giving users more control over their
+music creation. And Microsoft introduced
+a feature called Copilot Health, which
+can connect to medical records. Was
+there something specific you were
+interested in?
+&gt;&gt; Quite honestly, it feels like what Siri
+should have been. And since we're
+talking about Gemini 3.1 Flash, Google
+also showed off something really
+interesting on X this week that I wanted
+to spotlight. They actually showed off
+that they used Gemini 3.1 Flashlight to
+create a browser that whenever you type
+anything or search anything or click
+anything, it literally generates a new
+page in real time. Now, this feels very
+similar to what we got out of that webim
+app that came out a couple years ago,
+but this one was completely vibecoded
+inside of Google. So, if I go full
+screen with this, I can type anything I
+want here. Taco Cat Parade. If I do this
+search, we can see it's literally
+generating a page in real time. This is
+a page that didn't exist before. And it
+does it like almost instantly. This page
+was generated really quickly and
+completely on the fly. And if I click on
+schedule up here, we can see it's
+generating a brand new page. This is
+something that never existed before. And
+this is generating in real time.
+Unfortunately, there's no like actual
+memory to this. So, none of these pages
+that it's creating is like being saved
+or actually usable beyond this sort of
+novelty play around and show off what it
+can do use case. But, I think it's
+pretty impressive how fast it's
+generating all of this in real time. And
+if you haven't been using Google's AI
+products, but maybe you want to move,
+but you're worried that, well, I've got
+all of my memory inside of ChatGpt or
+Claude. Well, Google took a play out of
+anthropics playbook and made it very
+easy to migrate over. If you move over
+to Gemini, you can bring your memories,
+preferences, and chat history from other
+AI apps over. So, back when all of the
+Anthropic and OpenAI and Pentagon drama
+was going on, a lot of people decided
+they wanted to leave OpenAI. And well,
+Enthropic capitalized on that and said,
+"Hey, it's really easy to migrate to us.
+You could bring all of your memory and
+history and preferences over with you."
+Fast forward a couple weeks later and
+Gemini is like, "That was a good idea.
+You could do that with us, too." But
+that wasn't all that Google shipped this
+week. In fact, we already got a little
+bit of a teaser when I was playing
+around with that live AI feature
+earlier. They also released Lia 3 Pro,
+which is kind of like Google's version
+of Sunno, where you can have it generate
+any music you want. And in the past, it
+was only generating like 30 second
+songs, but now you can generate much
+longer songs with it. This advanced
+version allows the creation of tracks up
+to 3 minutes long. You can now prompt
+for specific elements like intros,
+verses, choruses, and bridges. And they
+seem to be rolling it out into like
+every product. It's in Vertex. It's in
+Google AI Studio. the Gemini API, Google
+Vids, the Gemini app, Producer AI. So,
+if I jump into Gemini here, there's a
+little button that says create music. If
+I click on this, we get some like
+templates that we can work off of, or we
+can just describe our own track. Create
+a dubstep song about rooting for the San
+Diego Padres. And then it actually gives
+us some potential prompt expansions
+here, like featuring heavy bass drops
+and aggressively rhythmic synths, or
+about a mascot having a midlife crisis
+during a massive buildup. Let's do the
+first one.
+&gt;&gt; Down in the heart of the city. Let's go.
+Let's go. Let's go.
+Let's go. You get the idea. Pretty
+decent. But that wasn't the only music
+generator we got this week. The company
+Souno released a new version of their
+music generator called Sununo 5.5. You
+can actually train your own voice into
+this one and have it make songs using
+your voice, which in my case is probably
+a really bad idea. So, I'll log into my
+Sunno account here. And we can see that
+if I click on advanced, there's a new
+voice section here. Recorder upload your
+voice and use it to create anything. So,
+let's go ahead and create a voice. I
+wonder what would happen if I just use
+my normal speaking voice cuz I can't
+sing at all. This is what I sound like
+when I'm speaking in my natural voice.
+I'm currently singing right now. Yes,
+that's correct. This is how I sound when
+I sing because I don't actually sing. I
+speak. How would you describe your
+singing? Very beginner. I'll name this
+voice Matt Wolf Talking. All right. So,
+let's go back to simple and I'll leave
+it on Matt Wolf talking. and let's do a
+pop song about baseball tacos and Zelda
+Breath of the Wild. Three random things
+that popped into my head as I was uh
+typing. Let's just see what happens cuz
+this is going to be probably pretty bad.
+All right, here goes nothing.
+&gt;&gt; Yeah, I'm sure that's what my singing
+voice would sound like. Let's try this
+option, too.
+goes breath of the wild hot dogs yelling
+we're going wild
+sides
+&gt;&gt; I mean it's quite encouraging that maybe
+that's what my voice could sound like
+but that's definitely not what I sound
+like when I try to sing but is a lot of
+fun if you've never played with like
+give it a shot it it's kind of a blast
+but moving on from you know text to
+music to text to speech This company
+smallest.ai
+introduced a new textto-spech model
+designed for conversational voice
+agents. So, this is like a new
+competitor to 11 Labs. Apparently, it's
+tuned to sound like it's thinking, to
+sound like it's listening, to handle the
+way people actually speak, and to keep
+the user engaged. So, here's a quick
+example they give us here.
+&gt;&gt; Oh, okay. So, if we leave at um 7. No,
+wait, that's Yeah, no, that's too early.
+Maybe like 8:30. And then we would um we
+would get there by
+yeah probably around noon I think.
+&gt;&gt; Yeah. I mean not bad. They have a
+benchmark here where they compare it to
+11 Labs and a few others. And you know
+they win most of the benchmarks but it's
+also interesting to note that they
+created the benchmark as well. Similar
+to 11 Labs. This one you can actually
+train your own voice into. The most
+natural voice is often your own. Even
+the best pre-built voice has a ceiling.
+In our evaluations a clone voice
+consistently outperforms it. So, if
+you're using their Lightning V3.1,
+you can clone your own voice. Now, this
+appears to be for API usage. So, you
+build apps that use this, I don't think
+they have like a playground type thing
+where you can just go and test it out
+like you can with 11 Labs. But if you're
+building an app that needs a voice agent
+that sounds pretty much as good, if not
+a little bit better than 11 Labs, maybe
+check out Smallest.ai. Mistrol also
+released a texttospech model this week
+and this one is an open weights model
+that you can actually run locally on
+your own computer. They even put their
+own like blind test here where you could
+play both of these and tell it which one
+you prefer. Here's the first one.
+&gt;&gt; Boy oh boy, I'm so excited for the
+summer. It's going to be so warm here.
+Can't wait for swimming in the Leo and
+making cherry pie.
+&gt;&gt; And here's the second one.
+&gt;&gt; Boy oh boy, I'm so excited for the
+summer. It's going to be so warm here.
+can't wait for swimming in the Leo and
+making cherry pie.
+&gt;&gt; And they're both decent, but I think the
+first one was a little bit better. And
+of course, the first one was their text
+to speech, and the second one was 11
+Labs. So, you can see it's, you know,
+fairly comparable, maybe even a little
+bit better than 11 Labs, but it's an
+openweight model. Here's some more
+examples. This was the input voice, I
+believe, of Paul.
+&gt;&gt; Hi, my name is Paul. How can I help you
+today?
+&gt;&gt; And then they put in this text, and this
+is the output that it got.
+&gt;&gt; Before we begin, I'll need to verify a
+few details. Can you confirm your full
+name and date of birth?
+&gt;&gt; So, I'm guessing that initial text is
+all it really needs. It only needs a few
+seconds. Let's see. This model was
+trained to adapt to a custom voice with
+a reference as little as 3 seconds and
+capture not just the voice, but also
+nuances like subtle accent, inflections,
+intonations, and even disfluencies
+similar to those expressed in the
+reference. So, Marie, this is a French
+input.
+&gt;&gt; But then when we give it this English
+prompt and output it, Before we begin,
+I'll need to verify a few details. Can
+you confirm your full name and date of
+birth?
+&gt;&gt; It's actually spoken in a French accent.
+Let's go ahead and click try Voxrol text
+to speech. And they do seem to have a
+plan where you can experiment for free.
+Unfortunately, once I log in, though,
+the custom voices are on the paid plan
+only. So, let's go ahead and just test
+some of their actors that are in here.
+Let's do an angry voice here from Paul
+and say,
+&gt;&gt; "Everyone needs to subscribe to Matt
+Wolf on YouTube." Apparently, that was
+Paul angrily telling you to subscribe.
+You don't want to make Paul angry. But
+let's hear what Curious Jane has to say.
+&gt;&gt; Everyone needs to subscribe to Matt Wolf
+on YouTube.
+&gt;&gt; I agree. I agree. And moving into cool
+AI art features. This company, Love Art
+AI, released a new feature called move
+object. You can give it an image,
+highlight a portion of the image, and
+then move that portion of the image
+around. You can actually play around
+with this one for free as well. You get
+a small amount of credits up here. So,
+let's click on the image generator and
+let's go 169. I'm going to switch it to
+nano banana 2 and we'll say a greywolf
+sitting in the forest in the evening.
+And we get an image that looks like
+this. So, if I select this image,
+there's a button here that says move
+object. So, I'll select move object and
+I can either use a rectangle or a lasso.
+Let's just select it with a rectangle.
+And I'll just make sure that that whole
+wolf is within the rectangle. And you
+can see that it noticed that there's a
+wolf inside the selection. Now, what I
+need to do is just drag a new box like
+this of where I want the wolf to go. So,
+let's drag it over to the right and
+let's shrink the box down. So, maybe
+it'll make the wolf lie down. And then
+click run and it'll start to generate a
+second image here. And there we go. Now,
+pretty much everything in the image is
+identical except we have the wolf over
+here lying down. Let's export image one
+as a JPEG. I'll export image two as a
+JPEG. Jump into Leonardo here. Go to
+video and I can give it our start frame.
+give it our end frame and a prompt like
+the wolf lies down and we get something
+that looks like this. Here's our wolf
+and it moves over to that other spot and
+lies down. So, pretty cool feature from
+this Love Art AI. Makes it really really
+easy to create like a start and end
+frame and then just use a video
+generator to animate between the two. I
+said there was a lot of news this week
+and I'm definitely not done yet, but
+again, I'm not going to waste your time.
+Let's jump into rapid fire.
+Now, this was probably the biggest news
+of the week, but I already did a full
+breakdown video of it, so I moved it to
+the rapidfire section of this video.
+But, we're losing Sora, not just the
+Sora app. OpenAI has decided they're
+done with side quests. They're going to
+focus on their chat model, their coding
+models, and basically just doing those
+things really, really well. And the
+first casualty of their cutting the side
+projects is Sora. They're getting rid of
+the app. They're getting rid of the
+video generator and the API. They're
+just not going to focus on having video
+generation capabilities at OpenAI at all
+anymore. At least not for a while. I
+personally think it's kind of a smart
+move. Like they're bleeding money and
+this used a lot of compute and most
+people want to use OpenAI for coding and
+for chatting, not for generating videos.
+So why was so much compute being
+dedicated towards essentially a meme
+generator? So again, it makes sense to
+me, but it also put him in a very
+awkward position with Disney because
+they recently signed a giant deal with
+Disney where Disney would get access to
+their technology, but OpenAI could allow
+people to generate Disney IP in their
+videos. And well, as soon as it was
+announced that Sora was going away,
+Disney exited the deal and there's no
+more project between Disney and OpenAI.
+Apparently, it also sounds like OpenAI
+did not give Disney any notice. People
+at Disney and OpenAI said they were
+working together as recently as Monday
+of this week. So, it was a big surprise
+to a lot of people, it seems. And in
+their effort to shove the side projects,
+another casualty seems to be the adult
+mode that they were planning on rolling
+into ChatGpt. This is another one of
+those things where it's like, why were
+you dedicating researchers and GPUs to
+making a chatbot that would talk dirty
+to you? I also find it interesting that
+the two first projects that OpenAI sort
+of acts feel like the two things that
+Elon over at XAI is putting the most
+effort into. Like he really likes his
+imagined video generator and also making
+robots talk dirty to you. And in more
+bad news for OpenAI, apparently the
+people who have been using it for
+advertising, well, they can't really
+figure out if it's working or not.
+Advertisers that bought the first ad
+campaigns on ChatGpt have said that the
+process was low tech and that they
+haven't received much data showing if
+their ads worked. They haven't yet been
+able to prove the ads have driven any
+measurable business outcomes for their
+clients. In order for OpenAI to offer
+free and lowcost tiers, they kind of
+need advertising to work to sort of
+subsidize paying for compute for people
+that aren't paying them. And so far,
+nobody knows if the ads are actually
+working. If I had to guess, most people
+probably aren't clicking on OpenAI ads
+cuz they're in the middle of a
+conversation with OpenAI trying to learn
+about something. So, an ad like down
+below all that just feels like, why
+would I click on that? But in totally
+unrelated news, this came out this week
+from OpenAI powering product discovery
+and chat GPT. They're launching richer,
+more visually immersive shopping
+experiences powered by the agentic
+commerce protocol. So they're making it
+so that when you do searches for
+specific products, like a buyer intent
+search, it's going to show you more
+products and let you compare products
+among each other. They've also made it
+easier if you do have an e-commerce
+business to get your products listed in
+ChatGpt. Share your product feed to
+reach shoppers more effectively as they
+explore options, compare products, and
+decide what to buy. So, this is
+interesting to me, and I'm I'm just
+throwing this out there. Their ad
+platform is not off to the greatest
+start. People can't really tell if it's
+working very well or not. That news
+drops this week. Also, this week, OpenAI
+says, "We're making it easier to shop
+with inside our chat GPT platform. We're
+also making it easier for businesses to
+put their products inside of our
+platform." Now, this product discovery
+in ChatGpt isn't a paid thing yet.
+E-commerce businesses don't have to pay
+to get ChatGpt to list their products,
+but doesn't it kind of feel like they're
+building out the groundwork to do that?
+Like, if you go to Google right now and
+you type products, there's always sort
+of featured listings at the top. And a
+lot of times those are ads that people
+paid for that placement. Well, if
+nobody's ever going to click on the ads
+that show up be lowear chat inside of
+ChatGpt, CEG GPT needs to figure out a
+different way to make advertising work.
+And allowing companies to buy featured
+product placements feels like the next
+logical step. Now, I already made a
+whole video a few weeks ago about this
+sort of advertising slippery slope that
+I feel like OpenAI is going to go down.
+And this right here that we're looking
+at feels like the next phase in that
+process that I was mapping out almost to
+the letter. But I don't know what I'm
+talking about. OpenAI also rolled out
+plugins inside of their codeex app. So
+now you can use things like Slack,
+Figma, Notion, Gmail, and more inside of
+Codeex. We've been able to use a lot of
+this stuff inside of ChatGpt, but now
+it's in their IDE app as well. We got a
+couple additional interesting stories
+out of Enthropic as well. It looks like
+they're going to end up winning their
+battle against the Department of War and
+possibly not be deemed a supply chain
+risk. According to the Wall Street
+Journal, a US federal judge halted the
+Trump administration's designation of
+anthropic as a supply chain risk, citing
+free speech violations. The judge
+ordered the administration to stop
+applying the president's directive and
+provide a compliance report by April
+6th. And this appears to be a pretty big
+win for Enthropic. However, Enthropic is
+not completely out of the woods yet. In
+this expost from Samuel Roland here,
+there's a little bit of an additional
+breakdown where he points out that there
+is still another 4713 designation
+currently pending before the DC circuit.
+Here's some further clarification from
+Charlie Bulock here. The Pentagon
+declared Anthropic a supply chain risk
+under two different statutes. Enthropic
+had to file two different parallel
+lawsuits challenging each designation.
+Anthropic now has a preliminary
+injunction stopping one designation, but
+the other designation is still legally
+in effect. So although they've won one
+court battle, it does appear there's
+still more hurdles for them to get over.
+The other news that came out of
+Enthropic was that there was a leaked
+document from Enthropic that shows that
+there's a new generation of super strong
+models called Claude Mythos. Now, this
+was originally reported by Fortune after
+Enthropic apparently left some sort of
+unprotected pre-writeup of a blog post
+on their website and somebody was able
+to come across it. That blog post has
+since been taken down, but this M1
+account appears to have managed to copy
+it before it was taken down. And it does
+appear that this blog post was intended
+to go live sometime in March. Mythos is
+the name of a new tier of model larger
+and more intelligent than the Opus
+models. Mythos gets dramatically higher
+scores on tests of software coding,
+academic reasoning, and cyber security,
+among others. They do go on to say, "In
+preparing to release Claude Mythos, we
+want to act with extra caution and
+understand the risks it poses. We want
+to understand the model's potential
+near-term risks in the realm of cyber
+security and share the results to help
+cyber defenders prepare." They also go
+on to say, "It's very expensive for us
+to serve and will be very expensive for
+customers to use." They actually warn in
+this blog post that an upcoming wave of
+models can exploit vulnerabilities in
+ways that far outpace the efforts of
+defenders. So they're essentially saying
+we have a new powerful model that's
+coming out and it's kind of scary in a
+cyber security sense. Again, this was
+leaked and then removed from their
+website and this is sort of like a copy
+and paste that somebody managed to get
+before they took it down. So take all of
+this with a grain of salt. Nothing is
+super confirmed here yet. Moving on,
+this week, Cap Cut also released Drama's
+Seed Dance 2.0, the video model that
+everybody's been raving about lately out
+of China, but the US has been fighting
+and trying to keep from entering the US
+because it allowed a lot of trademarks.
+It allowed a lot of like celebrity
+likenesses and things like that. Pretty
+much all the movie studios spoke up
+about it. The government spoke up about
+it. And although it is available in Cap
+Cut, it doesn't appear to be available
+in Europe or the US yet. So, this new
+model is available to a lot of people,
+but just not if you're in the US or
+Europe yet. It does look like a really
+good model. I personally still haven't
+managed to get my hands on it.
+Everything I've seen is pretty
+impressive. Wikipedia this week banned
+AI generated articles inside of
+Wikipedia. You can still use AI. You
+just can't use it to generate the entire
+Wikipedia page. Wikipedia editors can
+only use AI for basic copy editing or
+translation. But it's probably a good
+move because when you think about it, a
+lot of the LLMs probably trained on
+Wikipedia data. And if LLMs are now
+generating the Wikipedia data, isn't
+that kind of how you get model collapse?
+And let's wrap this up with robots. This
+week, Figure03 robot makes history as
+the first humanoid robot in the White
+House. And you're not going to believe
+how this video ends. Check this out.
+No, actually that's not how the video
+ended at all. I kind of, you know, made
+that last part because I thought it
+would be funny. Really, the robot just
+sort of walks in and then walks in front
+of the crowd here and says some stuff,
+waves a little bit, and then walks off.
+Nobody was harmed in this robot
+interaction. But there you have it.
+That's what I got for you this week. My
+goal every single week is to make one
+core video that breaks down all of the
+AI news that I think you would want to
+know for this week. I'm doing my best to
+sift through it all, pay attention to
+everything, play with the tools, talk to
+the people, read all the news, and then
+once a week, I'm trying to help try to
+sift through the signal from all the
+noise and hype and break down just what
+I think the most amount of people are
+going to want to know. I don't want to
+overwhelm you with daily AI news videos
+and breakdowns of everything that
+happens when I can just give people a
+recap of the week at the end of the week
+and hopefully make this feel a lot less
+overwhelming. That's my goal at least.
+Let me be overwhelmed and let me just
+share the one video a week that's
+designed to minimize the overwhelm. If
+that's the kind of thing you like, give
+this video a like and consider
+subscribing to this channel and I'll
+make sure this video shows up in your
+feed every week. Or, you know, hopefully
+YouTube makes sure this video shows up
+in your feed every week. Liking and
+subscribing will definitely help that
+though. Again, thank you so much for
+tuning in. I really, really appreciate
+you and I have so much fun making these
+videos. I do make these videos on
+Thursdays, publish them on Fridays. So,
+if any big news came out between the
+time I recorded it on Thursday evening
+and Friday, it'll make it into next
+week's video. But, I have such a blast
+doing this. And I often feel like one of
+the luckiest people in the world that I
+get to actually do this for a living.
+Pay attention to the tech world and turn
+around and share it and play with the
+tools and have fun with people like you
+watching this video. So, thank you so
+much. I am literally living my dream
+doing this and I cannot thank you
+enough. Once again, really, really
+appreciate you. Hopefully, I'll see you
+in the next one. Bye-bye.
+That is how you land in style.
