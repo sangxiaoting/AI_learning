@@ -1,0 +1,111 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=lzKmZzmy29Y
+
+Kind: captions
+Language: en
+Welcome to TensorFlow from basics to
+mastery. Some of you may have taken deep
+learning or machine learning from me and
+learned about the amazing things you can
+now do with deep learning and machine
+learning. One of the best tools you can
+use to implement these algorithms is
+TensorFlow. Learning algorithms can be
+quite complicated and today programming
+frameworks like TensorFlow, PyTorch,
+Cafe and many others can save you a lot
+of time. These tools can be complicated
+and what this set of courses will do is
+teach you how to use TensorFlow
+effectively. In order to teach much of
+these causes, I'm absolutely thrilled to
+introduce Lawrence Moroni.
+&gt;&gt; Thank you, Andrew.
+&gt;&gt; He is a developer advocate at Google and
+has been working on Google AI and
+TensorFlow. Uh Lawrence has also written
+over 30 programming books, including
+four sci-fi novels.
+&gt;&gt; Yeah, exactly. I've I I've been busy. I
+I really enjoy writing, but the one
+thing I enjoy even more is like learning
+and teaching AI. So, and actually I've
+learned from the specializations that
+you mentioned and I've learned from your
+courses. So, it's a real honor to be
+here with you.
+&gt;&gt; Oh, thank you. I I I did not know that
+you were taking my courses as well.
+Thank you.
+&gt;&gt; Ah, definitely. So, it's a big fan and
+that's really I what got me into AI was
+um it's actually a long story. I started
+doing AI many many years ago back when
+it was things like prologue and lisp and
+all that. But now when we've gotten more
+into machine learning and deep learning
+with neural networks, I needed a place
+to learn it and I actually learned it
+from your courses. So it's it's been
+exciting to be actually coming full
+circle and now teaching it myself, too.
+&gt;&gt; Thank you. I actually did not know that.
+So thank you for sharing that.
+&gt;&gt; I caught you by surprise.
+&gt;&gt; Yes. [laughter]
+&gt;&gt; So it's like uh where the industry is at
+right now is one of the things that like
+really excites me because it's like it's
+just it's it's really it's exploding,
+right? there's a deep learning and and
+machine learning skills are becoming
+ever more important and opening up whole
+new scenarios.
+&gt;&gt; One of the strange things and exciting
+things about machine learning in AI is
+that it's no longer just a technical
+thing limited to the software industry.
+So that everyone in or at least every
+industry needs to figure this out.
+&gt;&gt; Yeah. Yeah. And it's um exciting from a
+developer perspective because it's
+there's a new paradigm and that kind of
+and the new paradigm to me is opening up
+scenarios that weren't previously
+possible, things that were too difficult
+for me to write programs for. And so and
+whatever it's like whenever a new
+paradigm comes and these new tools come
+and you can open up new scenarios, then
+that opens up great new opportunities.
+&gt;&gt; Yeah. And I think um one of the tragic
+things today is even though the whole
+world sees their promise and the hope of
+these machine learning and AI
+capabilities changing so many things,
+the world just doesn't have enough AI
+developers today.
+&gt;&gt; Exactly. I mean there I've seen surveys
+of like you know 25 26 million software
+developers and like maybe 300,000 AI
+practitioners. So part of my personal
+passion is to try and turn like those
+24.7 nonAI practitioners, a significant
+portion of them into people who can
+understand AI and who can build the the
+new and exciting things that we can't
+think of.
+&gt;&gt; Yeah. So I think if you finish this set
+of courses and learn how to code in
+TensorFlow, hopefully that will help you
+do some of this exciting work and maybe
+become an AI developer. So in the next
+video uh you'll hear Lawrence talk about
+the differences between traditional
+programming paradigms versus the machine
+learning and deep learning programming
+paradigm. And you also hear about how to
+fit an Xtoy data relationship, how to
+fit a straight line to data. So please
+go on to the next video. Thank you.

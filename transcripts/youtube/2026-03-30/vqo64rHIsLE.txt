@@ -1,0 +1,490 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=vqo64rHIsLE
+
+Kind: captions
+Language: en
+Number one, learn Python. Second, take a
+AI product management learning course on
+Maven. Third, get that certification.
+Then start applying to every AI PM role
+on LinkedIn. That's what most people
+will tell you. That's how you find a AI
+product management job. And that is
+exactly how you waste 6 months getting
+nowhere. Look, I made the 2025 version
+of this video and over 17,000 of you
+watched it. A lot of what I said still
+applies, but three massive things have
+changed in the AI product management
+landscape this year. And if you don't
+adjust, you're the one who going to get
+left behind by candidates who did. I've
+helped over a thousand product managers
+land their dream roles. On average, our
+clients get 35 to 45% compensation
+increases and land within a few months.
+Previously, I was a product manager at
+Google for 4 years and before that led
+product at three startups. So, this is
+in theory. This is what I see working
+right now in 2026. Here's your updated
+road map and stay till the end because
+I'm going to share the single biggest
+shift in AI product management hiring
+that nobody is talking about yet. What's
+different in 2026? The landscape has
+changed. You have to understand why 2026
+is fundamentally different market than
+2025. AI product management jobs are up
+300%. salaries are carrying a 25% to 40%
+premium over generalist PM roles. We're
+talking, you know, 50K, 100K, 180K, 450K
+depending on level and company you're
+hiring at. But here's the thing, the bar
+has also gone up dramatically. In 2025,
+if you could talk intelligently about AI
+and had some side projects, you could
+land a AI product management role.
+Companies were still figuring out what
+they even wanted from AI product
+managers. But in 2026, three things have
+shifted. First, every product manager is
+now expected to use AI in their daily
+workflows. This isn't optional anymore.
+If you're not using AI to synthesize
+user research, draft PRDs, analyze data,
+and speed up your decision-m, you're
+already behind. Hiring managers will ask
+you about this, not in a hypothetical
+way. They'll ask how are you using AI in
+your current role right now? And if you
+don't have a real answer, that's a clear
+red flag. Second, AI product sense
+interviews have emerged as a distinct
+interview type. This is new. Companies
+like Google, Meta, and top AI startups
+are now testing specifically for AI
+product sense. Can you reason about AI
+powered product decision? Do you
+understand the trade-offs between model
+accuracy and user experience? Can you
+design a product around a probabilistic
+system that sometimes gets things wrong?
+That's different from traditional
+product sense and most candidates are
+not prepared for it. Third, building in
+public has become the ultimate proof
+point. Forget the side project you build
+once and put on your resume. The
+candidates getting multiple offers right
+now are the ones who have shipped real
+ads, shared their process publicly, and
+can point to something live. You don't
+need a million users. No, no, no. You
+need proof that you can take a AI
+concept from idea to working product.
+Now, these three shifts are going to
+shape everything I'm about to tell you.
+Let's start with steps 1 through 4,
+which I covered before, but I'll walk
+you through again because they still
+apply. If you watch my 2025 video, you
+know the foundational steps. Be clear on
+what you want. Know your target income.
+Set your target role. Build belief that
+you deserve it. All of that still
+applies. I'm not going to repeat it
+because, you know, you can go watch that
+video and I'll link to it here. But I
+want you to sharpen these steps
+specifically for AI product management
+roles. When you're getting clear on what
+you want, get specific about the kind of
+AI product manager you want to be.
+There's a massive difference between a
+AI PM at a AI native company like OpenAI
+or Anthropic. You're building
+foundational models versus being the PM
+who brings AI capabilities into a
+traditional product at a company like
+Salesforce or Uber. The skills overlap,
+but the day-to-day are very different.
+The con structures are different, the
+growth paths are different. So when
+you're setting your target income, know
+that AI product managers command a
+significant premium right now. If you're
+making 250K as a general SPM, your AIPM
+target should be 300 to 350K or maybe
+higher depending on level. Don't anchor
+to your current comp. The market is
+paying more for this skill set and you
+should be compensated for it. And when
+you're building belief, this is
+especially important for product
+managers who feel like they don't have
+real AI experience. I worked with
+clients who thought they were
+unqualified for AI roles because they
+didn't have deep machine learning
+algorithm knowledge, but they had deep
+product skills, strong customer empathy,
+and the ability to learn fast. Several
+of them are now AI product managers at
+leading companies, companies you've
+heard of. You don't need to be a data
+scientist. You need to be a great PM who
+understands how to incorporate AI in
+your products. And then you can land
+roles like our clients at Salesforce, at
+Service Now, at Meta, at Google, at
+Microsoft, at Amazon. Now, this is the
+first big update from 2025. A year ago,
+I told you to build AI fluency. Learn
+about LLMs, understand the basics. That
+was the right advice. Then in 2026,
+fluency is not enough. You need to be
+actively using AI every single day as a
+product manager, and you need to be able
+to articulate exactly how. Here's what I
+mean. When you get a batch of user
+research transcripts, are you using AI
+to synthesize themes and surface
+insights faster? When you're writing a
+PD, are you using AI to draft sections,
+stress stress to your assumptions, and
+identify gaps? When you're preparing for
+a stakeholder meeting, are you using AI
+to model scenarios, build your argument,
+pressure test it? Even when you're
+searching for new jobs, are you
+leveraging AI to help interview and
+extract your stories, to refine them, to
+maybe give some input into your resume?
+If you're not doing these things, you're
+working harder than you need and you're
+signaling to the hiring managers that
+you're not keeping up. Let me tell you
+about what happened with one of my
+clients. Now, she was a senior PM at a
+midsize SAS company. Strong product
+skills, but when she started
+interviewing for AIPM roles, she kept
+getting asked, "How do you use AI in
+your current role?" And her answer was
+basically, "Oh, I use chat GPD to refine
+my emails." That's not good enough. We
+rebuilt her workflow. She started using
+AI tools to analyze customer support
+tickets to surface product insights. She
+used AI to generate and compare multiple
+product strategy options not to decide
+but just to look at the strength of
+different things. She set up a AI
+assisted competitive analysis pipeline.
+Within two weeks she had real stories to
+tell and those stories changed how
+interviewers perceived her. Here's what
+I want you to do right now. Pick three
+parts of your product management
+workflow this week and integrate AI into
+them. Document what you did, what
+worked, and what you learned. That
+becomes the interview material. This
+isn't about being a power user of one
+tool. It's about demonstrating that you
+think about your work through an AI
+augmented lens. That's what hiring
+managers are looking for. Can you go
+away from the tools and figure out this
+is the problem I need to get solved.
+This is how I can use AI to solve it. or
+sometimes just say AI is not the right
+tool for the job. Now, if you're
+watching this and realizing that you
+need a structured approach to landing
+that AI PM role, I can help book a free
+strategy session with my team. We will
+map out your exact strategy based on
+where you are today and where you want
+to go. The link is in the description.
+Now, the second massive shift is
+mastering AI product sense interviews,
+which is the new interview type nobody's
+preparing for. Look, this is massive.
+Honestly, it's the one that's catching
+the most candidates off guard. AI
+product sense interviews are in some
+sense a new category. They're not
+traditional product design interviews
+and they're not technical system design
+either. They sit somewhere in the
+middle. And if you're preparing with
+standard PM interview frameworks, you're
+going to struggle. Let me explain what's
+different. In a traditional product
+sense interview, you might get asked how
+do you improve Instagram stories? And
+you know, you do the normal thing,
+segmentation, prioritization, coming up
+with solutions, standard stuff. In a AI
+product sense interview, you might get
+asked, "How do you design a personalized
+AI shopping assistant for Amazon?" And
+now the game changes. You need to reason
+about the usual things, the pain points
+that could be solved, the customer
+segments, the potential solutions, but
+everything needs to come from a lens of
+AI. What problems can AI solve? You need
+to reason about what data the model
+needs to be able to solve them. How
+you'd handle when the AI gives bad
+recommendations or bad answers. How
+you'd build user trust in a system
+that's probabilistic. How you'd measure
+success when AI is making decisions that
+used to be made by users. How do you put
+guard rails in place? How do you make
+sure everything is ethical and as per
+regulations? Those tradeoffs are
+fundamentally different. Precision
+versus recall, automation versus user
+control, personalization versus privacy,
+model cost versus user experience
+quality. Companies are specifically
+testing whether you can think through
+these trade-offs. And most candidates
+are walking in with their circle
+framework and getting completely
+destroyed. So, how do you prepare?
+First, study the AI product trade-off
+framework. Understand precision versus
+recall and what it means for product
+decisions. Understand the build versus
+buy decision for AI models. Understand
+how to think about AI product quality
+when the product and the system is
+non-deterministic. Second, practice on
+real AI products. Pick five AI products.
+could be Spotify's recommendation engine
+could be Gmail spot repai and for each
+think through what's the AI doing what
+are the failure mode how would you
+improve it what metrics do you track how
+do you handle the cases where AI gets it
+wrong see the fundamental thing with AI
+and machine learning is that it can
+improve over time and if you're not
+building a product that feeds back that
+gives the feedback and brings the human
+in the loop you're not really building a
+AI powered product so that is the crux
+of it third develop your point of view
+on AI product principles hiring managers
+don't just want you to analyze. They
+want to hear your approach, your
+philosophy. When should AI automate
+versus assist? How do you decide when a
+AI feature is good enough to ship?
+What's your framework in building user
+trust in a AI powered products? Very
+critical. Why should the user trust it?
+Why does it not get some AI slop back
+and then says get lost? I don't want to
+do this. When you walk into that
+interview with a clear, opinionated,
+well-reasoned point of view on AI
+product development, you stand out
+immediately because most candidates are
+still giving generic answers about
+leveraging AI to improve user
+experience. They're still saying, "Hey,
+let's just put a chatbot in front
+without really understanding of the kind
+of answers the chatbot gives. Now, next
+one, build apps in public." This could
+be a new unfair advantage. And this is
+the third shift. And honestly, this
+might be the most powerful one. Year
+ago, I told you to build a side project
+with AI. Maybe use a LLM or a no code
+tool. Put it on your resume. That advice
+was okay. Then it's not enough now. In
+2026, the candidates who are getting
+multiple offers aren't just building
+side projects. They're building side
+projects and apps in public. They're
+shipping real products, sharing the
+process, creating proof points that
+hiring managers can see, use, and
+reference. Why does it work so well?
+Well, because stock is cheap. Because
+every candidate says they understand AI
+products. Every candidate says they can
+ship. But when you can point to a live
+app and say, "I built this. Here's the
+problem I was solving. Here's how I
+choose the AI approach. Here's how I
+iterated based on users feedback. And
+here's what I learned about building AI
+products from doing it." That is a
+completely different conversation. Let
+me tell you how I'd approach this. Pick
+a real problem, not a toy project,
+something that solves an actual pain
+point for a specific group of people.
+Maybe it's an AI tool that helps product
+managers synthesize user research. Maybe
+it's a Chrome extension that uses AI to
+summarize meeting notes. Maybe it's a
+Slack bot that generates daily standups
+from team activity. That's the specifics
+matter less. Even the model that you use
+matters less. The fact that you use
+solves a real problem that you
+understood what the problem was. You did
+some user research and then you used a
+modern AI stack. You figured out what's
+the right model to use. What's the
+trade-off of cost versus efficiency? The
+tools available in 2026 make it possible
+for a non-engineer to build genuinely
+useful AI powered products. And if you
+get stuck, maybe you can even hire a
+freelancer to help you through some of
+the technical parts. Well, that's not
+cheating. That's just how product
+managers work. You don't write all the
+code yourself. You orchestrate right
+now. Most importantly, share your
+journey. Post about it on LinkedIn.
+Write about your product decisions.
+Share what worked and what didn't. Talk
+about the specific AI challenges you ran
+into. This does two things. It builds
+your credibility as someone who actually
+builds with AI and it expands your
+network with people who are interested
+in AI product development. Many of those
+happen to be people who are hiring for
+AIPM roles. Put it on your resume as a
+real project not buried in a side
+project section. Feature it built and
+shipped this product and AI powered
+whatever it is serving so many users.
+Choose AI approach because product
+because of the reasoning iterated based
+on user feedback to improve certain
+metrics. Measure usage, measure metrics,
+have your impact real app in production.
+Now, many of my clients have done this.
+They might build a simple AI tool that
+help recruit a screen resume fastest or
+they might have used something for
+recipes. There's a whole bunch of
+different projects that are available. I
+don't want to give away exactly what
+they did cuz then you can identify their
+names, but they shared their building
+process on LinkedIn over 6 weeks. By the
+time they were interviewing, hiring
+managers had already seen their post.
+One of them literally said in the
+interview, "I've been following your
+project. Tell me about the trade-offs
+that you made." These clients, they got
+multiple offers. And the building in
+public portfolio was the differentiator
+that many companies cited. Now, the rest
+of the road map I shared in 2025 still
+applies. You have to build your
+strategic narrative. You have to get
+your marketing materials right. You have
+to activate your network. You have to
+practice interviews with the goal of
+improving. And then you have to
+negotiate the right way. But let me give
+you the AI specific upgrades on a few of
+these. Your strategic narrative should
+include AI. Even if AI wasn't the main
+thing you did in previous roles, find
+the AI thread. Were you a great data
+product manager that can power existing
+AI models? That's adjacent. You can use
+that. Did you work with recommendation
+systems? That's powered by AI. Did you
+improve search? That's AI. Did you
+automate any workflows? That's AI. Your
+narrative should make it feel inevitable
+that your next step is a AI product
+management role. Your network activation
+should target people who are in the
+forefront of AI product management. Go
+beyond your existing network. Join AI
+product communities. Attend AI meetups.
+Engage with AI product leaders on
+LinkedIn. The AIPM world is still
+relatively small compared to generalist
+SPM. And these people hiring for these
+roles are often active in these
+communities. Show up, add value. That's
+how you get warm intros. And then your
+negotiation leverage, it's higher than
+you think. AI product management talent
+is still scarce. Companies are competing
+for it. If you've done the work I'm
+describing, you can use AI daily. You
+can ace product sense interviews. You
+have a public portfolio of AI work and
+you have leverage. Use it. Don't accept
+the first offer. The 25 to 40% premium I
+mentioned earlier, that's the average.
+Top candidates have often done better
+than that. So, let's bring this
+together. The AIPM market in 2026 is
+growing fast. Postings are up and by
+some measures 300%. Salaries are
+premium. Senior level hiring is at an
+all-time high. But the bar has gone up.
+Here's your updated road map. Get clear
+on what you want specifically in the
+AIPM space. Know your worth and know
+that AIPMs are commanding a premium. Set
+your targets and build your belief
+around those. Then the three big
+upgrades for this year. One, integrate
+AI into your daily PM workflow. This is
+table stakes. If you can't talk about
+how you use AI daily in your work, in
+your search, everything you're going to
+lose to candidates who can. Two, prepare
+specifically for AI product sense
+interview. This is a new interview type.
+Learn the trade-offs. Practice on real
+AI product. Develop your point of view.
+Third, build an AI app in public. Ship
+something real. Share the process.
+Create proof points that hiring managers
+can see before they ever meet you. Then
+build your narrative. Activate your
+network and AI communities. Practice
+until you hit unconscious competence and
+negotiate from a position of strength.
+This is the playbook. The market is
+rewarding people right now who execute
+on it well. If you're serious about
+landing a AIPM role this year, book a
+free strategy session with my team.
+We'll build your personalized approach.
+The links in the description. If this
+was valuable, hit subscribe so you see
+more content exactly like this. And if
+you want to figure out how to make sure
+your resume does not get rejected by
+hiring managers, because AI is
+everywhere and everyone is doing that,
+watch this next video where I show
+exactly the mistakes people are making
+and how to avoid those. I'll see that.

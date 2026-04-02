@@ -1,0 +1,2023 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=Eqh2iwSl570
+
+Kind: captions
+Language: en
+Claude Code just hit $2.5 billion dollar
+in annualized revenue in 9 months. It is
+the fastest B2B software product ramp in
+history. So why are most people still
+using it like a chatbot?
+&gt;&gt; Everyone says it's not about prompt
+engineering anymore. It's about context
+engineering.
+&gt;&gt; Why are we so obsessed with managing the
+context? What happens if you hit the
+context limit?
+&gt;&gt; Where does that data actually come from
+and how is it calculated is a a major
+area where people just do not trust AI.
+Carl Vatti has turned cloud code into a
+operating system. Native skills, data
+visualization, and sub aents managing
+content.
+&gt;&gt; When you have a sub agent like this,
+what's awesome is that instead of doing
+that in its main session, it has spun up
+basically a clone of itself that is now
+doing all that work. So, what I think is
+so amazing about this skill is that it
+actually doesn't give Claude code
+specific new abilities. All it is is
+just a really good prompt.
+&gt;&gt; This is how most people use Claude code.
+Type a prompt and get output. Carl
+Vlotti flipped it. He built skills that
+interview through a framework before
+building anything.
+&gt;&gt; When you understand how Claude works, it
+makes it feel less like you're just
+prompting Claude and watching it and
+more like you understand how it works
+and you're working together.
+Before we go any further, do me a favor
+and check that you are subscribed on
+YouTube and following on Apple and
+Spotify podcasts. And if you want to get
+access to amazing AI tools, check out my
+bundle where if you become an anal
+subscriber to my newsletter, you get a
+full year free of the paid plans of
+Mobin, Arise, Relay app, Dovetail,
+Linear, Magic Patterns, Deep Sky,
+Reforge, Build, Descript, and Speechify.
+So, be sure to check that out at
+bundle.ac.com. And now into today's
+episode.
+OpenAI just acquired OpenClaw. Anthropic
+released co-work. And the question on
+the top of everybody's minds is does
+claude code still matter? Carl Votty has
+been kneedeep in these tools and he says
+the answer is yes. His last two episodes
+crossed over a million views across
+platforms. And if the first episode was
+the beginner version of Claude Code and
+the second episode was the advanced
+master class, today is the operating
+system layer. If you're already an 80
+out of 100 on cloud code, we're going to
+bring you to a 95 out of 100. And if you
+stay till the end, you will understand
+context management, creating sub agents
+to manage your context for you, autot
+triggering skills, and building an
+operating system around it all. So,
+let's get right into it. The question on
+the top of everybody's minds is, should
+they still be using cloud code in a
+world of co-workclaw? What do you think?
+&gt;&gt; Yeah, so with a lot of these new tools,
+they're amazing. Cloud code was the
+first kind of the most powerful where
+all of the everything else is built on
+top of. You have tools like co-work
+which is basically it's a it's a UI that
+builds on top of cloud code that tries
+to make it easier to use. Um and it it's
+good for the for the use cases that it
+does have of like managing files and
+things like that. It is a good tool but
+ultimately it is built on top of cloud
+code. So all of those features they
+exist in cloud code first in a more
+powerful way and then they kind of get
+constrained by co-work. So if you want
+the most power just to be able to do
+things and do work cloud code is still
+it's still the number one tool and I
+would say with openclaw it has uh it's a
+lot like cloud code where essentially it
+is a way that you can connect to cloud
+code or a cloud codel like service uh
+from other channels. You can have it
+running all the time. is really good for
+monitoring and and tasks where you
+really can let it run autonomously. But
+if you need to be in the loop and you
+need to be in the driver's seat and you
+really want the most power in the tool,
+then you don't really do that in
+OpenClaw. You do that with Claude code
+and then you can set up OpenClaw to do
+some of that monitoring type of work.
+But if if you need the person doing the
+most powerful work that you can, you
+really you have to be in cloud code.
+&gt;&gt; Yeah, for product managers where you
+need to be the driver's seat, AI still
+can't do the thinking for you. Cloud
+code is still going to be the tool of
+choice. OpenClaw is really cool for
+living and having the heartbeat feature
+and being able to chat with it, but
+Cloud Code is still the most powerful.
+Both you and I have been living in Cloud
+Code pretty much 8 hours, 10 hours a day
+for the last 6 to 8 months and we've
+encountered four major friction areas
+that we're going to help people solve in
+today's episode. If they listen to the
+whole episode, what are they going to
+learn?
+&gt;&gt; Yeah. So when I kind of look at our
+first two episodes we've done, we did a
+big we did kind of an intro, we did
+advanced, and I would consider this one
+the mastery course where you're really
+good at using cloud code, but there's a
+still another level deeper that you can
+go to solve the biggest problems that
+you might have with cloud code. So the
+first is just context management. How
+can you make it so that your context
+window doesn't fill up so fast and then
+you have to wait and compact and then
+you do a couple more messages and it
+compacts again. So what are some
+strategies that you can really manage
+context to use cloud code just way more
+effectively and not have to wait as
+long? The next one is just figuring out
+how can you use skills to shore up other
+major weaknesses of cloud code. People
+will say cloud code is not very good at
+research. They'll say it's really not
+that good at UI UI design. They'll say
+that uh it it really can't design slides
+and things like that very well on its
+own. Most of the time what you need to
+do is you just need to figure out how
+can you provide the tool that cloud code
+can use to do those things better. So
+just shoring up all of those weaknesses
+with skills and then we'll answer one of
+the biggest questions that people have
+when they're working with AI, which is
+how can you trust the results? For a lot
+of people, it they don't really need AI
+to just be able to do tons of
+mass-produced work. You know, for
+product managers or or people where
+they're really accountable for a very
+small number of documents, they don't
+need lots of work to be done. They just
+need the work that they do do to be very
+high quality and very trustworthy. And
+so today we'll look at an example of how
+you can do that with data uh using cloud
+code where you can know exactly how it
+got its answers and that you can
+reproduce them deterministically every
+time. And then we'll put all of this
+together. And that's kind of like last
+major question that people have about
+cloud code is okay it can do all these
+things but how do you actually put it
+together in a cohesive system so that
+when you're using it you're not just
+kind of having files go all over the
+place. So really today I would say is
+taking all of that cloud code knowledge
+and cloud code usage that you already
+have and just taking it to the absolute
+next level with giving cloud code its
+own skills inside of a really strong
+operating system.
+&gt;&gt; I'm so excited for this. It's going to
+improve my own cloud code usage. So show
+us the sauce. How do we handle context
+better?
+&gt;&gt; Yeah. So, the first thing to do, and
+this is this is kind of like a fun
+little trick that I just recently
+learned, is you can actually there's a
+lot of different elements of the Cloud
+Code UI that you can actually customize.
+And so, right here, uh, and just kind of
+a quick note on the setup, we're in
+cursor here, but we're not using any
+cursor features. We have cloud code open
+here on the side, uh, and we're using
+the cloud code CLI, and, uh, we'll just
+use that for this entire podcast. So,
+the first thing I really want to show
+is, uh, there's something that you can
+customize called the status line. And so
+you can actually have cloud code show
+you how much context you've used at any
+given point throughout a conversation.
+And what's nice is that you really get a
+much better sense of how is your context
+filling up, what types of requests are
+filling up the context, where where is
+it getting eaten into if you just set
+this up. So the first thing to do is
+just set up a nice status line. And it's
+it's incredibly easy to set up the
+status line. There is a slash command
+called status line.
+And uh I'm just gonna go ahead I'm gonna
+go ahead and just put in a really nice
+one. So we're gonna there's a bunch of
+different things you can include in this
+status line. So here we're gonna have it
+show us what model are we using right
+now, what folder are we in, and then
+make a little UI for the amount of
+context that we've used so that we can
+visualize it as we go. And it's almost
+like a tiny little piece of software or
+a tiny little UI where you can have it
+like when you're when you have a lot of
+context left, it's green. when you have
+a medium left, it's orange. And then
+when you're almost filled with your
+context window and cloud code is about
+to compact, it turns red. And um this is
+something I discovered from another
+plugin we'll look at later. But it's
+incredibly easy and you can just
+literally do slash status line explain
+what you want and cloud will build it
+into its UI right there. So we're about
+to see that. We um we see here it spun
+up its own custom sub agent called
+status line setup and is now going going
+ahead and building that. And um if you
+see just a second ago, we had nothing
+under here. And now we have this status
+line that we just described. So we have
+it tells us that we're using Opus 4.6.
+Um we're in this demo file that will be
+available to anybody that watches this
+video. And then this is how much context
+we've used. So we're only at 20%. And
+we're in the green. So number one thing,
+set up set up a nice status line. And
+then that will help you really kind of
+learn about how to use context uh as you
+put in different prompts.
+&gt;&gt; And for people who maybe haven't
+encountered this issue, right? Why are
+we so obsessed with managing the
+context? What happens if you hit the
+context limit? Doesn't it just autoco
+compact? Isn't isn't there no problem
+really?
+&gt;&gt; Yeah, that that's a good question. Um,
+first of all, I would say the compacting
+is kind of one of the worst things about
+using cloud code. Um, especially if you
+give it like a long task like, hey, can
+you go research this thing for me? And
+then it runs a bunch of web searches and
+every single time it uses a tool call
+and every time it reads a web page, it's
+it's eating into that context window.
+And so if you have a bigger project
+where you have you're working with a lot
+of files at once, it's easy for this to
+get to 100% with just like five messages
+and then you're waiting like you're
+waiting a long time. You're waiting, you
+know, two or three minutes for it to
+compact and it can just really get in
+the way of of your flow of using the
+tool. So avoiding that is for for me
+personally that's why it's helpful to um
+kind of have the context get used up
+slower. But the real kind of the real uh
+even like bigger and more more important
+lesson is that as I've been using AI
+more and using cloud code more. I knew
+this before that everyone says it's not
+about prompt engineering anymore. It's
+about context engineering. But that's
+just absolutely it's kind of the golden
+rule of using these AI and using these
+really powerful tools. They are able to
+work with the information that they
+have. And so you want to make sure that
+they're only having the information that
+you actually need them to have, but that
+when they have need that information,
+it's kind of everything that they could
+possibly use. And so you can if you're
+limiting the things that they don't
+need, then you provides a lot more room
+for you to include the things that you
+do need. And the overall quality just
+really dramatically goes up.
+&gt;&gt; Exactly. And I think that there's still
+this phenomena of context rot, which has
+been measured, which is that as you get
+longer into the conversation, the
+quality degrades. And as you use up your
+context window, you're going to see that
+happen. So you actually want to give AI
+minimal amount of context to actually
+have it understand what you want it to
+do.
+&gt;&gt; Exactly. Exactly.
+&gt;&gt; Here's the dirty secret about
+prototyping. You spend two weeks
+building a prototype. You validate your
+assumptions. Engineering loves the
+direction. Then what happens? You throw
+the whole thing away. Bolt changes this
+completely. When you prototype in Bolt,
+you're not building throwaway mockup.
+You're building real front-end code that
+integrates with your existing design
+system. So, when you hand it to
+engineering, they don't throw it away.
+They ship on top of what you've built. I
+use Bolt every single day. I host my
+landmort on it. And honestly, I'm up
+till 2:00 a.m. some days just vibing in
+the tool, having fun, and building.
+That's when you know a product is good.
+When you're using it past midnight, not
+because you need to, but because you
+want to. Check out Bolt at bolt.new/
+aos. That's bt.new/ ne/ aka sh link in
+the show notes. Today's episode is
+brought to you by Amplitude. Replays of
+mobile user engagement are critical to
+building better products and
+experiences, but many session replay
+tools don't capture the full picture.
+Some tools take screenshots every
+second, leading to choppy replays and
+high storage costs from enormous capture
+sizes. Others use wireframes, but key
+moments go missing, creating gaps in
+your understanding. Neither approach
+gives you a truly mobile experience.
+Amplitude does things differently. Their
+mobile replays capture the full
+experience. Every tap, every scroll, and
+every gesture with no lag and no
+performance hit. It's the most accurate
+way to understand mobile behavior. See
+the full story with amplitude. And so
+one of my favorite ways to do that. So
+again, this was just setting up. Okay,
+now we we have an idea of where our
+context is. So of course the the you can
+always just do the nuclear op of clear.
+So that basically starts a new session.
+So the most effective way and and I have
+been using cloud code for months and
+months but I honestly only just realized
+in the last few weeks how amazing sub
+aents can be for controlling context. So
+as an example so right now u one thing
+you can always do is you can run um let
+me get rid of this. Ah okay one thing
+you can always do is you can always run
+slashcontext and that will show you
+where is the context of claude getting
+eaten up. And so right now we see I have
+a couple things already enabled. So I
+have um right if you go to the top it
+gives you like your overall summary. So
+here we have 16% of our context is used
+which is crazy. That's just I haven't
+done anything. We just cleared. So 16%
+is just eaten up um for doing well for
+me. Let's see what is taking it up. So
+the system prompt which you can't really
+get rid of. That's just like part of
+cloud code. So that's taking up 2%. And
+then all of my tools that I have enabled
+right now I have some MCPS some custom
+agents. The all of this together is
+taking up another 8%. And then I have a
+bunch of these like I right now I have
+cloud and chrome enabled. So this is one
+thing just right off the bat. Do have a
+bunch of stuff that's turned on that you
+don't actually need and then you could
+go through and and turn it off. So that
+is like the quickest way to just make
+sure that you're not eating up all your
+context.
+&gt;&gt; Yeah.
+&gt;&gt; Um but let's let's go through an example
+here. So let's uh let's just give Cloud
+a task where we're going to see it eat
+up a lot of its own context. So we just
+saw right now to start this off we're at
+16%. So, I'm just going to run a pretty
+normal command here, which is research
+the top five cloud code tips from this
+week. So, when we ask it to do that, uh,
+actually one I do have, uh, one tool
+turned on for re for search, which we'll
+use later, but I'll turn that off for
+now. Um, okay. So, let's go ahead and
+run that again. So, research the top
+five cloud code tips from this week. And
+so, what is Claude going to do here?
+Well, it's going it has a web search
+tool and it has a web fetch tool. Um,
+oh, okay, it's getting ahead of me here.
+It's uh what it's doing here and what
+it's decided to do is it's decided
+instead of running that search on its
+own which is oftentimes what you do or
+if you if you ask it to do a task
+without telling it specifically to use
+agents then it will just start running
+that prompt and then it will kind of do
+all of that in your chat session and it
+will eat up a lot of that information or
+a lot of that uh context window that it
+has just doing the searches and then
+just getting the results and then
+summarizing them.
+&gt;&gt; Yeah. But when you have a when you have
+a sub agent like this, what's awesome is
+that instead of doing that in its main
+session, it has spun up a like basically
+a clone of itself that is now doing all
+that work. And what we're going to get
+back here in our main session is we will
+just get the summary of it. So you save
+your main session from having to do all
+those tool calls and read all that
+information and then just get the
+summary. And so that right off the bat,
+if you can remember uh to use cla or
+tell cloud to use sub aents to do its
+work uh instead of having it do it in
+its main thread for many things that
+will automatically just save a lot of
+its context because it's just getting
+the result instead of all of the work to
+get that result.
+&gt;&gt; And to implement this agent I believe
+it's two parts right in your cloud MD
+you tell it what you just told it use
+sub aents to use your work and then you
+create the sub agent the research agent.
+Correct.
+&gt;&gt; So yeah great question. So cloud can do
+two things. One, it can either just make
+it on the fly make a new instance of
+itself and give it a task which I think
+is what it did here versus earlier when
+we saw it do that um the status line
+that's like a dedicated sub aent that is
+already sort of defined of how it works.
+Um and sometime it can also use those.
+So those those both work if you don't
+want to take the time to like actually
+define a sub aent this will work for
+even just like on the-fly tasks as well.
+&gt;&gt; Awesome. Okay. So here what's cool is we
+have the result here. And let's go ahead
+and look at our context from when we
+started.
+We had 16% to begin with and uh now
+we're only at 16.5%. So if we did this
+type of uh if we did this type of thing
+without doing that uh and when I was
+testing this on my own, it would fill it
+up to 25%. Which is a lot for just a
+basic web search, right? Um, and the
+other thing that's really cool is that
+we saw it run this search and um, it
+kind of reports back on exactly what it
+did. It ran 10 tool uses and it used uh,
+almost 30,000 tokens. So all of that
+information is is saved from our main
+session because we had it use this sub
+agent.
+&gt;&gt; Nice.
+&gt;&gt; Yeah. So that's a good one. Um, and this
+is where I would say it uh, it really
+starts to feel when you can kind of
+understand how does cloud code work and
+where are its weaknesses. It should
+dynamically create these agents and we
+actually did see it do it here. Oftent
+times it will not do it when it would be
+a good idea. And the kind of like mental
+framework to have in your mind is do you
+need this main session to do all the
+work? And so sometimes if you're like
+coding something or you have like a
+specific question, it's helpful for it
+to have all the context of like all
+those files so that you can ask it
+something directly and it doesn't have
+to see what its agents did and then pull
+that context in. Um, but here when you
+understand how Claude works, you can
+kind of tell it how to operate itself,
+which really just levels up and it makes
+it feel less like you're just prompting
+Claude and watching it and more like you
+understand how it works and you're
+working together.
+&gt;&gt; Love it. So, I assume you could just say
+something like use a research sub agent
+in the prompt if you want to force it or
+it hasn't done it and it's doing the
+context filling up way. Is there a skill
+or something we should be using to
+further encourage Claude to use sub
+agents? Yeah, great question. So, in
+fact, I do have in this uh in this file,
+I have a skill called spin up, which
+it's kind of the the lingo is that it
+spins up at sub agent. So, sometimes
+when I'll be giving it a long task, I
+can say, you know, research
+all the top cla code creators in the
+world and I'm sure you would come up and
+then we can just add to the end of this
+spin up. So instead of saying please
+make sure you use dedicated sub aents,
+we have this rule here where um
+basically it'll run the skill of spin up
+and then it knows that it should run
+parallelize that and and use a sub agent
+instead of doing it itself. So that's
+just kind of a shortcut to make this
+quicker.
+&gt;&gt; Nice. Can you just show us the rest of
+the spin-up skill once we execute that?
+&gt;&gt; Yeah. So let's go ahead and run it here
+and then I'll make this bigger. Um so
+spin up. So set up a new product. Uh,
+sorry. What this says when the user runs
+spin-up, you help them configure. Oh,
+sorry. This is actually not quite what
+we would want. Um, okay. So, this is a
+good opportunity. So, let's let's stop
+this. So, this spin up command I think
+uh has some stuff that we don't want.
+Um,
+&gt;&gt; for people who are wondering how you
+stopped it, you hit
+&gt;&gt; Yeah, great question. So, and yeah, and
+this is where you just when you really
+get familiar with the UI. So, escape
+will stop it. And then one thing you can
+always do is you can always hit escape
+two times and then that will give you
+all of the messages that you've done.
+And this is also actually another way to
+like kind of save context. If you if you
+ask a question and you realize it was
+the wrong question, instead of having
+that in the memory or if it did a bunch
+of stuff wrong, you can always just roll
+back to earlier and then that will just
+get rid of all of that and it just puts
+you right back in there with that exact
+same uh sort of wherever the context
+window was at that. So anything that you
+roll back and you erase is literally
+completely gone. So you have to be a bit
+careful. Um make sure that you do that.
+It wasn't something you maybe wanted,
+but it's a good way to kind of continue
+conserve your uh your context window.
+&gt;&gt; So, I think we're going to fix the spin
+up a skill now and show people how to
+edit skills. Yeah.
+&gt;&gt; Yeah. Let's do it. So, you know what we
+can do? We'll just go ahead and delete
+the skill because it actually has some
+stuff that's a bit wrong.
+&gt;&gt; So, we'll just delete it and we'll show
+how can you make a skill with cloud
+code. So, please make a new skill
+that helps me
+tell you when
+you should use um dedicated sub agents
+instead of the main session to preserve
+your context window.
+&gt;&gt; Nice.
+And you guys see how easy and natural
+language it is. Skills is the unlock.
+Like Carl said, whenever you feel like
+there's a weakness, in this case,
+there's a context management weakness,
+spin up a skill. And now it's going to
+write its skill for itself.
+&gt;&gt; Yeah, exactly. And so, uh, now it's
+looking at the existing skill structure.
+It'll make sure it matches the format.
+And, um, Enthropic recently made a nice
+change where you used to have to restart
+cloud code for to pick up skills, uh,
+that you made, but now it'll actually it
+should just pick it up directly in here.
+And I didn't tell it what to call it, so
+it's going to come up with its own name.
+&gt;&gt; Oh, yeah. It won't be splash spin up
+anymore.
+&gt;&gt; Yeah. I think this is now a good time to
+warn people. Don't download too many
+skills from random skill marketplaces.
+Um, especially if you're probably
+running claw dangerously skip
+permissions. There have been a lot of
+malware and prompt injunction attacks in
+those skills that people have been
+analyzing online. So, it's generally
+best if you're going to get a skill, get
+it from me or Carl, somebody you super
+trust or just create them yourself.
+&gt;&gt; Yeah, exactly. Your own skills are good.
+And then we'll look at one other
+marketplace that Verscell recently came
+out with. Um that's a it's maybe not
+perfectly safe, but it is a pretty well
+validated marketplace. But yeah, if you
+make a I think most of the benefit from
+skills is like you know your own
+workflow. Once you've seen that you're
+repeating something multiple times, then
+it's time to make a skill and it will be
+customized to your exact project.
+&gt;&gt; Mhm. So let's see. It came up with one
+called context guard here. Before
+starting any non-trivial task, evaluate
+whether it should run in the main
+session or be delegated to sub agent. So
+let's try this again. And so we had our
+question from before which was research
+the top five cloud code tips from this
+week and then let's ask it to use
+context guard.
+Context guard. There we go. And then you
+always
+&gt;&gt; the last episode we sometimes had
+trouble triggering skills. It's best to
+just have this invocation with a slash
+command or use context guard skill in
+your prompt so that you don't run into
+the issue of it sometimes not using it.
+&gt;&gt; Yeah, exactly. I did figure out how to
+fix that. So, we'll we'll cover that.
+We'll cover that quickly. But the the
+most surefire ways, you know, know your
+workflows, know the skills that you
+have, and then um yeah, just use them
+when you need them. Um okay, so it looks
+like it went ahead and did it. It said
+applying the context card. This is a web
+research task, high context, multiple
+searches, page reads, delegating to a
+sub agent. So now, anytime that we need
+to do this type of thing, um you can
+just run this uh run this command
+context guard and that will preserve
+your main session a lot. And again, the
+rule is, do you need the main session to
+know it? No, we don't need it to like
+see what all of the web results like web
+search results were. We just need to
+know what the final output is.
+&gt;&gt; This is fire. So, how do we fix the
+skill invocation issue?
+&gt;&gt; We'll get to that in one second. Um, the
+other things to show that are good is so
+while this is running, one thing that's
+cool is when you have a sub agent
+running is here it says use controlB to
+run in the background. So, I'm going to
+do controlB. And what that will do is it
+actually now uh if we see down here it
+says um one
+one local agent. And so we can go and
+see what that's doing. But now it's kind
+of nice because we can actually just
+continue our main chat while that's
+running so that we don't have to wait
+for it. And so this is really nice if
+you have like a bunch of stuff running
+in the background that you don't you're
+not like immediately dependent on the
+results. You can have that agent run in
+the background and then you continue
+your conversation and then as soon as
+this local agent finishes it will kind
+of inject the stuff into the chat and
+then cloud code will read what it what
+it came up with.
+&gt;&gt; Nice. And you just clicked on the local
+agent to see that, right?
+&gt;&gt; Uh so I just navigated down and then hit
+enter.
+&gt;&gt; Uh down and enter. Cool.
+&gt;&gt; And so here we see what it it's kind of
+cool too. You can see like what was the
+initial prompt that Claude gave to it
+and then we can see it's fetching and
+searching. When it's done, the next
+thing I want to show is my absolute
+favorite Cloud Code feature. It's my
+It's like my absolute favorite. I like
+sub agents. I think they're probably my
+second favorite feature. My absolute
+favorite feature of Cloud Code is the
+ask user questions tool. Have uh Do you
+have you used it? You find yourself
+using it?
+&gt;&gt; Actually, no.
+&gt;&gt; Oh, really? Okay. This is I feel like
+I'm missing out. I feel like this is why
+I love recording these episodes so I can
+learn the latest alpha.
+&gt;&gt; Yeah, the ask user questions tool is is
+so awesome. So what we're going to get
+back here whenever this finishes it's
+being very thorough um is we'll have
+this big list of cloud code tips that it
+found from the internet and then in in
+in you know let's say that we wanted to
+implement some of those into our uh
+system then normally we'd have to read
+them and we have to say okay can you
+tell me about this one can you tell me
+about this one um or how how could we
+implement this so we got these like five
+top cloud code tips so now what we're
+going to do is we're going to say please
+use
+your and then the magic phrase here is
+just ask user
+questions. I don't think it has to be in
+one word, but that's kind of like the
+official way that it is. So, ask user
+questions tool to help me see if we
+should implement any of these.
+And what's so cool here is that Claude
+will now go through that and it will
+dynamically come up with a list of
+questions to ask us, but it will be in
+like a new custom UI within cloud code.
+Um, so what we see here is it says which
+of these cloud code scripts would you
+like to implement? And so it's giving us
+these in like a UI. So we can say okay I
+want this one and I want this one and
+then when we hit submit it will now have
+that in its uh in its memory and it will
+be able to go through it directly. This
+tool I just use it all the time. Like if
+you are coming up with a list of
+requirements for a feature, then you can
+say please use your ask user questions
+tool to grill me on all the possible
+requirements for this uh spec so that we
+can fill all that in. And what's so
+awesome is that this will kind of take
+it from where cloud code is the main
+reason that people don't like the output
+from AI is because there's just so many
+assumptions and so many things that it
+gets wrong because it really didn't have
+that in its context. But if you have it
+ask you, it will predict like where are
+my weaknesses that I have or where are
+the assumptions that I'm making that I
+need from the user and it will ask you
+questions and if you if you really make
+it strong like a strong prompt like
+please ask me as many questions as you
+possibly can it will just keep asking
+you and sometimes it'll be like 10 or or
+12 questions or something. Uh, I know
+one person on Twitter said that it asked
+them 67 questions, so they probably had
+a very vague starting place, but it's
+just uh it's just this really nice way
+to be able to work with Claude directly
+in this session rather than uh it's it's
+otherwise it's actually pretty hard to
+answer questions. It might do one at a
+time or it might ask you a bunch and
+then you can number them in the chat.
+But this is just this beautiful UI that
+it will do right here in in Cloud Code,
+which I I love this feature.
+&gt;&gt; I like it. So, it's sort of like that
+idea that you're not engineering this
+massive prompt or building this massive
+skill to solve the problems for you.
+You're saying, "Please ask user question
+if you need clarification."
+&gt;&gt; Yeah, exactly. Um and and you can use it
+in all different kinds of way. You can
+say um hey, I have this spec. Use your
+ask user questions tool to um like shore
+up any areas where you think might be uh
+unclear or we're about to start this
+project. use your ask user questions
+tool to ask some clarifying questions
+things like that. So really just like
+anytime it would be helpful for the AI
+to get more context to help you have a
+better output, use that tool and then
+you can just do it right there and it's
+it's just it's just so nice. It's just
+right there in the chat. Um better than
+anything else I've seen. I would say
+it's one of Cloud Code's like most
+probably creative features.
+&gt;&gt; Amazing. So what other skills should
+people be creating?
+&gt;&gt; Yeah. So, uh, I would say in general
+whenever you're kind of like going
+through your workflow and you realize
+you're doing the same thing multiple
+times, that is a great time to add a
+skill. The other main time I would say
+it's really good to figure out how can
+you build a skill or how can you find a
+skill is areas where you think cloud
+code is really weak. Then you might be
+able to just come up with like a prompt
+or skill that gives it the tools or just
+the knowledge it needs to do much better
+work. So an example here um if you type
+slashplugins it will show you kind of
+like the overall cloud code marketplace.
+The the kind of most the most safest
+possible skills that you can have are of
+course cla's own official plugins. One
+of the most impressive of all of the
+skills I think that people have talked
+about is um so Claude has they have 56
+of their own plugins is this front-end
+design skill. So, you know, uh it's very
+commonly talked about that, uh AI always
+makes this sort of purple gradient
+generic kind of uh UI, right? If you if
+you just say, "Please make me a landing
+page like this." And I actually have a
+really good example. Um when we uh
+let me let me open the browser here.
+When we uh did our first episode, I kind
+of did like a small lead magnet um so
+that people could get the the co the
+like code that we did from that. And
+then I I I I now have cloud code for
+everyone as my main thing, but I had
+cloud code school. So this is a real
+example. I actually shipped this this is
+a real live page right now. Um this is
+the kind of output you get if you say,
+"Hey, just make me this." And this is
+just incredibly AI, right?
+&gt;&gt; Yep. Screens written by Claude.
+&gt;&gt; Yeah. You you just know. But I also I
+for our next uh kind of like for our
+next version or our more advanced one, I
+had it I had it use its front-end design
+skill and this is what I came up with
+where it's just it's just much cleaner
+and nicer and feels, you know, it's it
+it's it's still uh you know, still a
+classic kind of web page, but now it
+just has so much more personality in
+this than the first one. So I would say
+this is just a perfect example where
+okay, I think AI is bad at this. Well,
+maybe all you actually need is a skill.
+And what's cool about this skill in
+particular, so let's go ahead and look
+at it. Um, we'll have Cloud Code open it
+up for us. Um, there's a couple
+different ways that you can approach
+skills. So, what I think is so amazing
+about this skill is that it actually
+doesn't give Cloud Code any like
+specific new um, abilities. All it is is
+it's just a really good prompt. Um,
+I'm going to have it open it for us here
+in cursor. One thing that's interesting
+is when you install a plugin or you
+install something from the marketplace,
+it uh depending on how you have it
+configured. Um it's not actually in this
+repo. It's kind of like at the computer
+level. So we're not seeing front-end
+design over here in skills. It's like a
+couple levels back. Um but this is this
+is what we have here. So it just shows
+like uh this is what all skills have,
+which is their name and then their
+description and and when they're
+supposed to be used. Um, but this is
+just the prompt that Anthropic has come
+up with to tell the AI just better rules
+for how to do front-end design. So, like
+think about the purpose of what you're
+building. U, make sure that you have a
+clear conceptual direction. Um, here's
+the aesthetics. And it basically tells
+it to don't be AI. Instead, follow these
+rules. And so, I think it's it's good
+just to show you can have an incredibly
+powerful skill that doesn't have any
+MCPS or APIs or any code with it. just
+wrote a really good prompt that you
+perfect over time can make a really
+really good skill.
+&gt;&gt; Although skills with tools are pretty
+powerful, right?
+&gt;&gt; Yes, skills with tools are definitely
+more powerful. So, that's what we'll
+look at um next.
+&gt;&gt; Today's podcast is brought to you by
+Pendo. Welcome to the SAS plus AI agent
+era where every product team, no matter
+the size, can build worldclass
+experiences. Meet Pendo AI agents.
+Virtual teammates that read your product
+data, chat with users, and take smart
+inapp action so you don't have to. With
+agent analytics, Pendo shows exactly how
+those agents drive adoption, complete
+tasks, and even cut churn. No extra
+engineering lift, fully sock 2, and
+HIPPO ready. And because Pendo's
+behavioral insights sync straight back
+into your BI stack, you get AI ready
+data to fine-tune models and prove ROI
+in one place. Smaller team, bigger
+ambitions. You no longer need an army to
+deliver software your customers love.
+Grab early access at pendo.com/akosh.
+That's p nd d o.com/ a kh.
+Today's episode is brought to you by
+NY1. In tech buying, speed is survival.
+How fast you can get a product in front
+of customers decides if you will win. If
+it takes you 9 months to buy one piece
+of tech, you're dead in the water. Right
+now, financial services are under
+pressure to get AI live. But in a
+regulated industry, the roadblocks are
+real. NI1 changes that. Their airgapped
+cloud agnostic sandbox lets you find,
+test, and validate new AI tools much
+faster from months to weeks, from stuck
+to shift. If you're ready to accelerate
+AI adoption, check out NIA1 at
+nia1.com/acos.
+That's n a y ao n.com/
+a kas. I hope you're enjoying today's
+episode. Are you interested in becoming
+an AI product manager, making hundreds
+of thousands of dollars more joining
+OpenAI anthropic? Then you might want to
+do a course that I've taken myself, the
+AIPM certificate ran by OpenAI product
+leader McDad Jaffer. If you use my code
+and my link, you get a special discount
+on this course. It is a course that I
+highly recommend. We have done a lot of
+collaborations together on things like
+AI product strategy. So check out our
+newsletter articles if you want to see
+the quality of the type of thinking
+you'll get. One of my frequent
+collaborators, Pavle Hearn, is the Build
+Labs leader. So you're going to live
+build an AI product with Pavvel's
+feedback if you take this AIPM
+certificate. So be sure to check that
+out. Be sure to use my code and my link
+in order to get a special discount. And
+now back into today's episode
+&gt;&gt; is uh there's kind of two ways that you
+can power up your skills. The first one
+is just you make a skill and in that
+skill it tells Claude to use like
+official tools. So what we're we in this
+repo I have uh one a skill called web
+research. And so Claude if you just have
+it do a general uh web search like we
+did earlier in this uh demo where we had
+it look up the top five um cloud code
+tips from the week. Those results that
+cloud code gives are just notoriously
+unreliable. Um, one, it's basically just
+running Google searches and it's just
+grabbing stuff from the first page. And
+I think you kind of know if you're just
+searching stuff on Google and you're
+clicking the first links, you have
+absolutely no idea if those are actually
+good links. I think uh, pre-AII, the
+internet was really starting to feel
+just like so much SEO generated slop
+even before there was AI slop. And uh,
+if you do you really want that to be in
+the context window for Claude? So I
+would say this is another example of
+where people say, "Oh, you can't really
+trust Claude to do reliable research."
+Well, again, this is an area where if
+you just give it better tools, it can
+actually do better research.
+&gt;&gt; Mhm.
+&gt;&gt; And so in this uh skill, basically we
+have it connected to two tools. One is a
+an MCP called um Tavi. I'll zoom in
+here. Um
+MCP uh called Tavly. So this is a it's
+it's really good. It basically is just
+like a much more powerful almost
+perplexity type of search. Yeah. Um that
+gets much higher quality results than
+just a classic web search. And so here
+we're turning it on. It's a very
+generous free tier if anyone wants to
+try it. And then what we also have in
+this um skill is we have it uh connected
+to something called firecrawl which
+firecrawl basically is once you once you
+have a URL that will scrape it and get
+really clean markdown. And so it's a
+nice way where normally when you go to a
+website and claude looks at it, there's
+a bunch of extra HTML and like maybe
+JavaScript and things like that,
+Firecrawl will just get just the sort of
+like raw information that the AI
+actually needs without all of that other
+stuff. And um one thing that's cool
+about this is that um Firecrawl is
+actually the way I have it set up is
+actually not an MCP. So, if we look at
+the MCPS I have set up here, um MCPs are
+are good, but as we saw earlier when we
+were just looking at our context window,
+they eat up a lot of context just right
+off the bat. Like if we look at our
+context, we see that um Tavi is taking
+up like a couple thousand tokens just by
+existing. Yeah.
+&gt;&gt; Versus what you can also uh install are
+CLIs. So, a CLI is kind of it's
+interesting. Uh it's kind of like an
+older technology. It it used to be the
+way that you would operate a computer in
+the beginning with a command line
+interface and they kind of fell away of
+course with people wanting like better
+UIs for most things but AIS are really
+really good at using command line
+interfaces and um essentially what they
+are is it's like you have a tool and
+then you download it onto your computer
+and so it's just sitting on your machine
+and then the AI can use the command line
+directly uh just through because we're
+basically in the CLI here and so you
+have all the power of that tool just
+installed on on your actual machine so
+that when the AI wants to use it, it
+doesn't actually have to have context
+just holding it in there. It can just
+use that CLI directly from your machine.
+And so what we're seeing is, you know,
+originally there was MCPs, but I
+actually think MCPS are kind of starting
+to be the less preferred way over CLIs.
+And most tools already had CLIs and
+there's becoming a lot more. So, for
+example, if you've ever tried to connect
+the Google Workspace MCP, um I actually
+tried to do that on another uh podcast
+live and it's just it's such a hassle,
+but there's actually a Google Workspace
+CLI and that's what for example Open
+Claw uses. So, it's just way more
+reliable than using an MCP because it's
+just on the machine and it's easy for
+the cloud to figure out how to use it.
+And I think what we're going to see in
+the next over the next year is just a
+lot more CLI tools because AI are so
+good at using them. Yeah, Andre Carpathy
+said it himself like you should prefer a
+CLI connection and I think the hierarchy
+is basically MCP at the bottom because
+it eats up so much context then API CLI
+at the top and funny enough CLI is
+basically just usually a wrapper on top
+of the API but agents like to work with
+CLIs.
+&gt;&gt; Yeah, exactly. The other CLI I would say
+are just awesome. Um GitHub CLI I would
+say basically mandatory if you're like
+doing anything with GitHub. The CLI
+Claude is just aggressively competent at
+at the GitHub CLI. It's it's amazing.
+And um the Versell CLI is another really
+good one where um if you want to deploy
+your app, then you can it can check the
+logs. It can configure your environment
+variables. Um those two, if you're like
+doing any vibe coding, if you have the
+GitHub CLI and the Versel CLI, so much
+easier, so much more powerful.
+&gt;&gt; I think this is one of the most
+underrated hacks. If you take anything
+away from this episode, stop using MCPs.
+Start using CLIs.
+&gt;&gt; Yeah. And it just literally if you just
+uh if you just say, "Hey Claude, does a
+CLI for this exist?" More often than
+you'd probably guess that the answer is
+yes. And um here what and and just
+download that and use that because it's
+just it's just so powerful. So what I
+did is I went ahead and ran our web
+research which uses tavly to find stuff
+and then firecrawl to kind of scrape the
+pages. And um that's just a this is
+again a really good way to shore up that
+web search is not that good for AI but
+if you give it access to these tools it
+can be way more powerful and then I have
+those wrapped into a skill.
+&gt;&gt; Amazing. So we covered front-end design
+web search. I think the other thing
+people talk about is making slides.
+&gt;&gt; Yeah. So another area where if you just
+say if you just tell Claude um hey can
+you like if it's something web pages are
+I think easier for Claude to understand.
+There's tons of web pages in its data.
+So, it kind of knows what they're
+supposed to look like. Um, but if you
+ask it to do something like make a
+graphic for this or make a slide for
+this then and you look at his result,
+they're usually not that great. Like
+they're usually not laid out the best.
+There's usually like alignment issues
+that could be better or like the space
+isn't filled very well. So one of the
+best things that you can do and this is
+again all across the theme of just okay
+well I'm saying that cloud code is bad
+at bad at these things but for example
+what a lot of people will do and you
+might find yourself doing this is you
+say okay please make a slide in HTML
+that covers you know this thing and then
+you it makes it and then you screenshot
+it and then you say hey can you fix this
+this and this and then it does it again
+and you say hey can you fix this this
+and this instead of uh you doing that
+think can I give claude a way can I give
+cloud code a way to check its own work
+and that is just a huge unlock for
+anything that you're doing with like
+visual design with AI is give it a way
+to see its own work and so what we have
+here is we have a skill called make
+slides and this is a bit of a bit more
+advanced so so far we've had just words
+and then we had words telling it that it
+has access to a couple tools this one
+actually has uh code in kind of telling
+it how to use code in the skill so that
+when it runs the skill it will now know
+that it can run that code to help it
+check its own workh
+&gt;&gt; so Here we have our make slide skill. Um
+this uh it tells it like okay I want it
+to read these dimensions. I want it to
+have these layouts. So this is similar
+you know to the front-end design skill
+we saw. But what's new is that there's
+an actual build process. So it's step
+one and it's telling it that um like
+kind of the different types of code that
+it can use and it's saying hey you can
+measure overflow. So it's using a tool
+called Puppeteer which is like a very
+classic front-end development tool. So
+you can take screenshots of HTML pages
+just exactly as they look when they're
+rendered. And we're saying, "Hey, you
+have access to Puppeteer. Use it in this
+particular way." So it's telling it like
+the dimensions that it should grab. Um,
+and then it's doing a calculation here
+to see does any does any of this text
+fall off the page. And that's a that's a
+thing that if Claude doesn't have a tool
+to check it to check that, it can't
+really do it on its own. But with a
+tool, it can do it basically perfectly.
+And so that's what this that's what this
+skill does is just embeds that codebased
+tool directly in the skill so that when
+we say hey make a slide it will run
+these tools that it knows it has access
+to.
+&gt;&gt; So this is the implementation of the
+advice when I asked Carl the question
+what skills should you make and he said
+well anything that's coming up in your
+workflow if it's coming up that you're
+iterating on these slides by having to
+look at it build a skill. And now you
+guys are seeing the most advanced way to
+build a skill with the code in it.
+&gt;&gt; Yep. And so here I said use your make
+slide skill to make a single detailed
+slide for a presentation called from
+watching collaborating kind of the theme
+of this. And so now what it's going to
+do is it's going to go ahead and um
+create that screenshot itself calculate
+and then one thing I found is if you
+just say like you must iterate three
+times before you show me. It'll be much
+better than if you say oh just go until
+you're done. Um I would say this is an
+area where you really see AI just really
+have like great taste. you know, if if
+you give it an infographic that just has
+tons of information on it, it's like,
+"Wow, this is so amazing." Uh, but the
+actual content or the layout might be
+terrible. So, it's it's helpful to just
+say, "Hey, you have to improve it three
+times." And then it will find some ways
+to uh to try doing that.
+&gt;&gt; Yes. And there's also this crazy
+phenomena where if you repeat yourself
+with your skills, the AI does better.
+There was just a Google paper released
+where they showed that literally just
+pasting in a prompt twice helps. And
+this is I've been using this in almost
+all my skills these days. I'll say after
+I execute it once, I'll say go double
+check against the skill again and it
+really improves it. And so Carl's
+technique is a way to sort of encode
+that so that it builds it into itself.
+&gt;&gt; Yeah, that's super interesting. I think
+uh I've heard that that I've heard that
+called the builder validator pattern
+where like when a when a AI just runs
+its own work, it doesn't really have
+that like self-reflection to like really
+know if it did it like it tries to
+follow the rules. So just having it I I
+I've never heard of just running the
+prompt the same time. That's very
+interesting. But I I have had it just
+like okay do this and then here's the
+rules that that was supposed to do. Did
+it follow those rules in like the second
+pass and it the quality just goes up so
+much.
+&gt;&gt; So while this is building, can you show
+us how to auto invoke skills because I'm
+just on the edge of my seat about this.
+&gt;&gt; Yes. Okay. So this is the riskiest part
+of this podcast. So last time u I said
+that there was Okay. Well, actually
+taking a step back, the way that skills
+are supposed to work is if when we look
+at this skill, for example, we have this
+skill and it says, "Okay, use when the
+user mentions make slides, make a slide,
+create slides, presentation." So, it's
+supposed to just know from when you
+message it that, okay, great. The person
+just said, uh, make slides. So, now I
+know I have the skill and I should use
+it. It doesn't really work that way. Uh,
+and this is kind of just like a funny
+thing about cloud code is this that auto
+invocation of skills is really finicky
+and I think most people have seen that
+it doesn't work. One thing you can do
+like the most dead simple way is Claude
+MD the skills that your AI has access
+to. Yeah,
+&gt;&gt; that does it actually does make a a
+difference but then you're adding to
+your cloud MD and it's kind of hard to
+like if you add a new skill you have to
+go back and update the cloud MD but then
+you're also like eating up context for
+no reason. Um, so the way to do it is
+with hooks, which is another thing that
+we covered last time. Um, but then the
+demo didn't really work, but I think
+it's going to work this time. I I uh
+really heavily tested it. So, what we
+have a hook is basically
+some sort of like thing that you can
+have happen around the whole cloud code
+workflow. So, it can be when you send a
+message, it can be when a message comes
+back, it can be before compaction, it
+can be after compaction. So if you just
+think about like all of the things that
+cloud code can do like just the whole
+life cycle of like everything that's
+possible within what like runs a tool
+runs a web search all of that you can
+add a hook before or after and that
+basically says okay this type of thing
+has to happen an example would be maybe
+every time a new do uh a new markdown
+file is created it has to have you know
+some formatting at the top for example
+so here what we're going to do is we're
+going to use a hook um that
+Okay.
+&gt;&gt; So, we're going to use a hook. It's a
+user prompt submit hook. So, basically,
+every time I run a message, then that's
+when this hook will fire. And what we
+already have configured before I uh type
+this is we have a script that runs and
+it just says, okay, are any of the words
+in the thing that the user just typed
+in, are those in the keywords of the
+skills that exist uh in the skills?
+&gt;&gt; Nice. And um this is nice because it's
+just a script. So it's not it's not like
+uh there are like there there would be a
+way to do it where you would have the
+LLM like actually look but that's very
+slow. Whereas this is a script that just
+says if there is a match then uh I will
+give it to the LLM and then the LLM can
+decide oh okay now is the right time to
+use that or now is not the right time to
+use that.
+&gt;&gt; Nice. So what we did is we just added
+this hook and then what what we see
+happens is uh the way hooks work is so
+we had the hook here but it wasn't
+activated because you have to put it
+into your settings and so that was how I
+that was how I set this up. So now there
+is a hook on user prompt submit so it's
+whenever this command is whenever this
+you know command is run user prompt
+submit then run this code and that code
+sees was one of the words that I just
+put in does it match a keyword of one of
+my skills? Mhm.
+&gt;&gt; The biggest question that PMS have about
+AI outputs is how can I trust this and
+you've built some workflows that people
+can use to enhance that? What are they?
+&gt;&gt; Yeah. So, one thing I've realized is
+that for for product managers and and
+people who, you know, they have a few
+things that have to be right and they
+have to really be able to rely on it to
+be right. One of the biggest areas that
+people are just really concerned about
+is using AI to do data analysis because
+on one hand it should it should be
+really good at that, right? Like it it
+can run code and you see it do all this
+other type of code stuff, but for data
+analysis, you really need the result to
+be correct. And I think it's an area
+where if you're not a data analyst and
+you don't really know exactly how the
+LLM is is coming up with its results,
+then you're going to be relying on
+these. You're going to be presenting
+these to people. You're going to be
+showing your boss this data. how where
+does that data actually come from and
+how is it calculated is a a major area
+where people just do not trust AI but it
+turns out there actually like the other
+things we've been talking about this is
+a weakness but there is a a sort of a
+tool or workflow that we can use to um
+give cloud code we can get much more
+visibility into cloud code's process so
+that we can trust its results more
+&gt;&gt; and so the the best way to do this is um
+this is something I I've kind of play
+been playing around with more over the
+last few months is uh is Jupyter
+notebook so this is the kind of like
+standard artifact that analysts will use
+and it's actually a really good thing to
+use within cloud code and the very cool
+thing is that we can basically create a
+Jupyter notebook which is just it shows
+what were the exact queries used for
+this what were the results and it can
+visualize that all for you and the
+really cool thing about Jupyter
+notebooks is that a Jupyter file will
+render natively in cursor or VS code so
+you can actually just stay in the tool
+without having to look at it somewhere
+And it's honestly one of the like nicest
+types of things that you can have be
+displayed here like right in your in
+your terminal or your IDE.
+So here what we what we have is we have
+um in our data folder here we have
+survey responses. So we have 23
+survey responses from all different
+types of people in this sort of like
+fictional company around how they're
+using this to-do tool. And so what we're
+going to say is please uh analyze this
+data in a Jupyter notebook and show me
+what we're working with. So just to
+start you can and this is kind of like a
+very small quick example of how can you
+work with data in cloud code. And so
+here it's going to go ahead and it's
+going to look at this and it will just
+kind of show us what we're working with.
+It's pretty hard to see CSVs. There are
+some extensions that make it easier to
+see but they're not great. So it's kind
+of nice to just have cloud code like
+show you what you're working with. And
+right off the bat we have here we see
+this new file was created this Jupiter
+notebook and it's just showing us a very
+simple it's actually still working here.
+Um
+&gt;&gt; so this is the code.
+&gt;&gt; Yeah.
+&gt;&gt; Yeah. So it's running Python. And then
+what it will do is it's uh I it looks
+like it has to install a few things to
+make this like actually render. But what
+we'll see is we'll see like an actual UI
+example of um of what this code is
+running for us. So we see that it's kind
+of just getting the the columns and
+datas and it will present that to us.
+We're seeing Cloud do some live
+debugging here.
+&gt;&gt; Yeah, if you ever go look over your data
+scientist shoulder, they live in Jupyter
+notebooks. And so, how do we add proof
+of work to our analysis? That's really
+what we want to do. We want to create
+traceable analysis. The Jupyter notebook
+is solving that problem for you.
+&gt;&gt; Exactly. And um yeah, so now we see that
+there's this notebook. It just got the
+columns. It's showing us like what is
+the overall shape. So, it has this many
+rows with this many columns. And here's
+an example of what some of those look
+like. So what we're kind of just seeing
+here is what is a Jupiter, how does it
+work? It's the code. It's kind of like
+some example output and then it's
+rendering that nicely for us. But of
+course, you can do much more
+sophisticated things. You can and it's
+honestly amazing that once you get more
+familiar with the types of data
+questions that cloud can answer, it's
+like you're working with a data analyst
+that will just answer any questions you
+want about your data. It will segment it
+in any way. You can do pretty
+sophisticated statistical types of
+analyses. All types of things that if
+you're working at a company, getting
+access to an analyst time to ask
+questions that sometimes you're not even
+sure like exactly what you want to learn
+or you're hoping to learn. Um or or if
+it would be worth it to do it an
+analysis. That used to be something that
+had a whole process. You probably don't
+have that many analysts at your company.
+Long time for them to look at it and you
+have to get it on their their own
+research or data roadmap. Now you can
+just do a lot of that exploration right
+here on your own and you can actually
+trust results. So for the next thing
+what we'll ask here is um just show me
+the distribution of uh enterprise
+interest scores as a chart. So now we're
+moving from just looking at the raw data
+to now actually creating like a nice
+visual that shows a bar chart of the
+distribution uh between these different
+groups.
+&gt;&gt; So step one it'll help you visualize a
+CSV. Step two it'll help you create
+charts. We see it running its code over
+here.
+And then it's gonna
+&gt;&gt; The really powerful mental model for
+cloud code in general is take the roles
+that you work with. You almost want to
+create versions of cloud code for those
+various roles. That's kind of what the
+front-end design skill is doing. It's
+taking the designer role. It's trying to
+like distill what some of that person is
+doing. Here we're trying to distill sort
+of what an analyst might be doing.
+&gt;&gt; Yeah, I love that. That's a really good
+framing. It's like what are the tools or
+thought processes that these roles have
+and then how can we give those types of
+things um to cloud code so that it is
+able to do stuff like that and of course
+won't always be the exact same but it it
+approximates it much more and that's
+usually good enough for what you need to
+do as as a PM at least to start. So we
+see now there's a whole another set of
+code here and now we have this nice
+distribution.
+&gt;&gt; Wow. And so just to kind of round this
+out as one example. So we're going to
+have it do like a really crazy analysis.
+We're going to say show me a correlation
+heat map of all the numeric columns
+satisfaction feature important scores
+enterprise interest and NPS. What
+patterns jump out? So now we're going
+from just you know we know what we are
+hoping to get like out of the data. Um
+and now we're having it actually do a
+much more sophisticated analysis and
+then also look at it and tell us what
+it's noticing. And this is where you can
+really become like a collaborative
+partner with AI. Um, of course you're
+going to see the things that it's
+saying, but oftent times with this type
+of stuff, it's it's pretty good like off
+the bat. Um, especially if you give it
+some of those like more ways to think
+about what would be interesting in the
+data. And if you're feeling like I
+couldn't craft a font as good as Carl
+did, think about creating an analytics
+manager sub agent and this as your
+analytics sub agent and say analytics
+manager agent really good at formulating
+prompts for the analyst and then the
+analyst goes execute. If you create this
+sort of sub aent structure again
+replicating what it would be like in a
+real company, you can outsource a lot of
+the thinking to cloud code.
+&gt;&gt; Yeah, 100%. That that is a good way to
+do it. you can have it like kind of know
+what are a bunch of different types of
+analyses that it could do. I think this
+is a really good example of where like
+it's much more fun to learn these things
+because now there's an actual way that
+you could immediately apply them. So
+here we have this like awesome
+correlation road map. I I don't think we
+need to go like too deep into it. But
+this is it looks cool and if you if you
+knew that this is the right type of
+analysis that you wanted to do then uh
+now we we have it here. And what this
+type of analysis does it just shows
+correlation between things. So like in
+the survey results, how often do people
+talk about enterprise interest and
+security? Okay. Well, that kind of gives
+us a sense here um that like enterprise
+cares about security. Enterprise cares
+about team management. Enterprise
+doesn't care as much about pricing,
+right? They're a little bit more price
+flexible. And so this is just one
+example of like a really cool analysis
+that like, you know, analysts at your
+company. I'm sure they could do it, but
+it would take them some time. Um you're
+not even sure if it would be the right
+thing to ask. But now we have this like
+awesome analysis and there's all
+different types of regression testing
+and all that kind of stuff where if you
+if you learn what those things are now
+it's really easy to execute them and you
+can have a lot more confidence that you
+when you show your analyst or you show
+your manager here is where we got that
+data from and then they can look at this
+and tell you if there's anything wrong
+with that rather than you know just
+having no transparency into how that AI
+actually got to that end result. So
+we've put together all these features
+for people context management skills sub
+agents hooks even Jupiter notebook
+Python analysis. I think the biggest
+roadblock for people is like putting
+this all together into a system. So how
+do people build the right operating
+system for their cloud code setup?
+&gt;&gt; Yeah, I would say this is something that
+uh it's the the main the way main way is
+you kind of use it and then you you
+probably like even here we haven't
+really been doing stuff in the system.
+So every file that claude has been
+making has been getting kind of like
+dumped out here and then now we have to
+figure out you know where should it go
+in the overall system. So just figuring
+out like where should the context layer
+live like where are where is are the
+types of information that you want to
+easily be able to provide to cloud code
+where does that live what are the
+different types and then the other thing
+is thinking about okay well I'm not just
+going to have this be a static workplace
+where I'm just going to only reference
+say oh hey in my knowledge folder like I
+have these different people I work with
+I have like stuff about my company
+you're actually going to be creating new
+work as well and figuring out where that
+should go so I'll just do kind of a
+quick kind of rundown of the system that
+I have found works really well and
+talking to other PMs. I think it's a
+good starting place and of course you'll
+customize it yourself. Um, so for things
+where you just want to be able to
+reference that don't change very often,
+having just a knowledge folder with some
+of like the key things that you want to
+be able to say, "Hey Claude, um, I'm
+have a meeting with David Chen who in
+this case is, uh, we'll say it's the
+director of core, it's your direct
+manager. Um, these are the things that
+they care about. Um, how should I
+structure, you know, this piece of
+writing or things like that?" So just
+keeping in mind like who are the people
+you work with, what are like different
+reference material, research, having
+that in like kind of a static knowledge
+folder somewhere for meetings to go. Um,
+&gt;&gt; and Carl's being pretty humble about
+this, but actually putting in the time
+to build this guys, I'm not kidding, it
+will 10x the outputs. So if you spend
+the hour to add in this really important
+context and then structure it in this
+way, he said the outputs you get will
+look nothing like the outputs somebody
+else using cloud code is building. And
+that's how you we talked about AI slop
+for a second, right? Earlier. That's how
+you avoid that AI slop label.
+&gt;&gt; Yeah, 100%. And there's so much cool
+stuff you can do with with this type of
+knowledge in here. So, one, people love
+this people folder, which is like kind
+of like a a little dossier about like
+different people at your company. It no
+one even ever has to see this, right?
+This can be your way that you
+communicate with those people. But
+there's um or what you've learned about
+those people. But what's so cool is like
+now that cloud code is becoming more
+central to all these oh like you can
+connect to everything you could um you
+know granola which is the meeting
+transcriber I think uh sponsor of this
+show they uh they have an MCP that
+connects um you can pull in your meeting
+notes. So you could literally have a
+workflow like you have a skill called
+like update uh people that would look at
+what did people say in the meeting that
+you just had with them and then add
+notes around like what are the types of
+things they care about or don't care
+about into their file. And then when you
+go to draft a message to them or you're
+thinking about something um related to
+them, you have this like really golden
+type of context from real meetings in
+here. And that that that just provides
+such a totally different level of
+information and specificity that you can
+give to these models than just saying,
+"Oh, yeah. I have my manager. He likes,
+you know, Kurt communication or or
+something like that."
+&gt;&gt; Exactly.
+&gt;&gt; Yeah. So just having that somewhere for
+it to live so that then you can build on
+top of it is really the most important
+thing. Um I will say the the So having
+your knowledge folders like and meetings
+and stuff like that is helpful. I would
+say the other main one that I personally
+find is the like absolute most helpful
+thing for me is I have a project folder
+and the way I use a projects folder is
+anytime I'm starting any kind of new
+task like I'm preparing for this podcast
+for example I'll create a new folder
+called you know product growth cloud
+code ep 3 and then now anytime that I'm
+doing any work like for example um like
+a real example for when I was preparing
+for this podcast is this is our third
+episode on cloud code and so I said,
+"Uh, I I have a I have my own um like
+transcription. There's actually a
+YouTube transcribing CLI." So, I said,
+"Hey, please grab the transcripts from
+our first two episodes. What did we
+cover? What did we not cover?" And then
+it drops those into this folder. And
+then I say, "Okay, let's draft uh what
+could we do look at in this next
+episode?" That goes in this folder. And
+so, you kind of have a place for all
+that stuff to live. And what's so cool
+is that the next time like let's say I
+leave cloud code or um I'm on a
+different machine or it's just another
+day instead of having to sort of figure
+out like okay what was all the
+information related to that project what
+you can do is you can just literally
+take this folder and then I'm going to
+hold shift and you can just drop it in
+here and say hey we need to work on this
+board deck here's all the research I've
+done for before get up to speed and then
+let's work on it and so the projects
+folder is just it's just such a nice way
+to have everything be couched you know
+somewhere in your system and then uh
+next time you're coming back to it, it's
+all there and then you archive it. But
+anytime you want to go back to it, you
+have all of the initial artifacts and
+anything else that you created with
+cloud code all right there, right in
+that project folder.
+&gt;&gt; Nice. So I think it might be worth
+people doing a one-time download to
+build a projects folder, right? So like,
+hey, here's our linear and our notion.
+Please build out my last five projects
+folders. Pull the initial PRDS, pull the
+features, results write ups. And that's
+how you can practically implement this
+pretty fast.
+&gt;&gt; Yep. Exactly. And then just kind of like
+the very last thing to show like once
+you do have this all set up like what
+are some things that you can do? One
+I'll just show quickly that that people
+like a lot is you can have like a kind
+of start standup command. So what this
+does or uh yeah start standup skill. So
+when we go to our skills and we look at
+um standup,
+what this does is it will pull in
+information from GitHub. It'll pull it
+in from our tasks folder. It'll pull it
+in from our calendar if we had our
+calendar connected. It'll check linear.
+it'll and then it'll put it all together
+for us. I don't have all of that hooked
+up right now. Um, but it will look it'll
+use the information that it does have
+available locally. And so it'll go
+through and it will pull in all that
+information and all of those tools and
+all of those skills and all of those
+things that you have set up from this
+system. you can just start to com, you
+know, mix and match them and having it
+all in one place lets you just use all
+the stuff in like a completely different
+way so that it just right there it has
+all the information it needs without you
+having to go and check all those places
+you know one by one and so when I say
+I'm living in cloud code all day it once
+you get to a certain point it's like oh
+my gosh I do not want to have to leave
+cloud code like I do not want to have to
+go to check Google Analytics for how my
+website's doing I really want to just be
+able to ask claude because then I can
+say, "Hey, how is my uh website traffic
+and can you compare that to the posts
+I've made on LinkedIn this week?" And
+that would be almost an impossible
+analysis to do if I was just clicking
+into those individual UIs. But when you
+have cloud code here set up and
+connected to everything and you have a
+place for that information to go, then
+it just becomes more and more
+compounding and more and more powerful.
+&gt;&gt; And that's something to be honest guys I
+haven't done. So I need to do that right
+now.
+&gt;&gt; And what about your cloud MD file, your
+goals MD? What else? Just walk us
+through the rest of this operating
+system. how you set it up so that people
+can kind of get to your expert level
+fast.
+&gt;&gt; Yeah, sounds good. So, um the other ones
+that I would say the other ones that are
+good to have Yeah. So, data we like we
+were kind of dropping all of our data
+analysis into here. Um tasks. So, just
+some and I would I would say that you
+know you can you can connect um cloud
+code to Apple reminders or to-doist or
+things like that. Oftentimes you kind of
+as you use cloud code more you just kind
+of start to become like a little bit
+more markdown native I would almost say.
+And so, uh, I like just having a a file
+that just says, okay, what are the
+things that I'm currently working on?
+Uh, and then what are like other things
+that if I don't have time to work on
+them now, just drop them into this, uh,
+this other folder. And so, this is a
+good way when I just ran that standup
+command that says, okay, these are all
+the things you're working on. There's
+these are things that are not done yet.
+So, having somewhere to manage like the
+work and then also a place to h house
+um, ideas that you don't have time to
+get to is really helpful. Um and then
+the other really really uh the other
+important ones tools. So this is where
+um for example here we uh we have our
+meeting prep uh as kind of a tool. So
+this is something where um what it will
+do is this one will actually go through
+and it knows how to run the code in
+order to put together uh a meeting
+preparation for me. And so if I'm for
+example building my standup skill, I can
+say you have access to this tool um that
+lets you prep meetings or you have
+access to this tool that uh will pull
+metrics. So for example, I have a big
+script that will pull in like my beehive
+um newsletter information. It'll check
+my analytics and and that's much better
+to have as like a pre-built script that
+you can then test. And what's what's
+nice about having it in a tools folder
+is that anytime you build a new tool or
+like a new capability for cloud, it goes
+here and then you can in the future like
+include in your cloud MD, hey, you have
+a tools folder. Um, use that to figure
+out like what access to other things
+that you actually have. Uh, and then the
+last thing that's just really good to
+set up and keep updated is your overall
+cloud file. Um if if you're not familiar
+the the cloud file has like a really
+kind of like special use in cloud code
+which is that it's automatically in
+context all the time. Um so for example
+when we run context over here in cloud
+code and we see like what are all the
+things taking it up um the cloud MD will
+always be there and what's cool is it's
+not just there in the first message it's
+there in the background for every
+message. So, this is the type of context
+you want it to just always be aware of.
+And um so here I have like a fictional
+company set up called GradeFlow. Um and
+this is just like good to include things
+about how you like Claude to work with
+you, who you are, what are you working
+on, so that every prompt is kind of
+through a little bit of a um like it's
+through a little bit of a lens of what
+you're actually working on rather than
+just being generic. And this is the type
+of thing where people love OpenClaw
+because it is so has so much personality
+memory about you. This is like the very
+light very lightweight version that
+exists in cloud code.
+&gt;&gt; Yeah, it's not quite a solemn MD file,
+but I would say guys, there's a lot of
+alpha in continuing to iterate on your
+cloud MD file every week, every month,
+every time you run into an issue with
+cloud code. Pull it into your cloud MD
+file and update that CloudMD file. We
+have covered a lot of stuff, Carl. You
+have a lot more too at cc4pms.com,
+the full stackpm newsletter, on your
+hilarious Instagram, your awesome
+LinkedIn and Twitter. Is there anywhere
+else people should be going to finding
+you and learning from you?
+&gt;&gt; No, I think you hit the main ones. Um,
+CC for PMS is my free cloud code for
+product managers course. I have another
+version CC for everyone.com that is uh
+just a more general version but covers
+the same thing. The cool thing about
+those courses is that they are cloud
+code taught in cloud code. So you'll say
+um hey start lesson and then cloud code
+will actually guide you through a bunch
+of the stuff for example that I kind of
+showed you today and then my newsletter
+the full stack PM. Those are the places
+you can find me. Amazing. Do check him
+out. Do subscribe and like and comment
+if we should have him back another time.
+&gt;&gt; I I I hope I hope we see some likes and
+comments. I I love being on this show.
+&gt;&gt; Amazing. We love having you, Carl. Thank
+you so so much.
+&gt;&gt; All right. Thank you.
+&gt;&gt; Bye, everyone. I hope you enjoyed that
+episode. If you could take a moment to
+double check that you have followed on
+Apple and Spotify podcasts, subscribed
+on YouTube, left a rating or review on
+Apple or Spotify, and commented on
+YouTube, all these things will help the
+algorithm distribute the show to more
+and more people. As we distribute the
+show to more people, we can grow the
+show, improve the quality of the content
+and the production to get you better
+insights to stay ahead in your career.
+Finally, do check out my bundle at
+bundle.ashg.com kashg.com to get access
+to nine AI products for an entire year
+for free. This includes Dovetail, Mobin,
+Linear, Reforge, Build, Descript, and
+many other amazing tools that will help
+you as an AI product manager or builder
+succeed. I'll see you in the next
+episode.

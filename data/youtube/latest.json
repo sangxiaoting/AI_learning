@@ -1,0 +1,531 @@
+[
+  {
+    "id": "dYG8JxtSgmM",
+    "type": "youtube",
+    "title": "Claude Code was just leaked... (WOAH)",
+    "author": "Matthew Berman",
+    "date": "2026-04-01",
+    "dateText": "Apr 1",
+    "duration": "15:00",
+    "tldr": "Claude Code源代码意外泄露，近2300个文件、近50万行代码公之于众，揭示了这个顶级AI编程助手 harness 的核心设计细节，包括并行架构、权限系统、内存压缩机制和hook系统等关键秘密。",
+    "takeaways": [
+      "Claude.md 文件会被加载到每一次对话中，最多4万字符，可在其中定义代码规范、架构模式和团队最佳实践",
+      "Claude Code 专为并行设计，子代理之间共享 prompt cache，10个代理同时运行也能获得免费并行性能",
+      "权限系统有三种模式：Bypass（无检查）、Allow Edits（自动允许文件编辑）、Auto（LLM分类器预测用户意图后自动决策，推荐使用）",
+      " compaction 机制有5种方式：micro compact、context collapse、session memory、full compact、ptl truncation，手动触发 /compact 可主动管理上下文",
+      "Claude Code 内置60+工具，划分为并发工具（只读操作）和序列化工具（变更操作），大型工具结果只发送8KB预览到模型"
+    ],
+    "quote": "The thing that is actually more important than what the model remembers is what it forgets. Knowing what to forget lets you remember the things that are important to remember much more accurately.",
+    "link": "https://www.youtube.com/watch?v=dYG8JxtSgmM",
+    "tags": [
+      "Claude Code",
+      "AI Agents",
+      "Open Source",
+      "Anthropic",
+      "Harness Architecture",
+      "LLM Optimization"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "泄露背景与影响范围",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Claude Code源代码通过npm registry的map文件意外泄露，已被人转换为Python版本使其合法可用，24小时内仅X平台就获得2200万次浏览"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "泄露包含2300个原始工具代码文件，近50万行代码，但核心模型与harness的配对秘密仍未完全公开"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "对Anthropic影响有限，无客户数据或API密钥泄露，但暴露了harness设计细节；开源社区可借此研究如何构建更高效的编程agent"
+          }
+        ]
+      },
+      {
+        "subtitle": "Claude.md的核心作用",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Claude.md在每次对话轮次中都会被加载，是用户向Claude Code传达工作方式的标准、文件关注重点、代码架构规范的最佳实践的核心配置入口"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "充分利用4万字符限制，将团队代码规范、架构模式、设计模式偏好写入Claude.md，可显著提升agent输出质量与一致性"
+          }
+        ]
+      },
+      {
+        "subtitle": "并行架构设计",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Claude Code从设计之初就为并行而生，子代理之间共享prompt cache，多个代理同时运行几乎无需额外成本，Boris Churnney（Claude Code发明者）表示他总是同时运行多个agent"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "使用git worktree为每个代理创建独立隔离分支，避免工作区冲突，单一agent方式并非最优解"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "构建高效coding harness应考虑工作树+多agent并行架构，而非依赖单一agent顺序执行"
+          }
+        ]
+      },
+      {
+        "subtitle": "智能权限系统",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Claude Code的权限系统旨在让用户预先配置信任行为，Auto模式使用LLM分类器预测用户意图，对安全操作自动放行，对危险操作拦截，是最佳平衡点"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "三种权限模式：Bypass（无检查，危险但最快）、Allow Edits（自动允许文件编辑）、Auto（LLM分类器预测后自动决策）；之前常用的dangerously skip permissions已逐渐弃用"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "权限设计应避免每次都询问用户，而应通过ML模型预测+预设规则组合，实现安全性与效率的平衡"
+          }
+        ]
+      },
+      {
+        "subtitle": "内存压缩与上下文管理",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Claude Code有5种compaction机制管理上下文：micro compact（时间清除旧工具结果）、context collapse（会话片段摘要）、session memory（提取关键上下文到文件）、full compact（总结全部历史）、ptl truncation（丢弃最旧消息组）"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "模型「忘记」什么比「记住」什么更重要；主动使用/compact命令手动触发压缩优于等待系统自动触发；超过20万token后质量下降但仍优于竞品；长会话累积的session memory使得恢复会话优于全新开始"
+          }
+        ]
+      },
+      {
+        "subtitle": "高级功能与工程实践",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Claude Code提供6种hook类型（Pre-tool use、Post tool use、User prompt submit、Session start、Session end等），可自动化文档更新等流程；会话以JSONL格式持久化保存，支持-d-continue恢复对话"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "内置60+工具分为并发工具（只读如浏览网页）和序列化工具（变更如文件编辑、Bash命令）；流式架构使得中断代价极低，被误导时可立即停止而不损失tokens"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "利用hook系统自动化团队工作流（如提交时自动更新文档）；将/compact视为游戏存档点，主动管理上下文；大型文件输入时只保留8KB预览需注意输入聚焦"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vqo64rHIsLE",
+    "type": "youtube",
+    "title": "If I Were Looking For An AI Product Manager Job In 2026, This Is Exactly What I'd Do",
+    "author": "Intentional Product Manager",
+    "date": "2026-03-30",
+    "dateText": "Mar30",
+    "duration": "16:28",
+    "tldr": "2026年AI产品经理市场需求暴涨300%，薪资溢价25-40%，但门槛也大幅提高。候选人必须证明自己日常使用AI、具备AI产品思维，且有公开构建AI产品的实际成果，而非仅停留在\"了解AI\"的层面。",
+    "takeaways": [
+      "AI产品经理岗位需求较2025年增长300%，高级别招聘创历史新高，薪资溢价25%-40%（普通SPM 25万美金可对标AIPM 30-35万+）",
+      "2026年三大关键变化：1)日常使用AI已成必备技能而非加分项 2)AI产品sense面试成为独立考核类型 3)公开构建AI产品成为差异化核心",
+      "AI产品sense面试需准备：精度vs召回、自动化vs用户控制、个性化vs隐私等权衡框架，以及对概率性系统的理解",
+      "构建公开作品集：解决真实痛点、分享构建过程、在LinkedIn等平台持续输出，建立Hiring Manager可见的实践证据",
+      "谈判筹码充足：完成上述准备的候选人可争取高于平均的薪资，公司间对AI人才的竞争依然激烈"
+    ],
+    "quote": "In 2026, three things have shifted. First, every product manager is now expected to use AI in their daily workflows. This isn't optional anymore.",
+    "link": "https://www.youtube.com/watch?v=vqo64rHIsLE",
+    "tags": [
+      "AI PM",
+      "Career",
+      "Job Search",
+      "Interview Preparation",
+      "Product Sense",
+      "2026 Trends"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "2026年AI产品经理市场巨变",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "AI PM岗位较2025年增长300%；薪资溢价25%-40%，初级50K、中级100K、高级180K、资深450K+"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "2025年\"会聊AI\"就能拿到offer，2026年必须证明日常使用AI、具备AI产品sense、有公开构建成果，三者缺一不可"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "市场仍处于供不应求状态，顶尖人才可争取超出平均水平的薪资，关键在于差异化竞争策略"
+          }
+        ]
+      },
+      {
+        "subtitle": "日常AI使用：新的基础门槛",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI使用能力从\"加分项\"变为\"必备项\"，Hiring Manager会直接问\"你现在工作中如何使用AI\"，没有真实答案即红 flags"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI整合应融入PM日常工作：用户研究合成、PRD撰写辅助、利益相关者会议准备、简历面试准备等，至少选择3个环节本周内嵌入AI工具并记录"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "作者客户案例：某资深PM原本仅用ChatGPT改邮件，经指导后用AI分析客服工单、生成对比策略方案、建立竞品分析流程，面试反馈彻底改变"
+          }
+        ]
+      },
+      {
+        "subtitle": "AI产品sense面试：新兴考核类型",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "与传统PM面试不同，AI产品sense面试需理解：概率性系统、精度vs召回、自动化vs用户控制、个性化vs隐私、模型成本vs用户体验、幻觉处理、用户信任建立等权衡框架"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "用传统circle框架准备会\"彻底失败\"，需针对AI产品特性重新训练思维框架"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "准备方法：1)学习AI产品权衡框架 2)选5个真实AI产品（Spotify推荐、Gmail智能回复）分析失败模式和优化思路 3)形成AI产品开发的原则性观点"
+          }
+        ]
+      },
+      {
+        "subtitle": "公开构建产品：2026年最大差异化优势",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "Hiring Manager不仅要看结果，更要看过程：选择AI方案的理由、基于用户反馈的迭代、遇到的具体AI挑战与解决思路"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "作者客户在LinkedIn上6周持续分享构建过程，面试时Hiring Manager直接说\"我一直在关注你的项目，告诉我你做的权衡\"，最终多人拿到offer"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "不需要百万用户，需要的是可演示、可使用、能看到你思考过程的真实产品，解决真实痛点而非玩具项目"
+          }
+        ]
+      },
+      {
+        "subtitle": "求职策略升级",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "Strategic Narrative：即使之前不是AI岗位，也要找到与AI的关联点——数据产品经理、可用于AI模型、推荐系统、搜索优化、工作流自动化等"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "Network Activation：跳出原有网络，加入AI产品社区、参加Meetup、与AI产品负责人在LinkedIn互动，这个圈子相对小众且招聘者活跃其中"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "Negotiation：完成前述准备的候选人拥有强议价能力，25-40%是平均水平，顶尖候选人通常能做得更好"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Eqh2iwSl570",
+    "type": "youtube",
+    "title": "Claude Code Secrets for PMs: The Operating System, Skills, and Data Viz",
+    "author": "Aakash Gupta",
+    "date": "2026-03-30",
+    "dateText": "Mar 30",
+    "duration": "1:06:48",
+    "tldr": "Carl Votty展示如何将Claude Code打造成一个完整的操作系统，通过自定义Skills、自动触发机制、Jupyter笔记本数据分析和结构化知识管理，将AI工具能力提升到专业产品经理可依赖的生产力水平。",
+    "takeaways": [
+      "Claude Code仍是最强工具，Co-work和OpenClaw都建立在Claude Code之上，功能受限于封装层",
+      "使用sub agents代替主会话执行研究任务可将上下文消耗从25%降至16.5%，显著减少context compaction等待时间",
+      "Skills本质上是精心设计的prompt，可补足Claude Code的弱点（如前端设计、网络搜索、幻灯片制作），无需赋予新能力",
+      "避免使用MCPs而改用CLIs，因为MCPs会消耗大量context token，CLIs直接安装在机器上更高效",
+      "Jupyter notebook可在Claude Code内进行可追溯的数据分析，让PM能信任AI生成的统计数据和可视化结果"
+    ],
+    "quote": "When you understand how Claude works, it makes it feel less like you're just prompting Claude and watching it and more like you understand how it works and you're working together.",
+    "link": "https://www.youtube.com/watch?v=Eqh2iwSl570",
+    "tags": [
+      "AI PM",
+      "Claude Code",
+      "Workflow Optimization",
+      "Skills",
+      "Context Management",
+      "Sub Agents"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "Claude Code仍是最强工具",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Co-work和OpenClaw都建立在Claude Code之上，功能受限，Claude Code提供最强大的原始能力"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "对于需要掌握主动权的PM，Claude Code仍是首选，OpenClaw适合监控和自主任务但非核心工作"
+          }
+        ]
+      },
+      {
+        "subtitle": "Context管理策略",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "设置status line可视化context使用量，通过颜色（绿/橙/红）直观感知context窗口消耗"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "使用sub agents进行网络研究可将context消耗从25%降至16.5%，每次搜索节省约30,000 tokens"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "Context compaction会等待2-3分钟严重影响工作流，context越长质量越差（context rot现象）"
+          }
+        ]
+      },
+      {
+        "subtitle": "Skills系统构建",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "当发现Claude Code的弱项时，创建skill提供更好工具或prompt即可解决，无需赋予新能力"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "Skills可包含：纯prompt（前端设计skill）、MCPs/CLIs连接（web research skill）、代码检查工具（Puppeteer用于slides）"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "从marketplace下载skill有风险，建议创建自定义skill或使用可信来源，重复工作超过3次就应考虑建立skill"
+          }
+        ]
+      },
+      {
+        "subtitle": "自动触发Skills",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Skills自动触发不稳定，最可靠方式是使用hooks或slash命令调用"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "使用user prompt submit hook，在用户发送消息时自动检测关键词并触发对应skill，避免在CLAUDE.md中列举所有skills"
+          }
+        ]
+      },
+      {
+        "subtitle": "可信数据分析",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Jupyter notebook在Claude Code内原生渲染，可展示精确查询、代码执行过程和结果，实现traceable analysis"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "通过创建analytics manager sub agent模拟真实公司中数据分析师角色，可进行分布图、相关性热力图等高级分析"
+          }
+        ]
+      },
+      {
+        "subtitle": "Claude Code操作系统架构",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "建立结构化文件夹系统：knowledge（静态参考）、projects（项目工作）、tasks（待办）、tools（自定义脚本）"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "CLAUDE.md文件始终在context中，可放入个人偏好、工作目标、常用工具路径等信息，每次迭代改进可显著提升输出质量"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "OYyS0Gu5xj8",
+    "type": "youtube",
+    "title": "AI News: Anthropic Went Crazy This Week!",
+    "author": "Matt Wolfe",
+    "date": "2026-03-27",
+    "dateText": "Mar 27",
+    "duration": "31:52",
+    "tldr": "本周AI新闻速览：Anthropic在52天内发布74个更新，推出计算机控制功能；OpenAI关闭Sora视频生成服务；Google发布Gemini 3.1 Flash Live和实时生成浏览器；多个新音乐和语音模型发布。",
+    "takeaways": [
+      "Anthropic在52天内密集发布74个更新，包括计算机使用（Computer Use）功能，允许Claude控制鼠标和键盘操作，但目前执行速度较慢（约5分钟完成10秒任务）",
+      "OpenAI宣布关闭Sora视频生成器和API，专注于聊天和编码模型，同时与迪士尼的合作项目也随之中断",
+      "Google发布Gemini 3.1 Flash Live，支持实时视频对话、屏幕共享和AI搜索中的多模态交互，还展示了实时生成网页的浏览器原型",
+      "音乐生成领域竞争加剧：Google Lyra 3 Pro支持3分钟音乐生成，Suno 5.5支持自定义声音训练，Smallest.ai推出新语音合成模型挑战11 Labs",
+      " Anthropic在法院取得胜利，法官暂停了政府将其列为供应链风险的 designation，但仍有另一项 designation 待处理"
+    ],
+    "quote": "It feels like what Siri should have been.",
+    "link": "https://www.youtube.com/watch?v=OYyS0Gu5xj8",
+    "tags": [
+      "AI News",
+      "Anthropic",
+      "Claude",
+      "OpenAI",
+      "Google Gemini",
+      "Suno"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "Anthropic产品爆发：74项更新与计算机控制功能",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Anthropic在52天内发布74个更新，平均每天超过1个新功能，包括Projects、Computer Use、Auto Mode等"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "Computer Use功能允许Claude控制用户的鼠标和键盘执行任务，但目前速度很慢，完成一个简单任务需要约5分钟"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "结合Dispatch功能，用户可以在外出时通过手机远程控制电脑执行任务，这种异步AI代理场景有实际应用价值"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "Computer Use功能执行速度太慢，坐在电脑前使用时体验痛苦，仅对远程异步任务场景有价值"
+          }
+        ]
+      },
+      {
+        "subtitle": "OpenAI战略收缩：关闭Sora与购物功能探索",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "OpenAI关闭Sora视频生成器和API，迪士尼随即退出合作项目，OpenAI广告效果遭广告主质疑无法证明ROI"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "OpenAI放弃视频生成等旁支业务，聚焦聊天和编码模型，ChatGPT内置购物功能可能是广告收入外的新的变现路径"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "OpenAI的广告平台起步困难，现在通过产品发现功能搭建电商平台基础设施，为未来付费推荐位做准备"
+          }
+        ]
+      },
+      {
+        "subtitle": "Google AI全面更新：Live对话与实时生成",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Gemini 3.1 Flash Live支持视频对话和屏幕共享，Lyra 3 Pro支持3分钟音乐生成，新浏览器原型可实时生成网页"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "Google的Live功能被低估，用户可以分享屏幕让AI指导操作流程；Google也推出了从其他AI平台迁移记忆和偏好的功能"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "Google学习Anthropic的迁移策略，降低用户换平台成本；实时页面生成展示了AI创造全新内容的能力"
+          }
+        ]
+      },
+      {
+        "subtitle": "AI音视频模型竞争格局",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Suno 5.5支持用户训练自己的声音模型；Smallest.ai推出语音合成新模型挑战11 Labs；Mistrol发布可本地运行的开放权重语音模型"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "语音合成领域出现新竞争者，Mistrol的开放权重模型允许本地运行，绕过API依赖"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "自定义声音克隆成为差异化卖点，用户自己的声音比预制声音表现更好"
+          }
+        ]
+      },
+      {
+        "subtitle": "行业动态与监管进展",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Anthropic赢得针对政府供应链风险认定的初步禁令；Wikipedia禁止AI生成完整文章；Figure03机器人成为首个进入白宫的人形机器人"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "AI监管法律挑战继续推进，Wikipedia明确禁止AI生成内容作为权威来源"
+          },
+          {
+            "label": "未来预测/行动项",
+            "content": "Claude Mythos模型泄露文档显示更强大的模型即将推出，Anthropic警告新模型在网络安全方面可能超越防御能力"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lzKmZzmy29Y",
+    "type": "youtube",
+    "title": "TensorFlow Developer Professional Certificate",
+    "author": "DeepLearningAI",
+    "date": "2026-03-23",
+    "dateText": "Mar 23",
+    "duration": "3:30",
+    "tldr": "Andrew Ng 介绍 TensorFlow 开发者专业证书课程，Google 开发者倡导者 Lawrence Moroni 分享他从 Ng 的课程学习 AI 到如今 teaching AI 的完整旅程，强调业界对 AI 开发人才的迫切需求。",
+    "takeaways": [
+      "全球约 2600 万软件开发者中仅有约 30 万 AI 从业者，人才缺口巨大",
+      "TensorFlow、PyTorch 等编程框架能显著简化深度学习算法的实现过程",
+      "机器学习和深度学习已不再是纯技术领域的事，每个行业都需要理解和应用",
+      "新编程范式正在开启以往无法实现的场景，为开发者带来全新机遇",
+      "本系列课程的目标是将大量非 AI 开发者转化为能够构建 AI 应用的从业者"
+    ],
+    "quote": "I've seen surveys of like you know 25 26 million software developers and like maybe 300,000 AI practitioners. So part of my personal passion is to try and turn like those 24.7 nonAI practitioners, a significant portion of them into people who can understand AI and who can build the the new and exciting things that we can't think of.",
+    "link": "https://www.youtube.com/watch?v=lzKmZzmy29Y",
+    "tags": [
+      "TensorFlow",
+      "Deep Learning",
+      "AI Development",
+      "Machine Learning",
+      "Career",
+      "DeepLearningAI"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "课程与讲师介绍",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Andrew Ng 推出 TensorFlow 开发者专业证书课程，旨在帮助开发者掌握 TensorFlow 框架实现深度学习算法"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "讲师 Lawrence Moroni 是 Google 开发者倡导者，著有 30 多本编程书籍和 4 本科幻小说，曾从 Ng 的课程学习 AI"
+          }
+        ]
+      },
+      {
+        "subtitle": "AI 人才供需现状",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI 技能正变得前所未有的重要，但全球 AI 开发者数量严重不足"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "全球约 2600 万软件开发者中仅有约 30 万 AI 从业者，比例极低"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这意味着 AI 教育产品有巨大的市场空间，帮助开发者转型是重要机会"
+          }
+        ]
+      }
+    ]
+  }
+]

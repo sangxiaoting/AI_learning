@@ -1,0 +1,59 @@
+# Claude Code was just leaked... (WOAH)
+
+- Author: `Matthew Berman`
+- Date: `2026-04-01`
+- Duration: `15:00`
+- Link: https://www.youtube.com/watch?v=dYG8JxtSgmM
+- Tags: Claude Code, AI Agents, Open Source, Anthropic, Harness Architecture, LLM Optimization
+
+## TL;DR
+
+Claude Code源代码意外泄露，近2300个文件、近50万行代码公之于众，揭示了这个顶级AI编程助手 harness 的核心设计细节，包括并行架构、权限系统、内存压缩机制和hook系统等关键秘密。
+
+## Takeaways
+
+- Claude.md 文件会被加载到每一次对话中，最多4万字符，可在其中定义代码规范、架构模式和团队最佳实践
+- Claude Code 专为并行设计，子代理之间共享 prompt cache，10个代理同时运行也能获得免费并行性能
+- 权限系统有三种模式：Bypass（无检查）、Allow Edits（自动允许文件编辑）、Auto（LLM分类器预测用户意图后自动决策，推荐使用）
+-  compaction 机制有5种方式：micro compact、context collapse、session memory、full compact、ptl truncation，手动触发 /compact 可主动管理上下文
+- Claude Code 内置60+工具，划分为并发工具（只读操作）和序列化工具（变更操作），大型工具结果只发送8KB预览到模型
+
+## Quote
+
+> The thing that is actually more important than what the model remembers is what it forgets. Knowing what to forget lets you remember the things that are important to remember much more accurately.
+
+## Detailed Breakdown
+
+### 泄露背景与影响范围
+
+- **核心观点归纳**: Claude Code源代码通过npm registry的map文件意外泄露，已被人转换为Python版本使其合法可用，24小时内仅X平台就获得2200万次浏览
+- **关键数据/案例**: 泄露包含2300个原始工具代码文件，近50万行代码，但核心模型与harness的配对秘密仍未完全公开
+- **AI PM 视角/启发**: 对Anthropic影响有限，无客户数据或API密钥泄露，但暴露了harness设计细节；开源社区可借此研究如何构建更高效的编程agent
+
+### Claude.md的核心作用
+
+- **核心观点归纳**: Claude.md在每次对话轮次中都会被加载，是用户向Claude Code传达工作方式的标准、文件关注重点、代码架构规范的最佳实践的核心配置入口
+- **AI PM 视角/启发**: 充分利用4万字符限制，将团队代码规范、架构模式、设计模式偏好写入Claude.md，可显著提升agent输出质量与一致性
+
+### 并行架构设计
+
+- **核心观点归纳**: Claude Code从设计之初就为并行而生，子代理之间共享prompt cache，多个代理同时运行几乎无需额外成本，Boris Churnney（Claude Code发明者）表示他总是同时运行多个agent
+- **关键数据/案例**: 使用git worktree为每个代理创建独立隔离分支，避免工作区冲突，单一agent方式并非最优解
+- **AI PM 视角/启发**: 构建高效coding harness应考虑工作树+多agent并行架构，而非依赖单一agent顺序执行
+
+### 智能权限系统
+
+- **核心观点归纳**: Claude Code的权限系统旨在让用户预先配置信任行为，Auto模式使用LLM分类器预测用户意图，对安全操作自动放行，对危险操作拦截，是最佳平衡点
+- **关键数据/案例**: 三种权限模式：Bypass（无检查，危险但最快）、Allow Edits（自动允许文件编辑）、Auto（LLM分类器预测后自动决策）；之前常用的dangerously skip permissions已逐渐弃用
+- **AI PM 视角/启发**: 权限设计应避免每次都询问用户，而应通过ML模型预测+预设规则组合，实现安全性与效率的平衡
+
+### 内存压缩与上下文管理
+
+- **核心观点归纳**: Claude Code有5种compaction机制管理上下文：micro compact（时间清除旧工具结果）、context collapse（会话片段摘要）、session memory（提取关键上下文到文件）、full compact（总结全部历史）、ptl truncation（丢弃最旧消息组）
+- **AI PM 视角/启发**: 模型「忘记」什么比「记住」什么更重要；主动使用/compact命令手动触发压缩优于等待系统自动触发；超过20万token后质量下降但仍优于竞品；长会话累积的session memory使得恢复会话优于全新开始
+
+### 高级功能与工程实践
+
+- **核心观点归纳**: Claude Code提供6种hook类型（Pre-tool use、Post tool use、User prompt submit、Session start、Session end等），可自动化文档更新等流程；会话以JSONL格式持久化保存，支持-d-continue恢复对话
+- **关键数据/案例**: 内置60+工具分为并发工具（只读如浏览网页）和序列化工具（变更如文件编辑、Bash命令）；流式架构使得中断代价极低，被误导时可立即停止而不损失tokens
+- **AI PM 视角/启发**: 利用hook系统自动化团队工作流（如提交时自动更新文档）；将/compact视为游戏存档点，主动管理上下文；大型文件输入时只保留8KB预览需注意输入聚焦
