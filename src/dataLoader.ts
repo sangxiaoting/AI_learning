@@ -3,7 +3,7 @@ import { MOCK_DATA } from './mockData';
 
 const YOUTUBE_DATA_URL = '/data/youtube/latest.json';
 const PODCAST_DATA_URL = '/data/podcast/latest.json';
-const FOLLOW_BUILDERS_DATA_URL = '/data/follow-builders/latest-lite.json';
+const FOLLOW_BUILDERS_DATA_URL = '/data/follow-builders/final-digest.json';
 
 function normalizeRemoteItems(items: any[], type: 'youtube' | 'podcast'): LearningItem[] {
   return items.map((item: any) => ({
@@ -52,17 +52,6 @@ function shortenRole(role?: string): string | undefined {
   return cleaned || undefined;
 }
 
-function buildTwitterTitle(author: string, summary?: string): string {
-  const cleaned = cleanText(summary, 72);
-  if (!cleaned) return `${author} 观点`;
-  return cleaned;
-}
-
-function buildTwitterTakeaways(summary?: string): string[] {
-  const cleaned = cleanText(summary, 220);
-  if (!cleaned) return [];
-  return [cleaned];
-}
 
 function normalizeFollowBuildersItems(payload: any): LearningItem[] {
   const items = Array.isArray(payload?.items) ? payload.items : [];
@@ -72,18 +61,20 @@ function normalizeFollowBuildersItems(payload: any): LearningItem[] {
       const author = item.author || '未知作者';
       const role = shortenRole(item.role);
       const summary = cleanText(item.summary, 220) || '暂无摘要。';
+      const digest = cleanText(item.digest, 600) || summary;
+      const fullText = cleanText(item.fullText, 1200) || summary;
       return {
-        id: item.url || `follow-builders-${index}`,
+        id: item.id || item.url || `follow-builders-${index}`,
         type: 'twitter' as const,
-        title: item.title || buildTwitterTitle(author, item.summary),
+        title: summary,
         author,
         role,
         sourceLabel: 'Builder 动态',
         date: item.publishedAt || payload?.date || new Date().toISOString(),
         dateText: formatDateText(item.publishedAt || payload?.date),
         tldr: summary,
-        takeaways: buildTwitterTakeaways(item.summary),
-        content: item.originalText || summary,
+        takeaways: digest ? [digest] : [],
+        content: fullText,
         link: item.url || '#',
         tags: ['Builder 动态', 'X'],
       };

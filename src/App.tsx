@@ -65,10 +65,7 @@ const TwitterCard = ({ item, onClick }: ContentCardProps) => (
     </div>
 
     <div className="space-y-3">
-      <p className="text-sm font-semibold text-gray-900 leading-relaxed line-clamp-3">
-        {item.title}
-      </p>
-      <p className="text-sm text-gray-600 leading-relaxed line-clamp-4">
+      <p className="text-sm font-semibold text-gray-900 leading-relaxed line-clamp-4">
         {item.tldr}
       </p>
     </div>
@@ -297,16 +294,25 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
               <section className="space-y-5">
                 <div className="bg-indigo-50/50 rounded-2xl p-6 border border-indigo-100">
                   <h4 className="text-indigo-900 font-bold mb-3 flex items-center gap-2">
-                    <Lightbulb className="w-5 h-5" /> 重要观点
+                    <Lightbulb className="w-5 h-5" /> 一句话总结
                   </h4>
                   <p className="text-gray-700 leading-relaxed text-lg font-medium">
                     {item.tldr}
                   </p>
                 </div>
 
+                {item.takeaways.length > 0 && (
+                  <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+                    <h4 className="text-gray-900 font-bold mb-3">Digest</h4>
+                    <p className="text-gray-700 leading-relaxed text-base">
+                      {item.takeaways[0]}
+                    </p>
+                  </div>
+                )}
+
                 <div className="bg-gray-900 text-white rounded-2xl p-8 shadow-xl">
-                  <h4 className="text-sm font-bold text-sky-300 mb-4 tracking-wider">原文</h4>
-                  <p className="text-lg leading-relaxed font-serif">
+                  <h4 className="text-sm font-bold text-sky-300 mb-4 tracking-wider">全文 / 原文</h4>
+                  <p className="text-lg leading-relaxed font-serif whitespace-pre-wrap">
                     {item.content}
                   </p>
                 </div>
