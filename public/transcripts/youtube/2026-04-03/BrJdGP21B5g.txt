@@ -1,0 +1,237 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=BrJdGP21B5g
+
+Kind: captions
+Language: en
+Gemma is here. Huge props to Google for
+continuing to push the frontier of
+opensource open weights models. I am so
+happy to say that because not every
+company is doing that and not every
+company is doing it as consistently as
+Google is. So now we have the new
+version of their Gemma family of models
+and it's really good. Let me tell you
+about it. And this video is brought to
+you by Recraft. More on them later. So,
+Gemma 4, our most intelligent open
+models to date. Purpose-built for
+advanced reasoning and agentic
+workflows. Of course, when you hear
+that, what do you think? Yes, OpenClaw.
+Gemma delivers an unprecedented level of
+intelligence per parameter. So, these
+are not massive models. These are
+actually relatively small models,
+perfect models to fit on your GPU. and
+they were able to get such incredible
+performance out of a small model. And
+I've been saying this for a while, open-
+source models are getting smaller,
+they're getting better, they're getting
+faster. And that is why I am such a big
+proponent and so bullish on edge compute
+on this hybrid between using fully
+hosted frontier models for the hardest
+task but for the vast majority of tasks
+we could probably use compute on any
+device that we have on our desk. All
+right, so let me show you the
+performance. This is just the ELO score.
+This is not the benchmarks. I'll get to
+that in a moment. So these are total
+model size and billions of parameters on
+the xaxis. Then on the yaxis we have ELO
+score. What you are looking for is as
+high up and as to the left as you can
+go. And as you can see Gemma nailed it.
+So we have Gemma 31B dense thinking and
+we have Gemma 26 billion with four
+active billion parameters thinking.
+That's a mixture of experts model. Both
+of which score very very high on the ELO
+similar to Quen 3.5. But Quen 3.5 that
+is the 397 billion parameter active 17
+billion parameter model. That is a
+massive model. I can run that but I also
+have a GB300 which basically nobody has.
+And so most people can't run that Quen
+3.5 model. And now you have a model that
+is as good and a fraction of the size.
+You can run this 31 billion parameter
+model locally. You can do it on most
+medium to high-end normal consumer
+hardware. So here's GLM5 coming in way
+up at the top. Kimmy K 2.5, which I
+can't even run. I cannot get this even
+on the GB300 with nearly 750 GB of
+unified memory. I cannot run Kimmy K
+2.5. But within a trillion parameter
+model, we have right there a 31 billion
+parameter model performing incredibly
+well. And then down here we have
+DeepSeek V3.2 thinking, which is a
+massive model, but nowhere near it. By
+the way, where are you at DeepSeek? Come
+on, come out with your model already.
+We're all waiting. And also, look at
+this. Way down here. GPTO OSS, come on.
+Open AI, it's your turn next. So we have
+four different sizes of Gemma 4. We have
+an effective 2 billion parameter model,
+an effective 4 billion parameter model,
+a 26 billion mixture of experts, and a
+31 billion dense model. Now, I've not
+actually heard of effective. I didn't
+know what that term meant, so I actually
+had to look it up. The E and E2B stands
+for effective. Smaller models
+incorporate per layer embeddings to
+maximize parameter efficiency in
+ondevice deployments. Rather than adding
+more layers or parameters to the model,
+PLE gives each decoder layer its own
+small embedding for every token. These
+embedding tables are large but are only
+used for quick lookups which is why the
+effective parameter count is much
+smaller. Okay, so there that is. The
+entire family moves beyond simple chat
+to handle complex logic and agentic
+workflows. Our larger models deliver
+state-of-the-art performance for their
+sizes with 31B currently ranking as the
+number three open model in the world on
+the industry standard Arena AI text
+leaderboard. Let's take a look at that.
+So GLM5, which is a massive model, Kimmy
+K2.5, which is a massive model. And
+there it is. Gemma 4 31B, a small model,
+nearly as good. And by the way, if
+you're going to use Gemma for commercial
+purposes, maybe you're building a
+business that could also use incredible
+image generation. So, I'm excited to
+tell you about the sponsor of today's
+video, Recraft. So, I tested these same
+prompts across multiple image generation
+models, and Recraft V4 stood out
+immediately. And what impressed me the
+most wasn't the realism, it was the
+taste, it was the quality, and the
+control. Recraft V4 understands both
+short and long prompts. So you can give
+it a quick one or you can really explain
+in detail exactly what you're looking
+for and you're going to get it. So
+complex compositions with lighting,
+specific poses, clean typography, even
+text generation in multiple languages,
+all done easily. And if you're working
+on your own branding or UI concepts, the
+results actually look like a finished
+product, not a prototype. And with
+Recraft, you get two separate model
+families. Recraft V4 for photoreal
+visuals and then Recraft V4 Vector for
+fully scalable SVG graphics. So if
+you're serious about design, you're
+serious about AI and workflows, Recraft
+V4 is fantastic. I highly recommend it
+and you can use it through ReCraft
+Studio. I'm going to drop the link down
+below. They've been a fantastic partner.
+So go check them out. It helps us and
+it's a fantastic product. Now back to
+the video. All right, so here are some
+other things about Gemma 4. Advanced
+reasoning. It is capable of multi-step
+planning, deep logic. Great. We already
+knew that. Improvements in math and
+instruction following. Agentic
+workflows, native support for function
+calling. Yes, this is a model that you
+plug into your agent. Yes, OpenClaw, you
+know, I will be testing it. Structured
+JSON output and native system
+instructions enables you to build
+autonomous agents that can interact with
+different tools and APIs and execute
+workflows reliably. Code generation.
+Gemma supports highquality offline code
+turning your workstation into a local
+first AI code assistant. Now look, let's
+be honest. If you are doing coding, you
+are most likely using a hosted frontier
+model. If I am writing code, I want to
+use the best model on the planet and
+that is either GPT54 or my preference,
+Opus 46. But you can still do some
+coding with local models, but it just
+doesn't make sense to me to do that.
+Also, all models natively process video
+and images supporting variable
+resolutions and excelling at visual
+tasks like OCR and chart understanding.
+And the effective models E2B and E4B
+feature native audio input for speech
+recognition and understanding. These are
+tiny models. These are models designed
+to go on this. Now where it does fall a
+little bit short and I was a little bit
+disappointed to see this is context
+window. The Edge models feature 128K
+context. That's fine. Okay. So if you're
+thinking about doing those tiny models,
+128K is expected. But for the larger
+one, only 256K.
+I really wanted to see more than that.
+And then they also continue right here.
+E2B and E4B versions are meant for
+mobile devices. They have an effective 2
+billion and 4 billion parameter
+footprint during inference to preserve
+RAM and battery life. In close
+collaboration with our Google Pixel team
+and mobile hardware leaders like
+Qualcomm Technologies and MediaTek,
+these multimodal models run completely
+offline with near zero latency across
+edge devices like phones, Raspberry Pi,
+Nvidia, Jetson, Orurin, Nano. These are
+meant to run locally and I think this is
+just a prediction. We might start seeing
+them in Apple devices too. So you can
+find these models everywhere. You can
+download it in HuggingFace, VLM, Llama
+CPP, MLX, O Lama, Nvidia Nims. You have
+LM Studio, Unsloth, a bunch of different
+options. Download it today. Start
+playing with it. Start fine-tuning it.
+You know I am. And let me know what you
+think. Gemma 4 is released under the
+commercially permissive Apache 2.0
+license. So, go use it. All right. So,
+some benchmarks. Arena AI text 1452. We
+saw that. Mmlu, which is multilingual
+85.2. 2. Amy 2026 89%, remember Amy 2026
+on the frontier is nearing 100%. Life
+Code Bench 80%, T2 Bench 86%, GPQA
+Diamond 84.3%. And Steve Vibe on Twitter
+ran Tool Call 15 across all four Gemma 4
+models. And here is what it looks like.
+So here we go.
+And there we go. So what you can see
+here is Gemma 4 31B scores perfect tool
+calling benchmarks. Really impressive.
+It is a very good model especially for
+its size. Go download it. Open source
+open weights. Go have fun. Let me know
+what you do with it. And again special
+thanks to Recraft for sponsoring this
+video. I'm going to drop links down in
+the description below. If you enjoyed
+this video, please consider giving a
+like and subscribe. and I'll see you in
+the next
