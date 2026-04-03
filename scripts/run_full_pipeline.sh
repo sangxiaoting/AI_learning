@@ -17,10 +17,16 @@ fi
 
 python3 "$SCRIPT_DIR/run_pipeline.py" --limit-per-channel 1 2>&1 | tee -a "$LOG_PATH"
 
-# Step 2: Push to GitHub if remote is configured
+# Step 2: Sync generated outputs into the real frontend repo
+if [ -d "${AI_LEARNING_ROOT:-/Users/sangxiaoting/.openclaw/workspace/AI_learning}" ]; then
+    echo "Syncing outputs to AI_learning..." | tee -a "$LOG_PATH"
+    bash "$SCRIPT_DIR/sync_to_ai_learning.sh" 2>&1 | tee -a "$LOG_PATH"
+fi
+
+# Step 3: Commit + push the frontend repo if remote is configured
 if [ -n "${GITHUB_REMOTE:-}" ]; then
-    echo "Pushing to GitHub..." | tee -a "$LOG_PATH"
-    python3 "$SCRIPT_DIR/push_to_github.py" --remote "$GITHUB_REMOTE" 2>&1 | tee -a "$LOG_PATH"
+    echo "Pushing AI_learning frontend repo..." | tee -a "$LOG_PATH"
+    python3 "$SCRIPT_DIR/push_ai_learning.py" --repo "${AI_LEARNING_ROOT:-/Users/sangxiaoting/.openclaw/workspace/AI_learning}" 2>&1 | tee -a "$LOG_PATH"
 fi
 
 echo "Pipeline completed at $(date)" | tee -a "$LOG_PATH"

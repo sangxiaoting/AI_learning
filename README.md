@@ -56,13 +56,20 @@ python3 scripts/run_pipeline.py --discover-only
 
 - `data/youtube/latest.json`
 
-### 一键执行并推送
+### 一键执行并自动同步到前端
 
 ```bash
 export MINIMAX_API_KEY='你的key'
 export GITHUB_REMOTE='https://github.com/sangxiaoting/AI_learning.git'
 bash ./scripts/run_full_pipeline.sh
 ```
+
+这个流程现在会：
+1. 生成 YouTube 摘要与转录
+2. 自动同步到 `AI_learning/public/`
+3. 在 `AI_learning` 仓库里提交并推送
+
+`youtube-pipeline` 本身只负责产出数据，不再作为前端发布仓库。
 
 ### 本地保存配置（推荐）
 
@@ -80,6 +87,9 @@ bash ./scripts/run_cron_pipeline.sh
 ```
 
 这个脚本会自动读取 `.env.local`，所以不需要每次手动 export。
+
+默认前端目标目录是：`/Users/sangxiaoting/.openclaw/workspace/AI_learning`
+如需覆盖，可设置 `AI_LEARNING_ROOT`。
 
 ### 定时任务
 
