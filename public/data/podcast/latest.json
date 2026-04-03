@@ -1,75 +1,26 @@
 [
   {
-    "id": "podcast-69ce3bdcf6e591a7ac937701",
+    "id": "podcast-555f8b96-2cc2-4af6-8430-e63b8b0b2291",
     "type": "podcast",
-    "title": "157: 具身季报26Q1：宇树招股书、人形再思考、英伟达世界模型、高自由度灵巧手",
-    "author": "晚点聊",
-    "date": "2026-04-02",
-    "dateText": "Apr 2",
-    "duration": "2:06:07",
-    "tldr": "本期盘点2026Q1具身智能五大进展：宇树春晚舞蹈背后的运动控制突破、通用机器人网球demo、Figure/Optimus进展、高自由度灵巧手、世界模型路线竞争，并深入探讨人形形态必要性与否、算力格局与中国机会。",
-    "takeaways": [
-      "宇树人形机器人Q1营收占比已超50%、毛利约60%，但研发投入（9000万）远低于行业预期，反映其“硬件优先、算法跟随”的务实策略；预计2026年出货1-2万台",
-      "高自由度灵巧手（22自由度）正在成为具身操作研究的新基础设施，类似当年MIT Mini Cheetah开源对四足机器人的催化效应，Shaper等公司有望成为“机器人领域的iPhone”",
-      "世界模型路线（视频生成）与VLA路线（视觉-语言-动作）的核心差异在于：前者通过预测未来物理状态来规划动作，后者直接建立“观测-动作”映射；前者上限更高但算力消耗巨大，中国公司面临算力差距挑战"
-    ],
-    "quote": null,
-    "link": "https://www.xiaoyuzhoufm.com/episode/69ce3bdcf6e591a7ac937701",
-    "tags": [
-      "晚点聊"
-    ],
-    "detailedBreakdown": null,
-    "summaryLong": null,
-    "actionableAdvice": null,
-    "references": null,
-    "guest": "PATTERS（RFACE The PATTERS 创始合伙人，前谷歌工程师，五元资本早期投资人）"
-  },
-  {
-    "id": "podcast-69cf2013e2c8be31554164cc",
-    "type": "podcast",
-    "title": "EP52｜Skill 危机：当AI自己搞科研、写代码、调模型，我们还能干什么？",
-    "author": "硅谷声研所",
+    "title": "How to Build a Personal Context Portfolio and MCP Server",
+    "author": "The AI Daily Brief: Artificial Intelligence News and Analysis",
     "date": "2026-04-03",
     "dateText": "Apr 3",
-    "duration": "57:34",
-    "tldr": "AI智能体正在从执行工具进化为协作伙伴，代码编写比例从人类80%降至AI 80%，但人类仍是系统的瓶颈——不是能力不足，而是指令与调度的效率决定了系统的吞吐量。",
+    "duration": "24:30",
+    "tldr": "这期节目教你构建一份可移植的“个人上下文组合包”（Personal Context Portfolio），用结构化 Markdown 文件让每个 AI 工具都能快速了解你，从而终结反复向新 Agent 解释自己的困境。",
     "takeaways": [
-      "AI Agent 已进入\"多agent协作\"阶段，单个对话不再是核心能力，如何调度多个智能体并行任务才是新的杠杆点。",
-      "Auto-research 正在成为现实——AI 不仅能写代码，还能自主设计实验、调参优化模型，人类研究员需要从\"执行者\"转型为\"架构师\"。",
-      "软件工程需求不会减少反而会爆发，历史上 ATM 取代银行柜员却让网点和员工数量增加的 Jevons 悖论将在 AI 时代重演。"
+      "AI Agent 的核心瓶颈不是模型能力，而是**上下文质量**——大多数企业/个人データ从未为 AI 消费而结构化，这导致“数据 Ready 只是一种心态”。",
+      "个人上下文组合包本质上是**你的“API 文档”**——10 个模块化 Markdown 文件（身份、角色、项目、团队、工具、沟通风格、目标、偏好、知识、决策记录），让任何 Agent 都能读懂你。"
     ],
     "quote": null,
-    "link": "https://www.xiaoyuzhoufm.com/episode/69cf2013e2c8be31554164cc?utm_source=rss",
-    "tags": [
-      "硅谷声研所"
-    ],
-    "detailedBreakdown": null,
-    "summaryLong": null,
-    "actionableAdvice": null,
-    "references": null,
-    "guest": "Andrej Karpathy"
-  },
-  {
-    "id": "podcast-5c8b738b-64d4-40d0-9475-09c0c2c05863",
-    "type": "podcast",
-    "title": "Agent Skills Masterclass",
-    "author": "The AI Daily Brief: Artificial Intelligence News and Analysis",
-    "date": "2026-04-02",
-    "dateText": "Apr 2",
-    "duration": "33:01",
-    "tldr": "本期是 AI Agent 技能的实战大师课，从技能构建时机判断、解剖高效技能结构，到企业级技能库搭建，完整提供从\" apprentice\"到\" architect\"的五级进阶路径。",
-    "takeaways": [
-      "本期是 AI Agent 技能的实战大师课，从技能构建时机判断、解剖高效技能结构，到企业级技能库搭建，完整提供从\" apprentice\"到\" architect\"的五级进阶路径。"
-    ],
-    "quote": null,
-    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/Agent-Skills-Masterclass-e3hasv7",
+    "link": "https://podcasters.spotify.com/pod/show/nlw/episodes/How-to-Build-a-Personal-Context-Portfolio-and-MCP-Server-e3hcfrl",
     "tags": [
       "The AI Daily Brief: Artificial Intelligence News and Analysis"
     ],
     "detailedBreakdown": null,
-    "summaryLong": "核心观点：技能本质是一个包含指令、脚本、参考资源的文件夹，是 AI Agent 的\"可执行剧本\"，而非传统 GPT 的封闭封装。\n\n为什么重要：过去两年很多人构建了大量 Custom GPTs 和 Gems，但它们被锁死在 ChatGPT 或 Gemini 内部，无法跨平台迁移。技能解决了这个锁定问题——它是开放格式，文件夹形态，人和人之间可以完全透明地共享、审查、修改。\n\n支撑论据/案例：嘉宾提到目前约 44 个工具已支持技能，包括 Cursor、Windsurf、OpenAI Canvas、Claude Code、Notion 等。技能可以在这些工具之间自由流转。\n\n对现实的启发：如果你在过去一年里为不同工具重复构建了类似的\"助手\"，现在是时候把它们统一为可迁移的技能了——省去的不仅是重复劳动，更是维护的长期成本。\n\n核心观点：超过三次的重复操作、需要粘贴相同指令、需要一致输出——这三个信号意味着你应该建技能；此外，技能是标准化工作和解锁\"想做但没带宽做\"机会的战略工具。\n\n为什么重要：很多人以为技能只是\"提高效率\"，但它更大的价值在于——让你能做一些此前因缺乏时间或方法而完全无法启动的项目。比如你一直想做竞争对手分析，但从未有完整方法论，现在可以打包成一个\"竞争情报\"技能。\n\n支撑论据/案例：嘉宾强调一个关键区分——一个技能只对应一个任务。如果发现自己在写一个\"什么都能做\"的技能，说明任务本身需要拆解。\n\n对现实的启发：不要急于从市场下载现成技能。先自己写一个完整的——即便粗糙，你会在过程中真正理解\"好的技能长什么样\"。下载的技能应作为模板而非即成品。\n\n核心观点：技能的核心结构是 Trigger（触发条件）→ Body（步骤化指令）→ Output Format（输出示例）→ Gotcha（模型常犯的错误警告）。其中 Gotcha 是最被忽视也最重要的部分。\n\n为什么重要：大多数人的技能只写了前两节，结果模型输出的质量永远\"差不多但不够好\"。Gotcha 章节要求你把模型会踩的坑、它会做的错误假设——白纸黑字写下来。这是 Anthropic 特别强调的结构，因为它是最高信号区。\n\n支撑论据/案例：以\"会议准备技能\"为例，Gotcha 应写明：\"模型倾向于仅从头衔判断谁最重要（把 VP 当成必须优先照顾的人），不要虚构公司细节，不要使用通用话术\"——这些是模型在没被提醒时几乎必犯的错误。\n\n对现实的启发：如果你发现每次用完某个技能后都需要\"改一改\"，说明技能本身不够好——好的技能应该输出\"可以直接用\"的结果，而不是需要迭代的草稿。\n\n核心观点：技能终极形态是企业级知识管理基础设施——把\"工作如何完成\"封装成可组合的技能包，新员工可以用同一套技能库快速上手，Agent 可以直接调用执行。\n\n为什么重要：嘉宾说这是\"每个知识管理者的终极梦想终于可以实现了\"——因为技能同时满足两个维度：人类可读（新人培训可用）+ Agent 可执行（自动化工作流可用）。\n\n支撑论据/案例：嘉宾介绍了看到的先进实践——企业举办\"技能黑客松\"；维护共享技能库（像维护代码仓库）；为每个技能明确 Owner（AI Champion 或领域专家）；定期 deprecated 过期技能。Cursor 和 Windsurf 已经支持按部门创建插件包（skills + connections + context），全公司共享同一套\"世界观\"。\n\n对现实的启发：技能不是\"一次性项目\"——它是基础设施，需要持续维护。嘉宾建议至少每月重新评估一次技能是否仍然有效，因为模型在变、工具在变、你的工作在变。",
+    "summaryLong": "核心观点：我们正式生活在“Aigentic Era”，Agent 需要上下文才能有效工作，但大多数组织的数据从未为 AI 消费而结构化，上下文组织比想象的要困难得多。\n\n为什么重要：Applied Compute 的 Michael Chen 在 X 上发文指出，过去 six 个月他们在企业内部部署 AI Agent 时发现，即使是有成熟数据治理的公司，数据与 AI 可用的数据格式之间存在巨大鸿沟。更关键的是，落后组织倾向于“在人们头上扔一个 Copilot 然后祈祷它能工作”，而领先组织则系统性构建上下文基础设施。\n\n支撑论据/案例：Notion 近期推出 Database Agents，定位为“数据库里的图书管理员团队”，本质上是企业上下文的自动化管理。Anthropic 推出的 Context Hub 则让编码 Agent 之间可以共享 API 文档使用反馈。这说明行业已意识到上下文是 Agent 能力的决定性因素。\n\n对现实的启发：如果你使用超过 3 个 AI Agent 或工具，“上下文重复税”（每次切换都要重新解释自己的角色、项目、偏好）的累积成本已变得不可接受——这不仅是时间浪费，更导致信息在重复中被遗漏和降级。\n\n核心观点：用模块化 Markdown 文件集替代单一“关于我”文档，每个文件对应一个“维度”，支持按需读取和动态维护。\n\n为什么重要：三大设计原则——（1）Markdown First：通用格式，所有 AI 系统都能读；（2）Modular：不给 Agent 全部信息，只给相关部分；（3）Living：这是要维护的文件集而非一次性任务。10 个文件覆盖你作为一个“上下文包”的全貌：身份、角色责任、当前项目、团队关系、工具系统、沟通风格、目标优先级、偏好约束、领域知识、决策日志。\n\n支撑论据/案例：Host 用 AI 采访自己来生成这些文件，而非手动填写。对于不同文件（如身份和当前项目），AI 会交叉填充——当你在回答中提及“Super Intelligent 帮助企业做 AI Strategy”时，这条信息会同时被写入身份文件、项目文件和领域知识文件，大幅提升效率。\n\n对现实的启发：通信风格文件（communication_style.md）看似“不重要”，但 Host 强调他对“任何 sick、fancy、coddling 或 wavering 的表达”完全过敏——这类偏好通过一个文件明确传达，比每次让 AI 猜测要高效得多。偏好约束文件则是“永远做这个，永远不做那个”的集合，如饮食限制、时区、拒绝使用的工具等。\n\n核心观点：将个人上下文组合包部署为 MCP Server，让 AI Agent 可以通过协议调用实时获取你的上下文，而非每次对话都要粘贴文件。\n\n为什么重要：Host 强调他花了最多时间在**本地 MCP Server 的故障排除**上——端口冲突、文件命名不匹配、各种运行时错误。但这个过程本身是学习 MCP 协议的最佳实践，因为目标清晰（读取个人上下文）、反馈即时（能否成功获取文件内容）。\n\n支撑论据/案例：Host 先在本地运行 MCP Server，成功后将代码和文件推入 GitHub，使用 Railway 部署到远程，整个过程在 Cloud 中与 AI 协作完成。从本地到远程部署实际上比本地更容易，因为遇到的问题更少。\n\n对现实的启发：大多数 MCP 学习教程缺乏真实场景驱动，而将个人上下文组合包装入 MCP Server 是一个完美的“练习项目”——你有明确的需求（让 Agent 读到你），有明确的交付物（可调用的资源），有即时的反馈（成功/失败）。\n\n核心观点：无需一次完成所有 10 个文件，用 AI 采访循环（Interview → Draft → Reaction → Revision）渐进式构建。\n\n为什么重要：Host 提供了两种获取方式——（1）GitHub 上的公开模板仓库，包含Interview 协议和示例文件；（2）Personal Context Portfolio App（免费 Privately hosted），用 Opus 4.6 驱动采访过程，持续运行且会记住之前对话的上下文。不必追求完美，从最重要的 2-3 个文件开始即可。\n\n对现实的启发：Host 明确说“for those of you who don't want to bother with all these messy templates... you are just going to use the app”。工具是服务于目标的——如果你觉得手动维护文件太麻烦，直接用 App 加速启动。",
     "actionableAdvice": null,
     "references": null,
-    "guest": "Newfar (转录中未明确提及全名，嘉宾为 AI 领域的实践者)"
+    "guest": "转录中未明确提及"
   }
 ]
