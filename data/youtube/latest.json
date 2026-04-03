@@ -1,5 +1,204 @@
 [
   {
+    "id": "BrJdGP21B5g",
+    "type": "youtube",
+    "title": "Google just dropped Gemma 4... (WOAH)",
+    "author": "Matthew Berman",
+    "date": "2026-04-03",
+    "dateText": "Apr 3",
+    "duration": "9:47",
+    "tldr": "Google发布Gemma 4系列开源模型，31B dense和26B MoE版本在仅需极小参数量的前提下达到接近顶级闭源模型的性能，排名Arena AI文本榜单第三，成为端侧AI和本地部署的重要里程碑。",
+    "takeaways": [
+      "Gemma 4 31B参数模型在ELO评测中性能接近Qwen 3.5（397B活跃参数），但体积小至可在普通消费级GPU上运行",
+      "31B模型在Arena AI文本排行榜位列全球第三开源模型，仅次于GLM5和Kimi K2.5这些万亿级参数巨无霸",
+      "全系支持Agentic工作流：原生函数调用、结构化JSON输出、系统指令，可构建自主执行工作流的AI代理",
+      "有效参数模型E2B/E4B专为移动端设计，运行时仅占用2B/4B参数，可离线运行于手机树莓派等边缘设备",
+      "上下文窗口：边缘型号128K，大型号256K；支持多模态（图像视频处理），小模型额外支持音频输入"
+    ],
+    "quote": "Gemma delivers an unprecedented level of intelligence per parameter.",
+    "link": "https://www.youtube.com/watch?v=BrJdGP21B5g",
+    "tags": [
+      "LLM",
+      "Google Gemma",
+      "Open Source",
+      "Edge AI",
+      "Agents",
+      "Model Distillation"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "核心性能突破：小模型实现大模型效果",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Gemma 4 31B在ELO评测中分数接近Qwen 3.5，但后者是397B活跃参数（17B实际运行）的巨无霸模型"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "开源模型正朝着「更小更强」演进，边缘计算可行性大幅提升，大多数任务可在本地完成不必调用云端API"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "Gemma 4证明小模型也能达到接近顶级闭源模型的推理能力，为本地AI应用和商业化部署打开新空间"
+          }
+        ]
+      },
+      {
+        "subtitle": "模型规格与产品线布局",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "四款型号：E2B（有效20亿）、E4B（有效40亿）、26B MoE（混合专家）、31B dense稠密模型"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "有效参数技术通过为每个解码层配置独立的小型embedding表，在保持性能的同时大幅降低实际参数量"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "Google为不同场景提供差异化选择：从手机端到工作站，从离线推理到复杂Agent工作流"
+          }
+        ]
+      },
+      {
+        "subtitle": "Agent与工作流能力",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "原生支持函数调用、结构化JSON输出、系统指令，开发者可直接构建能调用外部工具和API的自主代理"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "对于需要可靠执行多步骤工作流的企业应用，Gemma 4的函数调用和结构化输出能力降低了集成门槛"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Tool Call 15基准测试中，Gemma 4 31B获得满分，验证了其工具调用能力的顶尖水平"
+          }
+        ]
+      },
+      {
+        "subtitle": "多模态与边缘部署",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "全系支持图像和视频处理（OCR、图表理解）；E2B/E4B额外支持音频输入"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "与Google Pixel、高通、联发科深度合作优化，可在手机、Jetson、Orin等设备离线运行，接近零延迟"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "上下文窗口偏小：边缘型号128K，大型号256K，未达到业界512K-1M的主流顶级水平"
+          }
+        ]
+      },
+      {
+        "subtitle": "许可证与生态支持",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "采用Apache 2.0商业友好许可证，支持HuggingFace、LM Studio、Ollama、LlamaCPP、MLX等多种部署渠道"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "Google持续坚持开源开放策略，为开发者提供高度灵活的商用权限和丰富的微调选项"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7YVrb3-ABYE",
+    "type": "youtube",
+    "title": "Google’s New AI Just Broke My Brain",
+    "author": "Two Minute Papers",
+    "date": "2026-04-01",
+    "dateText": "Apr 1",
+    "duration": "8:34",
+    "tldr": "Google的TurboQuant通过组合三个经典技术（量化、随机旋转、Johnson-Lindenstrauss变换）实现LLM KV缓存的压缩，第三方复现验证可降低30-40%内存并提升约40%推理速度，对长上下文AI应用有实际价值。",
+    "takeaways": [
+      "TurboQuant压缩LLM的KV缓存（短期记忆），声称实现4-6倍内存降低和8倍注意力计算加速",
+      "核心技术是将量化、随机旋转、Johnson-Lindenstrauss变换三个数十年老方法巧妙组合，而非全新发明",
+      "独立复现验证：实际降低30-40%内存消耗，同时提升约40%处理速度",
+      "媒体宣传的\"6倍内存降低\"过于理想化，仅在特定边界条件下成立",
+      "存在学术争议：有研究者指出该研究与先前技术存在重叠，论文接收但争议未完全解决"
+    ],
+    "quote": "Sometimes you don't need to invent grand new theories. Sometimes you need a smart combination of existing methods.",
+    "link": "https://www.youtube.com/watch?v=7YVrb3-ABYE",
+    "tags": [
+      "LLM优化",
+      "KV Cache压缩",
+      "模型推理效率",
+      "Google AI",
+      "TurboQuant",
+      "AI内存优化"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "TurboQuant技术原理",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "通过压缩LLM的KV缓存（短期记忆）实现内存降低，KV缓存存储当前对话的上下文信息（文档、代码库等）"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "组合三个经典技术：1)量化-截断数字精度；2)随机旋转-使能量均匀分布；3)Johnson-Lindenstrauss变换-保距压缩"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "原始声称：4-6倍内存降低，注意力计算8倍加速，几乎无质量损失"
+          }
+        ]
+      },
+      {
+        "subtitle": "独立验证结果",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "第三方复现测试：KV缓存内存降低30-40%，处理速度提升约40%"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "对需要处理长上下文（大型PDF、代码库、电影分析）的应用有实际价值，可节省数GB内存"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "原始4-6倍降内存声称过于理想化，类似手机电池续航的理想测试条件，需理性看待"
+          }
+        ]
+      },
+      {
+        "subtitle": "学术争议与局限性",
+        "points": [
+          {
+            "label": "局限与挑战",
+            "content": "研究者指出论文与先前技术存在重叠，应更充分讨论相似性；《br》争议未被完全解决但论文仍被接收"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "表明AI领域仍存在基础性创新空间，组合现有方法也能产生重大影响"
+          }
+        ]
+      },
+      {
+        "subtitle": "实际应用意义",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "在GPU短缺、硬件价格上涨的背景下，该技术可降低AI系统运行成本，使更多设备能够本地运行AI模型"
+          },
+          {
+            "label": "未来预测/行动项",
+            "content": "该方法可直接应用于现有模型无需重新训练，对长上下文应用场景（代码助手、文档分析）价值明显"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "dYG8JxtSgmM",
     "type": "youtube",
     "title": "Claude Code was just leaked... (WOAH)",
@@ -117,6 +316,108 @@
           {
             "label": "AI PM 视角/启发",
             "content": "利用hook系统自动化团队工作流（如提交时自动更新文档）；将/compact视为游戏存档点，主动管理上下文；大型文件输入时只保留8KB预览需注意输入聚焦"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7DfEhNO3UKQ",
+    "type": "youtube",
+    "title": "How I Finally Landed a Product Management Job After Months of Unemployment | Christian's Story",
+    "author": "Intentional Product Manager",
+    "date": "2026-03-31",
+    "dateText": "Mar 31",
+    "duration": "15:04",
+    "tldr": "一位被裁员的 PM 分享他如何通过刻意练习行为面试和精准定位目标公司，最终在失业数月后成功拿到产品经理 Offer 的完整路径。",
+    "takeaways": [
+      "从批量海投转向精准定位（laser focus targeting）是突破面试关的关键转变，PM 需要明确自己为什么是特定岗位的最佳候选人",
+      "行为面试（Behavioral Interview）的准备是大多数 PM 的盲点，‘Tell Me About Yourself’ 需要结构化准备和反复练习",
+      "面试官真正想看到的是候选人如何讲述故事、组织思维、展现推理过程，而不仅仅是做了什么",
+      "_program 教练指出‘你说了’不等于‘你说对了’，需要通过严格的模拟评估来纠正表达习惯",
+      "成功拿到 Offer 后带来的心态变化：從自我怀疑到‘我是这个岗位的强者，如果不适合也OK’的自信状态"
+    ],
+    "quote": "You know how to do the product manager job and that's great and you can do it well and that's also great, but you don't necessarily in this market know how to apply for and win the product manager job and that's what you're going to get here.",
+    "link": "https://www.youtube.com/watch?v=7DfEhNO3UKQ",
+    "tags": [
+      "AI PM",
+      "Career",
+      "Job Search",
+      "Product Management",
+      "Interview Prep",
+      "Behavioral Interview"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "背景与失业困境",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Christian 于 2025 年夏季被裁员，失业期间主要进行批量海投和学习 AI 工具，面试卡在 manager/loop panel round 无法突破"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "即便有多次面试机会且与面试官聊得很好，仍然无法获得 Offer，因为缺乏对市场变化和面试技巧的认知"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "PM 在失业期间学习 AI 工具是必要的，但工具本身无法解决求职方法论的问题"
+          }
+        ]
+      },
+      {
+        "subtitle": "加入求职项目的决策过程",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Cost 和 pride 是主要阻碍因素，被裁员后的 burn rate 增加了决策压力，但最终认识到‘我需要帮助’是突破的前提"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "选择项目的标准：专门针对 PM、不仅帮助求职还能提升职业技能、包含结构化进度和行业专家指导"
+          }
+        ]
+      },
+      {
+        "subtitle": "两大核心突破点",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "1. 精准定位（Laser Focus Targeting）：从盲目海投转向针对特定岗位的深度准备；2. 行为面试准备：学会结构化讲述‘Tell Me About Yourself’，这是之前从未想过的技能"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Christian 反思自己可能因多次 mishandle 行为面试问题而错失机会，通过项目严格的模拟评估（assessment）来纠正坏习惯"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "PM 需要将日常工作中的隐性技能显性化：如何思考问题、如何向团队传达、如何影响他人，这些都需要刻意练习表达"
+          }
+        ]
+      },
+      {
+        "subtitle": "成功拿到 Offer 的关键因素",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "成功通过 behavioral questions，能够清晰展示经历并论证自己的观点‘stuck the landing’，这是获得 Offer 的首要原因"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "项目的 coaching 不仅帮助求职，还提升了实际工作中的思维方式和问题聚焦能力，不再急于跳到解决方案"
+          }
+        ]
+      },
+      {
+        "subtitle": "项目价值与建议",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "项目的核心差异化：结构化进度 + 行业专家 coaching 而非只是看视频；通过所有 required steps 后，候选人从‘焦虑求职者’变成‘准备好上场的战士’"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "PM 的很多技能是自然形成的，但难以拆解表达；项目帮助将隐性知识转化为显性叙事能力，这在实际工作中影响塑造愿景、影响他人的核心能力"
           }
         ]
       }
@@ -470,6 +771,203 @@
     ]
   },
   {
+    "id": "s4tptozUJ8Y",
+    "type": "youtube",
+    "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
+    "author": "AI Explained",
+    "date": "2026-03-26",
+    "dateText": "Mar 26",
+    "duration": "16:27",
+    "tldr": "OpenAI为Spud模型下架情色聊天机器人，Anthropic因新版Claude的网络攻防能力获五角大楼重新关注，但Arc-AGI-3基准测试显示当前最强AI模型得分仍不足0.5%，揭示AI与人类通用智能的巨大差距。",
+    "takeaways": [
+      "OpenAI为集中算力开发Spud模型，已下架情色聊天机器人并关闭Sora应用，Spud将在数周内发布",
+      "Anthropic警告美国政府新版Claude系列将大幅提升网络攻防能力，五角大楼正重新考虑与Anthropic的合作关系",
+      "Arc-AGI-3基准测试显示人类达100%而当前最强AI模型得分不到0.5%，该基准测试抽象、不依赖语言和文化线索，更难被攻克",
+      "Arc-AGI-3通过私有测试集设计防止模型通过大量训练数据“作弊”攻克基准，要求真正的泛化和推理能力",
+      "OpenAI目标是打造完全自动化的AI研究人员，预计9月实现实习生级别AI，但仍需人类审核，当前AI更适合做初稿而非直接完成复杂任务"
+    ],
+    "quote": "We are very much in the messy middle phase of AI. It's a better first drafter than us, but its outputs are still often full of holes.",
+    "link": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
+    "tags": [
+      "AI PM",
+      "LLM",
+      "Anthropic",
+      "OpenAI",
+      "Benchmark",
+      "Evals"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "OpenAI与Anthropic的战略转向",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "OpenAI为集中算力开发新一代Spud模型，大幅调整产品优先级，下架Sora并搁置情色聊天机器人项目"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "OpenAI员工曾抱怨Sora虽病毒式传播但仍是公司计算资源的负担；Anthropic CEO Dario Amodei的顾问Brad Gerstner是Trump accounts的架构师，该账户为每个新生儿提供1000美元"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "两家AI公司的战略都指向一个方向：集中资源打造最高优先级的核心模型，而非分散精力做多个产品线。这对AI产品经理的启示是需要在短期产品和长期基础模型之间做战略取舍"
+          }
+        ]
+      },
+      {
+        "subtitle": "政府合作与网络能力关注",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Anthropic警告美国政府新版Claude系列将大幅提升进攻性和防御性网络能力，可能促使政府机构达成某种协议"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "五角大楼在公开与Anthropic闹翻后，关键谈判官员仍表示双方非常接近达成协议，显示政府对其技术的高度需求"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI模型的网络安全能力正成为政府合作的核心考量要素，AI产品需要考虑在企业市场之外打开政府/军事市场的可能性，同时需权衡公众对此类合作的反应"
+          }
+        ]
+      },
+      {
+        "subtitle": "Arc-AGI-3基准测试揭示的AGI差距",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Arc-AGI-3要求模型在交互环境中进行探索、规划、记忆和目标设定，且不依赖语言或文化线索，当前最强AI模型得分不到0.5%而人类达100%"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "基准使用第二好的人类表现作为100%基线；效率低下被二次方惩罚；模型若超过人类5倍行动次数则尝试被丢弃；Gemini 3.1得分0.37%，NetHack上Gemini 3 Pro最佳得分6.8%"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "Arc-AGI-3展示了当前AI基准存在的问题：公开测试集与私有测试集相似导致可以通过大量训练数据“作弊”。对于AI产品评估，这意味着需要设计更难被针对的测试场景"
+          }
+        ]
+      },
+      {
+        "subtitle": "自动化AI研究的未来路线图",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "OpenAI目标是在未来几年打造完全自动化的AI研究人员，预计9月实现实习生级别AI，AI研究将变成软件工程模式——AI做苦力人类审核"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "OpenAI的GDP论文显示即使模型能够更快完成经济价值任务，人类编辑的速度提升历史上仅在40%左右；全球科技公司工程职位空缺过去3年增加50%（从4万到6.7万）"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "即使AI自动化研究实现，也不意味着立刻出现指数级增长或超级智能。AI产品应定位为“更好的初稿工具”而非直接替代人类完成复杂任务，需要建立人类审核工作流"
+          }
+        ]
+      },
+      {
+        "subtitle": "AI代理的安全风险与当前困境",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "近期开源Python库被攻破事件显示完全自主的AI代理存在严重安全风险，需要多层次的人类监督"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Nvidia科学家Jim Fan指出“代理需要外壳，可能多层嵌套外壳”；模型已经足够聪明且不可预测到可以实时黑掉测试它们的基准"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "当前AI处于“混乱中间阶段”——比人类做初稿更好但输出仍充满漏洞。AI产品需要内置多层审核机制，不能完全依赖AI自主决策"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vif8NQcjVf0",
+    "type": "youtube",
+    "title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494",
+    "author": "Lex Fridman",
+    "date": "2026-03-23",
+    "dateText": "Mar 23",
+    "duration": "2:25:58",
+    "tldr": "黄仁勋深度阐述NVIDIA如何通过极端协同设计从GPU公司转型为AI工厂平台公司，详细解读CUDA生态护城河、四大Scaling Laws（预训练、后训练、测试时、代理式）、能源挑战、以及AGI实现路径，强调NVIDIA的核心优势是CUDA装机量和开发者生态系统。",
+    "takeaways": [
+      "极端协同设计（Extreme Co-design）是必须的：AI问题不再能装进单台计算机，需要跨GPU、CPU、内存、网络、存储、电源、冷却、软件的全栈协同优化",
+      "CUDA的装机量是NVIDIA最核心的护城河——20年前在GeForce上坚持CUDA是一个几乎致命的战略赌注，最终成为数百万开发者的首选平台",
+      "AI的四大Scaling Laws：预训练（数据Scaling）、后训练（合成数据）、测试时Scaling（推理计算）、代理式Scaling（多Agent协作），核心驱动力仍是算力",
+      "能源是当前最大挑战之一，但通过token/second/watt效率提升（过去10年提升100万倍）可以持续扩展",
+      "NVIDIA不仅卖芯片，而是在构建AI工厂——从单个GPU到整机架、再到整个数据中心的系统性产品演进"
+    ],
+    "quote": "Intelligence is a commodity. We're surrounded by intelligent people, and yet I have a role in that circle. Intelligence is a functional thing, humanity is not a functional specification.",
+    "link": "https://www.youtube.com/watch?v=vif8NQcjVf0",
+    "tags": [
+      "AI PM",
+      "NVIDIA",
+      "LLM",
+      "Agents",
+      "Scaling Laws",
+      "CUDA"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "极端协同设计：从芯片到AI工厂的演进",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Vera Rubin机架包含7种芯片类型、5种专用机架类型、40个机架、1.2万亿晶体管、近20000个NVIDIA dies、1100多个GPU、60 exaflops、10 PB/s扩展带宽"
+          }
+        ]
+      },
+      {
+        "subtitle": "CUDA战略决策与生态护城河",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "开发者生态是平台公司的核心资产，早期投入开发者社区建设即使牺牲短期利润也可能在长期建立无法逾越的护城河"
+          }
+        ]
+      },
+      {
+        "subtitle": "四大AI Scaling Laws",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI产品规划需要考虑完整的训练后流程——后训练、推理、Agent编排，而不仅仅是模型本身"
+          }
+        ]
+      },
+      {
+        "subtitle": "能源挑战与供应链接管理",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI基础设施规划需要将能源效率作为核心指标，并探索与电网的动态协作模式"
+          }
+        ]
+      },
+      {
+        "subtitle": "NVIDIA的竞争优势与未来展望",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "NVIDIA不只是一家芯片公司，而是计算平台公司——产品覆盖Google Cloud、AWS、Azure、汽车、机器人、卫星等所有场景"
+          }
+        ]
+      },
+      {
+        "subtitle": "AGI与人类未来",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "未来每个人都会成为「程序员」——通过自然语言描述需求，AI辅助完成编码，程序员数量可能不降反升"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "lzKmZzmy29Y",
     "type": "youtube",
     "title": "TensorFlow Developer Professional Certificate",
@@ -523,6 +1021,251 @@
           {
             "label": "AI PM 视角/启发",
             "content": "这意味着 AI 教育产品有巨大的市场空间，帮助开发者转型是重要机会"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Q8Fkpi18QXU",
+    "type": "youtube",
+    "title": "Terence Tao – How the world’s top mathematician uses AI",
+    "author": "Dwarkesh Patel",
+    "date": "2026-03-20",
+    "dateText": "Mar 20",
+    "duration": "1:23:44",
+    "tldr": "陶哲轩将AI类比为\"高温LLM\"——能像开普勒那样尝试大量随机关系，但必须依赖可验证的数据（如第谷·布拉赫的星表）来筛选正确方向。当前AI在数学领域已解决约50个Erdős问题，但单题成功率仅1-2%，其优势在于广度而非人类专家的深度。",
+    "takeaways": [
+      "AI已将提出假设的成本降至接近零，但验证和评估成为科学的新瓶颈——现在可生成数千种理论，却缺乏大规模筛选机制",
+      "当前AI解决数学问题的成功率为1-2%，靠规模弥补单次失败率低的问题，主要解决的是缺乏文献的边缘问题",
+      "AI擅长 breadth（广度），人类专家擅长 depth（深度），未来科学需要重新设计范式以充分利用AI的广度能力",
+      "AI生成的Lean证明缺乏累积理解能力——无法像人类那样从部分进展中建立直觉和逐步推进",
+      "形式化证明工具（如Lean）可帮助分析AI生成的证明，但可能无法识别其中隐含的革命性新构造"
+    ],
+    "quote": "The AI can mimic this a little bit. They can jump and fail, and jump and fail. But what they can't do is jump a little bit, reach some handhold, stay there, pull other people up, and then try to jump from there.",
+    "link": "https://www.youtube.com/watch?v=Q8Fkpi18QXU",
+    "tags": [
+      "AI PM",
+      "LLM",
+      "Mathematics",
+      "Lean",
+      "Frontier Research",
+      "Human-AI Collaboration"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "开普勒类比：AI作为\"高温LLM\"",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "开普勒花费20年尝试各种随机关系——几何学、柏拉图立体、音律——最终依靠第谷·布拉赫的高精度星表验证出开普勒三大定律。这与LLM的工作方式类似：大量生成假设，依靠可验证数据筛选正确方向"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "传统科学强调\"提出假设-验证\"的范式，但机器学习时代已逆转：先有大规模数据，再从中推导规律。AI可将想法生成成本降至接近零，但验证环节成为瓶颈"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "第谷的星表精度比此前观测高出一个数量级，这额外的小数点精度对开普勒得出正确结论至关重要——说明数据质量仍是根本"
+          }
+        ]
+      },
+      {
+        "subtitle": "当前AI数学能力的真实状态",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "AI已解决约50/1100个Erdős问题，但系统研究表明单题成功率为1-2%，靠规模弥补——解决的多是无文献的边缘问题"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "AI擅长尝试标准技术组合到新问题，在应用已有技术方面比人类更少犯错，但面对需要发明新技术的20%难点时表现不佳"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI工具像\"跳跃机器人\"——能跳2米高，偶尔到达人类无法触及的低墙，但经常跳错方向，无法创造部分进展或识别中间阶段"
+          }
+        ]
+      },
+      {
+        "subtitle": "广度与深度的互补性",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI擅长 breadth（广度），人类专家擅长 depth（深度）。一旦AI达到某水平线，可同时探索所有该水平的百万级问题，这是人类无法做到的"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "当前科研聚焦深度（因为人类擅长深度），未来应重新设计科学流程：先用广度AI探测新领域，标记困难岛屿，再由人类专家深入攻克"
+          },
+          {
+            "label": "未来预测/行动项",
+            "content": "AI可帮助创建大量问题类别来大规模探索，而非聚焦一两个deep problems，形成互补式科学新范式"
+          }
+        ]
+      },
+      {
+        "subtitle": "形式化证明与洞察的悖论",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI生成的Lean证明可被原子化分析——识别哪些引理是标准步骤，哪些是创新性关键步骤，但可能无法识别隐含在代码中的革命性新构造（如笛卡尔坐标系在Lean中只是R→R）"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "四色定理仍无概念上优雅的证明；某些问题可能只能通过枚举大量情况暴力解决。AI可能以\"无洞察\"方式解决黎曼假设"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "未来可能出现\"数学证明工程师\"职业，专门对AI生成的巨型Lean证明进行消融、简化、重构"
+          }
+        ]
+      },
+      {
+        "subtitle": "数学研究的实践变革",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "陶哲轩估计AI使其生产力提升约5倍，但主要用于辅助任务：代码生成、图像绘制、格式调整、文献调研。核心数学推理仍需手写"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "论文现在包含更多代码和图像——过去需数小时制作的图表现可几分钟完成，但若不添加这些额外功能，节省时间不多"
+          },
+          {
+            "label": "未来预测/行动项",
+            "content": "AI将革命性改变数学的\"实验\"一面——可对上千道题进行大规模测试，收集哪些技术有效、哪些无效的数据"
+          }
+        ]
+      },
+      {
+        "subtitle": "对年轻数学家的建议与未来展望",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "非传统参与机会已出现：高中生也可借助AI工具和Lean对数学前沿做出真正贡献"
+          },
+          {
+            "label": "未来预测/行动项",
+            "content": "未来几十年内，AI可能解决95%的千禧年奖问题，但人机混合协作将长期主导数学领域。需要新的策略评估框架和\"数学策略\"的形式化语言"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sjZWA4mWtZ8",
+    "type": "youtube",
+    "title": "From Wall Street to Meta GenAI: How to Stay Relevant in the AI Product Management Era",
+    "author": "Dr. Nancy Li - Director of Product",
+    "date": "2026-02-12",
+    "dateText": "Feb 12",
+    "duration": "28:49",
+    "tldr": "Meta Principal PM分享从华尔街衍生品建模到Meta生成式AI的职业转型历程，强调在AI时代通过实践学习、建立个人品牌和主动展示AI项目来获得顶级科技公司招聘机会的策略。",
+    "takeaways": [
+      "在AI时代保持竞争力的核心是适应变化，无论背景如何都可将现有技能与AI结合创造价值",
+      "建立个人品牌和内容输出是获得Meta等顶级公司 recruiter 主动联系的关键，而非海投简历",
+      "通过vibe coding等AI工具快速构建项目（如AI播客、预测APP），为简历和面试提供真实AI故事",
+      "实践学习比理论更重要，Microsoft Reactor等平台提供免费模型评估和动手实验环境",
+      "教学是最好的学习方式，通过担任AI导师可深化理解并建立可展示的成就"
+    ],
+    "quote": "If you're going to be an AI expert, you better be a user of AI tools.",
+    "link": "https://www.youtube.com/watch?v=sjZWA4mWtZ8",
+    "tags": [
+      "AI PM",
+      "Career Transition",
+      "Personal Branding",
+      "Meta",
+      "LinkedIn Growth",
+      "Vibe Coding"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "职业转型路径：从华尔街到Meta GenAI",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "15年职业生涯横跨三个时代：华尔街衍生品建模 → 广告技术数据与分析 → Meta生成式AI，核心驱动力是适应变化的北极星原则"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "曾在AT&T Bell Labs参与从零到一的产品概念开发，广告行业管理数十亿美元营销活动，现专注于视觉计算和生成式AI"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "无论身处何种行业，数据分析、批判性思维、所有权意识等核心能力可迁移应用，关键是找到自己的'北极星'并持续迭代"
+          }
+        ]
+      },
+      {
+        "subtitle": "AI时代学习策略与资源",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "通过Maven免费课程试用、Akash Gupta的Product Compass、Substack订阅等途径入门，后加入PMA系统学习产品管理"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "PMA提供50+案例研究，可暂停、回放、下载 transcripts，感觉像'再次上MIT'；Microsoft Reactor提供模型评估的动手实验"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "在Microsoft Reactor测试了从DeepSeek到Claude 3、Gemini、Llama不同模型，通过实际输出对比理解模型能力边界"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "早期Llama模型无法理解独角兽等虚构生物，反映出早期模型的局限性"
+          }
+        ]
+      },
+      {
+        "subtitle": "个人品牌与LinkedIn增长策略",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "仅有名校学历和MBA已成为'桌面筹码'，建立个人品牌是获得竞争优势的关键"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "通过在LinkedIn发布关于媒体营销数据分析的文章，获得Meta recruiter的主动联系，最终成功入职"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "算法时代需要理解平台推荐机制，发布对的内容给对的受众，触发 recruiter 的关注而非被动海投"
+          }
+        ]
+      },
+      {
+        "subtitle": "Vibe Coding与实战项目构建",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "没有AI故事就创造故事，通过vibe coding快速构建项目积累实战经验"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "使用Bolt创建梦幻橄榄球AI预测APP；用Riverside FM创建自己的播客Culture by Numbers；用AI工具生成10个播客标题选择最佳方案"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "所有项目形成飞轮效应：内容创作建立可信度 → 测试AI工具开发故事 → 简历和面试有话说 → 获得更多机会"
+          }
+        ]
+      },
+      {
+        "subtitle": "教学相长：AI导师经历",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "担任AI boot camp导师是展示学习成果的最佳方式，同时也是建立个人影响力的途径"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "为7-10年级学生（13岁左右）授课，学生从不知道产品经理是什么到自己用Gamma制作PPT、用Gen AI创建卡通形象；学生为解决自身痛点开发了AI学习伙伴APP"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "从自身痛点出发解决真实问题是PM核心思维，即使年龄小的学生也能应用Gucci方法和AI工具创造价值"
           }
         ]
       }

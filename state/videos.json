@@ -26,9 +26,9 @@
       "url": "https://www.youtube.com/watch?v=7DfEhNO3UKQ",
       "date": "2026-03-31",
       "duration": "15:04",
-      "status": "failed",
-      "updatedAt": "2026-04-01T08:34:05.831524Z",
-      "error": "'NoneType' object is not subscriptable"
+      "status": "done",
+      "updatedAt": "2026-04-03T12:43:47.421902Z",
+      "outputJson": "data/youtube/2026-03-31/intentional-product-manager-7DfEhNO3UKQ.json"
     },
     "sjZWA4mWtZ8": {
       "title": "From Wall Street to Meta GenAI: How to Stay Relevant in the AI Product Management Era",
@@ -36,9 +36,9 @@
       "url": "https://www.youtube.com/watch?v=sjZWA4mWtZ8",
       "date": "2026-02-12",
       "duration": "28:49",
-      "status": "failed",
-      "updatedAt": "2026-04-01T08:34:59.942084Z",
-      "error": "'NoneType' object is not subscriptable"
+      "status": "done",
+      "updatedAt": "2026-04-03T12:44:29.911116Z",
+      "outputJson": "data/youtube/2026-02-12/pm-accelerator-sjZWA4mWtZ8.json"
     },
     "s4tptozUJ8Y": {
       "title": "Two AI Models Set to “stir government urgency”, But Will This Challenge Undo Them?",
@@ -46,9 +46,9 @@
       "url": "https://www.youtube.com/watch?v=s4tptozUJ8Y",
       "date": "2026-03-26",
       "duration": "16:27",
-      "status": "failed",
-      "updatedAt": "2026-04-01T08:35:43.463349Z",
-      "error": "'NoneType' object is not subscriptable"
+      "status": "done",
+      "updatedAt": "2026-04-03T12:45:03.029883Z",
+      "outputJson": "data/youtube/2026-03-26/ai-explained-s4tptozUJ8Y.json"
     },
     "Io_GqmbNBbY": {
       "title": "DeepMind’s New AI Just Changed Science Forever",
@@ -76,9 +76,9 @@
       "url": "https://www.youtube.com/watch?v=Q8Fkpi18QXU",
       "date": "2026-03-20",
       "duration": "1:23:44",
-      "status": "failed",
-      "updatedAt": "2026-04-01T08:38:05.108007Z",
-      "error": "'NoneType' object is not subscriptable"
+      "status": "done",
+      "updatedAt": "2026-04-03T12:46:50.214192Z",
+      "outputJson": "data/youtube/2026-03-20/dwarkesh-patel-Q8Fkpi18QXU.json"
     },
     "vif8NQcjVf0": {
       "title": "Jensen Huang: NVIDIA - The $4 Trillion Company & the AI Revolution | Lex Fridman Podcast #494",
@@ -86,9 +86,9 @@
       "url": "https://www.youtube.com/watch?v=vif8NQcjVf0",
       "date": "2026-03-23",
       "duration": "2:25:58",
-      "status": "failed",
-      "updatedAt": "2026-04-01T08:38:47.394923Z",
-      "error": "'NoneType' object is not subscriptable"
+      "status": "done",
+      "updatedAt": "2026-04-03T12:47:33.677554Z",
+      "outputJson": "data/youtube/2026-03-23/lex-fridman-vif8NQcjVf0.json"
     },
     "OYyS0Gu5xj8": {
       "title": "AI News: Anthropic Went Crazy This Week!",
@@ -109,6 +109,26 @@
       "status": "done",
       "updatedAt": "2026-04-01T08:40:40.223595Z",
       "outputJson": "data/youtube/2026-03-23/deeplearning-ai-lzKmZzmy29Y.json"
+    },
+    "7YVrb3-ABYE": {
+      "title": "Google’s New AI Just Broke My Brain",
+      "channel": "Two Minute Papers",
+      "url": "https://www.youtube.com/watch?v=7YVrb3-ABYE",
+      "date": "2026-04-01",
+      "duration": "8:34",
+      "status": "done",
+      "updatedAt": "2026-04-03T12:45:44.265103Z",
+      "outputJson": "data/youtube/2026-04-01/two-minute-papers-7YVrb3-ABYE.json"
+    },
+    "BrJdGP21B5g": {
+      "title": "Google just dropped Gemma 4... (WOAH)",
+      "channel": "Matthew Berman",
+      "url": "https://www.youtube.com/watch?v=BrJdGP21B5g",
+      "date": "2026-04-03",
+      "duration": "9:47",
+      "status": "done",
+      "updatedAt": "2026-04-03T12:46:15.878031Z",
+      "outputJson": "data/youtube/2026-04-03/matthew-berman-BrJdGP21B5g.json"
     }
   }
 }

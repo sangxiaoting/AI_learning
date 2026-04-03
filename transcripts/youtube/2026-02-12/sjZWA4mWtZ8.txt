@@ -1,0 +1,765 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=sjZWA4mWtZ8
+
+Kind: captions
+Language: en
+In the age of AI, some people getting
+paid over $1.5 million per year employed
+by open AI. But some people also losing
+their job when the jobs taken away by AI
+or people who's using AI. So in the era
+of AI, how can we best position oursel
+and really stand out in the competition?
+Today I had a pleasure to invite our
+secret guest as a principal product
+manager for Meta with decades of
+experience to share with you the best
+strategy to reinvent yourself in the age
+of AI.
+&gt;&gt; [music]
+&gt;&gt; Hey guys, this is Dr. Nancy Lee, direct
+product feature in Forbes. I've helped
+thousands people land a dream PM job
+offer in fan companies and unicorn
+startup and continue get promoted as a
+product leader. In this channel, we talk
+about tech trends and free product
+management training. Like and subscribe
+to our new video every Tuesday. Hi
+Sunonny, welcome to our product insider
+podcast.
+&gt;&gt; Thank you so much Nancy. Thank you for
+having me. I'm thrilled to be here. I am
+so excited to have you join the podcast.
+It's totally our pleasure and our
+audience has been requesting this
+episode for a very long time. So, um
+yeah, totally. Uh you know, you're very
+famous among our alumni. Do you know
+that? [laughter]
+&gt;&gt; Well, I hope I can help and give back.
+&gt;&gt; Yes. Awesome. So um Sunny from my
+understanding of your background you
+currently is a principal program manager
+in Meta and also useful for Amazon
+multiple very famous companies and can
+you uh start to introduce your
+background and there's so much I
+couldn't cover and I I bet it's so
+fascinating for the audience learn about
+your career path.
+&gt;&gt; Well thank you Nancy. I mean you're
+pretty multihyenate too. PhD and
+director from Verizon covered on
+Fortune. I can only hope to be a small
+percentage of what you've accomplished.
+But I'm an experienced global program
+manager. I'm a principal technical
+program manager at Meta. I have 15 years
+of leading complex projects spanning
+from derivative bonds to launching
+billiondoll marketing campaigns and I
+focus mostly on the customer journey,
+datadriven insights and applying AI
+model evaluation solutions across many
+different industries. And so I'm
+thrilled to be able to share some key
+takeaways of reinventing yourself in the
+age of AI because a lot of people come
+from different backgrounds and AI really
+covers a lot of different functions and
+industries and verticals. So everyone
+has a chance to contribute their
+background knowledge in the age of AI.
+&gt;&gt; That's a very impressive intro. So now
+let me um ask you some specific
+questions and given you have so many
+years experience and also AI evolved
+really really fast uh what specific
+principles do you follow and in terms of
+grow your career in the age of AI?
+&gt;&gt; So first of all I want to say that my
+career has spanned three different
+inventions. So I started out on Wall
+Street doing derivative bond modeling. I
+have an applied math econ major from
+Brown University and then subsequently I
+did go to MIT for business school and
+coming out of MIT.
+&gt;&gt; You're overachiever. [laughter]
+&gt;&gt; Coming out of MIT, I actually was part
+of the dotcom boom I joined AT&amp;T Bell
+Labs and I learned a great deal there
+about technology innovation and going to
+market and going from zero to one in
+terms of product concept development
+with massive teams at scale. My second
+career was actually migrating to the
+advertising industry because adtech was
+starting to really proliferate with the
+invention and creation of datadriven
+tools and software like Adobe and
+Salesforce. And um my last job now at at
+Meta has to do with generative AI and
+the future of visual computing. So all
+of the things are related to my
+northstar principle which is you have to
+adapt to change. Everyone has a
+different set of skills and strengths
+and weaknesses. And my northstar has
+always been about using data and
+analytics um to drive my superpowers
+which was diving deep, delivering
+results, thinking big and ownership. And
+so the thing is it doesn't matter which
+area you're in as long as you have that
+critical thinking which the PMA program
+helps you develop and enhance and
+fine-tune. It's really important to have
+that northstar because it can be applied
+in a very versatile and flexible way.
+&gt;&gt; This is so exciting. Sunny, you brought
+up um something very important which is
+not your age. Clearly you you work in
+many important things but the important
+thing which is adapt to change because
+things evolve so much and you have led
+by example showing people you have shift
+your industry your impact in many
+different industry from very hard Wall
+Street years ago now into tech into AI.
+So can you give like specific example
+regarding how did you adapt yourself
+into AI? Um I believe this AI wave is
+much faster. I personally one month in
+AI is one year in general tech. It keep
+on changing like crazy. So given things
+are so overwhelmed exciting how you
+actually adapt yourself.
+&gt;&gt; Yeah like many others I felt the
+disruption of AI. I had an experience in
+financial services on Wall Street. I had
+experience as a managing partner in data
+and analytics at advertising and now
+everyone is being impacted by AI. So it
+was really about learning and looking
+around. So I signed up for multiple
+Maven courses and Maven is fantastic
+because it gives you free lightning
+courses as sort of a sample teaser and
+appetizer about a number of great
+influencers who are subject matter
+experts in various topics. So um I
+subscribed to influencers on Substack
+and particularly the product compass
+from Akash Gupta where you happened to
+be in a shared interview and I signed up
+immediately for the free PMA review um
+an introduction into product management
+and after that as a result of seeing not
+only your accomplishments and your
+inclusivity about saying you don't have
+to have a PhD or an expert in computer
+science That's what enabled me to make
+the decision to sign up for the paid
+course in the PMA introductory program.
+&gt;&gt; So cool. So suddenly I didn't know how
+you lend us. She's like let me
+understand. So you went through multiple
+different like freelancing courses
+eventually decide to join us.
+&gt;&gt; Am I right? Right.
+&gt;&gt; Yes. And there are a number of reasons
+why it was very compelling your journey
+from someone who had a PhD in petroleum
+[laughter] engineering
+to like uh telecommunications at Verizon
+Wireless into building smart cities for
+uh Boston and then getting
+acknowledgement as a prize winner there.
+It showed me your adaptability also. Um,
+and so I liked that story and it was
+very compelling because it means anyone
+from anywhere around the world and I
+know in my cohort there were students
+from Brazil and Europe and China, uh,
+Australia even in fact. So I mean that's
+the great thing about digital teaching
+and education. Now anybody can hop on
+and hop off depending on your area of
+interest and expertise and uh, level of
+knowledge. So I I think that it was very
+compelling to join PMA. Not only was
+there a trial period, but you could see
+the number of structured courses.
+There's over 50 different case studies.
+And because these are all recorded, you
+can self-e. You can pause, rewind, uh
+download the transcripts and multiple
+exercises. So, I felt it was good, very
+comprehensive. I mean, I felt like I was
+going to MIT again.
+[laughter]
+&gt;&gt; I'm so honored.
+&gt;&gt; Yeah.
+&gt;&gt; Uh compared with MIT, I think that's the
+biggest uh accomplishment people have.
+Uh I was always after I left MIT I
+always pitching myself to MIT
+professors. I was like can I be adjunk
+professor here? They were like oh you
+need to do a second PhD to qualify. I
+was like thank you uh totally my honor
+and also uh like you actually resonate
+with our communities and as well and let
+me also ask you another very practical
+question regarding how exactly you
+actually enhance and also grow into
+those kind of leadership through
+storytelling. Um can you tell us more
+regarding and also your journey become a
+podcaster yourself?
+&gt;&gt; Yeah. Yeah. No, I think in the age of
+AI, not only was I taking advantage of
+some of the PMA techniques, which is to
+reinvent yourself and how you position
+yourself in the market. So, I remember
+one of the first courses, you said,
+you're like a movie title. What is the
+headline title of the movie? What is the
+subtitle? And what is the little blurb,
+you know, subscription to make you want
+to watch the movie? This is what's very
+important for recruiters because they
+want to see the movie title and then is
+it Star Wars and or the return of the
+Jedi Raiders of the Lost Arc like what
+is your story? You need to have the
+movie title and then the subtitle and
+then build from that. So I think I was
+able to realize well if I want to have a
+bestseller movie I better start having
+some examples of actual AI applications.
+So I experimented with AI tools. I used
+Riverside FM to create my own podcast,
+Culture by numbers to talk about
+something that I knew which was media
+and marketing. I uh started to use Claw
+daily not only for research but uh even
+to um come up with some tools for resume
+outreach and LinkedIn posts. The most
+important critical factor was I realized
+to establish authority and credibility
+on LinkedIn. I started to create content
+with articles and posts that I would
+ideulate and prompt on Claude, but then
+I would start to create that content
+about media and marketing data analytics
+on LinkedIn. And imagine that the result
+was I got an inbound request from a Meta
+Recruiter as a result of some of my
+posts. And that's what led to ultimately
+getting hired at Meta today. So I
+strongly encourage people to uh practice
+what they preach. If you're going to be
+an AI expert, you better be a user of AI
+tools.
+&gt;&gt; This is very exciting. Actually, this is
+how you lend into meta and they actually
+reach out to you. This is so exciting.
+And actually uh one of our principle
+what we teach our students is actually
+be the influencers or be the one who
+actually being pursued by recruiters
+inside of you just applying for
+thousands jobs online. It's never my
+strategy because we always believe that
+people need to learn how to work smart
+not just work hard. Uh one of the
+strategies um that we teach our students
+highlights actually like you building
+your personal brand become an influencer
+that's sometime don't have influencer
+right we call the influencer because you
+run your own podcast but it's more about
+sharing your leadership show your
+expertise um by creating the right type
+of content that's able to trigger the
+algorithm the algorithm need to present
+your content to the right type of people
+and then the right people in this case
+are big tech companies and recruiters
+And then like you were invited interview
+at Meta. This is very exciting.
+&gt;&gt; Absolutely. Because nowadays the job
+market is so competitive. So it's not
+enough to have an IV league degree which
+I have. It's not enough to have an MBA
+from MIT which I have. That's almost
+table stakes. I mean I have co-workers
+whose kids have like 20,000 followers.
+So I was like oh my god you don't need
+to have any educational degree anymore
+to establish credibility and authority
+uh and influence. you just start showing
+your knowledge and creating it. So, um
+that is I would agree 100% with your
+recommendation to create your own
+personal brand because anybody can do
+it.
+&gt;&gt; Yeah, exactly. So, actually uh we teach
+how exactly to implement the same
+strategies inside PMS and myself became
+a LinkedIn top voice within two months
+when I was on maternity leave. So even
+just using the downtime watching kids
+but still able to implement the right
+strategies because knowing the algorithm
+is very critical. I have a free guide
+regarding different kind of prompts that
+prom managers can start using to make
+themselves more efficient leveraging AI.
+I'm going to link the free guide in the
+description of this video.
+&gt;&gt; Absolutely. And actually that was one of
+the other reasons why I started doing by
+uh learning by doing AI tools because I
+downloaded your free cheat sheet on the
+top 50 questions asked during interviews
+and all of these questions are asking
+about stories. So you know the STAR
+method which is one way of applying your
+knowledge when you come to interviews is
+what's the situation what's the task?
+What's the action? What are the results?
+So I realized I didn't have a story for
+AI. So I was like, you know what?
+There's never a better time than now to
+do vibe coding. So I bought the Bolt
+environment. I created a fantasy
+football AI app to predict the scores of
+fantasy football players because I was
+very data driven and I had one
+experience of joining a fantasy football
+league and I won the first year without
+AI by the way. Um so uh there's no
+better time than now to use vibe coding.
+You can use lovable cursor, you know, so
+many different AI tools. So now in my
+resume, I was able to say, "Oh, I vibe
+coded an AI app and I built it from
+scratch. I built an AI podcast using AI
+software and I'm able to translate and
+summarize and create short clips. So all
+of this became a flywheel. I'm creating
+content for credibility. I'm testing out
+new AI tools and developing a story that
+I can start to talk about in my resume
+and interviews. So, all of these come
+from attending PMA and starting to
+realize, oh my gosh, I don't have a
+story. Let me start to build things. And
+that's how I got activated into creating
+an action plan.
+&gt;&gt; This is awesome. And actually, the
+market evolved so fast. Um, guess what?
+So since last time we talked since you
+graduated like months ago something like
+that I launched a new course it's called
+AI edge boot camp so teach people how to
+use different kind of AI tools and to
+create like podcast in an hour yeah you
+can you can create a podcast in an hour
+using tools teach you guys like amazing
+and and then create an app uh short
+prototype version of app within like 10
+minutes as well. So I think people start
+to realize that um in the age of AI and
+you're not going to get replaced by AI,
+you're going to get replaced by people
+who use AI. So therefore, for people
+very competitive, want to stay ahead of
+game, you should definitely start
+checking out many different like free
+resources we give you guys and check out
+our AI edge book and learn different AI
+tools as well. I'm going to link it in
+the description of this video as well as
+the the 50 interview questions database.
+Um I'm going link below so you guys can
+start learn and practice. Mhm. And one
+of the other things is that I doubled
+down on AI. I volunteered to be an AI
+boot camp mentor for kids because that
+is the best way to demonstrate that you
+have actually digested and integrated
+what you learned is by teaching someone
+else. So when I had the opportunity to
+raise my hand and be a volunteer, I
+thought that was great because years ago
+I volunteered to be a social media
+manager for a green environmental CEO. I
+had no idea about green and anything and
+I also had never built a social media
+campaign and no one was going to pay me
+to do it. But I created a campaign. I
+grew their user base by 300%. So now I
+had this volunteer experience that I
+could talk about as an accomplishment.
+In this case, I had no AI
+accomplishment. So I volunteered to be a
+mentor. And it's really incredible,
+Nancy. I did it because of two reasons.
+One, it was a good cause. like yourself,
+you came from a underprivileged
+background from China and you were able
+to turn that into success in the United
+States and you wanted to give back. And
+in this particular AI boot camp for
+kids, there were underprivileged kids
+from blue collar workers. And I still
+remember how heartbroken I was because
+on the very first day, one of the
+students said he couldn't even afford an
+Apple laptop. He had to go to ask his
+dad for permission to buy a laptop to
+even do the course. And so I was so
+shocked because to me buying a laptop is
+like you know the basic
+&gt;&gt; starting point to even learn about AI.
+And in addition some of our coursework I
+worked with a team to build a curriculum
+there. The questions were in PDF format.
+So there was Q&amp;A and the homework and
+the exercises were through PDF. And of
+course, you can download a free PDF
+reader, but if you're supposed to submit
+your homework on a PDF, you need to pay
+for an Adobe subscription in order to
+edit your responses. So, I um realized
+that with the background of the
+students, we had to switch to Google
+forms because that is a free uh
+interactive format. And it was
+incredible to see some of these seventh
+to nth graders build their own AI PM
+tool as a study buddy.
+&gt;&gt; Yeah. And Sunny is very empowering
+regarding you
+also believe in the same mission what we
+have through PMA kids and helping kids
+for low-inccome families for everybody
+who is listening and we have a separate
+nonprofit called PMA kids which we give
+free AI product management boot camp for
+kids from low-inccome families uh
+especially those in high school
+especially those who are uh teenagers in
+high school and their parents too busy
+so nowhere to go for the summer camp. We
+took all those kids in and we give them
+free AI product management boot camp. Um
+Sunny is one of those mentors who help
+them to grow and of course we have a
+large team of volunteer who design
+curriculums and help everybody um out
+there. So for anybody who is listening
+right now, if you know any kids or could
+be your own kids um who belong to those
+underserved communities, you are more
+than welcome to send up to our way the
+we take going to take care of them and
+upgrade themselves in the age of AI as
+well. And now Sunny um let me let me ask
+a question. I'm very curious as mentor
+you you're working with the kids
+&gt;&gt; dayto-day. So what special apps they
+made through AI? Is that like an okay
+one or like they did really cool stuff.
+So tell us more. I think
+&gt;&gt; what the kids made.
+&gt;&gt; They did really cool stuff because one
+of the kids said he's really lazy and he
+doesn't know when to study. He has many
+other things he has to do. So the AI
+study buddy was to help build a
+calendar. So it could be a reminder of
+when he has to study, what he has to
+study, how he has to study. So it was
+really built on his own needs. And of
+course, as we learned in the PMA course,
+it's about solving a customer problem.
+There's got to be a painoint and a need.
+You know, what's the efficacy? What is
+the um efficiency? What are the
+resources needed? And how likely are
+they to use it? So, um you know, if you
+start with your own pain point, that's
+the best starting point. And uh so I
+hope he was successful in implementing
+this. But at the seventh grade and nth
+grade level, it's really about having
+critical thinking and putting together
+the thought process to come up with an
+idea that they could solve for.
+&gt;&gt; Awesome. Seventh grade to nth grade, if
+I get it right, it's like 13 years old,
+something around that, right? Yeah.
+&gt;&gt; Wow. That's that's very advanced. Early
+for people getting into AI.
+&gt;&gt; Yes.
+&gt;&gt; That's awesome.
+&gt;&gt; Yeah. So, I mean, when I was on Wall
+Street, we used to have take your
+daughters to work day because who knew
+you could be a derivative bond trader.
+In this case, these kids in the boot
+camp had no idea even what a product
+manager is. Like what do they do? Who
+are they? So we split it up with other
+teachers, but one was what does a PM do?
+I was focused on the teaching the Gucci
+method, the strategy and also how to use
+some of those AI tools. So I taught the
+specific class on using Gamma as a way
+to translate and create PowerPoint
+presentations. And we practiced it and
+we also did Gen AI. We used a tool to
+create a caricature to promote a
+Comic-Con and both of the, you know,
+kids came up with so many different
+creative outputs. So, it was really fun.
+&gt;&gt; This is so exciting. Uh, so rewarding
+and this summer we're launching the free
+AIM book for kids. Again, for everybody
+who is interested, feel free to reach
+out to us. We're also going to link the
+entire qualification in the description
+of the show notes as well. Um now Sunny
+let me ask you this question. You are
+being a lifelong learner yourself and
+also very successful with very great
+education background and famous company
+under your belt. Um which means having
+been continuously to grow yourself. What
+resources do you recommend for other
+people to grow themselves as well
+professionally or personally?
+&gt;&gt; So I think that it's all about hands-on.
+So I discovered on YouTube that there
+was a community called Microsoft Reactor
+which was actually very useful because
+there a sequence of ways to test out MCP
+to test out model evaluation and they
+actually give you a data set and a set
+of code. So if you have a GitHub then
+you can actually link it to the course
+and then I was able to swap out
+different models from DeepSeek to Claude
+3 to um Gemini and you can actually see
+the difference and do model evaluation
+and see the difference in the outputs
+and the big takeaway for me is some of
+the earlier models of uh llama actually
+had a terrible result. You could see the
+progress and evaluation. Um the the
+specific example was we were supposed to
+create a unicorn which is uh a mythical
+character and the earlier model of llama
+said I cannot do that. That was the
+response of the model because it
+couldn't think beyond uh the reality of
+real animals and unicorn is not a real
+animal. It's mythical. So um that was a
+big eye openener for me. So anyway, long
+story short, um there's nothing like
+learning by doing and the vibe coding
+environment nowadays. It's um completely
+accessible and democratic and anyone can
+try it.
+&gt;&gt; This is awesome. We're going to link
+this resource in the description of the
+show note which is also I'm the big
+believer and inside of AIPM boot camp
+same with teaching kids we're teaching
+adult like others and we also believe
+that in the age of AI in order to not
+get replaced by AI or people using AI
+you need to be ahead of game do not just
+learn theoretical knowledge it's
+important to really gain hands-on
+experience by leading a team of real
+life engineers data scientists building
+real data pipeline this is the only way
+to actually survive. Not just winning,
+it's like surviving in the age of AI. So
+for people who's interested in AIPM boot
+camp, getting hands-on experience, um
+feel free to go to the link in the
+description on the show not also go to
+pmxer.ioipm
+to learn more and I'm glad we're on the
+same page on on the hands-on excite.
+This is totally not rehearsed by the way
+everybody. This is all awesome. And so
+Sunny, my last important question which
+all the audience must be asking right
+now, how can people follow you and
+continue the learning even after today's
+podcast?
+&gt;&gt; Um, well, I have a LinkedIn profile. I
+still continue to post about some of my
+learnings and my thoughts not only about
+uh leadership and team building and
+career growth. Um, but I am continuing
+to um tweak and experiment with some of
+my uh podcasts. So, I still run this
+media and marketing podcast. It's kind
+of been on hold since I moved to
+California from New York, but um yeah,
+follow me on LinkedIn.
+&gt;&gt; This is awesome. Yeah, everyone make
+sure to follow. I forgot to mention the
+power of her LinkedIn and podcast and
+you landed 11 interviews, right? Half
+are inbound leads from recruiters and
+those interview fan Microsoft, Google,
+Meta, Netflix, all like all those like
+tier one company half are inbound lead.
+So it's very important people learn how
+to use the right strategy to build your
+personal brand and and trigger the
+algorithm as well. Uh which will have
+lots of free guide as well. So I going
+to show you guys different kind of like
+prompts people can use to start uh learn
+how to use AI starting from today. All
+right. Going to link in the description
+the show note and also link to Sunny's
+podcast. I love the name like culture by
+numbers CBN.
+&gt;&gt; CBN network. Yeah. The idea was
+&gt;&gt; CBN [laughter] network.
+&gt;&gt; Yeah. No, I was very focused on learning
+about Gen Alpha. I mean, I hate to say
+I'm kind of I'm not I'm Gen X. There's
+Gen Alpha, Gen Beta, Millennial. So, I
+mean, I was very interested in the
+youth, how they learn, how they interact
+with tools and uh actually that came up
+with podcast name was through AI had a
+list of 10 podcast titles and that was
+the one I picked, but it was generated
+by Claude. So um yeah but CBN network is
+about trying to understand how to use
+data in everyday tools pop culture and
+um understanding trends in sports things
+like that. Oh by the way yeah Super Bowl
+this weekend. So um I don't know I
+should run my app to do the prediction
+and spread between the Patriots and the
+Seahawks. I'm leaning towards Patriots
+because I'm a Boston fan. So
+&gt;&gt; ah same thing I about to say that you
+don't need to run it. I know Patriot
+gonna [laughter]
+from Boston too.
+No, that that's no if you get wrong you
+get a different answers but your
+agurance is wrong. It's never Patriots
+it's wrong anyway.
+&gt;&gt; Oh on that note I did want to mention so
+one of the inspiring things is there's
+the youngest female self-made
+billionaire now is uh Lanna Laura.
+Anyway, she was the co-founder of
+Kalshi, KAL Lsi, and she went through
+tremendous obstacles to get an online
+betting platform, um, overcoming legal
+and governmental legislation, and now
+she's the youngest billionaire.
+Billionaire with a B. So, and she's an
+MIT grad, too. She started out as a
+ballerina from Brazil.
+&gt;&gt; Wow.
+&gt;&gt; Yes. And then she started doing STEM
+courses. She went to MIT and then now
+she's a billionaire youngest. She
+superseded Lucy from scale AI.
+[laughter]
+&gt;&gt; This is
+&gt;&gt; incredible
+&gt;&gt; crazy. So this go back to the
+adaptability.
+&gt;&gt; So it doesn't matter what background you
+guys coming from. It's more about the
+tools, the strategies and network you
+have
+&gt;&gt; uh to transform yourself and in the age
+of AI.
+&gt;&gt; Yeah. And I'm network with you Nancy.
+Yes. [laughter]
+&gt;&gt; [gasps]
+&gt;&gt; We have 100k subscribers through our
+network and all of you guys should
+follow Sunny on LinkedIn, YouTube,
+Spotify. Let's all grow together. Let's
+do this.
+&gt;&gt; No, someday I hope to take Tony Robbins
+course, too.
+&gt;&gt; Oh, you should.
+&gt;&gt; No, I know you did.
+&gt;&gt; I I purchased all courses from Tony.
+Well, except the super expensive VIP
+stuff that that's I I need to I I need
+to make more money to attend. But yeah,
+this is like game changer. Everyone you
+want to change your mindset, change your
+life, go follow Tony Robbins.
+&gt;&gt; Invest in yourself basically. And that's
+why another reason I took PMA like, oh,
+some people say, "Ah, I could do it on
+my own." Okay, fine. Good luck.
+[laughter]
+It helps to have mentors. It helps to
+have any resource that you can put and
+look at my ROI.
+&gt;&gt; Exactly. And probably take people years
+calculated. It was like 100% return.
+&gt;&gt; [laughter]
+&gt;&gt; 100% return on investment.
+&gt;&gt; That's it. Let's go.
+&gt;&gt; No, not 100%. It's 100x.
+&gt;&gt; Yeah. 100x.
+&gt;&gt; 100x. Who? Crazy. 100x. Yes. Exactly.
+100x return on investment when you
+invest in yourself. I'm a big believer
+into education as well. Okay. Cool. All
+right. So thank you for sharing with us
+Sunonny regarding all the mindset shift
+and also prepare themsel mentally and
+also strategically in the age of AI. I'm
+looking forward to having you grow your
+podcast and come back share with us with
+our alumni again and welcome welcome and
+for anybody who is listening to this
+podcast. It took us really long time to
+invite the best guests and give you the
+best examples and many inspiring stories
+as well. If you find any of today's
+knowledge sharing is useful and can
+impact you, please make sure to give us
+a five-star review on Apple Podcast and
+Spotify or anywhere you're listening and
+also see the video version of the
+podcast on YouTube and make sure to
+like, subscribe and comment just like in
+all the channel you can find us and we
+are on YouTube, LinkedIn, Instagram,
+Twitter, X and Tik Tok as well. Just
+search Dr. Nancy Lee, you're able to
+find all the footprints we have. Thank
+you so much for joining us, Sonnie.
+&gt;&gt; You're welcome. Go do it. Go for it.
+&gt;&gt; Awesome.
