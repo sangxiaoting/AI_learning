@@ -56,6 +56,23 @@ def save_json(path: Path, data: Any) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def resolve_yt_dlp() -> str:
+    candidates = [
+        os.environ.get("YT_DLP_PATH"),
+        "/opt/homebrew/bin/yt-dlp",
+        "/usr/local/bin/yt-dlp",
+        "yt-dlp",
+    ]
+    for candidate in candidates:
+        if not candidate:
+            continue
+        if candidate == "yt-dlp":
+            return candidate
+        if Path(candidate).exists():
+            return candidate
+    return "yt-dlp"
+
+
 def run_command(command: list[str]) -> str:
     result = subprocess.run(command, check=True, capture_output=True, text=True)
     return result.stdout.strip()
@@ -81,8 +98,9 @@ def load_channels() -> list[Channel]:
 
 
 def resolve_latest_urls(channel: Channel, limit_per_channel: int) -> list[str]:
+    yt_dlp = resolve_yt_dlp()
     output = run_command([
-        "yt-dlp",
+        yt_dlp,
         "--flat-playlist",
         "--playlist-end",
         str(limit_per_channel),
@@ -94,8 +112,9 @@ def resolve_latest_urls(channel: Channel, limit_per_channel: int) -> list[str]:
 
 
 def fetch_video_metadata(url: str, channel: Channel) -> Video:
+    yt_dlp = resolve_yt_dlp()
     output = run_command([
-        "yt-dlp",
+        yt_dlp,
         "--skip-download",
         "--print",
         "%(id)s\t%(title)s\t%(uploader)s\t%(upload_date)s\t%(duration_string)s",

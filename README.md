@@ -22,7 +22,7 @@
 
 ### 依赖
 
-- `yt-dlp`
+- `yt-dlp`（脚本会优先尝试 `/opt/homebrew/bin/yt-dlp`，也可用 `YT_DLP_PATH` 覆盖）
 - Python 3.10+
 
 ### 环境变量
