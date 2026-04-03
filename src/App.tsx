@@ -292,26 +292,8 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
 
             {item.type === 'twitter' && item.content && (
               <section className="space-y-5">
-                <div className="bg-indigo-50/50 rounded-2xl p-6 border border-indigo-100">
-                  <h4 className="text-indigo-900 font-bold mb-3 flex items-center gap-2">
-                    <Lightbulb className="w-5 h-5" /> 一句话总结
-                  </h4>
-                  <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                    {item.tldr}
-                  </p>
-                </div>
-
-                {item.whyItMatters && (
-                  <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                    <h4 className="text-gray-900 font-bold mb-3">Why it matters</h4>
-                    <p className="text-gray-700 leading-relaxed text-base">
-                      {item.whyItMatters}
-                    </p>
-                  </div>
-                )}
-
                 <div className="bg-gray-900 text-white rounded-2xl p-8 shadow-xl">
-                  <h4 className="text-sm font-bold text-sky-300 mb-4 tracking-wider">中文提炼 / 转述</h4>
+                  <h4 className="text-sm font-bold text-sky-300 mb-4 tracking-wider">中文转录</h4>
                   <p className="text-lg leading-relaxed font-serif whitespace-pre-wrap">
                     {item.content}
                   </p>
@@ -319,48 +301,12 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
 
                 {item.quote && (
                   <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                    <div className="flex items-center justify-between gap-3 mb-3">
-                      <h4 className="text-gray-900 font-bold">英文原文</h4>
-                      {typeof item.confidence === 'number' && (
-                        <span className="text-xs font-semibold text-gray-500">置信度 {Math.round(item.confidence * 100)}%</span>
-                      )}
-                    </div>
+                    <h4 className="text-gray-900 font-bold mb-3">原文</h4>
                     <p className="text-gray-700 leading-relaxed text-base whitespace-pre-wrap">
                       {item.quote}
                     </p>
                   </div>
                 )}
-              </section>
-            )}
-
-            {item.type !== 'youtube' && item.takeaways.length > 0 && (
-              <section>
-                <h3 className="text-xl font-black text-gray-900 mb-6 flex items-center gap-3">
-                  <div className="w-1.5 h-6 bg-indigo-600 rounded-full" />
-                  关键要点
-                </h3>
-                <ul className="space-y-4">
-                  {item.takeaways.map((point, i) => (
-                    <li key={i} className="flex gap-4 items-start group">
-                      <div className="w-6 h-6 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
-                        {i + 1}
-                      </div>
-                      <p className="text-gray-700 leading-relaxed">{point}</p>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            )}
-
-            {item.type !== 'youtube' && item.quote && (
-              <section>
-                <h3 className="text-xl font-black text-gray-900 mb-6 flex items-center gap-3">
-                  <Quote className="w-6 h-6 text-amber-500" />
-                  金句摘录
-                </h3>
-                <div className="bg-amber-50 border-l-4 border-amber-400 p-8 rounded-r-2xl italic text-2xl text-gray-800 font-serif leading-snug">
-                  "{item.quote}"
-                </div>
               </section>
             )}
 
