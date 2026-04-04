@@ -337,36 +337,30 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
       onClick={onClick}
       className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 cursor-pointer relative group transition-all"
     >
-      <div className="flex items-center gap-3 mb-4">
-        <div className={cn('w-10 h-10 rounded-xl flex items-center justify-center transition-colors', bgColor)}>
+      <div className="flex items-start gap-3 mb-4">
+        <div className={cn('w-10 h-10 rounded-xl flex items-center justify-center transition-colors flex-shrink-0', bgColor)}>
           <Icon className={cn('w-5 h-5', iconColor)} />
         </div>
-        <div>
-          <h3 className="font-bold text-gray-900 leading-tight group-hover:text-indigo-600 transition-colors line-clamp-1">
+        <div className="min-w-0 flex-1">
+          <h3 className="font-bold text-gray-900 leading-tight group-hover:text-indigo-600 transition-colors line-clamp-2">
             {item.title}
           </h3>
-          <p className="text-[11px] text-gray-500 font-medium tracking-wider">
-            {item.author} • {item.dateText}
+          <p className="text-[11px] text-gray-500 font-medium tracking-wider mt-1">
+            {item.author} • {item.dateText}{item.duration ? ` • ${item.duration}` : ''}
           </p>
         </div>
       </div>
 
       <div className="space-y-3">
-        <p className="text-sm text-gray-600 line-clamp-2 leading-relaxed">
-          <span className="font-bold text-gray-900">摘要：</span> {item.tldr}
-        </p>
-        {item.type !== 'twitter' && item.takeaways.length > 0 && (
-          <p className="text-sm text-gray-600 line-clamp-1">
-            <span className="font-bold text-gray-900">要点：</span> {item.takeaways[0]}
+        <div>
+          <p className="text-xs font-bold text-red-700 mb-1">总结</p>
+          <p className="text-sm text-gray-700 line-clamp-4 leading-relaxed">
+            {item.tldr}
           </p>
-        )}
+        </div>
       </div>
 
-      <div className="mt-4 flex gap-1.5 flex-wrap">
-        {item.tags.slice(0, 3).map(tag => (
-          <TagBadge key={tag}>{tag}</TagBadge>
-        ))}
-      </div>
+      {/* Tags hidden */}
 
       <div className={cn(
         'absolute bottom-4 right-4 w-2 h-2 rounded-full',
