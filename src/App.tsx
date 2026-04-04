@@ -1,30 +1,31 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { 
-  Search, 
-  Podcast, 
-  Youtube, 
-  Twitter, 
-  User, 
-  Calendar as CalendarIcon, 
-  Clock, 
-  Lightbulb, 
-  Quote, 
-  Link as LinkIcon, 
-  Bookmark, 
-  Copy, 
-  Share2, 
+import {
+  Search,
+  Podcast,
+  Youtube,
+  Twitter,
+  User,
+  Calendar as CalendarIcon,
+  Clock,
+  Lightbulb,
+  Quote,
+  Bookmark,
+  Share2,
   X,
-  ChevronRight,
-  ExternalLink
+  ExternalLink,
+  Sparkles,
+  ListChecks,
+  MessagesSquare,
+  BookOpen,
+  HelpCircle,
+  Target,
+  Library,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
-import { format, isSameDay, parseISO } from 'date-fns';
 import { cn } from './lib/utils';
 import { LearningItem, ContentType } from './types';
 import { MOCK_DATA } from './mockData';
 import { loadLearningData } from './dataLoader';
-
-// --- Components ---
 
 interface TagBadgeProps {
   children: React.ReactNode;
@@ -36,6 +37,31 @@ const TagBadge = ({ children }: TagBadgeProps) => (
     {children}
   </span>
 );
+
+function normalizeStringList(value?: string | string[]): string[] {
+  if (!value) return [];
+  return Array.isArray(value) ? value.filter(Boolean) : [value];
+}
+
+function SectionCard({
+  title,
+  icon,
+  children,
+}: {
+  title: string;
+  icon?: React.ReactNode;
+  children: React.ReactNode;
+}) {
+  return (
+    <section className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
+      <h3 className="text-lg font-black text-gray-900 mb-4 flex items-center gap-2">
+        {icon}
+        {title}
+      </h3>
+      {children}
+    </section>
+  );
+}
 
 const TwitterCard = ({ item, onClick }: ContentCardProps) => (
   <motion.div
@@ -95,23 +121,102 @@ interface ContentCardProps {
   key?: React.Key;
 }
 
-const ContentCard = ({ item, onClick }: ContentCardProps) => {
-  const Icon = item.type === 'podcast' ? Podcast : item.type === 'youtube' ? Youtube : Twitter;
-  const iconColor = item.type === 'podcast' ? 'text-purple-600' : item.type === 'youtube' ? 'text-red-600' : 'text-sky-500';
-  const bgColor = item.type === 'podcast' ? 'bg-purple-50' : item.type === 'youtube' ? 'bg-red-50' : 'bg-sky-50';
+const PodcastCard = ({ item, onClick }: ContentCardProps) => {
+  const whyList = normalizeStringList(item.whyItMatters);
 
   return (
     <motion.div
       layout
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      whileHover={{ y: -4, shadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)' }}
+      whileHover={{ y: -4, boxShadow: '0 10px 25px -5px rgba(124, 58, 237, 0.10), 0 8px 10px -6px rgba(124, 58, 237, 0.10)' }}
+      onClick={onClick}
+      className="bg-white rounded-2xl p-5 shadow-sm border border-purple-100 cursor-pointer relative group transition-all"
+    >
+      <div className="flex items-start gap-3 mb-4">
+        <div className="w-10 h-10 rounded-xl flex items-center justify-center bg-purple-50 flex-shrink-0">
+          <Podcast className="w-5 h-5 text-purple-600" />
+        </div>
+        <div className="min-w-0 flex-1">
+          <h3 className="font-bold text-gray-900 leading-tight group-hover:text-purple-600 transition-colors line-clamp-2">
+            {item.title}
+          </h3>
+          <p className="text-[11px] text-gray-500 font-medium tracking-wider mt-1">
+            {item.author} • {item.dateText}{item.duration ? ` • ${item.duration}` : ''}
+          </p>
+          {item.guest && <p className="text-xs text-purple-700 mt-2 line-clamp-1">嘉宾：{item.guest}</p>}
+        </div>
+      </div>
+
+      <div className="space-y-3">
+        <p className="text-sm text-gray-700 line-clamp-3 leading-relaxed">
+          <span className="font-bold text-gray-900">TL;DR：</span> {item.tldr}
+        </p>
+
+        {item.takeaways.length > 0 && (
+          <div>
+            <p className="text-xs font-bold text-purple-700 mb-2">核心要点</p>
+            <ul className="space-y-1.5">
+              {item.takeaways.slice(0, 2).map((point, index) => (
+                <li key={index} className="text-sm text-gray-600 flex gap-2 line-clamp-2">
+                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-purple-400 flex-shrink-0" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {item.quote && (
+          <div className="bg-purple-50/70 border-l-4 border-purple-300 rounded-r-xl px-3 py-2">
+            <p className="text-xs font-bold text-purple-700 mb-1">金句</p>
+            <p className="text-sm text-gray-700 italic line-clamp-2">“{item.quote}”</p>
+          </div>
+        )}
+
+        {whyList.length > 0 && (
+          <div>
+            <p className="text-xs font-bold text-gray-500 mb-1">为什么值得看</p>
+            <p className="text-sm text-gray-600 line-clamp-2">{whyList[0]}</p>
+          </div>
+        )}
+      </div>
+
+      <div className="mt-4 flex gap-1.5 flex-wrap">
+        {item.tags.slice(0, 5).map(tag => (
+          <TagBadge key={tag}>{tag}</TagBadge>
+        ))}
+      </div>
+
+      <div className={cn(
+        'absolute bottom-4 right-4 w-2 h-2 rounded-full',
+        item.dateText === '今天' ? 'bg-emerald-500 animate-pulse' : 'bg-gray-300'
+      )} />
+    </motion.div>
+  );
+};
+
+const ContentCard = ({ item, onClick }: ContentCardProps) => {
+  if (item.type === 'podcast') {
+    return <PodcastCard item={item} onClick={onClick} />;
+  }
+
+  const Icon = item.type === 'youtube' ? Youtube : Twitter;
+  const iconColor = item.type === 'youtube' ? 'text-red-600' : 'text-sky-500';
+  const bgColor = item.type === 'youtube' ? 'bg-red-50' : 'bg-sky-50';
+
+  return (
+    <motion.div
+      layout
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      whileHover={{ y: -4, boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)' }}
       onClick={onClick}
       className="bg-white rounded-2xl p-5 shadow-sm border border-gray-100 cursor-pointer relative group transition-all"
     >
       <div className="flex items-center gap-3 mb-4">
-        <div className={cn("w-10 h-10 rounded-xl flex items-center justify-center transition-colors", bgColor)}>
-          <Icon className={cn("w-5 h-5", iconColor)} />
+        <div className={cn('w-10 h-10 rounded-xl flex items-center justify-center transition-colors', bgColor)}>
+          <Icon className={cn('w-5 h-5', iconColor)} />
         </div>
         <div>
           <h3 className="font-bold text-gray-900 leading-tight group-hover:text-indigo-600 transition-colors line-clamp-1">
@@ -141,8 +246,8 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
       </div>
 
       <div className={cn(
-        "absolute bottom-4 right-4 w-2 h-2 rounded-full",
-        item.dateText === '今天' ? "bg-emerald-500 animate-pulse" : "bg-gray-300"
+        'absolute bottom-4 right-4 w-2 h-2 rounded-full',
+        item.dateText === '今天' ? 'bg-emerald-500 animate-pulse' : 'bg-gray-300'
       )} />
     </motion.div>
   );
@@ -150,6 +255,7 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
 
 const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => void }) => {
   const [notes, setNotes] = useState('');
+  const whyItMattersList = normalizeStringList(item.whyItMatters);
 
   return (
     <motion.div
@@ -163,10 +269,10 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
         initial={{ scale: 0.95, opacity: 0, y: 20 }}
         animate={{ scale: 1, opacity: 1, y: 0 }}
         exit={{ scale: 0.95, opacity: 0, y: 20 }}
-        className="bg-white rounded-3xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative"
+        className="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative"
         onClick={e => e.stopPropagation()}
       >
-        <button 
+        <button
           onClick={onClose}
           className="absolute top-6 right-6 p-2 rounded-full hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-900 z-10"
         >
@@ -176,15 +282,15 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
         <div className="p-8 md:p-10">
           <div className="flex flex-col md:flex-row md:items-center gap-6 mb-8 pb-8 border-b border-gray-100">
             <div className={cn(
-              "w-20 h-20 rounded-2xl flex items-center justify-center flex-shrink-0",
+              'w-20 h-20 rounded-2xl flex items-center justify-center flex-shrink-0',
               item.type === 'podcast' ? 'bg-purple-50' : item.type === 'youtube' ? 'bg-red-50' : 'bg-sky-50'
             )}>
-              {item.type === 'podcast' ? <Podcast className="w-10 h-10 text-purple-600" /> : 
-               item.type === 'youtube' ? <Youtube className="w-10 h-10 text-red-600" /> : 
+              {item.type === 'podcast' ? <Podcast className="w-10 h-10 text-purple-600" /> :
+               item.type === 'youtube' ? <Youtube className="w-10 h-10 text-red-600" /> :
                <Twitter className="w-10 h-10 text-sky-500" />}
             </div>
             <div className="flex-1">
-              <div className="flex gap-2 mb-3">
+              <div className="flex gap-2 mb-3 flex-wrap">
                 {item.tags.map(tag => <TagBadge key={tag}>{tag}</TagBadge>)}
               </div>
               <h2 className="text-3xl font-black text-gray-900 leading-tight mb-3">
@@ -192,21 +298,21 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
               </h2>
               <div className="flex flex-wrap items-center gap-4 text-sm text-gray-500 font-medium">
                 <span className="flex items-center gap-1.5"><User className="w-4 h-4" /> {item.author}</span>
+                {item.guest && <span className="flex items-center gap-1.5"><MessagesSquare className="w-4 h-4" /> {item.guest}</span>}
                 {item.duration && <span className="flex items-center gap-1.5"><Clock className="w-4 h-4" /> {item.duration}</span>}
                 <span className="flex items-center gap-1.5"><CalendarIcon className="w-4 h-4" /> {item.dateText}</span>
               </div>
             </div>
           </div>
 
-          <div className="space-y-10">
-            {/* Summary Card Section (For YouTube) */}
+          <div className="space-y-8">
             {item.type === 'youtube' && (
               <section className="bg-indigo-50/50 rounded-3xl p-8 border border-indigo-100 shadow-sm">
                 <h3 className="text-2xl font-black text-indigo-900 mb-6 flex items-center gap-3">
                   <div className="w-2 h-8 bg-indigo-600 rounded-full" />
                   ⚡️ 摘要卡片 (Summary)
                 </h3>
-                
+
                 <div className="space-y-8">
                   <div>
                     <h4 className="text-sm font-black text-indigo-400 uppercase tracking-widest mb-2">TL;DR</h4>
@@ -245,8 +351,127 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
               </section>
             )}
 
-            {/* Standard Summary (For non-YouTube) */}
-            {item.type !== 'youtube' && (
+            {item.type === 'podcast' && (
+              <>
+                <section className="bg-purple-50/60 rounded-3xl p-8 border border-purple-100 shadow-sm">
+                  <h3 className="text-2xl font-black text-purple-900 mb-6 flex items-center gap-3">
+                    <div className="w-2 h-8 bg-purple-600 rounded-full" />
+                    🎧 Podcast Summary Card
+                  </h3>
+
+                  <div className="space-y-6">
+                    <div>
+                      <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-2">TL;DR</h4>
+                      <p className="text-xl text-gray-800 font-bold leading-relaxed">{item.tldr}</p>
+                    </div>
+
+                    {item.takeaways.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-3 flex items-center gap-2">
+                          <ListChecks className="w-4 h-4" /> 核心要点
+                        </h4>
+                        <ul className="grid grid-cols-1 gap-3">
+                          {item.takeaways.map((point, i) => (
+                            <li key={i} className="flex gap-3 items-start bg-white/70 p-4 rounded-xl border border-purple-50">
+                              <div className="w-5 h-5 rounded-full bg-purple-600 text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0 mt-0.5">
+                                {i + 1}
+                              </div>
+                              <span className="text-sm text-gray-700 font-medium leading-relaxed">{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+
+                    {item.quote && (
+                      <div>
+                        <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-3 flex items-center gap-2">
+                          <Quote className="w-4 h-4" /> 金句摘录
+                        </h4>
+                        <div className="bg-white/90 p-5 rounded-2xl border-l-4 border-purple-400 italic text-lg text-gray-800 font-serif">
+                          “{item.quote}”
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </section>
+
+                {whyItMattersList.length > 0 && (
+                  <SectionCard title="为什么值得看" icon={<Sparkles className="w-5 h-5 text-amber-500" />}>
+                    <ul className="space-y-3">
+                      {whyItMattersList.map((point, idx) => (
+                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                          <span className="mt-2 w-2 h-2 rounded-full bg-amber-400 flex-shrink-0" />
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </SectionCard>
+                )}
+
+                {item.contrarianPoints && item.contrarianPoints.length > 0 && (
+                  <SectionCard title="反直觉观点" icon={<Lightbulb className="w-5 h-5 text-fuchsia-500" />}>
+                    <ul className="space-y-3">
+                      {item.contrarianPoints.map((point, idx) => (
+                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                          <span className="mt-2 w-2 h-2 rounded-full bg-fuchsia-400 flex-shrink-0" />
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </SectionCard>
+                )}
+
+                {item.summaryLong && (
+                  <SectionCard title="深度摘要" icon={<BookOpen className="w-5 h-5 text-indigo-500" />}>
+                    <div className="text-gray-700 leading-8 whitespace-pre-wrap text-[15px]">
+                      {item.summaryLong}
+                    </div>
+                  </SectionCard>
+                )}
+
+                {item.actionableAdvice && item.actionableAdvice.length > 0 && (
+                  <SectionCard title="可执行建议" icon={<Target className="w-5 h-5 text-emerald-500" />}>
+                    <ul className="space-y-3">
+                      {item.actionableAdvice.map((point, idx) => (
+                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                          <span className="mt-2 w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0" />
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </SectionCard>
+                )}
+
+                {item.references && item.references.length > 0 && (
+                  <SectionCard title="关键概念" icon={<Library className="w-5 h-5 text-sky-500" />}>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {item.references.map((ref, idx) => (
+                        <div key={idx} className="rounded-xl border border-sky-100 bg-sky-50/50 p-4">
+                          <h4 className="font-bold text-gray-900 mb-2">{ref.term}</h4>
+                          <p className="text-sm text-gray-600 leading-relaxed">{ref.desc}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </SectionCard>
+                )}
+
+                {item.openQuestions && item.openQuestions.length > 0 && (
+                  <SectionCard title="开放问题" icon={<HelpCircle className="w-5 h-5 text-rose-500" />}>
+                    <ul className="space-y-3">
+                      {item.openQuestions.map((point, idx) => (
+                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                          <span className="mt-2 w-2 h-2 rounded-full bg-rose-400 flex-shrink-0" />
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </SectionCard>
+                )}
+              </>
+            )}
+
+            {item.type !== 'youtube' && item.type !== 'podcast' && (
               <section className="bg-indigo-50/50 rounded-2xl p-6 border border-indigo-100">
                 <h4 className="text-indigo-900 font-bold mb-3 flex items-center gap-2">
                   <Lightbulb className="w-5 h-5" /> 摘要
@@ -257,14 +482,13 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
               </section>
             )}
 
-            {/* Detailed Breakdown (For YouTube) */}
             {item.type === 'youtube' && item.detailedBreakdown && (
               <section className="space-y-8">
                 <h3 className="text-2xl font-black text-gray-900 flex items-center gap-3">
                   <div className="w-2 h-8 bg-emerald-500 rounded-full" />
                   📖 深度拆解笔记 (Detailed Breakdown)
                 </h3>
-                
+
                 <div className="space-y-12">
                   {item.detailedBreakdown.map((chapter, idx) => (
                     <div key={idx} className="relative pl-8 border-l-2 border-gray-100 pb-2">
@@ -315,7 +539,7 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
                 <div className="w-1.5 h-6 bg-gray-400 rounded-full" />
                 Personal Reflections
               </h3>
-              <textarea 
+              <textarea
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}
                 placeholder="What did you learn? How will you apply this?"
@@ -324,9 +548,9 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
             </section>
 
             <div className="flex flex-wrap gap-3 pt-8 border-t border-gray-100">
-              <a 
-                href={item.link} 
-                target="_blank" 
+              <a
+                href={item.link}
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-200"
               >
@@ -346,8 +570,6 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
   );
 };
 
-// --- Main App ---
-
 export default function App() {
   const [data, setData] = useState<LearningItem[]>(MOCK_DATA);
   const [loading, setLoading] = useState(false);
@@ -356,7 +578,6 @@ export default function App() {
   const [selectedDate, setSelectedDate] = useState<string | 'all'>('all');
   const [selectedItem, setSelectedItem] = useState<LearningItem | null>(null);
 
-  // Data Loading Logic
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -364,7 +585,7 @@ export default function App() {
         const loadedData = await loadLearningData();
         setData(loadedData);
       } catch (error) {
-        console.error("Failed to load data, using mock data.", error);
+        console.error('Failed to load data, using mock data.', error);
         setData(MOCK_DATA);
       } finally {
         setLoading(false);
@@ -376,10 +597,10 @@ export default function App() {
 
   const filteredData = useMemo(() => {
     return data.filter(item => {
-      const matchesSearch = item.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+      const matchesSearch = item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
                            item.author.toLowerCase().includes(searchQuery.toLowerCase()) ||
                            item.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase()));
-      
+
       const matchesType = activeFilter === 'all' || item.type === activeFilter;
       const matchesDate = selectedDate === 'all' || item.date === selectedDate;
 
@@ -393,7 +614,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F8F9FC] text-gray-900 font-sans selection:bg-indigo-100 selection:text-indigo-900">
-      {/* Header */}
       <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between gap-8">
           <div className="flex items-center gap-3">
@@ -407,8 +627,8 @@ export default function App() {
 
           <div className="flex-1 max-w-xl relative group">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 group-focus-within:text-indigo-600 transition-colors" />
-            <input 
-              type="text" 
+            <input
+              type="text"
               placeholder="搜索观点、作者或标签..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
@@ -429,7 +649,6 @@ export default function App() {
       </header>
 
       <main className="max-w-7xl mx-auto px-6 py-8">
-        {/* Filters & Stats */}
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-12">
           <div className="flex flex-wrap items-center gap-2">
             {(['all', 'podcast', 'youtube', 'twitter'] as const).map(type => (
@@ -437,24 +656,24 @@ export default function App() {
                 key={type}
                 onClick={() => setActiveFilter(type)}
                 className={cn(
-                  "px-5 py-2.5 rounded-xl text-sm font-bold transition-all capitalize",
-                  activeFilter === type 
-                    ? "bg-indigo-600 text-white shadow-lg shadow-indigo-200" 
-                    : "bg-white text-gray-500 hover:bg-gray-50 border border-gray-100"
+                  'px-5 py-2.5 rounded-xl text-sm font-bold transition-all capitalize',
+                  activeFilter === type
+                    ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200'
+                    : 'bg-white text-gray-500 hover:bg-gray-50 border border-gray-100'
                 )}
               >
                 {type === 'all' ? '全部来源' : type === 'podcast' ? '播客' : type === 'youtube' ? 'YouTube' : 'Twitter'}
               </button>
             ))}
-            
+
             <div className="h-8 w-px bg-gray-200 mx-2 hidden sm:block" />
 
             <div className="flex items-center gap-2">
               <button
                 onClick={() => setSelectedDate('all')}
                 className={cn(
-                  "px-4 py-2.5 rounded-xl text-sm font-bold transition-all",
-                  selectedDate === 'all' ? "bg-indigo-100 text-indigo-700" : "text-gray-500 hover:bg-gray-100"
+                  'px-4 py-2.5 rounded-xl text-sm font-bold transition-all',
+                  selectedDate === 'all' ? 'bg-indigo-100 text-indigo-700' : 'text-gray-500 hover:bg-gray-100'
                 )}
               >
                 全部时间
@@ -462,8 +681,8 @@ export default function App() {
               <button
                 onClick={() => setSelectedDate('2026-03-30')}
                 className={cn(
-                  "px-4 py-2.5 rounded-xl text-sm font-bold transition-all",
-                  selectedDate === '2026-03-30' ? "bg-indigo-100 text-indigo-700" : "text-gray-500 hover:bg-gray-100"
+                  'px-4 py-2.5 rounded-xl text-sm font-bold transition-all',
+                  selectedDate === '2026-03-30' ? 'bg-indigo-100 text-indigo-700' : 'text-gray-500 hover:bg-gray-100'
                 )}
               >
                 今天
@@ -474,10 +693,10 @@ export default function App() {
           <div className="flex items-center gap-8 bg-white p-4 rounded-2xl border border-gray-100 shadow-sm">
             <div className="flex gap-1">
               {[0.8, 0.9, 0.4, 0.2, 0, 0.7, 0.5].map((opacity, i) => (
-                <div 
-                  key={i} 
-                  className="w-4 h-4 rounded-sm bg-emerald-500" 
-                  style={{ opacity: opacity || 0.1 }} 
+                <div
+                  key={i}
+                  className="w-4 h-4 rounded-sm bg-emerald-500"
+                  style={{ opacity: opacity || 0.1 }}
                 />
               ))}
             </div>
@@ -494,9 +713,7 @@ export default function App() {
           </div>
         </div>
 
-        {/* Content Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Podcasts */}
           <section className="space-y-6">
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-black text-gray-900 flex items-center gap-2">
@@ -513,7 +730,6 @@ export default function App() {
             </div>
           </section>
 
-          {/* YouTube */}
           <section className="space-y-6">
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-black text-gray-900 flex items-center gap-2">
@@ -530,7 +746,6 @@ export default function App() {
             </div>
           </section>
 
-          {/* Twitter */}
           <section className="space-y-6">
             <div className="flex items-center justify-between">
               <h2 className="text-lg font-black text-gray-900 flex items-center gap-2">
@@ -549,14 +764,12 @@ export default function App() {
         </div>
       </main>
 
-      {/* Modal */}
       <AnimatePresence>
         {selectedItem && (
           <DetailModal item={selectedItem} onClose={() => setSelectedItem(null)} />
         )}
       </AnimatePresence>
 
-      {/* Loading Overlay */}
       {loading && (
         <div className="fixed inset-0 z-50 bg-white/80 backdrop-blur-sm flex items-center justify-center">
           <div className="w-12 h-12 border-4 border-indigo-600 border-t-transparent rounded-full animate-spin" />

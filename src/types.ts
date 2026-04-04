@@ -10,6 +10,11 @@ export interface Chapter {
   points: ChapterPoint[];
 }
 
+export interface ReferenceItem {
+  term: string;
+  desc: string;
+}
+
 export interface LearningItem {
   id: string;
   type: ContentType;
@@ -24,13 +29,19 @@ export interface LearningItem {
   link: string;
   tags: string[];
   content?: string; // For twitter translated/full content
-  detailedBreakdown?: Chapter[]; // For YouTube
+  detailedBreakdown?: Chapter[] | null; // For YouTube / optional rich breakdown
   role?: string;
   sourceLabel?: string;
-  whyItMatters?: string;
+  whyItMatters?: string | string[];
   originalText?: string;
   contentType?: string;
   confidence?: number;
+  guest?: string;
+  summaryLong?: string;
+  actionableAdvice?: string[];
+  references?: ReferenceItem[];
+  contrarianPoints?: string[];
+  openQuestions?: string[];
 }
 
 export interface ActivityData {

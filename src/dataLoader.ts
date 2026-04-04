@@ -15,11 +15,18 @@ function normalizeRemoteItems(items: any[], type: 'youtube' | 'podcast'): Learni
     dateText: item.dateText,
     duration: item.duration,
     tldr: item.tldr,
-    takeaways: item.takeaways,
+    takeaways: item.takeaways || [],
     quote: item.quote,
     link: item.link,
-    tags: item.tags,
+    tags: item.tags || [],
     detailedBreakdown: item.detailedBreakdown,
+    guest: item.guest,
+    summaryLong: item.summaryLong,
+    actionableAdvice: item.actionableAdvice || [],
+    references: item.references || [],
+    whyItMatters: item.whyItMatters,
+    contrarianPoints: item.contrarianPoints || [],
+    openQuestions: item.openQuestions || [],
   }));
 }
 
