@@ -1,110 +1,162 @@
-# AI Learning + YouTube Pipeline
+# LearningHub
 
-这个仓库现在同时包含：
+一个面向 AI / 产品方向的个人学习聚合站，自动抓取 YouTube、播客、Twitter/X 内容，通过 AI 结构化提炼后呈现在前端，支持搜索、笔记本收藏和划线问 AI。
 
-1. 前端应用（远程仓库既有内容）
-2. YouTube 数据抓取与总结流水线（本次并入）
+---
 
-## YouTube Pipeline
+## 功能概览
 
-定时抓取指定 YouTube 频道的新视频，提取字幕，调用 MiniMax 做结构化提炼，并输出给前端消费的 `json` 与给人阅读的 `markdown`。
+### 前端（React + Vite）
+- 多来源内容聚合：YouTube、播客、Twitter/X
+- 全文搜索 + 类型 / 日期筛选
+- 详情页：TL;DR、核心要点、深度摘要、时间轴拆解
+- **笔记本**：一键收藏任意卡片，支持写笔记、持久保存（localStorage）、从 Header 快速查看
+- **划线问 AI**：在详情页选中文字 → 浮现"问一问 AI"按钮 → Gemini 多轮对话
 
-### 目录
+### 数据流水线（Python + Shell）
+- 定时抓取配置频道的新视频（`config/channels.json`）
+- `yt-dlp` 提取字幕，MiniMax 结构化提炼
+- 输出 JSON 供前端消费 + Markdown 供人阅读
+- 同步到前端 `public/` 目录并自动提交推送
 
-- `config/channels.json`：频道配置
-- `config/prompt_system.txt`：总结模型的 system prompt
-- `scripts/run_pipeline.py`：主流程脚本
-- `state/videos.json`：已处理视频状态
-- `data/`：结构化 JSON 输出
-- `content/`：Markdown 输出
-- `transcripts/`：原始字幕
-- `logs/`：运行日志
+---
 
-### 依赖
+## 项目结构
 
-- `yt-dlp`（脚本会优先尝试 `/opt/homebrew/bin/yt-dlp`，也可用 `YT_DLP_PATH` 覆盖）
+```
+├── src/                    # 前端源码（React + TypeScript）
+│   ├── App.tsx             # 主组件（所有功能入口）
+│   ├── types.ts            # 类型定义
+│   ├── dataLoader.ts       # 数据加载逻辑
+│   └── mockData.ts         # 本地 mock 数据
+├── config/
+│   ├── channels.json       # YouTube 频道订阅列表
+│   ├── prompt_system.txt   # YouTube 总结 system prompt
+│   └── follow_builders_digest_system.txt  # Twitter 动态 prompt
+├── scripts/
+│   ├── run_pipeline.py         # YouTube 主流程
+│   ├── run_follow_builders_pipeline.sh  # Twitter 动态流程
+│   ├── run_full_pipeline.sh    # 一键全流程
+│   └── run_cron_pipeline.sh    # cron 入口（读取 .env.local）
+├── data/                   # 结构化 JSON 输出
+├── content/                # Markdown 输出
+├── transcripts/            # 原始字幕
+├── state/                  # 已处理视频状态
+└── public/                 # 前端静态资源（构建产物 + 数据）
+```
+
+---
+
+## 快速开始
+
+### 前端本地开发
+
+```bash
+npm install
+npm run dev        # http://localhost:3000
+```
+
+配置 Gemini API（划线问 AI 功能需要）：
+
+```bash
+# .env
+VITE_GEMINI_API_KEY=your_key_here
+```
+
+### 数据流水线
+
+**依赖：**
 - Python 3.10+
+- `yt-dlp`（`brew install yt-dlp` 或 `pip install yt-dlp`）
+- MiniMax API Key
 
-### 环境变量
-
-- `MINIMAX_API_KEY`：MiniMax API key
-- `MINIMAX_MODEL`：可选，默认 `MiniMax-M2.5`
-- `YOUTUBE_PIPELINE_BASE_URL`：可选，默认 `https://api.minimaxi.com/v1/text/chatcompletion_v2`
-
-### 使用
+**推荐：在仓库根目录创建 `.env.local`**
 
 ```bash
-export MINIMAX_API_KEY='你的key'
-python3 scripts/run_pipeline.py --limit-per-channel 1
+MINIMAX_API_KEY=your_key_here
+GITHUB_REMOTE=https://github.com/your_username/AI_learning.git
 ```
 
-只检查频道，不调用总结：
-
-```bash
-python3 scripts/run_pipeline.py --discover-only
-```
-
-### 输出说明
-
-每个视频会生成：
-
-- `data/youtube/YYYY-MM-DD/<slug>-<video_id>.json`
-- `content/youtube/YYYY-MM-DD/<slug>-<video_id>.md`
-- `transcripts/youtube/YYYY-MM-DD/<video_id>.txt`
-
-同时会刷新：
-
-- `data/youtube/latest.json`
-
-### 一键执行并自动同步到前端
-
-```bash
-export MINIMAX_API_KEY='你的key'
-export GITHUB_REMOTE='https://github.com/sangxiaoting/AI_learning.git'
-bash ./scripts/run_full_pipeline.sh
-```
-
-这个流程现在会：
-1. 生成 YouTube 摘要与转录
-2. 自动同步到 `AI_learning/public/`
-3. 在 `AI_learning` 仓库里提交并推送
-
-`youtube-pipeline` 本身只负责产出数据，不再作为前端发布仓库。
-
-### 本地保存配置（推荐）
-
-在仓库根目录创建 `.env.local`：
-
-```bash
-MINIMAX_API_KEY=你的key
-GITHUB_REMOTE=https://github.com/你的用户名/你的仓库.git
-```
-
-然后直接运行：
+**一键运行（生成数据 + 同步前端 + 自动 push）：**
 
 ```bash
 bash ./scripts/run_cron_pipeline.sh
 ```
 
-这个脚本会自动读取 `.env.local`，所以不需要每次手动 export。
-
-默认前端目标目录是：`/Users/sangxiaoting/.openclaw/workspace/AI_learning`
-如需覆盖，可设置 `AI_LEARNING_ROOT`。
-
-### 定时任务
-
-可用 cron 定时执行，例如每天 10:30 和 18:30：
-
-```cron
-30 10,18 * * * /Users/sangxiaoting/.openclaw/workspace/youtube-pipeline/scripts/run_cron_pipeline.sh
-```
-
-日志会写到：
+**只跑 YouTube，不 push：**
 
 ```bash
-/Users/sangxiaoting/.openclaw/workspace/youtube-pipeline/logs/cron.log
+export MINIMAX_API_KEY='your_key'
+python3 scripts/run_pipeline.py --limit-per-channel 1
+
+# 只检查频道，不调用 AI 总结：
+python3 scripts/run_pipeline.py --discover-only
 ```
 
-## 原仓库说明
+**设置定时任务（每天 10:30 和 18:30 自动运行）：**
 
-远程仓库原本包含一个前端应用；相关前端代码和 `public/` 目录仍然保留，可继续直接消费 YouTube / Podcast 数据。
+```bash
+bash ./scripts/setup_cron.sh
+```
+
+或手动添加 cron：
+
+```cron
+30 10,18 * * * /path/to/AI_learning/scripts/run_cron_pipeline.sh >> /path/to/logs/cron.log 2>&1
+```
+
+---
+
+## 已订阅频道
+
+| 频道 | 分类 |
+|------|------|
+| Intentional Product Manager | 产品 |
+| Aakash Gupta | 产品 |
+| PM Accelerator | 产品 |
+| AI Explained | 技术 |
+| Two Minute Papers | 技术 |
+| Matthew Berman | 技术 |
+| Dwarkesh Patel | 行业 |
+| Lex Fridman | 行业 |
+| Matt Wolfe | 行业 |
+| DeepLearning.AI | 基础 |
+
+---
+
+## 数据输出格式
+
+每个 YouTube 视频生成三份文件：
+
+```
+data/youtube/YYYY-MM-DD/<slug>-<video_id>.json   # 结构化 JSON（前端消费）
+content/youtube/YYYY-MM-DD/<slug>-<video_id>.md  # Markdown（人类阅读）
+transcripts/youtube/YYYY-MM-DD/<video_id>.txt    # 原始字幕
+```
+
+前端统一从以下路径读取最新数据：
+
+```
+public/data/youtube/latest.json
+public/data/podcast/latest.json
+public/data/twitter/latest.json
+```
+
+---
+
+## Tech Stack
+
+| 层 | 技术 |
+|----|------|
+| 前端框架 | React 19 + TypeScript + Vite |
+| 样式 | Tailwind CSS v4 |
+| 动画 | Motion (Framer Motion) |
+| AI 对话 | Google Gemini 2.0 Flash (`@google/genai`) |
+| 数据抓取 | yt-dlp + Python |
+| AI 总结 | MiniMax M2.5 |
+
+---
+
+## License
+
+MIT

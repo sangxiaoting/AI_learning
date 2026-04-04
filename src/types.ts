@@ -57,3 +57,26 @@ export interface ActivityData {
   date: string;
   count: number;
 }
+
+export interface NotebookEntry {
+  id: string;
+  itemId: string;
+  itemTitle: string;
+  itemType: ContentType;
+  itemAuthor: string;
+  notes: string;
+  savedAt: string;
+}
+
+export interface AIMessage {
+  role: 'user' | 'model';
+  text: string;
+  timestamp: string;
+}
+
+export interface SelectionPopupState {
+  visible: boolean;
+  x: number;
+  y: number;
+  selectedText: string;
+}

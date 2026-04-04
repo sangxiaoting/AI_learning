@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import {
   Search,
   Podcast,
@@ -10,6 +10,7 @@ import {
   Lightbulb,
   Quote,
   Bookmark,
+  BookmarkCheck,
   Share2,
   X,
   ExternalLink,
@@ -20,10 +21,14 @@ import {
   HelpCircle,
   Target,
   Library,
+  Bot,
+  Send,
+  Trash2,
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { GoogleGenAI } from '@google/genai';
 import { cn } from './lib/utils';
-import { LearningItem, ContentType, InsightGroup } from './types';
+import { LearningItem, ContentType, InsightGroup, NotebookEntry, AIMessage, SelectionPopupState } from './types';
 import { MOCK_DATA } from './mockData';
 import { loadLearningData } from './dataLoader';
 
@@ -214,7 +219,282 @@ function InsightGroupsSection({ groups }: { groups: InsightGroup[] }) {
   );
 }
 
-const TwitterCard = ({ item, onClick }: ContentCardProps) => (
+// ─── AskAIModal ───────────────────────────────────────────────────────────────
+
+interface AskAIModalProps {
+  sourceTitle: string;
+  initialText: string;
+  onClose: () => void;
+}
+
+const AskAIModal = ({ sourceTitle, initialText, onClose }: AskAIModalProps) => {
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY as string | undefined;
+  const hasApiKey = Boolean(apiKey);
+
+  const chatRef = useRef<ReturnType<InstanceType<typeof GoogleGenAI>['chats']['create']> | null>(null);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  const [messages, setMessages] = useState<AIMessage[]>([]);
+  const [input, setInput] = useState(initialText);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (hasApiKey) {
+      const client = new GoogleGenAI({ apiKey: apiKey! });
+      chatRef.current = client.chats.create({
+        model: 'gemini-2.0-flash',
+        config: { systemInstruction: '你是学习助手，用中文简洁回答。' },
+      });
+    }
+  }, [hasApiKey, apiKey]);
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, loading]);
+
+  const sendMessage = async () => {
+    const text = input.trim();
+    if (!text || loading || !hasApiKey) return;
+
+    const userMsg: AIMessage = { role: 'user', text, timestamp: new Date().toISOString() };
+    setMessages(prev => [...prev, userMsg]);
+    setInput('');
+    setLoading(true);
+    setError(null);
+
+    try {
+      const res = await chatRef.current!.sendMessage({ message: text });
+      const modelMsg: AIMessage = {
+        role: 'model',
+        text: res.text ?? '（无回复）',
+        timestamp: new Date().toISOString(),
+      };
+      setMessages(prev => [...prev, modelMsg]);
+    } catch (err) {
+      setError('调用失败，请稍后重试。');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (e.key === 'Enter' && !e.shiftKey) {
+      e.preventDefault();
+      sendMessage();
+    }
+  };
+
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <motion.div
+        initial={{ scale: 0.95, opacity: 0, y: 20 }}
+        animate={{ scale: 1, opacity: 1, y: 0 }}
+        exit={{ scale: 0.95, opacity: 0, y: 20 }}
+        className="bg-white rounded-3xl w-full max-w-2xl max-h-[80vh] flex flex-col shadow-2xl"
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="flex items-center justify-between p-6 border-b border-gray-100">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-indigo-600 flex items-center justify-center">
+              <Bot className="w-5 h-5 text-white" />
+            </div>
+            <div>
+              <p className="text-xs text-gray-400 font-medium">问一问 AI</p>
+              <p className="text-sm font-bold text-gray-700 line-clamp-1">{sourceTitle}</p>
+            </div>
+          </div>
+          <button onClick={onClose} className="p-2 rounded-full hover:bg-gray-100 text-gray-400 hover:text-gray-700 transition-colors">
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+
+        {/* No API key warning */}
+        {!hasApiKey && (
+          <div className="mx-6 mt-4 p-4 rounded-2xl bg-amber-50 border border-amber-200">
+            <p className="text-sm font-bold text-amber-700">未配置 Gemini API Key</p>
+            <p className="text-xs text-amber-600 mt-1">请在 <code className="bg-amber-100 px-1 rounded">.env</code> 文件中添加 <code className="bg-amber-100 px-1 rounded">VITE_GEMINI_API_KEY</code> 后重启服务。</p>
+          </div>
+        )}
+
+        {/* Messages */}
+        <div className="flex-1 overflow-y-auto p-6 space-y-4 min-h-0">
+          {messages.length === 0 && (
+            <div className="text-center py-8 text-gray-400">
+              <Bot className="w-10 h-10 mx-auto mb-3 opacity-30" />
+              <p className="text-sm">选中的文字已填入输入框，发送开始对话</p>
+            </div>
+          )}
+          {messages.map((msg, i) => (
+            <div
+              key={i}
+              className={cn('flex', msg.role === 'user' ? 'justify-end' : 'justify-start')}
+            >
+              <div className={cn(
+                'max-w-[80%] rounded-2xl px-4 py-3 text-sm leading-relaxed',
+                msg.role === 'user'
+                  ? 'bg-indigo-600 text-white'
+                  : 'bg-gray-100 text-gray-800'
+              )}>
+                {msg.text}
+              </div>
+            </div>
+          ))}
+          {loading && (
+            <div className="flex justify-start">
+              <div className="bg-gray-100 rounded-2xl px-5 py-3 flex items-center gap-1">
+                {[0, 1, 2].map(i => (
+                  <span
+                    key={i}
+                    className="w-2 h-2 rounded-full bg-gray-400 animate-bounce"
+                    style={{ animationDelay: `${i * 0.15}s` }}
+                  />
+                ))}
+              </div>
+            </div>
+          )}
+          {error && (
+            <div className="text-center text-sm text-red-500 bg-red-50 rounded-xl p-3">
+              {error}
+            </div>
+          )}
+          <div ref={messagesEndRef} />
+        </div>
+
+        {/* Input */}
+        <div className="p-4 border-t border-gray-100 flex gap-3">
+          <textarea
+            value={input}
+            onChange={e => setInput(e.target.value)}
+            onKeyDown={handleKeyDown}
+            placeholder={hasApiKey ? '输入问题… Enter 发送，Shift+Enter 换行' : '请先配置 API Key'}
+            disabled={!hasApiKey || loading}
+            rows={2}
+            className="flex-1 resize-none rounded-2xl border border-gray-200 px-4 py-3 text-sm focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none disabled:opacity-50 disabled:bg-gray-50"
+          />
+          <button
+            onClick={sendMessage}
+            disabled={!hasApiKey || loading || !input.trim()}
+            className="self-end w-11 h-11 rounded-2xl bg-indigo-600 text-white flex items-center justify-center hover:bg-indigo-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed flex-shrink-0"
+          >
+            <Send className="w-4 h-4" />
+          </button>
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+};
+
+// ─── NotebookPanel ────────────────────────────────────────────────────────────
+
+interface NotebookPanelProps {
+  entries: NotebookEntry[];
+  onClose: () => void;
+  onRemove: (itemId: string) => void;
+  onOpenItem: (itemId: string) => void;
+}
+
+const typeIcon = (type: ContentType) => {
+  if (type === 'podcast') return <Podcast className="w-4 h-4 text-purple-500" />;
+  if (type === 'youtube') return <Youtube className="w-4 h-4 text-red-500" />;
+  return <Twitter className="w-4 h-4 text-sky-500" />;
+};
+
+const NotebookPanel = ({ entries, onClose, onRemove, onOpenItem }: NotebookPanelProps) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm"
+      onClick={onClose}
+    >
+      <motion.div
+        initial={{ scale: 0.95, opacity: 0, y: 20 }}
+        animate={{ scale: 1, opacity: 1, y: 0 }}
+        exit={{ scale: 0.95, opacity: 0, y: 20 }}
+        className="bg-white rounded-3xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl"
+        onClick={e => e.stopPropagation()}
+      >
+        <div className="flex items-center justify-between p-6 border-b border-gray-100">
+          <div className="flex items-center gap-3">
+            <div className="w-9 h-9 rounded-xl bg-indigo-50 flex items-center justify-center">
+              <BookmarkCheck className="w-5 h-5 text-indigo-600" />
+            </div>
+            <h2 className="text-xl font-black text-gray-900">我的笔记本</h2>
+            <span className="text-sm font-bold text-gray-400 bg-gray-100 px-2.5 py-0.5 rounded-full">
+              {entries.length}
+            </span>
+          </div>
+          <button onClick={onClose} className="p-2 rounded-full hover:bg-gray-100 text-gray-400 hover:text-gray-700 transition-colors">
+            <X className="w-5 h-5" />
+          </button>
+        </div>
+
+        <div className="flex-1 overflow-y-auto p-6 space-y-4 min-h-0">
+          {entries.length === 0 ? (
+            <div className="py-16 text-center">
+              <Bookmark className="w-12 h-12 mx-auto mb-4 text-gray-200" />
+              <p className="text-gray-400 font-medium">笔记本还是空的</p>
+              <p className="text-sm text-gray-300 mt-1">在详情页点击"加入笔记本"保存内容</p>
+            </div>
+          ) : (
+            entries.map(entry => (
+              <div key={entry.id} className="group relative bg-gray-50 rounded-2xl p-5 border border-gray-100 hover:border-indigo-200 transition-all">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex items-start gap-3 min-w-0 flex-1">
+                    <div className="mt-0.5 flex-shrink-0">{typeIcon(entry.itemType)}</div>
+                    <div className="min-w-0">
+                      <button
+                        onClick={() => { onClose(); onOpenItem(entry.itemId); }}
+                        className="font-bold text-gray-900 hover:text-indigo-600 transition-colors text-left line-clamp-2 leading-snug"
+                      >
+                        {entry.itemTitle}
+                      </button>
+                      <p className="text-xs text-gray-400 mt-1">
+                        {entry.itemAuthor} · {new Date(entry.savedAt).toLocaleDateString('zh-CN')}
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => onRemove(entry.itemId)}
+                    className="opacity-0 group-hover:opacity-100 transition-opacity p-1.5 rounded-lg hover:bg-red-50 text-gray-300 hover:text-red-500"
+                  >
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                </div>
+                {entry.notes && (
+                  <p className="mt-3 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-3">
+                    {entry.notes}
+                  </p>
+                )}
+              </div>
+            ))
+          )}
+        </div>
+      </motion.div>
+    </motion.div>
+  );
+};
+
+// ─── Cards ────────────────────────────────────────────────────────────────────
+
+interface ContentCardProps {
+  item: LearningItem;
+  onClick: () => void;
+  key?: React.Key;
+  onBookmark?: (e: React.MouseEvent) => void;
+  isBookmarked?: boolean;
+}
+
+const TwitterCard = ({ item, onClick, onBookmark, isBookmarked }: ContentCardProps) => (
   <motion.div
     layout
     initial={{ opacity: 0, y: 20 }}
@@ -248,11 +528,7 @@ const TwitterCard = ({ item, onClick }: ContentCardProps) => (
     </div>
 
     <div className="mt-4 flex items-center justify-between">
-      <div className="flex gap-1.5 flex-wrap">
-        {item.tags.slice(0, 2).map(tag => (
-          <TagBadge key={tag}>{tag}</TagBadge>
-        ))}
-      </div>
+      <div />
       <a
         href={item.link}
         target="_blank"
@@ -263,16 +539,25 @@ const TwitterCard = ({ item, onClick }: ContentCardProps) => (
         查看原帖 <ExternalLink className="w-3.5 h-3.5" />
       </a>
     </div>
+
+    {/* Bookmark button */}
+    {onBookmark && (
+      <button
+        onClick={e => { e.stopPropagation(); onBookmark(e); }}
+        className={cn(
+          'absolute top-4 right-4 p-1.5 rounded-lg transition-all',
+          isBookmarked
+            ? 'opacity-100 text-indigo-600 bg-indigo-50'
+            : 'opacity-0 group-hover:opacity-100 text-gray-300 hover:text-indigo-600 hover:bg-indigo-50'
+        )}
+      >
+        {isBookmarked ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
+      </button>
+    )}
   </motion.div>
 );
 
-interface ContentCardProps {
-  item: LearningItem;
-  onClick: () => void;
-  key?: React.Key;
-}
-
-const PodcastCard = ({ item, onClick }: ContentCardProps) => {
+const PodcastCard = ({ item, onClick, onBookmark, isBookmarked }: ContentCardProps) => {
   return (
     <motion.div
       layout
@@ -315,13 +600,28 @@ const PodcastCard = ({ item, onClick }: ContentCardProps) => {
         'absolute bottom-4 right-4 w-2 h-2 rounded-full',
         item.dateText === '今天' ? 'bg-emerald-500 animate-pulse' : 'bg-gray-300'
       )} />
+
+      {/* Bookmark button */}
+      {onBookmark && (
+        <button
+          onClick={e => { e.stopPropagation(); onBookmark(e); }}
+          className={cn(
+            'absolute top-4 right-4 p-1.5 rounded-lg transition-all',
+            isBookmarked
+              ? 'opacity-100 text-indigo-600 bg-indigo-50'
+              : 'opacity-0 group-hover:opacity-100 text-gray-300 hover:text-indigo-600 hover:bg-indigo-50'
+          )}
+        >
+          {isBookmarked ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
+        </button>
+      )}
     </motion.div>
   );
 };
 
-const ContentCard = ({ item, onClick }: ContentCardProps) => {
+const ContentCard = ({ item, onClick, onBookmark, isBookmarked }: ContentCardProps) => {
   if (item.type === 'podcast') {
-    return <PodcastCard item={item} onClick={onClick} />;
+    return <PodcastCard item={item} onClick={onClick} onBookmark={onBookmark} isBookmarked={isBookmarked} />;
   }
 
   const Icon = item.type === 'youtube' ? Youtube : Twitter;
@@ -360,18 +660,53 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
         </div>
       </div>
 
-      {/* Tags hidden */}
+      <div className="mt-4 flex gap-1.5 flex-wrap pr-6">
+        {item.tags.slice(0, 3).map(tag => (
+          <TagBadge key={tag}>{tag}</TagBadge>
+        ))}
+      </div>
 
       <div className={cn(
         'absolute bottom-4 right-4 w-2 h-2 rounded-full',
         item.dateText === '今天' ? 'bg-emerald-500 animate-pulse' : 'bg-gray-300'
       )} />
+
+      {/* Bookmark button */}
+      {onBookmark && (
+        <button
+          onClick={e => { e.stopPropagation(); onBookmark(e); }}
+          className={cn(
+            'absolute top-4 right-4 p-1.5 rounded-lg transition-all',
+            isBookmarked
+              ? 'opacity-100 text-indigo-600 bg-indigo-50'
+              : 'opacity-0 group-hover:opacity-100 text-gray-300 hover:text-indigo-600 hover:bg-indigo-50'
+          )}
+        >
+          {isBookmarked ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
+        </button>
+      )}
     </motion.div>
   );
 };
 
-const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => void }) => {
-  const [notes, setNotes] = useState('');
+// ─── DetailModal ──────────────────────────────────────────────────────────────
+
+interface DetailModalProps {
+  item: LearningItem;
+  onClose: () => void;
+  onSaveToNotebook: (item: LearningItem, notes: string) => void;
+  isBookmarked: boolean;
+  initialNotes: string;
+}
+
+const DetailModal = ({ item, onClose, onSaveToNotebook, isBookmarked, initialNotes }: DetailModalProps) => {
+  const [notes, setNotes] = useState(initialNotes);
+  const [selectionPopup, setSelectionPopup] = useState<SelectionPopupState>({
+    visible: false, x: 0, y: 0, selectedText: '',
+  });
+  const [showAIModal, setShowAIModal] = useState(false);
+  const contentRef = useRef<HTMLDivElement>(null);
+
   const whyItMattersList = normalizeStringList(item.whyItMatters);
   const insightGroups = item.insightGroups || [];
   const hasPodcastStructuredContent = item.type === 'podcast' && (
@@ -385,6 +720,34 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
     (item.openQuestions?.length ?? 0) > 0 ||
     whyItMattersList.length > 0
   );
+
+  const handleMouseUp = useCallback(() => {
+    const selection = window.getSelection();
+    if (!selection || selection.isCollapsed) {
+      setSelectionPopup(p => ({ ...p, visible: false }));
+      return;
+    }
+    const selectedText = selection.toString().trim();
+    if (!selectedText) {
+      setSelectionPopup(p => ({ ...p, visible: false }));
+      return;
+    }
+
+    // Only trigger when selection is inside contentRef
+    const range = selection.getRangeAt(0);
+    if (contentRef.current && !contentRef.current.contains(range.commonAncestorContainer)) {
+      setSelectionPopup(p => ({ ...p, visible: false }));
+      return;
+    }
+
+    const rect = range.getBoundingClientRect();
+    setSelectionPopup({
+      visible: true,
+      x: rect.left + rect.width / 2,
+      y: rect.top,
+      selectedText,
+    });
+  }, []);
 
   return (
     <motion.div
@@ -400,6 +763,7 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
         exit={{ scale: 0.95, opacity: 0, y: 20 }}
         className="bg-white rounded-3xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative"
         onClick={e => e.stopPropagation()}
+        onMouseUp={handleMouseUp}
       >
         <button
           onClick={onClose}
@@ -407,6 +771,32 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
         >
           <X className="w-6 h-6" />
         </button>
+
+        {/* Selection popup */}
+        <AnimatePresence>
+          {selectionPopup.visible && (
+            <motion.button
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              style={{
+                position: 'fixed',
+                left: selectionPopup.x,
+                top: selectionPopup.y,
+                transform: 'translate(-50%, calc(-100% - 8px))',
+                zIndex: 70,
+              }}
+              onMouseDown={e => {
+                e.preventDefault();
+                setSelectionPopup(p => ({ ...p, visible: false }));
+                setShowAIModal(true);
+              }}
+              className="flex items-center gap-1.5 px-3 py-2 bg-indigo-600 text-white text-xs font-bold rounded-xl shadow-lg hover:bg-indigo-700 transition-colors"
+            >
+              <Bot className="w-3.5 h-3.5" /> 问一问 AI
+            </motion.button>
+          )}
+        </AnimatePresence>
 
         <div className="p-8 md:p-10">
           <div className="flex flex-col md:flex-row md:items-center gap-6 mb-8 pb-8 border-b border-gray-100">
@@ -434,7 +824,8 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
             </div>
           </div>
 
-          <div className="space-y-8">
+          {/* Content area — selection triggers popup only here */}
+          <div ref={contentRef} className="space-y-8">
             {item.type === 'youtube' && (
               <section className="bg-indigo-50/50 rounded-3xl p-8 border border-indigo-100 shadow-sm">
                 <h3 className="text-2xl font-black text-indigo-900 mb-6 flex items-center gap-3">
@@ -504,7 +895,7 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
                         <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-2 flex items-center gap-2">
                           <Quote className="w-4 h-4" /> 金句
                         </h4>
-                        <p className="text-sm text-gray-700 leading-relaxed italic">“{item.quote}”</p>
+                        <p className="text-sm text-gray-700 leading-relaxed italic">"{item.quote}"</p>
                       </div>
                     )}
                   </div>
@@ -666,42 +1057,65 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
                 )}
               </section>
             )}
+          </div>
 
-            <section>
-              <h3 className="text-xl font-black text-gray-900 mb-4 flex items-center gap-3">
-                <div className="w-1.5 h-6 bg-gray-400 rounded-full" />
-                Personal Reflections
-              </h3>
-              <textarea
-                value={notes}
-                onChange={(e) => setNotes(e.target.value)}
-                placeholder="What did you learn? How will you apply this?"
-                className="w-full p-6 bg-gray-50 border border-gray-200 rounded-2xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none min-h-[150px] transition-all text-gray-700"
-              />
-            </section>
+          {/* Notes section — outside contentRef so selection here won't trigger popup */}
+          <section className="mt-8">
+            <h3 className="text-xl font-black text-gray-900 mb-4 flex items-center gap-3">
+              <div className="w-1.5 h-6 bg-gray-400 rounded-full" />
+              Personal Reflections
+            </h3>
+            <textarea
+              value={notes}
+              onChange={(e) => setNotes(e.target.value)}
+              placeholder="What did you learn? How will you apply this?"
+              className="w-full p-6 bg-gray-50 border border-gray-200 rounded-2xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none min-h-[150px] transition-all text-gray-700"
+            />
+          </section>
 
-            <div className="flex flex-wrap gap-3 pt-8 border-t border-gray-100">
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-200"
-              >
-                <ExternalLink className="w-4 h-4" /> View Original
-              </a>
-              <button className="flex items-center gap-2 px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-50 transition-all">
-                <Bookmark className="w-4 h-4" /> Save
-              </button>
-              <button className="flex items-center gap-2 px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-50 transition-all">
-                <Share2 className="w-4 h-4" /> Share
-              </button>
-            </div>
+          <div className="flex flex-wrap gap-3 pt-8 border-t border-gray-100 mt-8">
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-200"
+            >
+              <ExternalLink className="w-4 h-4" /> View Original
+            </a>
+            <button
+              onClick={() => onSaveToNotebook(item, notes)}
+              className={cn(
+                'flex items-center gap-2 px-6 py-3 rounded-xl font-bold transition-all',
+                isBookmarked
+                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-200'
+                  : 'bg-white border border-gray-200 text-gray-700 hover:bg-gray-50'
+              )}
+            >
+              {isBookmarked ? <BookmarkCheck className="w-4 h-4" /> : <Bookmark className="w-4 h-4" />}
+              {isBookmarked ? '已加入笔记本' : '加入笔记本'}
+            </button>
+            <button className="flex items-center gap-2 px-6 py-3 bg-white border border-gray-200 text-gray-700 rounded-xl font-bold hover:bg-gray-50 transition-all">
+              <Share2 className="w-4 h-4" /> Share
+            </button>
           </div>
         </div>
       </motion.div>
+
+      {/* AI Modal on top */}
+      <AnimatePresence>
+        {showAIModal && (
+          <AskAIModal
+            sourceTitle={item.title || item.author}
+            initialText={selectionPopup.selectedText}
+            onClose={() => setShowAIModal(false)}
+          />
+        )}
+      </AnimatePresence>
     </motion.div>
   );
 };
+
+// ─── App ──────────────────────────────────────────────────────────────────────
 
 export default function App() {
   const [data, setData] = useState<LearningItem[]>(MOCK_DATA);
@@ -710,6 +1124,51 @@ export default function App() {
   const [activeFilter, setActiveFilter] = useState<ContentType | 'all'>('all');
   const [selectedDate, setSelectedDate] = useState<string | 'all'>('all');
   const [selectedItem, setSelectedItem] = useState<LearningItem | null>(null);
+
+  // Notebook state
+  const [notebook, setNotebook] = useState<NotebookEntry[]>(() => {
+    try {
+      return JSON.parse(localStorage.getItem('learninghub_notebook') || '[]');
+    } catch {
+      return [];
+    }
+  });
+  const [showNotebook, setShowNotebook] = useState(false);
+
+  useEffect(() => {
+    localStorage.setItem('learninghub_notebook', JSON.stringify(notebook));
+  }, [notebook]);
+
+  const saveToNotebook = useCallback((item: LearningItem, notes: string) => {
+    setNotebook(prev => {
+      const existing = prev.find(e => e.itemId === item.id);
+      if (existing) {
+        return prev.map(e => e.itemId === item.id ? { ...e, notes, savedAt: new Date().toISOString() } : e);
+      }
+      const entry: NotebookEntry = {
+        id: `${item.id}-${Date.now()}`,
+        itemId: item.id,
+        itemTitle: item.title || item.author,
+        itemType: item.type,
+        itemAuthor: item.author,
+        notes,
+        savedAt: new Date().toISOString(),
+      };
+      return [...prev, entry];
+    });
+  }, []);
+
+  const removeFromNotebook = useCallback((itemId: string) => {
+    setNotebook(prev => prev.filter(e => e.itemId !== itemId));
+  }, []);
+
+  const isInNotebook = useCallback((itemId: string): boolean => {
+    return notebook.some(e => e.itemId === itemId);
+  }, [notebook]);
+
+  const getNotebookNotes = useCallback((itemId: string): string => {
+    return notebook.find(e => e.itemId === itemId)?.notes ?? '';
+  }, [notebook]);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -745,6 +1204,9 @@ export default function App() {
   const youtube = filteredData.filter(i => i.type === 'youtube');
   const twitter = filteredData.filter(i => i.type === 'twitter');
 
+  const notebookCount = notebook.length;
+  const badgeLabel = notebookCount > 9 ? '9+' : notebookCount > 0 ? String(notebookCount) : null;
+
   return (
     <div className="min-h-screen bg-[#F8F9FC] text-gray-900 font-sans selection:bg-indigo-100 selection:text-indigo-900">
       <header className="sticky top-0 z-30 bg-white/80 backdrop-blur-md border-b border-gray-100">
@@ -774,6 +1236,20 @@ export default function App() {
               <span className="text-xs font-bold text-gray-400 tracking-widest">连续记录</span>
               <span className="text-sm font-black text-indigo-600">12 天</span>
             </div>
+
+            {/* Notebook icon with badge */}
+            <button
+              onClick={() => setShowNotebook(true)}
+              className="relative w-10 h-10 rounded-full bg-gray-100 hover:bg-indigo-50 flex items-center justify-center transition-colors"
+            >
+              <Bookmark className="w-5 h-5 text-gray-500" />
+              {badgeLabel && (
+                <span className="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-indigo-600 text-white text-[10px] font-black flex items-center justify-center">
+                  {badgeLabel}
+                </span>
+              )}
+            </button>
+
             <div className="w-10 h-10 rounded-full bg-indigo-50 border-2 border-white shadow-sm flex items-center justify-center overflow-hidden">
               <User className="w-5 h-5 text-indigo-600" />
             </div>
@@ -857,7 +1333,13 @@ export default function App() {
             </div>
             <div className="space-y-5">
               {podcasts.map(item => (
-                <ContentCard key={item.id} item={item} onClick={() => setSelectedItem(item)} />
+                <ContentCard
+                  key={item.id}
+                  item={item}
+                  onClick={() => setSelectedItem(item)}
+                  onBookmark={() => saveToNotebook(item, getNotebookNotes(item.id))}
+                  isBookmarked={isInNotebook(item.id)}
+                />
               ))}
               {podcasts.length === 0 && <EmptyState />}
             </div>
@@ -873,7 +1355,13 @@ export default function App() {
             </div>
             <div className="space-y-5">
               {youtube.map(item => (
-                <ContentCard key={item.id} item={item} onClick={() => setSelectedItem(item)} />
+                <ContentCard
+                  key={item.id}
+                  item={item}
+                  onClick={() => setSelectedItem(item)}
+                  onBookmark={() => saveToNotebook(item, getNotebookNotes(item.id))}
+                  isBookmarked={isInNotebook(item.id)}
+                />
               ))}
               {youtube.length === 0 && <EmptyState />}
             </div>
@@ -889,7 +1377,13 @@ export default function App() {
             </div>
             <div className="space-y-5">
               {twitter.map(item => (
-                <TwitterCard key={item.id} item={item} onClick={() => setSelectedItem(item)} />
+                <TwitterCard
+                  key={item.id}
+                  item={item}
+                  onClick={() => setSelectedItem(item)}
+                  onBookmark={() => saveToNotebook(item, getNotebookNotes(item.id))}
+                  isBookmarked={isInNotebook(item.id)}
+                />
               ))}
               {twitter.length === 0 && <EmptyState />}
             </div>
@@ -899,7 +1393,27 @@ export default function App() {
 
       <AnimatePresence>
         {selectedItem && (
-          <DetailModal item={selectedItem} onClose={() => setSelectedItem(null)} />
+          <DetailModal
+            item={selectedItem}
+            onClose={() => setSelectedItem(null)}
+            onSaveToNotebook={saveToNotebook}
+            isBookmarked={isInNotebook(selectedItem.id)}
+            initialNotes={getNotebookNotes(selectedItem.id)}
+          />
+        )}
+      </AnimatePresence>
+
+      <AnimatePresence>
+        {showNotebook && (
+          <NotebookPanel
+            entries={notebook}
+            onClose={() => setShowNotebook(false)}
+            onRemove={removeFromNotebook}
+            onOpenItem={(itemId) => {
+              const item = data.find(d => d.id === itemId);
+              if (item) setSelectedItem(item);
+            }}
+          />
         )}
       </AnimatePresence>
 
