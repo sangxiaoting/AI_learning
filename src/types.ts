@@ -15,6 +15,14 @@ export interface ReferenceItem {
   desc: string;
 }
 
+export interface InsightGroup {
+  title: string;
+  corePoint?: string;
+  whyImportant?: string;
+  evidence?: string;
+  implication?: string;
+}
+
 export interface LearningItem {
   id: string;
   type: ContentType;
@@ -38,6 +46,7 @@ export interface LearningItem {
   confidence?: number;
   guest?: string;
   summaryLong?: string;
+  insightGroups?: InsightGroup[];
   actionableAdvice?: string[];
   references?: ReferenceItem[];
   contrarianPoints?: string[];

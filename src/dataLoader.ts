@@ -22,6 +22,7 @@ function normalizeRemoteItems(items: any[], type: 'youtube' | 'podcast'): Learni
     detailedBreakdown: item.detailedBreakdown,
     guest: item.guest,
     summaryLong: item.summaryLong,
+    insightGroups: item.insightGroups || [],
     actionableAdvice: item.actionableAdvice || [],
     references: item.references || [],
     whyItMatters: item.whyItMatters,

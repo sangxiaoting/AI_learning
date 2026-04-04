@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from './lib/utils';
-import { LearningItem, ContentType } from './types';
+import { LearningItem, ContentType, InsightGroup } from './types';
 import { MOCK_DATA } from './mockData';
 import { loadLearningData } from './dataLoader';
 
@@ -59,6 +59,157 @@ function SectionCard({
         {title}
       </h3>
       {children}
+    </section>
+  );
+}
+
+interface SummaryTopic {
+  title: string;
+  points: string[];
+}
+
+function parseSummaryTopics(summary?: string): SummaryTopic[] {
+  if (!summary) return [];
+
+  const blocks = summary
+    .split(/\n\s*\n+/)
+    .map(block => block.trim())
+    .filter(Boolean);
+
+  const topics = blocks
+    .map((block) => {
+      const lines = block
+        .split('\n')
+        .map(line => line.trim())
+        .filter(Boolean);
+
+      if (lines.length === 0) return null;
+
+      const titleLine = lines[0]
+        .replace(/^[-•*#\d\.\s]+/, '')
+        .replace(/^[：:]/, '')
+        .trim();
+
+      const contentLines = lines.slice(1);
+      const points = contentLines.length > 0
+        ? contentLines.map(line => line.replace(/^[-•*]\s*/, '').trim()).filter(Boolean)
+        : block
+            .split(/(?=核心观点：|为什么重要：|支撑论据\/案例：|对现实的启发：)/)
+            .map(part => part.trim())
+            .filter(Boolean);
+
+      return {
+        title: titleLine || '主题摘要',
+        points,
+      };
+    })
+    .filter((topic): topic is SummaryTopic => Boolean(topic && (topic.title || topic.points.length)));
+
+  if (topics.length > 0) return topics;
+
+  return [{
+    title: '深度摘要',
+    points: summary
+      .split(/(?=核心观点：|为什么重要：|支撑论据\/案例：|对现实的启发：)/)
+      .map(part => part.trim())
+      .filter(Boolean),
+  }];
+}
+
+function SummaryTimeline({ summary }: { summary?: string }) {
+  const topics = parseSummaryTopics(summary);
+
+  if (topics.length === 0) return null;
+
+  return (
+    <div className="space-y-10">
+      {topics.map((topic, idx) => (
+        <div key={`${topic.title}-${idx}`} className="relative pl-8">
+          {idx !== topics.length - 1 && (
+            <div className="absolute left-[11px] top-7 bottom-[-32px] w-px bg-emerald-100" />
+          )}
+          <div className="absolute left-0 top-1.5 w-6 h-6 rounded-full border-4 border-emerald-400 bg-white shadow-sm" />
+
+          <div className="space-y-4">
+            <h4 className="text-xl font-black text-gray-900 leading-relaxed">{topic.title}</h4>
+            <div className="space-y-4">
+              {topic.points.map((point, pointIdx) => (
+                <div key={pointIdx} className="flex items-start gap-3 pl-2">
+                  <span className="mt-2.5 w-2.5 h-2.5 rounded-full bg-emerald-400 flex-shrink-0" />
+                  <p className="text-[15px] text-gray-700 leading-8 font-medium">{point}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function InsightGroupsSection({ groups }: { groups: InsightGroup[] }) {
+  if (!groups.length) return null;
+
+  return (
+    <section className="space-y-8">
+      <div className="flex items-center gap-3">
+        <div className="w-2 h-8 bg-emerald-500 rounded-full" />
+        <h3 className="text-2xl font-black text-gray-900">深度摘要</h3>
+      </div>
+
+      <div className="space-y-10">
+        {groups.map((group, idx) => (
+          <div key={`${group.title}-${idx}`} className="relative pl-8">
+            {idx !== groups.length - 1 && (
+              <div className="absolute left-[11px] top-7 bottom-[-32px] w-px bg-emerald-100" />
+            )}
+            <div className="absolute left-0 top-1.5 w-6 h-6 rounded-full border-4 border-emerald-400 bg-white shadow-sm" />
+
+            <div className="space-y-5">
+              <h4 className="text-xl font-black text-gray-900 leading-relaxed">{group.title}</h4>
+
+              {group.corePoint && (
+                <div className="rounded-2xl bg-emerald-50/80 border border-emerald-100 p-5">
+                  <p className="text-xs font-black text-emerald-600 uppercase tracking-widest mb-2">核心观点</p>
+                  <p className="text-base text-gray-800 font-bold leading-8">{group.corePoint}</p>
+                </div>
+              )}
+
+              <div className="space-y-4">
+                {group.whyImportant && (
+                  <div className="flex items-start gap-3 pl-2">
+                    <span className="mt-2.5 w-2.5 h-2.5 rounded-full bg-amber-400 flex-shrink-0" />
+                    <div>
+                      <p className="text-sm font-black text-gray-900 mb-1">为什么重要</p>
+                      <p className="text-[15px] text-gray-700 leading-8 font-medium">{group.whyImportant}</p>
+                    </div>
+                  </div>
+                )}
+
+                {group.evidence && (
+                  <div className="flex items-start gap-3 pl-2">
+                    <span className="mt-2.5 w-2.5 h-2.5 rounded-full bg-sky-400 flex-shrink-0" />
+                    <div>
+                      <p className="text-sm font-black text-gray-900 mb-1">案例支撑</p>
+                      <p className="text-[15px] text-gray-700 leading-8 font-medium">{group.evidence}</p>
+                    </div>
+                  </div>
+                )}
+
+                {group.implication && (
+                  <div className="flex items-start gap-3 pl-2">
+                    <span className="mt-2.5 w-2.5 h-2.5 rounded-full bg-fuchsia-400 flex-shrink-0" />
+                    <div>
+                      <p className="text-sm font-black text-gray-900 mb-1">启发</p>
+                      <p className="text-[15px] text-gray-700 leading-8 font-medium">{group.implication}</p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }
@@ -122,8 +273,6 @@ interface ContentCardProps {
 }
 
 const PodcastCard = ({ item, onClick }: ContentCardProps) => {
-  const whyList = normalizeStringList(item.whyItMatters);
-
   return (
     <motion.div
       layout
@@ -144,46 +293,20 @@ const PodcastCard = ({ item, onClick }: ContentCardProps) => {
           <p className="text-[11px] text-gray-500 font-medium tracking-wider mt-1">
             {item.author} • {item.dateText}{item.duration ? ` • ${item.duration}` : ''}
           </p>
-          {item.guest && <p className="text-xs text-purple-700 mt-2 line-clamp-1">嘉宾：{item.guest}</p>}
         </div>
       </div>
 
       <div className="space-y-3">
-        <p className="text-sm text-gray-700 line-clamp-3 leading-relaxed">
-          <span className="font-bold text-gray-900">TL;DR：</span> {item.tldr}
-        </p>
-
-        {item.takeaways.length > 0 && (
-          <div>
-            <p className="text-xs font-bold text-purple-700 mb-2">核心要点</p>
-            <ul className="space-y-1.5">
-              {item.takeaways.slice(0, 2).map((point, index) => (
-                <li key={index} className="text-sm text-gray-600 flex gap-2 line-clamp-2">
-                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-purple-400 flex-shrink-0" />
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        {item.quote && (
-          <div className="bg-purple-50/70 border-l-4 border-purple-300 rounded-r-xl px-3 py-2">
-            <p className="text-xs font-bold text-purple-700 mb-1">金句</p>
-            <p className="text-sm text-gray-700 italic line-clamp-2">“{item.quote}”</p>
-          </div>
-        )}
-
-        {whyList.length > 0 && (
-          <div>
-            <p className="text-xs font-bold text-gray-500 mb-1">为什么值得看</p>
-            <p className="text-sm text-gray-600 line-clamp-2">{whyList[0]}</p>
-          </div>
-        )}
+        <div>
+          <p className="text-xs font-bold text-purple-700 mb-1">总结</p>
+          <p className="text-sm text-gray-700 line-clamp-4 leading-relaxed">
+            {item.tldr}
+          </p>
+        </div>
       </div>
 
-      <div className="mt-4 flex gap-1.5 flex-wrap">
-        {item.tags.slice(0, 5).map(tag => (
+      <div className="mt-4 flex gap-1.5 flex-wrap pr-6">
+        {item.tags.slice(0, 3).map(tag => (
           <TagBadge key={tag}>{tag}</TagBadge>
         ))}
       </div>
@@ -256,6 +379,18 @@ const ContentCard = ({ item, onClick }: ContentCardProps) => {
 const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => void }) => {
   const [notes, setNotes] = useState('');
   const whyItMattersList = normalizeStringList(item.whyItMatters);
+  const insightGroups = item.insightGroups || [];
+  const hasPodcastStructuredContent = item.type === 'podcast' && (
+    item.takeaways.length > 0 ||
+    Boolean(item.quote) ||
+    insightGroups.length > 0 ||
+    Boolean(item.summaryLong) ||
+    (item.actionableAdvice?.length ?? 0) > 0 ||
+    (item.references?.length ?? 0) > 0 ||
+    (item.contrarianPoints?.length ?? 0) > 0 ||
+    (item.openQuestions?.length ?? 0) > 0 ||
+    whyItMattersList.length > 0
+  );
 
   return (
     <motion.div
@@ -353,121 +488,125 @@ const DetailModal = ({ item, onClose }: { item: LearningItem; onClose: () => voi
 
             {item.type === 'podcast' && (
               <>
-                <section className="bg-purple-50/60 rounded-3xl p-8 border border-purple-100 shadow-sm">
-                  <h3 className="text-2xl font-black text-purple-900 mb-6 flex items-center gap-3">
-                    <div className="w-2 h-8 bg-purple-600 rounded-full" />
-                    🎧 Podcast Summary Card
-                  </h3>
+                <section className="bg-gradient-to-br from-purple-50 via-white to-violet-50 rounded-3xl p-8 border border-purple-100 shadow-sm">
+                  <div className="flex items-center justify-between gap-4 mb-6 flex-wrap">
+                    <h3 className="text-2xl font-black text-purple-900 flex items-center gap-3">
+                      <div className="w-2 h-8 bg-purple-600 rounded-full" />
+                      播客详情卡片
+                    </h3>
+                    <div className="flex gap-2 flex-wrap">
+                      {item.tags.slice(0, 3).map(tag => <TagBadge key={tag}>{tag}</TagBadge>)}
+                    </div>
+                  </div>
 
-                  <div className="space-y-6">
-                    <div>
-                      <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-2">TL;DR</h4>
-                      <p className="text-xl text-gray-800 font-bold leading-relaxed">{item.tldr}</p>
+                  <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                    <div className="lg:col-span-2 rounded-2xl bg-white/90 border border-purple-100 p-5">
+                      <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-2">总结</h4>
+                      <p className="text-lg text-gray-800 font-bold leading-relaxed">{item.tldr}</p>
                     </div>
 
-                    {item.takeaways.length > 0 && (
-                      <div>
-                        <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-3 flex items-center gap-2">
-                          <ListChecks className="w-4 h-4" /> 核心要点
-                        </h4>
-                        <ul className="grid grid-cols-1 gap-3">
-                          {item.takeaways.map((point, i) => (
-                            <li key={i} className="flex gap-3 items-start bg-white/70 p-4 rounded-xl border border-purple-50">
-                              <div className="w-5 h-5 rounded-full bg-purple-600 text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0 mt-0.5">
-                                {i + 1}
-                              </div>
-                              <span className="text-sm text-gray-700 font-medium leading-relaxed">{point}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
-
                     {item.quote && (
-                      <div>
-                        <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-3 flex items-center gap-2">
-                          <Quote className="w-4 h-4" /> 金句摘录
+                      <div className="rounded-2xl bg-purple-100/70 border border-purple-200 p-5">
+                        <h4 className="text-sm font-black text-purple-500 uppercase tracking-widest mb-2 flex items-center gap-2">
+                          <Quote className="w-4 h-4" /> 金句
                         </h4>
-                        <div className="bg-white/90 p-5 rounded-2xl border-l-4 border-purple-400 italic text-lg text-gray-800 font-serif">
-                          “{item.quote}”
-                        </div>
+                        <p className="text-sm text-gray-700 leading-relaxed italic">“{item.quote}”</p>
                       </div>
                     )}
                   </div>
                 </section>
 
-                {whyItMattersList.length > 0 && (
-                  <SectionCard title="为什么值得看" icon={<Sparkles className="w-5 h-5 text-amber-500" />}>
-                    <ul className="space-y-3">
-                      {whyItMattersList.map((point, idx) => (
-                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
-                          <span className="mt-2 w-2 h-2 rounded-full bg-amber-400 flex-shrink-0" />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </SectionCard>
-                )}
+                {hasPodcastStructuredContent && (
+                  <section className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                    {item.takeaways.length > 0 && (
+                      <SectionCard title="核心要点" icon={<ListChecks className="w-5 h-5 text-purple-600" />}>
+                        <ul className="space-y-3">
+                          {item.takeaways.map((point, i) => (
+                            <li key={i} className="flex gap-3 items-start rounded-xl bg-purple-50/60 px-4 py-3 border border-purple-100">
+                              <div className="w-5 h-5 rounded-full bg-purple-600 text-white flex items-center justify-center text-[10px] font-bold flex-shrink-0 mt-0.5">
+                                {i + 1}
+                              </div>
+                              <span className="text-sm text-gray-700 leading-relaxed">{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </SectionCard>
+                    )}
 
-                {item.contrarianPoints && item.contrarianPoints.length > 0 && (
-                  <SectionCard title="反直觉观点" icon={<Lightbulb className="w-5 h-5 text-fuchsia-500" />}>
-                    <ul className="space-y-3">
-                      {item.contrarianPoints.map((point, idx) => (
-                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
-                          <span className="mt-2 w-2 h-2 rounded-full bg-fuchsia-400 flex-shrink-0" />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </SectionCard>
-                )}
+                    {whyItMattersList.length > 0 && (
+                      <SectionCard title="为什么值得看" icon={<Sparkles className="w-5 h-5 text-amber-500" />}>
+                        <ul className="space-y-3">
+                          {whyItMattersList.map((point, idx) => (
+                            <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                              <span className="mt-2 w-2 h-2 rounded-full bg-amber-400 flex-shrink-0" />
+                              <span>{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </SectionCard>
+                    )}
 
-                {item.summaryLong && (
-                  <SectionCard title="深度摘要" icon={<BookOpen className="w-5 h-5 text-indigo-500" />}>
-                    <div className="text-gray-700 leading-8 whitespace-pre-wrap text-[15px]">
-                      {item.summaryLong}
-                    </div>
-                  </SectionCard>
-                )}
+                    {item.actionableAdvice && item.actionableAdvice.length > 0 && (
+                      <SectionCard title="可执行建议" icon={<Target className="w-5 h-5 text-emerald-500" />}>
+                        <ul className="space-y-3">
+                          {item.actionableAdvice.map((point, idx) => (
+                            <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                              <span className="mt-2 w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0" />
+                              <span>{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </SectionCard>
+                    )}
 
-                {item.actionableAdvice && item.actionableAdvice.length > 0 && (
-                  <SectionCard title="可执行建议" icon={<Target className="w-5 h-5 text-emerald-500" />}>
-                    <ul className="space-y-3">
-                      {item.actionableAdvice.map((point, idx) => (
-                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
-                          <span className="mt-2 w-2 h-2 rounded-full bg-emerald-400 flex-shrink-0" />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </SectionCard>
-                )}
+                    {item.contrarianPoints && item.contrarianPoints.length > 0 && (
+                      <SectionCard title="反直觉观点" icon={<Lightbulb className="w-5 h-5 text-fuchsia-500" />}>
+                        <ul className="space-y-3">
+                          {item.contrarianPoints.map((point, idx) => (
+                            <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                              <span className="mt-2 w-2 h-2 rounded-full bg-fuchsia-400 flex-shrink-0" />
+                              <span>{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </SectionCard>
+                    )}
 
-                {item.references && item.references.length > 0 && (
-                  <SectionCard title="关键概念" icon={<Library className="w-5 h-5 text-sky-500" />}>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      {item.references.map((ref, idx) => (
-                        <div key={idx} className="rounded-xl border border-sky-100 bg-sky-50/50 p-4">
-                          <h4 className="font-bold text-gray-900 mb-2">{ref.term}</h4>
-                          <p className="text-sm text-gray-600 leading-relaxed">{ref.desc}</p>
+                    {item.openQuestions && item.openQuestions.length > 0 && (
+                      <SectionCard title="开放问题" icon={<HelpCircle className="w-5 h-5 text-rose-500" />}>
+                        <ul className="space-y-3">
+                          {item.openQuestions.map((point, idx) => (
+                            <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
+                              <span className="mt-2 w-2 h-2 rounded-full bg-rose-400 flex-shrink-0" />
+                              <span>{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </SectionCard>
+                    )}
+
+                    {item.references && item.references.length > 0 && (
+                      <SectionCard title="关键概念" icon={<Library className="w-5 h-5 text-sky-500" />}>
+                        <div className="grid grid-cols-1 gap-4">
+                          {item.references.map((ref, idx) => (
+                            <div key={idx} className="rounded-xl border border-sky-100 bg-sky-50/50 p-4">
+                              <h4 className="font-bold text-gray-900 mb-2">{ref.term}</h4>
+                              <p className="text-sm text-gray-600 leading-relaxed">{ref.desc}</p>
+                            </div>
+                          ))}
                         </div>
-                      ))}
-                    </div>
-                  </SectionCard>
+                      </SectionCard>
+                    )}
+                  </section>
                 )}
 
-                {item.openQuestions && item.openQuestions.length > 0 && (
-                  <SectionCard title="开放问题" icon={<HelpCircle className="w-5 h-5 text-rose-500" />}>
-                    <ul className="space-y-3">
-                      {item.openQuestions.map((point, idx) => (
-                        <li key={idx} className="flex gap-3 items-start text-gray-700 leading-relaxed">
-                          <span className="mt-2 w-2 h-2 rounded-full bg-rose-400 flex-shrink-0" />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
+                {insightGroups.length > 0 ? (
+                  <InsightGroupsSection groups={insightGroups} />
+                ) : item.summaryLong ? (
+                  <SectionCard title="深度摘要" icon={<BookOpen className="w-5 h-5 text-indigo-500" />}>
+                    <SummaryTimeline summary={item.summaryLong} />
                   </SectionCard>
-                )}
+                ) : null}
               </>
             )}
 
