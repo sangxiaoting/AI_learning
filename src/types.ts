@@ -36,6 +36,7 @@ export interface LearningItem {
   quote?: string;
   link: string;
   tags: string[];
+  contextAnalysis?: string; // Brief context analysis for establishing global perspective
   content?: string; // For twitter translated/full content
   detailedBreakdown?: Chapter[] | null; // For YouTube / optional rich breakdown
   role?: string;
