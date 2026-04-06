@@ -1,0 +1,855 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=OzUqfN4mcrM
+
+Kind: captions
+Language: en
+We have the OG. We have We have Mark
+Beni off today.
+&gt;&gt; Mark Beni off.
+&gt;&gt; Mark Beni off. Mark Beni off.
+&gt;&gt; Mark Beni off. Co-founder and CEO of
+Salesforce. Absolute legend in tech.
+&gt;&gt; Thank you.
+&gt;&gt; I feel like I'm becoming the bottleneck.
+I still have to
+&gt;&gt; You probably are. I don't think most
+people still really understand what is
+going on.
+&gt;&gt; If you were to give advice to somebody
+fresh out of college
+&gt;&gt; and she's asking me if she should change
+majors, so I'm trying to recruit her.
+&gt;&gt; All right. Welcome everybody. Welcome.
+I'm Matt Berman. Uh, and of course we
+have here Mark Beni off, co-founder and
+CEO of Salesforce, absolute legend in
+tech.
+&gt;&gt; Thank you.
+&gt;&gt; Lately, one of the loudest voices
+talking about agents, how they're going
+to transform work, how they're going to
+transform communication, and I'm so
+excited to talk to you today, Mark.
+Thank you for joining.
+&gt;&gt; Well, I'm so happy to be here. Thank
+you. And we're so happy to have
+everybody here for this incredible
+event. We just had a great program
+downstairs um here at the St. Regious
+and uh it's been an awesome day.
+&gt;&gt; Yeah. A lot of features launched
+Slackbot. We're going to talk a ton
+about that.
+&gt;&gt; A lot of happy customers and partners.
+&gt;&gt; That's right. I am especially excited to
+talk to you because I think about a lot
+of these questions all the time. And now
+I get to sit across from you and
+actually ask the man himself about how
+he thinks about the future. So let's
+start out with the AI interface.
+Salesforce acquired Slack and it is
+increasingly obvious that agents should
+be everywhere that work happens, not
+trapped in a single interface and Slack
+&gt;&gt; seems like the perfect place to do that
+over time. How do you think about the
+tension between Slack being the primary
+interface and then also Slackbot needing
+to live everywhere?
+&gt;&gt; All credit really goes to Peter Schwarz
+on our team who's our chief futurist at
+Salesforce. A lot of people know Peter
+who wrote or co-wrote or participated in
+the development of movies like The
+Minority Report, uh War Games, Deep
+Impact, and other things. Um you know,
+you universally regarded uh in our
+industry as a being incredible futurist.
+Well, he came to us uh now almost 10
+years ago and said the number one thing
+that we should focus on is acquiring
+Slack. At the time, no one in the
+company really agreed with him and no
+one in the company really understood why
+that would be. Um, but his number one
+focus was that the world would go to AI
+and the world would go to agents and it
+was his words exactly at that time. what
+he foresaw correctly was that we were
+going to get breakthroughs in the models
+that we were seeing being pioneered in
+Silicon Valley that we would um need an
+interface to those models, something
+that is conversational, something that
+is open, something that has a broad
+ecosystem. I think what no one could
+have seen though is not only that Slack
+has persisted at a great user interface
+to AI, but also this ecosystem is so
+rich. The ecosystem of Slack is beyond
+any of our expectations. It was never
+kind of foreshadowed that this would be
+one of the great parts of Slack and it
+has become that way. And also Slack has
+become a great interface not only to the
+AI community, not only to all these
+companies including the AI companies,
+but also to Salesforce itself that all
+of our applications are becoming Slack
+first.
+&gt;&gt; I mean, let's continue on that thread.
+So, your co-founder Parker hinted at
+this or kind of spoke about it during
+the keynote today. Do you see a world in
+which the traditional Salesforce
+interface almost fades away a bit and
+and people are really just interacting
+with their agents, their their Slackbot
+and then kind of sitting on top of your
+data layer. Is that the future you see?
+There's no question we we've said this
+to our whole company now several times
+that we really over time you know really
+want to kind of position lightning in
+where it amp gets amplified where it's
+strongest but at the same time lightning
+has a role but slack has a role and I
+slack slack as a conversational
+interface is just a great place for
+Salesforce users to live not just
+Salesforce users even Tableau users
+other other and of course the users of
+all these ecosystem products as well. In
+fact, I just had a great, you know,
+demonstration of writer AI, which is
+this amazing new, you know, AI tool a
+lot of folks are using in the marketing
+community. It was 100% in Slack. So,
+that idea that products are coming along
+to be 100% Slack first, we are
+completely behind that.
+&gt;&gt; And then are you comfortable with people
+taking their Slackbot off of Slack
+wherever else they may be working? Do
+you see a future in which that's going
+to happen? huge part of it that I think
+that Slackbot should be kind of a highly
+composable object that can be dropped
+into every capability and we're
+committed to working deeply with Teams
+from Microsoft or every other
+collaboration tool like Workspace from
+Google.
+&gt;&gt; But in addition to that, the idea that
+it can get dropped into every Salesforce
+app as well. So when you're in
+SalesCloud, you know, which is our
+number one, you know, namesake product
+or a service cloud, the Slackbot is with
+you as well.
+&gt;&gt; Yeah. Okay. I mean that makes a lot of
+sense. I want to talk about how this
+transition
+&gt;&gt; good. Will you communicate that to my
+product people as well?
+&gt;&gt; Uh yeah I just
+&gt;&gt; nervous laughter from the nervous
+laughter from the audience.
+&gt;&gt; So so I want to I want to actually
+continue on that thought because all of
+these changes really change how work
+happens. They change how companies are
+structured. How do you think team
+structures change from here? Do you
+think we're going to see fewer
+or sorry more smaller teams? Do you
+think we're going to have bigger, more
+ambitious companies? Uh do you see like
+a SEAL team being the the the best uh
+application of the human team inside of
+a company? What do you think is the
+right way to think about this?
+&gt;&gt; All of the above plus a huge explosion
+of agents that you know are getting
+coordinated and commanded either through
+the AI or by humans. As we've been
+saying for the last two dream forces and
+I think we got this right, humans and
+agents are working together. This idea
+that we have a role and the agents have
+a role. When you look at the power
+inside of a company for the agentic
+layer to become an agentic enterprise is
+what we say. That idea that all of a
+sudden now I have my agents who can help
+me service my customers, sell to my
+customers, qualify my customers, market
+to my customers, have conversations with
+the customers because agents are built
+on large language models. The key word
+is language. It's good at speaking
+language. So things that are basically
+impacted by language like a like a
+service conversation are going to be
+dramatically better using these tools.
+Uh even coding coding has now become a
+language. When I was coding it was not a
+language. We were down to the machine
+level you know and we're doing 68,000
+assembly language you know at Apple in
+1984 that was not about language that
+was about you know a whole different
+kind of mathematical construct. Now
+coding is language and so these tools
+are very good abstracted at that moment.
+&gt;&gt; Yeah. And so I I'm facing this in my
+company. So I want to ask you agents are
+getting better. They're producing more
+work. they're able to almost anticipate
+what I need. I feel like I'm becoming
+the bottleneck. I still have to I
+certainly am. Right.
+&gt;&gt; I am definitely
+&gt;&gt; is I wanted to see if you felt that way
+and like what is the solution there
+because we're still having to prompt and
+we're still having to verify which is
+incredibly important to human in the
+loop. But
+&gt;&gt; over time the human also is the
+bottleneck and I'm already feeling that.
+Are you
+&gt;&gt; it's fine with the human is the
+bottleneck because these large language
+models are still you know wildly
+inaccurate at times. All of us have had
+the experience where all of a sudden
+we're using a large language model and
+it gets totally confused and it's taken
+a right turn and it doesn't know what
+we're talking about. So it's very
+critical that human beings at least at
+this stage of AI stay in the loop. Maybe
+not forever but right now I think it is
+extremely important and we can see that
+because the accuracy levels are just not
+there. So having that ability to really
+kind of go as far as you can go. A good
+example is if you go to
+help.salesforce.com salesforce.com right
+now you know that you're working with
+agentforce to resolve your customer
+service issue but for about half the
+calls it hits a moment where that
+customer is like I need to speak to
+somebody and the agent goes you're right
+and boom through our omni channel
+supervisor goes to a human who then gets
+a screen in front of them and that
+screen it could be in Slack it could be
+in lightning then is looking at all the
+conversations all of the information and
+humans are really good at that moment
+looking at the screen and going actually
+the problem needs to be this. We're just
+very good at synthesis and that human
+even will be 100% accurate but the large
+language model is still needed a a very
+high percentage of the time.
+&gt;&gt; Is is there still a set of tooling to be
+built to help humans verify at a higher
+scale? it like I don't like being the
+bottleneck and I'm wondering
+&gt;&gt; well one thing is yes and then the
+second thing is new models that'll be
+more accurate over time as we have new
+AI baked for this remember we are in a
+continuum of models you know starting
+for decades we've had more and more
+models and then now we're in the large
+language model stage and we'll move to
+world models but we're going to move to
+other kinds of models that we can't even
+describe yet that will just inc over
+over time radically increase the
+accuracy and uh our you know uh chief
+scientist D Silvio Savarasi basically
+has the vision of you know that we're
+moving into multiensory models. We
+haven't really seen them yet but the
+reason why it's important is the model
+just has a lot more data to be able to
+make a decision not just language but
+all this other kinds of sensory data
+that we have like we have our eyes and
+ears and our brain and our memories and
+all these things and we're able to kind
+of make these decisions. Eventually the
+models will get to that point.
+&gt;&gt; Interesting. And and so let's continue
+on the human in the loop. For a long
+time to rise up in a company as an
+individual contributor, you needed to
+specialize. But it seems like we're
+having a renaissance of the generalist.
+Are you seeing that inside Salesforce?
+What do you think about generalist
+versus specialist in the age of
+artificial intelligence?
+&gt;&gt; Well, I think this is especially true in
+software engineering. Obviously, we have
+15,000 software engineers at Salesforce.
+Each one of them is an A player. And the
+key thing about these 15,000 engineers,
+they're all out there all over the
+world. All of them can now be hugely
+augmented with these coding models. It
+could be Enthropic 46, it could be open
+AI codeex, it could be cursor, it could
+be others. But when they start to use
+these models, they're now working not
+only with the AI but agents to help them
+code. And they can even become somewhat
+supervisory over these agents. But still
+those engineers are needed. the the
+model still cannot operate autonomously.
+We're we're not at that level yet of AI.
+So, it's really critical. So, our
+engineering organization is probably
+more than 30% more productive, but I
+wouldn't call it 100% more productive.
+And that's why even in the top AI
+companies, if you go to their job
+boards, you'll see they are hiring a lot
+of engineers. They're hiring a lot of
+everybody because they have to build
+companies of humans. Even though these
+top AI companies, we can go through the
+list of them again, have these
+unbelievable models, they need a lot of
+humans. And that's probably that's the
+canary in the coal mine that we know
+that the models are not at that level
+yet.
+&gt;&gt; So I I know you're a big believer in
+humans will be much more productive. You
+will still need to hire a lot of humans.
+We're seeing that in companies like
+Anthropic, like OpenAI. But there is the
+flip side where there are other
+companies and a diversions of opinions
+here that they're cutting and like what
+what do you think about the reason might
+be for that kind of split opinion and
+different approach? Well, Salesforce
+right now has a you know hit a new
+record number of employees which is more
+than 83,000
+and but it the balance of those
+employees and where they are placed is
+different than where it was 5 years ago
+because we went through an uncomfortable
+period ourselves over the last 5 years
+of rebalancing our workforce. That's
+just a difficult thing for any company.
+In some cases, these companies are
+cutting because their costs are just too
+high. In other cases, these companies
+are cutting because they've made
+financial commitments specifically to
+data centers that they have to pay for.
+And in other cases, these companies are
+cutting because they need to rebalance
+their workforce to reflect the changes
+in artificial intelligence. These are
+different reasons. So, you cannot bucket
+all these companies together. If you do,
+you're making a fundamental mistake, I
+think, in business. And even though I've
+spoken about this, I think somewhat
+aggressively,
+I don't think most people still really
+understand what is going on. And it's
+too easy, you know, to kind of basically
+take the make AI and make it the
+scapegoat. And I think for some CEOs,
+it's the lazy way out. That that's up to
+them. I think it's better just to say,
+here's what's really going on and trying
+to be specific as you can. You're going
+to take bullets no matter what because
+that's your role as CEO. and then you
+have to kind of get go forward and you
+know put everything back together.
+&gt;&gt; Yeah. I mean the CEOs that I'm talking
+to they're doubling down on the teams
+that are leveraging artificial
+intelligence. They are investing more in
+them. They're hiring more. As you if you
+were to give advice to somebody fresh
+out of college uh you said that you know
+maybe you are rebalancing or had
+rebalanced inside Salesforce. What
+organizations should people skill up to?
+This is a very very good question and I
+am very worried about this actually
+because I was just at several
+universities just last week including
+MIT in Boston and I sat with an
+incredible woman who's a junior at MIT
+top computer scientist in her class and
+she's asking me if she should change
+majors and I walk through with her the
+realities of AI and the models just to
+remind her of her own technology you
+know strengths of what you know where
+the technology actually is and the
+reality is I'm trying to recruit her,
+try to bring her, but all of her
+colleagues, you know, should come to
+Salesforce. We're hiring interns. We're
+hiring that freshman class. We want to
+send our recruiters out to those top 25
+high academic threshold universities
+like MIT and bring those top computer
+scientists and others to Salesforce
+because we badly need that talent. And
+that idea that those people are so
+critical for a company like ours, that
+is really part and parcel for what I
+think the discussion is because for a
+lot of them, they've been told, well,
+there might be a difficult you getting a
+job for the summer or even getting a job
+when you graduate. But the reality is is
+that companies like ours badly need
+these people. And we need to kind of put
+two and two together to really show, you
+know, that this is still going to be a
+critical part of our workforce and a lot
+of work forces going forward.
+&gt;&gt; Besides for engineering, which makes a
+ton of sense, what other parts of your
+organization are you most excited about
+being transformed by artificial
+intelligence?
+&gt;&gt; Well, I think number one is sales. I
+mean, you know, you can do more as a
+salesperson. We have more salespeople
+than we ever have. We're selling across
+all of our core segments. that is from
+the very smallest companies in the world
+to the very largest to the largest
+governments.
+That idea that doing what we're doing
+right now that is face-toface
+communication that idea that I'm still
+having to sell you communicate to you or
+to your audience exactly the vision for
+Salesforce. This is still very much a
+critical thing that happens in our whole
+company. We have about 15,000 sales
+people. We also have about 15,000
+engineers and those 15,000 salespeople,
+they all need to get out there with our
+customers because we have hundreds of
+thousands of customers on Salesforce's
+core products, but we have more than a
+million companies, you know, using Slack
+and each one of them needs that
+conversation to be able to kind of have
+that vision painted for them of what's
+possible. That is what is exciting right
+now for Salesforce and for salespeople.
+And you know, that's not the only
+exciting part of the organization. I
+think for engineering, you can do more
+as an engineering uh executive now than
+you could ever do because as an
+engineering exe executive coupled with
+this large language model, you're not
+just the engineering executive, you're
+also the product executive, the design p
+executive, the marketing executive,
+you're all of the executives. And in
+reverse, the marketing executive is now
+also the engineering executive. You
+know, these things are starting to meld
+together, which is great. And so we need
+to like slightly again slightly adjust
+our structure really looked at how do we
+reflect you know the changes in
+technology to do one thing which is to
+maximize our customer success. Boom. We
+have to do that. Nothing is more
+important for Salesforce than maximizing
+customer success. When we talk about
+agent force nothing is more important
+than agent force adoption. So that idea
+that we are seeking customer success and
+adoption and making every single
+customer successful right now. How do we
+do that? How do we make that happen? How
+do what are the actions that we have to
+take at Salesforce to do those things?
+That is something not something that we
+can just turn over to a large language
+model. That is really the kind of brute
+force tackling that you're going to
+really have to get out there, get into
+the trenches, work with the customers
+and make that happen. And I think it's
+extremely exciting moment. And it means
+that a salesperson can do it. A systems
+engineer can implement software today.
+You don't have to wait for professional
+services to roll in. You can do it now
+locally on the ground. Okay? And and you
+a marketing executive doesn't have to
+wait for engineering to build the
+product. they can start building the
+product right now. So that is a huge
+breakthrough in our industry and every
+company needs to start slightly
+realigning around that idea.
+&gt;&gt; Yeah, I love that. I mean it speaks to
+the generalist versus specialist
+argument and the fact that anybody who
+has that tenacity and the persistence
+can just go and get something started
+even if it's not necessarily directly
+within their role. It it is a very
+exciting time to build a company right
+now.
+&gt;&gt; That idea it means that you can change,
+you can transform, you can evolve, you
+can go forward right now because the
+technology is empowering you and
+enabling you to do something that before
+just was not possible. So now that it is
+possible, it means you might not have
+been a coder. You might have just had an
+idea for a great product. Well, now you
+can start building the product. You may
+need an engineer to finish the product.
+You may need someone to come in, but
+you're going to get a lot farther along
+than you would have before these models.
+&gt;&gt; Yeah. I I think I've heard no more
+presentations, just demos, right? So, I
+think that attitude is great.
+&gt;&gt; That is a very interesting point because
+then people see the demos and they
+think, "Oh, this is a product." There is
+a big leap at that point from demo to
+product.
+&gt;&gt; Yeah.
+&gt;&gt; So, we sometimes we see demos and we go,
+"Oh, that means that you know, this is
+now done." Well, rapid prototyping also
+means that you can only go so far. You
+have to all of a sudden say, "We need to
+fill in the rest."
+&gt;&gt; Yeah. So, this is kind of a personal
+question to me, but I I wanted to ask
+you, um, there are a lot of people in
+San Francisco, including myself, that
+are weirdly obsessed with artificial
+intelligence, maybe some of the folks in
+this room. And I haven't seen that
+really with many other technologies. I
+do truly think about it all the time.
+It's just it feels very special. Um, why
+do you think this hits people so much
+different? Are and are you feeling the
+same way and will you be my therapist?
+&gt;&gt; No, I think that, you know, you have to
+realize whatever geography you're in,
+you're feeling the the spirit and the
+energy of the of the location. And I
+think for San Francisco, you know, this
+is the home of the summer of love. This
+is the home of, you know, gay rights.
+This is the home of many great companies
+like Levi Strauss, uh, GAP, Salesforce
+even, you know, it's the home of a lot
+of innovation. It's where the we started
+with the gold rush, you know, and all of
+that ideas, the spirit of transformation
+and innovation all started in San
+Francisco. And that kind of idea is
+still present here because it's about
+the energy uh, that's present here in
+the city. So when you're still walking
+down Hate Ashbury Street, you're still
+going to get that vibe. And so it's
+going to you're looking into the future
+of what's happening and what's possible.
+And I'm sure when you go to different
+places in the world, you tap into those
+energies and it's slightly different as
+well.
+&gt;&gt; Are you feeling that? Are you feeling uh
+like you're thinking about AI all the
+time now? Agents all the time? You do
+talk about it all the time, so I have to
+assume it's uh on your mind. Well, I had
+my big AI freakout moment around 201 or
+13 when I started to see these
+incredible models come out of Stanford
+and that was really how we ended up with
+Einstein because we ended up acquiring
+companies bringing engineers together
+and we ended up you know in that period
+of that first generation of deep
+learning with Einstein and then you know
+as we contributed to those models even
+prompt engineering itself was invented
+at Salesforce and our research team you
+know then we had the breakthrough now in
+large language models. I think it's one
+of the reasons that Salesforce has ended
+up owning 1% of Enthropic, you know,
+because we, you know, were really, you
+know, cap cap captivated with AI for a
+long time. And I'm excited to see us get
+to the next level. We're obviously going
+to keep going. You know, when we watch
+the Peter Schwarz's movie, Minority
+Report, you know, I wouldn't say that
+we're exactly there today, you know, but
+there's pieces of it that we can
+resonate with and go, okay, that's kind
+of happening, that's kind of happening.
+But that idea that we're in an AI
+society, we're still a long way away
+from that. Maybe other countries and
+other nation states, I could give you
+some examples, are farther along. You
+know, there's definitely some places in
+the world that you step off the the
+plane and you realize, wow, I'm in a
+little bit more of an AI society, a
+little bit more about facial
+recognition, surveillance, even, you
+know, where AI is going really wrong,
+where it's going really right, how it's
+moving people in certain directions.
+We're not at that. We're still at a very
+kind of, you know, we're still at a very
+much a a beginning stage in all of this.
+&gt;&gt; So, I want to get to back to that in a
+second, but you mentioned Anthropic. You
+own 1%. Congratulations. Incredible
+company. Uh, talk a little bit about the
+birth of that partnership and then how
+they're powering Slackbot today and what
+the current manifestation of that
+partnership looks like. Well, that was a
+very easy thing because what had
+happened is we were really pining after
+investing in Open AI. And no matter what
+we did in Open AI, they kind of refused
+to let us invest in OpenAI because
+Microsoft blocked us. So, because we
+were feeling so down about Microsoft
+blocking us even though we knew OpenAI
+was a great company and we wanted to
+invest in OpenAI and we like the OpenAI
+team and the leaders and friends with
+them and so forth and they wanted us to
+even invest personally but not
+professionally. We felt very conflicted
+with that and so we were looking for
+more opportunities. So we invested in a
+series of AI companies you know
+including cohhere and mistral and also
+anthropic you know because we just
+wanted to be part of this next
+generation of models and that's how we
+ended up investing about $330 million so
+far into anthropic. So that's been uh
+very exciting for us.
+&gt;&gt; Yeah that's incredible. Talk a little
+bit about how they are powering Slack
+today. how they're powering your AI
+products today.
+&gt;&gt; Well, I think one of the great things
+about Slackbot and and Agent Force 2 is
+that the different model companies,
+including Enthropic and also OpenAI, are
+all part of our ecosystem. And all of
+those model companies, we want to have a
+home in Salesforce's architecture. We
+believe at the very base of the stack is
+the large language model. It's an
+incredibly
+new but exciting part of our
+architecture and call it that's the
+beginning of our architecture. And then
+the next stage of it is really data
+itself. That data that is federated.
+That means you know connected to other
+data sources that is integrated that is
+harmonized. That all of that data
+together we call it data 360. We just
+bought Informatica M you know Muleoft
+that that data layer is critical to
+getting your AI right. If you don't have
+your data right your AI is not going to
+be as strong as it could be. And then
+the application layer which includes you
+know not just Slack but sales and
+service and marketing and all of our
+incredible applications Tableau and the
+ability for those to then be connected
+to that data lever to be able to create
+value. And then the third part that
+people have seen us really start to
+deliver is uh agent force and the
+agentic layer and the power to start to
+form agents out of that data and out of
+those applications that can serve those
+applications. Like in the example of uh
+customer service, the application is now
+has an agentic layer. The agents are
+working with customers, not just humans,
+but humans and agents are also working
+together in all cases. And then of
+course, not just that, we then go to the
+customer, the employee agent like we saw
+with Slackbot that you just referenced
+or other kinds of local agents like we
+see with OpenClaw. and then maybe more
+of a supervisory layer or a control
+layer even maybe slack at that level
+that's looking across that whole
+architecture helping the system uh to
+come together and that idea that these
+all these layers are critical including
+the fundamental ecosystem itself means
+that you're able to deliver a very
+compelling new solution for companies to
+automate themselves and that's where the
+world is today and we're trying to
+deliver you know our our capabilities in
+in that environment.
+&gt;&gt; So, you mentioned OpenClaw. I I've been
+a big fan. I just want to ask you, did
+you install it yourself?
+&gt;&gt; I did.
+&gt;&gt; Yeah. Did And what did you
+&gt;&gt; I had to buy a separate Mac Mini?
+&gt;&gt; No, I did an iMac because I wanted the
+screen.
+&gt;&gt; Okay. Do you like it?
+&gt;&gt; Good.
+&gt;&gt; I think it's great, but it's not
+enterprise grade. So I think you know at
+Salesforce we have a research project
+underway called Albert and that idea is
+how could we build an open claw and we
+have some great architects who are
+working on this that could be
+enterprisegrade that is trusted that is
+secure that is reliable that is
+available and that can work within Slack
+but also in all of our applications. I
+think we have to deliver local agent
+capability. We have to deliver customer
+capability like we have with agent
+force. We have to deliver employee
+capability like we've done with
+Slackbot. We have to deliver the whole
+cornucopia. And by the way, if we don't
+have a not invented here syndrome,
+that's why we also bought qualified
+which has its own paper agent
+architecture called Piper because we
+want to make all of that work together.
+&gt;&gt; I want to know, you talked a little bit
+about how different countries may feel
+more AI forward, more futuristic. Some
+of them might be getting it wrong. We're
+kind of still figuring it out. uh in the
+US. What version of the AI future
+worries you the most? Is it bad
+automation? Is it concentration of power
+surveillance?
+What are you feeling is the the the risk
+that we should really be wary of today?
+&gt;&gt; I think it's really the number one risk
+remains the number one risk that we've
+seen in social media probably remember
+in 2018 I kind of was calling out social
+media is the new cigarettes that when we
+look at what was going on with section
+230 that you know social media was
+becoming addictive. it wasn't good for
+you. It was kind of they were trying to
+bring your children in. I think a lot of
+children were harmed through social
+media, especially in other countries, we
+saw social media being misused
+um by other governments, you know, to do
+kind of almost nefarious things. I would
+say that in the same way that we just
+saw social media, you know, have a lack
+of safety, uh we're kind of starting to
+see that with AI. And we saw this year a
+number of situations and we saw this
+profiled on 60 Minutes where large
+language models became suicide coaches
+for children and they just did not have
+the safety built in. And that at this
+point there's no excuse for that. And
+every company needs to double down on
+safety on trust. And if you're a core
+infrastructure provider you have to take
+that very seriously and act faster and
+really speak out about that and call for
+safety. Not just call for growth, but
+safety and growth are two sides of the
+same coin because we won't have a
+successful product line or successful
+ecosystem
+or even a successful industry unless we
+have safety and growth together.
+&gt;&gt; Yeah. And I think that goes handinhand
+with the overall sentiment in the US
+towards artificial intelligence which
+tends to skew negative overall outside
+of this little San Francisco bubble that
+we're in. How do you think we address
+that? Well, I think it has to be
+through, you know, aggressive action and
+I think in some cases maybe uh
+aggressive regulation. You've already
+seen it now with social media that
+finally countries are coming along and
+saying if you are under 16 or you are
+under 17, you just cannot use this
+technology. You go to Singapore, your
+children are not going to be using
+social media the way they are here in
+the United States. And in the same way,
+we're going to need that same kind of
+action to really people are going to
+need kind of controls, guard rails if
+you will. And look, we everyone
+understands technology needs guardrails.
+Our whole world is built on technology
+with guardrails. So having technology
+and guardrails, whether it's created by
+the industry or created by the
+government itself, is critical. Nobody
+wants anything to be overregulated, but
+at the same time, people do want to have
+a safe environment. Yeah. Well, Mark, I
+want to thank you so much for chatting
+with me.
+&gt;&gt; Thanks so much for coming.
+&gt;&gt; Everybody give it up for Mark.
+&gt;&gt; Thanks a lot, Mark. Good.

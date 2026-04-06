@@ -1,0 +1,891 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=BZ1hs2ZcnJc
+
+Kind: captions
+Language: en
+Once again, it's been a really crazy
+week. There is a lot happening and it is
+my goal to separate the actual noise
+from the interesting and useful stuff
+for most people. And this being the week
+of April Fools, well, there was a lot of
+noise this week. Let's put it that way.
+So, let me break down what actually
+matters. I'm not going to waste your
+time. Let's dive right in. Starting with
+the biggest news of the week, which was
+the fact that Anthropics Claude code was
+actually leaked onto the internet. I
+believe this is the original source of
+the discovery here. Fried rice over on
+X. Claude Code source code has been
+leaked via a map file in their npm
+registry. And then they actually shared
+a link to where you can download the
+source of Claude Code. Now, Anthropic, a
+company that typically keeps what
+they're doing pretty close to their
+chest. But now that this was leaked,
+essentially people are out there sort of
+iterating off of it and treating it like
+open source and making their own
+versions of it. Enthropic is sort of
+going and trying to DMCA takedown as
+much as possible because this spread
+across GitHub like crazy, but I think
+the most interesting thing to come out
+of this leak is actually what we learned
+from looking at the code and what was
+actually in the leak. It kind of gave
+some sneak peeks into what Anthropic has
+been working on and what we can expect
+from the future of Enthropic. I think
+this Venturebe article here does
+probably the best job of breaking down
+what they found in the code. The leaked
+source reveals a sophisticated three
+layer memory architecture that moves
+away from traditional store everything
+retrieval. The architecture uses a
+self-healing memory system. So at its
+core is memory MD, a lightweight index
+of pointers that is perpetually loaded
+into the context. The index does not
+store data. It stores locations. While
+raw transcripts are never fully read
+back into the context, but merely gpped
+for specific identifiers. Now, GP is a
+word that essentially means that it
+searches. GP searches text for lines
+that match a given pattern, often using
+a regular expression. So, as you're
+talking to Claude Code, it's saving a
+bunch of information about what you're
+talking to it about, and then it's
+saving a reference to all of that within
+a memory file. And then that memory file
+is what gets loaded into context. And
+then it tells the context where to
+search for the thing that you're talking
+about essentially. I'm sure I'm
+oversimplifying this, but this is what
+I'm gathering from this information. But
+what's even more interesting in my
+opinion was this thing they found called
+Chyros. Chyros represents a fundamental
+shift in user experience, an autonomous
+demon mode. Now, a demon is essentially
+something that runs in the background of
+your computer and then waits for
+something to happen to trigger something
+else. So, this Chyros will allow cloud
+code to operate as an always on
+background agent. The agent performs
+memory consolidation while the user is
+idle. This expost I found probably does
+the best job of explaining this. Chyros
+is an always on proactive claude that
+does things without you asking it to. It
+runs in the background 24/7 while you
+work or sleep. Every few seconds, Chyros
+gets a heartbeat. Basically, a prompt
+that says anything worth doing right
+now. It looks at what's happening and
+makes a call, do something, or stay
+quiet. If it acts, it can fix errors in
+your code, respond to messages, update
+files, run tasks. Basically, anything
+Claude code can already do. just without
+you telling it to. But it has three
+exclusive tools that regular Cloud Code
+doesn't get. One, push notifications. It
+could reach you on your phone or desktop
+even when you're not in the terminal.
+Two, file delivery, so it can send you
+things it created without you asking for
+them. And three, pull request
+subscriptions, so it can watch your
+GitHub and react to code changes on its
+own. Regular Cloud Code can only talk to
+you when you talk to it. Chyros can tap
+you on the shoulder, and it keeps daily
+logs of everything, what it noticed,
+what it decided, what it did. He goes on
+here to give some examples of what this
+could mean. Think about what this means
+in practice. You're asleep and your
+website goes down. Chyros detects it,
+restarts the server, and sends you a
+notification. By the time you see it,
+it's already back up. You get a customer
+complaint email at 2 a.m. Chyros reads
+it, sends the reply, and logs what it
+did. You wake up, and it's already been
+resolved. Your Stripe subscription page
+has a typo that's been live for 3 days.
+Chyros spots it, fixes it, and logs the
+change. We're heading to a postprompting
+era. This is something I feel like I've
+been trying to describe for a little
+while now. I did a panel at CES and I
+kind of talked extensively about this
+during that panel that I think we're
+moving into the era where AI is going to
+be more proactive. You're not sitting
+there prompting it asking it to do
+things. It's going to learn what you do,
+what you want to use it for, and it's
+going to start to learn to be more
+proactive and do things on your behalf
+because it learns what you need it to do
+without needing to prompt it. the LLMs
+over time are going to fall into the
+background and become more and more of
+the plumbing and less of the thing that
+you're actually interacting with. And I
+think this Chyros here that Anthropic is
+working on now, it's not rolled out into
+cloud code yet. This is just something
+that was noticed in the source code, but
+this is something that feels like we're
+making steps towards that. We're also
+seeing similar things with OpenClaw when
+it runs cron jobs and it has the various
+heartbeat where it'll just kind of do
+things autonomously. And this really
+feels like we're moving closer and
+closer to that AI falls more into the
+background kind of thing. People also
+found more evidence of Capiara, which we
+talked about in last week's video. I
+think they've been kind of using the
+names Capiara and Mythos
+interchangeably. It's like the next
+level of model for anthropic. They even
+found what they call a hidden buddy
+system, which is a Tomagotchi style
+terminal pet with stats like chaos and
+snark. A lot of people are speculating
+that this was actually a planned April
+Fool's joke that likely got sidelined as
+a result of the leak. Personally, I
+think the most interesting takeaway from
+this whole thing is the Chyros, the sort
+of background agent, the demon that runs
+on your computer and just proactively
+looks for things to do so that it can go
+and solve problems without you needing
+to go ask it to. And that's where I hope
+AI is going. Honestly, I don't want to
+have to sit and have conversations with
+it. I want it to know what it's supposed
+to be doing and just go do the things
+it's supposed to be doing. Boris
+Churnney here, who I believe is like the
+head of Claude Code, basically said that
+this happened because it was just a
+developer error. He went on to say,
+"Mistakes happen. As a team, the
+important thing is to recognize it's
+never an individual's fault. It's the
+process, the culture, or the
+infrastructure." In this case, there was
+a manual deploy step that should have
+been better automated. Our team has made
+a few improvements to the automation for
+next time. A couple more on the way. So,
+it doesn't sound like anybody was really
+blamed or getting fired for this. And
+Enthropic doesn't even seem to be making
+that big of a deal. There hasn't really
+been any sort of public statements about
+it. No like private information about
+any customers or anything like that was
+leaked. But I do have a feeling we're
+going to see some spin-offs of Claude
+code popping up onto the market really
+really soon from people that leverage
+the source code and then sort of spin up
+their own versions. We've got another
+visually stunning AI model update this
+week from ReCraft. If you haven't heard
+about them before, they're an AI tool
+built specifically for professional
+aesthetics and agency quality design
+assets. I've used them before myself,
+and they just recently launched the
+Recraft V4 family of models. So, this
+upgrade is really focused on delivering
+elevated art directed outputs for
+creative professionals. So, for example,
+instead of just generating one-off
+images, the new FI4 models are designed
+for things like cohesive brand visuals,
+website prototyping, product packaging,
+logos, and vector illustrations that are
+ready to use. And there are actually two
+new models under the V4 release. The V4
+and V4 Pro models, which are better for
+photorealistic scenes, mockups, detailed
+illustrations, and more complex
+compositions that actually understand
+lighting, materials, and negative space
+like a real art director would. and the
+V4 vector models which can generate
+native vector graphics. So things like
+logos, icons, and illustrations that are
+actually scalable and editable SVGs
+instead of just faking the look of
+vector art, which is what usually
+happens when you try to use AI to
+generate this kind of stuff. There's
+strict prompt adherence, great
+aesthetics, and it handles text on
+images surprisingly well for AI. I've
+mentioned before how to me that's one of
+the biggest tests if an AI image model
+is good or not. Because even with the
+advanced models today, I still see some
+wonky text on AI images. And well, that
+won't cut it for professional-grade
+brand assets. You can also generate
+things like photorealistic product
+mock-ups with lighting, shadows, and
+packaging that looks like a real product
+shoot without, you know, the cost of a
+real product shoot. This is a really
+great tool if you're a designer, a
+marketer, a content creator, or really
+anybody building visual assets for a
+brand. It just feels more
+production-minded than most of the AI
+image tools we usually see. So, thank
+you to Recraft for supporting my channel
+and sponsoring this portion of today's
+video. And if you want to learn more and
+try it out for yourself, head to the
+link in the description box. This week,
+OpenAI raised $122 billion at a
+valuation of $852
+billion. This is the largest raise by
+any company ever. And it also makes
+OpenAI pretty much the fastest growing
+company in history. They even brag a
+little bit about it in their post here.
+At this stage, we are growing revenue
+four times faster than the companies who
+defined the internet and mobile eras,
+including Alphabet and Meta. They are
+now generating $2 billion in revenue per
+month. There's been a lot of talk about
+a falling out between OpenAI and
+Microsoft. And well, this new round that
+they just raised, guess who's listed
+here? Microsoft is in on this raise as
+well. So, they're still pumping money
+into OpenAI despite all of the
+speculation that there's been a big
+falling out between the two. Now, this
+blog post that they put out, which
+mainly focuses on the giant rays that
+they just had, if we scroll all the way
+down to the bottom here, this is what's
+really interesting to me is they go into
+some details here about what they're
+doing next. So, we learned where
+Anthropic is going because of a leaked
+source code. We're kind of learning
+where OpenAI is going because they
+buried it in this fundraising article
+here. They say, "We're building a
+unified AI super app. As models become
+more capable, the limiting factors shift
+from intelligence to usability. Users do
+not want disconnected tools. They want a
+single system that can understand
+intent, take action, and operate across
+applications, data, and workflows. Our
+super app will bring together chat, GPT,
+codecs, browsing, and our broader
+agentic capabilities into one agent
+first experience. They don't want you to
+have to go to use the Atlas browser for
+browsing the internet and chatgpt for
+having chats and codeex for coding and
+jumping from app to app to app. In fact,
+it feels like they're kind of modeling
+Enthropic here a little bit cuz
+Enthropic has their Claude app, but
+their Claude app has the Claude chat in
+it, Claude Co-work, and Claude Code all
+within a single app that you can use. It
+kind of feels like OpenAI is sort of
+going in that direction. And I wouldn't
+be surprised if they also follow in the
+footsteps of Enthropic with a more
+proactive in the background AI agent as
+well. I mean, after all, they did bring
+on board Peter Steinberger, the guy who
+created OpenClaw to be part of the
+OpenAI team. So, they're obviously
+thinking in that agent sort of mindset
+and that let's build things that just do
+what we want them to on our behalf
+before we tell them we need it to do it.
+That's also the reason why they phased
+out Sora. They seem to be skipping the
+adult mode that they were going to work
+on. and they're really sort of focusing
+in on their core competencies which are
+really really intelligent models for
+both you know chatting and research but
+also coding and agentic use cases. As a
+side note, I find this really really
+interesting. This is an article from the
+Wall Street Journal. It breaks down how
+Sora got shut down last week, something
+that we went in depth in in a previous
+video. But one thing that I found
+fascinating about this article is that
+Sora was losing roughly a million
+dollars a day. With that context, it's
+pretty obvious why they had to shut it
+down. It was losing over a third of a
+billion dollars a year. We got some news
+out of Microsoft this week as well. They
+released a brand new transcription model
+called MAI Transcribe 1. It's a new
+speech recognition model achieving
+best-in-class accuracy across 25
+languages, which is purpose-built for
+transcription workloads. We can see here
+on this test for WER, which stands for
+word error rate, that this new MAI
+Transcribe 1 significantly outperforms
+GPT Transcribe, Scribe V2, Gemini 3.1
+Flash, and OpenAI's Whisper model by
+quite a bit. It also apparently works
+really well in noisy environments. And
+well, I did get early access, so let's
+test it real quick. We can see here
+inside the MAI playground, we have
+access to MAI image 2, which we did play
+around with in a previous video. the MAI
+voice model, which is Microsoft's
+texttospech model, and their brand new
+MAI transcribe one model. So, let's go
+ahead and select this. I can see the sea
+from here, but I can't hear my friend
+because the wind is louder than her
+playlist. She yelled, "Come here." And I
+shouted back, "I'm here. I just can't
+hear you." Then she said, "Our snacks
+cost $8." And I replied, "I ate the
+evidence already." A dad nearby told his
+son to put on sunscreen. And the kid
+asked if that meant he had to block the
+sun, too. The sea kept sparkling like it
+could see the whole comedy show. All
+right, let's go ahead and submit this.
+Notice I used a lot of homonyms. Is that
+the right word where it's like the same
+word but different meanings? Let's see
+how it did. I can see the sea from here,
+but I can't hear my friend because the
+wind is louder than her playlist. She
+yelled, "Come here." And I shouted back,
+"I'm here. I just can't hear you." Then
+she said, "Our snack cost $8." and I
+replied, "I ate the evidence already." A
+dad nearby told his son to put on
+sunscreen and the kid asked if that
+meant he had to block the sun, too. The
+sea kept sparkling like it could see the
+whole comedy show. So, it knew the
+difference in words that I was saying
+because it, I guess, understands all the
+context of what I'm saying as well. It
+was also announced this week that the
+various Microsoft tools are now
+available inside of Microsoft Foundry.
+So, developers and people that want to
+build on top of these models now have
+access to them as well. So, you can now
+use the MAI Transcribe 1, MAI Voice One,
+and MAI Image 2 models directly inside
+of whatever you're building Microsoft
+Foundry. Google this week rolled out a
+new version of their video model, VO3.1,
+now releasing VO3.1 Light. This is a
+more cost-effective video generation
+model. I'm sure the trade-off is in
+quality, but it is cheaper now to
+generate videos. We can see the pricing
+here. VO3.1 is about 40 cents per
+standard video with audio. VO3.1 fast is
+15 cents and VO3.1 light is only 5 cents
+and that's for 720p. Now it also looks
+like 3.1 light will not generate in 4K.
+So you do need to use 3.1 fast or 3.1 if
+you want the 4K. But you know for most
+things 1080p is probably going to be
+fine. And then you can always just use
+an upscaler later if you want. Another
+thing I want to point out about this
+real quick is that Logan Kilpatrick from
+Google, he put out this expost which
+introduced VO3.1 light. But he also
+mentioned that on April 7th, we're also
+reducing the price for VO3.1 fast. So
+these prices are all going to come down
+as well on April 7th. It also makes me
+wonder if there's other news coming out
+around April 7th. I don't have any
+insider info on this, but who knows?
+Maybe there's something else coming out
+around VO on April 7th. And with that
+release, they're dropping the price of
+other models. Maybe. Don't quote me on
+that. It's just me, you know, maybe
+speculating out loud a little bit. And
+while we're on the topic of Google, they
+released a new feature called AI Inbox.
+This AI Inbox has smart prioritization
+and daily personalized briefings. Now,
+the reason I didn't talk about it
+earlier in this video is because
+unfortunately, as of right now, it's in
+beta and only for Google AI Ultra
+subscribers, which is their plan that
+goes for $250 a month. I mean, you can
+get it for $125 a month for the first 3
+months, but, you know, typically $250 a
+month. Now, I do have a Google Ultra
+plan for testing purposes, and this is
+what it looks like. Unfortunately, I'm
+probably going to have to blur most of
+this cuz it's, you know, private. So,
+instead, here is their screenshot of
+what that looks like. You've got your
+suggested to-dos at the top based on
+your inbox, and then you've got your
+topics to catch up on down here. And
+that's exactly what my inbox currently
+looks like. We got a handful of new
+large language models this week as well.
+Probably the most notable being Gemma 4
+from Google. Now, this is an openweight,
+open-source model that's available for
+you to run on your device, run in the
+cloud, fine-tune, do whatever you want
+with, and it's a really powerful model.
+We can see they released it under the
+Apache 2.0 license and it's designed to
+be run on Android devices and laptop
+GPUs. So, if you have a more modern
+device, you should be able to run this
+model. If you do have something like the
+Nvidia Spark or Apple Mac Studio with
+some decent memory, it looks like this
+is also designed to run your agent. So,
+if you're running like an OpenClaw or
+something like that and you want to run
+it all locally, this new Gemma model
+looks like it's going to be great for
+that sort of thing. Here's a quick peek
+at the benchmarks for this model. Really
+only comparing it to past Gemma models,
+but from the looks of it, a really,
+really solid model, especially for
+something that's open weight and that
+you can fine-tune and run locally. We
+got not one but two brand new models out
+of Alibaba this week. We got Quinn 3.5
+Omni, which is an omnimodal model. So,
+it works with text, image, audio, and
+video understanding. And they describe a
+standout feature that you can use this
+for. audiovisisual vibe coding describe
+your vision to the camera and Quinn 3.5
+Omni Plus instantly builds a functional
+website or game for you. They claim it
+outperforms Gemini 3.1 Pro in audio and
+matches its audio visual understanding.
+And here's a peek at the benchmarks for
+this one. Mostly just comparing it to
+the older Quinn models, but it does
+compare to Gemini 3.1 Pro here. Pretty
+much beating every other model in all of
+these benchmarks here. But then just a
+few days later, Alibaba also released
+Quinn 3.6 Plus, which appears to be a
+model designed for realworld agents,
+designed for next level agentic coding,
+enhanced multimodal vision, and has a 1
+million token context window, which is
+available by default, so you don't have
+to turn on a special higher token limit.
+If we take a look at the benchmarks on
+this one, we can see that the dark
+purple is this new model here, and
+they're comparing it to 4.5 Opus. So,
+not the newest Opus model. They're also
+comparing it to Gemini 3 Pro and
+apparently not Gemini 3.1 Pro. So,
+they're kind of comparing this to like
+the last generation of models from some
+of the Frontier Labs. But on Terminal
+Bench, it beats these other models.
+SWEBench Pro, the software engineering
+bench, it's pretty much on par with Opus
+4.5. The Quinn Claw Bench, which
+apparently is a benchmark created by
+Quinn, I would guess. It's really good
+at that one. really good at real world
+questions and answers, really good at
+video reasoning, and really good at
+document recognition and understanding.
+So, a new really, really solid model out
+of Alibaba. This model does not appear
+to be an openweight, opensource model,
+but they do mention in this article that
+they will be open sourcing more models
+soon. And we got a new model out of a
+company that, well, this is my first
+time actually hearing about them.
+They're called RC and they released a
+model called Trinity Large Thinking. And
+this is also an open-source model
+released under Apache 2.0. And it's
+another American company releasing
+open-source models. Taking a look at the
+benchmarks here, they're comparing it
+with Opus 4.6, Kimmy K 2.5, GLM5, and
+Miniax M2.7. And it seems to be pretty
+on par with most of those models, but
+not really beating out any of them
+except for in this TOA2 airline, which
+not super familiar with this benchmark
+myself. They do show it off in use,
+creating a snake game, doing what
+appears to be some like agentic work,
+working through a whole bunch of
+different steps. Here we see it doing
+some code insanely fast. I don't know if
+that's real time or not, but it's
+building some code and building out like
+a monthly budget planner app. And then
+we see a maze screen saver that it
+generated that uh reminds me a lot of
+like Wolfenstein 3D maybe. Again, what's
+really impressive about these is that
+these are openweight models. These are
+models that you can download, run on
+your own systems, run in the cloud,
+fine-tune, iterate off of, do what you
+want with, and they're quickly
+approaching the state-of-the-art models.
+Now, it feels like the closed source
+models are kind of always a little bit
+ahead, a few steps further from the open
+models, but the open models just keep on
+gaining ground, it feels like. And those
+were the new LLM releases this week.
+I've got to be honest with you, I have a
+really hard time sort of testing and
+experimenting with the new LLMs that
+come out because for the most part I'm
+able to do kind of everything I want to
+do with the existing models. Like I've
+got aentic systems running using the
+OpenAI and the anthropic models. I've
+got models running locally with my
+Neotron model. It helps me brainstorm.
+It helps me think of title and thumbnail
+ideas. It helps me with all of the
+various use cases in my life. And so I
+really struggle to think of new ways to
+really test and find ways to prove that
+these models are getting better. I would
+love to have like my own benchmark that
+I'm constantly testing these new models
+against, but I just don't really have
+any ideas cuz my main goal is to show
+off how these models are useful to the
+most amount of people to like everyday
+use cases in your business and your
+life. And for the most part, these
+models are kind of already doing what we
+need them to do. So I'm looking to
+create some sort of like everyday user
+benchmark. And so if there's somebody
+out there that wants to help me create
+that benchmark or work with me to help
+better test these large language models
+as they come out, hit me up over on X or
+LinkedIn and uh let's chat cuz I would
+love to figure out some sort of better
+way to test and sort of benchmark these
+models for normal everyday use for
+people. All right, I've covered a lot,
+but I do have a few more things I want
+to cover, but I'm going to break them
+down real quickly. So, let's jump into a
+rapid fire.
+Let's start with a new feature update
+out of Claude here. Last week we talked
+about Claude's computer use feature
+where it can actually take control of
+your mouse and keyboard and do things on
+your browser. Well, they've now added
+that feature into Claude Code. You can
+preview that feature if you're on one of
+Claude's Pro or Max plans. If you're not
+familiar with that feature, check out
+last week's news video because I did do
+a demo of it in that video. Speaking of
+Claude Code, this is something I found
+really interesting. I would not have
+thought Enthropic would have even
+allowed this, but apparently there's a
+codeex plugin for Claude Code. If you
+already use Claude Code, the Codeex
+plugin is a simple way to bring codeex
+into the same workflow. This essentially
+allows you to use your OpenAI key inside
+of Claude Code and allow Codeex to
+review code and actually delegate tasks.
+So, if you just really love the UI of
+Claude Code, but you also want to use
+codecs, well, this now allows you to
+sort of blend them together. Speaking of
+OpenAI, ChatGpt is now available inside
+of Apple CarPlay. So, if you've ever
+wanted to have conversations with Chat
+GPT from directly inside of your
+vehicle, well, apparently now you can.
+And in news that I would have sworn was
+an April Fool's joke if, well, it didn't
+come out on April 2nd, OpenAI acquires
+TBPN. TVPN is like the ESPN of Tech Ed
+Business. I believe it stands for Tech
+Business Production Network and they do
+a daily show that's like a three-hour a
+day show where they bring on founders
+and CEOs and thought leaders and do
+little quick interviews and break down
+all the news and they do it as a live
+stream over on X at YouTube. And it's
+just wild to me that OpenAI would be
+going and acquiring essentially a daily
+live podcast, especially after all of
+this talk of not doing side quests. Now,
+I think it's awesome for the TBPN guys.
+It's a great show. I actually tune in to
+make sure that I'm not missing anything
+in the news. It's just not something I
+would have ever seen coming. I wonder
+how this is going to change the show
+editorially. Like, are they allowed to
+still make jokes about OpenAI when
+OpenAI does something a little weird?
+Are they still going to be able to
+interview competitors at like Anthropic
+and Google and places like that? I don't
+know. Seems like a very interesting
+choice on the part of OpenAI. Something
+we'll see how it plays out. Just really
+wild. This was posted on April 1st. I
+would have guaranteed it was an April
+Fool's joke. Perplexity released a new
+use case for its computer model called
+computer for taxes. Perplexity computer
+loads tax modules for US federal tax
+questions. computer can help with hard
+parts of tax work that usually cost
+people the most time and money. This can
+mean helping you draft a federal income
+tax return on official IRS forms, review
+a professionally prepared return, build
+dashboards and tools for more complex
+parts of the tax code, or supporting any
+other workflow that you want to design.
+Now, I haven't tested this myself yet
+cuz, well, I'm procrastinating and I
+haven't done my taxes yet. But maybe
+I'll run my taxes through this and see
+how it does. I do have a CPA who I'm
+probably still going to trust a little
+bit more, but maybe I'll run my taxes
+through this and see how closely it
+compares to what my CPA came up with. If
+you're a fan of using Slack, Salesforce,
+the company that owns Slack, is making
+Slack more agentic. Personally, I'm a
+big fan of Slack. I do all of my work
+inside of Slack. Even my open claw is
+built for me to talk to it through
+Slack. So, this is something I'll
+definitely be playing with. But here's
+what they say about it. This week, they
+announced 30 new capabilities that take
+Slackbot from personal agent to the
+ultimate teammate. There's a new meeting
+transcription and note-taking
+capability, reusable AI skills, so you
+can define a task just once. It's a new
+MCP client. Businesses now have native
+customer management built into Slackbot.
+It reads your channels, understands what
+happened, and keeps your deals,
+contacts, and call notes up to date
+automatically. There's new skills like
+deep research, and voice input. and it
+looks like it'll record meetings for you
+even if the meetings aren't in Slack. We
+can see here that it's recording
+meetings that are happening over on
+Zoom. They show here they're giving it a
+screenshot and then asking it to
+summarize the feedback from the
+screenshot. So, a bunch of really cool
+features that are getting added to Slack
+that will allow Slack to do a lot of the
+like chatbot stuff you already do, just
+keep it inside of Slack. There are a ton
+of new features rolling out, so I will
+link to this article in the description
+as I do with every news video I put out.
+Right now, it's only available on
+business plus and enterprise plus plans,
+but it says starting in April, we're
+opening it up. So, free and pro plans
+will actually start to get access pretty
+soon as well. This is something I came
+across this week that I just found
+really interesting. GM says AI helps
+visualize a car before it exists and
+speeds up how it gets built. They're
+using AI systems to transform early
+handdrawn sketches into concept videos,
+suggest design changes, and even run
+early stage aerodynamic testing. The
+result is a dramatic compression of the
+design timeline. I don't know why I
+found this so cool, but we can see here
+they were sort of mocking up a design
+and then they show this design in the
+real world a bunch and then they even
+turned their mockup designs into actual
+videos so they can kind of see what this
+car would look like driving around in
+the real world. And they're using AI
+models to simulate the aerodynamics and
+sort of pre-igure out how efficient
+these vehicles are going to be using
+these AI models in advance. I don't
+know. This is just stuff that I find
+fascinating and I figure at least a
+handful of you will find fascinating as
+well. And finally, I'll end on this one.
+They're putting AI in shopping carts.
+Instacart introduces physical AI smart
+carts to influence grocery shopping in
+real time. So, shopping carts in the
+future might look like this. A
+touchcreen on the front, outward-facing
+cameras, basket facing cameras to see
+what's in your cart, location sensors to
+know where you are within the grocery
+store, and also weights and measures and
+certified scales inside the cart. All
+powered by Nvidia Jetson. When a
+retailer deploys a caper cart, it's not
+just capturing data. It's processing
+what's happening in the aisle in real
+time directly on the cart. That includes
+what's in a customer's basket and
+precisely where they are in the store,
+said the company. So retailers can
+influence the shop while it's happening,
+not after checkout. Mistimed
+recommendations don't just fail. They
+train customers to ignore the next one
+at Instacart. I don't know why I find
+this kind of funny and I feel like
+people are going to sort of reject this
+concept. Like when we go to the grocery
+store, we kind of want to just go and
+get what we're there for. I don't know
+if I really want to be recommended
+additional products by my shopping cart,
+but I don't know. Maybe I'm just weird
+like that. Maybe people really want
+their shopping cart to sell them more
+crap. I don't know. Anyway, I just
+thought that was kind of a random one to
+end on. But yeah, that's what I got for
+you this week. I'm doing my best every
+single week to sift through all of the
+information, all of the AI news, all of
+the new AI tools that are coming out
+every single week, and break it down
+into just what you need to know in one
+video a week. I used to try to make a
+new AI video every single day about news
+that was coming out constantly, but I
+started to feel like that might get a
+little too overwhelming because there's
+so much AI news coming out. And I
+figured, well, maybe the best thing I
+can do for people is I'll drink from the
+fire hose all week. And then in just one
+video per week on Fridays, I'll break
+down what I think most people will be
+interested in or most people will want
+to know about what came out in the AI
+world. I'll keep myself overwhelmed so
+that you don't have to be overwhelmed.
+That's the goal of this channel. Now, I
+do put out some other videos here and
+there in between with some commentary
+and some breakdowns of things that are
+happening, but for the most part, my
+goal is to make that one video a week
+that helps filter through all of the
+noise and just gives you the signal of
+what's important to know right now. And
+so, if that's something that sounds
+interesting and appealing to you, and
+you just want that one video a week to
+stay completely looped in, maybe
+consider liking this video and
+subscribing to this channel. It really
+helps me out a lot. I'm doing that push
+to a million subscribers. I'm hoping to
+get there this year. So, every new
+subscriber really, really helps, and I'm
+going to keep doing my best to keep you
+as looped in as possible with as little
+overwhelm as possible. Now, I do record
+these videos on Thursdays and publish
+them on Fridays. So, if there's any news
+that I missed, I'll try to get it into
+next week's video. This week, I'm
+actually recording most of this one on
+Wednesday and some of it on Thursday cuz
+I'm going to be out of town this
+weekend. But, usually I record on
+Thursdays, publish on Fridays. But
+again, anything I missed will be in next
+week's video if it's important enough
+that I think you need to know about it.
+Thank you again so much for tuning in,
+hanging out, nerding out with me today.
+I really, really appreciate you, and
+hopefully I'll see you in the next one.
+Bye-bye.
+Oh. Uh
+oh, I'm back.
+Oh. Oh, I'm finally out of that egg.
