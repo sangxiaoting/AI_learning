@@ -15,7 +15,20 @@ function clean(text = '') {
 
 function fallbackDigest(author, text) {
   const t = clean(text);
-  if (!t) {
+  const lower = t.toLowerCase();
+  const weakPatterns = [
+    /^louder[!. ]*$/i,
+    /^lol[!. ]*$/i,
+    /^so true[!. ]*$/i,
+    /^exactly[!. ]*$/i,
+    /^nice[!. ]*$/i,
+    /^looks good[!. ]*$/i,
+    /^looks delicious[!. ]*$/i,
+    /^bookmark this/i,
+    /^see you there/i,
+    /^interesting triangles/i,
+  ];
+  if (!t || t.length < 12 || weakPatterns.some((p) => p.test(t)) || (t.length < 40 && !/[\u4e00-\u9fff]/.test(t) && !/(agent|model|ai|gpt|claude|openclaw|workflow|tool|product|launch|revenue|growth|code)/i.test(lower))) {
     return {
       shouldInclude: false,
       title: '',
