@@ -49,16 +49,17 @@ export const MOCK_DATA: LearningItem[] = [
     date: '2026-03-30',
     dateText: '今天',
     duration: '45min',
-    tldr: 'AI is undergoing a paradigm shift toward self-improvement and agentic behavior.',
+    contextAnalysis: 'Karpathy 深度解读 AI 从预测模型向自主智能体的范式转变，核心价值在于揭示推理能力突破的技术路径与产品机会。',
+    tldr: 'AI 正在经历从静态预测到自主行动的范式转变——推理能力的突破将重新定义产品形态，PM 需要从"对话框思维"转向"任务流思维"。',
     takeaways: [
-      'Model scaling continues to show returns',
-      'Reasoning capabilities are the next frontier',
-      'Tool usage allows models to interact with the world',
-      'Future research will focus on long-term planning'
+      'AI 范式转变的核心论点：自主规划与执行能力将取代单纯的预测，这是产品架构必须适应的根本变化',
+      'Devin 等自主编程智能体已在复杂 GitHub Issue 处理中展现可用性，证明 Agent 落地不再是概念验证',
+      '强化学习驱动的推理链（CoT）正在替代单纯的参数扩展，成为能力提升的主要路径',
+      '推理成本过高和长程任务幻觉是当前最大瓶颈，产品设计需要内置人类监督节点'
     ],
-    quote: 'Software 2.0 is the transition from code written by humans to code written by gradient descent.',
+    quote: 'Software 2.0 is the transition from code written by humans to code written by gradient descent. — 软件 2.0 是从人类编写代码到梯度下降编写代码的转变。',
     link: 'https://youtube.com',
-    tags: ['Revolution', 'AI'],
+    tags: ['Agents', 'Reasoning', 'Scaling Laws'],
     detailedBreakdown: [
       {
         subtitle: 'The Shift to Agentic Behavior',

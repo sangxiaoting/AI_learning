@@ -203,18 +203,17 @@ def render_markdown(summary: dict[str, Any]) -> str:
         f"- Link: {summary['link']}",
         f"- Tags: {', '.join(summary.get('tags', []))}",
         "",
-        "## TL;DR",
-        "",
-        summary["tldr"],
-        "",
-        "## Takeaways",
-        "",
     ]
+    context = summary.get("contextAnalysis") or summary.get("context_analysis")
+    if context:
+        lines.extend(["## Context", "", f"> {context}", ""])
+    lines.extend(["## TL;DR", "", summary["tldr"], "", "## Takeaways", ""])
     for takeaway in summary.get("takeaways", []):
         lines.append(f"- {takeaway}")
     lines.extend(["", "## Quote", "", f"> {summary['quote']}", "", "## Detailed Breakdown", ""])
     for section in summary.get("detailedBreakdown", []):
-        lines.append(f"### {section['subtitle']}")
+        subtitle = section.get("subtitle") or section.get("chapter") or "未命名章节"
+        lines.append(f"### {subtitle}")
         lines.append("")
         for point in section.get("points", []):
             lines.append(f"- **{point['label']}**: {point['content']}")
@@ -223,7 +222,7 @@ def render_markdown(summary: dict[str, Any]) -> str:
 
 
 def validate_summary(summary: dict[str, Any], video: Video) -> dict[str, Any]:
-    required = ["id", "type", "title", "author", "date", "dateText", "duration", "tldr", "takeaways", "quote", "link", "tags", "detailedBreakdown"]
+    required = ["tldr", "takeaways", "quote", "tags", "detailedBreakdown"]
     missing = [key for key in required if key not in summary]
     if missing:
         raise RuntimeError(f"summary missing keys: {missing}")
@@ -232,7 +231,7 @@ def validate_summary(summary: dict[str, Any], video: Video) -> dict[str, Any]:
     for section in summary.get("detailedBreakdown") or []:
         if not section or not isinstance(section, dict):
             continue
-        subtitle = section.get("subtitle") or "未命名章节"
+        subtitle = section.get("chapter") or section.get("subtitle") or "未命名章节"
         cleaned_points = []
         for point in section.get("points") or []:
             if not point or not isinstance(point, dict):
@@ -253,7 +252,10 @@ def validate_summary(summary: dict[str, Any], video: Video) -> dict[str, Any]:
     summary["dateText"] = month_text(video.upload_date)
     summary["duration"] = video.duration
     summary["link"] = video.url
-    summary["takeaways"] = [item for item in (summary.get("takeaways") or []) if item][:5]
+    # Normalize context_analysis to contextAnalysis for frontend consistency
+    if "context_analysis" in summary:
+        summary["contextAnalysis"] = summary.pop("context_analysis")
+    summary["takeaways"] = [item for item in (summary.get("takeaways") or []) if item]
     summary["tags"] = [item for item in (summary.get("tags") or []) if item][:6]
     summary["detailedBreakdown"] = cleaned_breakdown[:6]
     return summary

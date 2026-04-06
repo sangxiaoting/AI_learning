@@ -834,6 +834,12 @@ const DetailModal = ({ item, onClose, onSaveToNotebook, isBookmarked, initialNot
                 </h3>
 
                 <div className="space-y-8">
+                  {item.contextAnalysis && (
+                    <div className="bg-indigo-100/60 rounded-xl px-5 py-3 text-sm text-indigo-700 font-medium leading-relaxed">
+                      {item.contextAnalysis}
+                    </div>
+                  )}
+
                   <div>
                     <h4 className="text-sm font-black text-indigo-400 uppercase tracking-widest mb-2">TL;DR</h4>
                     <p className="text-xl text-gray-800 font-bold leading-relaxed">
