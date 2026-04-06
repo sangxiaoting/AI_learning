@@ -5,10 +5,29 @@ cd "$(dirname "$0")/.."
 ROOT="$(pwd)"
 LOG_DIR="$ROOT/logs"
 LOG_FILE="$LOG_DIR/follow-builders-cron.log"
+SKILL_DIR="$ROOT/skills/follow-builders"
 
 mkdir -p "$LOG_DIR"
 
+refresh_feed() {
+  local name="$1"
+  local url="$2"
+  local target="$SKILL_DIR/$name"
+  local tmp="${target}.tmp"
+
+  if curl -fsSL --max-time 30 "$url" -o "$tmp"; then
+    mv "$tmp" "$target"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Refreshed $name from central feed" | tee -a "$LOG_FILE"
+  else
+    rm -f "$tmp"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] WARN: Failed to refresh $name, keeping local copy" | tee -a "$LOG_FILE"
+  fi
+}
+
 echo "[$(date '+%Y-%m-%d %H:%M:%S')] Starting latest follow-builders pipeline" | tee -a "$LOG_FILE"
+refresh_feed "feed-x.json" "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json"
+refresh_feed "feed-podcasts.json" "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json"
+refresh_feed "feed-blogs.json" "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json"
 /usr/bin/env node "$ROOT/scripts/export-follow-builders-json.mjs" >> "$LOG_FILE" 2>&1
 /usr/bin/env node "$ROOT/scripts/incremental-minimax-update.mjs" >> "$LOG_FILE" 2>&1
 /usr/bin/env node "$ROOT/scripts/export-follow-builders-lite.mjs" >> "$LOG_FILE" 2>&1
