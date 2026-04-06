@@ -231,7 +231,7 @@ def validate_summary(summary: dict[str, Any], video: Video) -> dict[str, Any]:
     for section in summary.get("detailedBreakdown") or []:
         if not section or not isinstance(section, dict):
             continue
-        subtitle = section.get("chapter") or section.get("subtitle") or "未命名章节"
+        subtitle = section.get("subtitle") or section.get("chapter") or "未命名章节"
         cleaned_points = []
         for point in section.get("points") or []:
             if not point or not isinstance(point, dict):
