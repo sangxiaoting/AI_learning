@@ -20,6 +20,8 @@ import { readFile, mkdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join } from 'path';
 import { homedir } from 'os';
+import { execFile as execFileCb } from 'child_process';
+import { promisify } from 'util';
 
 // -- Constants ---------------------------------------------------------------
 
@@ -39,18 +41,39 @@ const PROMPT_FILES = [
   'translate.md'
 ];
 
+const execFile = promisify(execFileCb);
+
 // -- Fetch helpers -----------------------------------------------------------
 
+async function curlFetch(url) {
+  const { stdout } = await execFile('curl', ['-fsSL', '--max-time', '30', url], {
+    maxBuffer: 10 * 1024 * 1024
+  });
+  return stdout;
+}
+
 async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) return null;
-  return res.json();
+  try {
+    const res = await fetch(url);
+    if (res.ok) return res.json();
+  } catch {}
+  try {
+    return JSON.parse(await curlFetch(url));
+  } catch {
+    return null;
+  }
 }
 
 async function fetchText(url) {
-  const res = await fetch(url);
-  if (!res.ok) return null;
-  return res.text();
+  try {
+    const res = await fetch(url);
+    if (res.ok) return res.text();
+  } catch {}
+  try {
+    return await curlFetch(url);
+  } catch {
+    return null;
+  }
 }
 
 // -- Main --------------------------------------------------------------------
