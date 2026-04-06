@@ -15,12 +15,21 @@ function clean(text = '') {
 
 function fallbackDigest(author, text) {
   const t = clean(text);
-  const short = t.length > 220 ? t.slice(0, 219).trimEnd() + '…' : t;
+  if (!t) {
+    return {
+      shouldInclude: false,
+      title: '',
+      summary: '',
+      translatedText: '',
+      contentType: 'industry_commentary',
+      confidence: 0.2,
+    };
+  }
+  const short = t.length > 140 ? t.slice(0, 139).trimEnd() + '…' : t;
   return {
-    shouldInclude: t.length >= 24,
-    title: t ? `${author} 的最新表达` : '',
-    summary: t ? `${author} 提到：${short}` : '',
-    whyItMatters: t ? '这条内容保留了原始表达，但尚未完成高质量结构化提炼。' : '',
+    shouldInclude: true,
+    title: '',
+    summary: short,
     translatedText: t,
     contentType: 'industry_commentary',
     confidence: 0.35,
@@ -99,13 +108,15 @@ async function main() {
       const publishedAt = tweet.createdAt || null;
       const result = await summarizePost(systemPrompt, { author, role, originalText, url, publishedAt, language: latest?.config?.language || 'zh' });
       if (!result?.shouldInclude) continue;
+      const summary = clean(result.summary || '');
+      if (!summary) continue;
       newItems.push({
         id,
         type: 'x_post',
         author,
         role,
-        title: clean(result.title || `${author} 的更新`),
-        summary: clean(result.summary || ''),
+        title: '',
+        summary,
         whyItMatters: clean(result.whyItMatters || ''),
         translatedText: clean(result.translatedText || ''),
         originalText,
