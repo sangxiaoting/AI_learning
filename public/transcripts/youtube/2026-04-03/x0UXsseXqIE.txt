@@ -1,0 +1,408 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=x0UXsseXqIE
+
+Kind: captions
+Language: en
+You're the product manager everyone
+relies on. Features ship on time.
+Stakeholders love working with you and
+metrics are green across the board. So
+why did they just hire an external
+candidate for that director role that
+you wanted? Here's the counterintuitive
+truth about executive recognition. Your
+best work is making you invisible to
+leadership. While you're deep in
+execution solving real problems,
+executives three levels above, they have
+no clue that you exist. Look, I've
+coached over a thousand product managers
+and the ones breaking into senior roles
+understand something that most people
+don't. Great execution without strategic
+visibility is career suicide. The
+product managers getting promoted aren't
+better at the job. They've mastered what
+I called the visibility architecture.
+Making sure the right people understand
+their business impact before the
+promotion cycles even begin. Let's break
+down exactly why this happens and how to
+fix it. Let's start with the core
+problem and it's one that might feel
+uncomfortable because it's actually
+caused by doing great work. Your best
+product management work happens in
+execution layers that executives never
+see or touch. Think about it. You're
+optimizing conversion funnels, running
+experiments, iterating on user flows,
+while leadership is in board meetings
+discussing market expansion, competitive
+positioning, and three strategic bets.
+Those are two completely different
+world. And the gap between them is where
+your career gets stuck. Here's what I
+mean. You spend three months reducing
+churn by 15% through a series of really
+thoughtful product improvements,
+technical debt decisions, UX
+refinements, better onboarding flows.
+You're making all of them and that's
+incredible work. But what happens when
+it gets reported upward? Your
+stakeholder management success gets
+labeled as you maybe team collaboration.
+Your complex problem solving becomes
+invisible because executives only see
+the final simplified outcome. They see
+that churn went down and they assume
+well things are working that was
+expected. They don't see the strategic
+thinking that made it happen. I had a
+client let's call her Maya. Okay. So she
+was a senior PM at a large fintech
+company and she told me I feel like I'm
+doing really good work. I'm doing the
+best work of my career is what she said.
+Nobody knows about me. Nobody knows
+about the work that I do. My manager
+doesn't even pass my name along. And
+when I dug in the pattern was
+essentially this. The deeper her product
+expertise got, the further she operated
+from strategic business conversations.
+She loved doing her work. She was
+solving really hard problems. She loved
+doing the work. But she was solving them
+in a layer of the organization that
+leadership did not have any visibility
+into. And here's the irony. Excellence
+in execution actually creates a
+communication barrier between your
+impact and your leadership awareness.
+The better you are at your job, the more
+seamlessly things run and the less
+attention it attracts from the people
+making promotion decisions. So if you're
+sitting there thinking, I just need to
+keep doing great work and they'll
+notice, I need you to help me on this.
+That's not how it works. Not at the
+senior level, not at director, not at
+VP. The rules are changing and you need
+to change with them. Now, some of you
+might be thinking, "But my manager knows
+what I'm doing. They'll advocate for
+me." And look, I hope you have a great
+manager. But let me tell you about what
+actually happens in most organizations.
+Your manager summarizes your work in
+ways that make sense to them. But it
+doesn't serve the purpose of
+communicating your impact. The
+translation that happens between your
+impact and what gets communicated
+upward. That's where your career
+narrative gets destroyed. So let me give
+you a real example. You lead a
+crossunctional initiative. If you align
+engineering, design, data science,
+marketing around a new feature that
+increases, let's say, engagement by 18%.
+That's a strategic leadership level
+contribution. But your manager's update
+to the director might say feature
+launched, delivered on schedule, team
+collaborated well, user retention went
+up by 18%. Don't you see what just
+happened? Your cross functional got
+leadership got reduced to the team
+working well. Okay? And maybe even said
+that you worked well with engineering
+and design. your 18% retention became
+okay 18% retention but what it means for
+the company was not communicated. The
+entire strategic narrative of what you
+did might be lost in this layer of
+translation. And it's not because your
+manager is bad. It's because most
+managers are focused on team performance
+metrics and not really communicating
+individual strategic contributions.
+They're reporting on overall progress,
+but your specific business impact is
+getting lost. And honestly, most
+managers lack the executive
+relationships needed to position your
+work strategically, even if they wanted
+to. They are focused on themselves more
+so than anything else. And I see this
+pattern all the time. Your business
+impact gets filtered through multiple
+reporting layers before reaching
+decision makers. And by the time it gets
+to the people who really make the
+decision on promotions, it's been
+summarized, average, and stripped of all
+the nuance that makes your contribution
+stand out. One of my clients, let's call
+him Rahul, he was a strong senior PM at
+a major tech company. His manager liked
+him, gave him great reviews. But when I
+asked Rahul, "What does your VP know
+about you specifically?" He paused. He
+said, "I honestly don't think she knows
+what I do." And when I talked to him
+more, his manager had been presenting
+Rahul's work as overall team wins, which
+is fine, but Rahul personally was
+invisible at the leadership level.
+Here's the hard truth. Waiting for
+managerial advocacy puts your career
+advancement in somebody else's control.
+And that's a risk you cannot afford to
+take if you're serious about getting to
+the next level. Your career is too
+important to outsource to someone else's
+communication skills. Now, even when PMs
+try to get visibility, there's a third
+problem that trips them up. And this one
+is subtle but incredibly important.
+Leadership thinks in business outcomes.
+You communicate in product deliverables.
+Those are two fundamentally different
+languages. Think about the last time you
+presented to a senior leader. Did you
+talk about user research insights? Not
+so long. Here's gathered customer
+feedback. Did you talk about the product
+improvements you ship? They hear cool,
+you know, making product improvements as
+we expect from a product manager. Did
+you talk about the technical complexity
+you navigated? Well, they don't care.
+Executives care about competitive
+positioning, revenue growth, market
+share, customer lifetime value, business
+metric. They don't care about feature
+tech complexity or technical challenges.
+It's just not their world. Your
+strategic trade-offs disappear when they
+get translated into operational status
+updates. That brilliant decision you
+made to kill a feature that would have
+cost the company two quarters of her
+engineering time. In the exact summary,
+it doesn't even show up because
+leadership evaluates impact through
+business transformation, not through
+execution excellence. Let me make this
+concrete. I had a client who told a VP,
+"We shipped a new recommendation engine
+using collaborative filtering." The VP
+nodded politely and moved on. But we
+reworked that message. It was like,
+look, we identified that 40% of our
+users weren't discovering products
+relevant to them, which was costing us
+an estimated $12 million annual revenue.
+Now, we built a collaborative filtering
+system that showed a 23% increase in
+cross-ell conversion in a certain amount
+of time. And that is expected to
+eventually gain us that $12 million in
+AR. Same work, same feature, completely
+different response from the VP. The VP
+started asking questions, leaning in,
+wanting to know more. VP even told other
+people about this feature. Now, gap
+between product language and executive
+language is where careers plateau. And
+the PMs who learn to bridge that gap,
+they're the ones who get tapped for
+director roles, who get invited to
+strategic planning sessions, who get
+asked what do you think by the people
+who matter. If you're seeing the gap
+between your impact and how leadership
+perceives it, I teach the frameworks
+that close the gap every single week.
+Subscribe so you get the strategic
+positioning insights that turn strong PN
+into obvious choice for senior roles.
+All right, we talked about the three
+problems. Deep work invisibility, the
+manager translation bottleneck, and the
+executive language disconnect. Now,
+let's talk about how to fix it. This is
+what I call strategic visibility
+architecture. First, document business
+outcomes in executive language before
+they get filtered through management
+layers. Don't wait for your manager to
+translate your work. You need to own
+your narrative. Every major initiative
+you lead, write a brief two, three
+paragraphs that frame your work in terms
+of business impact, revenue influence,
+cost avoided, market positioning
+strengthened, what would have happened
+had you not done that. Customer lifetime
+value increase. You know, there's so
+many metrics you can use, but use the
+language that executives use and share
+it proactively with them. I tell my
+clients, create what I call an impact
+brief for every quarter. Not a status
+report, an impact brief. Here's the
+business problem. Here's what we did.
+Here's the measurable outcome. Here's
+what it means for the company's
+strategic positioning. The document
+becomes your career currency. Second,
+create direct value touch points with
+leadership through strategic insights,
+market intelligence. You tell them what
+the customers are saying. You tell them
+what customers care about. This is a big
+one. You need to find ways to be in
+front of senior leaders that aren't just
+status updates. Share a market insight.
+Send a brief competitive analysis. Flag
+a strategic risk you've identified.
+You're not self-promoting. You're being
+a strategic asset to the business. In
+one of my previous jobs, I got known as
+the person who was responsible for all
+competitive analysis. How? I just went
+ahead and did it. And then the CEO was
+like, "Showth owns our competitive
+analysis." Okay, great. Now, one of my
+clients started sending a monthly one
+paragraph email to VP and other teams
+with a competitive insight relevant to
+the product area. So, she was adding
+value to the VP and along with that also
+sharing the impact summary. Within 3
+months, the VP started forwarding those
+emails to other leaders. Within 6
+months, she was invited to a very
+important quarterly strategic planning
+meeting. The only person at her level
+invited. She didn't ask for a seat at
+the table. She just earned it by
+consistently demonstrating strategic
+thinking. Third, position yourself in
+cross functional initiatives that expose
+you to senior decision makers. This is
+what people call networking. Not all
+projects are created equal for your
+career. Some projects help you heads
+down in execution and get the impact.
+Other projects put you in rooms with
+directors, VP, seuite leaders. You need
+to be intentional about which projects
+you raise your hand for. Companywide
+initiatives, crossbow collaborations,
+strategic planning work streams, even
+stuff that's not directly related to
+work. Anything that gives you
+visibility, a DEI initiative, organizing
+something for the office, like something
+that puts you in in front of these
+people and helps build relationships, do
+that. Then fourth, communicate your
+impact as business problem solved, not
+features delivered. Every time you talk
+about your work in meetings, in Slack
+and performance reviews, reframe it. You
+ran shipper dashboard. You gave the
+sales team real-time visibility into
+pipeline health which reduced
+forecasting errors by 30%. You didn't
+improve onboarding. You reduced time to
+value for new customers by 40% directly
+impacting retention or directly
+impacting the time it took for them to
+upgrade. That's a business metric.
+That's what people care about. So now
+fifth, build executive relationships
+during strategic planning cycles, not
+just performance reviews. You're always
+building that relationship every week.
+If you're not moving one relationship
+forward, you have failed. Most PMs only
+think about executive visibility during
+review season. That's just way too late.
+I mean, the PMs who architect visibility
+do it all the time. They build
+relationships during strategic planning
+cycles, during company all hands, during
+moments when executives are looking for
+input on the future direction of the
+business. That's when you want to be
+known. And six, establish yourself as a
+PM who connects product decisions to
+business strategy. That is the ultimate
+positioning. When leadership thinks
+about product decisions that impact the
+business, your name should come up not
+because you're political, but because
+you have consistently demonstrated that
+you think about product through a
+business lens. You connect the dots
+between what you're building and why it
+matters to the company strategic
+objectives. Now, this is really
+important because I remember at
+McKenzie, at Google, basically we were
+told the same thing. You do the work
+before you get the title. So, just start
+doing the work. The person next level
+above is going to do a very important
+job connecting the dots. Why don't you
+start doing it right now at your level?
+And then naturally people see you ready
+for that next level. Let me bring this
+all together with a framework you can
+take with you. Execution excellence
+without strategic positioning is equal
+to career invisibility. And that's the
+equation. Most strong PMs are only
+solving execution excellence. Your
+product expertise is incredibly
+valuable, but executive recognition
+requires business impact communication.
+You need to speak the language that
+leadership speaks. You need to be in the
+rooms where decisions get made. And you
+need to own your own narrative instead
+of hoping somebody else tells your story
+for you. Senior PMs don't wait for
+discovery. They architect visibility
+around their strategic contributions.
+They are proactive. They're intentional.
+They deliberate about who knows what
+about their work and why it matters.
+Recognition comes from being seen as a
+business asset, not a product executor.
+When leadership looks at you and thinks
+this person understands our business,
+not just our product, that's when doors
+open. Executive recognition doesn't
+happen by accident. It's a result of
+deliberate positioning around your
+business impact. Now, if you want to
+move from being valued for execution to
+being seen as strategic leadership
+material, make sure you subscribe to
+this channel because I keep sharing more
+and more insights around that. And by
+the way, if you're ready now to move not
+just to the next level, but to the next
+role, make sure you check out this video
+that I released that tells you exactly
+what to do if you're looking for a AI
+product management role in 2026. Six.
