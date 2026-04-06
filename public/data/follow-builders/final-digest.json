@@ -1,7 +1,7 @@
 {
   "schemaVersion": "3.0-final-digest",
-  "generatedAt": "2026-04-04T13:20:52.522Z",
-  "date": "2026-04-04",
+  "generatedAt": "2026-04-06T02:56:28.333Z",
+  "date": "2026-04-06",
   "language": "zh",
   "items": [
     {
@@ -32,6 +32,21 @@
       "confidence": 0.35
     },
     {
+      "id": "https://x.com/garrytan/status/2039568811440128137",
+      "type": "x_post",
+      "author": "Garry Tan",
+      "role": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who…",
+      "title": "Garry Tan 的最新表达",
+      "summary": "Garry Tan 提到：Local models are a very very good thing",
+      "whyItMatters": "这条内容保留了原始表达，但尚未完成高质量结构化提炼。",
+      "translatedText": "Local models are a very very good thing",
+      "originalText": "Local models are a very very good thing",
+      "url": "https://x.com/garrytan/status/2039568811440128137",
+      "publishedAt": "2026-04-02T05:01:12.000Z",
+      "contentType": "industry_commentary",
+      "confidence": 0.35
+    },
+    {
       "id": "https://x.com/petergyang/status/2039563521885901091",
       "type": "x_post",
       "author": "Peter Yang",
@@ -42,6 +57,21 @@
       "originalText": "I think the combination of mobile and short video has rotted the brains of an entire generation of kids. See so many kids staring at their TikTok, YouTube Shorts, Reels, etc like zombies.",
       "url": "https://x.com/petergyang/status/2039563521885901091",
       "publishedAt": "2026-04-02T04:40:11.000Z"
+    },
+    {
+      "id": "https://x.com/amasad/status/2039552681493336250",
+      "type": "x_post",
+      "author": "Amjad Masad",
+      "role": "ceo @replit. civilizationist",
+      "title": "Amjad Masad 的最新表达",
+      "summary": "Amjad Masad 提到：We’re in an unprecedented era of rapid wealth creation.",
+      "whyItMatters": "这条内容保留了原始表达，但尚未完成高质量结构化提炼。",
+      "translatedText": "We’re in an unprecedented era of rapid wealth creation.",
+      "originalText": "We’re in an unprecedented era of rapid wealth creation.",
+      "url": "https://x.com/amasad/status/2039552681493336250",
+      "publishedAt": "2026-04-02T03:57:06.000Z",
+      "contentType": "industry_commentary",
+      "confidence": 0.35
     },
     {
       "id": "https://x.com/steipete/status/2039551079621566812",
@@ -182,6 +212,21 @@
       "confidence": 0.35
     },
     {
+      "id": "https://x.com/levie/status/2039414479084278239",
+      "type": "x_post",
+      "author": "Aaron Levie",
+      "role": "ceo @box - your business lives in content. unleash it with AI",
+      "title": "Aaron Levie 的最新表达",
+      "summary": "Aaron Levie 提到：My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon.",
+      "whyItMatters": "这条内容保留了原始表达，但尚未完成高质量结构化提炼。",
+      "translatedText": "My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon.",
+      "originalText": "My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon.",
+      "url": "https://x.com/levie/status/2039414479084278239",
+      "publishedAt": "2026-04-01T18:47:56.000Z",
+      "contentType": "industry_commentary",
+      "confidence": 0.35
+    },
+    {
       "id": "https://x.com/zarazhangrui/status/2039368866741277074",
       "type": "x_post",
       "author": "Zara Zhang",
@@ -195,6 +240,21 @@
       "publishedAt": "2026-04-01T15:46:42.000Z",
       "contentType": "product_update",
       "confidence": 0.95
+    },
+    {
+      "id": "https://x.com/danshipper/status/2039357945310277717",
+      "type": "x_post",
+      "author": "Dan Shipper",
+      "role": "ceo @every   the only subscription you need to stay at the edge of AI",
+      "title": "Dan Shipper 的最新表达",
+      "summary": "Dan Shipper 提到：@linear YouTube: Spotify:",
+      "whyItMatters": "这条内容保留了原始表达，但尚未完成高质量结构化提炼。",
+      "translatedText": "@linear YouTube: Spotify:",
+      "originalText": "@linear YouTube: Spotify:",
+      "url": "https://x.com/danshipper/status/2039357945310277717",
+      "publishedAt": "2026-04-01T15:03:18.000Z",
+      "contentType": "industry_commentary",
+      "confidence": 0.35
     },
     {
       "id": "https://x.com/danshipper/status/2039357127903350960",
