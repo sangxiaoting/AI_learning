@@ -55,6 +55,30 @@ function shortenRole(role = '') {
   return t.length > 90 ? t.slice(0, 89).trimEnd() + '…' : t;
 }
 
+function shouldKeepSummary(summary = '', originalText = '') {
+  const s = clean(summary);
+  const o = clean(originalText);
+  const lower = s.toLowerCase();
+  if (!s || s.length < 8) return false;
+  const exactWeak = [
+    '说得太对了。',
+    '看起来很好吃',
+    '看起来很好吃。',
+    'gpteesus 已复活',
+    'gpteesus 已复活。',
+  ];
+  if (exactWeak.includes(lower) || exactWeak.includes(s)) return false;
+  const weakPatterns = [
+    /^(说得太对了|确实如此|完全同意|太对了|哈哈|笑死|回头见)[。！! ]*$/,
+    /^(看起来很好吃|看起来不错|看起来很棒)[。！! ]*$/,
+    /^(bookmark this|see you there|interesting triangles|louder|lol|so true|exactly|nice)[.! ]*$/i,
+  ];
+  if (weakPatterns.some((p) => p.test(s))) return false;
+  const hasSignal = /(ai|agent|模型|workflow|工作流|代码|编程|产品|功能|上线|发布|增长|收入|融资|开源|提示词|prompt|llm|gpt|claude|openclaw|replit|vercel|linear|cursor|codex)/i.test(s + ' ' + o);
+  if (!hasSignal && s.length < 18) return false;
+  return true;
+}
+
 async function generateWithMinimax(systemPrompt, input) {
   const apiKey = process.env.MINIMAX_API_KEY;
   if (!apiKey) return null;
@@ -123,6 +147,7 @@ async function main() {
       if (!result?.shouldInclude) continue;
       const summary = clean(result.summary || '');
       if (!summary) continue;
+      if (!shouldKeepSummary(summary, originalText)) continue;
       newItems.push({
         id,
         type: 'x_post',
