@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.1-lite",
-  "generatedAt": "2026-04-07T06:39:48.403Z",
+  "generatedAt": "2026-04-07T07:09:59.556Z",
   "date": "2026-04-07",
   "language": "zh",
   "items": [
@@ -11,10 +11,10 @@
       "url": "https://x.com/zarazhangrui/status/2041031588000252279",
       "publishedAt": "2026-04-06T05:53:45.000Z",
       "title": "",
-      "summary": "In an age where everyone is summarizing everything with AI, there's a lot of value in spending time &amp; effort to consume long-form conte…",
+      "summary": "在这个 AI 时代，花时间逐字阅读原文仍然很有价值。",
       "originalText": "In an age where everyone is summarizing everything with AI, there's a lot of value in spending time &amp; effort to consume long-form content deeply For content that I actually wanna engage with, I always read the original version word by word without taking any shortcuts",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -23,34 +23,10 @@
       "url": "https://x.com/adityaag/status/2041016861027193239",
       "publishedAt": "2026-04-06T04:55:14.000Z",
       "title": "",
-      "summary": "Emergency rooms are not allowed to turn away patients….. Why is an LLM allowed to deny me medical advice?",
+      "summary": "急诊室不能拒诊病人，为什么 LLM 却可以拒绝提供医疗建议？",
       "originalText": "Emergency rooms are not allowed to turn away patients….. Why is an LLM allowed to deny me medical advice?",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "type": "x_post",
-      "author": "Peter Steinberger",
-      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster…",
-      "url": "https://x.com/steipete/status/2040998797921145272",
-      "publishedAt": "2026-04-06T03:43:28.000Z",
-      "title": "",
-      "summary": "GPTEESUS HAS RISEN",
-      "originalText": "GPTEESUS HAS RISEN",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "type": "x_post",
-      "author": "Peter Steinberger",
-      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster…",
-      "url": "https://x.com/steipete/status/2040982273193869671",
-      "publishedAt": "2026-04-06T02:37:48.000Z",
-      "title": "",
-      "summary": "it took a hammer, but i managed to beat emotions into GPT.",
-      "originalText": "it took a hammer, but i managed to beat emotions into GPT.",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -59,10 +35,10 @@
       "url": "https://x.com/levie/status/2040967947275948357",
       "publishedAt": "2026-04-06T01:40:52.000Z",
       "title": "",
-      "summary": "There are far more categories where AI agents making things more efficient will induce demand for that skill than spaces where agents elimi…",
+      "summary": "AI提升效率后会催生更多需求而非消灭工作，因为更低的成本会让更多企业用上原本负担不起的技术和服务。",
       "originalText": "There are far more categories where AI agents making things more efficient will induce demand for that skill than spaces where agents eliminate the work. This is why the AI jobs predictions will not play out as advertised. AI making it easy to produce more code will mean we start to apply code to far more parts of our businesses. We will build automation and software for things that wouldn’t have made sense before. Marketing automation, client onboarding, modernizing old systems, doing far more research on existing data, and more. More engineers. Far more software will mean vastly more security risks. This will mean far more people thinking through system security, compliance, and governance. This used to be primarily manual and only large companies could afford this work. AI will make it so more companies care about this (and maybe can do something about it), causing more security roles. AI will also lower the cost of a bunch of previously relatively niche or harder to access categories of work. Companies will now be doing 10X more with video and graphics, and will need people to manage that work. More media. We’re going to have a near unlimited set of legal challenges in a world of AI as AI helps write even more bespoke and complicated legal docs. More lawyers. Then there’s the impact of AI efficiency on non-office worker jobs. Talked to a customer that said they’re going to make scheduling medical appointments and getting referrals so efficient the next problem will be there will be no booking time slots available. More healthcare. Many industries will have this same dynamic play out. The examples are endless once you start to think through second order effects of agents making work more efficient.",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -71,10 +47,10 @@
       "url": "https://x.com/zarazhangrui/status/2040956069699297314",
       "publishedAt": "2026-04-06T00:53:40.000Z",
       "title": "",
-      "summary": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing…",
+      "summary": "在创建 AI agent 技能时，在提示词中加入让 agent 充当产品营销者、介绍功能和使用方法的指令，弥补没有 GUI 的交互界面。",
       "originalText": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing the AGENTS.md file: \"We want the agent to introduce the product's features and benefits for the user and walk them through how to use it. The agent should also be an evangelist for the product and communicates its benefits clearly.\" Since these skills/apps don't have GUI, the agent is the interface. It should communicate the \"why\" of the product clearly",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -83,34 +59,10 @@
       "url": "https://x.com/petergyang/status/2040954866567364758",
       "publishedAt": "2026-04-06T00:48:53.000Z",
       "title": "",
-      "summary": "What are some good examples of open source winning vs. proprietary tech? In mobile for example, Android has the most market share but iOS s…",
+      "summary": "Android 占据最大市场份额，但 iOS 仍攫取大部分利润，这说明开源和专有技术可以共存，两者都能赢得市场。",
       "originalText": "What are some good examples of open source winning vs. proprietary tech? In mobile for example, Android has the most market share but iOS still captures the majority of profits. Seems like both can win?",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "type": "x_post",
-      "author": "Nikunj Kothari",
-      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atla…",
-      "url": "https://x.com/nikunj/status/2040953390356889646",
-      "publishedAt": "2026-04-06T00:43:01.000Z",
-      "title": "",
-      "summary": "Who’s looking for a stellar product engineer / designer? Hire @ramintahbaz 🙏",
-      "originalText": "Who’s looking for a stellar product engineer / designer? Hire @ramintahbaz 🙏",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "type": "x_post",
-      "author": "Nikunj Kothari",
-      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atla…",
-      "url": "https://x.com/nikunj/status/2040947391608828019",
-      "publishedAt": "2026-04-06T00:19:11.000Z",
-      "title": "",
-      "summary": "Brother in town from India, cousins chasing each other, flowers everywhere, term sheet accepted with a team I’m SO thrilled about, didn’t t…",
-      "originalText": "Brother in town from India, cousins chasing each other, flowers everywhere, term sheet accepted with a team I’m SO thrilled about, didn’t touch AI for 4 days (!!), sun is shining, amazing food, walks everywhere.. Week of the year might have already been achieved. Grateful 🙏",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -119,10 +71,10 @@
       "url": "https://x.com/petergyang/status/2040943889822232790",
       "publishedAt": "2026-04-06T00:05:16.000Z",
       "title": "",
-      "summary": "Why OpenAI doesn't focus on roadmaps from @embirico (Codex product lead): \"At @OpenAI, you either plan near or long-term, but you never pla…",
+      "summary": "OpenAI 只做 8 周内的短期计划和一年以上的长期方向，不做中期路线图。",
       "originalText": "Why OpenAI doesn't focus on roadmaps from @embirico (Codex product lead): \"At @OpenAI, you either plan near or long-term, but you never plan medium-term. It's just too difficult. Near-term is up to eight weeks from now. What is a concrete thing you can rally a team to ship? [Long-term] is having a vibe that's like, a year from now on how the models will be smarter. The product roadmap is an in-between thing that's just kind of awkward. We basically don't have a roadmap. We have a combination of a long-term direction and short term bets that we think bring us in that direction.\" 📌 Watch the full interview here:",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -131,10 +83,10 @@
       "url": "https://x.com/amasad/status/2040918650245578906",
       "publishedAt": "2026-04-05T22:24:59.000Z",
       "title": "",
-      "summary": "New @X API + @Replit is lots of fun. @tannerlbraden built a @NASAArtemis II mission visualization w/ live @X feed &amp; stats.",
+      "summary": "用 Replit 和新 X API 做了一个 NASA Artemis II 任务可视化，可以实时展示动态和统计。",
       "originalText": "New @X API + @Replit is lots of fun. @tannerlbraden built a @NASAArtemis II mission visualization w/ live @X feed &amp; stats.",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -143,22 +95,10 @@
       "url": "https://x.com/nikunj/status/2040910000990920752",
       "publishedAt": "2026-04-05T21:50:37.000Z",
       "title": "",
-      "summary": "&gt; wake up &gt; open X &gt; see new skill (or feature) &gt; give it to Claude Code to see if worth implementing &gt; ask Codex to review…",
+      "summary": "每天早上在X上看到新技能或功能后，用Claude Code评估是否值得实现，让Codex审查计划，然后编码迭代。",
       "originalText": "&gt; wake up &gt; open X &gt; see new skill (or feature) &gt; give it to Claude Code to see if worth implementing &gt; ask Codex to review Claude Code plan &gt; code &gt; iterate &gt; repeat",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "type": "x_post",
-      "author": "Nan Yu",
-      "role": "head of product @linear",
-      "url": "https://x.com/thenanyu/status/2040902216085537159",
-      "publishedAt": "2026-04-05T21:19:41.000Z",
-      "title": "",
-      "summary": "This is the real purpose of the CA high speed rail. Turn LA and SF into one city, effectively.",
-      "originalText": "This is the real purpose of the CA high speed rail. Turn LA and SF into one city, effectively.",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -167,10 +107,10 @@
       "url": "https://x.com/danshipper/status/2040901103483490753",
       "publishedAt": "2026-04-05T21:15:15.000Z",
       "title": "",
-      "summary": "if you're seeing this, make sure you turn thinking on claws are actually pretty great in gpt-5.4, but they seem really stupid unless this g…",
+      "summary": "GPT-5.4 的 thinking 功能建议打开，打开后很好用。",
       "originalText": "if you're seeing this, make sure you turn thinking on claws are actually pretty great in gpt-5.4, but they seem really stupid unless this gets turned on",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -179,10 +119,10 @@
       "url": "https://x.com/rauchg/status/2040879055990632715",
       "publishedAt": "2026-04-05T19:47:39.000Z",
       "title": "",
-      "summary": "The @vercel team is always listening and engaging with customers on @x. We shape the product as a result of these conversations. Vercel giv…",
+      "summary": "Vercel CEO 发文感谢在 X 上互动的用户，称团队通过这些对话来塑造产品，X 提供了持续的用户反馈。",
       "originalText": "The @vercel team is always listening and engaging with customers on @x. We shape the product as a result of these conversations. Vercel gives us the velocity to ship, X gives us a nonstop stream of user feedback. Thanks @simhskal &amp; @riyvir!",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -191,22 +131,10 @@
       "url": "https://x.com/rauchg/status/2040822340532236565",
       "publishedAt": "2026-04-05T16:02:17.000Z",
       "title": "",
-      "summary": "Created a flag on the moon based with hyper-realistic physics with @v0: The flag is simulated as a grid of particles connected by springs (…",
+      "summary": "用 v0 在月球上创建了带布料物理模拟的旗帜，v0 能理解复杂物理概念并在语言间迁移代码。",
       "originalText": "Created a flag on the moon based with hyper-realistic physics with @v0: The flag is simulated as a grid of particles connected by springs (cloth simulation). It's influenced by gravity, wind, air resistance. The initial approach v0 one-shotted was quite simplistic, but giving it references to more sophisticated approaches in C++ and Rust quickly improved it. It was mind-blowing it to see it deeply understand the physics and port new ideas across languages. It simulated a real sun for lighting, and procedurally generated moon-like terrain with craters. I found a sick free texture on Reddit that I uploaded and it layered on top. Another epic moment was watching it improve performance. It seamlessly moved the physics simulation to a Web Worker. (Kinda cool to see given we just improved support for them in Turbopack 😉)",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "type": "x_post",
-      "author": "Swyx",
-      "role": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @d…",
-      "url": "https://x.com/swyx/status/2040812156728574385",
-      "publishedAt": "2026-04-05T15:21:49.000Z",
-      "title": "",
-      "summary": "always wanted to do one of those “is it coachella” announcements - here is our designer’s take on it!",
-      "originalText": "always wanted to do one of those “is it coachella” announcements - here is our designer’s take on it!",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "type": "x_post",
@@ -215,10 +143,10 @@
       "url": "https://x.com/karpathy/status/2040806346556428585",
       "publishedAt": "2026-04-05T14:58:44.000Z",
       "title": "",
-      "summary": "Surprised with how good the comments on github gists are. A lot more helpful, insightful, constructive, a lot less AI... Is it the user com…",
+      "summary": "GitHub Gist 的评论比 X 更有帮助、更有建设性，AI 痕迹也更少，Karpathy 考虑以后多发 Gist。",
       "originalText": "Surprised with how good the comments on github gists are. A lot more helpful, insightful, constructive, a lot less AI... Is it the user community? The markdown format? The (lack of) incentives? Suddenly feeling like I should gist more. @github consider competing with X (?)",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     }
   ]
 }

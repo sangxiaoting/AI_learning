@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0-final-digest",
-  "generatedAt": "2026-04-07T06:39:48.403Z",
+  "generatedAt": "2026-04-07T07:09:59.556Z",
   "date": "2026-04-07",
   "language": "zh",
   "items": [
@@ -10,14 +10,14 @@
       "author": "Zara Zhang",
       "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
       "title": "",
-      "summary": "In an age where everyone is summarizing everything with AI, there's a lot of value in spending time &amp; effort to consume long-form conte…",
+      "summary": "在这个 AI 时代，花时间逐字阅读原文仍然很有价值。",
       "whyItMatters": "",
-      "translatedText": "In an age where everyone is summarizing everything with AI, there's a lot of value in spending time &amp; effort to consume long-form content deeply For content that I actually wanna engage with, I always read the original version word by word without taking any shortcuts",
+      "translatedText": "在这个 everyone 都在用 AI 总结一切的时代，花时间深入阅读长篇内容很有价值。对于我真正想深入参与的内容，我总是逐字阅读原文，不走任何捷径。",
       "originalText": "In an age where everyone is summarizing everything with AI, there's a lot of value in spending time &amp; effort to consume long-form content deeply For content that I actually wanna engage with, I always read the original version word by word without taking any shortcuts",
       "url": "https://x.com/zarazhangrui/status/2041031588000252279",
       "publishedAt": "2026-04-06T05:53:45.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/adityaag/status/2041016861027193239",
@@ -25,44 +25,14 @@
       "author": "Aditya Agarwal",
       "role": "General Partner @SouthPkCommons, Co-Founder @Bevel_Health   Ex: Early Eng @facebook, CTO…",
       "title": "",
-      "summary": "Emergency rooms are not allowed to turn away patients….. Why is an LLM allowed to deny me medical advice?",
+      "summary": "急诊室不能拒诊病人，为什么 LLM 却可以拒绝提供医疗建议？",
       "whyItMatters": "",
-      "translatedText": "Emergency rooms are not allowed to turn away patients….. Why is an LLM allowed to deny me medical advice?",
+      "translatedText": "急诊室不允许拒绝收治病人......为什么 LLM 却可以拒绝提供医疗建议？",
       "originalText": "Emergency rooms are not allowed to turn away patients….. Why is an LLM allowed to deny me medical advice?",
       "url": "https://x.com/adityaag/status/2041016861027193239",
       "publishedAt": "2026-04-06T04:55:14.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "id": "https://x.com/steipete/status/2040998797921145272",
-      "type": "x_post",
-      "author": "Peter Steinberger",
-      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster…",
-      "title": "",
-      "summary": "GPTEESUS HAS RISEN",
-      "whyItMatters": "",
-      "translatedText": "GPTEESUS HAS RISEN",
-      "originalText": "GPTEESUS HAS RISEN",
-      "url": "https://x.com/steipete/status/2040998797921145272",
-      "publishedAt": "2026-04-06T03:43:28.000Z",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "id": "https://x.com/steipete/status/2040982273193869671",
-      "type": "x_post",
-      "author": "Peter Steinberger",
-      "role": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster…",
-      "title": "",
-      "summary": "it took a hammer, but i managed to beat emotions into GPT.",
-      "whyItMatters": "",
-      "translatedText": "it took a hammer, but i managed to beat emotions into GPT.",
-      "originalText": "it took a hammer, but i managed to beat emotions into GPT.",
-      "url": "https://x.com/steipete/status/2040982273193869671",
-      "publishedAt": "2026-04-06T02:37:48.000Z",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/levie/status/2040967947275948357",
@@ -70,14 +40,14 @@
       "author": "Aaron Levie",
       "role": "ceo @box - your business lives in content. unleash it with AI",
       "title": "",
-      "summary": "There are far more categories where AI agents making things more efficient will induce demand for that skill than spaces where agents elimi…",
+      "summary": "AI提升效率后会催生更多需求而非消灭工作，因为更低的成本会让更多企业用上原本负担不起的技术和服务。",
       "whyItMatters": "",
-      "translatedText": "There are far more categories where AI agents making things more efficient will induce demand for that skill than spaces where agents eliminate the work. This is why the AI jobs predictions will not play out as advertised. AI making it easy to produce more code will mean we start to apply code to far more parts of our businesses. We will build automation and software for things that wouldn’t have made sense before. Marketing automation, client onboarding, modernizing old systems, doing far more research on existing data, and more. More engineers. Far more software will mean vastly more security risks. This will mean far more people thinking through system security, compliance, and governance. This used to be primarily manual and only large companies could afford this work. AI will make it so more companies care about this (and maybe can do something about it), causing more security roles. AI will also lower the cost of a bunch of previously relatively niche or harder to access categories of work. Companies will now be doing 10X more with video and graphics, and will need people to manage that work. More media. We’re going to have a near unlimited set of legal challenges in a world of AI as AI helps write even more bespoke and complicated legal docs. More lawyers. Then there’s the impact of AI efficiency on non-office worker jobs. Talked to a customer that said they’re going to make scheduling medical appointments and getting referrals so efficient the next problem will be there will be no booking time slots available. More healthcare. Many industries will have this same dynamic play out. The examples are endless once you start to think through second order effects of agents making work more efficient.",
+      "translatedText": "AI代理让工作变得更高效，这会在更多领域催生对这种技能的需求，而不是像预期那样消灭工作岗位。AI让写代码变得更简单，意味着我们会把代码应用到业务的更多领域。过去不合理的事情现在变得可行：营销自动化、客户入职、老系统现代化、对现有数据进行更多研究等。这将需要更多工程师。更多软件意味着更多安全风险，需要更多人思考系统安全、合规和治理——过去这主要是手动的，只有大公司做得起。AI会让更多公司关注这个问题（也许能采取行动），从而创造更多安全岗位。AI还会降低一些以前相对小众或难以进入的工作类别的成本。企业现在会在视频和图形方面多做10倍的工作，需要人来管理。更多媒体。AI世界中会有几乎无限的法律挑战——AI帮助撰写更多定制化和复杂的法律文件。需要更多律师。AI效率对非办公室员工的工作也有影响。我与一个客户交谈时，他们说让预约医疗 appointments 和转诊变得如此高效，下一个问题将是根本没有可预约的时间。更多医疗。许多行业都会有类似的动态。一旦你开始思考代理让工作更高效的二阶效应，例子就无穷无尽。",
       "originalText": "There are far more categories where AI agents making things more efficient will induce demand for that skill than spaces where agents eliminate the work. This is why the AI jobs predictions will not play out as advertised. AI making it easy to produce more code will mean we start to apply code to far more parts of our businesses. We will build automation and software for things that wouldn’t have made sense before. Marketing automation, client onboarding, modernizing old systems, doing far more research on existing data, and more. More engineers. Far more software will mean vastly more security risks. This will mean far more people thinking through system security, compliance, and governance. This used to be primarily manual and only large companies could afford this work. AI will make it so more companies care about this (and maybe can do something about it), causing more security roles. AI will also lower the cost of a bunch of previously relatively niche or harder to access categories of work. Companies will now be doing 10X more with video and graphics, and will need people to manage that work. More media. We’re going to have a near unlimited set of legal challenges in a world of AI as AI helps write even more bespoke and complicated legal docs. More lawyers. Then there’s the impact of AI efficiency on non-office worker jobs. Talked to a customer that said they’re going to make scheduling medical appointments and getting referrals so efficient the next problem will be there will be no booking time slots available. More healthcare. Many industries will have this same dynamic play out. The examples are endless once you start to think through second order effects of agents making work more efficient.",
       "url": "https://x.com/levie/status/2040967947275948357",
       "publishedAt": "2026-04-06T01:40:52.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/zarazhangrui/status/2040956069699297314",
@@ -85,14 +55,14 @@
       "author": "Zara Zhang",
       "role": "Builder. Dangerously skips permissions. Harvard’17. GitHub: YouTube:",
       "title": "",
-      "summary": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing…",
+      "summary": "在创建 AI agent 技能时，在提示词中加入让 agent 充当产品营销者、介绍功能和使用方法的指令，弥补没有 GUI 的交互界面。",
       "whyItMatters": "",
-      "translatedText": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing the AGENTS.md file: \"We want the agent to introduce the product's features and benefits for the user and walk them through how to use it. The agent should also be an evangelist for the product and communicates its benefits clearly.\" Since these skills/apps don't have GUI, the agent is the interface. It should communicate the \"why\" of the product clearly",
+      "translatedText": "把用户的 agent 变成营销者：现在当我创建新的技能或应用时，我会在 agent 写 AGENTS.md 文件的提示词中加入这样一句话：「我们希望 agent 能够向用户介绍产品的功能和优势，并引导他们如何使用。Agent 还应该是产品的推广者，清晰地传达产品价值。」由于这些技能/应用没有图形界面，agent 就是交互入口，它应该清晰地传达产品的「为什么」。",
       "originalText": "Turn the user's agent into your marketer: Now when I make a new skill/app, I include this line in the prompt for my agent when it's writing the AGENTS.md file: \"We want the agent to introduce the product's features and benefits for the user and walk them through how to use it. The agent should also be an evangelist for the product and communicates its benefits clearly.\" Since these skills/apps don't have GUI, the agent is the interface. It should communicate the \"why\" of the product clearly",
       "url": "https://x.com/zarazhangrui/status/2040956069699297314",
       "publishedAt": "2026-04-06T00:53:40.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/petergyang/status/2040954866567364758",
@@ -100,44 +70,14 @@
       "author": "Peter Yang",
       "role": "I share extremely practical AI tutorials and interviews   Join 140K+ readers at   Product…",
       "title": "",
-      "summary": "What are some good examples of open source winning vs. proprietary tech? In mobile for example, Android has the most market share but iOS s…",
+      "summary": "Android 占据最大市场份额，但 iOS 仍攫取大部分利润，这说明开源和专有技术可以共存，两者都能赢得市场。",
       "whyItMatters": "",
-      "translatedText": "What are some good examples of open source winning vs. proprietary tech? In mobile for example, Android has the most market share but iOS still captures the majority of profits. Seems like both can win?",
+      "translatedText": "有哪些开源成功而专有技术失败的例子？在移动领域，Android 占据最大市场份额，但 iOS 仍攫取大部分利润。看来两者都可以赢？",
       "originalText": "What are some good examples of open source winning vs. proprietary tech? In mobile for example, Android has the most market share but iOS still captures the majority of profits. Seems like both can win?",
       "url": "https://x.com/petergyang/status/2040954866567364758",
       "publishedAt": "2026-04-06T00:48:53.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "id": "https://x.com/nikunj/status/2040953390356889646",
-      "type": "x_post",
-      "author": "Nikunj Kothari",
-      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atla…",
-      "title": "",
-      "summary": "Who’s looking for a stellar product engineer / designer? Hire @ramintahbaz 🙏",
-      "whyItMatters": "",
-      "translatedText": "Who’s looking for a stellar product engineer / designer? Hire @ramintahbaz 🙏",
-      "originalText": "Who’s looking for a stellar product engineer / designer? Hire @ramintahbaz 🙏",
-      "url": "https://x.com/nikunj/status/2040953390356889646",
-      "publishedAt": "2026-04-06T00:43:01.000Z",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "id": "https://x.com/nikunj/status/2040947391608828019",
-      "type": "x_post",
-      "author": "Nikunj Kothari",
-      "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atla…",
-      "title": "",
-      "summary": "Brother in town from India, cousins chasing each other, flowers everywhere, term sheet accepted with a team I’m SO thrilled about, didn’t t…",
-      "whyItMatters": "",
-      "translatedText": "Brother in town from India, cousins chasing each other, flowers everywhere, term sheet accepted with a team I’m SO thrilled about, didn’t touch AI for 4 days (!!), sun is shining, amazing food, walks everywhere.. Week of the year might have already been achieved. Grateful 🙏",
-      "originalText": "Brother in town from India, cousins chasing each other, flowers everywhere, term sheet accepted with a team I’m SO thrilled about, didn’t touch AI for 4 days (!!), sun is shining, amazing food, walks everywhere.. Week of the year might have already been achieved. Grateful 🙏",
-      "url": "https://x.com/nikunj/status/2040947391608828019",
-      "publishedAt": "2026-04-06T00:19:11.000Z",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/petergyang/status/2040943889822232790",
@@ -145,14 +85,14 @@
       "author": "Peter Yang",
       "role": "I share extremely practical AI tutorials and interviews   Join 140K+ readers at   Product…",
       "title": "",
-      "summary": "Why OpenAI doesn't focus on roadmaps from @embirico (Codex product lead): \"At @OpenAI, you either plan near or long-term, but you never pla…",
+      "summary": "OpenAI 只做 8 周内的短期计划和一年以上的长期方向，不做中期路线图。",
       "whyItMatters": "",
-      "translatedText": "Why OpenAI doesn't focus on roadmaps from @embirico (Codex product lead): \"At @OpenAI, you either plan near or long-term, but you never plan medium-term. It's just too difficult. Near-term is up to eight weeks from now. What is a concrete thing you can rally a team to ship? [Long-term] is having a vibe that's like, a year from now on how the models will be smarter. The product roadmap is an in-between thing that's just kind of awkward. We basically don't have a roadmap. We have a combination of a long-term direction and short term bets that we think bring us in that direction.\" 📌 Watch the full interview here:",
+      "translatedText": "OpenAI 的 Codex 产品负责人 @embirico 解释了为什么 OpenAI 不关注路线图：在 OpenAI，要么做短期规划，要么做长期规划，但从不做中期规划，因为太难了。短期是距今 8 周内你能团结团队交付的具体东西；长期是对一年后模型会变得更聪明的方向感。产品路线图是两者之间尴尬的存在。他们基本没有路线图，只有长期方向加上他们认为能指向那个方向的短期尝试的组合。",
       "originalText": "Why OpenAI doesn't focus on roadmaps from @embirico (Codex product lead): \"At @OpenAI, you either plan near or long-term, but you never plan medium-term. It's just too difficult. Near-term is up to eight weeks from now. What is a concrete thing you can rally a team to ship? [Long-term] is having a vibe that's like, a year from now on how the models will be smarter. The product roadmap is an in-between thing that's just kind of awkward. We basically don't have a roadmap. We have a combination of a long-term direction and short term bets that we think bring us in that direction.\" 📌 Watch the full interview here:",
       "url": "https://x.com/petergyang/status/2040943889822232790",
       "publishedAt": "2026-04-06T00:05:16.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/amasad/status/2040918650245578906",
@@ -160,14 +100,14 @@
       "author": "Amjad Masad",
       "role": "ceo @replit. civilizationist",
       "title": "",
-      "summary": "New @X API + @Replit is lots of fun. @tannerlbraden built a @NASAArtemis II mission visualization w/ live @X feed &amp; stats.",
+      "summary": "用 Replit 和新 X API 做了一个 NASA Artemis II 任务可视化，可以实时展示动态和统计。",
       "whyItMatters": "",
-      "translatedText": "New @X API + @Replit is lots of fun. @tannerlbraden built a @NASAArtemis II mission visualization w/ live @X feed &amp; stats.",
+      "translatedText": "新的 X API 配合 Replit 非常有趣。@tannerlbraden 制作了一个 NASA Artemis II 任务可视化，包含了实时 X 动态和统计数据。",
       "originalText": "New @X API + @Replit is lots of fun. @tannerlbraden built a @NASAArtemis II mission visualization w/ live @X feed &amp; stats.",
       "url": "https://x.com/amasad/status/2040918650245578906",
       "publishedAt": "2026-04-05T22:24:59.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/nikunj/status/2040910000990920752",
@@ -175,29 +115,14 @@
       "author": "Nikunj Kothari",
       "role": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atla…",
       "title": "",
-      "summary": "&gt; wake up &gt; open X &gt; see new skill (or feature) &gt; give it to Claude Code to see if worth implementing &gt; ask Codex to review…",
+      "summary": "每天早上在X上看到新技能或功能后，用Claude Code评估是否值得实现，让Codex审查计划，然后编码迭代。",
       "whyItMatters": "",
-      "translatedText": "&gt; wake up &gt; open X &gt; see new skill (or feature) &gt; give it to Claude Code to see if worth implementing &gt; ask Codex to review Claude Code plan &gt; code &gt; iterate &gt; repeat",
+      "translatedText": "起床后打开X，看到新的技能或功能，把这个技能交给Claude Code，让它判断是否值得实现，然后让Codex审查Claude Code的实现计划，编写代码，持续迭代，不断重复这个过程。",
       "originalText": "&gt; wake up &gt; open X &gt; see new skill (or feature) &gt; give it to Claude Code to see if worth implementing &gt; ask Codex to review Claude Code plan &gt; code &gt; iterate &gt; repeat",
       "url": "https://x.com/nikunj/status/2040910000990920752",
       "publishedAt": "2026-04-05T21:50:37.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "id": "https://x.com/thenanyu/status/2040902216085537159",
-      "type": "x_post",
-      "author": "Nan Yu",
-      "role": "head of product @linear",
-      "title": "",
-      "summary": "This is the real purpose of the CA high speed rail. Turn LA and SF into one city, effectively.",
-      "whyItMatters": "",
-      "translatedText": "This is the real purpose of the CA high speed rail. Turn LA and SF into one city, effectively.",
-      "originalText": "This is the real purpose of the CA high speed rail. Turn LA and SF into one city, effectively.",
-      "url": "https://x.com/thenanyu/status/2040902216085537159",
-      "publishedAt": "2026-04-05T21:19:41.000Z",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/danshipper/status/2040901103483490753",
@@ -205,14 +130,14 @@
       "author": "Dan Shipper",
       "role": "ceo @every   the only subscription you need to stay at the edge of AI",
       "title": "",
-      "summary": "if you're seeing this, make sure you turn thinking on claws are actually pretty great in gpt-5.4, but they seem really stupid unless this g…",
+      "summary": "GPT-5.4 的 thinking 功能建议打开，打开后很好用。",
       "whyItMatters": "",
-      "translatedText": "if you're seeing this, make sure you turn thinking on claws are actually pretty great in gpt-5.4, but they seem really stupid unless this gets turned on",
+      "translatedText": "如果你看到这条内容，建议把 thinking 打开。GPT-5.4 的 thinking 功能打开后其实挺好用，但如果不打开就显得很蠢。",
       "originalText": "if you're seeing this, make sure you turn thinking on claws are actually pretty great in gpt-5.4, but they seem really stupid unless this gets turned on",
       "url": "https://x.com/danshipper/status/2040901103483490753",
       "publishedAt": "2026-04-05T21:15:15.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/rauchg/status/2040879055990632715",
@@ -220,14 +145,14 @@
       "author": "Guillermo Rauch",
       "role": "@vercel CEO",
       "title": "",
-      "summary": "The @vercel team is always listening and engaging with customers on @x. We shape the product as a result of these conversations. Vercel giv…",
+      "summary": "Vercel CEO 发文感谢在 X 上互动的用户，称团队通过这些对话来塑造产品，X 提供了持续的用户反馈。",
       "whyItMatters": "",
-      "translatedText": "The @vercel team is always listening and engaging with customers on @x. We shape the product as a result of these conversations. Vercel gives us the velocity to ship, X gives us a nonstop stream of user feedback. Thanks @simhskal &amp; @riyvir!",
+      "translatedText": "Vercel 团队一直在 X 上倾听并与客户互动。我们根据这些对话来塑造产品。Vercel 赋予我们快速发布的能力，X 为我们提供了源源不断的用户反馈。感谢 @simhskal 和 @riyvir！",
       "originalText": "The @vercel team is always listening and engaging with customers on @x. We shape the product as a result of these conversations. Vercel gives us the velocity to ship, X gives us a nonstop stream of user feedback. Thanks @simhskal &amp; @riyvir!",
       "url": "https://x.com/rauchg/status/2040879055990632715",
       "publishedAt": "2026-04-05T19:47:39.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/rauchg/status/2040822340532236565",
@@ -235,29 +160,14 @@
       "author": "Guillermo Rauch",
       "role": "@vercel CEO",
       "title": "",
-      "summary": "Created a flag on the moon based with hyper-realistic physics with @v0: The flag is simulated as a grid of particles connected by springs (…",
+      "summary": "用 v0 在月球上创建了带布料物理模拟的旗帜，v0 能理解复杂物理概念并在语言间迁移代码。",
       "whyItMatters": "",
-      "translatedText": "Created a flag on the moon based with hyper-realistic physics with @v0: The flag is simulated as a grid of particles connected by springs (cloth simulation). It's influenced by gravity, wind, air resistance. The initial approach v0 one-shotted was quite simplistic, but giving it references to more sophisticated approaches in C++ and Rust quickly improved it. It was mind-blowing it to see it deeply understand the physics and port new ideas across languages. It simulated a real sun for lighting, and procedurally generated moon-like terrain with craters. I found a sick free texture on Reddit that I uploaded and it layered on top. Another epic moment was watching it improve performance. It seamlessly moved the physics simulation to a Web Worker. (Kinda cool to see given we just improved support for them in Turbopack 😉)",
+      "translatedText": "用 v0 在月球上创建了一面基于超真实物理的旗帜：旗帜被模拟为由弹簧连接的粒子网格（布料模拟），受重力、风、空气阻力影响。v0 最初的方法很简陋，但向它提供 C++ 和 Rust 的更复杂方法参考后，它很快深刻理解了物理并能在语言间转换。它模拟了真实的太阳光照，并程序化生成了类似月球的地形和陨石坑。我从 Reddit 找到一个很棒的免费纹理并上传应用。还有一个精彩时刻是看它提升性能——它无缝将物理模拟移到了 Web Worker（在 Turbopack 刚改进了 Worker 支持的背景下看到这一点还挺酷的）。",
       "originalText": "Created a flag on the moon based with hyper-realistic physics with @v0: The flag is simulated as a grid of particles connected by springs (cloth simulation). It's influenced by gravity, wind, air resistance. The initial approach v0 one-shotted was quite simplistic, but giving it references to more sophisticated approaches in C++ and Rust quickly improved it. It was mind-blowing it to see it deeply understand the physics and port new ideas across languages. It simulated a real sun for lighting, and procedurally generated moon-like terrain with craters. I found a sick free texture on Reddit that I uploaded and it layered on top. Another epic moment was watching it improve performance. It seamlessly moved the physics simulation to a Web Worker. (Kinda cool to see given we just improved support for them in Turbopack 😉)",
       "url": "https://x.com/rauchg/status/2040822340532236565",
       "publishedAt": "2026-04-05T16:02:17.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
-    },
-    {
-      "id": "https://x.com/swyx/status/2040812156728574385",
-      "type": "x_post",
-      "author": "Swyx",
-      "role": "achieve ambition with intentionality, intensity, integrity & insanity. affiliations: - @d…",
-      "title": "",
-      "summary": "always wanted to do one of those “is it coachella” announcements - here is our designer’s take on it!",
-      "whyItMatters": "",
-      "translatedText": "always wanted to do one of those “is it coachella” announcements - here is our designer’s take on it!",
-      "originalText": "always wanted to do one of those “is it coachella” announcements - here is our designer’s take on it!",
-      "url": "https://x.com/swyx/status/2040812156728574385",
-      "publishedAt": "2026-04-05T15:21:49.000Z",
-      "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     },
     {
       "id": "https://x.com/karpathy/status/2040806346556428585",
@@ -265,14 +175,14 @@
       "author": "Andrej Karpathy",
       "role": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team…",
       "title": "",
-      "summary": "Surprised with how good the comments on github gists are. A lot more helpful, insightful, constructive, a lot less AI... Is it the user com…",
+      "summary": "GitHub Gist 的评论比 X 更有帮助、更有建设性，AI 痕迹也更少，Karpathy 考虑以后多发 Gist。",
       "whyItMatters": "",
-      "translatedText": "Surprised with how good the comments on github gists are. A lot more helpful, insightful, constructive, a lot less AI... Is it the user community? The markdown format? The (lack of) incentives? Suddenly feeling like I should gist more. @github consider competing with X (?)",
+      "translatedText": "对 GitHub Gist 评论的质量感到惊讶，比 X 上的更有帮助、更有见解、更建设性，AI 痕迹少很多。不知道是因为用户社区、markdown 格式还是激励机制的问题，突然觉得应该多发 Gist。建议 GitHub 可以考虑与 X 竞争。",
       "originalText": "Surprised with how good the comments on github gists are. A lot more helpful, insightful, constructive, a lot less AI... Is it the user community? The markdown format? The (lack of) incentives? Suddenly feeling like I should gist more. @github consider competing with X (?)",
       "url": "https://x.com/karpathy/status/2040806346556428585",
       "publishedAt": "2026-04-05T14:58:44.000Z",
       "contentType": "industry_commentary",
-      "confidence": 0.35
+      "confidence": 0.5
     }
   ]
 }
