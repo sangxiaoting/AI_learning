@@ -1,0 +1,207 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=X8aKh_8uC3M
+
+Kind: captions
+Language: en
+Let's find out as simple as possible
+what is CLI. I'm going to be explaining
+CLI or command line interface as if
+you've never developed in your entire
+life. This is as easy as it's going to
+get, so let's jump in. Welcome back.
+Y'all already know you clicked on this
+video because everyone seems to be
+talking about CLI. What is a CLI and why
+are we using CLI with artificial
+intelligence, whether it's ChatGPT,
+Claude, Perplexity, all of it. So, as
+you know, these style videos we're going
+to go over the why, how we actually use
+CLI in action, and finally, should we
+even care? First things first, what the
+heck is CLI? So, back in the old days,
+we're talking the 70s and the 60s when
+they used to code, they used to use
+terminal. You know, terminal here, I
+think it's called command line or
+something like that in Windows, but the
+idea is that command line interface is
+simply when you do terminal commands.
+Don't worry, we're not going to get
+scary in this video, but the point being
+is that at a fundamental base level, CLI
+is when you do terminal commands. Or
+back in the old days, the 70s, I love
+the 70s, they would do it to code
+relevant programs. And as you can
+probably already assume, it still has
+relevance now as most developers still
+use something like terminal to code and
+do get commits, do different things
+within the cloud or on your computer as
+you'll see right now. So, what is CLI
+and what does it mean in action? There
+are two ways you use CLI and we've been
+using CLI, and that is either through
+your computer or through an online
+service. Here's a specific example. So,
+example number one and why it's super
+cool and what we've been seeing with
+OpenClaude and I believe Claude just
+came out with like workspace or
+something like that is it will access
+your terminal here and be able to do
+things like, you know, create a folder.
+MK DIR my folder and it creates a
+folder. Don't overcomplicate this,
+y'all. Literally, the CLI is just
+putting in this one line into terminal
+and then it will automatically create a
+folder on your desktop. So, that's it in
+action when it's on your computer. This
+can do other things like search files on
+your computer, create CSVs, everything
+of this nature. The extra layer here
+that CLI gets really cool is when you
+access stuff in the cloud. For example,
+one you probably already know of,
+Claude. Claude.com, like Anthropic, that
+situation. What a CLI is in the cloud
+and command line interface, I'm going to
+say CLI a lot, CLI, CLI, CLI, that
+situation, is it's going to take a thing
+called API. If you don't know what API
+is, this is our way to essentially
+communicate with different value in the
+cloud. So, here's a really simple
+example. I have my phone here. It's
+cracked, but with my phone, what I can
+do is set up like a Telegram bot or
+OpenClaude or Claude, access Instagram's
+API, like IG, and automatically post to
+Instagram via Telegram or something like
+that. Like it's just the communication
+of like, you know, like email. I'm
+sending an email to Instagram, like,
+"Hey, I want to post this." But API is
+the way we do that. It's the bridge.
+What I'm saying to you is I want you to
+think of CLI in the cloud like a really
+nice, beautiful steak that's just
+perfectly cooked, while the API might be
+like, "Hey, we got to go kill the cow.
+We got to go cut up the cow." because it
+is more intuitive, it's more
+developer-centric comparative to
+something like CLI. Here is a prime
+example. If I want to do an API call to
+generate something with AI via Claude's
+API, this is what it looks like with the
+direct API. Notice we have to do a post
+request, there's headers involved,
+everything of the nature of what an API
+call is, which is a little bit more
+developer-centric. A CLI is a nice
+little wrapper to make it look
+beautiful. So, we're able to take a call
+to get a message. I want a message,
+Claude. And make it simply one line in
+our terminal. Claude, refactor this file
+to use async and await. While
+alternatively, what you'll notice is
+that we would do the content here, max
+tokens, model, make it clean. So, why is
+this relevant and why you probably
+clicked on this video is like, okay,
+what is the applicable skill that I need
+to learn here? And that comes in this
+last box here of who cares. And as you
+probably guessed it, AI agents care. And
+specifically, you are going to care. And
+why you should care is AI agents using a
+system like OpenClaude, Claude CoWork,
+or whatever it is, like these agents
+that almost work autonomously, CLI is a
+really effective way for it to do
+actions throughout the internet and on
+your computer. Now, let me give you a
+specific example. All right, cool. So, I
+got OpenClaude, I got Claude CoWork. I
+got my CLI layer here. Delete box. Here
+are two specific examples that you may
+care about or just have a better
+comprehension of what the heck's going
+on. First example, TechSniff. You set up
+your AI agent. Your AI agent's working.
+If you want to know how to set up
+OpenClaude so you can automatically do
+stuff 24/7, check out the description
+down below. I'll show you how to set up
+in 5 minutes. But the point being is
+that you have your agent and you want it
+to be able to do things, cool things.
+You look at the software or action you
+want it to do. So, we're going to look
+at TechSniff here. TechSniff is going to
+aggregate every single news source when
+it comes to tech news. Check it out. But
+the point being is that they have a CLI
+layer. I would click CLI. I would
+provide the directions via this copy
+button. I would literally just copy and
+then I would paste it over to my AI
+agent. So, now this AI agent can
+automatically, whether you set it to a
+like every day at 8:00 a.m. give me the
+news situation, but this AI agent will
+communicate via its terminal the ability
+to get different things. So, in this
+context, it's able to get top stories.
+It's even able to get tweets associated
+with that story or Blue Skies or
+whatever they call them, LinkedIn posts,
+Reddit posts. Like, specifically for
+TechSniff CLI, it essentially is an open
+interface to allow AI agents to crawl
+the entire internet when it comes to
+tech news. So, that's why CLI is
+important in this context. Cuz
+alternative ways to maybe do the action
+of getting tech news, you would get
+blocked by Wall Street Journal, like,
+"Hey, here's a paywall." Or
+alternatively, like, XYZ news source,
+it's trying to do scrape the website.
+Don't let us scrape it. AI blocker. That
+situation. But then you access it via
+something like TechSniff CLI, it's your
+nice little tunnel to access data. This
+works in other contexts as well, of
+course. One very specific one is GCP,
+Google Cloud, the internet, the cloud.
+GCP has a CLI and I actually really like
+this one. So, with GCP CLI, I can do
+things like, "Hey, check my logs for the
+last 24 hours. Tell me if there's any
+errors for my software." Anything. Let
+me leave you with this. First thing I'll
+leave you with, if you want to see if
+you can upgrade your AI agent and do a
+cool thing via CLI, type in whatever you
+want to do, does it have a CLI? Proceed.
+Second thing, which is major nuance, if
+a software has an API layer and you can
+authenticate with it, e.g. like, "Hey, I
+own this key." or whatever, you can
+actually do similar things you can do
+with CLI, it's just a little bit more
+clunky. So, that just about does it. So,
+as you know, these style videos, make
+sure you leave a like. I'll see you in
+the next "The quarter and quite
+literally just explained what CLI is and
+how it was important and fundamental to
+AI agents and the future of everything"
+type of video. Okay, I want to post
+this.

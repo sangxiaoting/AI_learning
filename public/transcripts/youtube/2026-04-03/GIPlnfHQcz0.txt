@@ -1,0 +1,557 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=GIPlnfHQcz0
+
+Kind: captions
+Language: en
+Welcome to another week of AI
+innovation. And this week is one of
+those that I love to do because we have
+a bunch of chatb updates. And I happen
+to know that most of you are still using
+chatbtd as their main used app. And let
+me just say a sentence about the fact
+that that is the case for me too. 70 to
+80% of my personal AI usage is within
+chat GBT or claude. I play in all of
+these other apps and there certainly
+uses, but as somebody who doesn't rely
+upon coding on a day-to-day for me
+roughly twothirds of my work still
+happen in Chat GPT or Claude. Now mind
+you I say work I experiment and play a
+lot in the others and today we have a
+bunch of practical chachibility updates
+for you along with updates from Google
+and claws. The big boys all released a
+bunch of interesting things this week.
+We're going to talk about all that and
+more in this week's episode of AI news
+you can use show that pulls together all
+the AI innovations from across the
+internet. We filter for the stuff that
+matters and is usable and then I have
+the pleasure of presenting it back to
+you. Let's begin. The big story this
+week is the story of OpenAI. They're
+raising a brand new round. And I guess
+to argue that and get some public
+attention, they also released a bunch of
+features inside of their core product.
+Along with that, they raised $122
+billion at a $852 billion valuation.
+That's almost a trillion valuation for a
+private company. I believe that's the
+single biggest fund raise in venture
+history. And all of that happens with
+this mission to build a unified AI super
+app. Now before we get into the features
+I just want to give you a little bit of
+context because as it has been recently
+revealed most of Chachibd's revenue
+around 3/3s of it come from chatb
+subscriptions whereas for a company like
+claude it's actually pretty much the
+opposite where most of their revenue
+comes from API usage developers and
+other applications using it that also
+includes claude code and open claw by
+the way and now that openi clearly
+stated that their goal is building this
+AI super app what they're referring to
+is expanding their consumerf facing
+application and really making this
+beautiful chat interface that we're all
+so familiar with into something that is
+AGI or the one unified application
+including everything. And I guess to
+prove to the public and to the investors
+now we can get into the features. They
+released a bunch of stuff this week.
+I'll start with my personal favorite
+which is the ability to share your
+location with chatt and ah yes yes yes
+you know privacy concerns I know it is
+very convenient and I'll show you that
+in a second but first let's look at how
+to access it go to your settings in
+charge data controls and now you have
+this location feature this is brand new
+as of this week and they didn't even
+have a proper announcement around this I
+find this so convenient though because
+when I have this on I can ask questions
+like what is a good co-working cafe near
+me This will also work on the phone, of
+course. And now that it knows I'm in
+Miami right now, it can make all of
+those recommendations. And as you can
+see, this is pretty much my location
+right here. So, I can use the
+interactive app here. So, beautiful
+pictures in here. Notice how in previous
+episodes I was saying they're really
+moving away from this wall of text at
+all means. And even a simple search like
+this like has maps, images, links. This
+is that direction of moving towards this
+AI supre away from just a chatbot. So
+yeah, this one looks really nice and I
+might check that out and you can use it
+for anything you do. It just makes it
+convenient and maybe even superior to
+using like a Google maps to finding
+these things. I mean the mostly fake
+reviews on there aren't worth much to me
+personally. This way of presenting it
+with the map and then the results in the
+images is just preferable to only having
+the map and then you know having to open
+each entry. And then finally I would add
+on the phone you can set so that it can
+only use a location while you're in the
+app. That might be the smart thing to
+do. It's a very convenient thing that
+Gemini already had and now Chad has it
+too. Okay, so let's look at some other
+changes. A big one is that if you have a
+lot of text and you add it to chat. So
+let's say I just follow up my first
+location chat here with expand on each
+one of these. That's a thing I like to
+use. I also like to use the opposite of
+give me a more concise version when I
+need to get the high level. And the
+novel feature here is that if you give
+it text with over 5,000 characters, it
+won't just add it as text to a new chat
+or an existing chat anymore. It will add
+it as an attachment. There's a
+difference there. And I need you to be
+aware of this difference to get the most
+out of this tool. So, what I'll do is
+I'll just select all and copy that. And
+if I go into a new chat, you will see
+that if I add it, it's not added as
+text. It adds it in a .txt file as you
+can see here. Now, here is the deal.
+Attaching something isn't equal to
+adding it as text. That's why they give
+you this button here, showing text
+field. So, if I press show in text
+field, it will actually appear in my
+chat box right here. And all of a
+sudden, it's here. Now, you might be
+asking, Eigor, what's the difference
+between attaching it and having it in
+here? Well, they were never super clear
+on this, but if it's as pure text in the
+box, as you can see it right here, every
+single detail is added to the context
+window that you're limited by within
+chat GPT. Just as a quick refresher,
+every AI model has a so-called context
+window, which you can think of as a
+certain limitation on how much it
+remembers. It's basically a rolling
+window. So, if you give it more inputs
+than it has context, then the context
+window will roll down and forget what's
+in the beginning, and AI basically gets
+amnesia. Now, what happens if you add
+something as an attachment is that it
+won't be directly added to the context
+window. There's some sort of
+summarization step in between this
+document and it adding it to your prompt
+as you would if you're just writing in
+here like so. In other words, in
+attachments, you sometimes tend to lose
+certain details. Now, not always, but if
+you really wanted to retain every
+detail, adding it as text versus an
+attachment is superior, but it will
+limit the amount of other context you
+can add. Now, if you don't believe me,
+they even highlighted this in the
+documentation that they never promoted
+publicly, though. Yeah, if the text is
+over 5K characters, CHP will convert it
+into an attachment. This keeps the
+composer cleaner. This is the composer
+right here. And this is the critical
+part, helps prevent large pastes from
+consuming your entire context window. As
+a user, I wanted to consume my context
+window. They as a company don't want us
+to consume the context window because
+they have to pay for all of those
+tokens, for all of that context running
+through their system. Especially if you
+continue the chat, they'll have to run
+all of those tokens through the system
+again and again and again and you're
+just paying for $20 subscription. So,
+they don't want that. We as consumers
+usually do, unless you really have a lot
+and you don't want it to be consumed by
+the context window. So, my
+recommendation would be if you're doing
+quick work and you add text in there and
+press this button and you'll get more
+precise recall on what you actually
+added in there. Good to know. Few more
+chat with the updates here. And these
+are quick ones cuz they're just single
+features that most people aren't using.
+For example, Google Drive had multiple
+apps. So, you had Google Docs, you had
+Google Sheets, you had Google Slides,
+and then you also had Google Drive. Now,
+they unified it into just Google Drive.
+When you connect Google Drive, gosh, if
+I say that one more time, I'll have a
+seizure. If you connect the app that I
+just mentioned so many times, it will
+also connect Google Docs and all the
+others. If you go to my account settings
+and under apps, you will see that it's
+all unified here. And you might have to
+click enable sync once, reactivate
+everything. If you connected the others
+before, you don't have to worry about
+this. It's all connected. But if you're
+using this regularly, I would actually
+go in here and make sure it's
+reconnected. So, it's all clean under
+one connector. If you're watching the
+show, you'll know I'm not a big fan of
+these connectors cuz they're very leaky.
+they do some of this like summarization
+in between bringing in stuff and putting
+it in here. So, it can't really fully
+rely upon it. It can be useful though,
+especially if you have shared context
+with other teammates. Anyway, it's
+simpler now all under one connector.
+It's a step in the right direction
+towards having a AI super app. And as
+we're talking about apps, they actually
+updated some of them. So, they have
+updates to Box, notion, linear, and
+dropbox. And basically, you can just do
+more stuff with the apps within CHBT,
+which can be nice. I don't know about
+you, please leave a comment if you are,
+but me personally, I don't really use
+these much. I just find them to always
+do the first step in the workflow inside
+of the app and then I have to go out and
+go into the app anyway. Might as well do
+that immediately rather than doing one
+step in chat and the next three steps in
+Dropbox. Anyway, if you use them, you
+can now upgrade them now to the new
+versions like so. They also made some
+updates to the mobile application. So,
+if you check that out here, basically
+created a full screen view of the menu
+and you can kind of swipe to it which is
+nice. Everything is larger here. You
+have your chat history, GPTs, image
+generation or the apps on top. I like
+it. Basically, there's two screens now
+for menu and chat. And another quick
+chat change, and I'm excited for this in
+my car, is chatbt voice mode in CarPlay.
+So, you can, you know, talk to the
+assistant via CarPlay. I wonder how deep
+the integration runs with other apps. It
+would be kind of really nice if it would
+actually act as a Siri that works for my
+car. I like that idea. You need to have
+iOS 26.4 or later, and you need to have
+a iPhone and iOS running that supports
+CarPlay. Another thing that they
+improved is the shopping experience
+within chat. Remember they introduced
+partnerships with several brands and now
+you could see the products directly
+inside of chat. Interface wasn't the
+best. They overhauled it now and
+actually now it looks fantastic as you
+can see right here. It also looks at the
+shops more frequently. So it has the
+freshest products from the various
+providers. And then finally they added
+some plugins and codecs if you use that
+instead of claw code which I don't know
+many people if anybody who do that.
+Everybody that I know is in cloth code
+or open claw when they're messing around
+with that type of stuff. If you are
+using codeex, there is new plugins. And
+that is pretty much it. Updates on the
+road to the super app. Interesting.
+We'll keep you posted every week here.
+And let's see what else we have this
+week. There's a few more interesting
+ones. Starting with the Google releases.
+So, they added a bunch of new models.
+And usually new model releases m not
+that interesting, but Gemini 3.1 Flash
+Live brings kind of a new experience to
+using Gemini because it's so darn fast
+and it works with voice mode. So,
+basically, this is an upgrade to Chat
+GPT's advanced voice mode. you know, the
+mode where it talks to you and you talk
+back and it talks back again. But inside
+of Gemini and now it's faster than ever
+with a larger context window, so it
+remembers more. But here on my phone,
+there's a button and now I can talk to
+Gemini. Hey, what up? Give me a
+comprehensive intro of yourself and what
+you can do for me.
+&gt;&gt; Sure. I'm a large language model trained
+by Google. I can understand and generate
+text.
+&gt;&gt; All right. Can I interrupt you easily?
+Okay, that was pretty good. Not bad. Now
+respond instantly.
+You bet. I'm ready when you are and I'll
+do my best to keep the pace going.
+&gt;&gt; Okay, great. So, basically, I can share
+video and stuff like that, too, right?
+So, if I give video access, what's up?
+I'm just filming right here. What kind
+of setup is this? Uh, what platform do
+you think I'm recording for?
+&gt;&gt; That's a pretty professional setup. I
+see a microphone, camera, and lighting,
+plus a script or notes on your laptop.
+The layout suggests you might be
+recording for a YouTube channel, online
+course or
+&gt;&gt; nice. It got that well. So, it is
+snappier. Definitely faster than the
+previous one. Very comparable to chat
+GPT. But with the various features like
+sharing your screen, sharing a camera,
+it being fast, larger context window,
+but they've been kind of quiet about
+this category, right? We had all of
+these fancy demos out of Chat GPT with
+the voice mode. Did all the fancy demos
+out of Google about the voice mode, but
+the stuff didn't really ship. But now
+it's coming together with the new model,
+ability to share video and all that
+stuff. larger context windows. Gosh, it
+almost seems like Google is also trying
+to build AI super app. Who would have
+thought? Who would have thought? Not me.
+So, that's Gemini 3.1 Flash Live. Now,
+also, they released a family of open-
+source models, which I'm actually
+becoming increasingly interested in
+because, by the way, I have this new
+MacBook here, and this is me laughing
+because, you know, the broke 10-year-old
+kid living with a single mom moving
+around all the time kind of looks at
+this and is like, "No way." But it's the
+maxed out one. And I don't say that to
+brag. I say that to show you what you
+can get for $8,000 today. Apple M5 Max
+128 GB and it can basically run 200
+billion parameter models. This is super
+slow with models like Kimmy, but if you
+run something like Quen 3.5, gosh, it's
+faster than Chat GPT and the quality of
+it is actually close to chat. Anyway, I
+just briefly wanted to talk about that.
+Maybe I'll make a dedicated video about
+local models and this machine soon. If
+you guys are interested in that, leave a
+comment if you are, by the way, or leave
+a thumbs up on a comment that says it
+is. It's kind of hard to gauge if people
+actually want to hear about that stuff.
+Anyway, Google released new open source
+models which could run on this machine.
+That's why I pointed this out. The
+models are the GMA 4 family of models.
+And I don't know much about these yet.
+Usually takes a few days for people to
+run their benchmarks and to get
+experience with these to make a
+judgment. But from the benchmarks, gosh,
+even the 31B models seem as capable as
+the Deep Seek 3.2 two models and almost
+as capable as the Kim K models which for
+many people is the golden standard for
+running them with their open claw Mac
+minis. So yeah, Google threw their hat
+in the ring. They have new models.
+Really impressive scores. If you use
+offline models, look into them. Okay,
+and here's a bunch of quick stories that
+I wanted to mention, but maybe we don't
+need a full segment for them. So there's
+two music generators that came out this
+week that were updated. One of them is
+So 5.5. And honestly, I'm you know, I
+think Sununo is fantastic. It creates
+probably the best quality songs in the
+market. But the latest releases all sort
+of sound the same to me and others
+people seem to be sharing this opinion.
+They got so good previously that it's
+kind of hard to top it. It's similar to
+the majourney situation. Cool, new
+release, but the bar was so high that
+the new bar is kind of at the same
+level. Their main focus was more on
+personalization and user control. So if
+you use that tool, check out the new
+version of it. Google has their own
+horse in this race. It's called LIA and
+they updated the newest LIA LIA free pro
+that can create up to three minute
+tracks. In terms of quality, it's
+definitely the main competitor to Sunno.
+The fun thing is they're starting to
+integrate this into other tools. For
+example, Google's Gemini. You can use it
+right in Gemini. You can ask for a track
+and it just creates it, which again, AI
+super app to bring everything together.
+That's what's happening here. Here's a
+quick snippet of a track created in LIA.
+Trade in the ocean for a frozen high.
+Slide the rail, feel the wind under the
+flipper. Slide the rail, feel the wind
+under the flipper.
+&gt;&gt; Compared to the same track created in
+Suno
+&gt;&gt; frozen air in breath. If he lands it or
+face plants, he's still the coolest.
+&gt;&gt; Okay. Next, there's a claw code update
+where they give it the ability to use
+your computer. Yep. Basically, it can
+click buttons on your computer now,
+which goes beyond what it was able to do
+before. Huh. Almost seems like they're
+also gunning for this idea of an AI
+super app, but at a deeper, way less
+userfriendly level than Chacht is. So,
+that's that. Usually, computer use is
+still so flimsy that you can't fully
+rely upon it. And also, usually it works
+well with things like sheets, but then
+you do have to add a loop for it to
+double check what it did, which also
+doesn't always work. Worth the
+experimentation and headaches in some
+cases. Then there was a leak around this
+claude model called Mythos. Myth mythos.
+It's one of those two pronunciations.
+And I don't even know today. Some people
+were saying it was just a early April
+Fool's joke cuz there was also a Claude
+code leak that was April Fool's joke.
+I'm not sure. I think they are
+definitely working on another model.
+This is supposed to be the successor to
+Opus 4.6, their best model right now.
+It's basically just a rumor, but I
+wouldn't be surprised if we see a new
+flagship claude model within the next
+month, which this was supposed to be
+one. There's also Claude Tools on
+mobile. We tested these. We wanted to
+create a dedicated video around these,
+but from testing them, we arrived at the
+same conclusion that we get every time
+we try these connectors and tools and
+apps. And it's just the fact that
+they're not reliable. They get the job
+done once. Second time something
+happens, then it works again, then it
+doesn't, then it forgets something. It's
+just like working with a person that
+every time you tell them something,
+there's like a 40% chance of them
+forgetting it or doing something
+different. That's no fun. And neither
+are these claw tools on mobile. Can't
+recommend this wholeheartedly. And then
+Microsoft Copilot added a council and
+critique feature which I thought was
+worth a quick mention. Basically the
+council is something we already saw in
+Perplexity's product. We talked about
+this in a previous episode where it
+consults multiple models and takes the
+best of those and presents it to you.
+This is an advanced workflow that some
+people are successfully using for
+various things including investment
+advice in some cases. But at the end of
+the day it's not as simple as just
+asking multiple models and then throwing
+it in somewhere and saying hey summarize
+this. For example, Microsoft Copilot
+takes an approach where it's two AI
+partners. One is optimized for deep
+exploration and a second one is there to
+validate all the claims, improving the
+presentation and strengthening the
+structure. Creates a feedback loop that
+is runs through many times. It's kind of
+a cool product that I would expect we'll
+find in all of these AI super apps
+eventually. And that's really it.
+Another week on our journey to AGI, AI
+super app, whatever you want to call it.
+That's what we're moving towards. And
+this show is designed to keep you up to
+date and to keep you at the frontier of
+all of that. And as per usual, you don't
+have to be using all of these things,
+but knowledge is power and so is
+awareness and now you're aware of all of
+this stuff. And even though you might be
+spending your days in chat, that's
+completely fine. As per usual, I would
+push back heavily on this notion of, oh
+my god, you're falling behind so heavily
+in AI just because you're not
+experimenting with open claw and oh,
+you're not building your own command
+center and clot code. What are you even
+doing? No, that sells well. That makes a
+good YouTube video. But even some of
+these pioneers in terms of AI usage,
+even if they use their open clause, most
+of the time they use them similarly to
+how people use Chetch. They ask
+questions, manage context, and then they
+keep working with those results. My hope
+is that between using this stuff
+regularly and you following the show,
+you'll be able to stay at the frontier,
+which hopefully should allow you to
+focus on the things that you do best and
+the people that you love the most.
+That's the true mission of why we spend
+time together here every week. And it's
+my pleasure to be your guide on this
+journey. All right, I'll see you next
+week.
+Uh-huh.
+&gt;&gt; One stop, one spot for the clues.
+&gt;&gt; Every week, new views. This AI news you
+can use.

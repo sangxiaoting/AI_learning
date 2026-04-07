@@ -1,0 +1,84 @@
+{
+  "context_analysis": "演示如何在Windows中将笔记本设为第二显示器，包含两种方法：内置无线显示功能（无需安装）和第三方spacedesk工具（通用方案）。核心价值在于零成本扩展显示空间的实用技巧。",
+  "id": "fuuYIZoqZFE",
+  "type": "youtube",
+  "title": "Use Your Laptop as a Second Monitor (No Software Needed)",
+  "author": "Kevin Stratvert",
+  "date": "2026-04-07",
+  "dateText": "Apr 7",
+  "duration": "4:55",
+  "tldr": "无需安装任何软件，利用Windows内置Wireless Display功能即可将笔记本变成第二显示器；若原生功能不支持，spacedesk可作为通用替代方案。",
+  "takeaways": [
+    "Windows内置无线显示功能（Wireless Display）可将笔记本变为第二显示器，按Win+K快捷键快速连接",
+    "需先在设置中启用Wireless Display可选功能：设置→系统→投影到这台PC→查看功能→勾选无线显示器",
+    "默认是屏幕复制模式，可在连接设置中切换为扩展模式",
+    "显示器位置可通过显示设置调整（左/右/上/下），决定鼠标移动方向",
+    "若内置功能有延迟或不支持，spacedesk.net提供跨设备通用解决方案，支持Windows/iOS/Android/HTML5"
+  ],
+  "quote": "If you use a wired ethernet connection, it'll be even smoother. — 如果使用有线以太网连接，体验会更流畅。",
+  "link": "https://www.youtube.com/watch?v=fuuYIZoqZFE",
+  "tags": [
+    "Windows Productivity",
+    "Wireless Display",
+    "Display Setup",
+    "Second Monitor",
+    "spacedesk"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "方法一：Windows内置无线显示功能",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "利用Windows 10/11内置的Wireless Display功能，无需安装第三方软件即可将笔记本设为第二显示器，零成本实现屏幕扩展或复制"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "操作流程：设置→系统→投影到这台PC→启用Wireless Display可选功能→启动无线显示应用→在主电脑按Win+K连接"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "这是Windows原生能力的产品化体现，降低了多屏办公的使用门槛；可作为轻量级演示或临时办公场景的快速解决方案"
+        },
+        {
+          "label": "局限与挑战",
+          "content": "依赖硬件支持，可能存在延迟或不兼容问题；视频中提到若遇到问题可使用spacedesk作为备选方案"
+        }
+      ]
+    },
+    {
+      "subtitle": "屏幕模式切换与显示器位置配置",
+      "points": [
+        {
+          "label": "技术逻辑拆解",
+          "content": "连接后默认是复制（Duplicate）模式，按Win+K打开连接面板，可切换为扩展（Extend）模式实现真正的双屏工作流"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "扩展模式允许将应用窗口拖拽到第二屏幕，提升多任务处理效率，这是生产力场景的核心需求"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "通过显示设置可调整副屏位置（左右上下），决定鼠标在屏幕间的移动方向；可设置副屏为主显示（任务栏会出现在副屏）"
+        }
+      ]
+    },
+    {
+      "subtitle": "方法二：spacedesk通用解决方案",
+      "points": [
+        {
+          "label": "关键数据/案例",
+          "content": "访问spacedesk.net，主电脑安装driver，副屏设备安装viewer应用；支持Windows 11/10 driver和Windows 11 viewer，以及iOS/Android/HTML5"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "作为内置功能的替代方案，spacedesk兼容性更广，可在更多设备组合上实现屏幕扩展，包括平板电脑"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "spacedesk支持有线以太网连接，可显著降低延迟，提升使用体验；适合内置功能不可用时的兜底方案"
+        }
+      ]
+    }
+  ]
+}

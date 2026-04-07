@@ -1,5 +1,184 @@
 [
   {
+    "context_analysis": "演示如何在Windows中将笔记本设为第二显示器，包含两种方法：内置无线显示功能（无需安装）和第三方spacedesk工具（通用方案）。核心价值在于零成本扩展显示空间的实用技巧。",
+    "id": "fuuYIZoqZFE",
+    "type": "youtube",
+    "title": "Use Your Laptop as a Second Monitor (No Software Needed)",
+    "author": "Kevin Stratvert",
+    "date": "2026-04-07",
+    "dateText": "Apr 7",
+    "duration": "4:55",
+    "tldr": "无需安装任何软件，利用Windows内置Wireless Display功能即可将笔记本变成第二显示器；若原生功能不支持，spacedesk可作为通用替代方案。",
+    "takeaways": [
+      "Windows内置无线显示功能（Wireless Display）可将笔记本变为第二显示器，按Win+K快捷键快速连接",
+      "需先在设置中启用Wireless Display可选功能：设置→系统→投影到这台PC→查看功能→勾选无线显示器",
+      "默认是屏幕复制模式，可在连接设置中切换为扩展模式",
+      "显示器位置可通过显示设置调整（左/右/上/下），决定鼠标移动方向",
+      "若内置功能有延迟或不支持，spacedesk.net提供跨设备通用解决方案，支持Windows/iOS/Android/HTML5"
+    ],
+    "quote": "If you use a wired ethernet connection, it'll be even smoother. — 如果使用有线以太网连接，体验会更流畅。",
+    "link": "https://www.youtube.com/watch?v=fuuYIZoqZFE",
+    "tags": [
+      "Windows Productivity",
+      "Wireless Display",
+      "Display Setup",
+      "Second Monitor",
+      "spacedesk"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "方法一：Windows内置无线显示功能",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "利用Windows 10/11内置的Wireless Display功能，无需安装第三方软件即可将笔记本设为第二显示器，零成本实现屏幕扩展或复制"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "操作流程：设置→系统→投影到这台PC→启用Wireless Display可选功能→启动无线显示应用→在主电脑按Win+K连接"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这是Windows原生能力的产品化体现，降低了多屏办公的使用门槛；可作为轻量级演示或临时办公场景的快速解决方案"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "依赖硬件支持，可能存在延迟或不兼容问题；视频中提到若遇到问题可使用spacedesk作为备选方案"
+          }
+        ]
+      },
+      {
+        "subtitle": "屏幕模式切换与显示器位置配置",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "连接后默认是复制（Duplicate）模式，按Win+K打开连接面板，可切换为扩展（Extend）模式实现真正的双屏工作流"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "扩展模式允许将应用窗口拖拽到第二屏幕，提升多任务处理效率，这是生产力场景的核心需求"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "通过显示设置可调整副屏位置（左右上下），决定鼠标在屏幕间的移动方向；可设置副屏为主显示（任务栏会出现在副屏）"
+          }
+        ]
+      },
+      {
+        "subtitle": "方法二：spacedesk通用解决方案",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "访问spacedesk.net，主电脑安装driver，副屏设备安装viewer应用；支持Windows 11/10 driver和Windows 11 viewer，以及iOS/Android/HTML5"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "作为内置功能的替代方案，spacedesk兼容性更广，可在更多设备组合上实现屏幕扩展，包括平板电脑"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "spacedesk支持有线以太网连接，可显著降低延迟，提升使用体验；适合内置功能不可用时的兜底方案"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_analysis": "面向零基础观众的CLI入门科普视频，核心价值在于解释命令行界面是什么以及为何与AI代理结合使用成为趋势。视频通过本地操作与云端API对比，阐明CLI作为简化工具的定位，并展示TechSniff、GCP",
+    "id": "X8aKh_8uC3M",
+    "type": "youtube",
+    "title": "CLI For AI Agents Explained in 6 Minutes (for beginners)",
+    "author": "corbin",
+    "date": "2026-04-06",
+    "dateText": "Apr 6",
+    "duration": "6:20",
+    "tldr": "CLI是命令行界面的缩写，本质是在终端输入命令来操作计算机。AI代理通过CLI可以在用户电脑上或云端自动执行创建文件夹、查询数据、调用API等任务，是实现代理自主行动的关键基础设施。",
+    "takeaways": [
+      "CLI（Command Line Interface）即命令行界面，自1960-70年代起就用于编程，至今仍是开发者常用工具",
+      "CLI有两种形态：在本机通过终端执行命令，或通过云端服务调用API",
+      "CLI本质是API的「美化包装器」，将复杂的多行API调用简化为单行终端命令",
+      "AI代理（如OpenClaude、Claude CoWork）通过CLI实现自主操作：可在用户电脑上创建文件夹、搜索文件，也可在云端调用数据接口",
+      "TechSniff等工具提供专门的CLI层，让AI代理能够聚合科技新闻源而不被网站屏蔽，绕过传统爬虫的Paywall和反爬机制"
+    ],
+    "quote": "CLI is a nice little wrapper to make it look beautiful. — CLI是一个漂亮的包装器，让操作看起来更美观。",
+    "link": "https://www.youtube.com/watch?v=X8aKh_8uC3M",
+    "tags": [
+      "AI Agents",
+      "CLI",
+      "Terminal Commands",
+      "API",
+      "OpenClaude",
+      "Automation"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "CLI的定义与演进",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "CLI（Command Line Interface）即命令行界面，是通过终端（Windows称命令提示符）输入文本命令来操作计算机的技术，起源于1960-70年代的编程工作，至今仍被开发者广泛使用。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "CLI是一项「存量技术」而非新发明，其价值在于被AI代理重新激活——过去需要人类手动输入命令，现在AI可以代为执行。"
+          }
+        ]
+      },
+      {
+        "subtitle": "CLI的两种使用场景",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "CLI可在两种环境下使用：1）本机（本地计算机）上执行操作如创建文件夹、搜索文件；2）云端通过API调用远程服务。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "本地示例：在终端输入「mkdir my folder」即可在桌面创建文件夹；云端示例：通过Claude API调用云服务执行任务。"
+          }
+        ]
+      },
+      {
+        "subtitle": "CLI与API的关系",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "CLI是API的「 wrapper（包装器）」——API调用需要写POST请求、设置Headers等开发者友好的代码，而CLI将其简化为单行终端命令，降低使用门槛。"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "以调用Claude生成内容为例：直接API调用需要指定content、max_tokens、model等参数；CLI版本只需在终端输入「Claude, refactor this file」即可。"
+          }
+        ]
+      },
+      {
+        "subtitle": "AI代理为何需要CLI",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI代理实现「自主行动」的关键路径是通过CLI在用户电脑或云端执行操作——创建文件、访问数据、调用服务，而不是仅停留在对话回复。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "TechSniff案例：AI代理通过其CLI层可以自动聚合全网科技新闻，包括获取推文、LinkedIn帖子、Reddit内容，绕过传统爬虫会遇到的Paywall和反爬机制。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "GCP（Google Cloud Platform）CLI示例：开发者可以让AI代理查询过去24小时的日志并报告是否有错误，实现自动化运维。"
+          }
+        ]
+      },
+      {
+        "subtitle": "如何判断工具是否支持AI代理",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "判断标准：1）该工具是否提供CLI接口？2）该工具是否提供API层且可进行身份验证（拥有API Key）？满足任一条件即可让AI代理执行相关操作。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "OzUqfN4mcrM",
     "type": "youtube",
     "title": "Salesforce CEO on Microsoft Blocking OpenAI Investment, AI Scapegoating, OpenClaw, and Regulation",
@@ -417,6 +596,118 @@
           {
             "label": "未来预测/行动项",
             "content": "不要等到晋升周期才开始建立可见性——每周都应该推进一段高管关系，在战略规划、公司全员会议等高管寻求输入的时刻主动贡献"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_analysis": "本周AI领域密集发布产品更新，OpenAI获122B融资估值852B并公布ChatGPT多项新功能（位置共享、文本附件处理、Google Drive统一、购物界面升级等），Google Gemini ",
+    "id": "GIPlnfHQcz0",
+    "type": "youtube",
+    "title": "Every New ChatGPT Feature Explained & More AI News You Can Use",
+    "author": "The AI Advantage",
+    "date": "2026-04-03",
+    "dateText": "Apr 3",
+    "duration": "17:08",
+    "tldr": "OpenAI获122B美元融资估值852B并发布ChatGPT多项新功能，包括位置共享（可查找附近咖啡馆）、文本超5K字符自动转为附件节省context window、Google Drive统一连接、购物界面优化及CarPlay语音模式。Google Gemini 3.1 Flash Live推出更快的语音交互，Suno 5.5和LIA更新音乐生成能力，Claude Code获得电脑控制能力。各厂商正竞速构建AI超级应用。",
+    "takeaways": [
+      "OpenAI完成122B美元融资，估值852B美元（约1万亿美元），为风投史上最大单轮融资，其目标是构建统一AI超级应用",
+      "ChatGPT新位置共享功能可查找附近咖啡馆等场所，已支持地图、图片、链接的富媒体展示，Gemini已有类似功能",
+      "文本超5000字符将自动转为附件而非直接填入context window，用户可点击「show in text field」保留完整上下文记忆",
+      "Google Gemini 3.1 Flash Live语音模式响应更快、支持视频共享和屏幕共享，context window更大",
+      "Suno 5.5和Google LIA更新音乐生成能力，LIA可在Gemini内直接创建3分钟音轨"
+    ],
+    "quote": "\"They don't want us to consume the context window because they have to pay for all of those tokens\" — 作者解释为何ChatGPT将长文本转为附件以节省成本",
+    "link": "https://www.youtube.com/watch?v=GIPlnfHQcz0",
+    "tags": [
+      "AI PM",
+      "LLM产品更新",
+      "ChatGPT",
+      "Gemini",
+      "Claude Code",
+      "AI超级应用"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "OpenAI融资与超级应用战略",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "OpenAI完成122B美元融资（估值852B），为史上最大风投融资，目标是将ChatGPT打造为统一AI超级应用，融合所有功能于单一聊天界面。目前ChatGPT收入约2/3来自订阅，Claude则相反主要来自API和开发者收入。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "融资额：122B美元；估值：852B（接近1万亿美元）；ChatGPT订阅收入占比约2/3；Claude API及开发者收入占比更高。"
+          }
+        ]
+      },
+      {
+        "subtitle": "ChatGPT位置共享与富媒体搜索",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "ChatGPT新增位置共享功能（设置-数据控制-位置），可查找附近咖啡馆等场所，支持地图、图片、链接的富媒体展示，区别于传统文字回复的聊天机器人形态，向AI超级应用演进。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "位置感知是AI从纯文本交互向多模态实体服务跃迁的关键能力，Gemini已有此功能，ChatGPT的跟进显示LBS（基于位置服务）正成为AI助手标配。"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "用户需在设置中手动开启位置权限，建议仅在使用App时授权以保护隐私。"
+          }
+        ]
+      },
+      {
+        "subtitle": "文本附件机制与Context Window优化",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "当文本超过5000字符时，ChatGPT自动转为附件而非直接填入context window。附件会经过summarization处理再加入上下文，可能丢失细节。用户可点击「show in text field」强制以纯文本形式加入，但会消耗更多context window tokens。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这是OpenAI的成本优化策略：用户$20订阅可无限使用，但长文本会消耗大量tokens增加服务器成本。产品设计上通过自动化处理引导用户行为平衡体验与成本。"
+          }
+        ]
+      },
+      {
+        "subtitle": "Google Gemini 3.1 Flash Live语音升级",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Gemini 3.1 Flash Live响应速度大幅提升，支持语音对话、视频共享、屏幕共享，context window更大，可被打断并快速响应。演示中可识别录制设备推断为YouTube视频录制。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "Google终于推出可对标ChatGPT高级语音模式的竞品，语音交互是AI超级应用的关键场景，两家厂商正加速该能力的产品化。"
+          }
+        ]
+      },
+      {
+        "subtitle": "Google开源模型与本地AI",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Google发布GMA 4系列开源模型，31B参数版本在基准测试中与Deep Seek 3.2和Kim K模型能力接近，可运行于高端Mac（M5 Max 128GB可跑200B参数模型）。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "本地大模型运行能力增强，高端消费级硬件已可运行接近云端质量的模型，为AI应用提供离线、私密化的新选择。"
+          }
+        ]
+      },
+      {
+        "subtitle": "音乐生成与Claude生态更新",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Suno 5.5提升个性化控制和用户自定义能力；Google LIA更新支持3分钟音轨并集成至Gemini内可直接创建音乐；Claude Code新增电脑控制能力（点击按钮），但可靠性约60%（40%概率遗忘或错误）；微软Copilot推出Council功能可同时调用多模型进行深度探索和验证。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "各厂商正通过功能整合打造AI超级应用：Google将LIA集成至Gemini，Claude强化代码执行和电脑控制能力，微软Copilot的多模型协商机制代表工作流自动化新方向。"
           }
         ]
       }
@@ -1078,6 +1369,142 @@
           {
             "label": "未来预测/行动项",
             "content": "Claude Mythos模型泄露文档显示更强大的模型即将推出，Anthropic警告新模型在网络安全方面可能超越防御能力"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_analysis": "博主分享了从手动编码转向AI辅助开发的亲身经历——用2周时间从零学习Rust重建了整个桌面应用，意识到编码不再是核心竞争力。文章核心论点是：AI消除了实现瓶颈后，曾经的\"软技能\"（系统思维、沟通、架构",
+    "id": "mz73sVy6-X8",
+    "type": "youtube",
+    "title": "I Stopped Writing Code - These 5 Skills Are All That Matter",
+    "author": "Dave Ebbelaar",
+    "date": "2026-03-27",
+    "dateText": "Mar 27",
+    "duration": "10:30",
+    "tldr": "AI消除编码瓶颈后，工程师的核心竞争力从写代码转向系统思维、全栈视角、精准沟通、代码简化能力及测试能力——这些曾经被视为\"软技能\"的能力现在决定了能否交付真正优秀的产品。",
+    "takeaways": [
+      "系统思维是AI时代的核心能力：不需要懂每行代码，但必须理解组件级别的架构、数据流向和故障模式",
+      "全栈能力成为必需：AI可以同时处理前端、数据库、后端，但需要有人理解全局来指挥协调",
+      "沟通质量直接决定代码质量：自然语言已成为新的编程语言，输入的清晰度决定输出的精确度",
+      "代码简化是专业能力的分水岭：AI容易产生代码膨胀，需要主动删减和重构才能保持代码库健康",
+      "测试是AI时代不可妥协的底线：AI倾向于过度乐观并生成mock测试，必须由人来确保真正的测试覆盖和边界条件"
+    ],
+    "quote": "We've just created a higher abstraction layer. — 我们只是创造了一个更高的抽象层。",
+    "link": "https://www.youtube.com/watch?v=mz73sVy6-X8",
+    "tags": [
+      "AI Engineer Skills",
+      "System Thinking",
+      "Full Stack Development",
+      "Prompt Engineering",
+      "Code Quality",
+      "Testing Strategy"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "范式转换：从编码到系统思维",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "软件实现的瓶颈已被消除，30年的编程学习路径（教程、训练营、语言 mastery）不再是核心竞争因素，取而代之的是架构设计、系统思维等原本属于高级工程师的能力"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "作者从未写过Rust，用2周时间通过AI重建了整个桌面应用，运行效果优于旧版本，唯一手动干预引入了bug"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI产品经理需要理解技术架构层面的能力要求正在发生根本性变化，招聘和团队建设的标准需要重新定义"
+          }
+        ]
+      },
+      {
+        "subtitle": "技能一：用构建块思维替代代码行思维",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "不需要理解代码的行级别细节，但必须理解组件级别：系统有哪些构建块、如何连接、数据如何在块之间流动、单块故障时会发生什么"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Rust项目成功的关键不是懂Rust语法，而是理解数据从后端到前端的架构、需要哪些组件、如何将它们连接"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "建议阅读《Designing Data-Intensive Applications》学习系统设计思维，在任何AI项目开始前先研究目标应用类型的架构模式和最佳实践"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "使用AI时不要直接让AI\"建一个应用\"，而是先描述系统应该长什么样、组件关系如何、数据流如何设计"
+          }
+        ]
+      },
+      {
+        "subtitle": "技能二：成为全栈工程师",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI可以处理任何语言和框架，超级专精反而成为瓶颈。全栈能力意味着能理解全局并指导AI在各个层面协调工作"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "Practical challenge：用一周时间用从未用过的语言从零构建并部署一个端到端解决方案，体验语言壁垒如何被消除，系统理解才是真正的壁垒"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "不需要成为每个领域的专家，但需要足够熟练地指挥AI贯穿整个技术栈"
+          }
+        ]
+      },
+      {
+        "subtitle": "技能三：沟通即代码",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "我们过去写代码给计算机指令，现在用自然语言给AI指令再生成代码——自然语言已成为新的编程语言，输出质量与输入清晰度成正比"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "作者推荐使用语音转文字应用来写prompt，因为说话时必须大声组织思维，能显著提升prompt质量和速度"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "模糊指令→模糊代码，精确、结构化描述→高质量输出；同一模型完全不同结果，差异在于沟通方式"
+          }
+        ]
+      },
+      {
+        "subtitle": "技能四：计划大格局，执行狠简化",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI倾向于输出大量token、产生代码膨胀（AI slop），这反而会导致花在调试上的时间超过AI带来的效率收益"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "专业与\"纯编码\"的区别在于维护简洁干净代码库的能力：建立流程循环（计划→构建→测试→简化），其中简化是大多数人跳过的关键步骤"
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "简化阶段要不断追问：哪些代码行可以删除仍能通过测试？命名惯例、代码结构、文件结构是否合理？最终目标是找到最核心的构建块，移除任何一项就导致系统不工作"
+          }
+        ]
+      },
+      {
+        "subtitle": "技能五：测试、测试、测试",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "这是AI时代不可妥协的底线。AI往往过度乐观，会写mock测试来绕过真正需要测试的内容"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "需要熟悉所用语言和项目的测试框架，理解不同类型测试的区别，主动思考\"什么可能真正出错\"、\"有哪些边界条件需要覆盖\""
+          },
+          {
+            "label": "技术逻辑拆解",
+            "content": "可以在项目中添加skill让AI创建更好的测试，而非盲目信任AI生成的测试；将测试集成到CI/CD流程中实现自动化"
           }
         ]
       }

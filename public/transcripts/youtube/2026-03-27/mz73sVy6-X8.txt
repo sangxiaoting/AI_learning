@@ -1,0 +1,324 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=mz73sVy6-X8
+
+Kind: captions
+Language: en
+So, me and my team have been working on
+this software product for about 6 months
+when we came to the realization that we
+needed a full rebuild, a new code base,
+a new architecture, and we decided to
+build out the core logic in a new
+programming language, namely Rust. Now,
+I have never written a single line of
+Rust in my life before. I'm the Python
+guy. That's what I do. That's what I've
+been doing for 10 years. Rust is a
+completely different world, and yet I
+personally rebuilt the entire desktop
+application in Rust in about 2 weeks. It
+works. It runs way better than the
+previous version. And the thing is, I
+didn't write a single line of code
+myself. AI wrote all of it. And you want
+to know the funny or even ironic part to
+this? The only time that I tried to
+manually interfere with the code base, I
+introduced bugs, like you always do when
+you write code by hand. And that was the
+moment I realized, "Okay, I am genuinely
+past the point of writing code by hand
+because it is just no longer the most
+effective way to work for me." And if
+you're being honest with yourself, you
+are probably experiencing something
+similar, right? The 30-minute code
+tutorial that you used to watch now is a
+single prompt. The document- ation or
+guides that you would go through, you
+would now plug them into Cloud Code with
+the URL, and it would just do the work
+for you. And I think a lot of developers
+feel the same way, but don't yet fully
+understand kind of like what to do with
+this. So, in this video, I want to share
+the five skills that I think actually
+matter right now in the age of AI. And
+this video is not going to be about how
+to use Cloud Code or how to write better
+prompts, but the deeper skills that will
+keep you competitive as an engineer when
+AI handles the implementation. So, for
+over three decades, the implementation
+of software was always the bottleneck,
+turning ideas into functioning code.
+That's why coding tutorials exist.
+That's why you followed those boot
+camps. That's why you spend years
+mastering that language or that
+framework because building was the hard
+part. That bottleneck is now gone. And
+when you remove that bottleneck,
+something interesting happens because
+all the stuff that used to be considered
+soft skills or even responsibilities
+just for senior engineers, things like
+effective communication, critical
+thinking, system design, architecture,
+those suddenly become the actual hard
+skills. The things that determine
+whether you actually ship something
+great or whether it falls apart. So,
+here are the five skills that I think
+matter most right now. All right, so the
+first one is to think in building blocks
+instead of lines of code. Now, what do I
+mean with this? Well, you absolutely
+don't need to understand your code base
+at the line level anymore, but you still
+need to understand it at the component
+level. What are the building blocks of
+your system? How do they connect? How is
+data flowing from one block to another
+one? And what happens if one of the
+blocks fails? This is systems thinking,
+is actually what made the Rust project
+that I created possible. I didn't need
+to know the Rust syntax. I needed to
+understand the architecture of how data
+is moving from the back end to the front
+end, what components I need, and how to
+wire them together. That understanding
+is what I gave to AI, and then AI turned
+it into a working code base. So, when I
+say that I don't write code anymore, I
+definitely don't mean that I am purely
+five coding. I am very much involved in
+the process, constantly reviewing it
+from an architectural and a component
+level because I know what good looks
+like at the system level. So, if you
+want to get better at this, I recommend
+to read the book Designing
+Data-Intensive Applications by Martin
+Kleppmann. It's probably the most
+recommended system design book out there
+for a reason. And this book doesn't
+teach you how to write code, but it will
+teach you how to think about designing
+systems. Things like data flows, failure
+modes, trade-offs. That is the thinking
+that you need. And now, practically,
+before jumping into any project with AI,
+make sure to do some research on
+architectural patterns and best
+practices for the type of application
+that you're building, as well as the
+languages that you are using. And then,
+based off that, don't just tell the AI
+to build you an app, but tell it what
+the actual system should look like.
+Number two is go full stack. Seriously,
+you need to become a full stack
+engineer. Now, while this may sound
+controversial, think about it. If AI can
+work on any language, any framework,
+being a hyper-specialist that can only
+do one thing actually becomes a
+liability. If you can only do front end
+or you can only set up data pipelines or
+only the back end, you become the
+bottleneck system where AI can work
+24/7. Think about it this way. If you
+need to wait for a front-end developer
+to deliver everything before the project
+can move forward, that's a problem
+because AI doesn't need to wait. It can
+do front end, databases, back end, all
+at the same time with multiple agents in
+parallel, but it needs someone to
+understand the full picture in order to
+be able to direct and govern it. And
+that someone needs to be you, or someone
+else will step in. And now, my Rust
+project was the perfect example of this.
+I'd never written a single line of Rust
+before, but I knew what the database
+looked like. I knew what type of back
+end we're using, and because of this, I
+could connect everything together and
+guide the AI through it. And now, this
+doesn't mean that you need to be an
+expert at everything, right? That's also
+impossible, but you need to be
+comfortable enough to direct AI across
+the full stack. And you can only do that
+if you understand how all of the pieces
+and building blocks fit together, which
+brings us back to point one, right?
+Understand the building blocks. And
+here's a practical recommendation that I
+actually challenge you to. Pick a
+language which you've never used before
+and give yourself a week to build and
+deploy an end-to-end solution, not just
+a tutorial, but like an actual project
+that solves a particular problem either
+in your work or life right now. End to
+end, local development, database, deploy
+to the server, CI/CD, make it work. Do
+this and you'll quickly realize that the
+language barrier is now completely gone.
+What matters is the system
+understanding. Okay, and then number
+three, the one that most people still
+underestimate, and that is your
+communication now is the code. Think
+about it. We used to write code to give
+the computer instructions. Now, we
+actually talk to give a model
+instructions to write the code that now
+instructs the computer. We've just
+created a higher abstraction layer. So,
+when you are directing AI, natural
+language is the programming language.
+And the quality of your code output is
+directly proportional to the clarity of
+your input. If you give fake
+instructions, you get fake code. If you
+give precise, well-structured
+descriptions of what you want and why,
+your output will be significantly
+better. Same model with completely
+different results. The difference is how
+you communicate. And now, here's
+something practical that really changed
+the way I work. So, I'm a really big fan
+of speech-to-text applications where you
+can press a single button, start talking
+to it, and the text will appear on your
+screen. Now, I've also found that when I
+speak instead of type, I'm able to
+structure my thoughts more clearly
+because I have to actually say it out
+loud, and therefore my prompts and my
+context will just get way better. And
+it's also a lot faster. And now, this is
+something that just takes practice. So,
+if you're not already using a
+speech-to-text app right now, go
+download one right now and start talking
+to your AI instead of typing. All right,
+and that brings us to point number four,
+and that is plan big and then ruthlessly
+simplify. And this is really the quality
+discipline that, in my opinion,
+separates the actual professionals from
+the five coders. And that is how good
+you are at maintaining a simple and
+clean code base. AI has a tendency to
+output a lot of tokens, to bloat, to
+create AI slop. And this is where you
+end up having to spend more time
+debugging the code than the efficiency
+gains you actually got by using AI. And
+this is, of course, a huge problem. And
+this happens because most people don't
+really have a process or a loop. They
+just produce, they accept, and they move
+on. So, here's the loop that I follow. I
+always start big picture, then I create
+a plan, then I build it, then I test it,
+and then I simplify. I ruthlessly
+simplify. And this is the step that most
+people skip, and this is actually where
+I am spending most of my time. I'm
+actually checking what lines of code,
+what components can we remove while
+still passing the tests? I'm asking AI
+about best practices. I let it do
+research. I question naming conventions,
+code structure, and even file structures
+and names. Not only will you get a
+smaller and cleaner code base, which is
+easier to maintain, you'll also, through
+that process, will start to understand
+your code base from first principles,
+meaning you get to the core foundational
+building blocks where if you remove
+something, it doesn't work anymore.
+That's where I like my code base is to
+be. Now, to give you a practical
+exercise to get better at this, pick a
+recent project that you've worked on and
+try some of the prompts that I just
+shared. Ask it to refactor, to simplify.
+How can we reduce lines of code?
+Question the project structure and the
+naming conventions, and see if you can
+break it down to the absolute most
+fundamental building blocks that you
+understand while getting rid of all the
+bloat that's in there, probably
+introduced by AI. Okay, and then number
+five is testing, testing, testing. This
+is super important. This is a
+non-negotiable. And here's the tricky
+thing. If you ask AI to write tests for
+you, you got to be careful because AI is
+often overly optimistic. It will write
+some tests. It will say, "Hey, this is
+good. All pass." And you'll find that it
+end up like pretty much mocking
+everything that it actually needs to
+test. So, make sure that for the
+projects and the languages that you are
+working with, that you get yourself
+familiar with the testing frameworks
+that are available. Spend some time, if
+you are not already familiar with them,
+to understand them. How do they work?
+How should you structure tests? What are
+the differences between the different
+tests that you need to run? And then,
+what you can do is you can look online
+to see if there is a skill for that that
+you can put into your project that now
+allows you to create better tests
+without AI kind of like blindly trusting
+and creating these mock tests. So,
+really critically think about this. What
+could really go wrong here? What are the
+edge cases that you want to have in
+place? So, a simple exercise you can do
+today right now to get better at this.
+Again, pick a project you're working on
+or recently worked on, and see what kind
+of tests you have in place. See how many
+you've got. Try to understand it, add
+more to it, and understand how you can
+run that, potentially even
+automatically, in your CI/CD pipeline.
+All right, so those are the five skills
+that, in my opinion, are super critical
+right now in order to stay relevant as
+an engineer. You need to understand the
+components and the building blocks
+instead of the line level code and
+syntax. You need to go full stack. You
+need to know how to communicate
+effectively. You must plan big and then
+constantly simplify and you need to know
+how to systematically test your code
+bases. All right, and that's it for this
+video. So, I hope you found it helpful.
+If so, please leave a like and consider
+subscribing. And then, what I recommend
+next is actually to check out this
+video. So, one of the other big topics
+right now is building full AI operating
+systems, right? For yourself, for your
+company, for the clients that you're
+working for. And in this video, I share
+exactly how I'm building mine.
