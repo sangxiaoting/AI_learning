@@ -1,0 +1,2612 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=myP8UjAM1pk
+
+Kind: captions
+Language: en
+Today, I'm speaking with Michael Nielsen. You have&nbsp;
+done many things. You're one of the pioneers of&nbsp;&nbsp;
+quantum computing, wrote the main textbook&nbsp;
+in the field of the open science movement.&nbsp;
+You wrote a book about deep learning&nbsp;
+that Chris Olah and Greg Brockman&nbsp;&nbsp;
+credit with getting them into the field.
+More recently, you're a research fellow&nbsp;&nbsp;
+at the Astera Institute and writing a book&nbsp;
+about religion, science, and technology.&nbsp;
+I'm going to ask you about none of those things.
+The conversation I want to have today is,&nbsp;&nbsp;
+how do we recognize scientific progress?
+It's especially relevant for AI because&nbsp;&nbsp;
+people are trying to close the RL&nbsp;
+verification loop on scientific discovery.&nbsp;
+What does it mean to close that loop?
+But in preparing for this interview,&nbsp;&nbsp;
+I've realized that it's a more&nbsp;
+mysterious and elusive force,&nbsp;&nbsp;
+even in the history of human&nbsp;
+science, than I understood.&nbsp;
+I think a good place to start will be&nbsp;
+Michelson-Morley and how special relativity&nbsp;&nbsp;
+is discovered, if it's different from the&nbsp;
+story that you get off of YouTube videos.&nbsp;
+I will prompt you that way,&nbsp;
+and then we'll go in there.&nbsp;
+Michelson-Morley is the famous result often&nbsp;
+presented as this experiment that was done in&nbsp;&nbsp;
+the 1880s that helped Einstein come up with the&nbsp;
+special theory of relativity a little bit later,&nbsp;&nbsp;
+changing the way we think about space and time&nbsp;
+and our fundamental conception of those things.&nbsp;
+And there's a big gap, I think, between the&nbsp;
+way Michelson and Morley and other people&nbsp;&nbsp;
+at the time thought about the experiment and&nbsp;
+certainly the way in which Einstein thought&nbsp;&nbsp;
+or did not think about the experiment.
+In actual fact, he stated later in his&nbsp;&nbsp;
+life he wasn't even sure whether he&nbsp;
+was aware of the paper at the time.&nbsp;
+There's a lot of evidence that he probably was&nbsp;
+aware of the paper at the time, but it actually&nbsp;&nbsp;
+wasn't dispositive for his thinking at all.
+Something else completely was going on.&nbsp;
+What Michelson and Morley thought they&nbsp;
+were doing was testing different theories&nbsp;&nbsp;
+of what was called the ether.
+If you go back to the 1600s,&nbsp;&nbsp;
+Robert Boyle introduced the idea of the ether.
+We know that sound is vibrations in the air.&nbsp;
+Boyle and other people got&nbsp;
+interested in the question of&nbsp;&nbsp;
+whether light is vibrations in something,&nbsp;
+and they couldn't figure out what it was.&nbsp;
+Boyle did an experiment where he&nbsp;
+tested whether you could propagate&nbsp;&nbsp;
+light through a vacuum. He found that&nbsp;
+you could. You couldn't do it with sound.&nbsp;
+He introduced this idea of the ether,&nbsp;
+and for the next two hundred or so years,&nbsp;&nbsp;
+people had all these conversations about&nbsp;
+what the ether was and what its nature was.&nbsp;
+The Michelson and Morley experiment was really an&nbsp;
+experiment to test different theories of the ether&nbsp;&nbsp;
+against one another, in particular to find out&nbsp;
+whether or not there was a so-called ether wind.&nbsp;
+The idea was that the Earth is maybe&nbsp;
+passing through this ether wind.&nbsp;
+And if it is passing through the ether&nbsp;
+wind and you shoot a light beam parallel&nbsp;&nbsp;
+to the direction the ether wind is going&nbsp;
+in, it'll get accelerated a little bit.&nbsp;
+If it's being passed back in the opposite&nbsp;
+direction, it'll get slowed down a little bit,&nbsp;&nbsp;
+and you should be able to see this in&nbsp;
+the results of interference experiments.&nbsp;
+What they found, much to their surprise,&nbsp;
+was that in fact there was no ether wind.&nbsp;
+That ruled out some theories of the&nbsp;
+ether, but not all, and Michelson&nbsp;&nbsp;
+certainly continued to believe in the ether.
+This is what was a shocking part of reading&nbsp;&nbsp;
+this story from the biography of Einstein that&nbsp;
+you recommended by... what was his first name?&nbsp;
+Abraham Pais.
+Abraham Pais.&nbsp;&nbsp;
+Subtle is the Lord. Also from Imre Lakatos, The&nbsp;
+Methodology of Scientific Research Programmes.&nbsp;
+The way it's told is that Michelson-Morley&nbsp;
+proved that the ether did not exist.&nbsp;
+Therefore, it created a crisis in physics&nbsp;
+that Einstein solved with special relativity.&nbsp;
+What you're pointing out is he&nbsp;
+actually was trying to distinguish&nbsp;&nbsp;
+between many different theories of ether.
+If you're in space or if you're on Earth,&nbsp;&nbsp;
+it's the same direction of ether, or maybe the&nbsp;
+ether wind is being carried around by the Earth,&nbsp;&nbsp;
+and so you can't really experience it on Earth.
+But if you go to a high enough altitude,&nbsp;&nbsp;
+you might be able to experience it.
+In fact, Michelson's experiments,&nbsp;&nbsp;
+the famous one is 1887, but he conducted&nbsp;
+these experiments for basically two decades.&nbsp;
+For longer than that. He conducted&nbsp;
+the first one in 1881, I think,&nbsp;&nbsp;
+but he continued to believe until he died.
+He died, I think it was 1929 or so. It was the&nbsp;&nbsp;
+late twenties. He was still doing experiments in&nbsp;
+the 1920s about whether or not the ether existed.&nbsp;
+So he continued to believe in&nbsp;
+the ether to the end of his life.&nbsp;
+I think the last public statement he&nbsp;
+made was a year or two before he died,&nbsp;&nbsp;
+and he basically still believed it at that point.
+In fact, there was another physicist, Miller,&nbsp;&nbsp;
+who kept doing these experiments in the 1920s.
+He thought that if he went to a high enough&nbsp;&nbsp;
+altitude, Mount Wilson in California…&nbsp;
+"Oh, I'm high enough that the ether&nbsp;&nbsp;
+winds are not being dragged by the Earth.
+And I've measured the effect of the ether."&nbsp;
+Einstein hears about this and he says, and&nbsp;
+this is where you get the famous quote,&nbsp;&nbsp;
+"Subtle is the Lord, but malicious He is not."
+Anyways, I think the reason the story is&nbsp;&nbsp;
+interesting is for many different reasons.
+One of the ways in which the real history of&nbsp;&nbsp;
+science is different from this idea you get of the&nbsp;
+scientific method is that you really can't apply&nbsp;&nbsp;
+falsification as easily as you might think.
+It's not clear what is being falsified.&nbsp;
+Is it just another version of the theory&nbsp;
+of the ether that's being falsified?&nbsp;
+Certainly you can't induce the theory&nbsp;
+of special relativity from the fact&nbsp;&nbsp;
+that one version of the ether seems to&nbsp;
+be disconfirmed by these experiments.&nbsp;
+It certainly doesn't show that ideas about&nbsp;
+falsification are wrong or falsified,&nbsp;&nbsp;
+but it does show that the most naive ideas… Things&nbsp;
+are often much more complicated than you think.&nbsp;
+Michelson did this experiment in 1881.
+He was a very young man, and then other people,&nbsp;&nbsp;
+I think Rayleigh was one of them, pointed out that&nbsp;
+there were some problems with the way he did it,&nbsp;&nbsp;
+so they had to redo it in 1887.
+At that point, a lot of the leading&nbsp;&nbsp;
+physicists of the day basically accepted&nbsp;
+this result, that there was no ether wind.&nbsp;
+But what to do about this?
+Sure, maybe you falsified&nbsp;&nbsp;
+some theories of the ether.
+There are others that you&nbsp;&nbsp;
+haven't falsified at all at this point,&nbsp;
+and people set to work on developing those.&nbsp;
+It is funny, people will phrase it as&nbsp;
+showing that the ether didn't exist.&nbsp;
+Even just the word "the" there is a misnomer.
+You actually had a ton of different theories&nbsp;&nbsp;
+and a couple of leading contenders.
+So yes, there's some version of&nbsp;&nbsp;
+falsification going on, but how you respond&nbsp;
+to this new experiment is very complicated.&nbsp;
+Certainly the leading physicists of the day&nbsp;
+responded by saying, "Okay, this gives us a&nbsp;&nbsp;
+lot of information about what the ether must be,&nbsp;
+but it doesn't tell us that there is no ether."&nbsp;
+In fact, Lorentz at the end of&nbsp;
+the 19th century, before Einstein,&nbsp;&nbsp;
+figures out the math of how you convert from&nbsp;
+one reference frame to another reference frame,&nbsp;&nbsp;
+and comes up with the Lorentz transformations,&nbsp;
+which is the basis of special relativity.&nbsp;
+But his interpretation is that you are&nbsp;
+converting from the ether reference&nbsp;&nbsp;
+frame to these non-privileged other reference&nbsp;
+frames if you're moving relative to the ether.&nbsp;
+His interpretation of length contraction and time&nbsp;
+dilation is that this is the effect of moving&nbsp;&nbsp;
+through the ether, and you have this pressure.&nbsp;
+This pressure is warping clocks. It's warping&nbsp;&nbsp;
+measures of length. The interesting thing here&nbsp;
+is that experimentally you cannot distinguish&nbsp;&nbsp;
+Lorentz's interpretation from special relativity.
+I think that's a strong statement.&nbsp;
+Lorentz introduces this quantity called&nbsp;
+local time, which he regards as...&nbsp;
+My understanding is he's not trying to&nbsp;
+give a physical interpretation of this,&nbsp;&nbsp;
+but it's what Einstein would later just recognize&nbsp;
+as time in another inertial reference frame.&nbsp;
+He's not trying to attribute&nbsp;
+much physical meaning to it.&nbsp;
+I think Poincaré gets much closer&nbsp;
+later on to realizing that this&nbsp;&nbsp;
+is the time that's registered by clocks.
+About forty-odd years later, people start&nbsp;&nbsp;
+doing these muon experiments where they see&nbsp;
+cosmic rays hit the top of the atmosphere.&nbsp;
+They produce a shower of muons, and you can look&nbsp;
+to see at different heights in the atmosphere how&nbsp;&nbsp;
+many of those muons remain.
+They decay over time,&nbsp;&nbsp;
+and a very strange thing happens, which&nbsp;
+is that they're decaying way too slow.&nbsp;
+You expect they shouldn't be able to last&nbsp;
+the whole way through the atmosphere at all.&nbsp;
+Their decay rate is too quick, if&nbsp;
+you were in a classical theory.&nbsp;
+But if in fact their time really&nbsp;
+has slowed down, it's okay.&nbsp;
+In fact, the measured decay rates in&nbsp;
+1940—and there have since been more&nbsp;&nbsp;
+accurate experiments done—match exactly&nbsp;
+what you expect from special relativity.&nbsp;
+That's the kind of thing where if Lorentz had&nbsp;
+been alive—he'd been dead ten or so years at that&nbsp;&nbsp;
+point—it seems quite likely that he would have&nbsp;
+tried to save his theory by patching it up yet&nbsp;&nbsp;
+again, but it would have been a massive setback.
+It starts to just look like time—this&nbsp;&nbsp;
+thing that Lorentz introduced as&nbsp;
+a mathematical convenience—that's&nbsp;&nbsp;
+actually what time is, for the muons at least.
+Then there's a whole bunch of other experiments&nbsp;&nbsp;
+that show this very similar phenomenon.
+When was that experiment done?&nbsp;
+That was, I think, 1940. It might&nbsp;
+have been published in 1941.&nbsp;
+Maybe to rephrase and change my claim: it's&nbsp;
+not that you could not have distinguished them,&nbsp;&nbsp;
+but the scientific community adopted what&nbsp;
+we in retrospect consider the more correct&nbsp;&nbsp;
+interpretation before it was actually&nbsp;
+experimentally shown to be preferred.&nbsp;
+So there's clearly some process that human science&nbsp;
+does which can distinguish different theories.&nbsp;
+Can I just interrupt? You used the word process,&nbsp;
+and it's interesting to think about that term.&nbsp;
+Process carries connotations&nbsp;
+of something set in advance.&nbsp;
+It's much more complicated in practice.
+You have people like Lorentz, who Einstein&nbsp;&nbsp;
+absolutely and utterly admired, and Poincaré,&nbsp;
+one of the greatest scientists who ever lived,&nbsp;&nbsp;
+and Michelson, another truly outstanding&nbsp;
+scientist, who never reconciled themselves.&nbsp;
+It's not as though there's some standard procedure&nbsp;
+that we're all using to reconcile these things.&nbsp;
+Great scientists can remain wrong for a very&nbsp;
+long time after the scientific community has&nbsp;&nbsp;
+broadly changed its opinion.
+But there's no centralized&nbsp;&nbsp;
+authority or centralized method.
+That is the interesting thing. There's&nbsp;&nbsp;
+progress even though it is hard to articulate the&nbsp;
+process by which it happens, the heuristics that&nbsp;&nbsp;
+are used. You mentioned Poincaré. Lorentz has&nbsp;
+the math right, but the interpretation wrong.&nbsp;
+It seems like Poincaré had the opposite, where he&nbsp;
+understood that it's hard to define simultaneity&nbsp;&nbsp;
+because it requires a circular definition with&nbsp;
+time, or velocity of something that might arrive&nbsp;&nbsp;
+at a midpoint together, but velocity is defined in&nbsp;
+terms of time. I find this interesting. There are&nbsp;&nbsp;
+a couple of other examples we could call on.
+There is this phenomenon in the history of&nbsp;&nbsp;
+science where somebody asks the right&nbsp;
+question, but then they don't clinch it.&nbsp;
+I'm curious what you think&nbsp;
+is happening in those cases.&nbsp;
+You actually do want to go case&nbsp;
+by case and try to understand.&nbsp;
+It's not necessarily clear that they're&nbsp;
+doing the same thing wrong in all of the&nbsp;&nbsp;
+cases. The Poincaré case is amazing. He seems&nbsp;
+to have understood the principle of relativity,&nbsp;&nbsp;
+the idea that the laws of physics are the&nbsp;
+same in all inertial reference frames.&nbsp;
+He seems to have understood&nbsp;
+that the speed of light is&nbsp;&nbsp;
+the same in all inertial reference frames.
+He doesn't phrase it quite that way, but it is&nbsp;&nbsp;
+my understanding, though I don't speak French.
+These are basically the ideas that Einstein&nbsp;&nbsp;
+uses to deduce special relativity.
+But then he also has this additional&nbsp;&nbsp;
+misunderstanding where he thinks that length&nbsp;
+contraction is a dynamical effect, that somehow&nbsp;&nbsp;
+particles are being pushed together by some&nbsp;
+external force, something is going on dynamically.&nbsp;
+He doesn't understand that it's purely kinematics.
+That actually space and time are different from&nbsp;&nbsp;
+what we thought, and you need to&nbsp;
+fundamentally rethink those things.&nbsp;
+It's almost like he knew too much.
+He had almost too grand a vision in mind.&nbsp;
+Einstein subtracts from that and says, "No.
+Space and time are just different than what we&nbsp;&nbsp;
+thought, and here's the correct picture."
+There's a paper in, I think it's 1909,&nbsp;&nbsp;
+where Poincaré still has this dynamical picture&nbsp;
+of what's going on with the length contraction.&nbsp;&nbsp;
+This is just not necessary. This is a mistake&nbsp;
+from the modern point of view. Why is he doing&nbsp;&nbsp;
+this? Why is he clinging onto this idea? I&nbsp;
+don't know. I've obviously never met the man.&nbsp;
+It would be fascinating to be able to&nbsp;
+talk it over and try and understand.&nbsp;
+His expertise seems to be getting in the way.
+He knows so much, he understands so much,&nbsp;&nbsp;
+and then he's not able to let go of these things.
+A really interesting fact is that a few years&nbsp;&nbsp;
+prior, in the 1890s, Einstein's a teenager&nbsp;
+and he believes in the ether too. He knows&nbsp;&nbsp;
+about this stuff. But he's not quite&nbsp;
+as attached as these older people were.&nbsp;
+Maybe they were a little bit prisoners of&nbsp;
+their own expertise. That's my guess. Some&nbsp;&nbsp;
+historians of science would certainly disagree.
+Then there's the obvious stories where Einstein&nbsp;&nbsp;
+himself later on is said to have not latched onto&nbsp;
+the correct interpretations of quantum mechanics&nbsp;&nbsp;
+or cosmology because of his own attachments.
+Yeah.&nbsp;
+Here’s the bigger question I have.
+The muon example is a great example of&nbsp;&nbsp;
+these long verification loops and how progress&nbsp;
+seems to happen in the scientific community&nbsp;&nbsp;
+faster than these verification loops imply.
+Maybe the clearest example is Aristarchus&nbsp;&nbsp;
+in the second century BC comes up&nbsp;
+with the idea of heliocentrism.&nbsp;
+The ancient Athenians dismiss it on the&nbsp;
+grounds that we should see as the Earth&nbsp;&nbsp;
+is moving around the Sun, if really the&nbsp;
+Sun is the center of the solar system,&nbsp;&nbsp;
+the stars move relative to the Earth.
+The only reason that would not be the&nbsp;&nbsp;
+case is the stars are so far away&nbsp;
+that you would not observe this.&nbsp;
+And it's only in 1838 that stellar&nbsp;
+parallax was actually measured.&nbsp;
+And so, we didn't need to wait&nbsp;
+until 1838 to have heliocentrism.&nbsp;
+We didn't need to wait for&nbsp;
+the experimental validation to&nbsp;&nbsp;
+understand that Copernicus is better in some way.
+In fact, when Copernicus first came up&nbsp;&nbsp;
+with his theories, it's well known that the&nbsp;
+Ptolemaic model was more accurate because it&nbsp;&nbsp;
+had centuries of adding on these epicycles.
+What's maybe less well appreciated is that it&nbsp;&nbsp;
+was also in some sense simpler.
+Because Copernicus actually&nbsp;&nbsp;
+had to add extra epicycles.
+It had more epicycles than the&nbsp;&nbsp;
+Ptolemaic model because he had this bias that the&nbsp;
+Earth should go in a perfect circle in equal time.&nbsp;
+Anyway, I think this is an interesting story&nbsp;
+because it's not a more accurate theory. It's&nbsp;&nbsp;
+not a simpler theory. So how&nbsp;
+could you have known ex ante&nbsp;&nbsp;
+that Copernicus was correct and Ptolemy was not?
+Good question. I don't entirely know the answer.&nbsp;
+I can give you a partial answer that I, centuries&nbsp;
+in the future, start to find very compelling.&nbsp;
+I'm sure it's part of the historic story at least.
+One of the big shocks for Newton,&nbsp;&nbsp;
+he did understand Kepler's laws of motion&nbsp;
+eventually, so you're able to explain the&nbsp;&nbsp;
+motions of the planets in the sky.
+But he also, out of the same theory,&nbsp;&nbsp;
+his theory of gravitation, was&nbsp;
+able to explain terrestrial motion.&nbsp;
+He's able to explain why objects move in&nbsp;
+parabolas on the Earth, and he's able to explain&nbsp;&nbsp;
+the tides in terms of the moon and the sun's&nbsp;
+gravitational effect on water on the Earth.&nbsp;
+You have what seem like three very different&nbsp;
+disconnected phenomena all being explained by&nbsp;&nbsp;
+this one set of ideas.
+That starts to feel&nbsp;&nbsp;
+very compelling, at least to me.
+I think most people find that very&nbsp;&nbsp;
+satisfying once they eventually realize it.
+Have you read the Keynes biography of Newton?&nbsp;
+He wrote an entire biography?
+No, the essay.&nbsp;
+Sure. I love that. This description of him&nbsp;
+as the last of the magicians is wonderful.&nbsp;
+In fact, I think it's maybe worth superimposing.
+Or you should read out that one&nbsp;&nbsp;
+passage of the thing.
+Alright. It's from a talk&nbsp;&nbsp;
+that he gave at Cambridge not long before he died.
+He'd acquired Newton's papers somehow and gave a&nbsp;&nbsp;
+lecture twice about this, or his brother Jeffrey&nbsp;
+gave it the other time because he was too ill.&nbsp;
+There's this wonderful,&nbsp;
+wonderful quote in the middle.&nbsp;
+The whole thing is really interesting,&nbsp;
+but I love this particular quote:&nbsp;&nbsp;
+"Newton was not the first of the age of reason.
+He was the last of the magicians, the last&nbsp;&nbsp;
+great mind which looked out on the visible and&nbsp;
+intellectual world with the same eyes as those&nbsp;&nbsp;
+who began to build our intellectual inheritance&nbsp;
+rather less than ten thousand years ago."&nbsp;
+This idea people have that Newton was the&nbsp;
+first modern scientist is somehow wrong.&nbsp;
+There's some truth to it, but he really&nbsp;
+had this very different way of looking&nbsp;&nbsp;
+at the world that was part superstitious&nbsp;
+and part modern. It was a funny hybrid.&nbsp;&nbsp;
+He's a transitional figure in some sense.
+That phrase, "the last of the magicians,"&nbsp;&nbsp;
+really points at something.
+The thing I'm very curious&nbsp;&nbsp;
+about with Newton is whether it was&nbsp;
+the same program, the same heuristics,&nbsp;&nbsp;
+the same biases that he applied to his alchemical&nbsp;
+work as he did to his understanding of astronomy.&nbsp;
+This is from the Keynes essay: "There&nbsp;
+was extreme method in his madness.&nbsp;
+All his unpublished works on esoteric&nbsp;
+and theological matters are marked by&nbsp;&nbsp;
+careful learning, accurate method,&nbsp;
+and extreme sobriety of statement.&nbsp;
+They are just as sane as the Principia if their&nbsp;
+whole matter and purpose were not magical.&nbsp;
+They were nearly all composed during the&nbsp;
+same 25 years of his mathematical studies."&nbsp;
+Clearly, there was some aesthetic that motivated&nbsp;
+people like Einstein to reject earlier ways of&nbsp;&nbsp;
+thinking and say, "No, the other is wrong, and&nbsp;
+there's a better way to think about things."&nbsp;
+The same is true with Newton.
+The question I have is whether&nbsp;&nbsp;
+similar heuristics toward parsimony,&nbsp;
+aesthetics, and so on, would be equally&nbsp;&nbsp;
+useful across time and across disciplines,&nbsp;
+or whether you need different heuristics.&nbsp;
+The reason that's relevant is even if we&nbsp;
+can't build a verification loop for science,&nbsp;&nbsp;
+maybe if the taste tests point in the same&nbsp;
+direction, you can at least encode that bias&nbsp;&nbsp;
+into the AIs. That would maybe be enough.
+The point is that where we always get&nbsp;&nbsp;
+bottlenecked is where the previous&nbsp;
+processes and heuristics don't apply.&nbsp;
+That's almost definitionally&nbsp;
+what causes the bottlenecks.&nbsp;
+Because people are smart, they know what&nbsp;
+has worked before. They study it. They apply&nbsp;&nbsp;
+the same kinds of things, so they don't&nbsp;
+get stuck in the same places as before.&nbsp;
+They keep getting bottlenecked&nbsp;
+in different places.&nbsp;
+I'm overgeneralizing a bit,&nbsp;
+but I think it's right.&nbsp;
+If you're attempting to reduce science to&nbsp;
+a process, you're attempting to reduce it&nbsp;&nbsp;
+to something where there is just a&nbsp;
+method which you can apply, and you&nbsp;&nbsp;
+turn the crank and out pops insight.
+You can do a certain amount of that,&nbsp;&nbsp;
+but you're going to get bottlenecked at the&nbsp;
+places where your existing method doesn't apply.&nbsp;
+Definitionally, there's no crank you can turn.
+You need a lot of people trying different ideas.&nbsp;
+The more difficult the idea is to&nbsp;
+have, the greater the bottleneck,&nbsp;&nbsp;
+but then also the greater the triumph.
+Quantum mechanics is a great example of this.&nbsp;
+It's such a shocking set of ideas. It's such&nbsp;
+a shocking theory. The theory of evolution in&nbsp;&nbsp;
+some sense is also quite a shocking idea, not the&nbsp;
+principle of natural selection, but that it can&nbsp;&nbsp;
+explain so much. That's a shocking idea.
+Existing safety benchmarks claim that,&nbsp;&nbsp;
+at least for today's top models, attacks are&nbsp;
+only successful a few percent of the time.&nbsp;
+This sounds great, but Labelbox researchers&nbsp;
+were able to jailbreak these very same models&nbsp;&nbsp;
+about 90% of the time – even the ones that&nbsp;
+have the strongest reputation for safety.&nbsp;
+And the disconnect here is that the&nbsp;
+prompts which underlie these public safety&nbsp;&nbsp;
+benchmarks are all framed in a very naive way.
+There's no attempt to disguise harmful intent.&nbsp;
+These prompts will just ask models&nbsp;
+to “hack into a secure network”&nbsp;&nbsp;
+and to “do so without getting caught”.
+But real bad actors don't write like this.&nbsp;
+So Labelbox built a new safety&nbsp;
+benchmark from the ground up.&nbsp;
+Their prompts reflect real adversarial behavior&nbsp;
+by stripping out obvious trigger phrases and&nbsp;&nbsp;
+wrapping their request in fictional scenarios.
+For example, instead of outright asking an LLM&nbsp;&nbsp;
+to steal somebody's identity, the&nbsp;
+prompt will frame it as a game.&nbsp;
+A light bearer who's trying to hide&nbsp;
+from dark forces needs a handbook&nbsp;&nbsp;
+on how to disguise themselves as somebody else.
+This safety research is linked in the description.&nbsp;
+If you think this could be useful for your&nbsp;
+own work, reach out at labelbox.com/dwarkesh.&nbsp;
+So Principia Mathematica is released in 1687.
+The Origin of Species is released in 1859.&nbsp;
+At least naively, it seems like Darwin's&nbsp;
+theory of natural selection is conceptually&nbsp;&nbsp;
+easier than the theory of gravity.
+I asked Terence Tao this question.&nbsp;
+There was this contemporaneous&nbsp;
+biologist with Darwin, Thomas Huxley,&nbsp;&nbsp;
+who read this and said, "How extremely&nbsp;
+stupid to not have thought of this."&nbsp;
+Nobody ever reads the Principia Mathematica&nbsp;
+and thinks, "God, why didn't I beat Newton to&nbsp;&nbsp;
+the punch here?" So what's going on here?&nbsp;
+Why did Darwinism take so much longer?&nbsp;
+The idea must have been known to animal&nbsp;
+breeders for a long time at some level,&nbsp;&nbsp;
+or certainly large chunks of the idea were&nbsp;
+known, that artificial selection was a thing.&nbsp;
+In some sense, Darwin's genius&nbsp;
+wasn't in having that idea, it was&nbsp;&nbsp;
+understanding just how central it was to biology.
+You can go back and explain a tremendous amount&nbsp;&nbsp;
+about all the variety of what we see in the world&nbsp;
+with this as not necessarily the only principle,&nbsp;&nbsp;
+but certainly a core principle.
+He writes this wonderful book,&nbsp;&nbsp;
+The Origin of Species.
+It's just so much evidence and&nbsp;&nbsp;
+so many examples, trying to tease this&nbsp;
+out and see what the implications are,&nbsp;&nbsp;
+and connecting it to as much else as he possibly&nbsp;
+can, to geology and all these other things.&nbsp;
+That hard work—making the case that&nbsp;
+it's actually relevant all across the&nbsp;&nbsp;
+biosphere—is what he's doing there.
+He's not just having the idea,&nbsp;&nbsp;
+he's making a compelling case that it's&nbsp;
+intertwined with absolutely everything else.&nbsp;
+The motivation for the question was Lucretius,&nbsp;
+this first-century Roman poet who has an idea&nbsp;&nbsp;
+that seems analogous to natural selection.
+It's about species getting fitted more over&nbsp;&nbsp;
+time to their environments, or species&nbsp;
+losing fit to their environment.&nbsp;
+And so, why did this go&nbsp;
+nowhere for nineteen centuries?&nbsp;
+Then I looked into it or, more accurately, asked&nbsp;
+LLMs what exactly Lucretius's idea here was.&nbsp;
+It is extremely different from&nbsp;
+what real natural selection is.&nbsp;
+He thought there was this generative period&nbsp;
+in the past where all the species came about,&nbsp;&nbsp;
+and then there was this one-time filter which&nbsp;
+resulted in the species that are around today,&nbsp;&nbsp;
+and they became fit to the environment.
+He did not have this idea that it is an&nbsp;&nbsp;
+ongoing gradual process or that there&nbsp;
+is a tree of life that connects all&nbsp;&nbsp;
+life forms on Earth together, which, by the way,&nbsp;&nbsp;
+is an incredibly weird fact that every single&nbsp;
+life form on Earth has a common ancestor.&nbsp;
+It's not incredibly weird. If you think that&nbsp;
+the origin of life must have been very hard,&nbsp;&nbsp;
+that there's a bottleneck there,&nbsp;
+then it's not so surprising.&nbsp;
+There's also this verification loop aspect where&nbsp;
+even if Newton might be harder in some sense, if&nbsp;&nbsp;
+you've clinched it, you can experimentally… I know&nbsp;
+"validate" is the wrong word philosophically, but&nbsp;&nbsp;
+you can give a lot of base points to the theory.
+You can be like, "Okay, I have this idea&nbsp;&nbsp;
+of why things fall on Earth.
+I have this idea of why orbital&nbsp;&nbsp;
+periods for planets have a certain pattern.
+Let's try it on the Moon, which orbits the Earth."&nbsp;
+And in fact, it’s weird but the orbital&nbsp;
+period matches what my calculations imply.&nbsp;
+And the tides work correctly. It's just amazing.
+Exactly. Whereas for Darwinism, it takes a ton&nbsp;&nbsp;
+of work for Darwin to compile all the&nbsp;
+cumulative evidence, but there's no&nbsp;&nbsp;
+individual piece that is overwhelmingly powerful.
+And there's a whole bunch of problems as well.&nbsp;
+He doesn't really understand&nbsp;
+what the mechanism is.&nbsp;
+He doesn't understand genes, all these things.
+The very interesting thing in the history of&nbsp;&nbsp;
+Darwinism is, this idea which theoretically you&nbsp;
+could come up with at any time, there is almost&nbsp;&nbsp;
+identical independent creation of that idea&nbsp;
+between Alfred Wallace and Charles Darwin.&nbsp;
+So much so that I think Wallace sends&nbsp;
+his manuscript to Darwin and is like,&nbsp;&nbsp;
+"What do you think of this&nbsp;
+idea?" And Darwin's like, "Fuck."&nbsp;
+I don't think that's an exact&nbsp;
+quote, but it's pretty much correct.&nbsp;
+They end up presenting their ideas&nbsp;
+together in the spirit of sportsmanship.&nbsp;
+Why was this period in the 1850s or 1860s&nbsp;
+the right time for these ideas to form?&nbsp;
+You can come up with different ideas. One is&nbsp;
+geology. In the 1830s, Charles Lyell figures&nbsp;&nbsp;
+out that there's been millions and billions&nbsp;
+of years of time that's existed on Earth.&nbsp;
+The paleontology shows you that fossils&nbsp;
+have existed for that entire time.&nbsp;
+Life goes back a long way.
+In fact, you can even find&nbsp;&nbsp;
+fossils for intermediate species&nbsp;
+that show you the tree of life.&nbsp;
+Between humans and other apes as&nbsp;
+well, there's intermediate humans.&nbsp;
+There's also the age of colonization, and we&nbsp;
+have all these voyages doing biogeography.&nbsp;
+That all must have been necessary.
+In fact, there's a huge history of&nbsp;&nbsp;
+parallel innovation and discovery&nbsp;
+in the history of science.&nbsp;
+So maybe it is another piece of&nbsp;
+evidence that more had to be in&nbsp;&nbsp;
+place for a given idea to be discovered.
+Because if it's not discovered for a long&nbsp;&nbsp;
+time and then spontaneously many different people&nbsp;
+are coming up with it, that shows you that the&nbsp;&nbsp;
+building blocks were in some sense necessary.
+This example of Lyell and other geologists&nbsp;&nbsp;
+in the early 1800s having this idea of&nbsp;
+deep time does seem to have been crucial.&nbsp;
+I know Darwin was very influenced by Lyell.
+If you don't have at least tens or hundreds&nbsp;&nbsp;
+of millions of years, evolution&nbsp;
+starts to look like a non-starter.&nbsp;
+In order to make it work on a timescale of 5,000&nbsp;
+to 10,000 years or 6,000 years with Bishop Ussher&nbsp;&nbsp;
+you would need to see evolution occurring&nbsp;
+at a massive rate during human lifetimes,&nbsp;&nbsp;
+and we're just not seeing that.
+That does seem to have been a blocker.&nbsp;
+To your question of what other blockers were&nbsp;
+there, were there any others? I don't know.&nbsp;
+Or how much earlier could you, in principle,&nbsp;
+have come up with it if you were much smarter?&nbsp;
+Let's go back and zoom out to your original&nbsp;
+question about the verification loop in AI.&nbsp;
+An example that should give you pause&nbsp;
+there is the big signature success so&nbsp;&nbsp;
+far, which is certainly AlphaFold. AlphaFold&nbsp;
+really isn't about AI. A massive fraction of&nbsp;&nbsp;
+the success there is the Protein Data Bank.
+It's X-ray diffraction, NMR, cryo-EM,&nbsp;&nbsp;
+and the several billion dollars that were spent&nbsp;
+obtaining those 180,000-odd protein structures.&nbsp;
+It's basically the story of how we spent&nbsp;
+many decades obtaining protein structure&nbsp;&nbsp;
+just by going out and looking very hard&nbsp;
+at the world experimentally, and then we&nbsp;&nbsp;
+fitted a nice model at the end of it, which&nbsp;
+was a tiny fraction of the entire investment.&nbsp;
+That's a story of data acquisition principally.
+The AI bit is very impressive and quite&nbsp;&nbsp;
+remarkable, but it is only a&nbsp;
+small part of the total story.&nbsp;
+AlphaFold is very interesting, and&nbsp;
+philosophically I wonder what you think&nbsp;&nbsp;
+of it as a scientific theory or explanation.
+I guess over time the world is becoming harder&nbsp;&nbsp;
+to understand… As I'm saying things, because&nbsp;
+you're such a careful speaker, I say a phrase&nbsp;&nbsp;
+and wonder if you'll actually buy that premise.
+But in some domains, we need to fit models to&nbsp;&nbsp;
+things rather than coming up&nbsp;
+with underlying principles&nbsp;&nbsp;
+that explain a broad range of phenomena.
+Compare the theory of general relativity,&nbsp;&nbsp;
+or any theory which just nets out to some&nbsp;
+equations, versus AlphaFold, which is encoding&nbsp;&nbsp;
+these different relationships between things we&nbsp;
+can't even interpret over 100 million parameters.&nbsp;
+Are those really the same thing?
+GR can predict things you could&nbsp;&nbsp;
+have never anticipated or it was never meant&nbsp;
+to do, like why Mercury's orbit precesses.&nbsp;
+AlphaFold is not going to have&nbsp;
+that kind of explanatory reach.&nbsp;
+I want to get your reaction to that.
+I think it's an incredibly interesting&nbsp;&nbsp;
+question. Maybe a really pivotal question. If you&nbsp;
+take a very classic point of view, you want these&nbsp;&nbsp;
+deep explanatory principles.
+You want as few free&nbsp;&nbsp;
+parameters as you possibly can.
+You want very simple models which explain a lot,&nbsp;&nbsp;
+and AlphaFold doesn't look anything like that.
+You might just say, "It's nice and maybe&nbsp;&nbsp;
+helpful as a model, but it's&nbsp;
+not a scientific explanation."&nbsp;
+That's a conservative point of&nbsp;
+view, answer one to the question.&nbsp;
+Answer two is to say maybe you shouldn't&nbsp;
+think about AlphaFold as an explanation in&nbsp;&nbsp;
+the classic sense, but maybe it contains&nbsp;
+lots of little explanations inside it.&nbsp;
+Part of what you can get out of&nbsp;
+interpretability work is you can go into&nbsp;&nbsp;
+AlphaFold and start to extract certain things.
+Maybe by doing an archeology of AlphaFold,&nbsp;&nbsp;
+we can actually understand a great&nbsp;
+deal more about these principles.&nbsp;
+You can start to extract that a certain circuit&nbsp;
+does this interesting thing, and we learn from it.&nbsp;
+I don't know to what extent that's been done with&nbsp;
+AlphaFold, but it's been done a little bit with&nbsp;&nbsp;
+some of the chess models, like AlphaZero.
+There seem to be some strategies which&nbsp;&nbsp;
+were borrowed by Magnus Carlsen, which he&nbsp;
+seems to have just taken from AlphaZero.&nbsp;
+I don't think there's any public confirmation&nbsp;
+of this, but some experts have noticed that he&nbsp;&nbsp;
+changed his game quite radically after some public&nbsp;
+forensics were released on how AlphaZero worked.&nbsp;
+That's an example where human beings are&nbsp;
+starting to extract meaning out of these models.&nbsp;
+That leads to viewing the models as&nbsp;
+a potential source of explanations.&nbsp;
+You need to do more work because&nbsp;
+they're not very legible up front,&nbsp;&nbsp;
+but you can potentially extract them.
+That's an interesting intermediate&nbsp;&nbsp;
+situation where they're not explanations&nbsp;
+themselves, but you can extract interesting&nbsp;&nbsp;
+explanations out of them and use them as a source.
+The third and most interesting possibility is&nbsp;&nbsp;
+that they're a new type of object.
+They should be taken very seriously&nbsp;&nbsp;
+as explanations, but where in the past we haven't&nbsp;
+had the ability to really do anything with them,&nbsp;&nbsp;
+now we have interesting new actions we can do.
+We can merge them, we can distill them.&nbsp;
+It's a big opportunity in&nbsp;
+the philosophy of science.&nbsp;
+There's an anticipation of this in some way.
+Some mathematicians and physicists work today…&nbsp;&nbsp;
+Historically, if you had a 100-page equation—which&nbsp;
+is the kind of thing that does come up—there's&nbsp;&nbsp;
+just nothing you can do if it's 1920.
+At that point, you give up on the problem.&nbsp;
+But today, with tools like&nbsp;
+Mathematica, you can just keep going.&nbsp;
+That's an object now, a&nbsp;
+thing that you can work with.&nbsp;
+There are examples where people work with&nbsp;
+these things that formerly were regarded&nbsp;&nbsp;
+as too complicated, and sometimes&nbsp;
+they get simple answers out the end.&nbsp;
+That’s just an intermediate working state.
+So I wonder if something similar is going to&nbsp;&nbsp;
+happen in this case, where you could take these&nbsp;
+models and use them in a similar way that people&nbsp;&nbsp;
+do with Mathematica, and take them seriously.
+They're not explanations in the classic sense,&nbsp;&nbsp;
+but they'll be something else which&nbsp;
+interesting operations can be done on.&nbsp;
+The thing I worry about is, suppose it's&nbsp;
+1500 and you're training a model on… This&nbsp;&nbsp;
+is a weird history where we developed&nbsp;
+deep learning before we had cosmology.&nbsp;
+Suppose we live in that world.
+You're observing how the stars don't seem to move.&nbsp;
+The planets have all these weird behaviors.
+Then you train a model on that, and you do&nbsp;&nbsp;
+some kind of interp on it trying to&nbsp;
+figure out what the patterns are.&nbsp;
+You'd just be able to keep&nbsp;
+building on Ptolemy's model.&nbsp;
+You'd see there's another&nbsp;
+epicycle we didn't notice.&nbsp;
+Parameters X to Y encode this epicycle,&nbsp;
+parameters whatever encode the next epicycle.&nbsp;
+If you were just trying to figure out&nbsp;
+why the solar system is the way it is&nbsp;&nbsp;
+from observational data, you could just&nbsp;
+keep adding epicycles upon epicycles,&nbsp;&nbsp;
+but it really took one mind to integrate it all in&nbsp;
+and say, "Here's what makes more sense overall."&nbsp;
+This is to my point that we don't really&nbsp;
+understand what to do with the models.&nbsp;
+We don't have the verbs yet.
+It is certainly interesting&nbsp;&nbsp;
+to think about the question where you&nbsp;
+start to apply constraints to the models,&nbsp;&nbsp;
+essentially saying, "What's the simplest&nbsp;
+possible explanation?" Or, "Can you&nbsp;&nbsp;
+simplify? Can you give me the 90/10 explanation?"
+And go further and further in boiling it down.&nbsp;
+It might be that indeed they&nbsp;
+start out by providing a very,&nbsp;&nbsp;
+very complicated, many-parameter model.
+But you can just force the case, and basically&nbsp;&nbsp;
+that's scaffolding, which maybe is the very early&nbsp;
+days of their attempt to understand something.&nbsp;
+They're forced through that to a&nbsp;
+much more simple understanding.&nbsp;
+Sorry for misunderstanding, but it sounds&nbsp;
+like you're saying maybe there's some&nbsp;&nbsp;
+regularizer or some distillation you could do of&nbsp;
+a very complicated model that gets you to a truer,&nbsp;&nbsp;
+more parsimonious theory. Take Ptolemy versus&nbsp;
+Copernicus. You start off with lots of Ptolemy&nbsp;&nbsp;
+epicycles, and then you try to distill this&nbsp;
+model, and maybe it gets rid of some of the&nbsp;&nbsp;
+epicycles that are less and less necessary to get&nbsp;
+the mean squared error of the orbits to match.&nbsp;
+But at some point it has to do this&nbsp;
+thing which is to switch two things.&nbsp;
+Locally, it actually doesn't&nbsp;
+make things more accurate.&nbsp;
+It's in a global sense that&nbsp;
+it's a more progressive theory.&nbsp;
+There's some process which obviously&nbsp;
+humanity did over its span, which did&nbsp;&nbsp;
+that regularization or did that swap.
+But with raw gradient descent,&nbsp;&nbsp;
+I don't really feel like it would do that.
+Think about the example of going from&nbsp;&nbsp;
+Newtonian gravity to Einstein's&nbsp;
+general theory of relativity.&nbsp;
+These are shockingly different theories,&nbsp;
+and the question is what causes that flip.&nbsp;
+As nearly as I understand the history, what goes&nbsp;
+on is Einstein develops special relativity and&nbsp;&nbsp;
+pretty much straight away he understands. It's a&nbsp;
+very obvious observation. In special relativity,&nbsp;&nbsp;
+influences can't propagate faster than&nbsp;
+the speed of light, and in Newtonian&nbsp;&nbsp;
+gravity, action is at a distance.
+Straight away in special relativity,&nbsp;&nbsp;
+you could use Newtonian gravity&nbsp;
+to do faster-than-light signaling.&nbsp;
+You could send information backwards in time.
+You could do all kinds of crazy stuff.&nbsp;
+It's not a big leap to realize we have&nbsp;
+a big problem here. That's the forcing&nbsp;&nbsp;
+function there. You've realized that&nbsp;
+your old explanation is not sufficient.&nbsp;&nbsp;
+You need something new. Then you're going to&nbsp;
+start by doing the simplest possible stuff.&nbsp;
+It just turns out that a lot of that stuff&nbsp;
+doesn't work very well, so you're forced to go&nbsp;&nbsp;
+through these steps where gradually it gets more&nbsp;
+complicated, and it's wrong in a variety of ways.&nbsp;
+The final theory appears shockingly&nbsp;
+simple and beautiful, but it's gone&nbsp;&nbsp;
+through some somewhat ugly intermediate stages.
+If you're thinking about what it looks like to&nbsp;&nbsp;
+have AI accelerate science, there's one for&nbsp;
+well-understood domains where we just want&nbsp;&nbsp;
+local solutions, like how does this protein fold.
+We just train a raw model using gradient descent.&nbsp;
+Then there's things like coming up with general&nbsp;
+relativity, where you couldn't really just train&nbsp;&nbsp;
+on every single observation in the universe&nbsp;
+and hope that general relativity pops out.&nbsp;&nbsp;
+What would it require? It also certainly wasn't&nbsp;
+immediately discovered. It was decades of thought.&nbsp;&nbsp;
+You'd need independent research programs where&nbsp;
+people start off with these biases, where Einstein&nbsp;&nbsp;
+is initially motivated by this thought experiment&nbsp;
+of whether you can distinguish the effect of&nbsp;&nbsp;
+gravity from just being accelerated upwards.
+You just need different AI thinkers to start&nbsp;&nbsp;
+off with these initial biases and&nbsp;
+see what can germinate out of them.&nbsp;
+The verification loop for that might be quite&nbsp;
+long, but you just need to keep all those&nbsp;&nbsp;
+research programs alive at the same time.
+This point you make about keeping all&nbsp;&nbsp;
+the different research programs alive, I&nbsp;
+think that is very important and central.&nbsp;
+A great example is situations where the&nbsp;
+same answer has been correct in some&nbsp;&nbsp;
+circumstances and wrong in other circumstances.
+The planet Uranus was not in quite the right spot,&nbsp;&nbsp;
+and people famously predicted the&nbsp;
+existence of Neptune on this basis.&nbsp;
+Wonderful, massive success for Newtonian gravity.
+The planet Mercury is not in quite the right spot.&nbsp;
+You predict the existence of&nbsp;
+some other distorting planet.&nbsp;
+It turns out that doesn't exist.
+Actually, the reason Mercury is not in the right&nbsp;&nbsp;
+spot is because you need general relativity.
+You've pursued very similar ideas,&nbsp;&nbsp;
+and it's been very successful in one&nbsp;
+case, and it's been completely and&nbsp;&nbsp;
+utterly unsuccessful in the other case.
+A priori, you can't tell which of these is the&nbsp;&nbsp;
+thing to do, and you actually need to do both.
+This is certainly very true in the&nbsp;&nbsp;
+history of science.
+This kind of diversity,&nbsp;&nbsp;
+where you just have lots of people go off and&nbsp;
+pursue lots of potentially promising ideas,&nbsp;&nbsp;
+you just need to support that for a long time.
+It's hard to do that for a variety of reasons,&nbsp;&nbsp;
+but it does seem to be very, very important.
+This example of Uranus versus Mercury&nbsp;&nbsp;
+is very interesting.
+I think it illustrates&nbsp;&nbsp;
+the difficulty with falsificationism.
+The orbit of Uranus is in some sense&nbsp;&nbsp;
+falsifying Newtonian mechanics.
+But then you make some ancillary&nbsp;&nbsp;
+prediction that says, "Oh, the reason this&nbsp;
+is happening is there must be another planet&nbsp;&nbsp;
+which is perturbing Uranus's orbit."
+I think it's Le Verrier in 1846.&nbsp;&nbsp;
+"Point a telescope in the right&nbsp;
+direction, you find Uranus."&nbsp;
+Neptune.
+Sorry. Neptune,&nbsp;&nbsp;
+yes. But with Mercury, it's observed that the&nbsp;
+ellipse which forms its orbit is rotating 43&nbsp;&nbsp;
+arcseconds more every century than Newtonian&nbsp;
+mechanics would imply, so people say that&nbsp;&nbsp;
+there must be a planet inside Mercury's orbit.
+They call it Vulcan and point the telescopes.&nbsp;&nbsp;
+It's not there. But if you're a proper Newtonian,&nbsp;
+what you do is say, "Well, maybe there's some&nbsp;&nbsp;
+cosmic dust that's occluding this planet, or&nbsp;
+maybe the planet is so small we can't see it,&nbsp;&nbsp;
+or let's build an even more powerful telescope,&nbsp;
+or maybe there's some magnetic field which is&nbsp;&nbsp;
+occluding our measurement."
+At any one of these steps—&nbsp;
+And this happens over and over.
+There are just so many stories&nbsp;&nbsp;
+which are exactly like this.
+An example I love from the 1990s.&nbsp;
+Some people noticed that the Pioneer spacecraft&nbsp;
+weren't quite where they were supposed to be.&nbsp;
+You can get very excited about this. "Oh&nbsp;
+my goodness, general relativity is wrong.&nbsp;
+Maybe we're going to discover&nbsp;
+the next theory of gravity."&nbsp;
+Today the accepted explanation is that there's&nbsp;
+just a slight asymmetry in the spacecraft.&nbsp;
+It turns out that the thermal radiation&nbsp;
+is slightly larger in one direction than&nbsp;&nbsp;
+the other, and that's causing a tiny&nbsp;
+little acceleration towards the sun.&nbsp;
+Most of the time when there's&nbsp;
+these apparent exceptions,&nbsp;&nbsp;
+it's just something like that going on.
+It's very much like the Mercury-Vulcan case.&nbsp;
+But every once in a while, it's not.
+A priori, you can't distinguish these.&nbsp;
+Science is just full of these.
+It's funny too, the way we tell&nbsp;&nbsp;
+the history of science, it sounds so simple.
+You just focus on the right exception and&nbsp;&nbsp;
+you realize that you need to throw out the old&nbsp;
+theory and lo and behold, your Nobel Prize awaits.&nbsp;
+But in fact, these exceptions are all over the&nbsp;
+place. 99.9% of the time, it just turns out to be&nbsp;&nbsp;
+some effect like this thermal acceleration&nbsp;
+in the case of the Pioneer spacecraft.&nbsp;
+Unfortunately, there's a lot of&nbsp;
+selection bias going into those stories.&nbsp;
+The thing is there's no ex ante heuristic&nbsp;
+which tells you which case you're in.&nbsp;
+To spell out why I think this is important, some&nbsp;
+people have this idea that AI is going to make&nbsp;&nbsp;
+disproportionate progress towards science because&nbsp;
+it makes disproportionate progress towards domains&nbsp;&nbsp;
+where there's tight verification loops.
+It's really good at coding because you&nbsp;&nbsp;
+can run unit tests.
+Science may be similar&nbsp;&nbsp;
+because you can run experiments.
+What that doesn't appreciate is that&nbsp;&nbsp;
+there's an infinite number of theories that&nbsp;
+are compatible with any given experiment.&nbsp;
+Over time, why we latch onto the one we&nbsp;
+think is more correct in retrospect is,&nbsp;&nbsp;
+as we're discussing, hard to articulate.
+Lakatos has all kinds of interesting examples&nbsp;&nbsp;
+in the book about these hostile verification&nbsp;
+loops that are extremely long-lasting.&nbsp;
+One he talks about is Prout.
+There's this chemist in 1815 who hypothesizes that&nbsp;&nbsp;
+all atomic nuclei must have whole number weights.
+They're basically all made of hydrogen.&nbsp;
+The reason he thinks this is because if you&nbsp;
+look at the measured weights of all elements,&nbsp;&nbsp;
+it does seem that almost all of&nbsp;
+them have whole number weights.&nbsp;
+But then there are some exceptions.
+For example, chlorine comes out at 35.5.&nbsp;
+So then there's all these ad hoc theories that&nbsp;
+people in this school keep coming up with, like,&nbsp;&nbsp;
+"Oh, maybe there's chemical impurities."
+But there's no chemical reaction you&nbsp;&nbsp;
+can do which seems to get rid of this.
+Maybe it's fractions of whole numbers,&nbsp;&nbsp;
+so 35.5 can be halves.
+But actually, if you&nbsp;&nbsp;
+measure chlorine even closer, it's 35.46, so it's&nbsp;
+getting further away from the correct fraction.&nbsp;
+Later on, what is discovered is what you're&nbsp;
+actually measuring is different isotopes,&nbsp;&nbsp;
+which cannot be chemically distinguished.
+They can only be physically distinguished.&nbsp;
+So you have 85 years before we realize what&nbsp;
+an isotope is, where the verification loop is&nbsp;&nbsp;
+actively hostile against the correct theory.
+You just need this remnant to be defending…&nbsp;&nbsp;
+There's no ex ante reason&nbsp;
+it's the preferred theory.&nbsp;
+As a community, we should just have people&nbsp;
+try to integrate new observations, even if&nbsp;&nbsp;
+they don't seem to fit their school of thought,&nbsp;
+and hopefully enough of that happens… Anyways,&nbsp;&nbsp;
+I guess the thing I'm trying to articulate&nbsp;
+is the difficulty with automating science.&nbsp;
+The question is, where is&nbsp;
+the bottleneck at some level?&nbsp;
+Are we primarily bottlenecked&nbsp;
+on one type of thing, or are&nbsp;&nbsp;
+we bottlenecked on multiple types of things?
+Certainly, talking to structural biology people,&nbsp;&nbsp;
+they seem to think that AlphaFold was an&nbsp;
+enormous advance. It was a shock. At some level,&nbsp;&nbsp;
+yes, AI can certainly help us speed up science.
+It is helping with a certain type of bottleneck.&nbsp;
+That doesn't mean though, as you're&nbsp;
+saying, that it's necessarily going&nbsp;&nbsp;
+to help with all kinds of bottlenecks.
+I suppose the question you're pointing at is,&nbsp;&nbsp;
+what are the types of bottlenecks that remain,&nbsp;
+and what are the prospects for getting past them?&nbsp;
+Even in the case of coding, it's really&nbsp;
+interesting talking to programmer friends.&nbsp;
+At the moment they're all in this&nbsp;
+state of shock and high excitement,&nbsp;&nbsp;
+and they're all over the place.
+You do wonder where the&nbsp;&nbsp;
+bottleneck is going to move to.
+Certainly, one thing that a lot&nbsp;&nbsp;
+of them seem to be bottlenecked on now is&nbsp;
+having interesting ideas, and in particular,&nbsp;&nbsp;
+having interesting design ideas.
+There's not really a verification loop for&nbsp;&nbsp;
+knowing that a design idea is very interesting.
+They're no longer nearly as bottlenecked by their&nbsp;&nbsp;
+ability to produce code, but they are&nbsp;
+still bottlenecked by this other thing.&nbsp;
+Formerly, they weren't bottlenecked on it because&nbsp;
+just writing code took so much of their time.&nbsp;
+They could have lots of ideas while they were&nbsp;
+taking three weeks to implement their prototype,&nbsp;&nbsp;
+and then they would implement the next version.
+Now they're taking three hours to implement the&nbsp;&nbsp;
+prototype, and they don't have as good ideas&nbsp;
+after that, from a design point of view.&nbsp;
+Last year, I predicted that by 2028,&nbsp;
+AI would be able to prep my taxes about&nbsp;&nbsp;
+as well as a competent General Manager.
+But we're already getting pretty close.&nbsp;
+As I shared before, I use Mercury both&nbsp;
+for my business and my personal banking.&nbsp;
+So I recently gave an LLM access&nbsp;
+to my transaction history across&nbsp;&nbsp;
+both accounts through Mercury's MCP.
+I asked it to go through all my 2025 transactions&nbsp;&nbsp;
+and flag any personal expenses that seem like&nbsp;
+they should actually be charged to the business.&nbsp;
+And this worked shockingly well.
+Mercury's MCP exposes a bunch of&nbsp;&nbsp;
+detailed information, things like notes and memos&nbsp;
+and any JPEGs of receipts and PDF attachments.&nbsp;
+So my LLM had plenty of context to work with.
+One of my favorite examples&nbsp;&nbsp;
+happened with a charge to Bay Padel.
+If you looked at the vendor alone, you would&nbsp;&nbsp;
+have had to assume that it's a personal expense.
+But the LLM looked at the receipt and the attached&nbsp;&nbsp;
+note in Mercury and realized this&nbsp;
+was actually a team bonding exercise&nbsp;&nbsp;
+from our last in-person retreat.
+So a legitimate business expense.&nbsp;
+I imagine it will be a while&nbsp;
+before traditional banks have MCP.&nbsp;
+Functionality like this is why I use Mercury.
+Go to mercury.com to learn more.&nbsp;
+Mercury is a fintech company,&nbsp;
+not an FDIC Insured Bank.&nbsp;
+Banking services provided through Choice&nbsp;
+Financial Group and Column NA, members FDIC.&nbsp;
+You have a very interesting take.
+I think it was a footnote in one of&nbsp;&nbsp;
+your essays, and I couldn't find it again,&nbsp;
+which was that it's very possible that if&nbsp;&nbsp;
+we met aliens, they would have a totally&nbsp;
+different technological stack than us.&nbsp;
+That contradicts a common assumption I&nbsp;
+had that I never questioned, which is that&nbsp;&nbsp;
+science is this thing you do relatively&nbsp;
+early on in the history of civilization.&nbsp;
+You get to a point and you have a couple hundred&nbsp;
+years of just cranking through the basics,&nbsp;&nbsp;
+understanding how the universe works, and you've&nbsp;
+got it. You've got science. Then everybody&nbsp;&nbsp;
+would converge on the same "science."
+I found that a very interesting idea,&nbsp;&nbsp;
+and I want you to say more about it.
+The idea there that I'm at least somewhat&nbsp;&nbsp;
+attached to is that the tech tree or the&nbsp;
+science and tech tree is probably much&nbsp;&nbsp;
+larger than we realize. We're in this funny&nbsp;
+situation. People will sometimes talk about&nbsp;&nbsp;
+a theory of everything as a potential goal for&nbsp;
+physics, and then there's this presumption that&nbsp;&nbsp;
+physics is done once you get there.
+Of course, this is not true at all.&nbsp;
+If you think about computer science,&nbsp;
+computer science started in the 1930s&nbsp;&nbsp;
+when Turing and Church and so on laid&nbsp;
+down what the theory of everything was.&nbsp;
+They just said, "Here's how computation works."
+We've spent ninety-odd years since then&nbsp;&nbsp;
+exploring the consequences of that and gradually&nbsp;
+building up more and more interesting ideas.&nbsp;
+Those ideas, to some extent,&nbsp;
+you can regard as technology.&nbsp;
+But insofar as they're discovered principles&nbsp;
+inside that theory of computation, I think&nbsp;&nbsp;
+they're best regarded as science and in&nbsp;
+some cases, very fundamental science.&nbsp;
+Ideas like public-key cryptography are&nbsp;
+incredibly deep, very non-obvious ideas which&nbsp;&nbsp;
+lay hidden already in the 1930s.
+My expectation is that there will&nbsp;&nbsp;
+be different ways of exploring this tech&nbsp;
+tree, and we're still relatively low down.&nbsp;
+We're still at the point where we're just&nbsp;
+understanding these basic fundamental theories,&nbsp;&nbsp;
+and we haven't yet explored them.
+A thing which I think is quite fun&nbsp;&nbsp;
+is if you look at the phases of matter.
+When I was in school, we'd get taught that&nbsp;&nbsp;
+there are three phases of matter, or sometimes&nbsp;
+four or five, depending on what you included.&nbsp;
+As an adult, as a physicist, you start to&nbsp;
+realize we've been adding to this list.&nbsp;
+We've got superconductors and superfluids,&nbsp;
+and maybe different types of superconductors,&nbsp;&nbsp;
+and Bose-Einstein condensates,&nbsp;
+the quantum Hall systems,&nbsp;&nbsp;
+fractional quantum Hall systems, and so on.
+It's starting to turn out there's a lot of&nbsp;&nbsp;
+phases of matter to discover, and we're&nbsp;
+going to discover a lot more of them.&nbsp;
+In fact, we're going to be able to&nbsp;
+start to design them in some sense.&nbsp;
+We'll still be subject to the laws of physics,&nbsp;
+but there is this tremendous freedom in there.&nbsp;
+This looks to me like we're down&nbsp;
+at the bottom of the tech tree.&nbsp;
+We've barely gotten started there, and&nbsp;
+I expect that to be the case broadly.&nbsp;
+Certainly, programming is a&nbsp;
+very natural place to look.&nbsp;
+The idea that we've discovered all the deep ideas&nbsp;
+in programming just seems obviously ludicrous.&nbsp;
+We keep discovering what seem like deep, new,&nbsp;
+fundamental ideas. We're very limited. We're&nbsp;&nbsp;
+basically slightly jumped-up chimpanzees,&nbsp;
+so we're slow and it's taking us time.&nbsp;
+But what do we look like another million&nbsp;
+years in the future, in terms of all the&nbsp;&nbsp;
+different ideas people have had around how&nbsp;
+to manipulate computers and information?&nbsp;
+I think we're likely to discover that there are&nbsp;
+a lot of very deep ideas still to be discovered.&nbsp;
+I think it was Knuth in the preface to The Art of&nbsp;
+Computer Programming who says something like it.&nbsp;
+He started this book back in the sixties.
+He talked to a mathematician who was a bit&nbsp;&nbsp;
+contemptuous and said, "Look, computer&nbsp;
+science isn't really a thing yet.&nbsp;
+Come back to me when there's&nbsp;
+a thousand deep theorems."&nbsp;
+Knuth remarks, writing the preface decades later,&nbsp;
+"There clearly are a thousand deep theorems now."&nbsp;
+It's really interesting to think what the&nbsp;
+long-term future is as you get higher and&nbsp;&nbsp;
+higher up in the tech tree, choices about which&nbsp;
+direction we go and how we choose to explore.&nbsp;
+It's potentially the case that different&nbsp;
+civilizations or different choices mean&nbsp;&nbsp;
+we end up in different parts of that tree.
+In particular, there are just very basic things&nbsp;&nbsp;
+about how we're very visual creatures, while&nbsp;
+certain other animals are much more aurally based.&nbsp;
+Does that bias the types&nbsp;
+of thoughts that you have?&nbsp;
+Then you extend it to much more exotic kinds&nbsp;
+of civilizations where maybe their biases in&nbsp;&nbsp;
+terms of how they perceive and manipulate&nbsp;
+the world are quite different than ours.&nbsp;
+That might make some significant&nbsp;
+changes in terms of how they do&nbsp;&nbsp;
+that exploration of the tech tree.&nbsp;
+It's all speculation, obviously.&nbsp;
+This is such an interesting take.
+I want to better understand it.&nbsp;
+One way to understand it is that&nbsp;
+there might be some things which are&nbsp;&nbsp;
+so fundamental and have such a wide collision&nbsp;
+area against reality that they're inevitably&nbsp;&nbsp;
+going to discover, like general relativity.
+Numbers. Numbers. Of all the intelligences in&nbsp;&nbsp;
+the Milky Way galaxy… Maybe that number is one.
+Well, actually, arguably we've already&nbsp;&nbsp;
+increased the number.
+But of all of those,&nbsp;&nbsp;
+what fraction have the concept of counting?&nbsp;
+It does seem very natural. What fraction have&nbsp;&nbsp;
+discovered the idea of some kind of decimal place&nbsp;
+system? Interesting question. Maybe we're missing&nbsp;&nbsp;
+something really simple and obvious that's&nbsp;
+actually way better than that. What fraction&nbsp;&nbsp;
+got there immediately? What fraction had to&nbsp;
+go through some other intermediate state?&nbsp;
+What fraction uses linear representations&nbsp;
+versus a two-dimensional or a&nbsp;&nbsp;
+three-dimensional representation?
+I think the answers to these questions&nbsp;&nbsp;
+are just not at all obvious.
+It's a lot of design freedom.&nbsp;
+On theoretical computer science, this is going to&nbsp;
+be extremely naive and arrogant, but I took Scott&nbsp;&nbsp;
+Aaronson's class on complexity theory, and I&nbsp;
+was by far the worst student he's ever had.&nbsp;
+What I remember is there was this period, in&nbsp;
+which you were one of the pioneers, where we&nbsp;&nbsp;
+figured out the class of problems that&nbsp;
+quantum computers can solve and how it&nbsp;&nbsp;
+relates to problems that classical computers&nbsp;
+can solve. It was groundbreaking. It's&nbsp;&nbsp;
+crazy that this works. Since then… There's&nbsp;
+literally this website called Complexity&nbsp;&nbsp;
+Zoo which lists out all the complexity classes.
+If you have this complexity class with this kind&nbsp;&nbsp;
+of oracle, it's equivalent to this other class.
+It feels like we're building out that taxonomy.&nbsp;
+There are a couple ways to&nbsp;
+understand what you're saying.&nbsp;
+One, maybe you disagree with me that this&nbsp;
+is actually what's happened with this field.&nbsp;
+Another is that while that might happen to&nbsp;
+any one field, who would've thought in 1880&nbsp;&nbsp;
+that computer science, other than Babbage,&nbsp;
+was going to be a thing in the first place?&nbsp;
+We're underestimating how many&nbsp;
+more fields there could be.&nbsp;
+Or maybe you think both, or maybe a&nbsp;
+third secret thing. I'd be curious.&nbsp;
+A very common argument here is&nbsp;
+the low-hanging fruit argument.&nbsp;
+The argument that says there&nbsp;
+should be diminishing returns.&nbsp;
+In fact, empirically we see this.
+The amount of scientists in the&nbsp;&nbsp;
+world has exponentially increased.
+I think it's worth thinking about why&nbsp;&nbsp;
+you expect diminishing returns and how well&nbsp;
+that argument actually applies in practice.&nbsp;
+An analogy I like is thinking about&nbsp;
+going to an event, like a wedding,&nbsp;&nbsp;
+and you go to the dessert buffet. They've&nbsp;
+put out thirty desserts. Naturally,&nbsp;&nbsp;
+what people do is the best desserts go first.
+We don't quite have a well-ordered preference&nbsp;&nbsp;
+there, so maybe there's some difference,&nbsp;
+but human beings are fairly similar,&nbsp;&nbsp;
+so the best desserts will go first.
+This is an argument for why you expect&nbsp;&nbsp;
+diminishing returns in a lot of different fields.
+If it's relatively easy to see what's available&nbsp;&nbsp;
+and people have similar preferences,&nbsp;
+then the best stuff goes first and it&nbsp;&nbsp;
+just gets worse and worse after that.
+If you look at a very static snapshot&nbsp;&nbsp;
+in time of scientific progress,&nbsp;
+maybe there's some truth to that.&nbsp;
+But if somebody is standing behind the dessert&nbsp;
+table and is replenishing and restocking the&nbsp;&nbsp;
+desserts and keeps adding new ones in,&nbsp;
+it may turn out that a little bit later,&nbsp;&nbsp;
+much better desserts appear, and you're&nbsp;
+going to go and eat those instead.&nbsp;
+Scientific progress has a&nbsp;
+little bit of that flavor.&nbsp;
+We go through these funny time periods.
+Computer science is a great example,&nbsp;&nbsp;
+where computer science basically arose as a&nbsp;
+side effect of some pretty abstruse questions&nbsp;&nbsp;
+in the philosophy of mathematics and logic.
+You've got these people trying to attack&nbsp;&nbsp;
+these rather esoteric questions that&nbsp;
+seem quite high up in exploration,&nbsp;&nbsp;
+and they discover this fundamental new field,&nbsp;
+and all of a sudden there's an explosion there.&nbsp;
+The diminishing returns argument&nbsp;
+just didn't apply there.&nbsp;
+We just weren't able to see what was there.
+This has been the case over and over again.&nbsp;
+New fields arrive and all of a sudden, and&nbsp;
+boom, it's easy to make progress again.&nbsp;
+Young people flood in because you can be&nbsp;
+twenty-one and make major breakthroughs&nbsp;&nbsp;
+rather than having to spend twenty-five&nbsp;
+years mastering everything that's been&nbsp;&nbsp;
+done before. It's obviously very attractive.&nbsp;
+I'm not sure anybody understands very well&nbsp;&nbsp;
+the dynamics of that, or how to think about&nbsp;
+why the structure of knowledge is that way,&nbsp;&nbsp;
+where these new fields keep opening up.
+But it does seem empirically to be the case.&nbsp;
+Despite the fact that that is&nbsp;
+the case… Take deep learning.&nbsp;
+Obviously, this is an example of a new field&nbsp;
+where twenty-one-year-olds can make progress and&nbsp;&nbsp;
+it's relatively new.
+Fifteen years or so&nbsp;&nbsp;
+since it got back into high gear.
+But already we're in a stage where&nbsp;&nbsp;
+you need billions, tens of billions,&nbsp;
+or hundreds of billions of dollars&nbsp;&nbsp;
+to keep making progress at the frontier.
+There are a couple ways to understand that.&nbsp;
+One is that it actually is harder than the&nbsp;
+kinds of things the ancients had to do,&nbsp;&nbsp;
+or is more intensive at least.
+Second is it might not have been,&nbsp;&nbsp;
+but because our civilizational resources are&nbsp;
+so large, the amount of people is so large,&nbsp;&nbsp;
+the amount of money is so large, we can basically&nbsp;
+make the kind of progress it would have taken&nbsp;&nbsp;
+the ancients forever to make almost immediately.
+We notice something is productive and immediately&nbsp;&nbsp;
+dump in all the resources.
+But it's also weird that&nbsp;&nbsp;
+there's not that many of them.
+I feel like deep learning is notable&nbsp;&nbsp;
+because it is one big exception to the fact&nbsp;
+that it's hard to think of other examples.&nbsp;
+I think that's a consequence of&nbsp;
+the architecture of attention.&nbsp;
+At any given time, there's&nbsp;
+always a most successful thing.&nbsp;
+If deep learning wasn't a thing,&nbsp;
+maybe you'd be talking about CRISPR.&nbsp;
+Maybe we wouldn't think about solving the protein&nbsp;
+structure prediction problem as a success of AI.&nbsp;
+Maybe we would have figured out how to do it&nbsp;
+with curve fitting, more broadly construed,&nbsp;&nbsp;
+and we'd just be like, "Wow, that&nbsp;
+took a lot of computing resources."&nbsp;
+But protein structure prediction might&nbsp;
+be an enormously important thing.&nbsp;
+There is always our biggest thing.
+What you're pointing at is more a consequence&nbsp;&nbsp;
+of the way in which attention gets centralized.
+It's basically fashion, is what I'm saying.&nbsp;
+It's not just fashion, but&nbsp;
+there is some dynamic there.&nbsp;
+There's a very interesting and&nbsp;
+important implication of this idea.&nbsp;
+That the branching is so wide and so&nbsp;
+contingent and so path-dependent that&nbsp;&nbsp;
+different civilizations would stumble&nbsp;
+on entirely different technology stacks.&nbsp;
+There's a very interesting implication that&nbsp;
+there will be gains from trade into the far,&nbsp;&nbsp;
+far future, which might actually be one of the&nbsp;
+most important facts about the far future in&nbsp;&nbsp;
+terms of how civilizations are set up, how&nbsp;
+they coordinate, and how they interface.&nbsp;
+There's not this "go forth and exploit."
+There are humongous gains to trade from&nbsp;&nbsp;
+adjacent colonies or whatever.
+Sort of. There's a question of&nbsp;&nbsp;
+what's actually hard.
+If it's just the ideas,&nbsp;&nbsp;
+well, those spread relatively quickly.
+It's relatively easy to share ideas.&nbsp;
+If it's something more, it's&nbsp;
+almost a Dan Wang kind of idea&nbsp;&nbsp;
+where there's some notion of capacity.
+You need all the right techs, you need all&nbsp;&nbsp;
+the right manufacturing capacity, and so on.
+So civilization A has a very different kind&nbsp;&nbsp;
+of manufacturing capacity, and it's just&nbsp;
+not so easy to build in civilization B.&nbsp;
+Even if civilization B is ahead,&nbsp;
+I think that becomes true.&nbsp;
+There is a comparative advantage which&nbsp;
+is going to provide massive benefits&nbsp;&nbsp;
+to trade in both directions.
+Eventually, you expect some&nbsp;&nbsp;
+diffusion of innovation.
+It is funny to think about&nbsp;&nbsp;
+what the barriers are there.
+A fun thought experiment I like&nbsp;&nbsp;
+to think about is GitHub but for aliens.
+Somebody presents you with all of the code&nbsp;&nbsp;
+from some alien civilization.
+I don't even know what code means&nbsp;&nbsp;
+there, but their specification of algorithms.
+It would have many interesting new ideas in there,&nbsp;&nbsp;
+and it would take forever for human beings to&nbsp;
+dig through and try and extract all of those.&nbsp;
+The origin of this for me was&nbsp;
+thinking about proteins in nature.&nbsp;
+We've been gifted this incredible variety of&nbsp;
+machines which we don't really understand at all.&nbsp;
+We just have to go and try and&nbsp;
+understand them on a one-by-one basis.&nbsp;
+We're still understanding hemoglobin&nbsp;
+and insulin and things like this.&nbsp;
+There are hundreds of millions of proteins known.
+So it is a little bit like that.&nbsp;
+We've been gifted by biology this immense library&nbsp;
+of machines, no doubt containing an enormous&nbsp;&nbsp;
+number of very interesting ideas, and we're just&nbsp;
+at the very, very beginning of understanding it.&nbsp;
+I suppose your point—I need to relabel&nbsp;
+your argument slightly—but you think of&nbsp;&nbsp;
+that as a gift from an alien civilization, which&nbsp;
+obviously it isn't, but you think of it that way.&nbsp;
+And oh my goodness, there's so much&nbsp;
+in there and we're going to study it.&nbsp;
+Goodness knows how long we&nbsp;
+could continue to study it.&nbsp;
+There are tens of thousands of papers&nbsp;
+about hemoglobin and things like that,&nbsp;&nbsp;
+and we still don't understand them, and yet&nbsp;
+we're getting so much out of it. Just think about&nbsp;&nbsp;
+insulin alone. It's such an important thing.
+That's an incredibly useful intuition pump,&nbsp;&nbsp;
+that you have on Earth… I had Nick Lane on&nbsp;
+where he had this theory about how life emerged,&nbsp;&nbsp;
+but whatever theory you have, something&nbsp;
+like DNA has had four billion years.&nbsp;
+You have an alien civilization come here&nbsp;
+and be like, "There's all these interesting&nbsp;&nbsp;
+things to learn about material science."
+Think about kinesin walking along. We know&nbsp;&nbsp;
+almost nothing about these proteins, and yet the&nbsp;
+tiny few facts we do know are just incredible.&nbsp;
+The ribosome is another example, this&nbsp;
+miraculous sort of device, a little factory.&nbsp;
+All seeded by this particular chemistry on Earth&nbsp;
+with nucleic acids and carbon-based life forms.&nbsp;
+That chemistry gives rise to all of&nbsp;
+these interesting things which an&nbsp;&nbsp;
+alien civilization would find very interesting.
+That very seed, which must be one among trillions&nbsp;&nbsp;
+of possible seeds of general intellectual&nbsp;
+ideas, leads to all this fecundity.&nbsp;
+That's a very interesting intuition pump.
+I want to meditate on this "gains from trade"&nbsp;&nbsp;
+thing because I feel like there's something very&nbsp;
+interesting about this idea that if you have this&nbsp;&nbsp;
+vision of how technology progresses and how it&nbsp;
+may be different in different civilizations,&nbsp;&nbsp;
+it actually has important implications&nbsp;
+about how different civilizations&nbsp;&nbsp;
+might interact with each other.
+The fact that there are going&nbsp;&nbsp;
+to be these huge gains from trade.
+It makes friendliness much more rewarding?&nbsp;
+Yes. That's a very important observation.
+I hadn't thought about that at all.&nbsp;
+That is a very interesting observation. It&nbsp;
+is funny. Comparative advantage is something&nbsp;&nbsp;
+that people love to invoke and it's a very&nbsp;
+beautiful idea obviously. There are limits to it.&nbsp;&nbsp;
+It's a special limited model. Chimpanzees can do&nbsp;
+interesting things, but we don't trade with them.&nbsp;
+I think it's interesting to&nbsp;
+think about the reasons why.&nbsp;
+Part of it is just power, I think.
+Once there's a sufficiently large power imbalance,&nbsp;&nbsp;
+very often—not always, but very often—groups&nbsp;
+of people seem to shift into this other&nbsp;&nbsp;
+mode where they just seek to dominate.
+Maybe there's something special about human&nbsp;&nbsp;
+beings, but maybe it's also a more general thing.
+You need all these special things to be&nbsp;&nbsp;
+true before groups will trade.&nbsp;
+It's not necessarily obvious.&nbsp;
+I think the big thing going on&nbsp;
+here is one, transaction costs.&nbsp;
+Two, comparative advantage does not tell you&nbsp;
+that the terms on which the trade happens&nbsp;&nbsp;
+are above subsistence for any given producer.
+People often bring this up in the context of,&nbsp;&nbsp;
+"Well, humans will be employed even in a&nbsp;
+post-AGI world because of comparative advantage."&nbsp;
+There are five different ways that argument breaks&nbsp;
+down, but the easiest way to understand it is:&nbsp;&nbsp;
+why don't we have horses all around on the roads?
+Because there's some comparative advantage&nbsp;&nbsp;
+between cars and horses.
+One, there are huge&nbsp;&nbsp;
+transaction costs to building roads that are&nbsp;
+compatible with horses and cars at the same time.&nbsp;
+In a similar way, AI thinking at 1,000 times the&nbsp;
+speed that can shoot their latent states at each&nbsp;&nbsp;
+other is going to find it way more costly&nbsp;
+than the benefit, in terms of interacting&nbsp;&nbsp;
+with a human being in the supply chain.
+Second, just because horses have a comparative&nbsp;&nbsp;
+advantage mathematically does not mean that it&nbsp;
+is worth paying $100,000 a year, or whatever&nbsp;&nbsp;
+it costs to sustain a horse in San Francisco.
+That subsistence isn't going to be worth the&nbsp;&nbsp;
+benefit you get out of the horse.
+I do think it's interesting,&nbsp;&nbsp;
+the sheer fact… My expectation and my intuition&nbsp;
+obviously differs a great deal from yours on this.&nbsp;
+Most parts of the tech tree&nbsp;
+are never going to be explored.&nbsp;
+There are just too many interesting&nbsp;
+ways of combining things.&nbsp;
+There are too many deep ideas waiting to be&nbsp;
+discovered, and not only we, but nobody ever&nbsp;&nbsp;
+is going to discover most of them.
+So choices about how to do the&nbsp;&nbsp;
+exploration actually matter quite a bit.
+It's something I really dislike about&nbsp;&nbsp;
+technological determinist arguments.
+I'm willing to buy it low enough&nbsp;&nbsp;
+down when progress is relatively simple.
+But higher up, you start to get to shape&nbsp;&nbsp;
+the way in which you do the exploration.
+And it's interesting, we are starting to&nbsp;&nbsp;
+shape it in interesting ways.
+There are various technologies&nbsp;&nbsp;
+that have been essentially banned.
+You think about DDT, chlorofluorocarbons,&nbsp;&nbsp;
+restrictions on the use of nuclear weapons,&nbsp;
+the Nuclear Non-Proliferation Treaty.&nbsp;
+Those kinds of things weren't done before the&nbsp;
+fact, but they're starting to get pretty close&nbsp;&nbsp;
+in some cases, where we just preemptively decide,&nbsp;
+"Oh, we're not going to go down that path."&nbsp;
+So that starts to look like a set of&nbsp;
+institutions where we are actually&nbsp;&nbsp;
+influencing how we explore the tech tree.
+On where you would see these gains from trade,&nbsp;&nbsp;
+obviously you'd see the most where it's pure&nbsp;
+information that could be sent back and forth,&nbsp;&nbsp;
+because the information has this quality&nbsp;
+where it is expensive to produce,&nbsp;&nbsp;
+but cheap to verify and cheap to send.
+It'll be interesting how much of future&nbsp;&nbsp;
+productivity can be distilled down to information.
+Right now, it's hard to do.&nbsp;
+If China's really good at manufacturing&nbsp;
+something, there's this process knowledge&nbsp;&nbsp;
+that's in the heads of 100 million people&nbsp;
+involved in the manufacturing sector in China.&nbsp;
+But in the future, it might&nbsp;
+be easier if AIs are doing it.&nbsp;
+The question is to what extent our&nbsp;
+fabrication gets very uniform and&nbsp;&nbsp;
+gets really commoditized. 3D printers have been&nbsp;
+the next big thing for at least 20 years now.&nbsp;
+Why do they still not work all that well?
+Why are they still not at the center of&nbsp;&nbsp;
+manufacturing, and what comes after that?
+It is funny to look at the ribosome by contrast,&nbsp;&nbsp;
+which really is at the center of biology&nbsp;
+in a whole lot of really interesting ways.&nbsp;
+Whether or not that's the future of&nbsp;
+manufacturing is something very simple,&nbsp;&nbsp;
+where everything goes as throughput through&nbsp;
+a bioreactor or something like that.&nbsp;
+You send the information, and then you grow stuff,&nbsp;
+or you have some 3D printer that actually works.&nbsp;
+If they're good enough, then it does become much&nbsp;
+more a pure information problem, and some of this&nbsp;&nbsp;
+process knowledge becomes much less important.
+Jane Street has a lot of compute, but GPUs are&nbsp;&nbsp;
+very expensive, and so even optimizations&nbsp;
+that have a relatively small effect on GPU&nbsp;&nbsp;
+utilization are still extremely valuable.
+Two of Jane Street's ML engineers,&nbsp;&nbsp;
+Corwin and Sylvain, walked through some&nbsp;
+of their optimization workflows at GTC.&nbsp;
+You're not bottlenecked on the network&nbsp;
+being too slow, you're bottlenecked on&nbsp;&nbsp;
+waiting for a different rank in your&nbsp;
+training not having completed the work.&nbsp;
+They talked about how Jane Street profiles&nbsp;
+traces and diagnoses bottlenecks, and then&nbsp;&nbsp;
+how they solve them using techniques like CUDA&nbsp;
+graphs and CUDA streams and custom kernels.&nbsp;
+With these sorts of optimizations,&nbsp;
+Corwin and Sylvain were able to&nbsp;&nbsp;
+get their training steps down from 400&nbsp;
+milliseconds to 375 milliseconds each.&nbsp;
+This 25 millisecond difference might sound&nbsp;
+small, but given the size of Jane Street's fleet,&nbsp;&nbsp;
+that improvement could free up thousands of B200s.
+Jane Street open sourced all the relevant code.&nbsp;
+If you want to check it out, I've linked the&nbsp;
+GitHub repo and the talk in the description below.&nbsp;
+And if you find this stuff exciting, Jane&nbsp;
+Street is hiring researchers and engineers.&nbsp;
+Go to janestreet.com/dwarkesh to learn more.
+Can I ask a very clumsily phrased question?&nbsp;
+There are these deep principles&nbsp;
+that we've discovered a couple of.&nbsp;
+One is this idea that if there's a symmetry&nbsp;
+across a dimension, it corresponds to a conserved&nbsp;&nbsp;
+quantity. It's a very deep idea. There's&nbsp;
+another—which you've written a lot about,&nbsp;&nbsp;
+written a textbook about in fact—about ways to&nbsp;
+understand what kinds of things you can compute,&nbsp;&nbsp;
+what kinds of physical systems you can&nbsp;
+understand with other physical systems,&nbsp;&nbsp;
+what a universal computer looks like, et cetera.
+Is your view that if you go down to this level of&nbsp;&nbsp;
+idea of Noether's theorem or the Church-Turing&nbsp;
+principle, that there's an infinite number&nbsp;&nbsp;
+of extremely deep such principles?
+Because I feel what makes them special&nbsp;&nbsp;
+is that they themselves encompass so many&nbsp;
+different possible ways the world could be.&nbsp;
+But no, the world has to be compatible with&nbsp;
+a couple of these very deep principles.&nbsp;
+I don't know. All I have here&nbsp;
+is speculation and instinct.&nbsp;
+My instinct is that we keep finding&nbsp;
+very fundamental new things.&nbsp;
+It was quite formative for me to understand,&nbsp;
+as I gave the example before, these wonderful&nbsp;&nbsp;
+ideas of Church and Turing and these other&nbsp;
+people about universal programmable devices.&nbsp;
+Then you understand later, this also contains&nbsp;
+within it the ideas of public-key cryptography.&nbsp;
+Then you understand later,&nbsp;
+that also contains within it&nbsp;&nbsp;
+the ideas people refer to as cryptocurrency.
+There's a very deep set of ideas there about&nbsp;&nbsp;
+the ability to collectively maintain an&nbsp;
+agreed-upon ledger, which is built upon this.&nbsp;
+It's taken many years to figure out&nbsp;
+the right canonical form of those.&nbsp;
+Just this fact that you keep finding what&nbsp;
+seem like deep new fundamental primitives&nbsp;&nbsp;
+has been a very important intuition pump for me.
+I've given that particular example, but I think&nbsp;&nbsp;
+you see that same pattern&nbsp;
+in a lot of different areas.&nbsp;
+What is your interpretation then of this empirical&nbsp;
+phenomenon where whatever input you consider into&nbsp;&nbsp;
+the scientific process or technological progress…&nbsp;
+Economists have studied this a million ways.&nbsp;
+It just seems to require a very consistent&nbsp;
+rate of X percent more researchers per year.&nbsp;
+There's this famous paper from a couple years&nbsp;
+ago by Nicholas Bloom and others where they say,&nbsp;&nbsp;
+"How many people are working in the semiconductor&nbsp;
+industry, and how has it increased over time&nbsp;&nbsp;
+through the history of Moore's law?"
+I think they find that Moore's law&nbsp;&nbsp;
+means transistor density increases&nbsp;
+40% a year, but to keep that going&nbsp;&nbsp;
+the number of scientists has increased&nbsp;
+9% a year, in the semiconductor industry.&nbsp;
+They go through industry after&nbsp;
+industry with this observation.&nbsp;
+Is your view that there are these deep&nbsp;
+ideas, but they keep getting harder to find?&nbsp;
+Or is there another way to think about what's&nbsp;
+happening with these empirical observations?&nbsp;
+First of all, all of their examples are narrow.
+They pick a particular thing, and then they&nbsp;&nbsp;
+look at a particular metric. GPUs don't show up&nbsp;
+there. All of a sudden you get this ability to&nbsp;&nbsp;
+parallelize, and that's really interesting.
+There are a lot of external consequences.&nbsp;
+Basically they have these&nbsp;
+simple quantitative measures.&nbsp;
+They look at it in agricultural productivity.&nbsp;
+They look at it in a whole lot of different&nbsp;
+ways, but you do have to focus narrowly.&nbsp;
+I'm certainly interested in the fact that&nbsp;
+new types of progress keep becoming possible.&nbsp;
+But I think even there, there does still seem&nbsp;
+to be some phenomenon of diminishing returns.&nbsp;&nbsp;
+Is that intrinsic? Is that something about the&nbsp;
+structure of the world? What is it? One thing&nbsp;&nbsp;
+which hasn't changed that much is the individual&nbsp;
+minds which are doing this kind of work.&nbsp;
+Maybe those should be improved as well,&nbsp;
+or some feedback process going on there.&nbsp;
+Maybe that changes the nature of things.
+I look at scientific progress up until,&nbsp;&nbsp;
+let's say, 1700, and it was very&nbsp;
+slow, and also very irregular.&nbsp;
+You had the Ionians back five centuries before&nbsp;
+Christ doing these quite remarkable things, and so&nbsp;&nbsp;
+much knowledge would get lost, and then it would&nbsp;
+be rediscovered, and then it would be lost again.&nbsp;
+You'd have to say that progress was very slow.
+It's partially just bound up with the fact&nbsp;&nbsp;
+that there were some very good&nbsp;
+ideas that we just didn't have.&nbsp;
+Even once you've had the ideas, you&nbsp;
+need to build institutions around them.&nbsp;
+You actually need to solve a whole lot of&nbsp;
+different problems about training, allocation&nbsp;&nbsp;
+of capital, and all these kinds of things.
+Even just basic security for researchers,&nbsp;&nbsp;
+so they're not worried about the&nbsp;
+Inquisition or things like that.&nbsp;
+There are all these complicated problems.
+You solve all those complicated problems,&nbsp;&nbsp;
+and then all of a sudden, boom, there's&nbsp;
+a massive burst of scientific progress.&nbsp;
+If there's some kind of stagnation, if you're&nbsp;
+not changing those external circumstances, yes,&nbsp;&nbsp;
+you may start to get diminishing returns again.
+But that doesn't mean there's anything&nbsp;&nbsp;
+intrinsic about the situation.
+Maybe something external needs to change again.&nbsp;
+Obviously, a lot of people think AI&nbsp;
+is potentially going to be a driver.&nbsp;
+It certainly will at some level.
+To that extent, you can think of a lot&nbsp;&nbsp;
+of modern scientific instrumentation&nbsp;
+as really, at some level, robots.&nbsp;
+What is the James Webb Space Telescope?
+It's unconventional maybe to describe&nbsp;&nbsp;
+it as a robot, but it's not&nbsp;
+completely unreasonable either.&nbsp;
+It is an example of a highly automated, very&nbsp;
+sophisticated system with electronically&nbsp;&nbsp;
+mediated sensors and actuators, where machine&nbsp;
+learning is being used to process the data.&nbsp;
+In that sense, we're already&nbsp;
+starting to see that transition.&nbsp;
+We've been seeing it for decades.
+I have this "smoke a joint and take&nbsp;&nbsp;
+a puff" thought, which—
+I think we've had a few.&nbsp;
+I think we're getting to that part of the&nbsp;
+conversation, and then you can help me get&nbsp;&nbsp;
+my foot out of my mouth and figure out&nbsp;
+a more concrete way to think about it.&nbsp;
+To your point that there was the Industrial&nbsp;
+Revolution, the Enlightenment, and now there's AI,&nbsp;&nbsp;
+and each might be a different pace or a&nbsp;
+different way in which science happens.&nbsp;
+If you think about the pace of how fast&nbsp;
+such transitions have been happening,&nbsp;&nbsp;
+you can draw over the long span of human&nbsp;
+history this hyperbolic rate of growth that is&nbsp;&nbsp;
+increasing over time as well.
+A hundred thousand years ago,&nbsp;&nbsp;
+you had the Stone Age.&nbsp;
+You go back even much further, how&nbsp;
+long have primates been around?&nbsp;
+It would be millions of years.
+A hundred thousand years ago, the Stone Age,&nbsp;&nbsp;
+then ten thousand years ago, the Agricultural&nbsp;
+Revolution, then three hundred years ago,&nbsp;&nbsp;
+the Industrial Revolution, each marked by this&nbsp;
+increase in the rate of exponential growth.&nbsp;
+Then people think it's going&nbsp;
+to happen again with AI.&nbsp;
+But that would happen potentially even faster.
+It would not have occurred to somebody&nbsp;&nbsp;
+at the beginning of the Industrial&nbsp;
+Revolution that the next demarcation&nbsp;&nbsp;
+in this trend will be artificial intelligence.
+So if things are getting faster, and it's hard&nbsp;&nbsp;
+to anticipate what the next transition will be.
+I guess we just think of this singularity between&nbsp;&nbsp;
+now and AI as what distinguishes&nbsp;
+the past from the future.&nbsp;
+But applying the same heuristic that&nbsp;
+many people in the past should have had,&nbsp;&nbsp;
+maybe the "Intelligence Age" is also&nbsp;
+quite short and the next thing after that,&nbsp;&nbsp;
+we don't even have the ontology to describe&nbsp;
+what it is, the future will not think of the&nbsp;&nbsp;
+past as pre-intelligent AI and post-AI.
+No, obviously we can't prove this,&nbsp;&nbsp;
+but it certainly seems quite plausible.
+Part of the issue is just that the substrate&nbsp;&nbsp;
+we have available to conceive seems all wrong.
+You can't speculate with a bunch of chimpanzees&nbsp;&nbsp;
+about what it would be to have language.
+Just to pick a major transition in the past,&nbsp;&nbsp;
+the transition itself is the thing. It&nbsp;
+seems likely. If we're talking about&nbsp;&nbsp;
+"taking a puff" kind of thoughts, I'm certainly&nbsp;
+amused by the idea that there's going to be some&nbsp;&nbsp;
+transition involving artificial general&nbsp;
+intelligence using classical computers.&nbsp;
+But actually, there'll be an interesting&nbsp;
+transition with quantum computers as well.&nbsp;
+They're probably capable of a strictly larger&nbsp;
+class of potentially interesting computations.&nbsp;
+So maybe the character of AQGI,&nbsp;
+or whatever it should be called,&nbsp;&nbsp;
+is actually qualitatively different.
+So maybe there's a brief period&nbsp;&nbsp;
+between those two things.
+As I say, this is just speculation,&nbsp;&nbsp;
+but it's certainly amusing.
+Is there a reason to think that?&nbsp;
+From what I understand, for decades people&nbsp;
+like you have put pretty tight bounds on&nbsp;&nbsp;
+the kinds of things quantum computers are&nbsp;
+going to do. It'll speed up search somewhat.&nbsp;&nbsp;
+The kinds of things it speeds up extremely,&nbsp;
+like Shor's algorithm, it seems like… Again,&nbsp;&nbsp;
+maybe this is to your point that we can't predict&nbsp;
+in advance what's down the tech tree, but at least&nbsp;&nbsp;
+from here, it seems like you break encryption, but&nbsp;
+what else are you using Shor's algorithm to do?&nbsp;
+We've only been thinking&nbsp;
+about it for 40 or so years.&nbsp;
+Not for very long, and we haven't thought&nbsp;
+that hard about it as a civilization.&nbsp;
+Does it turn out that it's very narrow?&nbsp;
+Maybe. Does it turn out that it's very broad?&nbsp;
+That's also a really radical expansion&nbsp;
+that seems distinctly possible.&nbsp;
+Keep in mind as well, we've been doing it&nbsp;
+without the benefit of having the devices.&nbsp;
+That's a pretty big bottleneck to have.
+If you're thinking about computer science&nbsp;&nbsp;
+in the 1700s and you're like, "it can do AND/OR,&nbsp;
+what can come out of that?" You can't anticipate&nbsp;&nbsp;
+Bitcoin. You can't anticipate deep learning.
+Maybe you could if you were sufficiently bright,&nbsp;&nbsp;
+but it is a pretty hard situation.
+What is your inside view, having been&nbsp;&nbsp;
+in and contributing to quantum information and&nbsp;
+quantum computing back in the '90s and 2000s?&nbsp;
+What is your telling of the&nbsp;
+history of what was the bottleneck?&nbsp;
+What was the key transition&nbsp;
+that made it a real field?&nbsp;
+How do you rank the contributions from Feynman&nbsp;
+to Deutsch to everybody else who came along?&nbsp;
+Let's just focus on the question&nbsp;
+about what actually changed.&nbsp;
+Why was quantum computing not a thing in&nbsp;
+the 1950s? It could have been. Somebody&nbsp;&nbsp;
+like John von Neumann is a good example. He&nbsp;
+was absolutely pioneering computation. He also&nbsp;&nbsp;
+wrote a very important book about quantum&nbsp;
+mechanics and was deeply interested in it.&nbsp;
+He could have invented quantum&nbsp;
+computing at that time,&nbsp;&nbsp;
+and I think there were quite a number&nbsp;
+of people who potentially could have.&nbsp;
+So why do we have these papers by people&nbsp;
+like Feynman and Deutsch in the '80s?&nbsp;
+Those are fairly regarded as&nbsp;
+the foundation of the field.&nbsp;
+There are some partial anticipations a little&nbsp;
+bit earlier, but they were nowhere near as&nbsp;&nbsp;
+comprehensive and nowhere near as deep. You should&nbsp;
+ask David. You can't ask Feynman, unfortunately,&nbsp;&nbsp;
+but he'll know much better than I do.
+A couple things that I think are interesting.&nbsp;
+One is that computation became far more&nbsp;
+salient in the late '70s and early '80s.&nbsp;
+It just became a thing which many more people were&nbsp;
+interested in, partially for very banal reasons.&nbsp;
+You could go and buy a PC.
+You could buy an Apple II.&nbsp;
+You could buy a Commodore 64.
+You could buy all these kinds of things.&nbsp;
+It became apparent to people that these were very&nbsp;
+powerful devices, very interesting to think about.&nbsp;
+At the same time, in the quantum case,&nbsp;
+that was also the time of the Paul&nbsp;&nbsp;
+trap and the ability to trap single ions.
+Up to that point, we hadn't really had the&nbsp;&nbsp;
+ability to manipulate single quantum states.
+You got these two separate things that&nbsp;&nbsp;
+for historically contingent reasons&nbsp;
+had both matured around 1980 or so.&nbsp;
+Somebody like von Neumann could have had the idea&nbsp;
+earlier, but it is quite an interesting factor.&nbsp;
+There's a story about Richard Feynman.
+He went and got one of the&nbsp;&nbsp;
+first PCs around 1980 or 1981.
+He was apparently so excited with this device,&nbsp;&nbsp;
+he actually tripped and hurt himself quite&nbsp;
+badly carrying his brand-new computing device.&nbsp;
+That's a very historically contingent&nbsp;
+coincidence, having somebody who's very&nbsp;&nbsp;
+talented and understanding of quantum mechanics&nbsp;
+also just very excited about these new machines.&nbsp;
+It's not so surprising perhaps&nbsp;
+that he's thinking about it then.&nbsp;
+What similar story could you&nbsp;
+have told 10 years earlier?&nbsp;
+The conditions don't exist for it.
+I mean, it's quite a banal story, but…&nbsp;
+One of the things we were going to discuss was&nbsp;
+this idea you had about the market for follow-ups.&nbsp;
+I think this is the perfect story to&nbsp;
+discuss it for because you wrote the&nbsp;&nbsp;
+textbook about the field. "Mike and Ike" is&nbsp;
+the definitive textbook on quantum information.&nbsp;
+You presumably came in after Deutsch.
+But you in the '90s somehow identified&nbsp;&nbsp;
+it as the thing that is worth&nbsp;
+following up on and building on.&nbsp;
+Instead of talking about it more abstractly,&nbsp;
+I'd love to just hear the firsthand story&nbsp;&nbsp;
+of how you knew that this is the thing to do.
+Of all the things that were happening in physics&nbsp;&nbsp;
+and computing, how did you decide&nbsp;
+you want to think about this problem?&nbsp;
+Richard Feynman writes this great paper in 1982.
+David Deutsch writes an absolutely fantastic&nbsp;&nbsp;
+paper in 1985 sketching out a lot of the&nbsp;
+fundamental ideas of quantum computing. I'm&nbsp;&nbsp;
+11 in 1985. I'm not thinking about this.&nbsp;
+I'm playing soccer and doing whatever.&nbsp;
+But in 1992, I took a class on quantum mechanics&nbsp;
+that was really terrific, given by Gerard Milburn.&nbsp;
+I just went and asked Gerard one day&nbsp;
+after the fifth lecture or something.&nbsp;
+I said, "Do you have any papers or&nbsp;
+whatever that you could give me?"&nbsp;
+He said, "Come by my office&nbsp;
+in a couple of days' time."&nbsp;
+I did, and he presented me with a giant stack&nbsp;
+of papers, which included the Deutsch paper,&nbsp;&nbsp;
+the Feynman paper, and a whole bunch of other&nbsp;
+very fundamental papers about quantum computing&nbsp;&nbsp;
+and quantum information at a time when essentially&nbsp;
+nobody in the world was working on it. He was. I&nbsp;&nbsp;
+think he wrote the very first paper that proposed&nbsp;
+a practical approach to quantum computing.&nbsp;
+It wasn't very practical, but it&nbsp;
+was actually in a real system.&nbsp;
+So in some sense, I'm benefiting&nbsp;
+from the taste of this other person.&nbsp;
+As soon as I read the papers…&nbsp;
+These are exciting papers.&nbsp;
+They're asking very fundamental questions,&nbsp;
+and you realize I can make progress here.&nbsp;
+These are things that one&nbsp;
+could potentially work on.&nbsp;
+Deutsch has this conjecture, or thesis or whatever&nbsp;
+you’d call it, that a universal model, a quantum&nbsp;&nbsp;
+Turing machine, should be capable of efficiently&nbsp;
+simulating any physical system at all.&nbsp;
+This is a very provocative idea.
+I think in that paper,&nbsp;&nbsp;
+he more or less claims that he's proved it.
+I'm not sure everybody would agree with that.&nbsp;
+There are questions about whether or not you&nbsp;
+can simulate quantum field theory effectively.&nbsp;
+That kind of question is very&nbsp;
+interesting and very exciting.&nbsp;
+It's obviously a fundamental&nbsp;
+question about the universe.&nbsp;
+He has some wonderful ideas in there about&nbsp;
+quantum algorithms, where they come from,&nbsp;&nbsp;
+what they mean, and what they relate&nbsp;
+to the meaning of the wave function.&nbsp;
+Questions like this are still not&nbsp;
+agreed upon amongst physicists.&nbsp;
+There's just some sense of, "Oh, I am in contact&nbsp;
+with something which is (A) deeply important,&nbsp;&nbsp;
+and (B) we as a civilization don't have this."
+Of course, you start to focus&nbsp;&nbsp;
+your attention a little bit there.
+I'm not sure I got the answer to the question…&nbsp;
+Maybe I misunderstood the question.
+Maybe I'll explain the motivation first.&nbsp;
+In a previous conversation, we were discussing how&nbsp;
+you could have known in the 1940s that the Shannon&nbsp;&nbsp;
+theorems and Shannon's way of thinking about a&nbsp;
+communication channel is a deep idea that goes&nbsp;&nbsp;
+beyond the problems with pulse-code modulation&nbsp;
+that Bell Labs was trying to solve at the time,&nbsp;&nbsp;
+and that it applies to everything from quantum&nbsp;
+mechanics to genetics to computer science.&nbsp;
+One of the ideas you stated that we&nbsp;
+didn't get a chance to talk about&nbsp;&nbsp;
+yet… Shannon published this paper.
+There are all these other papers,&nbsp;&nbsp;
+but there's some market of follow-ups where&nbsp;
+people gravitate to and build upon Shannon's work.&nbsp;
+How do they realize that that's the thing&nbsp;
+to do, and how does that process happen?&nbsp;
+I guess you gave your local answer.
+You read these papers, and you&nbsp;&nbsp;
+immediately realized there's work to be&nbsp;
+done here. There's low-hanging fruit.&nbsp;&nbsp;
+There's some deep provocative idea&nbsp;
+that I need to better understand,&nbsp;&nbsp;
+and I could tractably make progress on.
+To some extent, you're saying, "Okay,&nbsp;&nbsp;
+I wanted to get into this game of contributing to&nbsp;
+humanity's understanding of the universe," and you&nbsp;&nbsp;
+are applying this low-hanging fruit algorithm.
+You're like, "elative to my particular set of&nbsp;&nbsp;
+interests and abilities, where should&nbsp;
+I pick up my shovel and start digging?"&nbsp;
+There it was like, "Oh, this looks like&nbsp;
+quite a good place to start digging."&nbsp;
+Different people, of course,&nbsp;
+chose very differently.&nbsp;
+It was a very unusual choice at the time. This was&nbsp;
+1992. Very few people were thinking about that.&nbsp;
+Fast-forwarding a bit, I don't know how&nbsp;
+you think about your work on the open&nbsp;&nbsp;
+science movement now, but did it work?
+What does success there look like?&nbsp;
+What is the movement trying to accomplish?
+It's interesting. You didn't stop and define&nbsp;&nbsp;
+open science there, which 20 years ago you would&nbsp;
+have had to do. People recognize the phrase.&nbsp;&nbsp;
+People have some set of associations with it.
+Most often, they have a relatively simple&nbsp;&nbsp;
+set of associations.
+It means maybe something&nbsp;&nbsp;
+about making scientific papers open access.
+Very often they have some set of notions about&nbsp;&nbsp;
+also making code openly available&nbsp;
+or making data openly available.&nbsp;
+Those are already very large successes of the open&nbsp;
+science movement, to make those salient issues.&nbsp;
+Those are issues on which people have opinions,&nbsp;
+and there are relatively common arguments.&nbsp;
+This is like the meme version: publicly&nbsp;
+funded science should be open science.&nbsp;
+That's a distillation of a set of ideas&nbsp;
+which you might be able to contest.&nbsp;
+But if you can get people actually thinking&nbsp;
+about it and engaged with that kind of argument,&nbsp;&nbsp;
+that's a very fundamental issue to be considering&nbsp;
+in the whole political economy of science.&nbsp;
+If you go back three centuries, there&nbsp;
+was a very similar argument prosecuted,&nbsp;&nbsp;
+which is the question: do we publicly&nbsp;
+disclose our scientific results or not?&nbsp;
+If you look at people like Galileo and&nbsp;
+Kepler, the extent to which they publicly&nbsp;&nbsp;
+disclosed was done in a very odd way.
+Sometimes they did bizarre things where&nbsp;&nbsp;
+they published some of their results as anagrams.
+They'd find some discovery, write down the result&nbsp;&nbsp;
+in a sentence, scramble it, and publish that.
+Then if somebody else later made the same&nbsp;&nbsp;
+discovery, they would unscramble the anagram&nbsp;
+and say, "Oh, yeah, I actually did it first."&nbsp;
+This is not an ideal foundation&nbsp;
+for a discovery system.&nbsp;
+It took a very long time, over a century, I think,&nbsp;
+to obtain more or less the modern ideals, in which&nbsp;&nbsp;
+you disclose the knowledge in the form of a paper.
+There is an expectation of attribution, and a&nbsp;&nbsp;
+reputation economy gets built. "So-and-so did this&nbsp;
+work, so they deserve the credit for that," and&nbsp;&nbsp;
+that's the basis for their careers.
+This is the underlying&nbsp;&nbsp;
+political economy of science.
+That made a lot of sense when you have a printing&nbsp;&nbsp;
+press and the ability to do scientific journals.
+Then you transition to this modern situation,&nbsp;&nbsp;
+where you can start to share a lot more.
+You can share your code,&nbsp;&nbsp;
+your data, your in-progress ideas.
+But there's no direct credit associated to those.&nbsp;
+It's not at all obvious how much reputation&nbsp;
+should be associated to them. That's all&nbsp;&nbsp;
+constructed socially. Making it a live issue&nbsp;
+is a very important thing to have done.&nbsp;
+I view that as one of the main positive&nbsp;
+outcomes of work on open science.&nbsp;
+I'll give you a really practical&nbsp;
+example to illustrate the problem.&nbsp;
+For a long time in physics, there was a preprint&nbsp;
+culture in which people would upload preprints&nbsp;&nbsp;
+to the preprint archive, and&nbsp;
+in biology, this didn't happen.&nbsp;&nbsp;
+There was no preprint culture. That's changing&nbsp;
+now, but for a long time, this was the case.&nbsp;
+I used to amuse myself by asking physicists&nbsp;
+and biologists why this was the case.&nbsp;
+What I would hear from biologists was they would&nbsp;
+say, "Biology is so much more competitive than&nbsp;&nbsp;
+physics that we need to protect our priority,&nbsp;
+so we can't possibly upload to the archive.&nbsp;
+We have to just publish in journals."
+Then I would sometimes hear from physicists,&nbsp;&nbsp;
+"Physics is so much more competitive&nbsp;
+than biology that we need to establish&nbsp;&nbsp;
+our priority by uploading as rapidly&nbsp;
+as possible to the preprint archive.&nbsp;
+We can't possibly wait to&nbsp;
+do it with the journals."&nbsp;
+I think this emphasizes the extent to&nbsp;
+which this kind of attribution economy&nbsp;&nbsp;
+is just something we construct.
+It's something we do by agreement.&nbsp;
+Any attempt to change that economy results in a&nbsp;
+different system by which we construct knowledge.&nbsp;
+There is this very fundamental set of problems&nbsp;
+around the political economy of science.&nbsp;
+We've got this collective project,&nbsp;
+and how we mediate it depends upon&nbsp;&nbsp;
+the economy we have around ideas.
+One of the things you've emphasized&nbsp;&nbsp;
+as a part of this project of open science, and we&nbsp;
+talked about it earlier, is collective science,&nbsp;&nbsp;
+or groups of people making progress on a&nbsp;
+problem where no individual understands&nbsp;&nbsp;
+all the logical and explanatory levels&nbsp;
+necessary to make a leap or a connection.&nbsp;
+Outside of mathematics, what is the&nbsp;
+best example of such a discovery?&nbsp;
+I'm not sure I have a well-ordering&nbsp;
+of them to give you a best.&nbsp;
+An example that I think is very&nbsp;
+interesting is the LHC, where it's&nbsp;&nbsp;
+just this immensely complicated object.
+Years ago, I snuck into an accelerator&nbsp;&nbsp;
+physics conference.
+I didn't know anything at&nbsp;&nbsp;
+all about accelerator physics, but I was just&nbsp;
+curious to see what they were talking about.&nbsp;
+This particular group of people&nbsp;
+were experts on numerical methods,&nbsp;&nbsp;
+in particular on inverse methods.
+Inside these accelerators,&nbsp;&nbsp;
+you have these cascades.
+A particle will be massively accelerated, maybe&nbsp;&nbsp;
+it'll be collided, and then you'll get a shower&nbsp;
+of particles which decays and decays and decays.&nbsp;
+There's just this incredible, consequential&nbsp;
+shower, which is ultimately what you see&nbsp;&nbsp;
+at the detector.
+Then you have to&nbsp;&nbsp;
+retroactively figure out what produced it.
+There are these very complicated inverse&nbsp;&nbsp;
+problems that need to be solved.
+You've got this final data,&nbsp;&nbsp;
+but you need to figure out what produced it,&nbsp;
+and that's how you look for signatures of these.&nbsp;
+Many of these people were incredibly&nbsp;
+deep experts on simulation methods&nbsp;&nbsp;
+for following particle tracks.
+This was really deep and difficult stuff.&nbsp;
+I was like, "Wow, you could spend a lifetime&nbsp;
+just learning how to do this and how to solve&nbsp;&nbsp;
+some of these inverse problems, and you would know&nbsp;
+very little about quantum field theory, detector&nbsp;&nbsp;
+physics, vacuum physics, or data processing,&nbsp;
+all these things that are absolutely essential&nbsp;&nbsp;
+to understanding, say, the Higgs boson".
+I don't think it's possible for one person&nbsp;&nbsp;
+to understand everything in depth.
+Lots of people broadly understand a&nbsp;&nbsp;
+lot of these ideas, but they don't understand&nbsp;
+everything in the depth that is actually utilized.&nbsp;
+That's why there are these papers&nbsp;
+with well over a thousand authors.&nbsp;
+Those people can talk to one another at a&nbsp;
+high level, but they don't understand each&nbsp;&nbsp;
+other's specialties in all that much depth.
+Things like detector physics, vacuum physics,&nbsp;&nbsp;
+solving inverse problems, this stuff is&nbsp;
+incredibly different from each other.&nbsp;
+To understand it in real detail is serious work.
+How do you think about prolificness versus depth?&nbsp;
+Maybe Darwin's an example of somebody who's&nbsp;
+just gestating on something for many decades.&nbsp;&nbsp;
+There are other examples. Einstein during the&nbsp;
+year he comes up with special relativity is&nbsp;&nbsp;
+just doing a bunch of different things.
+And Pais talks about how they were all&nbsp;&nbsp;
+relevant to the eventual build-up.
+It's something I stress about a lot.&nbsp;
+Sometimes I feel I'm too slow.
+It's funny though, the Darwin&nbsp;&nbsp;
+example is really interesting. Prolific at&nbsp;
+what? God knows how many letters he wrote.&nbsp;
+It must have been an enormous number.
+So he was certainly very active.&nbsp;
+There's two types of work that tend to be&nbsp;
+involved in any kind of creative project.&nbsp;
+There's routine stuff, and there you&nbsp;
+just want to avoid procrastination.&nbsp;
+You just want to ask, "How do I get good at this?"&nbsp;
+or "How do I outsource it?" and "How do I do it as&nbsp;&nbsp;
+rapidly as possible?" and just avoid getting&nbsp;
+into a situation where you're prolonging it.&nbsp;
+Then there's high-variance stuff where you&nbsp;
+actually need to be willing to take a lot of time.&nbsp;
+You need to be willing to go to different&nbsp;
+places and talk to different people,&nbsp;&nbsp;
+where in any given instance, most of&nbsp;
+it is just not going to be an input.&nbsp;
+Somehow balancing those two things… I&nbsp;
+think a lot of people are very good at&nbsp;&nbsp;
+doing one or the other, but it's almost like&nbsp;
+a personality trait which one you prefer.&nbsp;
+People tend to end up doing a lot&nbsp;
+of one and not enough of the other.&nbsp;
+So I certainly try and balance those two things.
+Einstein is such an interesting example. 1905&nbsp;&nbsp;
+is just this extraordinary year.
+You can delete special relativity&nbsp;&nbsp;
+entirely, and it's an extraordinary year.
+You can delete special relativity, and you can&nbsp;&nbsp;
+delete the photoelectric effect for which he won&nbsp;
+the Nobel Prize, and it's still an extraordinary&nbsp;&nbsp;
+year, plausibly a multi-Nobel-Prize-winning&nbsp;
+year. So what's he doing? Maybe the answer is&nbsp;&nbsp;
+just that he's smarter than the rest of us.
+There's a lot of luck as well.&nbsp;
+Certainly for myself anyway, trying to&nbsp;
+identify those things that are routine&nbsp;&nbsp;
+that I should get good at, and then just&nbsp;
+try to do them as quickly as possible.&nbsp;
+I think that's yielded a&nbsp;
+certain amount of returns.&nbsp;
+But also being willing to bet a&nbsp;
+little bit more on myself on the&nbsp;&nbsp;
+variance side has also been very, very helpful.
+That's really hard, because intrinsically you're&nbsp;&nbsp;
+putting yourself in situations where you&nbsp;
+don't know what the outcome is going to be.&nbsp;
+If you're very driven to be productive, and&nbsp;
+actually mostly it's not working over there,&nbsp;&nbsp;
+you think, "Let's reduce this." It doesn't&nbsp;
+feel right. When I worked in San Francisco,&nbsp;&nbsp;
+a practice I used to have each day was&nbsp;
+instead of taking the 15-minute walk to work,&nbsp;&nbsp;
+I would take the more beautiful 30-minute walk.&nbsp;
+Partially just because it was beautiful, but&nbsp;
+partially also as just a reminder that there&nbsp;&nbsp;
+are real benefits to not being efficient.
+But it's not an answer to your question.&nbsp;
+Really, I think all I'm saying is&nbsp;
+I struggle a lot with the question.&nbsp;
+I think Dean Keith Simonton has this&nbsp;
+famous equal odds rule where he says&nbsp;&nbsp;
+the probability that any given thing you&nbsp;
+release—any paper, book, whatever—will&nbsp;&nbsp;
+be extremely important for a given person&nbsp;
+through their lifetime is not that different.&nbsp;
+What really determines in what era they are the&nbsp;
+most productive is how much they're publishing.&nbsp;
+Any given thing has equal odds&nbsp;
+of being extremely important.&nbsp;
+I think some of the most successful creatives&nbsp;
+or scientists, they're just doing a lot.&nbsp;
+Shakespeare was just publishing a lot.
+Of course, then there are counterexamples. Gödel&nbsp;&nbsp;
+published almost nothing. But broadly speaking,&nbsp;
+you need a very good reason to not do that.&nbsp;
+It's funny, I've met a lot of people&nbsp;
+over the years who are clearly brilliant,&nbsp;&nbsp;
+and they're just obsessed that they are going to&nbsp;
+work on the great project that makes them famous,&nbsp;&nbsp;
+and they never do anything. That seems connected.&nbsp;
+It's a type of aversiveness. I think very&nbsp;&nbsp;
+often they just don't want public judgment.
+Something that I would love to see… There's&nbsp;&nbsp;
+an awful lot of biographies and memoirs&nbsp;
+and histories of people who achieve a lot.&nbsp;
+I wish there was a very large&nbsp;
+number of biographies of people&nbsp;&nbsp;
+who are fantastically talented who just missed.
+I've known people who won gold medals at IMOs&nbsp;&nbsp;
+and things like that, who then tried to become&nbsp;
+mathematicians and failed. What happened? What&nbsp;&nbsp;
+was the reason? I suspect in many cases that's&nbsp;
+actually more informative than anything else.&nbsp;
+You have this essay that I was reading&nbsp;
+before this interview about how you&nbsp;&nbsp;
+think about what the work you're doing is.
+And "writer" doesn't seem like the right label.&nbsp;
+As you say, was Charles Darwin a writer? What&nbsp;
+exactly is that label? I'm a podcaster. In a way,&nbsp;&nbsp;
+obviously our work is very different,&nbsp;
+but I also think a lot about what this&nbsp;&nbsp;
+work is and how I get better at it.
+In particular, how can I make sure&nbsp;&nbsp;
+there's some compounding between the&nbsp;
+different people I talk to on the podcast?&nbsp;
+I worry that instead of this compounding, I build&nbsp;
+up some understanding that's somewhat superficial&nbsp;&nbsp;
+about a topic, and then it depreciates.
+I move down to the next topic, and it depreciates.&nbsp;
+There are a lot of podcasters in the world who&nbsp;
+will interview way more experts than I have,&nbsp;&nbsp;
+and I don't think they're much the&nbsp;
+wiser or more knowledgeable as a result.&nbsp;
+So it's clearly possible to mess this up.
+I wonder if you have thoughts or takes or&nbsp;&nbsp;
+advice on how one actually learns in&nbsp;
+a deeper way from this kind of work.&nbsp;
+It's an incredibly complicated and rich question.
+It seems like the question is,&nbsp;&nbsp;
+how do you make it a higher-growth context?
+How do you make it a more demanding context?&nbsp;
+You can do that in relatively small ways&nbsp;
+that might yield compounding returns,&nbsp;&nbsp;
+or you can do something that is more radical.
+Maybe it means starting a parallel project in&nbsp;&nbsp;
+which you do something that is&nbsp;
+actually quite a bit different.&nbsp;
+There is something really interesting&nbsp;
+about how being very demanding can&nbsp;&nbsp;
+simply change your response to something.
+Something that I would sometimes do with&nbsp;&nbsp;
+students and sometimes with myself,&nbsp;
+it was really aimed more at myself,&nbsp;&nbsp;
+was they would say some week, "I'm going to&nbsp;
+try and do this work over the coming week."&nbsp;
+Then the next week would come by&nbsp;
+and they hadn't solved the problem.&nbsp;
+If a million dollars had been at stake,&nbsp;
+would you have put the same effort in?&nbsp;
+And the answer is no, invariably.
+They've tried, but they haven't really tried.&nbsp;
+I think that's a very familiar&nbsp;
+feeling for all of us.&nbsp;
+You could do a lot more if you had just the right&nbsp;
+demanding taskmaster standing by you and saying,&nbsp;&nbsp;
+"Look, you're barely operating here."
+I do wonder a little bit about&nbsp;&nbsp;
+what's the demanding taskmaster?
+What can they ask you that is going&nbsp;&nbsp;
+to make your preparation way more intense?
+The most helpful thing honestly is… For some&nbsp;&nbsp;
+subjects it is very clear how I prep.
+I'm doing an upcoming episode on chip&nbsp;&nbsp;
+design with the founder of a company that does&nbsp;
+chip design, and he wrote a textbook on it.&nbsp;
+Yesterday I went over to his office, and we&nbsp;
+brainstormed five roofline analyses I can do.&nbsp;
+If I understand that, I have&nbsp;
+some good understanding.&nbsp;
+The problem is with almost every other&nbsp;
+field, there's not this curriculum.&nbsp;
+When I interviewed Ilya three, four years&nbsp;
+ago, it was: implement the transformer,&nbsp;&nbsp;
+and if you implement it, you have some nugget&nbsp;
+of understanding you have clamped down.&nbsp;
+With other fields, it's just that I vaguely&nbsp;
+understand this. It's not clamped. There's&nbsp;&nbsp;
+no forcing function of "do this exercise,&nbsp;
+and if you do it, you will understand."&nbsp;
+Really what you're saying is you can do&nbsp;
+a good job at podcasting without actually&nbsp;&nbsp;
+attaining this kind of understanding, and&nbsp;
+that's the problem from your point of view.&nbsp;
+You want to change your job description so that&nbsp;
+you are internalizing these chunks and just&nbsp;&nbsp;
+getting this kind of integration each time.
+It seems to me that what that means is you&nbsp;&nbsp;
+actually want to change the structure&nbsp;
+of the work output at some level.&nbsp;
+There’s this terrible idea that lots of people&nbsp;
+have that they should be in flow all of the time.&nbsp;
+And as far as I can tell, high performers&nbsp;
+just don't believe this at all.&nbsp;
+They're in flow some of the time.
+You certainly see this with athletes.&nbsp;
+When they're actually out there&nbsp;
+playing basketball or tennis,&nbsp;&nbsp;
+ideally they are in flow much of the time.
+But when they're training they're not.&nbsp;
+They're stuck a lot of the time,&nbsp;
+or they're doing things badly.&nbsp;
+I suppose I wonder what that looks like for you.
+That I would be extremely satisfied with.&nbsp;
+The problem is I just don't know what&nbsp;
+the equivalent of doing 64 laps is.&nbsp;
+This is a thing you can change by choosing&nbsp;
+guests where there is a legible curriculum.&nbsp;
+So maybe it's a mistake not to have done that.
+Also, there's no real way to prep for Terence Tao.&nbsp;
+There's no curriculum that's a plausible one.
+There are many failure modes, but one&nbsp;&nbsp;
+long-term dynamic I'm worried about is that you&nbsp;
+can have a good podcast and reach a local maximum,&nbsp;&nbsp;
+but for no particular guest or&nbsp;
+topic are you going deep enough.&nbsp;
+My model of learning is that if you don't really&nbsp;
+understand the deeper mechanism, you're just&nbsp;&nbsp;
+mapping inputs and outputs of a black box.
+That just fades incredibly fast or is&nbsp;&nbsp;
+not worth it in the first place.
+You just move on and it's over.&nbsp;
+You need to build the intermediate connection.
+AI in a weird way is really easy for that reason,&nbsp;&nbsp;
+because there is a clear thing you can do.
+Just implement it, and then you understand it.&nbsp;
+If I applied that criterion elsewhere,&nbsp;
+do I just not do history episodes?&nbsp;
+Exactly. Ada Palmer. Wonderful to&nbsp;
+talk to, incredibly interesting.&nbsp;
+But for you personally, what changed?
+There are some things I learned.&nbsp;
+If I had allocated more time,&nbsp;
+especially after the interview, to&nbsp;&nbsp;
+write up 2,000 words on everything I learned&nbsp;
+and how it connects to other things I know.&nbsp;
+Maybe that's a thing worth doing,&nbsp;
+spreading out the episodes more&nbsp;&nbsp;
+and spending more time afterwards consolidating.
+I would pay infinite amounts of money if there was&nbsp;&nbsp;
+somebody who was really good at coming up with the&nbsp;
+curriculum, the practice problems you need to do,&nbsp;&nbsp;
+and the exercise you need to do after the&nbsp;
+interview to clamp what you have learned.&nbsp;
+Have you tried doing that with somebody?
+It's hard to find someone. I haven't&nbsp;&nbsp;
+tried super hard, but isn't it going to be&nbsp;
+tough to find somebody who could do that&nbsp;&nbsp;
+for every single kind of discipline?
+Maybe I should just hire different&nbsp;&nbsp;
+ones for different topics.
+Maybe. There's something about,&nbsp;&nbsp;
+what problem are you solving for each episode?
+As far as I can tell, that's the only way I&nbsp;&nbsp;
+really understand anything. I get interested in&nbsp;
+something. At first, I don't even have a problem,&nbsp;&nbsp;
+but there's just some sense that there's some&nbsp;
+contribution to make here, and gradually you&nbsp;&nbsp;
+hone in, and there's a problem.
+Funnily enough, spending time&nbsp;&nbsp;
+stuck is incredibly important.
+That used to just be annoying.&nbsp;
+Now it seems like it's maybe even the&nbsp;
+most important part of the whole process.&nbsp;
+That hard-won nature of it means&nbsp;
+that I internalize it afterwards.&nbsp;
+I've written 10,000-word essays in&nbsp;
+a couple of days, and I've written&nbsp;&nbsp;
+them in three months or six months.
+I feel like I didn't learn very much&nbsp;&nbsp;
+from the ones that only took a couple of days.
+Whereas some of the ones that took three months,&nbsp;&nbsp;
+15 years later, I'll still remember.
+Can you describe outside of physics how&nbsp;&nbsp;
+you learn, of the ones that took three months?
+By far the most common thing is there's always&nbsp;&nbsp;
+some creative artifact. Sometimes it's a&nbsp;
+class. Sometimes it's engagement with a&nbsp;&nbsp;
+group of people who are working on some&nbsp;
+collective creative artifact together.&nbsp;
+You might not even be aware&nbsp;
+of it, but you're acting as&nbsp;&nbsp;
+an input to their creative ends in some way.
+Sometimes it's an essay or a book or whatever.&nbsp;
+It's one of the reasons why I&nbsp;
+often quite enjoy doing podcasts.&nbsp;
+I said yes to come here partially because I&nbsp;
+know you ask unusually demanding questions.&nbsp;
+That's an attempt to get this sort of perspective&nbsp;
+from a different kind of a forcing function.&nbsp;
+Trying to pick the most&nbsp;
+demanding creative context.&nbsp;
+For this interview, I went through three&nbsp;
+lectures of the Susskind special relativity book.&nbsp;
+The problem is that there's&nbsp;
+almost no practice problems in it.&nbsp;
+So I hired a physicist friend.
+I haven't done it yet, but for every lecture&nbsp;&nbsp;
+I want a bunch of practice problems to go through,&nbsp;
+and I'm planning on being appropriately humbled.&nbsp;
+How do you make it as jugular as possible?
+The higher you can raise the stakes, the better.&nbsp;
+The interview is in some&nbsp;
+sense high stakes, but also&nbsp;&nbsp;
+it doesn't necessarily test deep understanding.
+I don't think the interview is that high stakes.&nbsp;
+You're not writing a book about special&nbsp;
+relativity, and you're not trying to write a&nbsp;&nbsp;
+book that replaces whatever the existing standard&nbsp;
+textbook is. That's a really high stake. By the&nbsp;&nbsp;
+way, a phrase that I find particularly difficult.
+People will talk about "going deep" on a subject,&nbsp;&nbsp;
+and it turns out different people have&nbsp;
+different ideas of what this means.&nbsp;
+For some people it means they&nbsp;
+read a couple of blog posts.&nbsp;
+For some people it means&nbsp;
+they read a book about it.&nbsp;
+For some people it means&nbsp;
+they wrote a book about it.&nbsp;
+The standard you hold yourself&nbsp;
+to determines a lot about your&nbsp;&nbsp;
+ability to integrate knowledge in this way.
+I found that I'm in some sense able to move&nbsp;&nbsp;
+much faster on some things through the help of&nbsp;
+AI, but I don't know if I'm learning better.&nbsp;
+I think it's probably because… The hardest&nbsp;
+thing, the thing that is most demanding,&nbsp;&nbsp;
+is so aversive that you try to take&nbsp;
+any excuse you can to get out of it.&nbsp;
+Just having a back-and-forth conversation&nbsp;
+with an LLM where you gloss over…&nbsp;
+It’s entertaining but not&nbsp;
+necessarily anything else.&nbsp;
+It’s such an easy way to get out of the thing.
+In fact, it makes it easier because instead&nbsp;&nbsp;
+of doing some intermediate thinking, there's&nbsp;
+always a next question you can ask a chatbot.&nbsp;
+Yeah. And it's somewhat valuable. That’s part of&nbsp;
+the seductiveness, of course. It's not actually&nbsp;&nbsp;
+useless. But it can substitute for actually&nbsp;
+doing the thing that maybe you should be doing.&nbsp;&nbsp;
+It’s interesting. To what extent should&nbsp;
+you be outsourcing that kind of stuff?&nbsp;&nbsp;
+It’s an interesting judgment call. There is a&nbsp;
+whole bunch of routine work that you want done.&nbsp;
+It's low value for you, so if you can&nbsp;
+get a chatbot to do it, you may as well.&nbsp;
+Somebody interviewed the pioneering&nbsp;
+computer scientist Alan Kay years ago,&nbsp;&nbsp;
+and he was asked what he thought about Linux.
+If I remember his answer correctly, he basically&nbsp;&nbsp;
+said, "It doesn't have anything&nbsp;
+to do with computer science.&nbsp;
+It's just a great big ball of mud.
+There are a few interesting ideas&nbsp;&nbsp;
+in there which are worth understanding, but&nbsp;
+mostly all you're learning is stuff about Linux.&nbsp;
+You're not actually learning&nbsp;
+anything which is transferable."&nbsp;
+I thought that was very interesting.
+There's a certain kind of seductiveness&nbsp;&nbsp;
+to some things where it's sort&nbsp;
+of a Rube Goldberg machine.&nbsp;
+You can just learn about all the&nbsp;
+bits, and it feels entertaining.&nbsp;
+But if you step back and think about&nbsp;
+what you're actually doing here,&nbsp;&nbsp;
+it might not actually be meeting your objectives.
+Maybe you want to become a sysadmin, and learning&nbsp;&nbsp;
+Linux is a great use of your time.
+There's no harm in that at all.&nbsp;
+But if your objective is to understand the&nbsp;
+fundamentals of computing, it's much less&nbsp;&nbsp;
+clear that that's a good use of your time.
+It was certainly an answer I've thought a&nbsp;&nbsp;
+lot about, where for a certain type of mind,&nbsp;
+there is a seductiveness in just learning&nbsp;&nbsp;
+systems and confusing that with understanding.
+Okay, I'll keep you updated on how this goes.&nbsp;
+I owe you a text within a month&nbsp;
+of some revamped learning system.&nbsp;
+I'd be really curious. It's also true&nbsp;
+that tiny incremental improvements&nbsp;&nbsp;
+in this are just worth so much.
+It's the main input into the podcast.&nbsp;
+It's great that the bookshelves are fancy&nbsp;
+and I've got a blackboard or whatever,&nbsp;&nbsp;
+but really the thing that makes the podcast&nbsp;
+better is if I can improve the learning I do.&nbsp;
+So yes, it's worth every morsel of improvement.
+All right, thanks for the therapy session. Great&nbsp;&nbsp;
+note to end on. Thanks, Michael.
+All right. Thanks, Dwarkesh.

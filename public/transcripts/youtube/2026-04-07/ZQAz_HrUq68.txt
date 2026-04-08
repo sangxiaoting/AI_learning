@@ -1,0 +1,148 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=ZQAz_HrUq68
+
+Kind: captions
+Language: en
+Remember that most AI systems are proprietary,&nbsp;
+we have to pay a subscription for them,&nbsp;&nbsp;
+and no one knows how they work or&nbsp;
+what data they were trained on?
+Well, now hold on to your papers Fellow&nbsp;
+Scholars and check out this incredible work,&nbsp;&nbsp;
+and when I first saw it, my jaw hit the floor.&nbsp;
+They absolutely knocked it out of the park.&nbsp;&nbsp;
+They spilled all the secrets. This is an AI&nbsp;
+assistant that is free for all of us forever,&nbsp;&nbsp;
+but not just the model itself. They also&nbsp;
+gave us a 51-page research paper which&nbsp;&nbsp;
+might be the holy bible of creating&nbsp;
+such a system for now. Why is that?
+Well, they show us every step&nbsp;
+of the way of how it was done,&nbsp;&nbsp;
+and the dataset it was trained on as well.
+That is extraordinary. Usually&nbsp;
+something is always missing. Not here.
+They call it Nemotron 3 Super and we are going&nbsp;
+to find out whether it is indeed super or not.
+Okay, so in goes 25 trillion&nbsp;
+tokens as training data,&nbsp;&nbsp;
+and out comes a 120 billion parameter&nbsp;
+AI assistant that is how smart exactly?
+It roughly matches the best closed frontier&nbsp;
+models from about a year and a half ago.
+Note that those models cost billions&nbsp;
+of dollars to train and every detail&nbsp;&nbsp;
+about them was kept in secret.
+And now, we just get this kind of&nbsp;&nbsp;
+stuff for free. That is mind blowing. This is&nbsp;
+amazing for us, consumers and Fellow Scholars.
+So as you see, it is really smart. Up with some&nbsp;
+of the best open models out there in most tests,&nbsp;&nbsp;
+but note that it’s still a bit behind some&nbsp;
+areas. Here’s something that surprised me:&nbsp;
+in this result, they showcase&nbsp;
+two versions of the new model,&nbsp;&nbsp;
+BF16 and NVFP4. They perform roughly the same in&nbsp;
+terms of accuracy, so why the big fuss about this?
+Well, look at this. Holy mother of papers.&nbsp;
+Wow. Well, the NVFP4 version is about 3.5 times&nbsp;&nbsp;
+faster than their other model, and it is up to&nbsp;
+7 times faster than similarly smart open models.
+So the story is not just the similarly smart part,&nbsp;&nbsp;
+the story is that it is 7 times faster&nbsp;
+while it is similarly smart. Goodness.
+Okay, so how on Earth did they&nbsp;
+do that? So here are 4 secrets&nbsp;&nbsp;
+they gave us from the paper, in very simple words.&nbsp;
+Dear Fellow Scholars, this is Two Minute&nbsp;
+Papers with Dr. Károly Zsolnai-Fehér.
+Okay, NVFP4. What is that? This is a way for&nbsp;
+speeding up the AI to run a great deal faster&nbsp;&nbsp;
+by essentially compressing the mathematics it&nbsp;
+uses. Seeing a long number and rounding off&nbsp;&nbsp;
+a few digits. You get a smaller format.&nbsp;
+Less work! What’s wrong with that? Well,&nbsp;&nbsp;
+everything. Normally, if you do that,&nbsp;
+you lose too much accuracy and the&nbsp;&nbsp;
+system will output nonsense. However,&nbsp;
+here, scientists did it the smart way:&nbsp;&nbsp;
+they left the most sensitive calculations&nbsp;
+alone, and did this rounding for the rest,&nbsp;&nbsp;
+where it does not cause trouble. The result&nbsp;
+is that it runs up to 7 times faster than many&nbsp;&nbsp;
+other techniques. And we saw that it gives&nbsp;
+us no meaningful loss in accuracy. Magic.
+But there is more magic. When other&nbsp;
+AI techniques write their answer,&nbsp;&nbsp;
+they write it token by token. Let’s simplify&nbsp;
+by saying word by word. Writing one word at&nbsp;&nbsp;
+a time. But not this one. This one&nbsp;
+calculates several future words at&nbsp;&nbsp;
+once. A whole sentence! Almost. Specifically,&nbsp;
+7 tokens. And then the system verifies the 7&nbsp;&nbsp;
+tokens in one go. Another massive speed&nbsp;
+up. They call it multi-token prediction.
+But why stop there? Let’s add even more magic!&nbsp;
+They showcased these weird things they call&nbsp;
+the mamba layers. What do these do? Well,&nbsp;&nbsp;
+traditional AI systems have a bit of a&nbsp;
+memory problem. They work like a student&nbsp;&nbsp;
+who constantly re-reads the textbook over and&nbsp;
+over again when they are given a question.
+Scientists at NVIDIA say, that’s not the&nbsp;
+way to go. Memory is precious. So instead,&nbsp;&nbsp;
+read the book only once, and take highly&nbsp;
+compressed notes. So this kind of memory&nbsp;&nbsp;
+remembers important details about the&nbsp;
+conversation. However, it is smart enough&nbsp;&nbsp;
+to throw away the filler words. Thus, this system&nbsp;
+can process massive amounts of data efficiently.
+All this sounds glorious, but this still does&nbsp;
+not give us a working system. Why is that?&nbsp;
+Well, this is why. You see that there is a lot&nbsp;
+of addition here? That is the problem. The AI&nbsp;&nbsp;
+generates your answer step by step, and because&nbsp;
+we rounded off the numbers, there is a little&nbsp;&nbsp;
+error. That’s not a problem. Here’s the problem.&nbsp;
+There are many steps, and the error is magnified&nbsp;&nbsp;
+through each step. Imagine trying to walk to your&nbsp;
+car, which is a 100 steps away, but you feel a bit&nbsp;&nbsp;
+sluggish today and every single one of your steps&nbsp;
+is a bit smaller than it was before. What’s the&nbsp;&nbsp;
+result? Well, of course, after a 100 steps,&nbsp;
+you are still really far away from your car!
+So what is the solution? Well, scientists solved&nbsp;
+this by adding back some random noise in the&nbsp;&nbsp;
+system. But wait, this noise is carefully&nbsp;
+crafted in a way that it averages to zero.&nbsp;&nbsp;
+So your new steps are sometimes smaller,&nbsp;
+and sometimes bigger than they used to be,&nbsp;&nbsp;
+but if you average them out, over a 100&nbsp;
+steps, you will be exactly at your car.&nbsp;&nbsp;
+So good! They call this stochastic&nbsp;
+rounding and it is a genius idea.
+Now, not even this technique is perfect.&nbsp;
+For instance, when I give it my favorite&nbsp;&nbsp;
+question about assembling robotic cows,&nbsp;
+with lots of math, I like this guy a lot,&nbsp;&nbsp;
+but it thinks for almost an hour to get&nbsp;
+me an answer for that one. That’s a lot.&nbsp;&nbsp;
+So if I have workloads like that, I like&nbsp;
+to run it on a much faster Lambda instance.
+But still I think the AI game has suddenly&nbsp;
+changed. Closed systems used to dominate. Now,&nbsp;&nbsp;
+not anymore. It seems to me that Jensen&nbsp;
+at NVIDIA is not playing games here. It’s&nbsp;&nbsp;
+in the news that they are going to invest tens&nbsp;
+of billions of dollars into fully open systems&nbsp;&nbsp;
+like this. I am not a money person, I don’t&nbsp;
+know how that works exactly, but if we get to&nbsp;&nbsp;
+own more amazing free AI systems. Well, sign&nbsp;
+me up for this one! What a time to be alive!
+And there is just so much more in the paper,&nbsp;
+I would definitely love to come back for at&nbsp;&nbsp;
+least another video on it. Let me know&nbsp;
+in the comments if you would like that,&nbsp;&nbsp;
+and if you enjoyed this,&nbsp;
+subscribe, and hit the bell.

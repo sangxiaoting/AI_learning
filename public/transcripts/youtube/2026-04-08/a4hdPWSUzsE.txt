@@ -1,0 +1,342 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=a4hdPWSUzsE
+
+Kind: captions
+Language: en
+On Friday evening, 4:00, Anthropic
+dropped a bomb. They said you can no
+longer use thirdparty harnesses, aka
+OpenClaw, with your Claude subscription.
+And yes, I'm on vacation, but I just had
+to talk about this because it is so nuts
+and there's so much to discuss here. All
+right, let's look at the email first.
+Here it is. So, as of April 4th at 12:00
+p.m., we're enforcing the new policy we
+shared previously. So, here's the thing.
+They sent the email the day before, less
+than 24 hours before, saying that if
+you're using a thirdparty harness with
+your Claude subscription, it is now
+definitively against their terms of
+service. But it actually is more
+confusing. But I'm going to get to that
+in a minute. And they specifically
+called out third party harnesses,
+including OpenClaw. They specifically
+said OpenClaw. They are shunning the
+OpenClaw community, and it will no
+longer draw from your claw subscription
+usage limits. to keep it going, you'll
+need to turn on extra usage. Basically,
+you're going to be paying a lot more.
+And maybe it makes sense for their
+business model because cursor actually
+put out a report that says a $200 cloud
+subscription is actually about $2,000
+worth of credits from Anthropic. And so,
+this is all VCback subsidization of
+tokens. And they tried to soften the
+blow a little bit. If this change
+doesn't work for how you use Claude, you
+can cancel your subscription and get an
+automatic refund. So, they will give you
+a full refund, not just your unused
+credits. Boris Churnney, the head of
+Claude Code, said the same thing and
+then continues with, "We've been working
+hard to meet the increase in demand for
+Claude and our subscriptions weren't
+built for the usage patterns of these
+third-party tools. Capacity is a
+resource we manage thoughtfully, and we
+are prioritizing our customers using our
+products and API. You get a onetime
+credit equal to your monthly plan and if
+you need more, you can buy discounted
+usage. Okay, so look, Anthropic is going
+through something right now. Two things
+simultaneously. Their usage is going
+crazy and I'm going to show you that in
+a minute. But also, they don't have
+enough capacity and Anthropic has been
+in such a GPU crunch, they've actually
+used both the stick and the carrot
+approach to try to lower usage or at
+least balance usage a little bit better.
+So, here is the first carrot. A small
+thank you to everyone using Cloud. We're
+doubling usage outside our peak hours
+for the next 2 weeks, and I believe it's
+still going on right now. So, 2x usage
+on weekdays outside of 5 to 11 Pacific
+and 2x usage all day on weekends,
+automatic, nothing to enable. The
+interesting thing, keep this window in
+mind, 5 to 11 a.m. Then the big one, the
+stick. Here's Tariq. To manage growing
+demand for Cloud, we're adjusting our
+5-hour session limit for free pro max
+subs during peak hours. Your limits
+remained unchanged. Here it is. During
+weekdays, 5 to 11 Pacific, you'll move
+through your 5-hour session limits
+faster than ever. So, they've landed a
+lot of efficiency wins, but this will
+affect 7% of users, aka Open Claw users,
+most likely, agentic users most likely.
+But this wasn't even enough. Even after
+this, they still started banning
+OpenClaw as of a couple days ago. But
+that's not it. People have been seeing
+their quotas just explode overnight,
+basically barely using their Cloud
+subscription and then running out within
+a day or two of the week resetting. So,
+a lot of people are having problems with
+this. Okay, so now back to this email.
+Basically, you have less than 20 hours.
+It's about 19 hours since receiving this
+email to change your open claw primary
+model. You can no longer use clawed
+models there. At least I don't think so.
+Again, more on that later. But they did
+specifically call I got this rooster out
+there that won't stop making noise
+during this video. He's just as
+frustrated as I am. But here's the
+thing. It's actually very easy to swap
+out your models. There is effectively no
+switching cost to Frontier models. Zero.
+In fact, let me show you a tweet I put
+out and let me show you who responded
+and agreed. So, here's my post. There is
+literally zero switching cost for
+models. In fact, right when I received
+that email, here's what I did. Switch
+anywhere we're using cloud models to use
+GPT 5.4 thinking instead through the
+codeex API. I meant codeex ooth instead.
+But, of course, OpenCloud knew what I
+meant and did it the right way anyway.
+Make sure to switch the prompt files for
+the ones optimized for GPT. I'm on it
+switching. Okay, literally like 3
+minutes later, all of my clawed models
+in OpenCloud were swapped out for GPT
+5.4. It was that easy. I didn't have to
+do anything. But let me point out one
+thing in particular. Make sure to switch
+the prompt files for the ones optimized
+for GPT. I've talked about this before,
+but I just want to touch on it really
+quickly. I have multiple variations of
+every single prompt file in my open
+clause system. That makes it really easy
+to swap models around, but more
+importantly, I optimize the prompts for
+the models. So, for example, a prompt
+for Opus 4.6 looks very different than a
+prompt doing the same exact thing for
+GPT 5.4. So, just keep that in mind.
+Little tip. And Mr. Jack Dorsey, creator
+of Twitter, agreed with me. Yes. So, he
+agrees. There's just literally zero
+switching cost. So even though Enthropic
+gave us very little time to swap out our
+models in OpenClaw, it was just dead
+simple. There really isn't that much to
+it, especially if you already have the
+prompt file optimizations in place. If
+you didn't, takes a few extra minutes at
+most. And by the way, if you want to run
+some of this on open source models,
+Digital Ocean is a great option and the
+sponsor of today's video. Building and
+scaling AI in production is harder than
+it should be. If you watch this channel,
+you know that better than anybody.
+You're either going to a hyperscaler
+that is overly complex or you're
+building on raw GPUs which have no
+software and you're doing everything
+yourself. Meanwhile, specialized
+inference rappers are merely software
+layers renting GPUs from Neocloud
+middlemen. But there is a better way.
+Digital Oceans, a Gentic inference
+cloud, is purpose-built for production
+AI. I've actually been using Digital
+Ocean for a long time in my previous
+businesses as well. So super excited to
+tell you about them today. With Digital
+Ocean's Agentic inference cloud, you get
+the best of both worlds. You get
+reliability and simplicity. And this is
+inference optimized infrastructure. If
+you're an AI developer, you get
+everything you need to deploy AI models,
+scale to millions of requests, and
+operate reliably in production without
+the complexity or cost of a hyperscaler,
+and without having to write all the
+software yourself, like going to a bare
+metal GPU. AI companies running at high
+volume are already experiencing gains in
+throughput, latency, and cost
+efficiency. So, if you're building and
+scaling AI in production, check out
+Digital Ocean's Aentic inference cloud
+today. Tell them I sent you. Link down
+below. And to make things even more
+confusing because Anthropic cannot seem
+to add clarity to their policies
+whatsoever, Shamir Webbby, sorry if I'm
+pronouncing your name right, said, "What
+about agents SDK?" That's what I've been
+using to use my cloud subscription with
+OpenClaw. And Boris Churnney said, "No
+changes to agents SDK at this time.
+Working on improving clarity more." This
+was a few days ago. We still don't have
+clarity. We still don't know. So, is it
+okay to use the agents SDK within the
+OpenClaw ecosystem? I don't know. At
+this point, it's not even worth taking
+the risk. It's not even worth using it
+because at the same time that Enthropic
+is trying to cut your quota, at the same
+time Anthropic is having this GPU
+crunch, OpenAI is resetting their quotas
+all the time. They have very liberal
+quota policies. I don't think I've ever
+come up against a codeex quota. So, just
+keep that in mind. But GPT 5.4 doesn't
+have the best personality, especially
+with an OpenClaw. But the OpenClaw team
+has been working on that. Let me show
+you what it looks like to be in a GPU
+crunch at all times. This is Claude's
+status page. Look at all these reds.
+Their total uptime is 98.77%
+for claw.ai. I know that sounds really
+high, but if you don't have 99 plus,
+that is effectively unusable. The Claude
+API dropped below 99%. Claude Code still
+sitting above 99%. Platform still
+sitting above 99%. And if you thought
+all of this means they aren't growing
+that quickly, you would be so wrong.
+Look at this. Anthropic boasts revenue
+run rate of 30 billion,
+finally surpassing OpenAI's revenue run
+rate, at least what we know publicly.
+And they've actually landed a huge deal
+with Google to basically use their TPUs.
+So at the end of 2025, Anthropic's
+revenue run rate was 9 billion and now
+it's 30 billion. They are seeing
+absolutely vertical growth on their
+revenue and that's why they're in such a
+GPU crunch. They're doing everything
+they can to keep up with demand and they
+can't. So if you thought AI was a fad,
+if you thought AI was hype, just look at
+these graphs. Obviously, the coding use
+case alone is worth 30 billion ARR
+because that is what Anthropic is
+focused on almost entirely. This is what
+their run rate looks like. Look at this
+absolutely vertical line right here.
+Just so crazy. And so, let me talk about
+this for a second. If you are building
+anything with agents, you need a
+multimodel strategy. And I'm not just
+talking about multi-frontier model. You
+should be incorporating local models as
+well. Now obviously local models can't
+do the kind of highle orchestration and
+planning as well as a frontier model.
+They can't really do coding as well as a
+frontier model. But that's okay. You can
+actually offload large parts of your
+agent stack to open source models.
+Classification, data extraction,
+summarization. There are a number of
+different use cases, especially with
+Gemma 4 now coming out that's really
+good. We have Quen 3.5 that's really
+good. And I have a video coming soon
+about how to do that. Subscribe if you
+aren't already to make sure you get
+that. And apparently there is now a
+classifier that is blocking third-party
+harnesses and what Peter says
+first-party harnesses. Look at this.
+Anthropic now blocks first party harness
+use too. Okay, Claude. If you append the
+system message, a personal assistant
+running inside OpenClaw is Claude here.
+Boom. Third party apps now draw from
+your extra usage, not your plan limits.
+So, Anthropic is literally banning
+prompts. literally banning props. This
+is ridiculous at this point. However,
+Boris Churnney jumped in. This is not
+intentional. Likely an overactive abuse
+classifier looking and working on
+clarifying the policy going forward.
+They still haven't clarified it. It's
+actually been super unclear for weeks
+and weeks now. What is allowed? What is
+not allowed? Is the agents SDK allowed
+or not? Is the agents SDK with extra
+usage allowed or not? Why is it so
+complicated? Why can't they just clarify
+it? Just give us a policy and change it
+in the future if you need to, but give
+us something now. The lack of clarity is
+beyond frustrating. So look, this is
+frustrating. Yes, it is increasingly
+difficult to depend on anthropics models
+because of their changing policies,
+their unclear policies. But at the same
+time, we have Open AI who quote unquote
+acquired Peter Steinberger who says come
+use OpenClaw with us. Of course they do.
+Of course they want to. And the
+reputation gained from Peter Seyberger
+joining OpenAI and Anthropic shunning
+OpenClaw users is palpable. And OpenAI
+resetting quotas all the time and
+OpenClaw being made to work well with
+GPT 5.4's personality or at least making
+GPT 5.4's personality usable. So we're
+all headed to GPT 5.4. It seems open AAI
+is doing the right thing. anthropic.
+They are being frustrating to say the
+least, but they're doing what's best for
+their business. They're generating a ton
+of revenue. They have hyperfocus on
+reaching AGI first. So, all of this
+OpenClaw stuff, it doesn't matter to
+them. That's the thing. It doesn't
+matter to them. And here's Peter
+Steinberger's tweet saying, "One of the
+biggest upgrades in the latest version
+of OpenClaw is the fact that it makes
+GPT 5.4's personality actually good. It
+actually feels right. It feels claw."
+So, anyone who want to help me test the
+GPT 5.4 upgrades and someone says,
+"Okay, works well for me. Getting the
+old clawed vibes. Thanks a lot. It took
+a hammer, but I managed to beat emotions
+into GPT." So, very cool. Very good
+work, Peter. But again, multimodel.
+Don't depend on one model. Get the most
+out of every model. That is the way. If
+you enjoyed this video, please consider
+giving a like and subscribe. and I'll
+see you in the next

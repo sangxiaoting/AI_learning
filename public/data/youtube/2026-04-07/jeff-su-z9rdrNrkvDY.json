@@ -1,0 +1,132 @@
+{
+  "context_analysis": "Jeff Su讲解Claude Co-work桌面应用的七大核心能力，对比其与传统Chat的区别，展示如何通过本地文件访问、持久记忆、连接器、技能和工作流自动化提升工作效率。",
+  "id": "z9rdrNrkvDY",
+  "type": "youtube",
+  "title": "Learn 80% of Claude Cowork in Under 20 Minutes",
+  "author": "Jeff Su",
+  "date": "2026-04-07",
+  "dateText": "Apr 7",
+  "duration": "18:54",
+  "tldr": "Jeff Su快速上手指南，深入解析Claude Co-work桌面应用的七大核心能力，展示其相比传统Chat在文件处理、持久记忆和工作流自动化方面的显著优势。",
+  "takeaways": [
+    "Claude Co-work通过本地文件访问实现无限文件处理能力，Chat存在20文件/30MB对话限制",
+    "持久记忆系统将信息存储在CLAUDE.md和MEMORY.md文件中，支持长期知识积累",
+    "连接器集成Gmail、Google Drive、Notion等工具，实现跨平台自动化工作流",
+    "技能功能支持将重复性工作流程封装为可重复使用的自动化模块",
+    "定时任务功能可自动执行如邮件分类、草稿回复等周期性工作"
+  ],
+  "quote": "Co-work saves memory to actual files on your computer. Meaning it can remember every decision you've asked it to hold, every preference you've set for as long as you need. — Co-work将记忆保存到您计算机上的实际文件中。这意味着它可以永久记住您要求它保留的每一个决定、每一个偏好。",
+  "link": "https://www.youtube.com/watch?v=z9rdrNrkvDY",
+  "tags": [
+    "Claude Co-work",
+    "AI效率工具",
+    "工作流自动化",
+    "LLM应用",
+    "本地文件处理",
+    "AI PM"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "Claude Chat与Co-work的三大核心差异",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "文件处理方面，Chat存在20文件/30MB对话限制，Co-work通过本地文件访问无此限制；上下文窗口方面，Co-work更大，减少压缩对话导致信息丢失；输出形式方面，Chat输出文本需手动保存，Co-work直接生成可用文件交付"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Chat限制：20 files per conversation, 30 megabytes per file；Co-work可处理400+MB PDF并自动拆分章节"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "提示词策略需转变：Chat采用任务优先语言逐步指令，Co-work采用结果优先语言定义最终目标、约束和质量标准"
+        }
+      ]
+    },
+    {
+      "subtitle": "Capability 1: 本地文件访问与处理",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Co-work能在计算机上直接创建、编辑和组织文件，这是其他能力的基础"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "案例1：从100+张收据照片自动生成含日期、供应商、类别、金额的Excel报表，标记模糊项；案例2：将400+MB PDF按章节拆分为独立文件；案例3：将Notebook LM生成的不可编辑PPT幻灯片转换为可编辑的PowerPoint"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "此能力使Co-work从对话工具转变为实际工作者，直接交付可用成果而非仅文本建议"
+        }
+      ]
+    },
+    {
+      "subtitle": "Capability 2: 持久记忆系统",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "相比Chat在线存储有限记忆，Co-work将记忆保存在计算机本地文件(CLAUDE.md和MEMORY.md)中，理论上可无限存储长期偏好和决策"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "新会话中询问Newsletter编辑历史，Co-work能准确回答曾产出7期内容，具体涵盖2期Gmail、2期Chrome等；通过让Co-work对比两版摘要差异并保存偏好，实现个性化记忆"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "持久记忆是Co-work区别于Chat的核心优势，使AI能积累和学习用户偏好，实现真正的个性化协作"
+        }
+      ]
+    },
+    {
+      "subtitle": "Capability 3: 连接器(Connectors)生态",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "通过连接器让Co-work访问Gmail、Google Drive、Notion等外部工具，实现跨平台读写和工作"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "案例1：让Co-work分析过去一个月邮件提取写作风格并保存；案例2：让Co-work对比Google Drive的Gemini转录与Notion会议记录，找出遗漏的行动承诺"
+        },
+        {
+          "label": "局限与挑战",
+          "content": "如需连接未支持的工具，可通过MCP(模型上下文协议)添加自定义连接器"
+        }
+      ]
+    },
+    {
+      "subtitle": "Capability 4: 技能(Skills)功能",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "将重复性工作流封装为可重复调用的技能，一键执行复杂多步骤任务"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "案例1：将文本润色封装为清晰简洁技能；案例2：将每周团队更新合并为领导层汇报的完整工作流（需10步骤）"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "建议先手动完成工作流，再反向工程创建技能，比直接用Claude创建技能更有效"
+        }
+      ]
+    },
+    {
+      "subtitle": "Capability 5-7: 项目、定时任务与浏览器扩展",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "项目能力使Co-work可写入知识文件；定时任务可按计划自动执行工作流；浏览器扩展目前可靠性较差"
+        },
+        {
+          "label": "局限与挑战",
+          "content": "浏览器扩展存在三大问题：速度慢、不可靠、消耗大量配额；Web搜索无法强制启用，常回退到不可靠的扩展"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "定时任务案例：每天早上6点运行邮箱分类任务，生成报告和草稿回复；需提前设置工作流规则和提供反馈训练"
+        }
+      ]
+    }
+  ]
+}

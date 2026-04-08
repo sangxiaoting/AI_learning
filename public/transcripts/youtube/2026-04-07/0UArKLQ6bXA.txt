@@ -1,0 +1,2060 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=0UArKLQ6bXA
+
+Kind: captions
+Language: en
+I have spent now like 1500 hours in
+Claude and I am still iterating on my
+setup and improving it literally every
+single day.
+&gt;&gt; So we've talked about Claude, there's
+Claude, there's ChatGBT, there's cursor,
+there's co-work. When should PMs be
+using which?
+&gt;&gt; There's not [snorts] like a right or a
+wrong answer. Although for most advanced
+PM work, you should be using some type
+of a coding agent.
+&gt;&gt; Hannah Stalberg is a PM at Door Dash and
+former Google APM. She spent over 1,500
+hours in cloud code, wrote the viral cla
+code for everything process, [music] and
+uses cla code all day at her work.
+Hannah, what's the biggest mistake PMs
+make when using [music] claude code for
+product work?
+&gt;&gt; I think the biggest mistake is give that
+people give up too early.
+&gt;&gt; What's underhyped versus overhyped in AI
+for PM?
+&gt;&gt; I think that underhyped is following
+your curiosity.
+&gt;&gt; I, for one, had never heard of this. I
+think it's a genius idea. Can you just
+unwrap the covers and show us exactly
+what [music] this looks like?
+&gt;&gt; This is what I call team OS or team
+operating system, which is your team's
+[music] knowledge base that helps
+everybody on the team move faster.
+&gt;&gt; You said cloud code is the most
+misleading name in [music] AI. Why?
+because it's not just for
+&gt;&gt; Before we go any further, do me a favor
+and check that you are subscribed on
+YouTube and following on Apple and
+Spotify podcasts. And if you want to get
+access to amazing AI tools, check out my
+bundle where if you become an anal
+subscriber to my newsletter, you get a
+full year free of the paid plans of
+Mobin, Arise, Relay app, Dovetail,
+Linear, Magic Patterns, Deep Sky,
+Reforge Build, Descript, and Speechify.
+So, be sure to check that out at
+bundle.ac.com. And now into today's
+episode.
+&gt;&gt; Hannah, welcome to the podcast.
+&gt;&gt; Thank you so much for having me here.
+I'm super excited. So, I've been
+thinking a lot about the future of
+product management. And one thing I'm
+noticing across companies in every
+geography is that PMs are supporting
+more and more people. One PM might have
+supported three or four engineers in the
+past, now they're often being asked to
+support 10 engineers. And on top of
+that, where they might have just mainly
+concerned themselves with design and
+engineering in the past, now they have
+to interface with everybody, sales,
+marketing, support, the list goes on and
+on. How are you dealing with this? And
+what does the future look like? for PMs
+in this world.
+&gt;&gt; Yeah. So I think the future looks like
+exactly what you're saying which is that
+a singular PM is going to be supporting
+a broader set of functional roles and at
+a much higher number than in like the
+previous team sizes. At the same time I
+think we're seeing in the industry that
+roles are starting to merge together. So
+it used to be that generally all product
+decisions were made by the PM and then
+engineers were just writing code and
+design was just doing design. But now
+what we're seeing is you know engineers
+are building products and maybe even pro
+like deploy like deploying them without
+a PM designers are prototyping and
+building product and the whole everyone
+on the team is starting to make product
+decisions. Similarly like as PMs we're
+starting to do a lot more data analysis
+also prototyping making designs and so
+we're starting to see a lot more blended
+functions where everyone kind of needs
+to have the best context that used to be
+kind of isolated within different roles
+on the team. So, your answer to this is
+to create a well organized high context
+repo. I for one had never heard of this
+until I saw [laughter] you writing about
+it and talking about it. I think it's a
+genius idea. Can you just unwrap the
+covers and show us exactly what this
+looks like?
+&gt;&gt; I can. Okay, cool. So, this is what I
+call like team OS or team operating
+system, which is your team's knowledge
+base and storing all of your team's
+shared context in one place that helps
+everybody on the team move faster um and
+do their job to the best of their
+abilities, especially being able to get
+context across many different types of
+functional roles. So, what we see here
+is there's three main parts of the team
+OS. You have the cloud folder. This is
+the folder where you might put shared
+agents. uh commands and skills that are
+shared by everyone on your team, which
+we're going to talk about a little bit
+more. Then I have the product
+development folder, and here you're
+going to see a lot of different
+subfolders across different functions.
+And then we have a team folder where you
+might have like team level documents
+like onboarding guides or retros. Um and
+at the top we have the Claude MD at the
+root level. This is the guiding uh the
+guiding route for Claude throughout your
+repository. And this has a few different
+key components. So the first is it has
+what's called a doc index and this tells
+Claude how to navigate the repository.
+So Claude needs to know where to go to
+look up different types of information
+so that you can do natural language
+queries in the repo and get the answers
+that you need. Um the other two things
+that I like to have at the root level
+are who is on my team along with their
+handles in key products and then uh like
+key slack channels or DM groups. And the
+reason for this is you really when
+you're kind of doing all of your work in
+this repository, you want Claude or and
+also to be clear, this works with any
+type of coding agent. It doesn't have to
+be Claude. Um you could do this with
+Codeex, you can do this in cursor. Um
+you want Claude to know who's on your
+team so that you can just write queries
+like Slack Alex about the bug that came
+up on the customer call today. And
+because the Claude MD file is loaded
+every single time, it's going to load
+Alex's Slack ID and it's going to be
+able to use the Slack MCP to send Alex
+to Slack. It's also really nice if
+you're talking about feedback or like
+meeting notes because then when you're
+like, "Oh, I got feedback from Taylor,"
+Claude knows that Taylor is your design
+partner and is going to be able to
+better contextualize that feedback
+without every single time you writing
+yes like Taylor the designer on my team
+gave me this feedback. Um, and similarly
+for the Slack channels by knowing like
+all the channels and what the purposes
+are, you can write natural language
+queries like hey send this in the
+product channel, send this in the end
+channel and claude will know exactly
+what to do. So, how has your Claude MD
+file changed over time? What have you
+learned in the 1500 hours you've put in
+through trial and error and making
+mistakes?
+&gt;&gt; So, I think this is actually what a lot
+of people get wrong about CloudMD, which
+is you don't want very much in your
+CloudMD file. So, Claude MDs should be
+very very lean, especially in a team
+repository like this. And generally if
+we start looking through the repository
+um what we see is that there's actually
+multiple levels of cloud MB files. And
+so we'll see here here's the root level.
+This one loads every session. The
+remaining files are going to start to
+load progressively as you type natural
+language queries which is something that
+we're going to walk through. And this is
+really important because the way that
+this repo is structured is around the
+theory of context management. So I like
+to call this like context 101. But
+there's four like key concepts that you
+need to know about context. One is what
+is context? Context is the amount is the
+information that is in a given session
+with an LLM. Like what is the
+information that the LLM can access at a
+given point in time. The next is the
+context window which is how much
+information can the LLM hold. And
+there's all the frontier labs recently
+upped this to a million tokens which
+sounds a little bit jargony but
+basically means that it can hold 7 to
+eight novels worth of text which if you
+start think about it is a lot but the
+amount of docs that are produced by a
+given team and company is a lot more
+than that. Um the next part is
+compaction. So when your context window
+gets full all that information needs to
+get compressed down so that the LLM can
+keep going either in the conversation or
+in the work that it's going to do. But
+when that happens, you lose a lot of
+fidelity and so you have kind of a like
+compressed summary of the information
+which is much less useful. And then the
+fourth concept is thinking room. And
+this is really important because
+thinking room is basically the
+difference between how much information
+you have in the conversation and how big
+the context window is. And so that is
+where the model can think and reason.
+Um, and if you have a lot of
+information, the more and more
+information you have, just like a
+person, the less and less room there is
+to think and reason. And so the whole
+repository, And so the whole repository
+is structured around helping Claude read
+and use the right information at the
+right time in order to effectively work
+on the task at hand. Um, and a lot of
+people don't know this, but I like, so I
+have this little bar in my status line,
+and it's actually going to monitor how
+much context I'm using um, as we write
+queries throughout the repo, and this is
+going to help us kind of see how much
+context um, is being consumed by the
+conversation.
+&gt;&gt; Awesome. I hadn't actually seen the
+nested cloud MD files before. So, how
+what do those look like inside there?
+&gt;&gt; Yeah, so what we're going to see in the
+repo is that the cloud MDs are generally
+just doc indexes. So this is just
+telling claude like what is in this
+folder and what is the purpose of it.
+And the reason for that is if you didn't
+have these doc indexes clog would
+actually need to be running explore
+agents like search the repository um for
+any queries that you write. So I
+actually want to do like a couple
+examples to kind of show how this works.
+So in the product folder um you know one
+of the things we might have is who our
+customers are. And what's really cool
+about how you structure this repo is I'm
+going to say like who are my top
+customers. And what we're going to see
+here is we're actually going to be able
+to see how Claude navigates it. So it's
+loading these Claude MD files and using
+the doc indexes to navigate throughout
+the repository and find the exact
+information needed to answer my query.
+Right? And now it's starting to read,
+okay, in the customers folder, who are
+my customers? What is the account
+context that I've stored on them? And
+what you can see here is that we've only
+used 3% of the context window. And
+Claude's not looking in the wrong
+places, right? Claude didn't go into the
+analytics folder. It didn't go into the
+data engineering folder. It didn't read
+a single unnecessary piece of
+information to answer my query, which
+means we still have ton of room to
+think.
+&gt;&gt; So the art of having good Claude MD
+files is actually minimizing the amount
+of context that Claude needs in order to
+answer a given question. It's minimizing
+the amount of context that's consumed
+and making sure that you're only
+consuming context that's relevant to
+what you are actually trying to do,
+right? Like if I'm asking about my
+customers, I don't need to go read a
+bunch of SQL queries.
+&gt;&gt; Very cool.
+&gt;&gt; Um and we can also start to do like more
+interesting things here. So, you know, I
+can say um what who did I meet with over
+the last two weeks? Um and what did I
+learn? because I store all my customer
+information inside the repository in a
+really structured manner. So if we go
+under my customers folder, I have a file
+for each of my customers. And in here, I
+actually have a cloud MD on the
+customer. And in here, this is where I'm
+saying, okay, what's the key? Like what
+you want in a cloud MD is things that
+you need on 80% of sessions. And so
+generally for like a customer, you might
+want to know, okay, who are the key
+contexts of that customer and what do
+they do? What's their segment? What are
+And then again, I have a doc index here.
+This is how to find key resources on
+this customer account. Now Claude is
+like primed to know where to go for
+everything about this customer. And so
+now Claude's doing an analysis and
+saying, "Okay, today's March 25th. What
+was the last two weeks? There's a lot of
+calls. It's going to read them." But
+actually look here at what it's reading.
+It's only reading the summary files.
+It's not going into like every single
+transcript, which I don't know about
+you, but like my customer calls can be
+like more than an hour, right? Claude
+would not be able to go and quickly and
+easily synthesize, you know, 50
+transcripts really quickly at high
+fidelity. Um, which is why the repo set
+up that it only needs to go into the
+transcripts if the summary doesn't have
+what it needs to like answer my
+question.
+&gt;&gt; Here's the dirty secret about
+prototyping. You spend two weeks
+building a prototype. You validate your
+assumptions. Engineering loves the
+direction. Then what happens? You throw
+the whole thing away. Bolt changes this
+completely. When you prototype in Bolt,
+you're not building throwaway mockup.
+You're building real front-end code that
+integrates with your existing design
+systems. So, when you hand it to
+engineering, they don't throw it away.
+They ship on top of what you've built. I
+use Bolt every single day. I host my
+land PM job cohort on it. And honestly,
+I'm up till 2:00 a.m. some days just
+vibing in the tool, having fun, and
+building. That's when you know a product
+is good. When you're using it past
+midnight, not because you need to, but
+because you want to. Check out Bolt at
+bolt.new/ aos. That's bt.new/ new/ aka
+link in the show notes. Today's episode
+is brought to you by Jira product
+discovery. If you're like most product
+managers, you're probably in Jira,
+tracking tickets and managing the
+backlog. But what about everything that
+happens before delivery? Jira product
+discovery helps you move your discovery,
+prioritization, and even road mapping
+work out of spreadsheets and into a
+purpose-built tool designed for product
+teams. Capture insights, prioritize what
+matters, and create road maps you can
+easily tailor for any audience. And
+because it's built to work with Jira,
+everything stays connected from idea to
+delivery. Used by product teams at
+Canva, Deliveroo, and even The
+Economist. Check out why and try it for
+free today at aten.com/roduct-discovery.
+That's a t-san.com-discovery.
+Jurro product discovery. Build the right
+thing. So some adding some more files in
+the form of summaries is actually going
+to help it collect the relevant
+information faster.
+&gt;&gt; Correct. So you basically are always
+wanting to think about how to structure
+information so that Claude can quickly
+and easily find what it needs to know in
+a format that's really easy to use. um
+which kind of goes to another topic
+within the repository which is your
+shared agents commands and skills. So
+when if you want struct while LLMs like
+can work really well with unstructured
+information, it is obviously easier if
+information like shares a common
+structure. And so teams that are using
+this system ideally should try to
+organize information in a structured way
+for Claude. So that for example, all all
+customer call summaries follow the same
+format. That means that when Claude
+needs to do a synthesis on like hundreds
+of different customer calls, they're all
+following the same format, which makes
+it much easier for Claude to work with.
+And so that's why, for example, you
+might have a customer call skill. And
+this and then you would have everyone on
+your team who's summarizing a customer
+call summarize it in exactly the same
+way. Put it in exactly the same place.
+Then when you need to do cross customer
+analysis, even though maybe you had 10,
+15, 20 different people taking those
+different calls with different
+customers, everything is organized in a
+very consistent fashion that Claude can
+work with super easily and super
+quickly.
+&gt;&gt; So you're multiplying leverage by
+creating these skill files to take
+unstructured inputs. Maybe people have
+different ways of interviewing, but then
+structure the summaries in a similar
+way.
+&gt;&gt; Exactly. So then all of your summaries
+come out with the exact same format.
+even if maybe you know your company has
+a ton of different account managers who
+would all synthesize things differently.
+&gt;&gt; Very cool.
+&gt;&gt; Um and so now we see okay we got like a
+pretty detailed analysis of the last few
+weeks. So it's going to tell me okay who
+I met with who did what was the customer
+when did I meet with them who was in the
+meeting what happened on each of them.
+Um super fast. Um and then it also gave
+me like a quick crosscutting theme
+analysis. And all of that was just off
+of a natural language query. I just said
+you know what happened in the last two
+weeks. What did I learn? [clears throat]
+&gt;&gt; Super powerful.
+&gt;&gt; So, kind of continuing to walk through
+the repository. So, as you can see,
+there's a lot of different parts that
+you might have in a product folder. You
+might have some competitive research,
+maybe you have your launch emails,
+meeting summaries, your PRDs, um
+processes that you need to run, context
+about how your product works, things for
+sales enablement, strategy docs. Here
+you might keep like business context
+about the company or the landscape that
+you're operating in, who your users are
+and what they need to be doing. um your
+road maps, vision docs, and then a
+workflow is like a multi-step repeatable
+process um that you need to do often on
+some cadence. And Carl has like a great
+system for getting this done that I've
+actually applied in a lot of my own
+workflows as well.
+&gt;&gt; Got it. And what is that system briefly?
+Yeah. So, basically when you need to do
+like a complex like multi-step
+operation, um the way to do the
+operation is stored in the cloud MD of
+the folder and it has it's kind of
+similar to having a command. Um and then
+there's different files that says how to
+execute like each part of the process um
+to then synthesize something into a
+final document. Um, and so I find this
+to work really well for like meetings
+where you might need to pull a bunch of
+different information together. Um, and
+then put it in a document in a
+repeatable workflow that you want to run
+on some cadence.
+&gt;&gt; Got it. What else do we need to know
+about this repo if we were trying to
+create our own?
+&gt;&gt; Yeah. So, we're we talked about the
+product portion. Um, and we can go we
+can go deeper into like what each of the
+different folders are and like why you
+might use them. Um, but I think it's
+actually also really important to talk
+about the other functions as well
+because this is how everyone scales
+themselves and get the most out of the
+repository. I don't view the team OS as
+like something to help everyone become a
+better PM or to be better at doing
+product. I really view it as a way for
+everyone on the team to scale themselves
+and help everyone to leverage what's
+best about all of their teammates. So
+for example in your analytics folder you
+might have a links to all your
+dashboards all of your experiment
+analyses and the results of them the
+investigations that were done and then I
+think the most important part is metrics
+playbooks queries and schemas. So this
+is how you scale data analysis across
+the team. So I like to generally
+organize by topic area and then product
+area. So in this dummy repo I made up a
+company called Forge Labs. They are
+bringing another AI prototyping product
+to market. Um, and so these are
+different parts of the Forge Labs
+product. And here we start to see, okay,
+so here we've outlined all of like the
+metrics for the billing part of the
+Forge Labs product. And what and then
+here and what you'll see here is that um
+here we've linked all of the um
+dashboards that are relevant to this.
+And then we also have a link into where
+the queries are for these metrics. And
+then if you go under queries under
+billing then you would have all of the
+SQL queries um for how to query the
+metrics related to billing. And then
+here in the schemas we would have all of
+the table schemas that actually back
+these metrics. And so if I wanted to do
+data analysis, I would have all the
+references that I need as a PM to do
+correct analysis um and have all of like
+I basically get to have access to like
+the analyst on my team's brain and
+everything that she's so amazing at and
+set me up for success in doing analysis
+correctly. Um and so we can do some
+pretty cool stuff here as well. So for
+example, I might say I'm just going to
+use uh Whisper Flow. Um, so how do we
+calculate generation success rate? Show
+me the metric definition, the SQL query,
+and the table schema. And so now I get
+to know everything about how to
+calculate this metric, what data tables
+to use, how it's defined, um, what
+tables it comes from. And um, it's going
+to be able to give me all of this. And I
+think this is really important because
+especially if you're once you have
+anything that's more than like a very
+very early stage product, your data
+tables can get really complex. the right
+way to query different metrics um is not
+always obvious and if you don't have the
+right guidance for claude and you just
+point it at a database and say hey pull
+this stuff it might not do it correctly
+and so now here we see okay um see if we
+can expand this yeah so here and this
+kind of goes to how the repository is
+structured when I put that query in it
+knew exactly what files to reference so
+it went in the SQL it went in the table
+schemas it went in the metric
+Um, and then it started reading
+everything about this part of the
+product. And then it actually was able
+to tell me, okay, how is this metric
+defined? And then what is the way to
+query for this? And then what is the
+schema that backs all of this? And if
+this was not like a dummy repo and like
+a demo instance, like you can actually
+have this hooked up to like Snowflake
+MCP or another analytics MCP and you
+could actually start having Claude do
+the analysis for you. Um similarly we
+could say okay you know what do we know
+about why users drop off during custom
+domain setup and because in the repo I
+have a playbook that would be an example
+of what an analyst might add into the
+repo for how to do the funnel analysis.
+And so um Claude is going to be able to
+know okay like how do we do this funnel
+analysis? Maybe this has already been
+investigated. it's going to find all the
+information in the repository and then
+use that to answer my question and
+answer it correctly. And so we become a
+lot less concerned with like
+hallucinations, inaccurate data,
+inaccurate analysis because everything
+that you're using as a PM to do the
+analysis is something that's actually
+been checked into the repository by an
+analyst or a data scientist on your team
+and you know that you're using like
+verified approaches to get the metrics.
+&gt;&gt; Very cool. So you'd have like an analyst
+or data scientist really audit some of
+these playbooks and some of the table
+descriptions and join keys that we saw
+earlier.
+&gt;&gt; Exactly. So the repo is something that
+like the whole team should be building
+together. So um on my team at work like
+uh the data scientist that I work with
+owns our analytics folder and every time
+that we're building a new feature we her
+and I are aligning on okay what are the
+metrics for this feature? What are the
+backing queries for the metrics? What
+are the tables? And then we're making
+sure that all of it's documented in the
+repository so that when we when we roll
+out a feature I can actually check how
+it's doing without being reliant on the
+data scientist or our engineers can also
+check on how it's doing because they're
+empowered with all of the queries that
+they need to also do like validation of
+the feature in production. Um and the
+organization here is really important
+and there's a reason to split out like
+the metrics queries and schemas and
+again it goes to this theory of context
+management. So you might just have a
+question about metrics, right? You might
+just want to say, you know, what are the
+metrics for the billing feature, and you
+don't want Claude to then go pull all
+the queries and all the schemas to
+answer that question for you. You just
+want it to know what the metrics are.
+Um, and I find this really helpful for
+when I'm writing a PRD, for example. I
+can have it I can have Claude easily
+look up like every metric I've ever
+defined for my product, figure out,
+okay, which metrics might we want to
+update? Which ones do we need to add in?
+because I have all that context like
+really well structured by feature in the
+repository.
+&gt;&gt; Love it. This is really speaking to kind
+of the future of how engineers don't
+want to have to be reliant on a BM to
+get a data report. Here you're the PM is
+actually becoming the glue making sure
+that analytics has agreed on these are
+the right things put the right things
+into the repository before a feature
+starts. But then once a feature is
+launched, if an engineer is on call and
+the whole team is asleep, they can just
+query it all by themselves.
+&gt;&gt; Exactly. Um and I think and we actually
+make this part of our feature launch
+process. So when we're rolling out a new
+feature, the feature is not rolled out
+until the repository is updated because
+that's how we know that we're continuing
+to create that shared context so that
+everyone has what they need to like do
+their job effectively as our product go
+as our product grows more and more
+complex.
+&gt;&gt; Awesome. Are there any other nooks and
+crannies people should know about of
+this repo?
+&gt;&gt; So I think the repo really benefits
+every function. So I just put an example
+of like what you might have in an
+engineering folder here. So I put some
+bug investigations and then we use the
+term RFC's for like technical design
+documents. And again this goes to
+helping everyone to do their best work,
+helping everyone to have shared context
+and historical context. So you might
+store all the bug investigations across
+your product in the repository because
+unfortunately we usually have bugs more
+than once and oftent times in like the
+same part of the product and so it's
+really helpful for the person
+investigating that bug to be able to see
+okay what are all the bugs that have
+happened here what was the approach or
+so here like I saved um a bug
+investigation plan and we can see okay
+like when did this happen what were we
+investigating what was the scope what
+parts of the infrastructure did it
+touch, how was this analyzed, what was
+the root cause, how was it fixed, all
+the data examples and all of the
+queries. And so then if someone has to
+go investigate another bug here, they
+have all the context of how every bug
+was ever investigated. And this helps
+them and helps them to like work with a
+claude or another type of coding agent
+to really effectively investigate
+another bug.
+&gt;&gt; Very powerful. And who owns basically
+the engineering folder like your tech
+lead? Um so on my team like everyone is
+an owner of our knowledge repository. So
+each of like the functional leads kind
+of takes ownership of like okay how you
+know how do we want certain things done
+within this area but the team as a whole
+needs to agree on the way to structure
+the information because LLMs don't work
+as well with unstructured information.
+Um and then it becomes the onus on
+everyone to be updating the repository
+and making the team's shared context
+even better. And I think that this is
+how teams become really high performing
+in an AI native era is everyone is
+working to improve the repository to
+make the team faster. Right? Everyone
+should be writing shared skills that
+benefit the team, shared commands that
+benefit the team, agents that help the
+team. Um, we as PMs but also everyone on
+the team can also set up shared
+automations which I kind of think of as
+the third pillar of this. This could be
+for example using the information in the
+repository to run a weekly report that
+synthesizes all the customer research
+and what you learned. And if the with
+the way that this repo is structured,
+you can actually have that just be an
+automation that runs every week.
+Synthesize all the research, post a
+message in your Slack channel so that
+everyone stays up to date on customer
+learnings. So I think we got the high
+level the 8020 of the setup of the repo.
+You check in all your day-to-day product
+work into the repo. What does that look
+like tactically?
+&gt;&gt; So tactically I only work in cloud code
+these days. Um [laughter]
+so I write every single doc first in
+cloud. Um and then I check it into the
+repo for and my team to review. And so
+and that's how everyone on my team works
+as well. So like my whole design team
+works in claude. The engineers work in
+claude. We're all working in the shared
+repository. Um my data scientist uh is
+also working this way even like and I
+think sorry people think that this is
+only for like technical roles and I
+think that that is a very very wrong
+assumption. So actually all of like my
+business operations, product operations,
+strategy and operations partners are
+also participating and sharing in this
+shared context repository, putting up
+PRs, adding their context into the repo.
+We're all collaborating together in this
+space every day.
+&gt;&gt; What would that look like? So where
+would I let's say I just completed the
+first draft of my strategy document for
+next quarter. What where would I put
+that and how would I check that in?
+&gt;&gt; Yeah. So you would likely, if you were
+me, have actually written that whole doc
+in cloud. Um, and if not, you could pull
+it in from a Google doc using the MCP.
+Um, and then under you'd probably have a
+strategy docs folder here or I might
+call it like vision and you can start
+organizing it by quarter. So I would
+have different folders under here and I
+would say okay, you know, Q2 2026 vision
+and I would like have all the docs for
+that under there. And then when you
+check it in or something like that, how
+do I put this up into GitHub so that
+other people can see it?
+&gt;&gt; Yeah. So you would just put up a what's
+called a pull request or a PR. Um and
+that is how you so first you would
+commit your work when you're ready. When
+all the work is ready to review, you
+would put up a pull request and then you
+would put that up for your team to
+review. Generally you'll have certain
+people that you would want to review
+certain types of work. So, for example,
+if I'm writing a PRD that I know a
+certain engineer on my team is going to
+implement, I would put up the PRD within
+a pull request and I would put them as
+the reviewer on the PR. And something
+that's really nice about doing all this
+in Claude is that you can have the
+GitHub command line interface or MCP
+hooked up. And because Claude knows who
+everyone on my team is, I'll usually I
+would literally write a query that's
+like put up a PR for Morgan to review
+this PRD with the name of the PRD and
+everything would just work. Never
+leaving Claude at all. Wow, actually
+awesome.
+&gt;&gt; Um, and then because and we I also have
+like for my team configured that we have
+shared uh commands for creating PRs and
+our shared commands actually autopost a
+Slack message to our team's channel with
+like certain structures depending on who
+put up the PR, what is the contents of
+the PR, who should review it. Um, so we
+actually like automated a lot of this.
+&gt;&gt; This is pretty mind-blowing. So you're
+basically saying that you don't just
+have a code base. Oh,
+&gt;&gt; you essentially have a code base of your
+team's context for claw and you are like
+push pulling and sending PRs for that
+context and it's not just PMs doing it,
+it's analysts doing it, designers,
+engineers, go to market partners,
+everybody is participating in that
+overall product team's OS.
+&gt;&gt; Exactly. So like for example, my
+strategy partner uh takes even more
+customer calls than I do and she checks
+every customer call that she takes into
+the repository so that I can review what
+we learned. Um and that helps us to work
+super super well together and she's
+completely non-technical. Um like she
+had never opened GitHub in her life two
+months ago and now she is putting out
+PRs every single day. I think that's
+something that I feel like very
+passionately about. Um I feel like I see
+a lot of chatter online like oh this way
+of working is only for PMs or it's only
+for engineers or it's only for technical
+people and I think that's very
+incorrect. I think this is something
+that anyone can learn how to do and that
+when everyone does learn how to do this
+we can all work so much better together.
+&gt;&gt; And just so people who are scared of
+GitHub like the command at least how I
+do it I'm not sure how you do it is I
+would literally just tell it like am I
+logged into GitHub? Do you have access
+under my name? It'll say yes and then
+I'll say commit this pull request for
+this issue and tag this reviewer. All in
+natural language. That's all you
+basically have to do, right?
+&gt;&gt; Yeah. Basically, I would also say I have
+an amazing GitHub 101 guide on my
+Substack um that has helped thousands of
+people learn how to use GitHub
+confidently. So, I would also probably
+route you to that.
+&gt;&gt; Cool. What's the 60cond summary of that
+that I didn't cover
+&gt;&gt; of how to use GitHub?
+&gt;&gt; Yep. So [laughter] the 60-cond summary
+is all of your work should be on a
+branch when and the process is basically
+you put all of your work onto a branch.
+As you're working, every time you finish
+a certain milestone, you're going to
+commit it. And this means you're saying
+I reached a stopping point and I want to
+save all my work. When a given item is
+done, let's say, you know, you might
+write your PRD in chunks and when the
+whole PRD is done, you're going to open
+a pull request and you are going to then
+open a pull request and ask for review.
+This is where you would tag a reviewer.
+They might give you some feedback that
+you might address and then when
+everything is good, said, and done, you
+will merge it into the main branch,
+which means that now everyone in all of
+their local repositories has access to
+your work. Today's episode is brought to
+you by the experimentation platform
+Chameleon. Nine out of 10 companies that
+see themselves as industry leaders and
+expect to grow this year say
+experimentation is critical to their
+business. But most companies still fail
+at it. Why? Because most experiments
+require [music] too much developer
+involvement. Chameleon handles
+experimentation differently. It enables
+product and growth teams to [music]
+create and test prototypes in minutes
+with prompt-based experimentation. You
+describe what you want. Chameleon builds
+a variation [music] of your web page,
+lets you target a cohort of users,
+choose KPIs, and runs the experiment for
+you. Prompt-based experimentation makes
+what used to take days of developer time
+turn [music] into minutes. Try
+promptbased experimentation on your own
+web apps. Visit chameleon.com/prompt
+to join the wait list. That's k a m e
+[music] l e o n.com/prompt.
+Today's episode is brought to you by
+Amplitude. Replays of mobile user
+engagement are critical to building
+better products and experiences, but
+many session replay tools don't capture
+the full picture. Some tools take
+screenshots every second, leading to
+choppy replays and high storage costs
+from enormous capture sizes. Others use
+wireframes, but key moments go missing,
+creating gaps in your understanding.
+Neither approach gives you a truly
+mobile experience. Amplitude does things
+differently. Their mobile replays
+capture the full experience. every tap,
+every scroll, and every gesture with no
+lag and no performance hit. It's the
+most accurate way to understand mobile
+behavior. See the full story with
+Amplitude. I hope you're enjoying
+today's episode. Are you interested in
+becoming an AI product manager making
+hundreds of thousands of dollars more
+joining OpenAI anthropic? Then you might
+want to do a course that I've taken
+myself, the AIPM certificate ran by
+OpenAI product leader McDad Jaffer. If
+you use my code and my link, you get a
+special discount on this course. It is a
+course that I highly recommend. We have
+done a lot of collaborations together on
+things like AI product strategy. So,
+check out our newsletter articles if you
+want to see the quality of the type of
+thinking you'll get. One of my frequent
+collaborators, Pavle Hearn, is the build
+labs leader. So, you're going to live
+build an air product with Pavvel's
+feedback if you take this AIPM
+certificate. So, be sure to check that
+out. Be sure to use my code and my link
+in order to get a special discount. And
+now back into today's episode. Awesome.
+That covers the main elements of the
+repo. I want to talk a little bit about
+creating highquality documents. How does
+someone use this repo to create a 10x
+PRD or product strategy document?
+&gt;&gt; Yes. So I think this type of I think
+having a shared context repository helps
+with writing really high quality docs.
+But that's not the only piece of the
+puzzle. The other piece of the puzzle is
+knowing how to plan effectively with
+quad. Um, okay, cool. So, let's talk
+about plan mode. Um, I'm just going to
+clear this. Um, for those who don't
+know, clear is a way to wipe the context
+of your current session. And it's really
+important to do this when you're
+switching tasks because again, Claude is
+going to use the information in that
+conversation to guide its work. And so
+if you're starting a completely fresh
+task, you either want to open a
+different terminal window or you want to
+clear and wipe the context so that
+you're really focused only on the task
+at hand.
+&gt;&gt; Got it?
+&gt;&gt; I want to show kind of the difference
+between not using plan mode and using
+plan mode. So I'm going to split my
+terminals here and um and because we're
+kind of doing this like we have this
+imaginary AI prototyping company um I'm
+going to use like Google Stitch as an
+example since they just had like a major
+release this month. So, what I'm going
+to put in here is I'm going to put a
+basic prompt. I'm going to say, you
+know, research the most recent Google
+Stitch release and uh tell me about what
+happened. Okay? And then in here, I'm
+going to say the same thing. Research
+the most Google the most recent Google
+Stitch release. Tell me about what
+happened and give me a proposal for what
+you're going to do. And now, we're going
+to kick both of these off at the same
+time. And so, here, this is just a basic
+prompt. And when you're doing this, you
+don't really know like what Claude is
+going to do, right? Claude is making all
+the decisions here. Um, and you're going
+to get back something. And I really like
+the junior employee metaphor for Claude.
+So, I think of working with Claude like
+working with like a really really eager
+and highly talented junior employee. Um,
+and if you don't give that when you have
+like a junior employee and they're not
+trained and they don't know what you
+like and how you like to work, then you
+don't totally know like what you're
+going to get back from that employee
+when you don't give them any guidance.
+And that's what basic prompting happens.
+Um, so you're going to get back
+something, but you don't know if that
+something is going to be useful for you,
+if it's going to be in the format that
+you want. Um, and so that's why I don't
+generally recommend this approach. Um,
+so here, so there's a more lightweight
+version of prompting where before Claude
+does anything, you just say like what is
+your plan, right? You're kind of asking
+your employee, okay, like what are you
+planning to do? And you're going to
+assess, are you like generally aligned
+on the direction? So here Claude did a
+little bit of research, told me what
+happened, and it's giving me a proposal,
+right? Right? And it's actually using
+the context from the repo to generate
+the proposal. Remember, this was a
+completely fresh session. I didn't load
+in any context. But here it's saying
+this is a significant shift in the
+design to code tooling landscape. Here's
+what I'd suggest for the Forge team,
+right? We should evaluate Stitch for
+rapid prototyping. We should see how it
+hooks up with our workflow. We should
+see um if this is like competitive to
+what we're doing and we should share the
+the findings in these two Slack
+channels, right? And it did this. it
+came to all these conclusions itself
+using the context from the repository
+against this natural language query that
+I had asked. Now, if I was writing a
+doc, this is still probably not what I
+would have wanted. And so, that's where
+we go into plan mode. So, to get into
+plan mode, um you press shift tab twice
+and then you're going to see that plan
+mode is on. Um, and so now I would say
+um, okay, so now let's pretend, right,
+that I need to write some maybe like a
+strategy doc around this most recent
+Google Stitch release. So again, I'm
+going to start and I'm going to say,
+okay, um, research the most recent
+Google Stitch release. And what I'm
+going to want to do is write a strategy
+doc about how this impacts us as a
+company and what we should do. Now the
+difference between PL you might be
+wondering well you know in that other
+terminal claude gave me a proposal of
+what it was going to do we could like go
+back and forth and keep chatting in the
+terminal and that is like a totally
+valid thing to think the difference um
+is that in when you're using think of
+LLMs are trained to have a bias for
+action in order to be helpful and so the
+goal of the LLM is to get into action to
+help you as the user but it's kind of
+like a horse that's chomping at the bit
+and it's like please like let me just go
+run and like help you and that's not
+very good when you want to be in
+planning mode. And so what plan mode
+does is it takes away that bias for
+action. It's kind of like taking away
+the keys and saying, "Hey, we're not
+going into action right now. We are
+going to only plan and you're going to
+get a lot better results." But people
+still don't like totally use plan mode
+effectively, which is what we're going
+to talk about. So now what it's saying
+it's going to research Google Stitch and
+my product context in parallel so that
+it can plan the strategy doc
+effectively. And so here it's actually
+researching the release and it's
+researching my codebase at the same
+time. And this is how you can start to
+see that okay when you have all this
+context in your repository then um
+you're already set up to load a lot of
+that context into your documents. Now
+we're going to like wait for this to
+run.
+&gt;&gt; It's interesting. It also shows like how
+much potential tokens are there like 25k
+and 98k but it's not like burning
+through 130k tokens. It knows where to
+look within those.
+&gt;&gt; Yes. And I think that's something that's
+really important because I talked to
+people a lot who were like, you know, I
+put some queries into Claude and I
+burned like hundreds of thousands of
+tokens and I hit my usage limit within
+30. And that's generally because
+people's work is not organized and
+optimized for Claude to easily traverse.
+And so you're very very inefficient in
+your conversations. And look again,
+Claude is only loading the stuff that's
+relevant to my query. It didn't go into
+the analytics folder. It didn't go into
+the engineering folder. It went into my
+competitive research folder where it has
+access to my competitors. Um it looks
+like I have some information on Google
+Stitch. Now it's checking my writing
+guide um and my existing vision docs to
+understand like the expected tone and
+format. Um, and so we're going, you can
+see that claude is already having a big
+head start in probably getting to what I
+would want. Um, and it's also identified
+that my knowledge, like what I have in
+the repository is outdated because of
+this release. It's probably going to
+suggest that I make some updates. Um,
+cool. So now Claude is actually using
+something called ask user question tool
+where it's asking me some questions
+about what I want to do here. So who is
+the primary audience for this doc? Um,
+let's just say it's for leadership. Um,
+and what's the focus of the doc? Um, I
+think that we should maybe do like a
+competitive analysis. I think that would
+be pretty interesting. Or maybe we
+should do both. So, let's just do a
+full. Um, and then yes, we also want to
+update our existing files. So, this is a
+very important practice, which is you
+need to keep the context repository
+updated. Otherwise, you have what's
+called context wrong, which means claude
+is going to use context that's outdated.
+Um, so we're going to update those. And
+now it's starting to form the plan. And
+so when you're probably up checking in
+this PR, it'll have two components. The
+strategy doc and the update to the
+competitive intel.
+&gt;&gt; Exactly. The PR is going to contain
+every single thing that I've changed in
+the repo as it relates to this task. Um,
+so now it's going to read these and then
+we're going to kind of go into the next
+part of planning. Um, and I also think
+you actually raised a good point there,
+which is it is in order for your work to
+be reviewable, you want to generally put
+like chunks of work together. So, you
+know, something that contains 85 file
+changes is going to be really hard for
+anyone to review. And so, generally, I
+like to segment my work for the person
+who's reviewing it. So, let's say at the
+same time, I might be working on a
+design brief for my designer. I might be
+working on a PRD for an engineer, and I
+might be updating a metrics file for the
+analyst on my team. I would actually
+open three separate PRs for those. And I
+would tag each different person as the
+reviewer on that work. That makes it
+much easier for the person to review and
+approve and then me to merge all that
+information back into our central
+repository.
+&gt;&gt; Fascinating.
+&gt;&gt; Um, cool. It's almost done. Now it's
+writing the plan.
+&gt;&gt; And we're thinking with high effort
+here. You can change that, but I
+generally try to keep it at like the max
+settings. Looks like you do, too.
+&gt;&gt; Yeah, I pretty much am always thinking
+with high effort. Um, especially I mean
+you can use medium for some stuff, but
+generally I found for anything that
+involves like writing or reasoning,
+you're going to get the best results
+with high effort. And so it's worth
+waiting. Um, for the purposes of this
+demo, I might put us down to a lower
+effort depending on how long some things
+stick. Um, but I also know we can cut
+this down.
+&gt;&gt; And then I think like if you're feeling
+frustrated about that, what I usually do
+in this downtime is I spin up my second
+agent and then I
+&gt;&gt; Yeah. So usually I wouldn't have this
+down time because I would go start
+working on something else. Oh, the other
+thing I'll cover this afterwards
+actually. Okay. So here again is where I
+see people not go right with plan mode.
+So these files can be pretty long. it's
+pretty hard to read them in the
+terminal. Um, but what you can actually
+do is open it up and read it. And h the
+most important part of having a good
+plan for Claude to execute is actually
+reading the plan, right? If you're going
+to send, [laughter] which I have found
+that not a lot of people actually do.
+Um, and if you're going to, you know,
+send someone off to burn a bunch of your
+tokens and have really high usage, you
+again probably want to know what your
+employee is going to do. And so I will
+always actually read through the plan
+and make sure that I am aligned on it.
+And now we're going to talk about some
+how we get into some more advanced
+planning techniques. So here um okay, so
+here it's having a structure for my
+strategy doc. Um and then it's going to
+update some competitive intel files.
+Well, you know, if I'm writing a
+strategy doc, I might not just want to
+research this most recent release. And
+so what I might do is I might want to
+say, "Okay, actually what I want to do
+is I want to research uh anything that
+any of my competitors have shipped in
+the last three months and I want you to
+do a sentiment analysis on the news
+coverage that these launches received um
+and help me understand like which
+publications cover these releases. I
+then want to get a deeper comparison of
+basically how the landscape has changed
+um in order to inform the strategy doc.
+Um, and I want this research to be
+parallelized. Once the research is done,
+let's have a check-in to review it and
+then we'll write the doc afterwards. Um,
+so what I'm doing there is like a couple
+of different things. So, one, Claude
+does not naturally parallelize plans and
+I'm creating phases of work that I'm
+going to have Claude start to work
+through. Um, and I'm kind of broadening
+the scope of what I'm going to do here
+so that I can get more work done at
+once. The other thing is like for this
+plan after the research comes through I
+might want to like actually review that
+research to sort of shape what goes into
+the strategy doc. So sometimes I'll
+create a checkpoint in the plan where I
+like to check in with Claude before we
+continue to the next phase.
+&gt;&gt; Um while we're talking through this
+there's some other parts in the plan
+that I think are very important. Um so
+another part is verification. Um, so
+verification is how Claude knows that
+the work was done and done well. Um, I
+wish that it was not doing the search
+now. I should have prompted that
+differently. Um, verification is how
+Claude knows that the work is done and
+done well. So here, what we can see here
+is there's actually like no verification
+on how the research is being performed.
+So if I was like doing this in real
+life, I might actually talk to Claude
+about how I want that research to be
+verified, right? If it's making claims,
+I might ask for the sources to be cited.
+I might ask for URLs to like the news
+releases or something like that. It's
+important that I know how to check
+Claude's work and that Claude knows how
+to self-verify its own work before
+giving it back to me. Another example of
+like self-verification is if you are
+building a front-end feature for
+example, you can have Claude use
+something like playwright MCP to go in a
+loop and actually check the front end um
+and validate its own work before telling
+you that the work is done. So the
+ability to tell Claude like what good
+work looks like and how to know that the
+work is done is a very key part of
+planning. Um I want to cancel this and
+it's not going to let me do that. So, we
+can see here that Claude is actually
+using six agents at once to do this
+research. Um,
+&gt;&gt; I'm so happy they created like the
+automatic parallel sub agents. It's so
+useful.
+&gt;&gt; It is useful when this didn't happen
+every time I practice this. [laughter]
+Um,
+but we will get there. Um, so other
+things that like I would do if this was
+a real plan that I was executing is I
+would actually go through the strategy
+doc structure. So, you know, Claude is
+proposing a structure for this doc, but
+that might not actually be the way that
+I want the doc structured. And so, I
+would continue to give feedback to
+Claude about, okay, what are the
+sections that I want in the doc? What is
+the narrative of those sections? Um, in
+order to make sure that what I
+ultimately get back is what I what I
+actually desired. The other thing while
+we are waiting for this to run, the
+other concept that I'm going to talk
+about is actually storing plan files
+within the repository. So what we're
+going to kind of see is like when you're
+doing like a longer and more complex
+plan, you're going to be putting time
+and effort into writing that plan. And
+what teams are starting to do is
+actually store the plan file itself in
+the repository. So what you'll see in
+the repository is I actually have
+folders for plans and I have these in
+like most of the core folders in my
+strategy folder. I also have a file for
+plans for other strategy docs that I've
+written. Um, and the reason to store
+these in the repository is again to help
+speed up everyone's work and have that
+historical context. If you're going to
+spend a couple hours with quad figuring
+out how to do something, you might need
+to do something similar again in like a
+month or in two months and you don't
+want to start from zero again. You would
+like to have a previous plan to
+reference for how you did that to save
+yourself time in the future. or maybe
+somebody on your team needs to do
+something similar and then they can go
+off of your plan when you're doing
+agentic coding. This is also a way to
+track like the work that's in progress
+as coding agents are working through
+different parts of the plan. Um so
+openai actually published this recently
+in an article they wrote on harness
+engineering where they talked about how
+they made the plan file first class
+artifacts of the shared repository.
+&gt;&gt; Very cool. So even your plans, not just
+the final strategy docs, when you're sh
+when you're again checking in that PR,
+you'd include the plan document in
+there. And do do plan documents get
+summaries like customer calls?
+&gt;&gt; No, you don't want to summarize the plan
+because you want another session to be
+able to build off of that plan in its
+entirety of every single thing that you
+did. Mhm.
+&gt;&gt; Um, and when this finishes, I'm going to
+show you I might actually just pull up I
+have a different I have a pre-built plan
+for writing a strategy doc. Um, another
+concept that I want to talk about as it
+relates to planning is actually asking
+Claude to show you the agent prompts
+that it's going to use. So, think about
+it. We're saying, okay, Claude is like a
+junior employee. You want to be able to
+check its work and understand, are you
+aligned on the outcome that you guys are
+going to achieve together? Um, and so
+when Claude as part of a plan is kicking
+off other agents, now you have a junior
+employee kicking off even more junior
+employees. And again, you might want to
+know how this employee is going to
+direct the work of the other employees
+because again, you might be misaligned
+or you might not have the same goals.
+And so in my plan files, I actually like
+on complex plans, I don't do this on
+every plan, I like to have Claude write
+out what it is going to prompt every
+single agent with. Um, and so here I see
+the agent prompt in the plan file. What
+is that agent writing? It's going to use
+my writing guide. Okay, what's the
+context that this agent is going to get?
+What files is that agent going to read?
+And then how is it going to write that
+section? Um, and this is really
+important because especially on writing
+tasks. Um, if you don't if not all
+agents get the same context or if you
+don't know what files that agent is
+going to read, you don't know that
+they're going to have the right context
+to effectively write that part of the
+document. Um, and the reason to split
+doc long doc writing across multiple
+agents is again because of the size of
+the context window. Writing is actually
+a pretty expensive operation. And when
+you're writing a very very long form doc
+with all the thinking and reasoning and
+all the docs that you need to synthesize
+in order to write the doc, you generally
+cannot have one singular agent, you
+know, read context files and go write a
+great doc.
+&gt;&gt; Um, and so I like to be pretty directive
+of, okay, what are the different
+sections of my doc? What is the context
+that you need in each section? And then
+who's going to write that section? And
+then synthesize them all together with
+the orchestrating agent. Um, another big
+planning tip for this type of a plan is
+that you want all of the agents to write
+their output to temporary files, which
+you usually have to prompt odd into.
+Claude will not do this always
+automatically. And so, it's something
+that I always check for as I'm planning
+with Claude. And the reason for this is
+that two things. So, again, going back
+to the theory of context, Claude can
+only hold a certain amount of
+information. If you have maybe 10 agents
+running at the same time and they all at
+the same time return their work to the
+parent agent, everything is going to
+crash and you will lose all the work
+that you just did. And so it is very
+important that you have each agent
+actually store its work in temporary
+files and then have your parent
+orchestrating agent work off of those
+files um to like compile the final
+synthesis for example.
+&gt;&gt; Got it.
+&gt;&gt; Um okay, so we finished some research.
+It's asking me more questions. And then
+the last thing that I wanted to quickly
+show, yes, we're going to save all of
+these, um, is how I like to invite
+Claude as a thinking partner. So, you
+saw throughout the planning process that
+Claude was using the ask user question
+tool to ask me questions that it felt
+like it needed to ask in order for us to
+build out this plan together. But what I
+like to do is actually invite Claude to
+push my thinking and help me to be like
+a better PM or consider things from
+different angles. And I'm going to show
+you how I do that if it will finish
+rewriting this. Um, another technique
+that I like to use because I find that
+having a lot of terminal windows open is
+very confusing is I actually name all of
+my terminals. So I would call this
+strategy doc. And then like I would
+actually, you know, I would maybe name
+this like prompt example. And I like my
+work to be really pretty. So I will also
+usually like change the color of them.
+And I also might like set an icon as
+well. You can set custom icons too. Um,
+I usually have like 20 or more terminals
+open at a given point in time. And so if
+they're not like named and colorcoded,
+then I usually can't find my work. And I
+found that a lot of people like don't
+know that you can do this.
+&gt;&gt; I don't color code it or add a custom
+icon. I think I needed to get to that
+level.
+&gt;&gt; Yeah, I really like picking the
+different icons. Um, and sometimes I use
+it to like I have like, you know, maybe
+this is like where I'm opening all my
+PR, so I put like a GitHub icon or
+something like that. Um,
+&gt;&gt; yeah. But yeah, I really like um I like
+to color code to know be able to keep
+track of things and then also name
+everything. Okay, so now I'm going to
+open up the plan file again. Um and here
+is where I'd really like to invite
+Claude to be a thinking partner for me.
+So now what I'm going to say is um use
+ask user question tool to push me on my
+thinking and help me consider other
+angles that we might want to pull into
+this document, different sections that
+may we might want to add to the final
+doc or other questions that you need to
+clarify my goals for why that we're
+doing this.
+&gt;&gt; This is by far the most comprehensive
+planning process I've ever seen.
+[laughter]
+Um, and so now Claude is going to ask me
+questions. And you can have Claude
+interview you like pretty in-depth. Like
+I might say, I didn't do it for this
+demo, but I might say, "Take as long as
+you need. Ask me as many questions as
+you need." And we're going to now, it's
+going to start to ask me a lot more
+questions about what I'm trying to do
+here, which is going to help us to
+further refine the plan. And by the time
+all of this is said and done, we're
+going to have a really, really robust
+plan. Okay. So yeah, now it's saying,
+you know, what's driving the timing of
+this document? It's going to change the
+framing depending on why we're doing
+this. Um, I'm just say this is strategic
+inflection point. And then it's saying,
+you know, there's some hard questions
+missing. What are other angles that we
+should have this doc address? Um, maybe
+there's fights that we want to walk away
+from. There's a lot of pushes here. So,
+let's just cover some of those. And then
+it's also calling out like other areas
+that we might want to add in. Okay.
+Yeah, I'm just going to say yes to this.
+And so, yeah, now it's like pushing my
+thinking, right? It's catching gaps in
+my reasoning. It's pushing me to
+consider, you know, did I intentionally
+leave something out? Did I not? And now
+Claude and I are getting very crisp on
+what is going to be done here. Um, and
+now it's asking me more questions. So,
+I'm just hitting enter here for like the
+point for the purposes of this demo, but
+usually I would read them. I would think
+about it. I would usually give more
+feedback on these questions and like
+usually dictate my thoughts until Claude
+really understands how I'm thinking
+about this problem. So most people
+they're rushing in, they're just letting
+it write the first draft, the strategy
+document, then they're yelling at it and
+saying, "You got this wrong. You forgot
+this frame." Your approach is, "Let me
+spend two to three hours."
+&gt;&gt; It's not getting the plan right
+&gt;&gt; and then iterate on it.
+&gt;&gt; Exactly. Um, yeah. So now it's asking me
+more questions. And I think the other
+thing which we touched on very briefly
+is that I have different so I have in
+this repo like an example of your user
+level. Claude folder. Um, and here I
+have different like writing guides for
+different types of docs that I would
+write so that Claude can better write in
+my voice. These are just dummy guides.
+Um, and so whenever I'm doing writing, I
+make sure always that in the plan the
+agents are given my writing guide
+because they might not auto invoke the
+skill. Um, skills only have like a 70%
+or so like auto invoke rate and when
+you're going to let something run for a
+long time, I don't see why you would
+leave anything to chance. Um, and so I
+will always usually explicitly in the
+plan if I want a certain command run or
+a certain skill called, I will make sure
+that that is specified in the plan
+document.
+&gt;&gt; Yeah, I always say use X skill
+[laughter] and triple check that that's
+there. The skill is like a lot of the
+alpha if you guys haven't realized quite
+yet. So those dummy ones that she has
+right now aren't actually going to be
+super useful. It's like the value is
+when she has that skill, then she goes
+to a product review, sees some other PM
+at Door Dash wrote an amazing strategy
+doc. She tells her skill, "Hey, I need
+you to go improve. Here's another good
+example." And then she runs a whole
+process using this skill and she says,
+"Ah, it fell apart at this point. Go
+iterate and improve." And then your
+skill itself improves over tons of
+iterations.
+&gt;&gt; Exactly. Um, and so yeah, now we're
+going to have a much more detailed plan.
+I don't want anybody scared. You don't
+generally need to spend two to three
+hours planning, but I think generally
+people are under planning and that's why
+you're not getting the output that you
+want because you left a lot of room for
+interpretation about what you were
+hoping to get.
+&gt;&gt; Um, and so now, you know, we have a much
+more detailed um, plan file. And we're
+not going to read the whole thing here,
+but this is where I would keep going. I
+would read through all the changes. I
+would make sure I'm aligned with them.
+Um, and then kind of a last important
+technique is um, oh, couple things. So,
+this should Oh, it already did the
+research. That's why. Um, if a plan has
+phases, which this one doesn't totally
+because we didn't fully set up having it
+do the full research, um, I would
+actually outline the different phases in
+the plan, and have Claude track when
+each phase is complete. This way, if you
+need to have a long running plan over
+multiple days and you have to compact or
+stop in the middle, Claude knows exactly
+how to pick up.
+&gt;&gt; Mhm.
+&gt;&gt; Um, running those progress markdown
+files that you were talking about
+earlier.
+&gt;&gt; Exactly. I usually keep this all in the
+plan file because the plan file gets
+reloaded after compaction.
+&gt;&gt; Um, and what we'll notice here, so the
+natural plan files, they have these like
+really cute names from anthropic. They
+all have like three words. Um, but they
+are ephemeral. So they're stored in your
+docloud folder at the user level. You
+can actually open it up and see them,
+but they are wiped every 24 to 72 hours.
+So again, if you spend a lot of time on
+a plan and you want to save it, I will
+actually as part of that plan usually
+save the plan file down so that I can
+reference it in the future even after
+the plan has been completed. So I'm
+likely going to be doing similar work.
+&gt;&gt; Does everything get a plan? Every
+strategy doc, every feature results
+write up, every PRD. Are some things
+well enough defined via skills in other
+contexts that you don't need a plan?
+&gt;&gt; I don't think that there's a right or a
+wrong technique. I have generally found
+that anything that is relatively complex
+and requires synthesis or deep thinking
+where you want a certain output and you
+don't benefits from having a plan.
+&gt;&gt; Yep. Makes sense. And it sounds like
+things that you're maybe a little bit
+less certain about. Like we kind of
+approached this as like we're not
+exactly sure even like what's relevant
+about Stitch and the other competitors
+last three month launches. So it has to
+go out and do that first phase. There's
+more undefined. So that's where planning
+comes a little bit more useful.
+Sometimes you have a PRD where basically
+the team has already agreed on the whole
+feature and you have a meeting
+transcript you can feed it. Then you
+might not need as much in-depth.
+&gt;&gt; Exactly. If it's like a pretty
+straightforward task you probably don't
+need. And also this is a very in-depth
+plan file. I don't do this for like all
+of my work. Um I try to tailor the level
+of planning to exactly what you were
+saying. What is the level of complexity
+and ambiguity? Um and then the higher
+the more ambiguous and the higher
+complexity that something is, the more
+time and effort you should be investing
+in the plan. And that's also why I
+showed the technique here of just asking
+for a lightweight alignment proposal. I
+have still found that just doing this,
+you will get a lot better results
+because you can still be misaligned even
+on very like straightforward tasks. And
+so I really like Claude to just quickly
+tell me if there's any level of like
+vagueness, I like Claude to tell me what
+it's going to do. Usually I'll give a
+very quick correction and then sign off
+on it. And I feel like you get much
+better and much more consistent results
+with this methodology. One of the
+practices you have that I think is
+really genius is how you are applying a
+beginners's mindset to learning and
+improving in claude code. Can you walk
+us through that?
+&gt;&gt; Yeah, so I think honestly getting
+started in these areas can be like it
+can feel very overwhelming and you can
+feel like wow I'm so behind and like I
+don't know anything. But I think it's
+really important to have that beginner's
+mindset where you just feel really
+comfortable asking questions. Um, and so
+to do that, like I will usually ask
+Claude about anything I don't understand
+and ask it to teach it to me. So, for
+example, I literally might say, you
+know, explain to me the benefits of why
+this repository is structured the way
+that it is and also things that could be
+improved about the structure. And I
+would like do this and then Claude is
+going to like explain things to me. This
+is also how I improve what I'm doing.
+Um, so Claude is like now going to
+analyze the repository and it might tell
+me some things that we didn't actually
+cover on this podcast about what could
+be improved. But I think that's the
+point like while I, you know, I've spent
+a lot of time using Claude code, I'm
+still learning every single day. Um, and
+I like to use Claude to help me learn
+and make sure that I understand why
+things are working, why things are not
+working.
+&gt;&gt; So I use this similar prompt every day
+and I will say I have a slight tweak on
+hers although hers is great. So, what I
+do is I tell it, first I want you to go
+research everything that Enthropic has
+shipped in the last 90 days and create a
+calendar of all of the features. Then, I
+want you to go read the top Claude Code
+influencers and the top posts that
+they've had in the last 90 days. Then, I
+want you to compare my setup to the
+latest features and what influencers are
+recommending and tell me how I can 10x
+my setup. And that prompt has just been
+huge for me because it's taking some of
+what we were doing with the planning on
+the strategy doc where it's going out
+and doing the research and we know that
+a lot of claude's data training data is
+quite stale. It's like from 2024 at this
+point and so it doesn't even know about
+its own latest features sometimes I
+find. So I think that that can also help
+it.
+&gt;&gt; Yeah. And I think here's like another
+good example. Um, so what something we
+didn't cover in the earlier walkthrough
+is that I have a feature index in the
+repo and it's actually a YAML file. And
+so you know if someone was opening this
+repository and they didn't understand
+like why this was a YAML file, I would
+actually ask Claude to explain to me
+like the benefits of why this is a YAML
+file um uh and why this structure is
+used and also what a YAML file is. Um,
+[laughter]
+and I would use this to like learn along
+the way. So I think oftentimes, you
+know, I see, you know, people right now
+online are like sharing their skills and
+commands and agents with it, which is
+amazing, but then people are downloading
+them and using them and not knowing why
+these things work. And so I always
+whenever I'm using anything, I always
+start by having Claude teach me why is
+this thing good or not good? And then
+that also makes me more comfortable
+iterating on the thing. because if
+you're just downloading and copying
+things and not understanding them, when
+it doesn't work the way that you expect,
+you won't know how to iterate on it or
+update it or improve it. Um, and so now
+Claude gave me a really detailed
+explanation of what YAML is, why YAML is
+the right format for a feature index in
+your repository. Um, and help me to
+understand this topic and why this
+matters within the structure of the
+context of the repository. This is how
+you all should be approaching these
+things. You're going to find more files
+that Hannah and I upload, other people
+upload that you're downloading. You're
+going to start cloning repos on GitHub.
+Make sure you do this process of
+learning about it. And that's why we
+included this segment in the episode
+because the beginner's mindset is really
+important. Now, we're going to cover a
+couple of the hot topics to make sure
+that you have a really well-rounded
+understanding of this. So Hannah, what's
+the biggest mistake PMs make when using
+cloud code for product work?
+&gt;&gt; I think the biggest mistake is um get
+that people give up too early. Like I
+think like learning anything new, it
+takes some time to learn how to use cla
+effectively to get really good at using
+cloud code. And like you saw, building
+out this type of a context repository is
+not something that you're going to be
+able to do overnight. And so I think
+people try it for like a day, they don't
+get good results and they're like, "Oh,
+like this isn't for me." Um, you know,
+[laughter]
+I've spent now like 1500 hours in Claude
+and I'm still iterating on my setup and
+improving it literally every single day.
+&gt;&gt; And with the pace that this team ships
+at, they're constantly adding in new
+features, new things, and so just
+staying on the top of it, there's a lot
+to be done in terms of that constant
+iteration. So, we've talked about
+Claude, there's Claude, there's ChatGBT,
+there's cursor, there's co-work. When
+should PMS be using which?
+&gt;&gt; I think there's not like a right or a
+wrong answer. Although for most advanced
+PM work, you should be using some type
+of a coding agent. Um, I think for chat,
+it's generally just if you need a quick
+answer that doesn't need like super high
+context. Otherwise, ideally, you're
+really building a context repository
+that you can use um that you can
+leverage with any coding agent.
+&gt;&gt; If a PM only has two hours this weekend,
+what steps should they take to set up
+cloud code?
+&gt;&gt; So, what I like to recommend for people
+is that the single biggest piece of
+leverage you have is freeing up your
+time to learn. Like, I think especially
+right now, the most important thing that
+we can be doing is learning. And so if I
+had two hours this weekend, my question
+would be, what can I do to create six
+hours for myself next week? And I would
+find something to automate so that I can
+free up six hours to go learn things.
+And so generally, that's what I
+recommend for people is you should be
+trying to carve out at least an hour a
+day to just play with AI. And in order
+to have that hour a day, you need to
+automate work in order to free up your
+time so that you can learn and also help
+to uplevel your teams.
+&gt;&gt; Amazing. What's underhyped versus
+overhyped in AI for PMs?
+&gt;&gt; I think that underhyped is following
+your curiosity. So, I feel like there is
+a lot of pressure to always be on top of
+the exact latest news, like the exact
+latest release. Um, and you know, get
+really good at whatever is being posted
+online on a given day. I think that
+we're all going to have a lot more fun
+and learn better if you're following the
+things that you're curious about. Um,
+and so, you know, if AI evals don't get
+you out of bed in the morning, like
+don't start there. Like, start with
+automating something that frees up your
+time or start with, if you love design,
+like start playing with prototyping. Um,
+and then yeah, I think that the other
+thing that I think is underhyped is
+building expertise in one area. So, I
+think right now a lot of people are very
+shallow at like many different things,
+but it it actually does take time and
+investment to like really learn a topic.
+And so I would say the other underhyped
+thing is spending the time to go deep
+even if that means maybe you're not
+learning some of these other areas right
+now.
+&gt;&gt; You've said Claude code is the most
+misleading name in AI. Why?
+&gt;&gt; I think because it's not just for coding
+which I hope is what everyone took away
+from this from this podcast episode. Um
+while I do code and claude code most of
+my time is not spent coding. it's spent
+writing docs or doing analysis or
+building uh local HTML prototypes for my
+team or other types of prototypes. Um
+which actually we didn't get to show on
+this episode. I had a really fun one
+built. Um [laughter]
+um but I think it is not just for coding
+and it's not just for people who are
+technical anyone like again like my
+operations partners are also spending
+all day in cloud. They're contributing
+to our repository. It's really the like
+best tool I think right now for doing
+knowledge work. What should they have
+called it?
+&gt;&gt; Well, that's why I called my series Quad
+Code for Everything [laughter] because I
+don't know what I I don't I don't know
+what they should have called it. Um I do
+like the name Co-work. Um I think that
+was like a really great branding on
+their part. Um [laughter] but yeah, I
+don't know if I have a snappy name for
+it.
+&gt;&gt; What would you tell a PM who's scared of
+the terminal, scared of IDE?
+&gt;&gt; I would tell them like don't be afraid
+to be a beginner again. And there's I
+mean I hope what folks saw on here is in
+my mind there's not a big difference
+between typing into a chatbot and like
+typing into the terminal. Um once you've
+done it for like an hour or two, you'll
+probably start to feel pretty
+comfortable.
+&gt;&gt; What MCPs do you need to hook your team
+OS up into in order to make it
+effective?
+&gt;&gt; Every single MCP that you can access.
+[laughter]
+The limit does not exist. I am adding
+like a new MCP every couple days at this
+point. Um, but generally, right, most
+companies are going to operate on like a
+certain tech stack, right? You're going
+to have a certain set of software
+vendors that hopefully have either MCPS
+or what's often under discussed are
+command line interfaces or CLI tools.
+Claude works really well with both of
+them. But the goal is any core piece of
+software that you use in your day-to-day
+work should be hooked up to Claude.
+&gt;&gt; This has been a master class. I have
+done I think it's seven or eight cloud
+code episodes and I was learning every
+single minute of this one. We covered
+how to create a team OS, how to set up
+that repo, how to write really amazing
+documents by creating a comprehensive
+planning process, and how to have a
+beginners's mindset with Claude Code.
+Hannah, thank you so much. If people
+want to find you online, where should
+they go?
+&gt;&gt; Um, they should go read my Substack,
+which is called In the Weeds. You can
+find it at hannah stolberg.substack.
+substack.com.
+&gt;&gt; Awesome. I hope you enjoyed that
+episode. If you could take a moment to
+double check that you have followed on
+Apple and Spotify podcasts, subscribed
+on YouTube, left a rating or review on
+Apple or Spotify, and commented on
+YouTube, all these things will help the
+algorithm distribute the show to more
+and more people. As we distribute the
+show to more people, we can grow the
+show, improve the quality of the content
+and the production to get you better
+insights to stay ahead in your career.
+Finally, do check out my bundle at
+bundle.akash akashg.com to get access to
+nine AI products for an entire year for
+free. This includes Dovetail, Mobin,
+Linear, Reforge, Build, Descript, and
+many other amazing tools that will help
+you as an AI product manager or builder
+succeed. I'll see you in the next
+episode.

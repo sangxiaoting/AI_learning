@@ -1,0 +1,148 @@
+{
+  "context_analysis": "一位 DoorDash PM 分享如何通过 Claude Code 构建团队知识库（Team OS），支持 20 人的跨职能协作。她花费 1500+ 小时迭代出完整的上下文管理架构，展示了如何用编码代",
+  "id": "0UArKLQ6bXA",
+  "type": "youtube",
+  "title": "How this PM Used Claude Code to Support 20 People",
+  "author": "Aakash Gupta",
+  "date": "2026-04-07",
+  "dateText": "Apr 7",
+  "duration": "1:10:10",
+  "tldr": "DoorDash PM Hannah Stalberg 展示如何用 Claude Code 构建团队知识库（Team OS），通过嵌套 CLAUDE.md 文件、上下文管理理论和 Plan Mode 规划流程，实现一人支持 20 人的高效协作，任何职能都能参与。",
+  "takeaways": [
+    "PM 角色正在演变：从支持 3-4 名工程师到现在要支持 10+ 工程师，同时需对接销售、市场、客户支持等所有职能",
+    "Team OS 是团队知识库，通过嵌套 CLAUDE.md 文件实现精准上下文加载，只消耗 3% 上下文窗口即可回答问题",
+    "上下文管理四个核心概念：Context（当前会话信息）、Context Window（上下文容量）、Compaction（压缩丢失精度）、Thinking Room（思考空间）",
+    "不要在根目录 CLAUDE.md 放太多内容，应按功能拆分成多个层级文档，让 Claude 按需渐进加载",
+    "Plan Mode（规划模式）消除 LLM 的行动偏见，通过分阶段、验证点、检查点等机制实现复杂文档的高质量输出"
+  ],
+  "quote": "Claude Code is the most misleading name in AI because it's not just for coding — it's the best tool for doing knowledge work. — Claude Code 是 AI 领域最具误导性的名字，因为它不仅用于编程——它是知识工作的最佳工具。",
+  "link": "https://www.youtube.com/watch?v=0UArKLQ6bXA",
+  "tags": [
+    "AI PM",
+    "Claude Code",
+    "Team OS",
+    "Context Management",
+    "Workflow",
+    "Knowledge Base"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "PM 角色演变与团队协作新挑战",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "现代 PM 需要支持比以往更多的工程师（从 3-4 人增至 10+ 人），同时需对接销售、市场、客户支持等所有职能，角色边界正在模糊化"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Hannah 在 DoorDash 支持一个大型跨职能团队，她与数据科学家、设计师、工程师、运营伙伴共 20 人协同工作"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "解决方案是创建高上下文仓库（High Context Repo），让每个人都能快速获取所需信息，实现真正的团队级别杠杆效应"
+        }
+      ]
+    },
+    {
+      "subtitle": "Team OS 团队操作系统架构",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Team OS 是团队知识库，存储所有共享上下文，帮助每个人更快完成工作，支持跨职能信息获取"
+        },
+        {
+          "label": "技术逻辑拆解",
+          "content": "三层架构：1) Cloud Folder - 共享 agents/commands/skills；2) Product Development Folder - 按功能分类的子文件夹；3) Team Folder - 团队级文档（入职指南、复盘等）"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "根目录 CLAUDE.md 包含：Doc Index（导航指引）、团队成员及 Slack 账号、关键 Slack 频道，使 Claude 能通过自然语言完成「Slack Alex 关于那个 bug」这类操作"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "CLAUDE.md 不只是给 PM 用，工程师可以用它做 bug 调查，数据科学家可以存储指标定义，整个团队共同维护和贡献"
+        }
+      ]
+    },
+    {
+      "subtitle": "上下文管理理论与最佳实践",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "CLAUDE.md 应该非常 lean，尤其在团队仓库中；嵌套的 CLAUDE.md 文件只在需要时渐进加载，避免上下文污染"
+        },
+        {
+          "label": "技术逻辑拆解",
+          "content": "四个关键概念：1) Context：当前会话可访问的信息；2) Context Window：LLM 能容纳的信息量（现已达 100 万 tokens，约 7-8 本小说）；3) Compaction：信息被压缩时会丢失精度；4) Thinking Room：容量与使用量之差，决定模型思考推理空间"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "演示中查询「top customers」仅消耗 3% 上下文窗口，Claude 没有进入 analytics 或 engineering 文件夹，只读取了相关信息"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "好的 CLAUDE.md 艺术是最小化 Claude 回答问题所需的上下文量，只消费与任务直接相关的信息"
+        }
+      ]
+    },
+    {
+      "subtitle": "共享 Skills 与团队知识标准化",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "结构化信息让 LLM 更容易工作，团队应统一文档格式（如所有客户通话总结采用相同模板），使 Claude 能轻松跨客户分析"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "创建 customer call skill，要求每个总结者用相同格式、相同位置存储，使 Claude 能快速合成 10-15+ 个不同客户的通话"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "Skills 是让无结构输入转化为可复用知识的最佳方式，团队成员用不同方式访谈，但输出结构一致"
+        }
+      ]
+    },
+    {
+      "subtitle": "产品开发工作流与文档创建",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Hannah 几乎所有工作都在 Claude Code 中完成：写文档、做分析、创建原型，然后用 PR 流程让团队 Review"
+        },
+        {
+          "label": "技术逻辑拆解",
+          "content": "战术流程：所有工作在 branch 上进行 → 阶段性 commit（保存进度）→ 完成后开 PR → 标记 reviewer → 合并到 main branch → 全员同步"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "非技术运营伙伴以前从未用过 GitHub，两个月后每天都能提交 PR；她让 Claude 直接执行「Morgan review this PRD」这类自然语言命令"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "不要被「只有技术人才能用」的思维限制，Anyone can learn — 关键是建立标准化流程和团队共识"
+        }
+      ]
+    },
+    {
+      "subtitle": "Plan Mode 高级规划流程",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "普通 prompt 让 Claude 自由发挥，像没经验的初级员工；Plan Mode 消除 LLM 的行动偏见（bias for action），强制先规划再执行"
+        },
+        {
+          "label": "技术逻辑拆解",
+          "content": "Plan Mode 使用技巧：1) 分阶段（phases）组织工作；2) 设置验证点（verification）确保 Claude 知道如何自检；3) 使用检查点（checkpoints）在阶段间人工确认；4) 让子 agents 输出到临时文件避免上下文溢出"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "复杂文档（战略规划、PRD、竞品分析）建议用 Plan Mode，简单任务可用轻量级 alignment proposal 快速对齐方向"
+        },
+        {
+          "label": "未来预测/行动项",
+          "content": "真正高效使用 Claude 需要投入 2-3 小时规划，很多人失败是因为过早放弃 — Hannah 花了 1500 小时仍在迭代"
+        }
+      ]
+    }
+  ]
+}
