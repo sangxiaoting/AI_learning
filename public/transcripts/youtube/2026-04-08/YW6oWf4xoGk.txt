@@ -1,0 +1,52 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=YW6oWf4xoGk
+
+Kind: captions
+Language: en
+I'm thrilled to introduce this course on
+efficient inference with SG lang where
+you learn about both text and image
+generation. This is built in partnership
+with OMIS and radics. Running LMS in
+production is expensive and much of that
+cost comes from potentially redundant
+computation. Every new message forces
+the model to reprocess the same system
+prompt and context again from scratch.
+SG lang is an open- source inference
+framework that eliminates that waste by
+caching computation that's already been
+done and vusing that in future [music]
+messages. So when say 10 users share the
+same system prompt the system process it
+once not [music] 10 times. In this
+course you learn how these optimizations
+work and [music] how to implement them
+in your work. Teaching this is Richard
+Chen who is a member of technical staff
+at Radixon.
+&gt;&gt; Thanks Andrew. We're going to help you
+skip the deployment headaches and show
+you how to make your models run faster
+and cheaper. I actually got into this
+field out of pure frustration. Doing my
+PhD at Stanford, I was [music] spending
+way too much time fighting CUDA version
+conflicts and memory limits instead
+[music] of actually doing research until
+I found SG Lang. It's one of the rare
+frameworks flexible enough for rapid
+experimentation yet performant [music]
+enough for production. And that's
+exactly why we're using it here. So you
+can implement the caching strategies
+powering today's top models. Whether you
+are deploying your models or just
+curious about what happens under the
+hood when you call an inference API,
+this course will give you a deep
+understanding of efficient OM inference
+and provide hands-on practice applying
+these optimizations.
+I hope you enjoy the course.

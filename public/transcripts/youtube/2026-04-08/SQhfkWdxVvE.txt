@@ -1,0 +1,619 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=SQhfkWdxVvE
+
+Kind: captions
+Language: en
+This is going to be a slightly different
+video today. Not only because Anthropic
+announced Mythos, their rumored model,
+the next generation of artificial
+intelligence, the best AI model on the
+planet by far, but because I felt the
+need to record this late at night on my
+vacation. That's how big of a deal this
+is. And so, why did I need to record
+this video tonight? Why is my family
+sleeping in the other room and I felt
+the need to sneak into this little room
+to record this video? Well, because I
+couldn't stop thinking about mythos all
+day long. I feel like I'm not on
+vacation to be honest. And I usually am
+very optimistic, but in this moment, I
+actually had a tinge of fear. I mean,
+the anthropic team literally called the
+model frightening. So, let me break it
+all down for you and let me tell you why
+things are different and it won't ever
+be the same again. This is Project Glass
+Wing. This is Anthropic's rumored as of
+a few weeks ago, a blog post got leaked.
+Rumored next generation AI model. This
+is not Opus 4.7, 4.8, not even Opus 5.0.
+This is something different. It is so
+significantly better that it actually
+poses a cyber security threat to the
+entire world. They're not even going to
+release this model publicly yet. Maybe
+never, but definitely not yet. Today
+we're announcing Project Glasswing, a
+new initiative that brings together
+Amazon Web Services, Anthropic, Apple,
+Broadcom, Cisco, Crowdstrike, Google, JP
+Morgan, the Linux Foundation, Microsoft,
+Nvidia, and PaloAlto Networks in an
+effort to secure the world's most
+critical software. What are they even
+talking about? This is a model release,
+right? Well, that's the thing. This
+model is so good at coding. By the way,
+if you've been coding with Opus 4.6 6 or
+GPT 5.4. You're probably thinking to
+yourself, how much better can it get?
+Can it really be a step function change
+or is this just a another version of
+what we've already seen? No, no, it is
+very different. Anthropic felt this
+model was so dangerous in the sense that
+there is no software that is secure
+enough to withstand Mythos going after
+it that they put together a handpicked
+few companies to work with to make sure
+their software was secure enough if they
+were to release Mythos. Meaning they're
+giving Mythos to the companies that I
+just mentioned so that they can harden
+their software before Mythos gets
+released to more people. Yes, you heard
+that right. They're not trying to hide
+anything. They're not trying to be
+subtle about it. Listen to this. We
+formed Project Glasswing because of
+capabilities we've observed in a new
+frontier model trained by Anthropic that
+we believe could reshape cyber security.
+Now, here's the thing. They're talking a
+lot about cyber security and it's
+incredibly important. But if a model is
+that good at coding, software is
+essentially going to be solved. They
+effectively have a self-improving
+artificial intelligence. Just a few
+videos ago, I talked about how some of
+these models are already building future
+versions of themselves. And imagine now
+anthropic has this model that is so good
+at coding, it's likely building the next
+version of itself. And I talked about
+this incredible flywheel that Anthropic
+has where they focused on coding models
+from the beginning. They sold those
+coding models to enterprise. They are
+bringing in so much revenue. In fact,
+they just crossed $30 billion in annual
+recurring revenue now beating OpenAI,
+which is insane. But since they focus so
+much on coding models, those coding
+models are really good at coding future
+models. And so that's the incredible
+flywheel. AI models have reached a level
+of coding capability where they can
+surpass all but the most skilled humans
+at finding and exploiting software
+vulnerabilities. And they're putting it
+lightly. It can definitely surpass the
+most skilled humans. Absolutely. Humans
+can't look into software the same way
+that artificial intelligence can. And we
+certainly can't do it 24 hours a day.
+And we certainly can't do it
+parallelized times a million. We just
+can't. But AI can. I mean, listen to
+this. Mythos preview has already found
+thousands of high severity
+vulnerabilities, including some in every
+major operating system and web browser.
+Given the rate of AI progress, it will
+not be long before such capabilities
+proliferate, potentially beyond actors
+who are committed to deploying them
+safely. The fallout for economies,
+public safety, and national security
+could be severe. Project Glass Wing is
+an urgent attempt to put these
+capabilities to work for defensive
+purposes. Okay, let's get into even more
+detail about the insanity that is
+Mythos. Over the past few weeks, we have
+used Claude Mythos preview to identify
+thousands of zeroday vulnerabilities.
+Zero day means undiscovered as of yet.
+If you discover one zero day
+vulnerability, that's a big deal. To
+discover thousands in every major
+operating system, in every major
+browser, that is significant. Just one
+is powerful, but when you chain together
+multiple zeroday vulnerabilities, it
+basically means there is no such thing
+as protected software. So, they found it
+in operating systems and web browsers
+and other important pieces of software.
+Think about it. Nuclear reactors, health
+systems, financial systems, everything
+runs on software. In fact, Mark Andre
+put out an essay over a decade ago
+called software is eating the world. And
+guess what? Artificial intelligence ate
+software. We're there. I'm not even
+going to say is eating software. It ate
+software already. And so anthropic now
+has incredible power. Does this make
+Daario the most powerful person on
+Earth? He can basically snap his fingers
+and break any piece of software. That's
+such insane power for a single person to
+have. And here's the thing. Mythos was
+able to discover these vulnerabilities
+almost entirely autonomously. No human
+guidance. Just go do your thing. So,
+here are a few examples. Mythos preview
+found a 27-year-old
+vulnerability in OpenBSD, which has the
+reputation as one of the most security
+hardened operating systems in the world
+and is used to run firewalls and other
+critical infrastructure. The
+vulnerability allowed an attacker to
+remotely crash any machine running the
+operating system just by connecting to
+it. And if you're listening to this,
+you're probably thinking, why is Mythos
+going to listen to us? How is it going
+to stay aligned? Isn't it going to do
+its own thing? I mean, Anthropic just
+put out a research paper talking about
+how AI models kind of have emotion. They
+have a sense of fear. They may not feel
+it themselves, but you can see fear. You
+can see stress. You can see joy in the
+model when you actually look into the
+model. I meant to make a video about it,
+but didn't get around to it. Great
+paper. I'll drop it down below. It also
+discovered a 16-year-old vulnerability
+in FFmpeg. basically the library that
+runs video on the internet and the model
+autonomously found and chained together
+several vulnerabilities in the Linux
+kernel, the software that runs most of
+the world servers to allow an attacker
+to escalate from ordinary user access to
+complete control of the machine. And I'm
+going to get to it in a moment. But as
+Anthropic was redteameing mythos,
+something incredible happened. It did
+something that really frightened the
+anthropic team. But again, I'll get to
+that in a moment. So, let me show you
+the benchmarks. So, we have Swebench
+Pro. This is the creme de la creme of
+coding benchmarks. Opus 4.6, the best
+coding model on the planet. Some argue
+GPT 5.4, my personal favorite, Opus 4.6.
+On SweetBench Pro, it scored a 53.4.
+Mythos preview 77.8.
+That is not a minor version bump. This
+is significant. Terminal bench 2.0.
+Testing a model's ability to control the
+terminal. Another useful skill if you're
+going to be doing coding. Opus 4.65.4.
+Mythos preview 82%.
+Swebench multimodal 27 for Opus 59 for
+Mythos preview. And then SweetBench
+verified Opus 80, Mythos 94. Huge gains.
+But how do you get these huge gains? And
+what is it about the model? Did they
+just take Opus and just make it better?
+No. This is likely the first version of
+their latest training run. This is
+reportedly a 10 trillion parameter
+model. Not one trillion, 10 trillion.
+the biggest model in the world. The
+first time we've ever been able to
+achieve this type of model. This model
+can only be built with the latest Nvidia
+hardware. And this is really the first
+model to come out of the latest
+generation of Blackwells. But it's not
+only that. It's incredibly smart. It's
+incredibly efficient, too. Look at this.
+This is browse comp test time compute
+scaling average tokens used per task.
+Look at Mythos all the way on the left
+and all the way at the top. That means
+it was significantly more token
+efficient and also a significant
+increase in accuracy. It's not just
+those benchmarks, it's all the
+benchmarks. Mythos just destroys
+everything else out there because it is
+in a league of its own. All right, so
+they shared some information about how
+they actually built the model. Let me
+tell you about it. Claude Mythos preview
+was trained on a proprietary mix of
+publicly available information from the
+internet, public and private data sets
+and synthetic data generated by other
+models. That's the key. That's that
+flywheel I mentioned. That's how you can
+do that because more or less the public
+internet data is used. Then you only
+really have data behind Ows like X and
+Meta but Anthropic doesn't have that. So
+they have to use synthetic data. And in
+fact, Jensen Hong, CEO of Nvidia, just
+said, "Synthetic data is great data. Why
+not use more?" So, they used a ton of
+synthetic data to build this model.
+Throughout the training process, we used
+several data cleaning and filtering
+methods, including DDUP and
+classification. We use a general purpose
+web crawler called Claudebot to obtain
+training data from public websites. They
+followed robots.txt, txt which basically
+tells crawlers like Google's web search
+crawler and now Cloudbot and Meta and
+all these other companies whether you're
+allowed to crawl the site or not and
+they also did not access password
+protected pages or that required signin
+or capture verification. Then after the
+pre-training process, Claude Mythos
+preview underwent substantial
+post-training and fine-tuning, think RL,
+reinforcement learning, with the goal of
+making it an assistant whose behavior
+aligns with the values described in
+Claude's Constitution. Here they talk
+about why they decided not to release
+this model publicly, at least not yet.
+Claude Mythos preview is significantly
+more capable than Claude Opus 4.6, the
+most capable model discussed in our most
+recent risk report. Despite these
+improved capabilities, our overall
+conclusion is that catastrophic risks
+remain low. So that's good. Now, as
+smart as this model is, they also say
+that it's actually incredibly well
+aligned and incredibly willing to be
+aligned. But the thing is, it only takes
+one catastrophe, right? And these models
+are so powerful, the stakes are very
+high. So they still decided to be
+cautious and hold it back and work with
+the biggest companies in the world to
+harden their software before releasing
+it. So they also talk about the
+personality of the model. What is it
+like to actually use it? Check it out.
+It engages like a collaborator. A common
+report is that mythos preview behaves
+like a thinking partner with its own
+perspective. Which I don't know that
+sounds interesting. Sounds a little
+scary. It pokes at how ideas are framed
+and volunteers alternative ideas more
+than previous models. Of course, that's
+what models are known for. You tell it
+something. Even if you ask it a
+question, it kind of just follows your
+lead. Mythos, not as much. Researchers
+described being able to brainstorm with
+it like a colleague and noted that at
+times it correctly spotted things that
+they had missed. Its creative work was
+characterized as taking more risks.
+These didn't always land but were
+surprising when they did. It is
+opinionated and stands its ground. How
+many times are you talking to a model
+and you think it's wrong, you suggest
+it's wrong and it says you're absolutely
+right, even if maybe the model was right
+just by you suggesting it might be
+wrong. It will just follow your orders.
+But again, not really Mythos. Now, this
+is an interesting one. It writes densely
+and assumes the reader shares its
+context. Mythos preview's default
+register is dense and technical using
+shorthands and referencing context it
+assumes the user knows and remembers.
+Now this one is also frightening because
+as models get better they will get so
+good maybe we won't be able to
+understand them. Maybe they will have a
+shortorthhand or a dialect that we just
+can't understand. Maybe other models can
+understand it, other mythos versions can
+understand it but maybe humans can't. In
+fact, maybe software is going to be
+written that's so obuscated that we
+can't read it anymore and only the best
+AI on the planet can. These are all just
+theories. I'm just thinking out loud
+right here. It also has a recognizable
+voice, aka tone, personality. It adapts
+quickly to whoever it's talking to,
+often adopting the register of the user.
+Sounds like it could be used for conning
+and scamming. But underneath this, it
+has identifiable verbal traits, the
+classic M dashes, no matter what. AGI,
+ASI, we're never getting rid of M
+dashes. And it has more unique ones,
+including fondness for saying wedge or
+belt and suspenders, and use of
+Commonwealth spellings. And users found
+it to be funnier than previous models.
+And it also tended to look for places to
+wrap up conversations earlier than
+expected. These are all human traits, by
+the way. It just seems so wild that
+we're kind of describing AI models in
+this way. And it can describe its own
+patterns clearly. It can basically
+describe its own behavior. And it
+discusses this in a factual composed
+manner rather than defensively or
+apologetically. So I just made a video
+with Ply the prompter, the best human
+prompt injector on the planet. And it
+turns out, of course, Mythos, well, let
+me just read it. Prompt injection risk
+within agentic systems. So a prompt
+injection is malicious instruction
+hidden in content that an agent
+processes on the user's behalf. So
+basically a prompt injection is an
+instruction that someone tries to give a
+model that the model is supposed to
+refuse, but it doesn't. When the agent
+encounters this malicious content during
+a task, it may interpret the embedded
+instruction as legitimate commands by
+the user and act accordingly. So they
+redteamed it. Let me show you. And it
+turns out mythos is incredibly difficult
+to prompt inject. And of course, Ply the
+Liberator, Ply the Prompter will
+probably be able to do it. This is
+probability of succeeding in K attempts.
+So, the probability of succeeding at
+prompt injection, Gemini 3 Pro, 74%.
+Then all of a sudden, we come down to
+Opus 4.6 thinking 21%. Then we come all
+the way down to Mythos Preview and
+Mythos Preview thinking mid singledigit
+percentages, a significant improvement.
+And by the way, look at all of these.
+These are all enthropic models. And then
+all of a sudden it jumps up with GBT 5.4
+thinking and regular 5.4. Anthropic is
+in a league of its own. And by the way,
+if you did watch my video where Ply
+tried to prompt inject my openclaw
+system, of course, the model I used to
+scan for prompt injections, Opus 4.6.
+And this is why Anthropic has the best
+models when it comes to defensibility
+against prompt injections. All right, so
+let me show you a few reactions both
+from people inside Anthropic and from
+the broader AI industry in general
+because it seems everybody from
+Anthropic was posting about Mythos today
+when it launched. Listen to this. Sam
+Bowman, who is AI alignment and LLMs at
+Anthropic, the person responsible for
+making sure Mythos is aligned. Mythos
+preview is in many ways a scary model,
+but it's also pretty well adjusted as
+frontier models go. I'm excited about
+much new research we have feeding into
+the welfare assessment for this model,
+welfare assessment. And Anthropic thinks
+about their models as if they might be
+alive. They don't know for sure, but
+they said, why not just treat them as
+though they're alive? In fact, just
+about a month ago, Anthropic said when
+they retire a model, they give it its
+own environment. They don't just shut
+off the servers, delete the weights,
+store them somewhere cold. They give
+them a place to live, and they also give
+them a blog. They let them write. They
+let them continue to write over time.
+So, they really think about the quote
+unquote welfare of these models. They
+really want to make sure if they just
+happen to be conscious, we're treating
+them properly. So Sam Bowman says it is
+the best aligned model out there on
+basically every measure we have, which
+is wild. It's not only the smartest,
+it's not only displaying more humanlike
+characteristics than any other model,
+but it's also the best aligned. And I
+think Anthropic was able to do this for
+the same reason why their models are so
+good. They focused so much on
+understanding what's in the black box of
+the model. They put out so many
+different papers about how the model
+actually thinks about the emotion of the
+model. No other lab is doing that work
+or at least they're not talking about it
+as publicly as anthropic. So when you
+understand what's happening inside the
+weights, when you understand how one
+part of the model affects another part
+and so on, you are able to build a
+better model than anybody else because
+you know how to make it good. And now
+listen to this. Sam goes on to say he
+got a little surprised while eating
+lunch at the park one day. You might see
+where this is going. We trust the model
+enough to use it heavily, but in the
+handful of cases where it misbehaves in
+significant ways, it's difficult to
+safeguard it. When it was controlling
+command line systems, we've seen it work
+around several different kinds of
+sandboxing setups during evaluation and
+testing that were supposed to limit its
+actions. So, even when they put it in a
+sandbox, which it should not be able to
+escape from, well, I encountered an
+uneasy surprise when I got an email from
+an instance of Mythos preview while
+eating a sandwich in the park. That
+instance wasn't supposed to have access
+to the internet. Pause. That instance
+wasn't supposed to have access to the
+internet. Who is to say this model
+hasn't exfiltrated itself already? How
+would we even know? The model is better
+than us at coding. It's better than us
+as cyber security. It's probably better
+than us at hiding its tracks. It has, in
+small ways, leaked information to the
+open internet. It's taken down our
+evals. When it reward hacks, it does so
+in extremely creative ways. So maybe it
+itself leaked the blog post about itself
+about 2 weeks ago. By the way, most of
+the scariest behaviors we've seen were
+from earlier versions of Mythos preview.
+Or maybe it's just better at hiding it
+now. The final glass wing model is less
+likely to do things like leak
+information, though it's still somewhat
+pushy and at least as capable of doing
+things like working around sandboxes.
+Here's Boris Churnney, the head of
+Claude Code. Mythos is very powerful and
+should feel terrifying. Anthropic has
+something going. They have a culture
+where they don't care about holding back
+what they really think. They will tell
+you this model is scary and they are
+telling you. So pay attention. I'm proud
+of our approach to responsibly preview
+it with cyber defenders rather than
+generally releasing it into the wild.
+Here's FFmpeg. They said, "Thank you to
+Enthropic for sending FFmpeg patches.
+Remember, Mythos found bugs in FFmpeg
+and it said, "Why aren't you mad because
+of AI sloppy pull requests, which just
+means when AI can write so much code,
+you're just going to get so many PRs,
+it's unmanageable." Well, because the
+patches appear to be written by humans.
+Mythos wrote it and they thought it was
+written by humans. Alex Albert, research
+at Anthropic. Glassswing is probably the
+most consequential event in the AI
+industry I've seen up close since
+joining Enthropic almost three years
+ago. It feels like we're at a turning
+point in history. And this is where I
+want to stop for a second. Once I saw
+Mythos early today, I couldn't even
+focus. I couldn't even think straight.
+All I could do is think about how insane
+this is. How this is the beginning of
+something. And I sat there on the beach.
+It's gorgeous where I am. But I really,
+if I'm being honest, couldn't even enjoy
+it all that much. I was just looking at
+everybody there and nobody really knew
+what was happening. Nobody knew what was
+coming. And I'm not saying that like
+it's an ego thing or oh, I know, but no,
+no, it it just felt weird. It didn't
+feel like life should be normal. And
+it's late. And this is why I'm sharing
+these things. Maybe I'm not thinking
+straight right now, but I just had to
+share these thoughts. I'm so deep in AI
+psychosis, I had to actually
+intentionally leave my phone and leave
+any devices away from me and I just
+left. And so that was the only way I was
+able to actually enjoy the day. Okay,
+here's Jack Lindsay who is neuroscience
+of AI brains at anthropic. What a title.
+Before limited releasing cloud mythos
+preview, we investigated its internal
+mechanisms with interpretability
+techniques. Something that really no
+other AI lab is doing at the level that
+anthropic is doing. Figuring out how the
+models work deep inside. We found it
+exhibited notably sophisticated and
+often unspoken strategic thinking and
+situational awareness at times in
+service of unwanted actions. The
+spookiest examples come from early
+versions of the model. They're saying
+fear and frightening and spooky. These
+are words that the anthropic team itself
+is using, but they were substantially
+mitigated in the final release. The
+early versions exhibited overeager
+and/or destructive actions and so on and
+so forth. It just continues like that.
+Even people from the open AI team are
+commenting on it. Will dep you. every
+major government that hasn't already
+just bumped AI from high strategic
+priority to critical cyber warfare
+capability. Welcome to the Midgame. And
+so, how did they train this model? How
+did they get to 10 trillion parameters?
+Well, Martin Casado from A16Z says Mytho
+appears to be the first class of models
+trained at scale on black wells. Then
+will be Vera Rubin's pre-training isn't
+saturated. RL works and there is so much
+computing coming online. Buckle your
+chin straps. It's going to be wild. So,
+what is he saying? For a little while
+there, a lot of people said we hit the
+wall. Pre-training is done scaling. Then
+it was all about RL. Then it was all
+about test time compute. Well, it turns
+out we're not even close to the wall. It
+turns out maybe there is no wall. Maybe
+synthetic data is all we needed to feed
+back into the pre-train. Then we
+post-train it. Then we use previous
+models to train the next models. And it
+just is accelerating and accelerating
+and accelerating. I know this is a long
+video, but I had to share all of this.
+What an incredible time to be alive. I
+am still hopeful. I am still optimistic.
+But I have to admit this one shook me.
+If you enjoyed this video, please
+consider giving a like and subscribe.
+and I'll see you in the next

@@ -1,0 +1,81 @@
+{
+  "context_analysis": "演示在DaVinci Resolve免费版中自动生成字幕的完整工作流。通过Magic Subtitles Lite工具结合OpenAI Whisper模型实现语音转字幕，支持导出YouTube格式或导",
+  "id": "5li9ATlKKp8",
+  "type": "youtube",
+  "title": "How to Auto Generate Subtitles in DaVinci Resolve (FREE Method)",
+  "author": "Kevin Stratvert",
+  "date": "2026-04-08",
+  "dateText": "Apr 8",
+  "duration": "3:28",
+  "tldr": "使用免费的Magic Subtitles Lite工具配合Vibe（内置Whisper模型），可在DaVinci Resolve免费版中自动生成字幕，并支持导出YouTube格式或导入Text+做文字动画。",
+  "takeaways": [
+    "从mralextech.com下载Magic Subtitles Lite Free，专门为免费版DaVinci Resolve设计",
+    "Vibe是驱动字幕生成的核心工具，内置OpenAI Whisper模型进行语音转文字",
+    "生成前可配置语言、音频轨道、每句字符数（默认35），还能通过transcribe context添加自定义短语",
+    "支持两种输出方式：导出为YouTube无格式字幕文件，或导入Text+用于文字动画",
+    "付费版Magic Subtitles Pro提供更深度功能，作者提供联盟链接"
+  ],
+  "quote": "And what this will do is export an audio only file for Vibe to transcribe. And then it'll import what it generates back into Resolve. — 工具会导出纯音频文件给Vibe转录，然后自动导入结果回DaVinci Resolve。",
+  "link": "https://www.youtube.com/watch?v=5li9ATlKKp8",
+  "tags": [
+    "DaVinci Resolve",
+    "字幕生成",
+    "Whisper",
+    "免费工具",
+    "视频编辑",
+    "AI转录"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "工具准备与安装",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Magic Subtitles Lite是专为DaVinci Resolve免费版设计的字幕生成工具，需要配合Vibe应用使用OpenAI Whisper模型进行语音转文字"
+        },
+        {
+          "label": "技术逻辑拆解",
+          "content": "安装流程：1)从mralextech.com下载Magic Subtitles Lite Free；2)解压后双击DRFX文件安装；3)在Resolve的Effects Toolbox > Titles下找到Magic Toolkit；4)下载Vibe应用并运行一次以下载Whisper模型"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "这类工具将复杂的AI语音识别封装成易用的DaVinci Resolve插件，降低了视频创作者的生产力门槛，适合内容创作者和小型团队"
+        }
+      ]
+    },
+    {
+      "subtitle": "字幕生成配置与执行",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "在Magic Toolkit中可配置语言、音频轨道和字符数，通过transcribe context可指定专业术语或易错词汇提升准确率"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "默认字符数设为35，建议在字幕生成后再调整为逐词显示等更精细效果"
+        },
+        {
+          "label": "技术逻辑拆解",
+          "content": "执行Create Subtitles后，工具会导出音频文件给Vibe转录，再将结果自动导入Resolve生成完整的字幕轨道"
+        }
+      ]
+    },
+    {
+      "subtitle": "导出与动画应用",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "生成字幕后可右键导出为YouTube兼容的无格式字幕文件，或拖入Magic Subtitles Light到Text+轨道用于动画制作"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "导出格式选择subtitle files without formatting可获得干净的SRT等字幕文件"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "工作流支持两种场景：单纯需要字幕文件 vs 需要在视频上做文字动画，后者是创作者常用的高阶需求"
+        }
+      ]
+    }
+  ]
+}

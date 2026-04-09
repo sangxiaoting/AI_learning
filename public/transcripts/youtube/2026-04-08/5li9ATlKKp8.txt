@@ -1,0 +1,88 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=5li9ATlKKp8
+
+Kind: captions
+Language: en
+Generating subtitles automatically is&nbsp;
+super useful for creating captions,&nbsp;&nbsp;
+word-by-word animations, and highlighted text.&nbsp;
+And thanks to this guy, we can now do it in the&nbsp;&nbsp;
+free version of DaVinci Resolve. Let's check&nbsp;
+out how to use it. So the first thing we need&nbsp;&nbsp;
+to do is download the tool that makes this&nbsp;
+work. So we'll go to mralextech.com and then&nbsp;&nbsp;
+navigate to the free tab. And we're going to&nbsp;
+download Magic Subtitles Lite Free. Now keep&nbsp;&nbsp;
+in mind this was designed for the free version&nbsp;
+specifically. If you want the studio version,&nbsp;&nbsp;
+you can go down to Magic Subtitles Pro Free.&nbsp;
+But we're going to stick with Magic Subtitles&nbsp;&nbsp;
+Lite for now. And then you can just enter&nbsp;
+your email and then hit Get Now, and you'll&nbsp;&nbsp;
+be emailed the download link. So once you've&nbsp;
+downloaded the file and unzipped the zip, you&nbsp;&nbsp;
+can just go into the folders and find this DRFX&nbsp;
+file. And we'll just go ahead and double-click&nbsp;&nbsp;
+it. And then Resolve will ask you if you want to&nbsp;
+install Magic Subtitles Lite. So we'll go ahead&nbsp;&nbsp;
+and install that. And then it'll add this Magic&nbsp;
+Toolkit under your Effects Toolbox Titles. So&nbsp;&nbsp;
+we'll just go ahead and click Magic Toolkit. And&nbsp;
+it'll give us these two options, Create Subtitles&nbsp;&nbsp;
+and Magic Subtitles Lite. Now we can do the same&nbsp;
+thing on both of them, but for simplicity's sake,&nbsp;&nbsp;
+we'll just use the Create Subtitles here.&nbsp;
+I'll just go ahead and stretch this out&nbsp;&nbsp;
+for the duration of the clip. And the first thing&nbsp;
+that we need to do is download Vibe. And Vibe is&nbsp;&nbsp;
+really what's going to drive how this generates&nbsp;
+subtitles. So we'll go ahead and download for&nbsp;&nbsp;
+Windows. And I'll just go ahead and install. And&nbsp;
+then we don't need to create a desktop shortcut,&nbsp;&nbsp;
+but we do need to run Vibe real quick just to&nbsp;
+get one more prerequisite down. And we just need&nbsp;&nbsp;
+it to download the OpenAI model because it uses&nbsp;
+OpenAI's Whisper to generate the subtitles. And&nbsp;&nbsp;
+once that's finished, we can go ahead and exit&nbsp;
+out of Vibe and then close out of this window as&nbsp;&nbsp;
+well. And then we have our controls that we can&nbsp;
+select. We can select what language we want to&nbsp;&nbsp;
+use if we want to specify it. We can select which&nbsp;
+audio track we're basing the subtitles off of. And&nbsp;&nbsp;
+we can also change the characters per sub if we&nbsp;
+want to do one word at a time, although generally&nbsp;&nbsp;
+it's best to do that after the subtitles have&nbsp;
+been generated. So we'll just keep it at 35 for&nbsp;&nbsp;
+now. And this transcribe context is interesting&nbsp;
+because this allows us to specify either words or&nbsp;&nbsp;
+particular phrases that the subtitle generator&nbsp;
+might not get correct. So we can just go ahead&nbsp;&nbsp;
+and paste in our description right here. And then&nbsp;
+we can just hit Create Subtitles. And what this&nbsp;&nbsp;
+will do is export an audio only file for Vibe&nbsp;
+to transcribe. And then it'll import what it&nbsp;&nbsp;
+generates back into Resolve, which we see right&nbsp;
+here. So let's go ahead and just disable this,&nbsp;&nbsp;
+Create Subtitles for now. And we can see we have a&nbsp;
+whole generated subtitle track. And we can export&nbsp;&nbsp;
+these subtitles for YouTube by right clicking on&nbsp;
+the subtitle track and hit Export Subtitles. And&nbsp;&nbsp;
+then we can change our subtitle type to subtitle&nbsp;
+files without formatting. And then go ahead and&nbsp;&nbsp;
+save. Or if we wanted to add these to the actual&nbsp;
+video, we can bring in Magic Subtitles Light. Once&nbsp;&nbsp;
+again, drag this all the way out through where&nbsp;
+our subtitles are. And then we can hit this Subs&nbsp;&nbsp;
+button. And that'll import all of our subtitles&nbsp;
+into this text plus file for any animations or&nbsp;&nbsp;
+anything else that we want to add. If you want&nbsp;
+a deeper dive into word by word animations,&nbsp;&nbsp;
+text timing, and everything Magic Subtitles can&nbsp;
+do, definitely check out Mr. Alex Text Videos.&nbsp;&nbsp;
+He covers all the features in great detail.&nbsp;
+And if you decide to pick up the paid version,&nbsp;&nbsp;
+you can use the affiliate link down below&nbsp;
+to help support this channel. I hope this&nbsp;&nbsp;
+tutorial was magical and I'd love to hear&nbsp;
+how you use this tool. Thanks for watching!

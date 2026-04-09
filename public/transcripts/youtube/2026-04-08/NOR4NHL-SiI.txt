@@ -1,0 +1,537 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=NOR4NHL-SiI
+
+Kind: captions
+Language: en
+Oh boy, it's happening.
+&gt;&gt; Everybody stay calm.
+&gt;&gt; WHAT'S THE PROCEDURE? EVERYONE, WHAT'S
+THE PROCEDURE?
+&gt;&gt; STAY CALM.
+&gt;&gt; Another one of these big cataclysmic AI
+events, leaks, releases. Well, not even
+releases, more like previews. Claude
+Mythos. It's another one of those
+significant moments in AI history, in AI
+development, where we just need to talk
+about this. Claude Mythos was previewed
+by Entropic, their new flagship model.
+It's not even released, but the numbers
+on this, the benchmarks on this are
+unbelievable. I've spent the past few
+hours looking at this. I've had some
+pretty good conversations here, and I
+think I have two to three, probably like
+three insights that to me seem
+non-obvious yet significant for you to
+want to get the most out of this, but
+two, really just wrap your head around
+what's happening in this space and in
+this world. because this model simply
+puts stands head and shoulders above
+anything else we've seen about all the
+open AI models above all the propic
+models. It's yet again about 6 months
+ahead of what we see in the open source
+space. I want to talk about all of that.
+But before I even switch to my screen
+and start, you know, showing you, you
+know, benchmark numbers that will
+frankly like benchmarks don't impress
+people these days anymore. These are
+unbelievable. How did they make this
+jump? I I don't know. One thing that
+comes to mind is like no wonder that
+they've been shipping a new feature
+every day for the past month if they're
+using this internally. One, two, they
+haven't released this yet. So if you
+didn't hear about the release, it's
+basically new anthropic model, their new
+flagship model, and they're not
+releasing it. They created what they
+call project Glass Wing, which is a
+partnership with well all the large
+companies, all the large tech companies
+to use Claude Mythos to harden their
+security before they put it out into the
+world. Because one obvious thing that
+this does, it can hack and it can
+exploit security vulnerabilities. Now,
+here's my first non-obvious insight.
+Okay, I think this is a really big one.
+I've been talking to a lot of people
+recently. As you might know, I've been
+spending a bit too much time with
+OpenClaw. And, you know, that's a whole
+separate video that's that's worth
+exploring. By now, I have like 12
+workflows that run regularly, some of
+them weekly, some of them daily that I
+wouldn't want to give up anymore. I
+think content creation, you know, I I'll
+preface that by saying I think content
+creation is one of the areas where you
+can benefit the most from OpenClaw. You
+know, probably plumbing is one of the
+ones where you can use it the least. You
+know what I'm saying? But here's the
+non-obvious insight. What made Open Claw
+work, right? And I'm not saying it works
+for everybody. I realize a lot of people
+have trouble with it. I think it's
+usually in the context layer. But what
+made this shift happen, right? Because
+it's not the code. It's not the fact
+that somebody put together, you know,
+all these tools, you know, shout out
+Peter. He did an incredible job with
+that with with building this. But we've
+seen versions of this over the past
+years. For anybody who's been around
+like in what was it like early to mid
+2023 watching the development of all
+this, we had projects like what would
+they call it was like baby AGI was one
+of them. Another one was agent GPT and
+they were basically attempting the same
+thing like a autonomous system that just
+runs and gets things done. And back then
+it ran on GPT3.5 and I guess GPD4 when
+that came out. It just wasn't good
+enough. The whole thing wasn't good
+enough. And I've been giving these some
+thought recently. Why was that? Why
+wasn't good enough? It was the
+underlying models. It wasn't the code.
+It wasn't the fact that the Telegram
+connection didn't work. Heck, I had a
+YouTube tutorial back then on how to
+build Telegram bots with GPT4 and voice
+input, all that, right? It was a thing
+you could do in 15 minutes as a
+non-coder. It was that simple, right?
+So, it was certainly not in that
+connection and eager. Maybe it was like
+in the setup or the heartbeat or the
+soul. Those are all nice additions. The
+whole thing is really, you know,
+incredible. Here's my insight. The
+difference maker was the model. It's
+really the Opus 4.5 release that was
+kind of the tipping point. Now we have
+Opus 4.6. Everything works even better.
+But it was really these model releases
+were the thing that made Agentic tools
+work. Right? If you've played around
+with them, the browser use still is so
+far from perfect. It's so inconsistent.
+But its ability to hold context and its
+ability to just work for 20 minutes and
+actually not have amnesia about what it
+worked on 15 minutes ago. Incredible.
+its ability to hold a large amount of
+context is what I'm saying one but also
+its ability to adhere to context even
+with GP4 you told it hey do these 14
+things and it did like nine and then you
+were like what happened to these other
+five it's like ah true you're right now
+the prompt adherence is so good that
+that's not the case anymore so that was
+the tipping point that made this entire
+aentic revolution that we're seeing
+right now we have claude code kind of
+catching up with open claw with all the
+madness that openclaw unleashed with
+claude coowwork maturing up as this like
+new category of consumerfriendly agents.
+It's incredible stuff. We covered this
+weekly on the channel, right? Every
+Friday news week news, we cover this
+stuff. But it's really the model that
+made it work. So now when we look at
+this, well, this model is so far ahead
+of Opus 4.6 like from a consumer
+perspective. If I just ask myself like
+if right now you see massive unlocks for
+content creators when it comes to using
+openclaw and maybe it's a spectrum where
+on the other end end of the business you
+know I said it jokingly with like the
+plumbers but at the other end of the
+spectrum you have all these businesses
+that don't get affected so radically
+right because they're not softwarebased
+they're not trendbased they're not
+digital you can't scan the internet for
+new stories and have that repurposed
+into scripts and create visuals and all
+these things right heck you're selling
+plumbing like you're not going to be
+able to use software to help with that
+but if that's a spectrum which I think
+it is you know with you know finance is
+probably somewhere in the middle maybe
+more towards the software side like as
+these models get better it's going to
+start moving along this spectrum further
+and further where it's just a no-brainer
+to use these agentic tools for the
+different areas and like now I would
+want you to think about like okay what
+industry do I work in and how is that
+going to affect me right if you're a
+coder heck you're all the way out here
+you beyond content creators like I think
+coding is the one first big use case
+where it just like you know cataclysmic
+shift in how it's done right over the
+past 3 years for sure whereas all the
+physical businesses they're on the other
+end of the spectrum so it's not going to
+be clear it's not going to be black and
+white but think about where you are on
+that spectrum and then think about that
+if this used to be the spectrum and
+agentic tools well they maybe only
+worked for like coding and a few other
+niche applications over here now it kind
+of like moved over here with Opus 4.5
+and 4.6 six now. But then what does this
+move look like? If this is the spectrum,
+like it just moved here. Is it going to
+move here or is it going to move like
+here? I don't know. We're yet to find
+out. So that's the first thing that I
+wanted to bring up. Secondly, I mean,
+just look at these numbers for a second.
+Software engineering bench, it jumped
+from 80.8 on Opus, right? Versus Gemini
+3.1 Pro, which was 80.6 to 93.9.
+What the Okay, that's one. What about
+mmlu?
+Okay, improvement not that dramatic. All
+these software benchmarks are insane.
+Always world increase. Usually it's mmlu
+that's like general world understanding
+and software engineering that you're
+kind of like first looking at. But just
+this jump in software engineering is
+unbelievable. Multimodal, right? Where
+it's using various inputs um not just
+text 27.1 to 59%. You could imagine what
+this can do if you you just give it a
+screenshot. The understanding of it is
+going to be so much deeper. Okay, this
+is me just kind of like talking about
+these numbers. You know, you can look at
+this. They're they're impressive. But
+furthermore, as I told you, like they're
+not putting this out. They're basically
+giving it to the biggest companies to
+harden their security. And there's a few
+interesting kind of findings here. One
+of them was that it found security
+vulnerabilities in a 17-year-old
+operating system here. 27year-old
+vulnerability in the OpenBSD, which is a
+reputation as one of the most security
+hardened operating systems in the world.
+Okay, I wasn't familiar with this one,
+but basically ran that and somewhere
+else I saw that it just cost $50 in
+token to find that. I think that is not
+verified, but unbelievable. Also, in
+another source, I saw that they used it
+to expose some vulnerabilities in
+Firefox. The previous Opus model found
+two. This model found
+181. So, you know, a a real change. So,
+what they're doing is they're giving it
+to all these companies. And here's my
+second insight that I wanted to tell you
+about. The second insight is this was
+and I don't think this is a coincidence.
+You know how OpenAI kept holding their
+models over the past years like you know
+no announcement for a few weeks and then
+Google comes out with something and haha
+all of a sudden who would have thought
+OpenAI is announcing their next big
+thing uh a few hours before the Google
+keynote right they kept doing that
+throughout the past few years well and
+timing is a bit odd here look at that we
+have a new open source model which was
+basically the new king in open-source
+coding okay GLM 5.1 this came out
+roughly what is that like 9 hours ago
+well 2 hours Later we get this Mythos
+announcement. Okay. Now this open-source
+model scores 54.9 on SWEBench Pro. Opus
+4.6 scored 57.5. So I guess on this
+graph, let me have a look on this graph.
+This was SWE Pro here. So it would be
+right up to par with the current
+best-in-class models, the paid models,
+right? But the difference is this open-
+source model basically is available
+under a fully open Apache 2.0 do
+license, meaning you can like do
+everything with it and it's it's just
+yours and they just released it out
+there. So, this came out and basically
+what that meant, you know, hey, your
+best model not that unique anymore.
+People are paying hundreds of dollars
+for it daily. How about here's a open-
+source version of that that people can
+run for free on their beefed up Macs. I
+told you I have this new MacBook Pro
+which can run this 128 GB of RAM. This
+model might be slow, but I would be able
+to run this on here. And we're talking
+Claude Opus 4.6 level performance when
+it comes to development, right? So they
+came out with this and immediately
+Claude had to defend their business
+model so to say with this press release,
+right? They sent out I got this release
+with different partner quotes of I'm not
+going to read all of them, but you can
+see all the big players Microsoft, Linux
+Foundation, Google, all of them in here,
+all of them claiming how helpful it's to
+have a model like this in their
+development. And you know, not to yap on
+forever about how big of a deal this is,
+but with everything moving forward so
+fast, I would kind of like end on this
+point and wrap it up this way. I would
+really say that it's not even the fact
+that this model will be available. It's
+rumored to be available, I think, on
+Poly Markets. Um, over 50% of the bets
+are it being available before the end of
+April. It's not even the fact that we'll
+have access to this. It's going to be
+incredible. I think everything that we
+have, you know, claude code, open claw,
+even like claw the web app, even more
+people are going to be switching now.
+All of those are going to become better
+and some of them significant on that
+spectrum of different jobs that are
+affected like it's going to move. Sure.
+What really makes me think is the second
+and third order consequences. What does
+that mean? It means that all the
+competitors are going to have to follow
+now just like I think empropic had to
+follow this open source release here.
+OpenAI and Google are going to have to
+follow this cloth mythus announcement
+with their own products, right? So
+everything is accelerating and you know
+that's nothing new. It's been
+accelerating over the past few years,
+but this jump is so significant that
+it's going to force the competition if
+they want to stay relevant, if they want
+to stay in the race, especially OpenAI
+quite ruthless with, you know, how
+they're releasing things. They're just
+going to have to keep up and they're
+going to ship their own version of Open
+Claw, you know, like seriously, a lot of
+people over the past few days, as if
+you're not familiar in Open Claw, you
+could use Claude and not pay for it,
+right? Otherwise, you were paying
+like$100, $200 a day for the API if you
+like paid for the API credits or you
+could just pay 200 bucks per month and
+use the authentication with the
+subscription, the OOTH. Well, they
+banned that now on Sunday. Um, if you
+haven't heard that and now people are
+kind of like fleeing it cuz it's so
+expensive, right now they have to pay
+like two $3,000 a month for their open
+clause running what used to cost 200.
+And people are trying alternative
+models. And everybody that I know that
+tried like the OpenAI models is like, if
+you have a different opinion, please
+leave a comment. I mean this is like
+friends talking about this stuff. That's
+what that's the way I kind of see this
+conversation and everybody that I know
+all or like other people that I know
+like you know they don't like the open
+AAI models in open claw. It's like it
+has no personality. The coding is not as
+rob like it's robust but it just feels
+off and it doesn't work as well. Doesn't
+work as reliably. Tried it briefly. Not
+a big fan. I love Opus and and a big
+part of it is maybe the psychology for
+me. I just love the way it feels, the
+way it just gets things done. The way it
+like adheres to the prompts and and
+retains the memory. It's hard to put
+into words. It's not even about the
+terminology of like the context window.
+It's more about how it handles the
+context window. Okay. So, second order
+consequences, all the competition is
+going to like now flood in. Third order
+consequences is really because the
+competition is going to flood in and
+because the coding is going to become so
+damn good and because there's going to
+be so many new vulnerabilities exposed
+and everything. Well, these open claws
+running a model like this, you're going
+to unlock a whole new world of madness
+because people, you know, with unlimited
+budgets, all of a sudden already I know
+some people who are spending over 10k a
+month on their open claw bill just on
+Opus API credits now cuz they just found
+so many ways to use it and they just run
+it every day. This is going to like 10x
+that you're going to have people running
+up $100,000 per month bills. People who
+can afford it, right? These are the
+further order consequences. The people
+running $10,000 per month are laughing
+their asses off because they're like
+because it's so valuable to them, right?
+They would in in terms of human
+resources, they would be paying 50K,
+100K, maybe more for what OpenClaw does
+for 10K. That's why they're paying that.
+They're not stupid. They're not just
+like, oh, I'm spending money or
+whatever. It's so valuable. I don't
+know. I personally spent like what like
+2.5K over the last month on it. And it's
+for me like the value that it creates is
+so immense. This is going to be even
+larger, right? and the people spending
+100k a month all of a sudden on AI like
+this is this is the tipping point. This
+is really that future turning into
+reality where the people spending 100k,
+they're going to be getting way more
+value. They're going to be getting
+hundreds of thousands of dollars of
+value. Meaning their AI system is going
+to create hundreds of thousands, maybe
+millions of dollars of value. And and
+I'm talking about individuals. Heck, we
+saw the first story of of the first
+billion dollar company powered by that's
+different. You know, it was okay, let's
+not go there. But like there was a story
+this week. Point is this people using it
+and the people not using it that that
+gap is going to open so much more with
+this release. It's already happening.
+You see it in the world. you know,
+people buying Mac minis, going crazy,
+doing some crazy black magic type of
+stuff. This is only going to widen that
+gap. And I think it's now it's more
+important than ever to keep up with this
+stuff. You don't have to be using it,
+but just try to wrap your head around
+what's possible. Try to listen to people
+who are actually using it. I'll do more
+content on this type of stuff. I have to
+be honest as I wrap this video up. I had
+a hard time creating content around
+OpenClaw because my goal is to like
+serve this a non-technical audience of
+of this like 80% of the people to show
+you what's possible, make your life
+better, get you time back with the use
+of AI tools, so you can do more of what
+you care about, which you know, we're
+humans so we're good at, you know,
+connecting and and building
+relationships and and being creative and
+all that. That's the whole idea of the
+channel. That's the whole idea of the AI
+advantage. I kind of struggled fitting
+open claw in there. But I think with
+this happening and with a new framework
+that I built, it's basically this like
+AI learning road map. Everybody starts
+in a certain place. There's a middle
+level, the context layer that most
+people miss. And then there's this
+agentic level. And you need to go
+through the context level to get to the
+agentic level. Otherwise, it doesn't
+work. It makes no sense. There's way
+more to that. That's kind of the
+cliffnotes of it. But basically since I
+put that together over the past few
+weeks I feel way more confident in
+bringing you content like this because
+we can just contextualize this and we
+can say okay this is you know level
+three agentic level stuff and if you're
+not there yet that's fine but we can
+still talk about it in a way that is
+helpful and now that that is in place I
+feel like we can create more content
+around that. And also finally, and you
+know, I didn't create this video to
+point you there, but if you're
+interested in this free level framework,
+we're putting on a summit end of this
+month. Um, it's completely free, not
+kind of free, completely free. April
+22nd through April 24th, AI advantage
+summit together with Tony Robbins, Dean
+Graciiosi, myself as the head of
+education and a partner and many more
+speakers. It's going to be great. In my
+parts, I'm going to be speaking about
+this progression, showing use cases,
+also teaching. A lot of it is going to
+be high level stuff of like
+understanding where this space is at.
+Anyway, you can you can sign up to that.
+I'll put a link in the description. It's
+completely free. But that's by the way
+that's if you're interested in this
+progression. If you're interested in
+what's happening with these tools, if
+you're interested in my opinion once I
+get my hands on this, if you're
+interested on, you know, benchmarks, but
+also real world use cases of this for
+nontechnical users, then subscribe to
+the channel. That's what I do here. And
+I hope that you feel the urgency around
+this and that you start using these
+tools in a way where you have rich
+context and where you're not just using
+a variety of applications, but you also
+have a depth of usage in one application
+because that's what allows these types
+of systems to thrive. That's what makes
+agents work. That's what's going to
+empower Myths once it's available. And
+yeah, it's just unbelievable that we're
+seeing this type of acceleration in not
+just our lifetime, but in like a
+sequence of months and years, heck
+weeks. It's crazy. Great to be on this
+journey with you.

@@ -1,0 +1,214 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=hLiyW7H04cc
+
+Kind: captions
+Language: en
+Zap your SDK just dropped. Let's find
+out if it's any good. And by the end of
+this video, you're going to understand
+fundamentally the difference between
+Zapier CLI SDK, how to integrate it into
+your agent workflow. Corbin, I don't
+know what any of these terms mean. Don't
+worry, that's why you clicked on this
+video. Let's find out. Let's jump in.
+Welcome back, y'all. Today's video is
+sponsored by Zapier. They said, Corbin,
+we had a major update. Major update. and
+that is now we have the ability to
+integrate Zapier's entire ecosystem very
+easily in any of our agent workflows or
+alternatively in our application. So
+here's the situation. We are going
+towards a future where AI agents are
+becoming very fundamental in our
+workflows or alternatively the ability
+to connect to applications and integrate
+applications into software we're
+creating is becoming fundamental. What
+Zapier has to do is take initiatives to
+build into this new workflow
+environment. And what we have here
+essentially is we have our AI agent.
+This is anything y'all. JGBT, OpenClaw,
+Clawed AI, whatever it is, it doesn't
+matter. Agent Zapier built out this SDK
+and CLI so that your agent can access
+9,000 integrations securely and do
+actions. To put simply, here's a real
+use case. You want to automatically post
+on Instagram for whatever the reason is.
+If you want to do that, cool. Go ahead.
+Go through Meta's entire review process.
+Go through Meta's entire verification
+process. go through the entire process
+to access Meta's API to post that
+Instagram or just use Zapier. That's one
+very specific use case. And on top of
+that, I got two major sneak peeks from
+Zapier's team personally that I want to
+show youall. Today's use case though is
+I'm going to have it so that when I'm
+scheduling out guests for my podcast,
+the log in San Francisco, we check if
+there's a rainy day. More specifically,
+I want to ensure that when I have a
+guest on a San Francisco rooftop, we're
+not getting rained on. So, it's actually
+pretty fundamental. And the way we're
+going to do this is we're going to
+connect Google Calendar and on top of
+that a weather API via this Zap year
+integration. So the way you think about
+this fundamentally is that whatever's in
+your workflow, whatever actions or
+things you want to do, you can connect
+it via Zapier and have it all under one
+roof. So I'm going to say add new
+connection. Google Calendar add
+connection. You are then going to click
+this very easy button and then connect
+your relevant Google account. We're
+going to hit continue and then there you
+go. New connection to Google Calendar
+added. So, let's go ahead and actually
+integrate Zapier's CLI/Stk.
+So, now that we have Google Calendar
+connected, we are going to come over to
+the page here of using CLI. I'll leave
+this link in the description down below.
+I'm going to say copy page. Corbin, I
+want to install the SDK into my
+application. Go to Zapu SDK. Copy page.
+We're going to come over to nice little
+cloud code here and build out that
+workflow that I was looking for. So, go
+ahead and put in your specific use case.
+So for me, I'm going to say I want to
+use Zep CLI to build out a workflow
+where it checks the weather days ahead
+and if it rains, it adds as an event to
+the Google calendar, blocking out as a
+rainy day. I don't want to be rained on
+when I'm talking to people unless I got
+an umbrella, but that would be very
+annoying just to have hold an umbrella
+the entire time. This can do other
+things. Corbin, I am coding and I need
+to make a jury ticket. Create it. Okay,
+then you're going to paste in the
+directions here and simply hit enter. I
+like to start things in plan mode as
+plan mode gives you the best outputs,
+especially when starting from scratch.
+And with that prompt, we got our
+multi-step plan here in Cloud Code. A
+couple things you should notate right
+off the bat. One of the steps here is
+we're going to need to authenticate that
+we actually own our Zap year account. It
+makes sense. It's just going to open up
+a new tab, be like, hey, do you allow
+Cloud Code to get access and give the
+ability for it to do actions on your
+behalf via this Zapier CLI? We're going
+to say yes. So, I'll be part of the
+process. But what is really cool here is
+during the plan mode here, Claude was
+able to research online all of Zapier's
+entire docs around this logic and then
+give me these specific types of commands
+via Zapier SDK. Approve plan always
+allow. And there we go. As I said
+earlier, we're going to have to give
+Zapier SDK access to our Zapier account.
+This is obvious. This is so that we have
+that secure connection with everything
+within Zapier's ecosystem. I'm going to
+hit allow. And with that allowed, the
+fun begins. So, we got our first
+iteration from Cloud Code. We're going
+to be connecting via Zapier's web hook
+here on Open Metro free API so we can
+get the weather up to 16 days. But I
+want to confirm two things here. First
+thing I want to confirm is I notice it
+says SF, but let's confirm it. I want to
+confirm the location San Francisco and
+on top of that that we're using the
+correct calendar that I connected via
+our Zap year integration. So I'm going
+to go ahead and say want to confirm
+location is SF and that we're connected
+via this calendar. I'm providing the
+email of that calendar. And there we go.
+We have the confirmation that it is on
+SF and that we are on the correct
+calendar. So let's go and wrap this in a
+bow. update the default location to SF.
+This is for my podcast. Don't want to be
+rained on. Please don't rain on me. And
+let's run it. Let's see if this all
+works. While that's running, let me open
+your head up a little bit here. So, when
+it comes to accessing third party
+applications such as Google Calendar or
+YouTube's API, any of these applications
+have very specific rules around access
+tokens, connections, secret tokens,
+everything of this nature. So, for
+example, one very specific one I know
+that I was running into issues with that
+was very annoying is the Google Ads
+token. I was setting up an agent to
+automatically create remarketing
+campaigns via the API and it kept
+saying, "Oh, you only have seven days.
+You only have seven days. You only have
+seven days." And at a certain point,
+what you can do now is instead of having
+to refresh that token, run into those
+errors is you can connect via Zapier
+again or Google Ads and have that
+integration always live and always
+active. So, as you can see, supposedly
+it scheduled the rainy days and boom,
+rainy day, rainy day, rainy day, rainy
+day. And then I have an extra layer here
+where I use cow.com for the scheduling
+which then makes it so that if there is
+an event like rainy day a guest can't
+overlap and essentially have it so we're
+recording in absolute rain. Corby what
+were the sneak peeks? So here is what's
+to come with this entire info that's
+being built by Zapier. First one numer
+guard rails and specifically guard rails
+so that when you integrate Zapier SDK
+into something like open claw it doesn't
+go crazy on you and delete a database or
+do things that are very destructive. So,
+they're going to have really nice
+guardrails around this kind of
+integration. But one that's really cool
+that's actually very unique to Zapu here
+is triggers. This is cool because we
+know about Chrome jobs, schedule jobs,
+like, "Hey, Open Claw, do this every day
+at 7 a.m. Now we can do triggers."
+Something along the lines of
+trigger-based events. So, if Stripe a
+payment fails, what do you do? If you
+get a new lead in HubSpot, how should
+the agent interact past that? So,
+trigger-based events rather than
+something like a Chrome job where it's
+like every day at 7 a.m. do XYZ. These
+are to come cool to check out. As you
+already know, these style videos, make
+sure you leave a like. I'll see you in
+the next. They require literally just
+showed me how to integrate over 9,000
+apps and it was done with a couple
+clicks type of
