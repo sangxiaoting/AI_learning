@@ -1,0 +1,132 @@
+{
+  "context_analysis": "视频探讨了6位成功获得Meta、Google、Amazon、Salesforce等顶级科技公司PM职位的学员案例，提炼出找工作的核心心法：技能不是瓶颈，定位包装、故事呈现、叙事重构、主动展示、心态能量",
+  "id": "QZ7LCyBTPIQ",
+  "type": "youtube",
+  "title": "6 Lessons to Land Your Dream Product Manager Job in 2026 (featuring 6 awesome clients)",
+  "author": "Intentional Product Manager",
+  "date": "2026-04-08",
+  "dateText": "Apr 8",
+  "duration": "14:38",
+  "tldr": "PM求职失败的核心原因不是技能不足，而是不会包装自己、不会讲好故事、被焦虑和急于求成的心态所束缚。",
+  "takeaways": [
+    "技能从来不是问题，包装和定位才是。12年经验的PM Kuri因无法清晰阐述自己的价值而错失机会，学会包装后薪资提升10万美元。",
+    "最好的故事被埋藏在多年 bullet points 之下。写完整叙事而非要点提炼，挖掘自己的独特亮点，是面试翻盘的关键。",
+    "叙事要面向未来而非过去。Santiago将经历重新锚定到目标岗位的成功转型，证明无需新经验只需新叙事。",
+    "在获得工作前就展现价值。Victor在面试前主动提交案例研究和战略规划，以「已入职」的心态 audition，击败所有竞争者。",
+    "绝望感是一种无形的盔甲，别人看得一清二楚。Brendan 长期求职无果，根源是 desperation 渗透到邮件、信息、面试的每个环节。"
+  ],
+  "quote": "Your anxiety speaks louder than your answers. The real you is what gets you hired. — 你的焦虑比你的答案更能传递信息。真实的你才是让你获得工作机会的关键。",
+  "link": "https://www.youtube.com/watch?v=QZ7LCyBTPIQ",
+  "tags": [
+    "AI PM",
+    "Product Management",
+    "Career Development",
+    "Job Search",
+    "Interview Skills",
+    "Career Transition"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "技能不是瓶颈，包装和定位才是",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "PM 往往误以为需要更多证书或技能，但实际上他们早已具备做 PM 的能力，缺的是如何向世界展示自己的能力。案例中 Kuri 有 12 年 B2B PM 经验，被裁员后面试失败不是因为能力不足，而是无法清晰阐述自己为什么是合适人选。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Kuri 通过学习包装自己，最终获得 Cleo 公司 AI billing 部门 Staff PM 职位，薪资比初始期望高出 10 万美元——并非因为几个月内技能突飞猛进，而是学会了如何呈现已有经验。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "AI PM 市场竞争激烈，真正区分候选人的不是技术栈深度，而是能否清晰传达自己在 AI 产品中的价值主张和影响力叙事。"
+        }
+      ]
+    },
+    {
+      "subtitle": "被遗忘的最佳故事：叙事的力量",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "多年用 bullet points 写简历和 LinkedIn，会让人忘记自己职业生涯中最有影响力的故事。完整叙事（非要点）能彻底改变面试表现。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Shri 有 20 年经验（含 10 年亚马逊经历），却因用 bullet points 描述职业生涯而忘记了自己的高光时刻。通过写出完整故事并提炼独特价值后，成功获得 Salesforce 电商及自助服务产品总监职位。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "AI 产品经理需要讲述如何将 AI 能力转化为用户价值的完整故事，而非罗列技术技能点。"
+        }
+      ]
+    },
+    {
+      "subtitle": "面向未来的叙事重构",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "大多数人会用上一份工作的行业术语和逻辑讲述自己的经历，但面试官关心的是他们自己的问题、目标和团队缺口。叙事必须重构为面向目标岗位的版本。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Santiago 被裁员后每天 14-15 小时海投简历，后来学会将经历重新锚定到目标公司的需求，成功进入 Capital One AI 产品部门——一个对他而言全新的领域。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "转型到 AI PM 不需要全新技能包，而是需要将现有 PM 经验用 AI 时代的语言和价值框架重新表述。"
+        }
+      ]
+    },
+    {
+      "subtitle": "在获得工作前就展现价值",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "获胜的候选人不是在等待被评估，而是在没人要求之前就主动展示价值。将面试视为 audition（试演）而非 test（考试）。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Victor 在 ServiceNow 面临裁员时，主动在面试前为公司创建案例研究和战略规划，展示「如果有我加入团队会是什么样子」。Hiring team 被打动，最终他在 Clary 获得 workflow 产品的 PM 职位。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "AI PM 候选人可以主动展示对目标公司 AI 产品线的理解和使用场景建议，这比任何证书都更有说服力。"
+        }
+      ]
+    },
+    {
+      "subtitle": "绝望感是一种无形的枷锁",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "长期求职后，绝望感会渗透到邮件、LinkedIn 消息、面试回答、跟进联系的所有环节。求职者自己可能意识不到，但周围人都能感受到。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Brendan 失业后严格按照 LinkedIn 求职指南操作，修改简历、海投，但一切无效。直到建立清晰叙事、打造自信的「自我介绍」后，摆脱了「desperation 这件衣服」，最终获得 Staples 移动 app 高级产品经理职位。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "AI 领域变化快，求职者更容易产生 FOMO 和焦虑。保持战略耐心、打造清晰的 AI 产品叙事，比盲目追逐每个新岗位更重要。"
+        }
+      ]
+    },
+    {
+      "subtitle": "焦虑比答案更能传递信息",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Annabelle 在生活中是充满活力、有戏剧张力的一个人，但面试中焦虑像滤镜一样stripped out 所有色彩。80% 是心态工作，20% 是内容准备。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Coach 反馈她的回答「boring」，她意识到自己在压抑真实个性。通过深度心态练习、可视化训练，并在最终案例研究中主动访谈 9 位客户来验证假设，她以完全自信的状态拿下 Relay（fintech）公司 Senior PM。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "AI PM 面试中展示对 AI 技术的 genuine excitement 和 curiosity，比背诵 AI 框架更能打动面试官——但这需要心态训练来克服「冒充者综合征」。"
+        }
+      ]
+    }
+  ]
+}

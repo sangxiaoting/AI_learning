@@ -1,0 +1,132 @@
+{
+  "context_analysis": "视频核心议题是AI产品经理面试技巧。最高价值点：AI PM面试与传统PM面试完全不同，需重点准备四类行为问题，且case interview仅占10%面试比重。",
+  "id": "vPQCsAxWJ70",
+  "type": "youtube",
+  "title": "Stop Answering AI PM Interviews Like This",
+  "author": "Aakash Gupta",
+  "date": "2026-04-09",
+  "dateText": "Apr 9",
+  "duration": "54:28",
+  "tldr": "AI PM面试中case interview仅占10%，重点考察四类行为问题：AI产品经验、技术知识、ML团队协作、AI伦理与安全。候选人需用STAR方法展示真实案例，连接技术到商业价值。",
+  "takeaways": [
+    "AI PM岗位占PM岗位30%以上，Anthropic和OpenAI等公司年薪超过100万美元",
+    "Case interview仅占AI PM面试的10%，90%是行为面试",
+    "四类核心问题：AI产品经验、ML团队协作、AI权衡取舍（准确率vs成本、速度vs质量）、AI伦理与安全",
+    "回答问题要简洁（2分钟内）、讲好故事、始终连接业务指标",
+    "不要给教科书式回答，要展示你独有的专家引用、实践经验和个人解读"
+  ],
+  "quote": "\"Evals are the new PRD\" — some people say. I'm not sure I quite agree with that, but I do think evals are critically important. — 「有人 说Evals是新的PRD。我不太同意，但我确实认为evals极其重要」。",
+  "link": "https://www.youtube.com/watch?v=vPQCsAxWJ70",
+  "tags": [
+    "AI PM",
+    "Behavioral Interview",
+    "Product Management",
+    "Evals",
+    "AI Ethics",
+    "Career Strategy"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "AI PM面试市场现状与核心转变",
+      "points": [
+        {
+          "label": "关键数据/案例",
+          "content": "AI PM岗位现在占PM岗位的30%以上，Anthropic和OpenAI等顶级AI公司给AI PM的年薪超过100万美元"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "AI PM面试与传统PM面试策略截然不同：case interview只占10%，其余90%是行为面试"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "想转AI PM的产品经理必须放弃传统PM面试技巧，重新学习AI特定的行为面试问题类型"
+        }
+      ]
+    },
+    {
+      "subtitle": "四类AI PM行为面试问题",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "第一类：AI产品经验 - 包含你发货的AI产品、影响、策略、evals表现差的情况；第二类：与ML/AI工程师协作 - 如何处理冲突、如何构建evals帮助工程师"
+        },
+        {
+          "label": "核心观点归纳",
+          "content": "第三类：AI特定权衡取舍 - 准确率vs成本、速度vs质量、幻觉率vs回答率；第四类：优雅失败 - 如何处理偏见、幻觉、伦理安全问题"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "面试官想看到你做过艰难的AI权衡选择，而不是泛泛而谈AI基础知识"
+        }
+      ]
+    },
+    {
+      "subtitle": "Tell Me About Yourself 示范与点评",
+      "points": [
+        {
+          "label": "AI PM 视角/启发",
+          "content": "这个问题实际问的是「为什么我们要录用你做AI PM」，不是真的让你聊生活"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "优秀回答示例：16年职业路径，与AI Apps职位相关的步骤，管理7个PM、30+工程师的团队，估值从8亿到25亿美元的成功经验"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "用具体细节定位自己的 seniority level，提到具体的公司、职位、title来争取更高薪资；提到面试官的内容和公司产品（如ChatGPT 2023年发布）来差异化1-2%"
+        }
+      ]
+    },
+    {
+      "subtitle": "AI产品经验问题示范：Fortnite AI案例",
+      "points": [
+        {
+          "label": "关键数据/案例",
+          "content": "Fortnite新用户流失率高，从90%降到65%；通过AI机器人作为新手对手解决匹配池太小问题，最终带来7-8%留存提升，生成数亿美元收入"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "讲故事不要jump to conclusion，先给背景、核心问题、评估指标；AI是手段不是目的，要展示用AI解决真实问题的能力"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "观察面试官反应调整回答长度，如果对方感兴趣可以讲超过2分钟；区分「我」vs「我们」做了什么，展示团队协作"
+        }
+      ]
+    },
+    {
+      "subtitle": "技术AI知识问题示范：如何评估ML模型",
+      "points": [
+        {
+          "label": "技术逻辑拆解",
+          "content": "三层评估框架：离线评估（evals，参考Kevin Weil和Hamel Hussein的方法，用真实数据做轴向编码分析失败案例）、在线评估（A/B测试）、业务影响（收入、转化率、留存）"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "不要给教科书式ChatGPT回答，要展示你有自己的实践和解读；提到具体的专家和公司背景让你与众不同；可以花1分钟记笔记再回答，展示深思熟虑"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "PM要积极参与evals构建，而不是外包给工程师；用few-shot examples帮助工程师理解什么是好的输出"
+        }
+      ]
+    },
+    {
+      "subtitle": "ML团队协作问题示范：ThredUp定价算法冲突",
+      "points": [
+        {
+          "label": "关键数据/案例",
+          "content": "与AI团队在是否使用个人级别信息上产生冲突，团队担心creepy、法律风险、伦理问题；通过逐个了解每个人的顾虑，用CEO和法务团队支持，最终实现首访到购买转化率提升15%"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "冲突要真实，不要编造假的；展示用多种方法解决（不只是找高管），包括团队讨论、伦理辩论；最终要让AI工程师真正认同而不是勉强执行"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "回答要 tied back 到具体的业务影响数字，15%转化率提升等"
+        }
+      ]
+    }
+  ]
+}

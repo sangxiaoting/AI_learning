@@ -1,0 +1,1452 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=vPQCsAxWJ70
+
+Kind: captions
+Language: en
+Companies are hiring AI PMs everywhere
+right now, but the problem is there
+isn't enough data on the internet to
+know what they're asking for. I've
+helped over 50 candidates get AI PM jobs
+paying over $300,000
+in the last year. Here's what I've
+learned about those processes. [music]
+AI PM jobs are now over 30% of PM jobs.
+Top AI companies like Anthropic and
+OpenAI are paying over $1 million a year
+to these AI PMs. So, if you want to make
+more money in your career as a PM, you
+should consider AI PM. Unfortunately,
+the tactics you use to get a PM job and
+AI PM job are dramatically different.
+&gt;&gt; AI PM interviews ask questions like AI
+product experience, AI technical
+knowledge, ML team collaboration, and AI
+ethics and AI [music] safety.
+&gt;&gt; Today's episode is literally everything
+you need to master all these question
+types. Real advice and real mock
+responses done by me and Akash. So,
+strap in and if you stay till the end,
+you'll be able to nail each one of the
+major AI PM behavioral interview
+question types.
+&gt;&gt; So, Akash, as part of the Land the PM
+job program that we run together, we've
+helped folks land jobs at OpenAI,
+Anthropic, Meta, Google, Stripe, what
+have you learned about the AI PM
+interview process since the program
+started? The biggest finding is that
+case interviews only end up being 10% of
+the interviews you [music] actually get.
+Yes, at OpenAI, at Meta, at Google, you
+will face the case interview. But, for
+all of the other roles, you're highly
+unlikely to face the case interview.
+You're actually just going to face a
+series of behavioral interview
+questions. And even at the OpenAIs of
+the world, you are [music] going to face
+behavioral interview questions. So,
+realistically, everyone who wants an AI
+PM job has to master all of the
+categories of behavioral interview
+questions. So, what are the AI PM
+interview questions people should know?
+What are the categories people should
+focus on? So, there's four broad
+categories of questions, and if you stay
+till the end, we will cover all four of
+these. The first, have you actually
+shipped AI products? And they're going
+to ask you situational behavioral
+questions like, tell me about a time
+when you shipped an AI product and it
+had a big [music] impact. Tell me about
+an AI strategy you created. What was a
+time when you shipped an AI feature and
+the evals did poorly? When was a time
+when you shipped a failing AI feature?
+So, they have all of this category of
+behavioral situational questions. The
+next is working with ML and AI
+engineers. [music] What about a time you
+had a conflict with the AI research
+team? How did you build evals that
+helped the ML engineers hill climb?
+[music] You need to be able to answer
+these. The third category is AI specific
+tradeoffs. So, how are you going to
+trade off accuracy versus cost? How are
+you going to trade off speed versus
+quality? How are you going to trade off
+hallucinations versus actually answering
+their questions? [music] These are tough
+choices and they want to see your actual
+experience. And then the final category
+is graceful failures. [music]
+How do you deal with bias? How do you
+deal with hallucination? And a lot of
+times they'll ask about ethics and
+safety in this [music] category as well.
+So, you really need to make sure that
+you can strongly answer each of these
+and you practice the one that you're
+weakest at. Okay, great. So, how about
+we show folks how it's done and do a
+mock for each of these. Okay, so let's
+say I work at OpenAI and I'm
+interviewing you for a senior AI PM role
+for the same apps team. I'll be their
+head of product, Amy Vora. So, Akash,
+tell me about yourself. Amy, it's such a
+pleasure to be in this interview with
+you. I've actually been reading your
+content in your Substack for years. I've
+been following all your podcast
+appearances. And of course, I've been a
+huge fan of OpenAI since ChatGPT
+launched in 2023. So, it's a bit of a
+pinch-me moment. But, about myself, I
+started in PM back in 2008 working in
+SaaS. I've worked my way up from product
+manager to VP of product. In my latest
+role at Apollo.io, I managed a team of
+up to 7 PMs leading a cross-functional
+team of over 30 engineers and five
+designers and three analysts. And my
+charter there was really a culmination
+of everything I've learned throughout my
+career. So, I started in SaaS in 2008.
+Then, I worked at ThredUp where I worked
+on search relevance and applications of
+ML to improve our pricing algorithms
+because we had hundreds of thousands of
+items and we needed to price them in
+real time. Then, I worked at Epic Games
+where I launched the very first AI in a
+major shooter. What these AI did is they
+acted as humans and they solved the
+critical problem that beginner players
+were getting {quote} {unquote} stomped
+on by expert players. Now, they had
+somebody to stomp on, which were the AI.
+And the skill-based matchmaking that we
+launched along with that was the single
+biggest thing to move retention in my
+three years at Epic Games. Then, I
+worked at Affirm where our ML risk
+algorithms were responsible for making
+loan decisions. So, very high-stakes
+decisions when it comes to an AI
+application. And I led the activation
+team. Eventually, I led the entirety of
+the growth experience team and sat on
+the senior leadership team. Most
+recently at Apollo, I've been working
+on, how do we grow this company from
+$800 million in valuation to $2.5
+billion in valuation? And luckily, we
+did so successfully with a bunch of AI
+features that we launched on the growth
+team. Some of the most successful of
+those were the AI email writer and the
+AI agent. So, I've really spent my whole
+career applying ML and AI to build apps,
+and that's why I really think this role
+would be an exciting next step for me.
+All right. So, dear viewer, spend like
+pause the video for a second and tell me
+what do you think Akash did great here.
+Pause now.
+Back? Okay, so let's compare notes. Did
+you notice that Akash didn't really talk
+that much about himself? I didn't hear
+about his children or hobbies. He didn't
+really talk about himself as a PM. He
+actually was a skilled politician
+answered the question, why would we hire
+you at OpenAI as an AI PM? Because
+that's the goal of this interview. And
+quite frankly, this is what's actually
+being asked between the lines. So, while
+Akash is a phenomenal person to to spend
+time with, they didn't invite him to
+evaluate whether he's a good fellow to
+bring on a pizza party. They need to
+know whether he's a fit for the AI PM
+position or not. And Akash, knowing
+precisely what's going on there,
+answered the question that was actually
+being answered in the room. And I would
+say that it was a little bit of a bold
+tactic to be like, I admire you, I
+admire the company. But, let's be
+honest, if it comes to companies in the
+world, maybe Fang and OpenAIs and
+Tropics in the world are the actual ones
+where you can say that and sound sincere
+because that's the forefront of product
+development and you want to be there or
+be square. I would say that two or three
+things I attempted to do in this
+response and it's up to you, the viewer,
+to see if I did them. Number one, be
+concise. I tried to keep my response to
+less than two minutes. Number two, tell
+a really clear story. So, what I tried
+to do is say, "Hey, I've had this
+16-year career arc. Here are the steps
+that are relevant to an AI apps position
+within that." And then, I tried to show
+that I'm at a certain level of
+seniority. I tried to name-check the
+amount of PMs that I managed, the
+valuation, the titles, so that I could
+position myself for a more senior,
+higher-paying role. And then finally, I
+infused a little bit of the question
+behind the question, as Bard explained
+so wonderfully, which is, "Why are you
+here today, Akash?" Not just tell me
+about yourself. And so, that's where the
+specific references showing that I've
+studied the interviewer, Amy Vora, and
+her content, and the specific references
+to ChatGPT in this case that it came out
+in 2023 are going to differentiate me
+just one or two percent compared to the
+other candidates. And that little one or
+two percent can mean the difference
+between, "Hey, we liked you." versus,
+"Hey, we gave you the offer." Yeah,
+especially nowadays where there are so
+many quality candidates on the market,
+those small percentages really can make
+a difference. So, with that said, now
+let's move on to the first category of
+AI product experience. Akash, tell me
+about a situation where you've shipped
+an AI product. All right. So, as we kind
+of saw in my tell me about yourself,
+I've been shipping AI products for the
+last 10 years. But, if I had to pick one
+story that I think was a particularly
+fun story that highlights how I can
+think innovatively about AI applications
+that it can actually drive results, I
+would highlight the one I mentioned in
+Fortnite. I told you already, it was the
+biggest change to retention we'd ever
+seen. Let me unpack that issue a little
+bit more. So, the problem we faced, and
+I actually uncovered this in the data
+and made this the product strategy for
+the upcoming season, was we had an
+abnormally high new user churn rate. We
+were three years into the life cycle of
+Fortnite. And when we started Fortnite,
+the 30-day retention was something
+insane for a game. It was like 90%. But,
+when I started at Fortnite two years
+later, it had dropped to something like
+75%. And then it continued to drop for a
+year to like 65%. and "Okay, this is a
+problem for us. We're acquiring millions
+of new users a day
+sometimes, especially when we had a new
+season launch, and these millions of
+people, not all of them are coming back
+as frequently as they used to. So,
+naturally, like any good product
+manager, I watched some of them in their
+sessions. I watched some of their game
+replays, and I talked to some of them.
+And there were a couple key themes that
+came out. Number one, it's hard for us
+to learn the mechanics. So, we shipped
+things like walkthroughs and better
+videos illustrating the mechanics.
+Number two, I feel like I'm getting
+placed against people who are way better
+than me. So, we shipped skill-based
+matchmaking. Unfortunately, those two
+weren't quite enough. Even with the
+skill-based matchmaking, we faced this
+third problem, which is I feel like I'm
+not getting enough time to learn these
+mechanics. People are just killing me.
+In Fortnite in particular, Fortnite is a
+first-person shooting game. So, people
+usually have some skill in first-person
+shooters, but Fortnite has this very
+unique mechanic, which is called
+building. And so, what an experienced
+player would do is they would
+quote-unquote box up the new player.
+They would build around the new player,
+and the new player would have no chance,
+and they would get crushed.
+And the problem was people would learn
+building pretty fast, like in their
+second or third month. There wasn't a
+big enough pool for us to match make
+just amongst the first month players.
+And you might say, "Oh gosh, why not?" I
+also thought that, too. If there's
+millions of people a day, why isn't
+there a big enough pool? Well, it turns
+out in a first-person shooter, the
+latency, what's known as the ping,
+really matters. And so, we actually
+match make with people in your local
+region. So, people in New York State are
+not matching with California. People in
+New York State are matching with the
+seven or eight states around them.
+People in Israel are not matching with
+people all the way out in India. That's
+actually too far. You'd think those are
+similar parts of the world. People in
+Israel are matching to the few countries
+around them in Israel. Same with India
+and the rest of the world. And so, the
+pools were actually really small. And
+so, what I realized was that the
+fundamental problem was that our human
+pools for new players were too small. To
+compound onto this issue, Epic was
+fighting a war against Apple and Google,
+and we got kicked off of mobile.
+And Fortnite mobile, which was
+generating 80% of our new players, were
+kaput. So, we had 20% of the player base
+then. When I saw all these factors, I
+realized we needed to think about how we
+can bring AI into the game, how we can
+use AI. And of course, games have always
+had AI in the form of non-player
+characters, but what if we had AI that
+was disguised as a human? That was the
+insight that I had. Worked with some
+game engineers to mock up some
+prototypes of this. Honestly, the
+initial prototypes were quite bad
+because they were based on mechanistic
+rules. If you get shot at, shoot at
+them, etc. They felt like AI. So, when
+we actually built AI into the system,
+when we used neural networks, we were
+able to create players that acted and
+felt like humans. And once I saw this in
+playtesting, where the way we had
+playtesting in Epic was truly amazing.
+We would have new players come almost
+every day, and I'd be able to see them
+behind a mirror. And once I saw in those
+playtesting that people didn't realize
+that they were playing against AI, I
+knew this was ready to ship. And so, we
+launched this feature. I got I asked the
+AI engineers, I said, "What percentage
+do you think we should launch?" The AI
+engineers were like, "1%." I was like,
+"All right, let's launch in 1%." And we
+monitored at 1%, 5%, 10%. it to 50%. It
+was looking great. And so, we ultimately
+ramped it to 100%. And when we did that,
+that's when we saw those amazing
+retention increases. And ultimately, it
+was something like a 7 to 8% retention
+lift, but that really compounded, and it
+generated hundreds of millions of
+dollars in revenue for us. Thank you.
+Well, this is another part of the
+interview. I have two quick questions
+out of curiosity. Uh first one, did AI
+ever win a match, or was it like
+prohibited from being a winner? It did
+win. Yes, it would occasionally win
+because our goal was it to perform like
+a median new human, so that they
+couldn't tell that it wasn't AI. And my
+other question is, I think it's one of
+the recent developments is to I think to
+the same problem, they the Fortnite team
+decided to create a no build mode, where
+the skill cap would be lowered just
+because of the lack of building. Did you
+ever consider that, too? And if you did,
+why did you decide against
+AI
+after all?
+So, in favor [laughter] of AI. So, the
+no build mode, I was actually
+responsible for that, too. Although I
+wasn't the driving product manager, I
+was one of the product managers
+supporting that launch. The driving
+product manager, he ultimately shot up
+to almost become head of product. He was
+so good. But that was actually happening
+in what is called the Fortnite Creative
+world. So, Fortnite basically had two
+elements to it. Battle Royale and
+Creative. Battle Royale generated 95% of
+the revenue
+&gt;&gt; [laughter]
+&gt;&gt; because we would launch a new season,
+and people would buy a battle pass. That
+was the entire monetization magic of
+Fortnite. Creative, people would just go
+grind and build their own maps, but they
+would have no reason really to buy
+something on a regular schedule. And so,
+it monetized really poorly per hour. And
+so, the strategic choice I thought was,
+let's focus less on Creative, let's
+focus more on Battle Royale. In Battle
+Royale, building is a critical part of
+it. We had, you know, hundreds of
+designers building each new season. And
+so, we focused there. Now, the genius of
+this team on Creative was they this guy
+who eventually I shot up the ranks. He
+was figuring out how to improve the
+monetization of Creative. And once the
+Creative monetization per hour got
+pretty good, that's when the Fortnite
+team strategically, actually led by the
+CEO all the way from the top, said,
+"Okay, now we can finally make a no
+build mode more prominent." And so, when
+you open up Fortnite's homepage, now
+it's not just Battle Royale, Battle
+Royale, and a little slot for Creative,
+but it's actually a giant thing where
+Battle Royale and no build get equal
+prominence. And like you said, today,
+the active users and the concurrent
+users on no build mode is actually much
+higher than build mode. So, once they
+solved the monetization problem, they
+were able to lean into that new mode.
+And my contributions to that, I actually
+helped work on that homepage. That
+design of figuring out what those tiles
+looked like. And we took inspiration
+from Roblox and Minecraft, and we
+actually helped evolve Fortnite from a
+first-person shooter to more of a
+creative universe. Thank you. So, dear
+viewer, what did you like about this
+reply? Pause the video, make some notes,
+and let's compare them in a second.
+Back? Perfect. So, when it comes to what
+I liked about this
+reply was the storytelling. It wasn't
+jumping to conclusion. It wasn't about
+focusing too much on AI technically. AI
+was what
+AIPM
+stands for. The element of using AI to
+solve real problems. So, in order for me
+to fully embrace and immerse in this
+story, I needed to understand the
+background, the reasoning, the the core
+problem that's being solved, and the
+evaluation metric, which was given a
+name, which was given a value, and the
+metric got me as a backbone of the story
+in driving Akash's motivation on using
+AI. Why AI was used, and why was it
+successful. So,
+everything
+there was great. If you spent little
+less time on AI or too much time on AI,
+this answer would have not been as well
+received because when you are on a
+behavioral interview, especially an AI
+one, it's a cool thing to be understood,
+to make sure that what you have in your
+head is traveling successfully through
+your mouth to your interviewer's head.
+And Akash absolutely nailed it. And very
+often, very viable stories and you and
+and cases will be lost because of the
+chaos of too much technical language or
+not giving the right context about the
+problem and the solution that was
+ultimately achieved. That was hopefully
+what I portrayed for you guys. As you
+can see, again, I tried to have a
+concise response. This time I might have
+been 2 minutes 30 seconds, but that's
+because I was storytelling. I tried to
+keep it so that the interviewer was
+engaged. If you noticed, I'm not using
+um's and ah's. I'm also not reading off
+of a script. I'm actually looking at how
+is Bart reacting? What are his facial
+expressions? And since he seemed
+engaged, I said, "Okay, I can go a
+little bit more than 2 minutes. It seems
+like he understands what I'm talking
+about here." If Bart, or I me in this
+case, was just stone-faced like, "I
+don't care about this gaming story," I
+might not have even chosen the gaming
+story. Actually, I chose the gaming
+story because in my tell me about
+yourself, I saw Bart light up
+&gt;&gt; [laughter]
+&gt;&gt; on that story. And so, it's really about
+me being responsive. And you guys saw
+the follow-up questions he asked were so
+knowledgeable, right? So, it was really
+about reading the interviewer signal for
+me. That was number one. Number two was
+putting in how I as a PM operate, right?
+Really learning leaning into user
+insights, teaming up with other PMs,
+building a strategy, teaming up with
+game designers and engineers. Some PMs,
+the way they tell stories, it's like I
+did everything. It's like, well, of
+course you didn't, right? You worked in
+a team context. And so, I tried to
+differentiate what I versus we drove.
+So, that's what I attempted to do in
+this question. You should try the same.
+Yeah, especially when you consulted the
+engineers about how to roll out the
+feature. That's like
+nailing it on the head. All righty,
+let's carry on. Okay, let's move on to
+the second category, technical AI
+knowledge. Akash, how would you evaluate
+if an ML model is performing well?
+Alright. Can I actually take a second to
+structure my response here? Take your
+time, we're in no rush.
+Okay, so this is a big question of
+course, and we can talk about a specific
+example if you want, but I've kind of
+written down for myself a a three-level
+framework so that we can talk through
+it. So, the first level is offline
+evaluation. The second level is online
+evaluation, and the third level is
+business impact. So, offline evaluation,
+this is the topic that I know Kevin, the
+former CPO at OpenAI has talked about a
+lot, evals, right? Evals are the new PRD
+is what some people say. I'm not sure I
+quite agree with that, but I do think
+evals are critically important, and
+personally as a PM, I try to have a very
+active role versus just outsourcing the
+evals to my AI engineering team. So,
+when I think about evals, I actually
+take the Hamel Hussein Shreyas Shankar
+approach. I've taken their class, and
+what their class says is that you want
+to figure out what are the actual
+failure cases. A lot of people focus on,
+hey, precision and recall, and yes, I
+think those are important. And they use
+generic eval packages like the ones
+OpenAI has outsourced, which I think are
+good, and I think are a baseline. But I
+think the higher level is doing what
+they call axial coding of responses. So,
+what you do is you look at either
+synthetic or real data. So, and for my
+AI email writer that I wrote at Apollo,
+I looked at real data on the 1% group
+for instance. I know I'm calling these
+offline evals, but we tested with some
+people, and I looked at the real data,
+and I said, hey, what are the failure
+cases? And I axially coded them. So, one
+example, it's referencing the wrong name
+of the recipient. Another example, it's
+referencing incorrect data about my
+company. Another example, it's not using
+the best practices we know that are
+going to drive email open rates in the
+subject line. Another example, it's not
+using this best practice we know in the
+email that's going to drive a reply. So,
+I put together this whole list where I
+figure out all of the errors, and I code
+them into groups of errors, and then I
+created an eval framework for my AI
+engineering team. I said, here's
+few-shot examples, like four or five
+really good, four or five okay, four or
+five bad. So, I spent the time to
+generate these 15 examples for them
+across this group so that they know what
+good looks like, and then they could
+construct a metric-based eval to
+hill-climb upon. So, that's the first
+group, offline evals. The second group I
+have written down here, online
+evaluation. So, this is your standard
+product testing, right? Having AB tests,
+ramping it up from 1, 10, 25, 50%.
+Looking at, hey, in the AI email
+writer's case, how many people are
+accepting this email without edits? How
+many people are sending this email? What
+is the open rate of this email and the
+reply rate of this email compared to a
+human-generated email? So, looking at
+the entire set of product metrics for
+how it is succeeding in the AB test.
+That's the second category. And then the
+final category, business impact, of
+course, right? So, for the people that
+we have launched AI email writer, are we
+seeing more emails being sent, which
+results in more credits being used?
+Credits being used generally means that
+people buy more credits. So, are we
+seeing people buy more credits? Are we
+seeing people potentially upgrade from
+one plan, we had four tiers of plans, to
+a higher tier of plan? And are we seeing
+people retain more? So, I looked at the
+entire suite of output business metrics,
+and across these three levels, then I
+really make a decision. Is the new AI
+email writer model good, or do we need
+to iterate on it more? Alrighty, thank
+you. So, let me just jump straight into
+feedback because this is a particularly,
+hmm, uh as a a section that you can
+really expect, and while you could say,
+okay, I just need to learn that from the
+book, from from a course, or whatever,
+notice how Akash not only did provide
+the theory correctly, but structured it
+in a way that it immediately implied
+that he knows it, understands it, and
+knows how to apply it. That it's not
+just something that he read, but he
+actually lives and breathes that, has
+his own interpretation and best
+practices, and leaves me with confidence
+that he knows how to evaluate an an ML
+model. That's exactly what I was trying
+to do is I was trying to not give a
+textbook ChatGPT Claude response. I
+think that's the baseline, yes, you can
+get a seven out of 10, but your entire
+competition group is using that, too.
+And so, the two things I tried to do in
+this response, number one, reference,
+hey, these are my gurus, this is my
+philosophy on the topic, Hamel Hussein
+and Shreyas Shankar, and even mentioned
+that I know this is important because
+Kevin Weil at OpenAI has talked about
+it. So, I brought in some
+company-specific context, and then I
+brought in some person-specific context.
+I've tried to make it in response that
+ChatGPT simply couldn't create. It's
+something that is demonstrating my own
+knowledge. And then I also didn't have a
+canned response. A lot of you guys,
+you're going to take the list of 80
+questions, you're going to come up with
+a practice, and then you're going to try
+to use, you know, your practice response
+or AI to help you in the interview,
+that's a huge mistake. I'm not using any
+AI. I did take a minute to write down my
+thoughts, and I think that's very
+effective. It actually shows that you're
+thoughtful about it, and it also helps
+when then my eyes go off the camera,
+right? You want to be able to say, oh,
+I'm looking over at my notes. You don't
+want them to think, oh, he's looking
+over at his AI, right? These are the
+notes that you saw me create live.
+&gt;&gt; Mhm. And then I tried to keep it
+concise. I've in mock interviewed people
+who give me a six, seven minute response
+to this. Mine was less than two minutes.
+Perfect. Alright, so for the first
+category, ML team collaboration. Tell me
+about a situation when you had a
+conflict with your AI team, and how did
+you resolve it? Oh, wow. I guess I've
+had a couple. Can I take a second to
+choose the right story? Take your time.
+I'm just thinking through what would be
+a fun one to talk about.
+It's already promising if you have to
+decide which one of is the fun one.
+Also, I just want to show talk about
+something we haven't talked about yet.
+So, I'm just thinking about all the
+details here.
+Okay, so I actually come up with the
+interesting stories. We haven't talked
+much about my time at ThredUp yet, and I
+did reference that in my tell me about
+yourself. So, I wanted to make sure that
+you could hear about what AI apps I
+built over there. One of the most
+significant projects I got to work on at
+ThredUp, and all credit to James
+Reinhardt, our CEO, who said, invest on
+this, because I wouldn't have gotten the
+AI and ML engineer resources otherwise.
+I was the growth product lead. I wasn't
+actually leading these engineers
+originally, but he said, Akash is the
+right person to work on this project
+because Akash is the one building all
+the systems to customize the experience
+for our new visitors. And so, Akash, I
+want you to build out our new pricing
+system. So, what was the conflict with
+the pricing system? The big conflict,
+and believe it or not, this is dating
+the time, this is back in 2015, 2016,
+should we use person-level
+information? That was the conflict.
+AI engineering team says, no, Akash, we
+cannot do that.
+&gt;&gt; [laughter]
+&gt;&gt; Me, I'm saying, we have to do that. And
+that's why I wanted to give you the
+context of the growth product team that
+I was leading. So, basically, the reason
+James put me on this project is because
+I had just shipped a massively
+successful project using person-level
+information to customize what items,
+what homepage we were showing to people.
+So, we were actually at the time, like
+in 2014, 2015, Amy, you would know this
+cuz you headed up product in Meta.
+Everyone was spending on Facebook ads.
+We were spending, I don't know, I think
+like $10 million a month on Facebook
+ads, bringing in at the time, I think
+like less than 50 cents a visit, so like
+20 million visitors to the site. Big
+number of visitors, right? And if you
+think about what we were, we were an
+online thrift shop. So, we had 100,000
+brands. Some people are shopping
+Anthropologie, they're buying $100
+shirts. Other people are shopping Old
+Navy, and they're buying $1 shirts. So,
+there is a huge difference in what an
+Anthropologie consumer wants to see on
+her homepage versus an Old Navy
+consumer, the types of styles, whether
+there are kids or it's just her, all of
+those things. And so, we had built this
+huge system that was successful. So, I
+had the conviction around it. The AI
+engineering team is more worried about
+people are going to feel it's creepy,
+people we're going to run against the
+law, it's not going to be ethical,
+right? So, these three concerns. So,
+what I had to do was one by one figure
+out who really held which concern on the
+team. I had to take a person-level
+approach. So, you had seven engineers on
+this team, and one designer who was
+functionally like an engineer because
+she was so involved. So, eight people on
+this team. So, for eight of these
+people, I needed to figure out, hey, are
+you in the creepy camp? Are you in the
+legal camp? Or are you in this ethics
+camp? And then for each of them, taking
+a person-by-person approach, not just
+calling a group meeting and saying,
+guys, this is why your three things
+against this are bunk, but actually
+trying to sit with them and say, hey,
+what's the problem with the creepiness,
+right? Let's document it. And then me
+myself facilitating the conversation
+with James, the CEO, and our COO, the
+head of operations, who was the other
+really important C-suite level executive
+for pricing, and saying, "Hey, what do
+we think about pre-creepiness?" And
+getting the CEO and the CEO to really
+say, "Nope, we don't care about the
+creepiness. We need to build it in a way
+that it's not creepy." That influenced
+the AI engineers more than any evidence
+I could provide. Then on the legal
+concern, a somewhat similar approach
+except not using the C-suite, using our
+legal team. Me again steelmanning the
+legal argument and then getting the
+legal team to tear it down. And so, I
+wasn't the one tearing it down, they
+were the ones tearing it down. I felt
+like my engineers felt like I was on
+their team.
+&gt;&gt; [laughter]
+&gt;&gt; And then the final group, the group that
+was like, "This is not ethical." Now,
+this was a harder one and I didn't rely
+on any sort of category of executives or
+groups. I I actually did this more in
+team meetings where once we'd conquered
+the other two issues, I had us ourselves
+had discussions around the ethics of
+this. We said, "Okay, well, probably
+what the AI ML is going to do is it's
+going to figure out, 'Hey, you're
+richer.'" And it's going to charge you
+more. And it's going to figure out,
+"Hey, you're have less money. It's going
+to charge you less." Is that unethical?
+We thought about this. We looked at
+other retailers and I got the team to
+realize that actually we're going to be
+charging people with less money less.
+And so, the ethics of this could
+actually be quite good. And by doing
+that, by taking this different approach
+to the different blockers, sort of an
+individualistic approach, I was able to
+get everybody on board not just to build
+the system, but this was like a
+year-long project. Like we shipped this
+and we shipped iteration after iteration
+and the whole team stayed on the project
+and it was awesome. So, the metric we
+were most caring about was first visitor
+to purchase conversion rate, right? Cuz
+we're paying $10 million for these
+people to come in. Let's make sure that
+they make a purchase from us. And we
+were able to increase that on a relative
+basis by nearly 15%. And so, it was one
+of the best improvements we had in my
+time there. Well, for one thing, it
+sounds more ethical than what
+PlayStation is doing now. They would
+charge you more if you keep spending on
+PlayStation store and I guess that they
+would have gotten away with it if it
+wasn't for these pesky kids who leaked
+the
+the information. So, kudos to that. And
+again, I really liked how you put me in
+the middle of the story with the right
+context with everything I needed to know
+and how you basically acted as a whip to
+get everyone's concerns
+approached and addressed and I really
+liked it. Though it sort of goes over my
+next question about
+uh
+ethics and safety, but let me rephrase
+the question so it
+matches the the theme. But tell me, what
+should the viewers
+spot in your reply?
+What I was hoping to do in this reply
+was very clearly show what is the
+conflict because when I mock people,
+sometimes it's not clear what the
+conflict is. So, if you saw the
+weightage of my question, I gave a lot
+of weight to helping Amy or Bart really
+understand the conflict. The two sides
+we sat on, why we sat on those sides,
+who the conflicts were with, and to make
+it seem like a legit conflict. Too many
+people give me a fake conflict. So, make
+it seem like a legit conflict, number
+one. Number two, tie it back to huge
+impact. Sometimes people will just say,
+"Oh, I resolved the conflict and that's
+it." Where did I end? I ended on a high
+note. Hey, we increased relative first
+visit to purchase conversion rate by
+15%. One of the best things we had done
+for that metric, right? And so, you want
+to end on a high note for telling the
+story in so much detail. And finally, I
+tried to show that I used multiple
+methods. So, it's not just like, "Oh, I
+the C-suite backed me." You know, that's
+like a terrible response or just like,
+"Oh, I I overrode them and pushed them
+through it." Or I listened to them,
+right? I actually showed how I used
+three different techniques. And so, I
+that's what I was thinking about
+actually when I was choosing my story. I
+was I was like, I chose a story from
+Epic and I was like, "Well, I kind of
+just used the design director to go over
+them." Or
+"Well, I kind of just let their concerns
+fade over time." Or "I kind of just
+Well, but here's an example where I did
+a lot of politicking and I can talk
+about the politicking." And so,
+understanding what they're looking for
+and thinking about, "Well, how am I
+going to differentiate myself vis-a-vis
+others?" I'll differentiate myself by
+showing multiple ways I can handle
+conflict. Not to mention that the
+resolution was not shallow. It was
+ongoing and the teams kept on working on
+the product for a year. And you even
+specifically said that no one left. So,
+if it was like, "Okay, okay,
+do it, but I I'm reluctant and I don't
+like it." No, it was it was deep. It was
+an actual flip so that it appears that
+the AI engineers were on board at the
+end. So, let's move on to the next
+category. As I mentioned, it's pretty
+similar to what you've already said.
+So, let's keep on about in the area of
+ethics and safety. Tell me about
+advocating for AI safety versus shipping
+pressure. Okay, well, I guess this does
+come up a lot. Let me take another
+second. I know I'm always taking time,
+but I just want to bring you a story
+that really helps highlight it. So,
+You've proven that it's worth the wait.
+Thank you.
+Oh, this is a juicy story. Okay, so we
+were just talking about ThredUp and you
+just drew the parallel to ThredUp. So,
+let's continue the ThredUp. I told you
+about the first three months of the
+conflict, right? Mhm. Let's fast forward
+three months to month six. ThredUp
+acquired a company in Europe.
+Dun dun dun, right? Europe. Uh-oh,
+regulations.
+Uh-oh, more concern about ethics. And
+both of those things came up in reality
+and I'm sure you at OpenAI are facing
+these two as you guys are global.
+The two concerns, right? Let me unpack
+each of them. Concern number one, an AI
+engineer on my team uncovered that we
+were surfacing racial bias essentially
+in our pricing algorithm because certain
+zip codes with higher percentage of
+white people were seeing higher prices
+and certain zip codes with higher
+percentage of colored people were seeing
+lower prices. And this could be a big
+problem both like for the ethics of what
+we were trying to do, but more
+importantly also for the regulations.
+And EU has some very specific
+regulations around this. I don't
+remember the exact details, but I
+believe they were tied This is pre-GDPR.
+It was something they had around like a
+racial discrimination act and it
+actually varied by country. I could pull
+up pull up the details if I really
+thought about it. I don't remember the
+exact details. But high level is that
+both the concern ethically and the
+concern legally around racial
+discrimination. Touchy subject even for
+me to bring up in an interview, I know.
+But we had to deal with this issue. And
+so for me, the first thing was like, "I
+don't want to become the apps PM who's
+just like pushing aside these ethical
+and regulatory considerations." I'd
+already done that effectively six months
+ago. And so, I already knew where the
+perception of me could be negatively
+seen. And so, I wanted to be the most
+upstanding for AI safety and ethics. And
+there was that additional wrinkle that
+we had acquired this European company.
+So, they hadn't seen the baggage of me
+six months ago standing up for AI ethics
+and safety. So, what I did is I said,
+"You know what? We're going to have to
+delay this feature."
+I told everybody, "You know what? This
+feature is on pause. It's on hold until
+the CEO of the acquirer, the legal team
+of the company we acquired, and the new
+AI engineer that we had gotten from
+them, all of them were happy." As well
+as the pre-existing AI engineer on my
+team that had surfaced a concern. And
+so, the first thing I did was accept the
+delay. And I it was a delay like who
+knows if we'll ever even bring this up
+again. But I kept it in the back of my
+mind. I said, "You know what? Bringing
+out this pricing system, 15% improvement
+in first visit to purchase, it's really
+going to help us in Europe as well. So,
+we need to do it eventually." So, when
+the planning came up for the next
+quarter, for all of those people, I
+brought it up in exactly this way. "Hey,
+look, the data from America shows a 15%
+visit to purchase improvement rate. This
+is awesome, right? We want that, right?"
+And they were all like, "Yeah, yeah, we
+want that." And I was like, "But" and
+then I would voice their concern for
+them, the ethics and legal concern. And
+so, they actually the AI engineers came
+up with an ingenious solution to solve
+the racial bias problem. And they worked
+on the system so that we weren't doing
+that. Those zip codes, those countries,
+those areas that had more color, it
+wasn't like that. They actually made it
+so specific, so people specific that we
+solved most of the racial bias issue.
+And once we solved it because I stood
+for the AI ethics and safety and was
+willing to almost shelve the feature if
+needed, they themselves were then going
+to the legal team and pinging the legal
+team even without me, which was amazing.
+And saying, "Hey, look, we solved this
+issue. Now, is it legal? Can we do it?"
+&gt;&gt; [laughter]
+&gt;&gt; And so, I think for me, taking the stand
+of AI ethics and safety, but surfacing
+the data, planting it quite kind of like
+inception, like incepting the idea
+helped push it forward. Ultimately, we
+shipped it, you know, it was a quarter
+late. The CEO wasn't so happy about
+that. I ate the blame on that. I ate the
+the you know, frankly, I just told him,
+"Yeah, I basically delayed it." That's
+what I just said. I didn't tell him the
+whole backstory, but he appreciated it.
+And when it came around, right? It came
+around in 360 feedback system. We used
+to use 15 five over there. Everyone
+said, "I loved how Akash was like on our
+side for AI ethics and safety." And that
+ultimately led to me getting promoted.
+And so, it was a virtuous cycle in the
+end. So, I love how you turned the story
+from what could have been a very boring
+technical legal drama that no one cares
+for into
+the way that you can change
+something that's your
+showstopper, something that could have
+been a bump in the road into an actual
+success and opportunity to get promoted.
+So, kudos on that and that's what you
+really want to do. If you ever are asked
+about your weakness, your failure, your
+struggle, you really want to turn that
+around and tell them about what you've
+learned, what you've achieved, and how
+you made a bad situation great for you,
+product, and the company. So, choose
+your stories wisely, just like Akash.
+What I was trying to do in this response
+that I think everybody should try to do
+is again, I didn't want what I'm always
+thinking about for the interviewer is I
+don't want them to feel like my
+responses are canned, highly practiced.
+So, actually, I chose a brand new story
+that I had never thought of prior to
+this recording.
+&gt;&gt; [laughter]
+&gt;&gt; But, I was just riffing off the last
+question we had. I was trying to make it
+a conversation,
+right? And I took a little bit of time
+once I had chosen the story to figure
+out what details do I want to surface?
+How am I going to surface relevant
+details to Bart in a concise
+storytelling sort of manner? And so,
+that's when I wrote down for myself,
+okay, I probably need to mention that I
+got promoted because of this. I probably
+need to mention that it was a delay,
+right? So, it's a two-sided story and
+that I stood for AI ethics and safety.
+One thing that's very, very, very
+important for these companies and roles
+is they do not want the PM who is
+bulldozing AI ethics and safety. They
+actually want the PM who is making the
+righteous stand for these things. And
+so, I tried to portray that. Okay, for
+this final category, tell me about an AI
+product strategy that you've created.
+Oh, this will be a fun one. Okay, I need
+to take a second just to make sure I
+choose the right story and I'm not
+repeating too much.
+And viewers, it's um it's like for your
+own benefit that we do acknowledge that
+some of the stories
+overlap with a few categories and we
+want to present you with unique takes on
+each of them. But, when you can
+skillfully merge few of the questions,
+few types at the same time to build your
+case, to build your visible skill set
+and knowledge, it's to your own benefit.
+You are not there to talk for 60
+minutes. You are there to prove that you
+are a great match to be an AI product
+manager. And if you can do it faster, in
+less amount of time, kudos for you. They
+have They don't need to ask you all the
+questions they have on the sheet. They
+just need to know if you're the guy or
+the gal or not. And by all means, do
+your best, try to highlight
+different PM and AI feature in every
+story. And if you can do that
+effectively, [clears throat] you're just
+presenting yourself as a better
+candidate. In fact, my first
+PM interview for Skype was supposed to
+last an hour and it only lasted 25
+minutes because I managed to hit all the
+check marks immediately. So, there was
+no need to extend the interview. So,
+don't don't worry that we are pushing
+ourselves to more categories and there
+is an overlap. It's for your your your
+benefit and if you do that, you will be
+golden on your interview. But, let's see
+what what Akash did prepare for me in
+terms of AI strategy that he created.
+Over to you. So, we talked a little bit
+about the AI email writer in the context
+of how I had evaluated an ML model, but
+I never got to tell you about the
+strategy context around that. And
+actually, I was pretty involved in
+building the strategy and it's one of
+the strategies I'm most proud about. So,
+let's talk about that. So, to give you a
+little bit of recap, right? We said 750
+million to 2 and 1/2 billion dollar
+SaaS. What is the SaaS doing at
+apollo.io? So, it was a sales engagement
+tool. What does that mean? It's helping
+sales teams and it wanted to be
+basically the main software that a sales
+team lives in outside of, of course,
+Salesforce because everybody is using
+Salesforce. So, what do people use
+Salesforce for? Of course, Amy, you'd
+understand this, right? It's the system
+of record. So, what do they need on top
+of that? Well, Apollo had built an
+amazing engine before I came. I can't
+take any credit for it around contact
+database. So, we had one of the world's
+best contact databases to get the emails
+and phone numbers of the people in your
+account that you should be reaching out
+to. So, we had built this, but when I
+looked into the data on this feature, I
+found that it was a very much a one-time
+type of feature. It wasn't a recurring
+feature. And actually, this was one of
+the insights that got me hired.
+This is I had written a product strategy
+in the interview process and shared it
+with the CPO and the CEO in the
+interview. And one of the things was
+around engagement. So, when it came
+around to planning a year later, I said,
+all right, it's time to really triple
+down on engagement. ChatGPT, you guys
+released it in 2023. You guys changed
+the world, right? I know you were still
+at Meta at the time, but the team that
+you work with and lead now, they changed
+the world. And so, we knew we needed to
+use it. So, my critical insight pushing
+the team was, hey, let's not just focus
+on the contact database. We need to
+improve retention. The thing with Apollo
+was Apollo had like everybody else, it
+started at the bottom of the market. You
+know, what's the problem with SaaS for
+small and medium-sized businesses? You
+know this, of course. They churn, right?
+They don't retain well. You need to
+improve the retention. So, we need to
+take them from contact database.
+Sometimes people would download 21,000
+contacts from us and then never use us
+again. We need to go from contact
+database to actual tool they are using
+to make a contact. And at the time,
+there were tools like SalesLoft and
+Outreach, which were better
+well-established. And so, a typical
+stack people would use with Salesforce
+plus Apollo plus Outreach. And so, I
+said, how do we replace Outreach? How is
+it Salesforce plus Apollo plus Apollo?
+And we realized that AI could be the big
+wedge. And I looked at the data and I
+helped us come up with three major
+vectors for our AI strategy here. And
+I'm just looking at my notes because I'd
+taken some notes on this. One was the
+email writer. The second was email
+warm-up. And the third here was email
+responses. So, email writer, I already
+told you a little bit of the story.
+Suffice it to say email writer was a big
+success. Email warm-up, we had some huge
+fits and starts. We actually had to turn
+off warm-up for a while. It was a bit
+too early. Some of the emails were a bit
+too ridiculous, but as your models
+evolved at OpenAI and as we improved our
+fine-tuning and our rag pipelines to
+make sure that the emails weren't
+hallucinating and they were fine-tuned
+for good emails, we relaunched email
+warm-up eventually and that led to a
+massive uptick in our engagement tool. I
+mean, massive because the problem that
+people faced before with the using
+Apollo versus a SalesLoft or an Outreach
+is they would create a new email address
+for their salesperson and the person
+would tank their own deliverability
+because they'd send a bunch of bad
+emails that would get marked as spam and
+then the email providers would stop
+delivering their emails. With the email
+warm-up tool, once we fine-tuned the
+models enough, we were able to build
+back-and-forth email conversations that
+would essentially create credibility for
+an email address before it was ever
+used. Paired with that email writer that
+I talked about earlier, this led to a
+huge increase in adoption of our
+engagement products on top of our
+contact products. And as that adoption
+increased, I don't remember the exact
+metrics. It was something like 10 to
+20%, the retention increased. And we
+knew this mechanistically because as I
+had done in building the strategy for
+it, we had shown that if we get people
+in higher retention products, they
+retain better ultimately. So, the end
+result, and they're still working on
+email responses, the third version of
+the strategy because it was really a
+two-year strategy. The end result was a
+huge improvement in gross revenue
+retention. I can't share the exact
+metrics, but suffice it to say that it
+was part of the reason they scored that
+2 and 1/2 billion dollar valuation. So,
+my role in the strategy was really
+pushing the team to think beyond the
+initial product they had, to understand
+the new avenues, those three avenues
+that AI enabled, and then help drive the
+execution. Perfect. I love how it was
+not a strategy to introduce AI into
+anything per se, but to solve a problem.
+Again, as an AI PM, you need to have
+that strong PM foundations and focus in
+order not to fall in the trap of putting
+AI for AI's sake. And in the era of AI,
+many solutions that were not possible in
+the past are now up for grabs. So, it's
+all about the all about choosing the
+right problems to solve, find the right
+strategy, and using AI when it's called
+for. And it's great in Akash answer that
+AI was a clear
+solution to the problem presented, while
+also we went through the journey of
+improving the MVP, knowing its issues,
+and polishing it with the releases of
+newer newer models that allowed the
+feature to
+flourish. I've seen tons of AI projects
+that were released, didn't meet the
+quality or even sta- even standards, and
+were essentially shelved and forgotten
+as a failed experiment, rather than do
+what your strategy and your team did and
+to reevaluate every time the technology
+moved forward, and it moved forward in
+incredible rates. So,
+&gt;&gt; [snorts]
+&gt;&gt; stick to your guts, show have a strategy
+to
+to solve a particular problem, and AI
+just might be the thing that will crack
+it and then let you land that AI PM job.
+Wouldn't you agree?
+I think so. And what I tried to do in
+this response was number one show what
+was my role in contributing to the
+strategy. So little anecdotes around I
+built this in my interview. I'm
+following up. I worked with the team.
+Number two, showing that it's a real
+strategy. Some people show a strategy
+that influences three months of work. I
+tried to show this influenced years of
+work. The final leg of the strategy is
+still ongoing even though we've made
+incremental progress. And then I tied it
+back to metrics. I didn't remember the
+metrics on the top of my head so I just
+gave a rough range but it still helped
+people say, "Okay, he's focused on
+driving the actual business impact."
+All right, those are all the categories
+we had for today but we are definitely
+not done and well, tell me.
+What are the overriding skills for
+behavior
+interviews a IPMs should internalize
+from all those categories that we've
+just talked about? So, number one, see
+how specific I was? Real architecture,
+real outcomes, real stories. Number two,
+you see how I was connecting technical
+to business? A lot of times I see people
+not have that ending where I connect it
+back. Number three, you see how I showed
+iteration? I said, "Oh, we even paused
+the email warm up for a while."
+Experimentation and failure are expected
+and if your stories don't have that,
+people are going to think they're
+fabricated. Number four, I demonstrated
+collaboration. I talked about how I
+worked with the CEO and the CPO. In
+every response I mentioned the ML
+engineers or the designers. Nothing is
+done alone as a PM. Number five, include
+ongoing operations. So I talked about
+how they're still building it. I talked
+about how they're still working on this.
+How this is still happening. And then
+number six, use STAR method. So what is
+that? Situation, task, action, result,
+metrics. And why do we have that M at
+the end metrics? Well, you noticed in
+all my responses I always ended on
+metrics. That's because the PMs who are
+getting hired today they have to drive
+impact. Now, Boris Cherny said most
+software engineers are going to start to
+get the title product builder manager.
+Most designers are going to start to
+become product managers. How do PMs
+differentiate as PMs anymore? A lot of
+it is metrics and that's why you need to
+have that business orientation not just
+that user orientation. All right.
+So,
+where do we go from here? These are the
+top interview questions but subscribe to
+my newsletter and you'll get constant
+articles updating you on everything. In
+this article I have here, I even cover
+the top interview questions across
+categories that you need to know. So be
+sure to check out my newsletter and
+finally, be sure to apply to our land PM
+job program that Bart and I run. We help
+people land these jobs. We have helped
+people land jobs at OpenAI, Anthropic,
+Google, Meta, you name it. We are going
+to walk you through building a LinkedIn,
+building a resume, building a GitHub,
+building a portfolio. We're going to
+give you custom reviews on all of those.
+Bart has 200,000 LinkedIn followers. I
+have 300,000 LinkedIn followers. We're
+going to help you write LinkedIn posts
+to get jobs. This is the kind of access
+and instruction that there is simply no
+other program out there providing
+because there's no other program with
+people with this many followers or this
+much experience and this much insight
+into the PM job market. So be sure to
+subscribe to my newsletter, apply to the
+land PM job program. The third cohort
+starts in May. We have seen amazing
+success with our first and second
+cohort. In our first cohort, 1/3 of
+people got a job before the cohort
+finished. In our second cohort, a couple
+people have already gotten jobs. If you
+want to land a job that pays you more
+money, the ROI is a no-brainer. And it's
+not only that you take classes with us.
+We are available for several one-on-ones
+with you where we can discuss your
+specific difficulties. I'm there
+available. There are our friend There
+are our other senior instructors that
+specialize in interviews, in resumes, in
+all the aspects that make you successful
+as a job seeker. So it's not come to the
+class, do the homework. It's about you
+getting you the job, getting you at
+least two interviews and trust us, we
+know how to do it and if you're with us,
+we'll make sure that you'll be as
+successful as possible. We are
+guaranteeing you two PM interviews,
+guys. There is nobody else out there on
+the market guaranteeing you these
+interviews. So check out the program. We
+would have made a 50-question mock
+interview video but that would just be
+too long so you'll have to join the
+program for that and until then, we'll
+see you next time. See you next time.
+Bye-bye.

@@ -1,5 +1,265 @@
 [
   {
+    "context_analysis": "Lex Fridman与历史学家Lars Brownworth深入探讨维京时代（793-1066年），从793年林迪斯法恩突袭开启的300年征服史，涵盖维京人的航海技术、信仰体系、社会结构、以及他们如",
+    "id": "iKx3gAODybU",
+    "type": "youtube",
+    "title": "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495",
+    "author": "Lex Fridman",
+    "date": "2026-04-09",
+    "dateText": "Apr 9",
+    "duration": "2:03:23",
+    "tldr": "维京人用300年从北欧渔农崛起为改变欧洲文明进程的探险者与征服者，他们的高速长船、残忍战术与务实态度使其成为中世纪最可怕的军事力量，但同时展现出惊人的适应能力，迅速从海盗转型为统治者。",
+    "takeaways": [
+      "维京长船平均每天可行70-120英里，能在敌军到达前完成劫掠并全身而退，这种速度优势是军事成功的关键",
+      "维京人并非专职战士，他们主要是农民和商人，只是利用季节性时间出海劫掠",
+      "Berserker（狂战士）是奥丁的选中战士，作战时感受不到疼痛，即使手臂被砍断仍会继续攻击",
+      "维京信仰的核心是永恒的混沌与秩序之战，最终混沌必胜，这塑造了他们及时行乐的人生观",
+      "Valhalla（瓦尔哈拉）是战死者每日战斗、伤口愈合、第二天继续战斗的永恒战场，为来世做准备"
+    ],
+    "quote": "\"To seek, to find, and not to yield.\" — Alfred Tennyson在《Ulysses》中的这句诗精确捕捉了维京精神的核心：不懈追求，至死不屈。",
+    "link": "https://www.youtube.com/watch?v=iKx3gAODybU",
+    "tags": [
+      "Viking Age",
+      "Medieval History",
+      "Norse Mythology",
+      "Norman Conquest",
+      "Exploration",
+      "State Building"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "维京时代的开启与早期恐怖袭击",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "793年6月8日，维京人突袭林迪斯法恩修道院，杀死所有人、焚毁建筑、掠夺财物，这是有记录以来第一次大规模维京入侵"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "维京人打破了两个重要社会契约：一是 sanctuary（圣所不可侵犯）的宗教禁忌，二是海洋不可能带来军事威胁的认知，这对中世纪欧洲人来说是世界观的彻底崩塌"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这类似于技术颠覆——当新进入者绕过现有防御体系的所有假设时，原有系统完全无法应对，需要全新的安全范式"
+          }
+        ]
+      },
+      {
+        "subtitle": "维京军事技术的核心优势",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "长船吃水不到两英尺，可在内陆河流航行，必要时20人可抬船绕过障碍；clinker-built（叠搭建造）结构使船身既轻盈又坚固"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "英军日行10-15英里，骑兵20英里；维京长船日行70-120英里，速度是对手的5-10倍"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这是典型的\"不对称优势\"——敌人需要数天才能集结的军队，维京人可在数小时内完成劫掠并撤离，速度本身就是最好的武器"
+          }
+        ]
+      },
+      {
+        "subtitle": "维京宗教与世界观的深层逻辑",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "维京宇宙观是永恒的混沌与秩序之战，最终混沌必胜——这解释了为何他们如此重视当下荣耀与战场荣誉，因为世界终将毁灭"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Valhalla中战士每日战斗受伤，伤口在夜间愈合，次日继续——这是为Ragnarok（诸神黄昏）最终战役的练习"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "宗教作为社会技术：维京人的信仰体系完美服务于其生存需求—— Hospitality（好客）成为核心美德，因为在严寒北方，分享食物可能是生死之别"
+          }
+        ]
+      },
+      {
+        "subtitle": "从破坏者到建设者的关键转型",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "维京人极其务实，能快速吸收被征服文明的优势——在法国，他们一代人就完全放弃维京语言和信仰，转变为诺曼贵族"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Rollo被法国国王授予诺曼底领土，他儿子取名William（而非维京名字），下一代就完全法国化了"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这展示了\"创造性破坏\"的真实含义——维京人摧毁了旧秩序，但为更强大的新生文明清空了空间"
+          }
+        ]
+      },
+      {
+        "subtitle": "维京探险的极限与美洲发现",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Leif Erikson约公元1000年抵达北美洲，比哥伦布早500年；Erik the Red将格陵兰（Greenland）命名为\"绿色之地\"——历史上最大的房地产骗局"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "维京人没有指南针，依靠太阳、星辰、鸟群、水色等自然信号导航，横跨北大西洋需要惊人勇气"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "格陵兰殖民最终失败，主因是维京人拒绝适应——坚持畜牧业而非渔业，最终在15世纪消失"
+          }
+        ]
+      },
+      {
+        "subtitle": "历史人物的的决定性作用",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "历史是伟人创造的还是结构决定的？答案似乎是\"相互依存\"——时机需要伟人，伟人也需要时机"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "如同创业——即使在正确的市场时机，没有合适的创始人也无法成功；反之亦然，时机不成熟则英雄无用武之地"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_analysis": "视频核心议题是AI产品经理面试技巧。最高价值点：AI PM面试与传统PM面试完全不同，需重点准备四类行为问题，且case interview仅占10%面试比重。",
+    "id": "vPQCsAxWJ70",
+    "type": "youtube",
+    "title": "Stop Answering AI PM Interviews Like This",
+    "author": "Aakash Gupta",
+    "date": "2026-04-09",
+    "dateText": "Apr 9",
+    "duration": "54:28",
+    "tldr": "AI PM面试中case interview仅占10%，重点考察四类行为问题：AI产品经验、技术知识、ML团队协作、AI伦理与安全。候选人需用STAR方法展示真实案例，连接技术到商业价值。",
+    "takeaways": [
+      "AI PM岗位占PM岗位30%以上，Anthropic和OpenAI等公司年薪超过100万美元",
+      "Case interview仅占AI PM面试的10%，90%是行为面试",
+      "四类核心问题：AI产品经验、ML团队协作、AI权衡取舍（准确率vs成本、速度vs质量）、AI伦理与安全",
+      "回答问题要简洁（2分钟内）、讲好故事、始终连接业务指标",
+      "不要给教科书式回答，要展示你独有的专家引用、实践经验和个人解读"
+    ],
+    "quote": "\"Evals are the new PRD\" — some people say. I'm not sure I quite agree with that, but I do think evals are critically important. — 「有人 说Evals是新的PRD。我不太同意，但我确实认为evals极其重要」。",
+    "link": "https://www.youtube.com/watch?v=vPQCsAxWJ70",
+    "tags": [
+      "AI PM",
+      "Behavioral Interview",
+      "Product Management",
+      "Evals",
+      "AI Ethics",
+      "Career Strategy"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "AI PM面试市场现状与核心转变",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "AI PM岗位现在占PM岗位的30%以上，Anthropic和OpenAI等顶级AI公司给AI PM的年薪超过100万美元"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "AI PM面试与传统PM面试策略截然不同：case interview只占10%，其余90%是行为面试"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "想转AI PM的产品经理必须放弃传统PM面试技巧，重新学习AI特定的行为面试问题类型"
+          }
+        ]
+      },
+      {
+        "subtitle": "四类AI PM行为面试问题",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "第一类：AI产品经验 - 包含你发货的AI产品、影响、策略、evals表现差的情况；第二类：与ML/AI工程师协作 - 如何处理冲突、如何构建evals帮助工程师"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "第三类：AI特定权衡取舍 - 准确率vs成本、速度vs质量、幻觉率vs回答率；第四类：优雅失败 - 如何处理偏见、幻觉、伦理安全问题"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "面试官想看到你做过艰难的AI权衡选择，而不是泛泛而谈AI基础知识"
+          }
+        ]
+      },
+      {
+        "subtitle": "Tell Me About Yourself 示范与点评",
+        "points": [
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这个问题实际问的是「为什么我们要录用你做AI PM」，不是真的让你聊生活"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "优秀回答示例：16年职业路径，与AI Apps职位相关的步骤，管理7个PM、30+工程师的团队，估值从8亿到25亿美元的成功经验"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "用具体细节定位自己的 seniority level，提到具体的公司、职位、title来争取更高薪资；提到面试官的内容和公司产品（如ChatGPT 2023年发布）来差异化1-2%"
+          }
+        ]
+      },
+      {
+        "subtitle": "AI产品经验问题示范：Fortnite AI案例",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "Fortnite新用户流失率高，从90%降到65%；通过AI机器人作为新手对手解决匹配池太小问题，最终带来7-8%留存提升，生成数亿美元收入"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "讲故事不要jump to conclusion，先给背景、核心问题、评估指标；AI是手段不是目的，要展示用AI解决真实问题的能力"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "观察面试官反应调整回答长度，如果对方感兴趣可以讲超过2分钟；区分「我」vs「我们」做了什么，展示团队协作"
+          }
+        ]
+      },
+      {
+        "subtitle": "技术AI知识问题示范：如何评估ML模型",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "三层评估框架：离线评估（evals，参考Kevin Weil和Hamel Hussein的方法，用真实数据做轴向编码分析失败案例）、在线评估（A/B测试）、业务影响（收入、转化率、留存）"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "不要给教科书式ChatGPT回答，要展示你有自己的实践和解读；提到具体的专家和公司背景让你与众不同；可以花1分钟记笔记再回答，展示深思熟虑"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "PM要积极参与evals构建，而不是外包给工程师；用few-shot examples帮助工程师理解什么是好的输出"
+          }
+        ]
+      },
+      {
+        "subtitle": "ML团队协作问题示范：ThredUp定价算法冲突",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "与AI团队在是否使用个人级别信息上产生冲突，团队担心creepy、法律风险、伦理问题；通过逐个了解每个人的顾虑，用CEO和法务团队支持，最终实现首访到购买转化率提升15%"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "冲突要真实，不要编造假的；展示用多种方法解决（不只是找高管），包括团队讨论、伦理辩论；最终要让AI工程师真正认同而不是勉强执行"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "回答要 tied back 到具体的业务影响数字，15%转化率提升等"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "context_analysis": "Anthropic突然宣布禁止第三方harness（包括OpenClaw）使用Claude订阅，引发开发者不满。背后原因是GPU资源紧张和极速增长的用户需求。视频分析了政策混乱、切换成本极低、以及多模",
     "id": "a4hdPWSUzsE",
     "type": "youtube",
@@ -297,6 +557,138 @@
           {
             "label": "AI PM 视角/启发",
             "content": "工作流支持两种场景：单纯需要字幕文件 vs 需要在视频上做文字动画，后者是创作者常用的高阶需求"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_analysis": "视频探讨了6位成功获得Meta、Google、Amazon、Salesforce等顶级科技公司PM职位的学员案例，提炼出找工作的核心心法：技能不是瓶颈，定位包装、故事呈现、叙事重构、主动展示、心态能量",
+    "id": "QZ7LCyBTPIQ",
+    "type": "youtube",
+    "title": "6 Lessons to Land Your Dream Product Manager Job in 2026 (featuring 6 awesome clients)",
+    "author": "Intentional Product Manager",
+    "date": "2026-04-08",
+    "dateText": "Apr 8",
+    "duration": "14:38",
+    "tldr": "PM求职失败的核心原因不是技能不足，而是不会包装自己、不会讲好故事、被焦虑和急于求成的心态所束缚。",
+    "takeaways": [
+      "技能从来不是问题，包装和定位才是。12年经验的PM Kuri因无法清晰阐述自己的价值而错失机会，学会包装后薪资提升10万美元。",
+      "最好的故事被埋藏在多年 bullet points 之下。写完整叙事而非要点提炼，挖掘自己的独特亮点，是面试翻盘的关键。",
+      "叙事要面向未来而非过去。Santiago将经历重新锚定到目标岗位的成功转型，证明无需新经验只需新叙事。",
+      "在获得工作前就展现价值。Victor在面试前主动提交案例研究和战略规划，以「已入职」的心态 audition，击败所有竞争者。",
+      "绝望感是一种无形的盔甲，别人看得一清二楚。Brendan 长期求职无果，根源是 desperation 渗透到邮件、信息、面试的每个环节。"
+    ],
+    "quote": "Your anxiety speaks louder than your answers. The real you is what gets you hired. — 你的焦虑比你的答案更能传递信息。真实的你才是让你获得工作机会的关键。",
+    "link": "https://www.youtube.com/watch?v=QZ7LCyBTPIQ",
+    "tags": [
+      "AI PM",
+      "Product Management",
+      "Career Development",
+      "Job Search",
+      "Interview Skills",
+      "Career Transition"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "技能不是瓶颈，包装和定位才是",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "PM 往往误以为需要更多证书或技能，但实际上他们早已具备做 PM 的能力，缺的是如何向世界展示自己的能力。案例中 Kuri 有 12 年 B2B PM 经验，被裁员后面试失败不是因为能力不足，而是无法清晰阐述自己为什么是合适人选。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Kuri 通过学习包装自己，最终获得 Cleo 公司 AI billing 部门 Staff PM 职位，薪资比初始期望高出 10 万美元——并非因为几个月内技能突飞猛进，而是学会了如何呈现已有经验。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI PM 市场竞争激烈，真正区分候选人的不是技术栈深度，而是能否清晰传达自己在 AI 产品中的价值主张和影响力叙事。"
+          }
+        ]
+      },
+      {
+        "subtitle": "被遗忘的最佳故事：叙事的力量",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "多年用 bullet points 写简历和 LinkedIn，会让人忘记自己职业生涯中最有影响力的故事。完整叙事（非要点）能彻底改变面试表现。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Shri 有 20 年经验（含 10 年亚马逊经历），却因用 bullet points 描述职业生涯而忘记了自己的高光时刻。通过写出完整故事并提炼独特价值后，成功获得 Salesforce 电商及自助服务产品总监职位。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI 产品经理需要讲述如何将 AI 能力转化为用户价值的完整故事，而非罗列技术技能点。"
+          }
+        ]
+      },
+      {
+        "subtitle": "面向未来的叙事重构",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "大多数人会用上一份工作的行业术语和逻辑讲述自己的经历，但面试官关心的是他们自己的问题、目标和团队缺口。叙事必须重构为面向目标岗位的版本。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Santiago 被裁员后每天 14-15 小时海投简历，后来学会将经历重新锚定到目标公司的需求，成功进入 Capital One AI 产品部门——一个对他而言全新的领域。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "转型到 AI PM 不需要全新技能包，而是需要将现有 PM 经验用 AI 时代的语言和价值框架重新表述。"
+          }
+        ]
+      },
+      {
+        "subtitle": "在获得工作前就展现价值",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "获胜的候选人不是在等待被评估，而是在没人要求之前就主动展示价值。将面试视为 audition（试演）而非 test（考试）。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Victor 在 ServiceNow 面临裁员时，主动在面试前为公司创建案例研究和战略规划，展示「如果有我加入团队会是什么样子」。Hiring team 被打动，最终他在 Clary 获得 workflow 产品的 PM 职位。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI PM 候选人可以主动展示对目标公司 AI 产品线的理解和使用场景建议，这比任何证书都更有说服力。"
+          }
+        ]
+      },
+      {
+        "subtitle": "绝望感是一种无形的枷锁",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "长期求职后，绝望感会渗透到邮件、LinkedIn 消息、面试回答、跟进联系的所有环节。求职者自己可能意识不到，但周围人都能感受到。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Brendan 失业后严格按照 LinkedIn 求职指南操作，修改简历、海投，但一切无效。直到建立清晰叙事、打造自信的「自我介绍」后，摆脱了「desperation 这件衣服」，最终获得 Staples 移动 app 高级产品经理职位。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI 领域变化快，求职者更容易产生 FOMO 和焦虑。保持战略耐心、打造清晰的 AI 产品叙事，比盲目追逐每个新岗位更重要。"
+          }
+        ]
+      },
+      {
+        "subtitle": "焦虑比答案更能传递信息",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Annabelle 在生活中是充满活力、有戏剧张力的一个人，但面试中焦虑像滤镜一样stripped out 所有色彩。80% 是心态工作，20% 是内容准备。"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "Coach 反馈她的回答「boring」，她意识到自己在压抑真实个性。通过深度心态练习、可视化训练，并在最终案例研究中主动访谈 9 位客户来验证假设，她以完全自信的状态拿下 Relay（fintech）公司 Senior PM。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI PM 面试中展示对 AI 技术的 genuine excitement 和 curiosity，比背诵 AI 框架更能打动面试官——但这需要心态训练来克服「冒充者综合征」。"
           }
         ]
       }
