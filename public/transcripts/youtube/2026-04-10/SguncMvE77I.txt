@@ -1,0 +1,984 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=SguncMvE77I
+
+Kind: captions
+Language: en
+I just got back from the Human X event
+out in San Francisco last night. It was
+an event totally focused on the people
+and the companies building in the AI
+space. I met a lot of amazing people,
+but while I was gone, a ton of AI news
+happened. And well, this is your weekly
+deep dive into everything that you need
+to know that happened in the world of AI
+from the past week. I'm not going to
+waste your time, so let's dive right in.
+Let's start with Claude Mythos and
+Project Glass Wing. This is the story
+that literally everybody in the AI space
+is talking about. I've seen probably six
+videos now of people claiming that
+they're having meltdowns as a result of
+this model and the implications of it.
+So, let's break it down real quick.
+First, we'll talk about what Mythos
+actually is. So, Mythos is a model that
+Anthropic built that is supposedly the
+most powerful AI model anybody's ever
+seen. In fact, here it is in Anthropic's
+own words. Cloud mythos is a
+generalpurpose unreleased frontier model
+that reveals a stark fact. AI models
+have reached a level of coding
+capability where they can surpass all
+but the most skilled humans at finding
+and exploiting software vulnerabilities.
+Mythos Preview has already found
+thousands of high severity
+vulnerabilities, including some in every
+major operating system and web browser.
+Given the rate of AI progress, it will
+not be long before such capabilities
+proliferate potentially beyond actors
+who are committed to deploying them
+safely. The fallout for economies,
+public safety and national security
+could be severe. If we scroll down the
+article a little bit here, we can see
+some benchmarks. So, cyber security
+vulnerability reproduction. We can see
+the previous Opus 4.6 model got at
+66.6%.
+This new model quite a bit bigger,
+83.1%. When looking at the various
+software engineering benchmarks, Opus
+4.6, previously pretty much the
+state-of-the-art GPT 5.4 and Opus 4.6
+were pretty comparable. Mythos preview
+scored 24 percentage points higher than
+Opus 4.6 at Swebench Pro. On Terminal
+Bench, it scored 17 percentage points
+more than Opus 4.6. On Swebench
+multimodal, I mean double pretty much.
+So based on the benchmarks, this is the
+best coding model the world has ever
+seen. Essentially, they put out a
+245page system card for Claude Mythos
+here. And you don't have to scroll too
+far down this paper to see it has
+demonstrated powerful cyber security
+skills which can be used for both
+defensive purposes and offensive
+purposes. Designing sophisticated ways
+to exploit vulnerabilities. It is
+largely due to these capabilities that
+we have made the decision not to release
+Claude Mythos preview for general
+availability. So again, the big
+implications here being that this model
+is so good at understanding and writing
+code that it is finding vulnerabilities
+in software that nobody's found
+vulnerabilities in for years. Mythos
+preview found a 27-year-old
+vulnerability in OpenBSD, which has a
+reputation as one of the most security
+hardened operating systems in the world.
+It also discovered a 16-year-old
+vulnerability in FFmpeg, which is used
+by innumerable pieces of software to
+encode and decode video. The model
+autonomously found and chained together
+several vulnerabilities in the Linux
+kernel, the software that runs most of
+the world's servers. So again, they're
+saying that they've developed a model
+that is so powerful that if they were
+just to release it on the world, bad
+actors will be able to use it to
+essentially hack into like any website
+and find vulnerabilities and crack any
+software on the planet. That's kind of
+the implications here, right? So instead
+of releasing it to the public, they've
+decided to take a different approach,
+which is where this project Glass Wing
+comes in. Basically, what they've
+decided to do is give access to a
+handful of companies and not like just
+anybody in the company gets access to
+these, but specifically like the cyber
+security specialists at these companies.
+The idea being that well this model will
+likely eventually be released out into
+the world, but also models that are just
+as powerful, maybe even not from
+Anthropic, will be released out into the
+world as well. And they want these
+companies to get out ahead of those
+vulnerabilities. So, they're giving the
+companies you see here on the screen
+access to Mythos and saying, "Go use it
+to find vulnerabilities in your
+products, find vulnerabilities in your
+software, and patch them up quickly
+because models this powerful and even
+more powerful than this one are not only
+coming, but they're actually here." They
+also released this video along with this
+announcement. And this is the part I
+found the most interesting. There's a
+kind of accelerating exponential, but
+along that exponential, there are points
+of significance. Claude mythos preview
+is a particularly big jump along that
+point. We haven't trained it
+specifically to be good at cyber. We
+trained it to be good at code, but as a
+side effect of being good at code, it's
+also good at cyber. So because these
+companies are just trying to make their
+models better and better and better at
+coding skills, they're also as a
+consequence getting better and better at
+cracking cyber security vulnerabilities
+as well. Now this isn't the first time
+we've seen this sort of narrative of
+this model is too powerful, we cannot
+release it to the public. In fact,
+here's an article I recently came across
+last week. The nonprofit research group
+OpenAI revealed that it had developed a
+new text generation model that can write
+coherent, versatile pros given a certain
+subject matter prompt. However, the
+organization said it would not be
+releasing the full algorithm due to
+safety and security concerns. Instead,
+OpenAI decided to release a much smaller
+version of the model and withhold the
+data sets and training codes that were
+used to develop it. If your knowledge of
+the model called GPT2 came solely onto
+headlines from the resulting news
+coverage, you might think that OpenAI
+had built a weaponsgrade chatbot. Here's
+some of those headlines. Elon Musk
+founded OpenAI builds artificial
+intelligence so powerful it must be kept
+locked up for the good of humanity.
+Here's another one. Muskbacked AI group.
+Our text generator is so good it's
+scary. And here's the best one. AI can
+write just like me. Brace for the robot
+apocalypse. That original article that I
+mentioned from Slate was released on
+February 22nd, 2019 about GPT2. Fast
+forward to 2022, a mere four years ago.
+Google engineer put on leave after
+saying AI chatbot has become sentient.
+The point being here is that some of
+these headlines are starting to feel a
+little bit like the boy who cried wolf.
+No pun intended. There is some benefit
+to these companies to going out and
+saying, "We have the most powerful model
+the world has ever seen. It is so scary.
+we need to lock it up. Nobody can have
+their hands on it because it is that
+powerful. Because well, that helps them
+raise capital. That sort of postures
+them as the company building the
+smartest, best thing ever in the world
+of AI. And it gets people pretty hyped
+up for when they finally can get their
+hands on a model like this. Like they're
+building pent-up demand. People are
+like, "This model's that strong. I want
+to play with it." Saying all of that, I
+do actually think this time it's kind of
+warranted. I mean, it was kind of
+warranted in the past as well. I mean,
+the the reasons they were saying GPT was
+too powerful was they were saying it
+could be used to flood the internet with
+fake information and propaganda and
+basically slop. And well, it kind of
+did. Fast forward to today, now they're
+saying, look, if this model gets
+released into the world, it is so good
+that hackers and bad actors are going to
+have a field day with this. and no
+products are safe. So, I actually, if
+I'm being totally honest, I do think
+there's a little bit of a marketing play
+here, but I don't actually think that's
+their intention. I do think, and this is
+just my gut feel on it from everything
+I've read and everything I've heard from
+others, is that Anthropic is
+legitimately scared to release this into
+the world, and they are doing the thing
+that they feel is the most responsible
+approach. They're going to all of the
+biggest tech companies in the world, not
+named OpenAI, and saying, "Go use our
+software. find the vulnerabilities
+before models that are this good get
+released on the world and get them fixed
+because almost everybody on the planet
+uses tools that have at least one of
+these companies behind the scenes. So,
+it is pretty damn important that these
+companies get locked down before new
+vulnerabilities pop up. So, while I
+personally want to get my hands on the
+latest and greatest AI models whenever
+possible, I actually do appreciate the
+decision that Enthropic made here. I
+know there's going to be a lot of people
+in the comments who disagree with me and
+just think that this is pure 100%
+marketing hype and I do again think
+there is an element of that but hell I
+want to know that my Apple products and
+my Microsoft products and my products
+that are powered by Nvidia and Cisco and
+Crowd Strike and the various security
+layers behind the scenes are locked down
+before stuff like this gets released on
+the world. I actually think that's kind
+of a good idea personally. All right,
+I've already said more about this than I
+was planning on saying. There are a
+million videos about this Glass Wing and
+Mythos thing. I even made previous news
+videos where I broke down Mythos back
+when it was leaked the first time. So,
+this isn't even the first time I'm
+talking about this. But, if you want to
+dive deeper on Mythos, there are a lot
+of channels talking about it right now.
+You'll have no shortage of options to go
+dive even deeper on this. We also got a
+couple major large language model
+releases this week that we actually do
+get to use. There's actually two that
+I'm going to talk about. The first one
+from Meta called Muse Spark is the one
+that has the most people talking. The
+one I'm going to tell you about in a
+minute is the one that I actually think
+is more impressive, but nobody's talking
+about it. But let's talk about Spark
+first. And as a quick side tangent, it
+seems like all of these model makers and
+companies just keep on copying each
+other's naming conventions. Like OpenAI
+has a model called Codex Spark. My mini
+supercomput that's sitting in my corner
+running my openclaw bot right now is
+called a DGX Spark. I don't know. It's
+just interesting to me that like these
+names all kind of keep repeating
+themselves. Anyway, sorry, side tangent.
+So, this new model called Muse Spark is
+actually Meta's first model in quite
+some time and it's the first model out
+of Meta Super Intelligence Labs. So, if
+you don't remember, Meta's AI used to be
+run by Yan Lun. They brought in
+Alexander Wang from scale and a whole
+bunch of high-profile engineers that
+they sort of plucked and poached from
+all the other AI companies to build this
+super intelligence labs. Since that
+whole team came together and Yan Lun
+left Meta, we haven't really seen a lot
+out of Meta. And this new model seems to
+be a pretty big leap over their previous
+llama models. Now, their previous Llama
+models, they were making a big deal over
+the idea that they're open source and
+that they believe that these models
+should all be open source. And well,
+this one is not open source. We've got
+some benchmarks here for this new model,
+comparing it to Opus 4.6, Gemini 3.1
+Pro, GPT 5.4, and Grock 4.2 Reasoning.
+Pretty much the state-of-the-art models
+from all of the Frontier Labs. When it
+comes to figure understanding, it beats
+all of these models by quite a bit. I
+mean, GPT 5.4 is pretty close, but it
+still beats that out for multimodal
+understanding. It's, you know, middle of
+the pack for the most part. Looking
+through a lot of these benchmarks, it's
+like a middle of the road, right? Like I
+don't think anybody's going to replace
+it for coding. When we look at the
+coding benchmarks down here on SWEBench,
+it kind of falls below both Opus and
+Gemini 3.1. and is pretty much on par
+with Grock 4.2. On SWEBench Pro, pretty
+much falls slightly below all of them
+outside of Grock 4.2. On Terminal Bench,
+it pretty much lower than all of them
+outside of Grock 4.2. It doesn't appear
+like it's going to be anybody's new
+coding model. When it comes to health
+related stuff, it's the new best model
+for healthbench hard open-ended health
+queries, but for everything else, it
+kind of falls around middle of the pack.
+So, it's a good model. is not really the
+best at anything, but it is almost
+caught up to the, you know, models that
+truly are the best right now. And for
+the first release, as a company that's
+only existed for like maybe a year now,
+pretty impressive how quickly they got
+to these sort of benchmarks on their
+first release as this new super
+intelligence labs. artificial analysis
+here has a good post over on X that does
+a pretty decent job of sort of putting
+this into perspective. So they have the
+artificial analysis intelligence index
+which incorporates 10 different
+evaluations across you know multiple
+different fields and we can see that
+Meta's last model Llama for Maverick
+scored way down here. here. It was
+pretty much the last one on this chart.
+And with their new model, we can see it
+leaped all the way into fourth place as
+far as the artificial intelligence
+index. Hasn't quite caught up with
+Gemini 3.1, GPD 5.4, or Claude Opus 4.6,
+but it is closely falling in right
+behind those three big players. It's
+also very, very token efficient, which
+means it theoretically should be a lot
+less expensive to run this model. On
+this chart, smaller is better. We can
+see this one falling all the way down
+here at the bottom of the graph. And
+when you compare it to those same big
+models that we were just looking at, GPT
+5.4 and Claude 4.6, well, those are the
+two least token efficient. If you want
+to play around with this new model
+yourself, you can play around over at
+Meta AI. They say they're opening a
+private API preview soon, and I'm sure a
+wider API rollout will be coming soon
+after that. But it sounds like it could
+be a fairly inexpensive to use model
+that is up there with some of the
+state-of-the-art models in performance,
+albeit not quite the best at really
+anything, but good at most things. And
+then we have that other large language
+model that I mentioned that's kind of
+more exciting in my opinion, and that's
+GLM 5.1 out of ZAI. Now, what makes this
+one exciting to me is that GLM 5.1 is an
+open-source model under the MIT license.
+You can actually grab the model weights
+over on HuggingFace right now. But when
+we look at the actual benchmarks on
+this, it's beating out most of the
+state-of-the-art models. I mean, for
+SWEBench Pro Software Engineering, it's
+got a 58.4 compared to GPT 5.4's 57.7
+and Opus 4.6 57.3 and Gemini 3.1's 54.2.
+too. We have a model that's getting
+basically state-of-the-art coding
+performance in an opensource openweight
+model. Now, it doesn't score quite as
+high as GPT 5.4 in realworld terminal
+tasks or agentic coding, but it's in
+second place when it comes to things
+like math. I mean, it's pretty on par
+with the state-of-the-art. Not quite as
+good as Gemini 3.1 and GPT 5.4, but
+pretty up there. And just across the
+board, this model is a really really
+impressive model for being an openweight
+model. Like you can download this model,
+you can fine-tune it for your own use
+cases. You could run it locally and
+theoretically it could write code about
+as good as GPT 5.4 and Opus 4.6, which
+is just mind-blowing to me that open
+models have sort of caught up already.
+And also kind of crazy to me that not
+more people have been talking about this
+model specifically. Now, this is
+something I've said in the past, and
+I'll say it again. I have a really hard
+time demoing and testing new large
+language models because they kind of do
+most of what I need them to do. They
+write decent code for me. They help me
+brainstorm ideas. They run my open claw
+agents for me. They pretty much do the
+things I need them to do. I don't have a
+real use case for really complex math or
+really complex science or things like
+that. And so I struggle to go and say
+like here's proof that this one is
+better through giving it text prompts
+and proving that I want to work with
+somebody to like build a really cool
+benchmark or some tests that we can do
+that are sort of like the average Joe
+tests of like here's how I prove that
+this is better for just like everyday
+people using these models. I just don't
+know what those benchmarks look like
+yet. I actually put a post on X saying
+I'm looking for somebody to help me with
+that benchmark. So, if you're somebody
+that wants to help work with me to
+create some sort of really cool test
+that we can build together to compare
+new models as they come out, hit me up
+over on X and let's talk because I
+really want to find some cool new ways
+to test and compare new models as they
+come out. But I'm not necessarily
+interested in testing in the most
+complex math problems or the most
+complex science problems or things like
+that. I want more of the like average
+Joe everyday use cases that we can
+benchmark against if that makes sense.
+Anyway, hit me up if you're interested
+in exploring that with me. We also got a
+couple updates out of Google this week.
+They're not new models, but they're new
+sort of updates that you can now do
+inside of Gemini. The Gemini app can now
+generate interactive simulations and
+models. So, very similar to what we saw
+OpenAI and Anthropic both release a few
+weeks ago. Gemini now has similar
+features where you can create these
+interactive sort of visuals and
+experiments and it'll generate, you
+know, sliders and things that you can
+adjust to get the visuals to change in
+real time for you. And again, looks very
+similar to what we saw out of both
+OpenAI and Enthropic. You can do these
+kinds of things in those models already.
+To do this, head on over to Gemini. Make
+sure you're using the pro model and then
+you say something like, "Help me
+visualize the threebody problem." All
+right, it gives me a quick explanation
+and let's click show me the
+visualization. And we can see it created
+this sort of complex visual with all
+sorts of sliders and presets. Figure 8
+orbit, chaotic dance, dominant sun.
+Let's do figure 8 orbit. It just like
+immediately goes off. It doesn't really
+do much of a visualization. Let's drag
+some sliders around and see if we can
+get it to do something. And yeah, it's
+not quite working right for this one.
+Let's just do the tried andrue. Help me
+visualize compound interest over
+multiple time frames. Show me the
+visualization. And we've got a
+visualizer here. Let's see. Starting
+principal, $1,000, 5% annual rate. Over
+10 years, we would have 1,629,
+but over 20 years we would have 2,653.
+If our annual rate was 10%, we'd have
+6,727.
+If our principal started at 10,000, we'd
+have 67,275.
+And we can obviously see our chart is
+changing as we adjust these various
+options down here. And we could change
+to compounding quarterly. And that
+changes our number. And if it was at 30%
+annual rate, starting with 10 grand, in
+20 years we'd have $3.2 million. Could
+somebody help me find uh something that
+gets a 30% annual interest rate? That'd
+be great. Thank you. Another new feature
+inside of Gemini is the notebooks
+feature. And not to be confused with
+notebook LM. Notebooks are essentially
+what projects are inside of both Claude
+and ChatgPT. They give you a dedicated
+space to organize your chats and files.
+And because they sync with Notebook LM,
+you can unlock even more efficient
+workflows directly from Gemini. With
+notebooks, you can keep conversations
+about a topic organized in one place.
+You can move past chats into notebooks,
+give Gemini custom instructions, and add
+relevant files like documents and PDFs
+to give Gemini more context. Basically
+the same idea as projects in those other
+platforms. As of right now, it's just
+rolling out to paid users. So, if you're
+on an AI Ultra Pro or Plus plan, you
+should be getting access to it. And I
+imagine it'll be rolled out on the free
+plans in the near future as well. But
+let's jump over to Gemini here. This is
+one that I've had early access to for a
+little bit. But if I open my sidebar, I
+could click on new notebook. Give our
+notebook a name. I'll just give this one
+example notebook. And then once in here,
+I can come and click on these three
+dots. Click on notebook settings. Give
+it its own set of custom instructions.
+Have it use its own notebook memory. So
+it will remember past chats you had
+within this one notebook. Great for if
+you're using it for like a journal or
+you're doing research on a very specific
+topic and you want all of your chats to
+reference your past chats, but you don't
+want it to reference chats outside of
+the notebook. This is great for that.
+So, you can really sort of dial in how
+you want this notebook to work here. And
+you can add sources by adding files,
+adding from Google Drive, adding URLs,
+and copying and pasting text in. And
+when you create a notebook here, you can
+actually push it over to Notebook LM and
+do all the cool Notebook LM stuff with
+it, you know, podcasts and videos and
+mind maps and all of that kind of stuff.
+Pretty cool new quality of life feature.
+I'm actually quite surprised it took
+Google this long to roll this feature
+out if I'm being honest. There's an AI
+video model that people have been raving
+about for like months now called Seed
+Dance, but nobody in the US has had
+access to it until this week. It's
+finally starting to roll out in the US.
+You can actually use it inside of the
+Runway app as of this week as well as
+inside of Bite Dance own Cap Cut app.
+Now, I'm going to test it inside of
+Runway since I have a Runway account,
+but from what I understand, a lot of the
+features that were sort of making this
+go viral early on have been nerfed at
+this point. Like, you can't generate
+trademarked IP or actual videos of like
+celebrities and things like that. It is
+still a really, really, really good
+model. It's just the things that caused
+it to go viral for the past month have
+all been sort of stripped away. So, if I
+log into my runway account, down at the
+bottom where it lets me select my model,
+I can swap this to seed dance 2.0. Now,
+the timing probably couldn't be better.
+We just lost Sora. And so, this one
+comes along like 2 weeks later and is
+kind of the new best model for the most
+part. There's another one I'll talk
+about in the rapid fire section here in
+a minute, but this is the best model we
+have access to right now. I'm going to
+give it a pretty detailed prompt here
+with multiple scenes in it to see if
+it'll switch between the scenes
+properly. And we'll go ahead and
+generate. I'm putting the actual prompt
+on the screen right now if you feel
+inclined to pause and actually read the
+whole prompt. But let's see what it
+generated.
+Okay, that's actually pretty impressive,
+honestly. Like, it actually generated
+pretty fast as well. I was surprised how
+quickly it generated. It's a lot faster
+than Clling 3.0 is right now. So, a
+really, really great video model. Get
+in, experiment with it. It's available
+inside of both the Cap Cut app and
+inside of Runway right now. So cool new
+video model to go play around with. The
+company Hey Genen had some news this
+week. They launched their new Avatar 5
+model that captures your identity in
+just 15 seconds. And well, if you
+couldn't guess, you just saw exactly
+what it looked like. That was a video
+that I generated with my new Hey Gen 5
+avatar. Now, it did only have me record
+15 seconds of video to get that clip.
+Pretty impressive that you only need to
+record 15 seconds and it gets that
+close. I think the voice is still a
+little bit off and the lip-s syncing is
+still a little bit off, but we've
+definitely come a long way with cloning.
+There's some other cool features inside
+of this hen platform. Like if I go to
+avatar here and then click on avatars
+again off of my 15-second recording that
+I did, it generated a bunch of different
+potential visuals that I can use. Like I
+can take this version of myself sitting
+in this white room wearing a red shirt
+and use this in a video instead. And
+then I just type whatever I want up
+here. Click generate and about a minute
+later I have this. If you haven't
+already, make sure to subscribe to Matt
+Wolf. Help me get to 1 million
+subscribers. I'm so close. They also
+have an editor called AI Studio that
+gives you the option to remove the
+background, which would be cool if I was
+able to like edit that a little bit
+better. As you can see, it cut off my
+headphone and I have no way of bringing
+it back. But if I wasn't wearing
+headphones, it would probably work
+pretty well. All right, I've covered so
+much already and this video is going way
+longer than I had anticipated. I spent
+more time talking about mythos than I
+planned, but there's still quite a bit
+more I want to talk about. But let me
+share the rest of this stuff in a rapid
+fire and we'll run through it real
+quick.
+Starting with some news out of OpenAI.
+They just opened up a new plan. Before
+they had the $20 a month plan and a $200
+a month plan. Now they just added one
+that's kind of more in the middle at
+$100 a month. We're introducing a new
+$100 a month pro tier. The new tier
+offers five times more codec usage than
+plus and is best for longer higheffort
+codec sessions. The new pro tier still
+offers access to all pro features
+including the exclusive pro model and
+unlimited access to instant and thinking
+models. They've also increased codec
+usage for a limited time through May
+31st. So, if you're on this $100 plan,
+you get up to 10x usage of ChatGpt Plus
+on Codeex. Personally, I've been finding
+myself playing around with codecs more
+and more. So, look for more videos of me
+showing off codecs in the future. Most
+likely, Enthropic launched a new Claude
+managed agents feature this week. Now,
+you can already sort of build agents.
+Claude co-workers is kind of an agent
+itself. Claude Code is kind of an agent,
+but this one seems to be like to tie
+your agent to tools like, you know,
+notion and ClickUp and things like that.
+I haven't actually played with this a
+ton, so I can't speak too intelligently
+about it yet, but if you go to the
+Claude console over at
+platform.claude.com,
+there's this new managed agents feature
+over here. You can click on quick start
+and they have a bunch of agent templates
+already pre-built and you can see that
+they're designed to like tie into
+existing products, Notion, Slack,
+Intercom, Asauna, etc. You can also
+apparently just sort of describe what
+you want your agent to accomplish and it
+will build out your agent through
+prompting. So the types of examples I've
+seen are like in notion you can have
+like a canban board and when you select
+items from one section of the cananband
+board and drag them to another, it
+actually fires off a bunch of agentic
+tasks because you drag it from one to
+the other. So again, it really seems
+like it's designed to tie like an agent
+to things like notion and a sauna and
+like task management software where when
+you move things around within the task
+management software, things happen with
+your agent behind the scenes. Now, if
+you really want to go down the agent
+rabbit hole and build agentic workflows
+for tasks that you do on a daily basis,
+I still think something like Claude
+Co-work or OpenClaw or the new Hermes or
+Hermes or whatever it's called are
+probably better options to look into.
+And since we're speaking about Anthropic
+and agents, this was something that
+popped up this week that kind of made a
+lot of people frustrated. Boris Churnney
+here, who heads up Claude Code for
+Anthropic, they made the announcement
+this week that starting on April 4th at
+noon Pacific time, Claude subscriptions
+will no longer cover usage on
+third-party tools like OpenClaw. You can
+still use an Enthropic API key in your
+OpenClaw. you just can't use your like
+$200 a month claude max plan to power
+your open claw. And a lot of people were
+very very frustrated by this. Now I
+understand why they did it because
+things like openclaw burn through a lot
+of tokens really really fast and it was
+probably costing Anthropic more than the
+$200 that people were spending on the
+Claude Max plan. But this was definitely
+something that a lot of people were
+frustrated by who had built like a whole
+open claw system around anthropic models
+like Opus and now all of a sudden these
+agents that they'd built and been
+working with for a while were either a
+no longer going to work or b going to
+get a hell of a lot more expensive.
+Personally, my openclaw is running using
+a local model. I'm using the Neotron
+model locally and then when it does have
+to do more complex tasks, I'm having it
+use the OpenAI API because they are
+still letting you use your subscription
+to cover the use and things like OpenC
+cloth. Perplexity announced this week
+that you can now connect your financial
+institution data to Perplexity using
+Plaid. With Perplexity and Plaid, users
+can consolidate their financial
+information into a single secure, highly
+personalized hub. The Plaid integration
+provides readonly access and user data
+never touches perplexity services. So
+you can do things like link credit cards
+to track spending by category with full
+detail of the transactions, connect
+mortgages, auto loans, student loans,
+monitor the balances and payment
+history, combine bank investment and
+other accounts for a complete view of
+net worth. Here's an example of like a
+dashboard that was built that almost has
+like a GitHub look to it. The company
+Factory AI released a desktop app.
+Factory in the past was primarily used
+through the command line interface and
+now they have a simple desktop app where
+you can kick off agents or droids to go
+and do tasks directly from within the
+desktop app. Definitely something I'm
+excited to play around with a little bit
+more. Full disclosure, I do have a small
+investment in factory AI. Cursor rolled
+out a new quality of life update this
+week. You can now run Cursor on any
+machine and control it from anywhere. So
+you can actually kick off agents from
+your phone to run on your dev box. Very,
+very cool update. I use cursor a lot
+still myself as well. A handy little
+feature to be able to prompt it from my
+phone and get it to go do stuff on my
+computer. XAI released some new features
+this week in their photo platform. You
+can now edit images with text. So, it
+generates an image, you give it a text
+prompt to edit the image, it will make
+those edits. You can add blurs and
+redact parts of photos. And it's
+currently available on iOS and coming to
+Android soon. Jumping back to OpenAI for
+a second. Apparently, rumor has it that
+we've seen a leak of GPT image 2, which
+means we're probably getting a roll out
+of their new image models soon. Over in
+Arena AI, there was some new image
+models called masking tape alpha, gaffer
+tape alpha, and packing tape alpha. And
+here's some of the images it generated.
+According to Peter Levels here, it
+appears to be really, really solid for
+like infographic type images. Here's a
+map that it generated a storefront
+looking through a door, which I mean
+looks really realistic. I think is this
+a reflection up in the top off the glass
+here? And it even made like a mockup of
+the YouTube homepage here with a whole
+bunch of different thumbnails on it.
+Now, I can't confirm 100% that this is
+actually GPT Image 2, but if it is, we
+can probably expect it to be rolling out
+fairly soon. Now, earlier I sort of
+teased another video model that I'm
+going to talk about. Well, there was
+some mysterious model that dropped on
+one of the leaderboard sites called
+Happy Horse 1.0. And according to the
+leaderboard website, it's the number one
+ranking model above the new Seed Dance
+2.0, above Clling, pretty much above
+everything. And if we look at some of
+the examples that are being shared here,
+it looks pretty good. I mean, it looks
+like a pretty realistic video. Here's
+another one. They look like stock video
+to me, but it looks very, very
+realistic. Now, I don't know if this is
+100% confirmed or not, but according to
+the information, this new model is
+actually out of Alibaba. The Happy Horse
+1.0 model has topped an AI model
+leaderboard, beating Bite Danc's Seed
+Dance 2.0. Alibaba Group has anonymously
+released a new AI model generation
+called Happy Horse 1.0, which rose to
+the top of the AI model leaderboard.
+Again, I don't know how they have actual
+confirmation that this came out of
+Alibaba, but I mean, it wouldn't
+surprise me. Google actually released an
+app on iOS this week that's a dictation
+app that works completely offline. It's
+called Google AI Edge and it works
+similar to like Whisper Flow, Super
+Whisper, and Willow. And it uses their
+new Gemma model to basically listen to
+your speech and transcribe it to text
+automatically for you fully on device.
+So you could be completely offline and
+it will do this for you still. And
+finally, Spotify rolled out a new
+feature for their AI generated playlist
+before you can tell it, "Hey, generate
+me a playlist of songs to get me in the
+mood for a workout that are poppy and
+only have female vocalists." And it
+would have generated you an AI music
+playlist for that. Well, now they've
+released the podcast version. You can go
+and tell it, "Hey, I want podcasts about
+business and how AI is impacting
+business. Go find me a bunch of podcast
+episodes." a feature I will definitely
+be using because I'm a fan of both
+Spotify and podcasts and am constantly
+looking for new podcasts to listen to.
+The biggest problem with podcasts in my
+opinion is discovering interesting
+podcasts from shows you've never heard
+of before and this sounds like a great
+sort of discovery mechanism for that. So
+really really excited about this feature
+as both a podcaster and a podcast
+listener myself. So yeah, it's been a
+busy week and most of this happened
+while I was at Human X. So there's a few
+little tools and things I haven't had a
+chance to play with, but if any of the
+things that I kind of briefly brushed
+over turned out to be much bigger or
+exciting than what I made them out to
+be, I'll probably make a follow-up video
+and talk about them a little bit more.
+But these weeks are only getting crazier
+and crazier. I don't anticipate it
+slowing down. on. We might have some up
+weeks and some down weeks, but going
+forward, we're just going to see more
+and more. And the acceleration is going
+to keep on picking up. And that is the
+reason I've sort of slowed down on
+trying to make videos about every single
+topic that comes out because it can be
+very, very overwhelming. It's easy to
+feel like you're falling behind and not
+keeping up with the new tools and news
+that's coming out. And if you're trying
+to keep up with it on a daily basis,
+well, you're probably going to get
+burned out. which is why I decided to
+put most of my focus on making these
+Friday roundup videos where I sort of
+look through all 300 pieces of news that
+came out in one week in the AI world and
+narrow it down to just the things I
+think you would be most interested in.
+I'm trying to filter through and find
+that signal from the noise and just
+bring you the most important, most
+interesting, and probably most useful
+stuff to the most amount of people. Now,
+I will make videos in between with some
+tutorials and some commentary and stuff,
+but when it comes to news, I want to try
+to minimize the overwhelm. I'll drink
+from the fire hose every day and then
+give you more of a trickle every Friday
+and try to help you stay looped in with
+just one video a week on all the AI news
+you need to know and do my best to keep
+you up from feeling overwhelmed. That's
+my goal. If that's something that
+interests you, give this video a like
+and consider subscribing to this
+channel. I will make sure more of that
+kind of stuff shows up in your YouTube
+feed and I'll do my part to keep you
+informed with ideally not making you
+feel overwhelmed. I'm getting closer and
+closer every day to that million
+subscriber milestone and I'm hoping to
+hit it this year. So, I'd really really
+appreciate it if you would click that
+subscribe button. It really does help me
+out and you know, it's just a milestone
+I've been shooting for for a long time
+and I'm like this close. So, really
+really appreciate it. Again, I record
+these on Thursdays, publish them on
+Friday. So, if any news came out late
+Thursday evening or on Friday, it will
+likely make next week's video. But
+again, that's what I got for you. Thank
+you so so much for tuning in. I have so
+much fun keeping my finger on the pulse
+of all of this stuff. It's literally
+become my full-time job to just stay
+looped in on the news, and I absolutely
+am having a blast trying to stay on top
+of it and try all these new tools so I
+can tell you what's worth your time and
+what's not. Hopefully you find this
+helpful and uh yeah, again, that's what
+I got for you. Thanks so much for
+hanging out with me and nerding out with
+me today. Hopefully. I'll see you in the
+next one. Bye-bye.
+What is up everybody?

@@ -1,0 +1,400 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=NOqh_Jk7ZQQ
+
+Kind: captions
+Language: en
+Welcome to another week in AI. Between
+Google releasing a firehose of new
+releases and Anthropic lifting the
+ceiling on what's possible and
+best-in-class open-source models from
+China, we have a lot of ground to cover
+in this week's episode of AI news you
+can use, the show that pulls together
+all AI releases, we filter for the ones
+that matter, and then I personally get
+to present it back to you. So, let's
+start with the story that made a lot of
+headlines that I created dedicated video
+on cuz I wanted to talk about it. Claude
+3 Opus, their flagship model that is too
+dangerous to be released. Obviously a PR
+move, but also obviously super
+impressive benchmarks. In short, my take
+is I think this is going to be as good
+as we expect because Claude has a track
+record of delivering the best models,
+but what warranted that discussion in
+the separate video was the second and
+third-order consequences of us getting a
+gigantic model that is just head and
+shoulders above everything we have now.
+So, that's interesting and we'll talk
+about that more once it comes out, but
+there's a few more Anthropic-related
+things that we need to talk about here.
+First of all, last Sunday they cut off
+the ability to use their Claude
+subscription with Open Claude or other
+agents. In other words, people who were
+previously paying $200 a month to play
+around there now will need to pay a
+thousand, maybe even up to $3,000 a
+month depending on the usage. For most
+people and what they're doing with those
+systems, that's not worth it. For me as
+a content creator who's been tinkering
+and developing more and more things that
+work there, there's actually a bunch of
+great use cases for content creation
+concretely that yeah, even the increased
+price tag is well worth it. Also, I want
+to course-correct on one thing I said
+last week. It was a story that I called
+very last second and I mis- reported it
+to you. So, my bad for that. It's about
+the source code leak of Claude Code. I
+said that it was an April Fools' joke.
+It was also a Claude Code leak that was
+an April Fools' joke. So, actually
+wasn't an April Fools' joke. It was real
+and there were some interesting insights
+from it. Nothing groundbreaking. I want
+to highlight one interesting thing that
+had happened though. So, if you're not
+familiar, Claude Code, which is
+Anthropic's agentic product, basically
+leaked and users took the code and
+looked into it. What were they doing?
+How do they handle memories and more?
+And one thing they found is that Claude
+Code had a dreaming function where
+basically every day it stored its
+experiences in certain files that it
+then later would recall much like a
+human does when we sleep. Great idea,
+right? Cross-session memory. Fantastic
+and keep working with it and it
+remembers what you were working on
+yesterday. And within a few days, Open
+Claude, which obviously is the
+open-source competitor to Claude Code,
+added a new feature, dreaming. So, now
+if you use Open Claude, it can handle
+memory in a similar way. And I think
+that's just so funny because this is
+going to keep happening, you know?
+You're going to see in today's episode.
+We get new apps from Google, we get new
+completely open models from China that
+are almost as good as some of the best
+models available today. And I just
+thought it was so funny that one of
+these big tech companies is developing a
+proprietary system that is closed and
+then a leak happens and within a few
+days the open-source alternative
+implements one of its best features. I
+think we can expect that moving forward.
+It's going to be an interesting time.
+Google, oh boy, did they feel like
+releasing a bunch of stuff to become a
+part of this week's AI hype. Let's have
+a look at that. So, first of all,
+another interesting thing that I
+couldn't get access to yet from Google,
+but if you're on the Ultra plan, the
+$250 plan, and are in the US, select
+users are getting this already and it's
+called AI Inbox by Gmail. It's Google's
+attempt to build a email assistant that
+gets you to inbox zero automatically.
+Look, they shared this screenshot and I
+think this is one of the things that
+nine out of 10 people would love to
+have. An AI agent that helps them manage
+their inbox in a contextual way where it
+knows them, knows the previous
+interactions. So, from what I can see
+here, this doesn't focus on actually
+replying to emails. It's more like
+prioritizing the emails that you get and
+creating daily personalized briefings.
+Mind you, this will be just step one. I
+mean, they're slowly rolling it out just
+to the highest-tier customers. Within 6
+months, everybody's going to have this
+on an affordable plan and there's going
+to be more proactive versions of this
+too, of course. And my Gmail agent is
+going to talk to your Gmail agent to
+figure out when our Google Calendars
+have time slots so that we can meet in
+person and talk about AI. Utopia. If
+you're on an Ultra account in the US,
+check your account. You might have this
+already. Okay, then next we have an
+application that went pretty unnoticed
+across social media, but I thought it
+was really worth mentioning. I don't
+know about you, but I wasn't familiar
+with Google Vids. It's a very simple
+video editing software, but even if
+you're not into that, they're using that
+as a vehicle for all these different
+applications that we've been watching
+over the past few months. Video
+generation model, music generation
+model, they're all putting it into here.
+For example, if I want to start out by
+creating a AI avatar for my video, I can
+do that. Now, I bring that up not
+because AI video is like the biggest and
+hottest topic right now, but because I
+love to keep an eye on how these apps
+are evolving every week as you might
+know. And as I pointed out before, we're
+releasing these bundling and this is a
+great example of that. It's the same
+experience as before, but now I don't
+have to bring it over into video editing
+software. All right, guys, welcome back
+to the channel. I'm here in Soho and we
+need to talk about the latest updates in
+generative AI. Damn, [clears throat]
+this guy's background looks better than
+mine.
+And if you're on a pro account, you can
+even create songs right in here. This is
+so easy to use and part of the Google
+Suite that if you ever needed to create
+videos with AI avatars, this does feel
+like the most frictionless way to do
+that today. And if you want it, pro tip,
+you could start with a slideshow that
+you have, just add a voiceover and a
+custom song right in here. You don't
+even have to touch the AI avatar stuff.
+Additionally, it also has avatars
+feature where you can pick one of these
+avatars here or you can create a custom
+one. For now, it does not have the
+ability to upload your own picture. Just
+a question of time though. The voice you
+select makes a difference in how viewers
+respond to your video. Hey, what's up,
+YouTube?
+&gt;&gt; Hey, look at that. That's pretty good.
+You can now easily add other videos in
+here, AI-generated or not. And as we're
+talking about avatars, there's two more
+releases this week that are actually
+interesting. One of them is Pika Labs
+coming out with a product that is meant
+to give AI agents a face so that they
+can join your Zoom calls and talk to
+you. It's a bit weird. This thing is
+very much in beta though, but if you
+want to try it, they did open source it,
+but it only works for the PK API, of
+course. I think I might actually try
+this one over the next week, but the one
+that we'll try right now is Runway
+Characters. All right, I got the updated
+app. I'm on a free plan, by the way, and
+yep, I'm going to talk to the cat. Ah,
+you're here.
+&gt;&gt; [laughter]
+&gt;&gt; I was in the middle of something.
+What's up, Mochi? What do you want to
+know about me? Okay, tell me your
+deepest and darkest secret. A secret,
+you say? The deepest and darkest? Fine.
+I once batted that glass off the counter
+just to watch it shatter. The sound was
+quite satisfying. Don't tell anyone
+though.
+Now, All right, Mochi, what else can you
+do for me? I can do all sorts of things.
+I could tell you a story, critique your
+I don't know, man. What am I supposed to
+say? It's a talking cat with a female
+voice. You try for free though, it's
+kind of fun. Let's see what's next.
+Okay, then next we have a quick look at
+SeaArt 2.0. This one went viral when it
+came out. Video generation model, it was
+really almost impossible to access. Now
+it's available on major platforms and we
+went ahead and looked at some examples.
+And on our typical benchmarking
+problems, I always enjoy looking at
+these. Let's start with the sloth on a
+floaty.
+Okay, that's really good with the camera
+movement and everything. This one is
+always tricky for it cuz there's a lot
+[music] of touching water. Oh my god, so
+much camera movement, but extremely
+good. What about the ghost? Yeah, also
+accurate. I mean, it's just clearly
+visible from these benchmarks why this
+got hyped so much. Okay, that hand was
+weird. Overall, I get it. If you want
+the highest quality video model, it's
+probably the one and it also lives at
+the top of various AI video leaderboards
+right now. Next up is an interesting one
+and not something that you might
+necessarily use immediately, but I do
+want to talk about it because it got so
+much attention on Twitter and it's a
+very interesting idea. It's Andrej
+Karpathy's LLM Wiki idea and now there's
+also tools around it that came out. And
+here's the base idea. He just tweeted
+that, "Hey, I'm basically using LLMs to
+build personal knowledge bases for
+various topics of research interest." In
+other words, he just creates text files
+surrounding certain topics and then he
+stores them and his agent searches over
+them. It's like a personal wiki. There's
+a bunch of details we could talk about
+here, but where this got interesting was
+people testing this versus traditional
+knowledge retrieval workflows like RAG.
+And what some tests, and now this is not
+super verified, but some tests found
+that it was 70 times more efficient than
+the RAG workflows. Now, look, quick
+primer if all of these means nothing to
+you. RAG was basically the workflow of
+the past few years to deal with many,
+many files. And this is a different
+approach than that workflow. With RAG,
+you would store it in a vector database
+and there was a whole process of putting
+stuff in there and then you had to
+retrieve it. That's what the R stands
+for in RAG. But now he's just saying,
+"Hey, just put it in text files, build
+your own wiki, and let the agent see all
+of it. No need to store it away." Now,
+this has actually been the approach that
+tools like Claude Code have been using
+over the past year. Claude Code doesn't
+use RAG. It just stores a bunch of text
+files and retrieves over them, but he
+used this to build his own research
+library and people really resonated with
+this idea. Now, they resonated with it
+so much that it has 19 million views on
+Twitter and that people built out
+various versions where you can start
+using it too. All of it is in the super
+early and super experimental phase and
+this repository is one of them, but I'm
+featuring it here not because I want you
+to start using this, just to show you
+that these new ideas and approaches are
+being generated in real time by real
+users. And actually, for some of the
+more advanced users here, I just want to
+briefly show you that I really got into
+Obsidian recently together with my Open
+Claude. I built out this entire homepage
+for all the education that I do and it's
+incredible. It's basically my agent's
+playground where it uses all of this as
+context and then creates new files in
+here. But basically, this is my own wiki
+on my own life and educational style and
+all the different patterns that I follow
+so that my agent can be aware of it too
+and we just collaborate in one place.
+Now, this is different from what Andrej
+Karpathy is sharing. He's talking about
+a knowledge base like this to just for
+research on a certain topic and this is
+really operating system for my work, but
+I thought I'd share both of those with
+you and we can dive deeper in the future
+if there's interest. One more big story
+this week and this one will be pretty
+short because it's state-of-the-art
+large language model from China called
+GLM-5.1 and this is a big boy. This one
+you won't be able to run on any MacBook.
+Heck, even the big Mac minis have
+trouble with this one. It has 754
+billion parameters, but on many
+benchmarks, especially relating to
+coding, it almost matches Opus 4.6, the
+current go-to model for many people. And
+the main thing that they market around
+this and that has been communicated is
+that it can run for up to 8 hours on
+agentic tasks. And mind you, this model
+is fully open source, fully freely
+available now. You just need a machine
+or rented GPUs to run it. Insane,
+especially following last week's Gamma 4
+announcement from Google where they
+released their own version that is
+actually small enough to run on some
+phones. It's kind of the opposite of
+this. This is the big boy, Gamma 4 is
+kind of the small version. Both of them
+open source, way more capable than
+anything we've seen before at that size.
+So, yeah, just AI moving forward. Most
+consumers just keep using the web apps,
+that's where the best models are at. One
+quick follow-up to Suno 5.5 last week,
+team member Daniel actually got so into
+it this week that I just have to report
+back that according to him it's actually
+way better than what we talked about
+last week. We made a bunch of AI music
+and used jingles that you'll from here
+now to hear at the end of these videos.
+You guys really really liked last week's
+one, so keep an ear out for that one.
+OH, BROTHER, THIS GUY STINKS. OKAY, that
+line makes me cringe on the inside, but
+we're keeping it in. And with Microsoft
+releasing free in-house models, this is
+their first move that directly competes
+with OpenAI, not kind of, but like
+directly. They have a transcription
+model, a voice model, and an image model
+called MAI, with MAI representing
+Microsoft AI. And then finally, with new
+Claude connectors, uh notoriously
+unreliable, but now you can also connect
+to your Microsoft 365
+account. If you're using that over
+Google Docs, Google Sheets, you can
+connect it to your Word documents if
+they live in the cloud, too, now. Okay,
+that's pretty much everything we have
+for this week. A lot of variety, and as
+per usual, I would love to hear which
+one of those stories would you want me
+to go deeper into. I read the comments
+every week, so leave one or upvote
+another one that represents your
+opinion, and we can go in that
+direction. All right, I hope this was
+helpful or inspirative. My name is Igor,
+and I'll see you very soon. AI news
+you can use,
+breaking [music and singing] down the
+stories you actually care about.
+AI news
+you can use,
+&gt;&gt; [music]
+&gt;&gt; Igor's here to help [singing] you figure
+it out.

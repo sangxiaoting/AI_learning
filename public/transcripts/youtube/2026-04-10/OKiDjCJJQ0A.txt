@@ -1,0 +1,146 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=OKiDjCJJQ0A
+
+Kind: captions
+Language: en
+Let's learn that simple as possible,
+what on earth eight open claw skill is.
+By the end of this video, you're not
+only going to have the ability to access
+a pre-made ecosystem of a bunch of
+skills that upgrade your open claw, but
+in addition, I'm going to show you how
+to make custom ones that maybe only you
+care about. Does that sound good? Let's
+jump in. Two things. First thing, if
+you're like, "Corbin, I don't even have
+open claw set up." You got to watch my
+videos. Just find the video where I say
+how to set up open claw in a secure way.
+Do it. Second thing, I'll leave this in
+the description down below. This is
+clawhub.ai.
+This is going to be your move to get
+these kind of skills. Third thing, what
+is a skill, Corbin? Basically, think of
+it this way. Let's say you're a human
+and you have zero skills, but for 20
+years of your entire life, you became a
+master at karate. A master at karate.
+What open claw skills do for you is
+basically take that 20 years of
+knowledge and pre-packs it into a skill
+that you add to your open claw. So, now
+your open claw can do karate. Okay? You
+get it? It makes it so it achieves and
+executes relevant things faster and
+better. What are some examples of
+skills? So, come over to clawhub, we can
+kind of see like, "Oh, GitHub." What
+does that mean? That means that it will
+essentially have all the relevant
+information of how to effectively use
+GitHub as a skill. Or alternatively, how
+to access the weather correctly and in
+effective manner. So, some very popular
+ones are like nano banana, notion. I
+know you love notion. A skill to create
+skills. Probably don't need this one.
+So, your next question might be is,
+"Corbin, how do I use a skill?" You will
+simply come to weather. You will scroll
+down here. You can copy this entire MD.
+Let's make our lives easy. You come to
+open claw. You can simply paste this in
+open claw. Hit enter. Proceed. Corbin,
+this wasn't the native way to do it. I
+don't care. Okay? What you got to
+realize is that a skill is simply an MD
+file. What is an MD file? Literally just
+text. Therefore, you can just copy over
+the skill MD file. And I'm going to say,
+"Make this a skill." What's going to
+happen is what's really cool about open
+claw is that you can get these skills
+from the clawhub, but also you can check
+them out over here. So, I already have a
+ton. I have a skill I customly made for
+GA4 analytics, Google Ads, Amago, Reddit
+Ads, Experiment Engine. These are very
+specific to what I created. And what
+you'll notice is that the weather MD
+example is actually a native skill
+already provided by open claw. It was
+created by the creator of open claw. And
+you can scroll down here and you can see
+it's here. Weather. Oh, disable. And we
+can disable it, enable it. It's already
+enabled, so obviously we can access the
+weather. I can know what the weather is
+in San Francisco. It's getting too hot
+here. It's too hot. But honestly, the
+real value, if you don't want to use
+maybe clawhub, is creating custom
+skills. So, let me show you how to
+create custom skill. I'm going to hit
+new chat. And in theory, I could have
+customized this weather skill to be
+like, "Hey, I don't care about weather
+in XYZ place. I only care about it in
+San Francisco." Let's create a custom
+skill though that is native to you. I'm
+going to come to a website called
+textsnippet.com. This sources all tech
+news into one place. You get expos,
+forms, everything you could ever love.
+to go to the CLI page. I'm going to copy
+the direction. This is going to give the
+open claw the ability to access relevant
+tech news that hits the feed every
+single second. I'm going to come here
+and say this. You're going to identify
+the type of skill you want to create and
+this doesn't have to connect to CLI. I'm
+just going to make it a little bit
+fancy. I'm going to create a new skill
+for the tech news and use textsnippet
+CLI to get updated tech news events and
+create a summary on a daily. I'm going
+to paste the copies from directions that
+we got from textsnippet here. I'm going
+to hit enter here. What this is going to
+do is it's going to create a new skill
+that we'll see here and then be able to
+call it, leverage it, and use it later
+on. In the specific context of this,
+this would be more of like a cron job.
+So, like every day at 8:00 a.m., I get
+like a summary of news articles that
+happened the day before or what's
+happening right now. And as we know with
+open claw, we can send it by Telegram
+and all these cool stuff. So, scope,
+we're going to say scope top stories and
+for now, just when I manually ask. I'm
+going to let it figure out the rest.
+Now, sometimes when you create a skill,
+it might need to restart your virtual
+machine or if it's done locally in order
+for it to enable it. What you'll notice
+if I come to skills, we have it right
+here. Tech news. Fetching summary of top
+tech news using the textsnippet CLI. And
+what I want you to know is that you're
+able to iterate on a skill. You can make
+a skill better. You can change a skill.
+You can do anything you want with a
+skill. But here we go. This works out
+and this is good to go now. You've
+effectively learned how to create skills
+and access skills for your open claw.
+Let's upgrade it. Give it karate. So,
+what I would rather do is you know these
+style videos. Make sure you have a like.
+I'll see you in the next open claw, open
+claw, open claw type of video.

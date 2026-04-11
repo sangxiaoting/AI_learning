@@ -1,0 +1,273 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=1dVaUR-vWdU
+
+Kind: captions
+Language: en
+Guys, I hate to say it, but there's a dirty secret that you only know
+if you build apps with AI. The more you build, the bigger the chance something
+else breaks. We're going to change that today. I'm David. I used to be a
+Test Engineer at Microsoft, and I've partnered with KaneAI to show you the fastest way
+to test your app end to end. So, in the next 60 seconds, you'll see
+it in action, why it's a better safety net, and stay tuned till the end
+to see how AI test cases can still work, even when your app completely
+changes its interface. Let's dive in. This is the KaneAI homepage, and here you'll author
+end-to-end tests for your web app or your mobile app. Now, notice there's
+no code editor here to write tests. Instead, you write tests by writing prompts. For
+example, let's say we're working on YouTube.com. This prompt has five test cases for
+the search feature. It takes a few seconds to parse your prompt into valid test
+cases, and when it's done, you'll see those test cases grouped by scenario. Every test
+case
+has a description in plain English on what it accomplishes, and when you click on
+that test case, you'll get to see the test steps. Each step also has an
+expected outcome that it's paired with, and you can choose to add steps or remove
+them before you execute the test. You can choose the test cases you want to
+keep by checking or unchecking the ones in this list, then click create and automate
+when you're ready to run. KaneAI has an extensive execution layer, which we'll get into
+later. You see a small part of that here where we enter the application URL,
+and then let's bump up the concurrency to five tests at a time. Then click
+create and automate, and the tests start running. When you drill into a test case,
+you can click view session to watch it live. For example, this test verifies that
+when you search on YouTube, you can filter out shorts. So, check this out. When
+I wrote this test case, I wrote search for Kevin Stratvert as one of the
+first steps. KaneAI figures out how to do that just with that prompt. I don't
+have to tell it text box IDs or CSS selectors.
+It just does it. That's what makes it a testing agent. You can see all
+the steps for a test case on the left hand side of the screen. As
+tests complete, they'll move from the running tab to the completed tab. That's where you
+can inspect them in more detail and see if they passed or failed. You can
+see this test case succeeded because there are check marks next to all the steps.
+Now again, we're testing YouTube.com here. So every time there's a new update to
+YouTube, we can rerun this test case to make sure there aren't any regressions.
+Now let's see how you can actually run this yourself. To get started, go to
+the link down below in the description and follow along with me. When you click
+that link, you'll land on this page. Click the get started free button in the
+top right, fill in your details here, and after a few button clicks, you'll land
+in the app. So let's break down how KaneAI actually works. You'll start out in
+this mode called Quick Author. That's good for writing one test case in plain English,
+and KaneAI will figure out how to run it. But the more powerful way to
+use KaneAI
+is to generate multiple test cases at once. To do this, click on the AI
+icon to enter Generate Scenarios mode. This is what we ran in that first demo
+to generate multiple test cases at once. By the way, you can grab this prompt
+from the resources section in the description. Now with test creation, it is useful to
+know some of the options here. So let's explore the settings pane by clicking on
+this icon together. First, you can set limits on the maximum number of scenarios and
+test cases created per scenario. Some people mix these up,
+so here's how I think about them. Scenarios are like the destination you want to
+get to. It's like search takes you to the search page. A test case on
+the other hand is like a specific path to get to that destination. Examples are
+you search with filters, you search without filters sorted by views, etc. Memory enhancement means
+KaneAI learns from interacting with your app across multiple test cases and sessions. So it
+gets better at navigating it over time. And project instructions allow you to set persistent
+context
+for all test cases in a project. So if I were doing this again, I'd
+limit this to one scenario because that's all I have inside my prompt. Here's what's
+more interesting. You can write your test cases by hand like this, or you can
+upload a document like a PRD or product requirements document. This is a PRD for
+an app called LinkBio. It's a custom app that's a slimmed-down version of
+Linktree. You upload PRDs by using the paperclip icon in the bottom right corner
+of the prompt, and then any other text that you use.
+Inside of the prompt just serves as additional context. You can also attach screenshots and
+for advanced users, you can connect this directly to JIRA or Azure DevOps, and KaneAI
+will read your tickets directly.
+Now best practice would be to provide some context about what to test in LinkBio.
+But let's stretch the system a bit and see what it generates just with
+the PRD as context.
+It takes a little less than a minute to generate. Let's look at the test
+cases together. Now you guys haven't seen this app yet, so it's hard to tell
+if these test cases are good or not. But what's important is if you identify
+a test case that needs some tweaks that you know how to do that.
+For example, this first test case verifies that when you add a new link to the
+list, that it appears at the end of the list. If you wanted that link
+to appear at the beginning of the list instead, you can click on the test
+case and find the exact step that you want to edit.
+Here you'll see it's step 4. The step is to click the add link button,
+but the outcome is that the new link card appears as the fourth item in
+the list.
+To change this or any step, click on the text, make the change in plain
+English, so here we're making it the first item, and then we click save.
+Note that if you want the test case description to update, you do have to
+make that change yourself too. When you're ready to run those test cases, you click
+create and automate in the top right.
+Let's talk about some of the settings because there's some really cool power in here.
+First up is the test platform. You saw the desktop browser before, but you can
+also use a mobile browser or even a mobile app. For mobile apps, you can
+do iOS or Android and any modern OS version.
+And you can upload your app directly instead of going through TestFlight or Google
+Play. Agent concurrency sets how many test cases run at once. This is dependent on
+your plan.
+Generate data dynamically is useful when you have a bunch of forms to fill out,
+and dismiss pop-ups is super useful for sites that well have a lot of
+pop-ups.
+Now if you're thinking I could just ask Claude to write these tests, well, you
+could, but you'd still need somewhere to run them across browsers and devices.
+KaneAI bundles the creation, the execution, and the infrastructure. And speaking of which, what about
+testing your own app before you put it out to the world? Let's check that
+out next.
+This is the LinkBio app we just looked at the PRD for. As you
+can tell, it's pretty simple. You can set up your page with a name and
+tagline. You can give it a theme and you set up links for it.
+You can download this app yourself through the following GitHub page and then to get
+it running, follow the installation instructions.
+Now to get KaneAI to run this, make sure you head back to the homepage
+and then click on this tunnel icon in the top right.
+Look for the download link halfway down the pop-up window to get the tunnel
+app on your computer.
+You'll need this app to connect KaneAI to your locally hosted web apps. Extract the
+zip folder and you should see a folder with a single app called LT.
+If you're on Windows, make sure you right-click on the executable, go to properties,
+and then unblock the security section.
+Click OK and then right-click anywhere in the folder and then click open in
+terminal.
+On Windows, this opens PowerShell, but what we actually need is a command prompt. So
+type cmd and then press enter.
+Then go back to KaneAI and click the copy button next to the command. Then
+back in the command prompt, right-click to paste.
+Before you hit enter, you do need one more parameter for this to work. So
+type exactly what I say.
+Space, hyphen, hyphen, ENV, space, HT, hyphen, prod. Then press enter and you'll enable localhost
+testing in just a few seconds.
+When you see the message, you can start testing now, head back to KaneAI. Remember,
+you can do that by going over to the sidebar, clicking KaneAI and then clicking
+agent.
+Now, unfortunately, Quick Author and Generate Scenarios do not support localhost testing. So you'll
+need to click on Author Browser Test to enable it.
+Now, the most important setting here is under network configuration. You need to click the
+drop down and then select tunnel.
+Assuming you followed instructions and added that ENV parameter, you should see your tunnel can
+be selected with the select tunnel drop down.
+Now, before clicking author test, take note of some of the other options you have
+here.
+You can change the time zone, your test runs in, you can change the command
+line options for the Chrome browser, and you can add custom headers for your test
+case.
+In addition, if you want to test on a mobile browser, you can also click
+on the mobile tab to access all sorts of options to test with.
+We'll skip all these advanced settings and go back to desktop and then click Author
+Test. This creates a virtual environment for us to start testing.
+On the right hand side of the screen, we have a virtual server running as
+if it's on my local computer.
+To show how that works, we can go to the address bar inside of the
+browser and then go to localhost directly to access the LinkBio app.
+And there it is. And you can see on the left hand side of the
+screen, it's noticed we've gone to this page.
+In this mode, we're writing a test case by recording our actions. So anything we
+do on the right hand side of the page gets written as an action in
+the test case.
+So let's keep going and test that the edit link button works. You can follow
+along with me, click the edit button on the first link.
+Then let's change it to YouTube channel one, then click save. Then at the bottom
+of the screen, click view my page.
+Now to validate that the edit actually occurred, you need to type in a prompt.
+So first we turn off Manual Interaction by clicking the button here.
+And then in the prompt box, we'll validate that the first link name is YouTube
+channel one.
+While that's working, keep in mind that you can press the slash key to trigger
+more advanced validations.
+For example, you can add custom code to validate or change the web page. You
+can assert on network logs and you can even do visual comparisons with screenshots.
+Back in the test steps, we see that KaneAI has translated our prompt into a
+set of proper verification steps.
+You can keep navigating the app and adding more assertions, but let's stop here and
+click save.
+You'll want to click save and validate code to make sure that this test case
+can be rerun.
+This gets saved into a test case, which you can rerun at any time by
+clicking execute test case.
+Now we're in a different part of the app. So to find this test case
+again from the main menu, click on Test Manager and then project and then browse
+to your project.
+In this case, it's KaneAI generated and you'll find your test case from there.
+That's great for a demo, but what about what happens in real life? When the
+app changes its UI and now you have to update all your test cases, check
+this out.
+We're back inside the LinkBio app and about to make a major change.
+I've just instructed Claude Code to update the app so all of the edit buttons
+turn into icons and the edit is in line instead of its own form.
+This will drastically change how the app looks and in most cases would break existing
+automation tests.
+So let's see how KaneAI deals with it. Restarting the app shows the new interface.
+You can see all the new icons here for every item and editing shows that
+all the fields are in one line.
+Now let's revert the change that we made and head back to our test case.
+I haven't made any changes to the test case. I'm just going to click execute.
+This essentially starts up a server to run our test case.
+When you see the green dot appears next to the scenarios button, it means you
+can click it to watch your test in action.
+You can expand the list of test cases and start watching the logs.
+But if you want to watch it live, click on the test button directly.
+This brings up a familiar view where you can see all of the commands the
+test case runs.
+To watch your test case live, make sure to click the play button here.
+After about a minute, the test still passes. How is that possible?
+We know from the video still that it did in fact use the new website
+design.
+Here's what's different about KaneAI.
+When something unexpected happens like a button turns into an icon or it changes its
+name, KaneAI doesn't give up.
+It has some tricks up its sleeve to still achieve the objective of the test
+case even if the original steps don't work anymore.
+You'll see that in the command list as Locator Autohealed.
+This is the key insight. KaneAI is a master at matching the intent of
+a test case against what it actually sees on the screen.
+Now to wrap up, let me show you a few more things that KaneAI
+gives you that would take a long time to build yourself.
+Number one is code export.
+Now we're back in the test case that we just created and under the covers
+of every test case is code.
+On the code tab, you can actually view the Python code required to run this
+test case yourself.
+Soon you'll also be able to generate the code in different frameworks.
+This includes Cypress, Playwright and WebdriverIO.
+Number two is cross device testing.
+Head over to the left sidebar menu, go to the main menu and then click
+on Test Manager, then configurations.
+You can click create a configuration to create different combinations of browsers, operating systems, browser
+versions and even screen resolutions.
+Once you set up your configurations, you can create, number three in this list, a
+test run.
+Still under Test Manager, click on projects and then click on your project.
+This shows all the test cases you've created organized by folder.
+To select a set of test cases to run, click on test runs and then
+click on create test run.
+Give your test run a name and then make sure to select the type of
+test cases correctly.
+We want the KaneAI generated ones and then next we'll select those specific
+test cases that we want.
+Select the test cases to run and then click add test cases.
+You'll need to select an assignee for each test case first and then you
+can add configurations that you just created.
+After you click apply, you'll see all the test cases multiplied by their configurations.
+When you're ready, click show execution preview, then click save test run.
+Run it by clicking run on HyperExecute and then run instances now.
+After it's done, you'll find its results back in the test runs view.
+You can inspect individual test cases here, but if you want to rerun the entire
+test run,
+click on the ellipsis in the Test Runs view and then click duplicate test run.
+And finally, number four mobile app testing.
+From the Quick Author view, click on the drop down that says desktop browser and
+then click on mobile app.
+Then click the settings icon.
+From here, you can upload your app as an APK for Android or as an
+IPA file for iOS.
+Then choose the device to test on and then click start testing.
+KaneAI will set up your app session inside a virtual mobile device.
+You don't need TestFlight and you don't need Google Play either.
+Then run through your test scenario on your mobile app and then click save to
+save your test case.
+At Microsoft, we used to spend days writing the types of test cases that KaneAI
+generates in minutes.
+But the real win isn't replacing your entire test suite, it's smoke testing.
+Does your app actually work on the browsers and phones that your users have?
+Does it look like it actually belongs there? That's the key.
+And remember, this does not replace the need for human judgment.
+You should still audit your test cases to make sure they test what you want.
+One of the best outcomes of KaneAI is that when your app's interface
+changes, these tests don't break often.
+They auto heal by understanding what a button does, not what it's called in your
+code.
+It's not perfect, but it is a safety net I wish I had when I
+was writing tests back at Microsoft.
+Check out the link in the description below to get started. I'm David, I'll see
+you in the next video.
