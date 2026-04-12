@@ -1,5 +1,108 @@
 [
   {
+    "context_analysis": "探讨Google产品经理岗位的现实：job description只描述了表面输出（PRD、roadmap、功能发布），但真正的游戏规则是影响力和框架思维。作者通过4年Google经验和1000+PM",
+    "id": "GtZt8CXOf_A",
+    "type": "youtube",
+    "title": "Google Product Manager Job Looks Nothing Like the Job Description",
+    "author": "Intentional Product Manager",
+    "date": "2026-04-11",
+    "dateText": "Apr 11",
+    "duration": "13:08",
+    "tldr": "Google PM的真实工作不是写PRD或做 roadmap，而是无授权情况下的影响力运作——让更聪明的人朝着同一方向前进，并让你的impact被决策者看见。",
+    "takeaways": [
+      "Job description描述的是输出（PRD、roadmap、功能），但真正决定晋升和薪资的是影响力和框架能力，而非产出数量",
+      "高级PM的核心能力是『创造让正确答案浮现的条件』——提问而非给答案，促进辩论而非赢得辩论",
+      "同一问题不同框架导致完全不同资源分配：把onboarding flow问题重新定义为『48小时流失15%新用户，相当于每年损失3000万收入』即可获得高管关注",
+      "90%的工作上级看不到，5%被skip-level看到，promotion committee只看到一份packet，必须战略性地让正确的人理解你的价值",
+      "L6 PM在业务层面框架问题、让impact对决策者可见、通过无授权影响力驱动结果；L4 PM在功能层面框架、假设工作自己说话、执行指令"
+    ],
+    "quote": "Your job is never to have the right answer. Your job is to create the conditions where the right answer can emerge from the team around you. — 你的工作不是给出正确答案，而是创造条件让团队涌现出正确答案。",
+    "link": "https://www.youtube.com/watch?v=GtZt8CXOf_A",
+    "tags": [
+      "AI PM",
+      "Product Management",
+      "Google",
+      "Career Growth",
+      "Influence Without Authority",
+      "Strategic Framing"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "Job Description vs Reality：表面与内核的鸿沟",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Google PM的job description列出strategy、vision、roadmap、cross-functional collaboration等词汇，但这些词的实际含义与表面理解完全不同。真正的挑战不是产出文档或功能，而是每天处理没有标准答案的模糊问题，并在没有正式授权的情况下让一群比你更专业的人达成共识。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI产品经理尤其需要这种能力——AI项目高度不确定，技术可行性、用户需求、业务价值都在快速变化，PM必须能够在信息不完整的情况下引导团队方向，同时协调ML工程师、数据科学家、产品经理等多方利益。"
+          }
+        ]
+      },
+      {
+        "subtitle": "未成文规则一：答案不在你心里，在团队中",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "高薪PM（L6, 600K）的核心转变是放弃『给出答案』的冲动，改为创造让正确答案从团队中涌现的条件。这意味着提问而非提供解决方案，为工程师留出质疑假设的空间，促进辩论而非赢得辩论。300K PM走进房间说『我们应该这样做』；600K PM说『我看到了这些张力，我遗漏了什么？』"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI/ML项目的技术复杂性意味着PM极少是技术最强的人。真正的价值在于提出正确的问题让ML工程师和研究员去探索，创建团队可以使用的决策原则，而非自己决定技术方案。"
+          }
+        ]
+      },
+      {
+        "subtitle": "未成文规则二：级别越高，框架越比产出重要",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "两个PM处理同一问题：一个说『需要修复onboarding流程』，另一个说『48小时内流失15%新用户，长期看代表每年3000万美元收入损失』。同一问题，不同框架导致完全不同资源分配、团队规模和晋升路径。"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "IC级别看产出（功能、指标、PRD），但升职后游戏从输出转向框架：你如何定位一个问题，决定了你获得多少资源、关注度和信任。框架能力是Google最看重的技能之一，尤其在要求think big、think long term的环境中。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI产品的商业价值往往难以量化——模型精度提升1%意味着什么？PM需要学会将AI能力重新框架为具体业务影响（如转化率提升、流失减少、成本节约），这是获得研发投入的关键。"
+          }
+        ]
+      },
+      {
+        "subtitle": "未成文规则三：让impact被看见是战略沟通",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "作者的客户David从事核心基础设施工作，每次谈论都是技术细节。改为战略沟通后——『我每年减少了X基础设施成本』或『我为7个团队赋能了这些能力，最终带来Y结果』——获得了完全不同评价和晋升结果。"
+          },
+          {
+            "label": "核心观点归纳",
+            "content": "你上级看不到你90%的工作，skip-level看到5%，promotion committee只看一个packet。如果领导不知道你在推动什么，那就不存在。无论工作多优秀，如果没有正确的人理解，你不会得到credit。这不是政治或自我推销，是战略沟通。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI项目周期长、不确定性高，更需要持续向利益相关者传达进展和价值。AI PM应将技术输出重新包装为业务成果，建立叙事让impact显而易见。"
+          }
+        ]
+      },
+      {
+        "subtitle": "L4 vs L6 PM的真正差异",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "L4到L6的差距不在技术能力或工作态度，而在于：L6在业务层面框架问题，L4在功能层面；L6让impact对决策者可见，L4假设工作自己说话；L6无授权影响力并获得stickiness，L4执行指令并疑惑为何缺乏影响力。精通job description版本的PM陷入舒适区，永远无法突破——他们在玩checkers，而上面的人在下棋。"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "AI产品经理需要从『功能产出思维』转向『业务影响思维』。不是『训练了新模型』，而是『模型使某关键指标提升了X%』——这是Google实际评估人才的方式，也是AI PM职业跃迁的关键。"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "context_analysis": "本周AI新闻周报，核心焦点是Anthropic的Claude Mythos模型——一个因网络安全能力过强而选择不公开发布的AI模型，以及Project Glass Wing的合作伙伴计划。同时还涵盖了",
     "id": "SguncMvE77I",
     "type": "youtube",
