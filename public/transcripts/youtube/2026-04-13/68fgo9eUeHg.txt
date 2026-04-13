@@ -1,0 +1,359 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=68fgo9eUeHg
+
+Kind: captions
+Language: en
+Running my own business by myself means
+I have to handle all the small
+repetitive tasks that pop up before I
+can get to the work that really matters.
+Automation workflows can take a lot of
+that work off my shoulders, especially
+if they can connect across different
+applications. But I've always struggled
+with these because inevitably there's
+always some piece of information from
+one app that doesn't really connect to a
+specific field that the next app is
+expecting.
+What I really need is a step in the
+automation workflow that can figure out
+how to bridge those connection gaps,
+something a little more intelligent. I'm
+Nick and today we're partnering with
+Make. With the new version of Make AI
+agents, I can easily build visual
+automation workflows that have actual
+decision-making built in.
+AI agents in the new grid view make the
+whole thing pretty transparent. You'll
+be able to see how each step is working
+and make adjustments as needed with no
+coding required.
+So, here's my situation. I run training
+courses for clients as a freelancer.
+Client requests come in, mostly through
+email, and I manage my projects using
+Trello.
+Whenever I get an email from a new
+client, I need to add them to that
+Trello board manually. I need a system
+that will pick out those project
+requests, ignore unrelated emails, then
+route them to my Trello board.
+Now, if you need something that just
+automates the flow of data from one app
+to another, Make can certainly help you
+with that. But I don't want to just pass
+data. I'm actually going to cook up two
+separate workflows to streamline this
+whole thing with AI agents making
+decisions.
+If you've used Make recently, you may
+have seen a button for agents in the
+left navigation. But don't worry if
+you're not seeing that anymore because
+agents are now completely integrated
+into scenarios. Scenarios are the
+workflows that you build in Make.
+So, I'm going to create a scenario
+and this is the visual canvas where you
+can build steps in workflows that
+include intelligent agents. And
+scenarios always start with a trigger.
+I'm going to choose Gmail
+and tell it to watch my emails. I would
+bet that this is the most common
+scenario trigger, but we'll see a
+different trigger when we see that
+second workflow. And if this is your
+first time connecting to a third-party
+service, you need to set up that
+connection and approve some permissions.
+Now that I'm signed in to Gmail, setting
+up the trigger is pretty
+straightforward. I'll leave this set to
+simple filter with the folder set to my
+inbox.
+It's basically watching for new emails
+in my inbox.
+When you save an email trigger, you have
+to decide if the scenario will run
+against all of the messages, messages
+within a specific date range, or just
+new messages from now on. That's the
+option I want, so I'll choose that.
+Now, to really understand how these
+scenarios work, you need to know what
+information is being passed from one
+step to another. So, it's a good idea to
+run the scenario even with just a
+trigger module in place. Since this
+trigger is looking for a new email, I'm
+going to go ahead and send a test email
+to myself to give it something to read.
+Now that there's a new message in my
+inbox, I'll run this scenario.
+And when that's done, you can click the
+button above the trigger module to see
+the information that it got from that
+step. These are the information fields
+that it found from my email and I can
+pass any of these fields from one step
+to the next in the workflow. To add our
+next step, I can click the plus button
+on this module to add a new module.
+I could pass information from that
+trigger to something like a Google
+Sheet, an Airtable database, directly to
+Trello, or there are thousands of other
+apps that you can connect here. But for
+my next step, I'm going to use an AI
+agent. You can do a quick search for
+Make AI, then choose Make AI agents.
+I'll choose the option to run an agent,
+then do some configuration. This is
+where the decision-making will happen.
+We'll need to create the connection to
+Make's AI agent system. You can use
+different AI providers, but I'll stick
+with Make's built-in provider. Then you
+can choose an AI model. This won't be
+too complicated, so I'll just choose
+GPT-5 medium to be safe.
+Then the instructions field is where you
+tell the agent exactly what you want it
+to do. This is a lot like the prompt you
+would write in an AI chat assistant.
+When I click that field, I have the
+option to add any of the fields that
+were passed from the original email
+message. Every email will have a
+different sender name, sender address,
+and everything else. You can use these
+fields to stand in for that information
+in your prompt. So, I want this agent to
+screen my incoming email messages and
+identify only new messages that are not
+part of an existing thread. I don't want
+it to keep passing every reply from an
+ongoing conversation into my Trello
+board.
+Next, I'll tell it if there is a new
+message requesting information about
+training services, add a new card in
+Trello.
+So, I'm asking the agent to read the
+email and understand whether it contains
+a training request. I'm asking the agent
+to make that decision. I'm also
+referring to a specific board and a
+specific list in my Trello account.
+Next, I'll add in the card name, include
+the sender's name.
+Okay, so the sender's name is one of
+those fields that's being passed from
+the original email. So, I'll drag in the
+name field from that email.
+Now, you don't have to drag these fields
+into the instructions prompt. I just
+want to be as clear as possible.
+However, you do have to add any fields
+that you want the agent to use to this
+input field. This defines the incoming
+data from the previous step for your
+agent to process.
+If you don't include important
+information here, then your agent will
+not be able to analyze it.
+Ultimately, I will be referring to the
+thread ID, the email address, and the
+full body text in my instructions, so
+I'll just add those now.
+It will definitely need to refer to the
+full body text since I'm asking the
+agent to read and understand the
+incoming email message.
+And back in the instructions, I'll tell
+it if you can identify the company name
+from the email message, add that to the
+card name, then add the thread ID. So,
+the new card that will be added to
+Trello will have a name field at the
+top. And I'm asking the agent to put the
+email sender's name and the company name
+into that field. And I'm also asking it
+to include the thread ID. That
+identifies the specific email thread
+that this information came from. I don't
+need that right now, but it will set
+something up for when we get to my
+second workflow.
+And I'll also tell it to add some
+content to the Trello card's
+description.
+Now, before you save and close this, you
+should stop and think about what the
+agent needs to complete these
+instructions.
+According to the instructions I gave the
+agent, the next part of my workflow
+requires the agent to do something in
+another app, in Trello. So, my next step
+is to give the agent a way to connect
+with and work in Trello.
+With that in mind, I can save this.
+And this time I'm not going to click the
+plus button on the right to add a new
+module. AI agents have a plus button on
+the bottom to add tools. I need to give
+the agent access to tools to work in
+other apps. In this case, I need to
+search for Trello,
+select that, and then choose a specific
+Trello action. The action I need is for
+it to create a new card in Trello.
+I need to sign in to my Trello account
+and give it access. You can change the
+tool's name and description if you want.
+And in Trello, you have to tell it which
+list to connect to, but it has this nice
+option where it can let you choose the
+specific board and list from your
+account using a menu.
+So, in my freelance projects board, it
+will add a new card to my list called
+new leads.
+I'll skip some of these optional fields.
+And this next step is cool. I need to
+set the name for the new Trello card.
+But remember, I asked my AI agent to put
+the name of the person who sent the
+original email into the card name. So,
+I'll set this field to let AI agent
+decide. The agent has its instructions.
+It knows what to put here. And I did ask
+the agent to also add something to the
+card's description, so I'll set that to
+let AI agent decide.
+I don't need anything else here, so I'll
+save it. So, this is my complete
+scenario, but you can link together many
+more modules and tools.
+But let's test this as it is.
+In my email, you'll see I've received
+two new messages. The message from Ava
+is a request for training, and the
+message from Liam has absolutely nothing
+to do with training. My agent should be
+able to sort through these.
+Let's look at Make and my Trello board
+side by side as I run this. The button
+at the bottom will run the scenario
+once.
+It checks my email,
+then I see the agent is thinking,
+then we're waiting for the Trello tool
+to finish.
+And we see a new card has been added to
+my Trello board, but just one. The agent
+successfully identified one message that
+relates to a training request and it
+ignored the message that had nothing to
+do with training. That's exactly what I
+wanted. Of course, you should not expect
+your scenario to work perfectly the
+first time. There's a button above each
+step in the scenario that you can click
+to see a summary of that step. If
+something didn't work the way you
+expected, you should be able to find
+some information here, make some changes
+to your configuration, and retest until
+it works right.
+Now, since I have a scenario that works,
+I want it to run automatically. I'll
+save it
+and there's a switch to set it to run
+every 15 minutes, or you can click that
+and set a different interval.
+Now, let's take a quick look at another
+workflow. We're not going to go through
+the whole process, but I want to show
+you what it does.
+In my scenarios, I've already set up
+scenario two. The trigger is a specific
+action in Trello. When I move a card to
+a specific list in Trello, it will call
+the AI agent which will write a response
+to the original email asking the client
+to schedule a meeting. Remember how I
+added the original email's thread ID to
+my Trello cards? This agent will find
+the thread ID in the card that moved.
+And I also gave the agent a description
+of the message I wanted it to write. And
+you can see I gave the agent a tool so
+that it can connect to my Gmail and
+reply to a message as instructed.
+Once again, let's look at Make and my
+Trello board side by side. First, I'll
+move that new card to the contact list.
+This is the action that the scenario is
+looking for. Then, I'll run the
+scenario.
+And it looks like everything worked.
+Now, the original person who sent the
+request will get a response inviting
+them to set up a call.
+So, I've set up two scenarios in Make
+that work together to completely
+streamline new client communication.
+Now, if you just set up one scenario,
+then you've got everything you need. But
+if you set up multiple scenarios with
+complex flows that connect to different
+apps, that can be a lot to keep track
+of. If you do set that up, I think
+you'll love the grid. Choose the grid
+from the navigation bar. And the grid
+shows all of your connections across all
+of your scenarios. These three modules
+here represent a scenario that I was
+playing with earlier. But this little
+network over here represents my other
+two scenarios. They're connected because
+they both connect to my Trello
+workspace. I can see that my scenario
+two triggers the space and scenario one
+reads it. If there were any connections
+that weren't working properly or need
+your attention, you'd see those listed
+and you could troubleshoot them visually
+here.
+You can switch to different layers to
+see which steps are sending the most
+data over the internet or which are
+using the most AI credits. And if you
+are part of a team working together in
+Make, this can help you visualize and
+troubleshoot connections across your
+team.
+So, you can get started for free at
+make.com. You can start building
+powerful scenarios even with a free
+account. And it scales up for larger
+teams and enterprise users.
+As for me, no more missing client
+emails, no more sifting through my inbox
+to make sure I'm not forgetting
+something. And I don't even have to send
+that introductory email to schedule a
+first call anymore. The AI agents in
+Make have helped me offload a lot of
+those administrative tasks that were
+taking up my time.
+To keep learning and for more videos
+like this, make sure to subscribe to
+this channel.

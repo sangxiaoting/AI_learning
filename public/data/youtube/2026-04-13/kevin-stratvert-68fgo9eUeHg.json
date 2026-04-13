@@ -1,0 +1,98 @@
+{
+  "context_analysis": "演示如何使用Make的AI Agent功能构建自动化工作流，帮助自由职业者自动筛选客户邮件并回复。核心价值在于AI决策能力填补了传统自动化工具无法处理非结构化信息的短板。",
+  "id": "68fgo9eUeHg",
+  "type": "youtube",
+  "title": "AI Agents That Screen Clients and Reply for You",
+  "author": "Kevin Stratvert",
+  "date": "2026-04-13",
+  "dateText": "Apr 13",
+  "duration": "12:25",
+  "tldr": "通过Make的新版AI Agent构建两个自动化场景：场景一用AI筛选邮件中的培训请求并自动创建Trello卡片；场景二当Trello卡片移至联系人列表时，AI自动撰写回复邮件邀请对方安排会议。",
+  "takeaways": [
+    "Make的AI Agent现已完全集成到Scenario中，无需编码即可构建具有决策能力的自动化工作流",
+    "AI Agent可读取邮件内容并判断是否为培训请求，只将有效线索转为Trello卡片，过滤无关邮件",
+    "Agent使用GPT-5中等模型即可处理简单的客户筛选任务",
+    "Trello卡片中存储thread ID，实现两个场景间的数据关联",
+    "Grid视图提供跨场景的可视化监控，可查看数据流量和AI credits使用情况"
+  ],
+  "quote": "With the new version of Make AI agents, I can easily build visual automation workflows that have actual decision-making built in. — 利用新版Make AI Agents，我可以轻松构建具有实际决策能力的可视化自动化工作流。",
+  "link": "https://www.youtube.com/watch?v=68fgo9eUeHg",
+  "tags": [
+    "AI Agents",
+    "Make Automation",
+    "Workflow Automation",
+    "No-Code",
+    "Client Screening",
+    "Trello Integration"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "AI Agent驱动的自动化工作流架构",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Make的新版AI Agent完全集成到Scenario中，在视觉化工作流中嵌入实际决策能力。用户可在Scenario中直接添加AI Agent模块，无需编写代码即可实现复杂判断逻辑。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "实际演示了两个串联的场景：场景一定期检查Gmail收件箱→AI筛选培训请求→创建Trello卡片；场景二Trello卡片移至联系人列表→AI撰写回复邮件→通过Gmail发送。整个流程全自动运行。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "此工作流的核心创新在于用AI Agent填补了传统IFTTT类工具无法处理非结构化内容的缺口。AI可理解邮件语义并做出业务判断，这是从「数据管道」升级为「智能助手」的关键跃迁。"
+        }
+      ]
+    },
+    {
+      "subtitle": "场景一实现细节：邮件智能筛选",
+      "points": [
+        {
+          "label": "技术逻辑拆解",
+          "content": "Gmail触发器设置为监控收件箱新邮件（仅新消息模式）。AI Agent接收邮件原始数据（发件人姓名、邮箱地址、thread ID、完整邮件正文），在指令中要求Agent判断是否为培训请求并识别公司名称。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "演示中收到两封邮件：Ava的培训请求被识别并创建Trello卡片，Liam的无关联邮件被自动忽略。Trello卡片名称由Agent根据发件人和公司名自动生成，卡片中存储thread ID供后续场景使用。"
+        },
+        {
+          "label": "局限与挑战",
+          "content": "初次配置可能无法完美运行，Make提供每个步骤的详细日志供排查调试。建议分步骤测试，先单独运行触发器验证数据获取，再逐步添加AI Agent和后续动作。"
+        }
+      ]
+    },
+    {
+      "subtitle": "场景二实现细节：自动回复客户",
+      "points": [
+        {
+          "label": "技术逻辑拆解",
+          "content": "触发条件设置为Trello特定列表的状态变化。当卡片从「new leads」移至「contact」列表时，触发Scenario Two。Agent读取Trello卡片中的thread ID和预设的回复指令，通过Gmail API发送回复邮件。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "此设计实现了「人工确认→自动执行」的混合模式：AI负责初筛创建卡片，人工将卡片移入联系人列表表示确认意向，AI再自动完成标准化回复。平衡了自动化效率与人工把控风险。"
+        },
+        {
+          "label": "未来预测/行动项",
+          "content": "可进一步扩展的方向：在回复中加入可点击的日历链接、设置自动重试机制处理发送失败、添加CRM集成追踪客户生命周期。"
+        }
+      ]
+    },
+    {
+      "subtitle": "Grid视图：全局可视化监控",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Grid视图展示所有Scenario的跨应用连接关系，可直观看到场景间的数据流动。当存在连接异常时，Grid会高亮显示问题节点便于排查。"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "Grid显示Scenario Two触发Trello空间更新，Scenario One读取该空间数据。通过不同图层可查看各步骤的数据传输量和AI credits消耗分布。"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "Grid视图解决了多场景协作时的可观测性问题。对于管理多条自动化流水线的团队，视觉化监控能快速定位瓶颈和异常，是企业级部署的重要基础。"
+        }
+      ]
+    }
+  ]
+}
