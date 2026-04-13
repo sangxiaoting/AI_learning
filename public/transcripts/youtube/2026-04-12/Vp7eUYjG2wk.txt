@@ -1,0 +1,210 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=Vp7eUYjG2wk
+
+Kind: captions
+Language: en
+Let's learn as simple as possible what
+on earth a cursor automation is and how
+we can start leveraging it in a
+workflow. Therefore, by the end of this
+video, you're going to find easy
+plug-and-play cursor automations you can
+do for your software or your app that
+you can start using right away. Does
+that sound good? Let's jump in. Welcome
+back, y'all. First off, if you want to
+access this, just go to cursor.com. Make
+sure to log in and then you'll notice in
+your sidebar here automations.
+This is pretty cool stuff here from
+Cursor's team here. So, for a couple
+things we got that's are standing out to
+me is the ability to find
+vulnerabilities. As I know a lot are
+always worried about security. And what
+I'm going to do in today's video is I'm
+going to show you step by step how we
+even set up one of these automations,
+but on top of that, see it work live.
+Therefore, a really big puzzle piece for
+all of this is making sure that you use
+something like GitHub. If you don't even
+know what a GitHub is or you want to
+learn about GitHub, let me just type in
+Corbin Brown GitHub, watch my videos, or
+just learn what GitHub is. This is
+version control and is important for any
+real software development. Because as
+you'll notice, a lot of these
+automations are associated with some
+type of PR system. But also, you got
+other cool stuff like fix bug reported
+in Slack, summarize changes daily,
+everything of this nature. So, you have
+two options. Numero eins, we can create
+a custom one, which we'll do together,
+or alternatively, use one of the
+pre-made ones by Cursor's team. So, for
+example, find critical bugs. We can
+click this, and what it'll do is that
+every day at 4:00 p.m. PST, that nice
+little cron job, it will look at your
+relevant codebase that you've integrated
+within Cursor and find critical bugs.
+Make sense, right? What we're going to
+create today is going to be a automation
+that every time I do a pull request, it
+looks for high-risk bugs. Create
+automation. High-risk bug. You notice
+with any type of automations that we
+have the ability to set different types
+of triggers, whether it's a cron job, we
+schedule it every day, every month,
+every week, or alternatively, you'll see
+native actions for GitHub, which is
+probably going to be what you do. So,
+what I'm going to do is going to be pull
+request opened. And then we simply give
+instructions. First off, you're going to
+choose your relevant model that you want
+to follow the instructions. Obviously,
+if we're going to do very high-level
+things and important things that you may
+have missed in your workflow, use a
+high-level model. I do like GPT 5.4.
+This has been giving me some killer
+outputs, especially when it comes to
+like diving deep in the code. I'm going
+to go with these simple instructions,
+but they can get pretty deep. Just
+simply click through Cursor's pre-made
+ones and you can see how nuanced it can
+get. Review this PR and audit the code
+to ensure there is no high-level
+security risk. Another thing you can
+attach to these automations is tools, so
+memories via the chat, or alternatively,
+MCP servers. The MCP, maybe you are
+creating a new PR for a Stripe
+integration, you would integrate
+Stripe's MCP there. With all that done,
+we want to select our relevant repo as
+well. So, I'm going to do one off, and
+then here, which is really cool, is you
+can actually set these automations for
+specific people in your team. So, maybe
+there's a specific person that just
+keeps giving you a Stop the AI slop. You
+can target that person or specific
+people within your team. For me, I'm
+just going to say anyone and hit create.
+Fundamentally, how do we think of these
+and how you should think of them? Any
+type of manual labor that you would have
+typically done in a PR review, like
+maybe you know from your past experience
+when it comes to a specific type of
+architecture within AI coding, it keeps
+failing, then you would identify that
+within the automation and then say like,
+"Really check out whether or not XYZ
+happens in the code, or is there bloat
+and dead code being added relative to
+the main branch?" Like a dead code,
+bloat code type of automation would be
+super cool as no one likes it when you
+could have done a task in 100 lines and
+it gave you 250 lines. With this on, we
+can go to our automations here. You'll
+see total automations is one. Thanks.
+You'll see run history, and you'll see
+it here. So, let's actually cook. This
+is my local app, the one-off app where I
+just create a bunch of one-off little
+apps that's open-source code for me to
+do cool things. And as we know with
+aigenic coding, we always want to start
+in plan mode, high-level models. I'm
+going to say, "Want to add a mini map
+here for me to create." Yes, I know the
+GIFs or JIFs, whatever you want to call
+it. Start a new branch for this, and
+when it's ready for review, open a PR.
+I'm going to hit enter here. Let's
+create a plan. Let's let it go step by
+step here. Understand the app's
+architecture and codebase. And then I'll
+hit execute, and this will from dot zero
+create a new branch, code in that new
+branch, open a PR, and then on top of
+that, we have the automation layer
+that's going to check the PR for
+relevant high-risk security bugs. But as
+you know, and as you can probably
+assume, there is a bunch of other stuff
+you can automate within your relevant
+developer workflow. Like another good
+example of this I can think of is when I
+was running teams and interns, a lot of
+times when they would open up a PR, they
+would have to DM me directly on Slack to
+let me know the PR existed. Something
+like this, they can set up an automation
+where it's like, "Hey, I opened a PR,
+automatically DM Corbin." And as we
+know, we can always view said plan, see
+if it looks good. FFmpeg, we all know
+FFmpeg. And I will simply hit build. And
+from here on out, the entire process I
+just described is about to happen live
+in front of us. So, let me go ahead and
+let this generate. We're going to go
+ahead and then walk through what this
+even looks like in GitHub and Cursor
+automation. And as you can see, right
+off the bat, it is created and switched
+to the new branch, feature GIF creator.
+So, it has finished our relevant plan
+here. And what I could have done is
+maybe be a little bit more specific, so
+it automatically opened this PR. But if
+we come back over to GitHub, you notice
+that it's right here, and I hit compare
+and pull request. Once I click this, and
+obviously, create pull request, the
+automation from Cursor should click in.
+And there we go. Notice two things.
+First thing, it's automatic, as the name
+says, but also, it is the very specific
+automation of high-risk bug that we set
+together. This is super cool and really
+cool for two major reasons. Reason
+number one, Cursor already has a bug bot
+feature, so you check that out, and bug
+bot kind of does a similar thing that
+we're doing here, but you can in theory
+create your own version of bug bot. And
+number two, there is a ton of different
+softwares where literally their entire
+use case is to be the bug bot. Like,
+"Hey, we're cleaning the AI slop." In
+theory, if you're experienced enough
+developer, you can create your own
+version of that, and then plug and play.
+You'll also notice that within the
+dashboard here, I can come to run
+history, and you will see that it's
+currently running. It gives you status,
+everything of this nature. But that
+officially goes over Cursor automations.
+So, as you already know, these style
+videos, make sure you like, it's
+completely free. I'll see you in the
+next. You know what? Corbin quite
+literally just saved me a ton in
+software subscriptions, because now we
+can just literally set up a Cursor
+automation to do everything we ever
+wanted in a PR type of video. Super
+nice.

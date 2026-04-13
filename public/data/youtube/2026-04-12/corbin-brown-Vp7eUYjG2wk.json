@@ -1,0 +1,98 @@
+{
+  "context_analysis": "一支面向初学者的 Cursor Automations 教程视频，演示了如何利用自动化功能在 PR 流程中自动检测高风险安全漏洞。核心价值在于展示开发者工作流的自动化改造能力，可替代部分第三方 bug",
+  "id": "Vp7eUYjG2wk",
+  "type": "youtube",
+  "title": "How To Use Cursor Automations For Beginners",
+  "author": "corbin",
+  "date": "2026-04-12",
+  "dateText": "Apr 12",
+  "duration": "5:46",
+  "tldr": "Cursor Automations 允许开发者通过预设或自定义触发器，在 GitHub PR 流程中自动执行代码审查、安全漏洞检测等任务，大幅减少手动 PR 审查工作量。",
+  "takeaways": [
+    "Cursor 自动化功能入口位于 cursor.com 登录后的侧边栏，提供预置模板和自定义创建两种模式",
+    "预置自动化包括：每日定时扫描关键 bug、Slack 通知 bug 修复、每日代码变更汇总等",
+    "自定义自动化支持两种触发方式：cron 定时任务（每日/每周/每月）或 GitHub 原生动作（PR 打开等）",
+    "可选择不同模型执行自动化任务，高风险安全审查建议使用高级模型如 GPT 5.4",
+    "支持集成 MCP 服务器（如 Stripe MCP）和 Chat Memories，可针对团队特定成员配置自动化"
+  ],
+  "quote": "Review this PR and audit the code to ensure there is no high-level security risk. — 审查此 PR 并审计代码，确保没有高级安全风险",
+  "link": "https://www.youtube.com/watch?v=Vp7eUYjG2wk",
+  "tags": [
+    "Cursor",
+    "AI IDE",
+    "Automations",
+    "Workflow Automation",
+    "GitHub",
+    "PR Review"
+  ],
+  "detailedBreakdown": [
+    {
+      "subtitle": "Cursor Automations 访问入口与功能概览",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "Cursor 自动化功能集成在 IDE 侧边栏中，提供开箱即用的安全漏洞检测和代码审查能力，是开发工作流自动化的原生入口"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "预置模板包括：Find Critical Bugs（每日 4:00 PM PST 扫描代码库）、Fix Bug Reported in Slack（Slack 通知）、Summarize Changes Daily（每日变更汇总）"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "这意味着 AI IDE 已从单纯的代码补全工具演进为完整的开发工作流自动化平台，可替代部分第三方服务如专用 bug bot 软件"
+        }
+      ]
+    },
+    {
+      "subtitle": "自定义自动化创建流程",
+      "points": [
+        {
+          "label": "技术逻辑拆解",
+          "content": "创建流程：1) 选择触发器（cron 或 GitHub 原生动作如 PR opened）2) 编写审查指令 3) 选择执行模型 4) 配置工具（Memories/MCP）5) 选择目标仓库 6) 可选指定团队成员"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "视频演示创建了一个「高风险 bug 检测」自动化，触发条件为 PR 打开，使用 GPT 5.4 模型执行「审查代码确保无高级安全风险」的指令"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "开发者可将自身积累的代码审查经验固化为自动化规则，例如：检测特定架构模式失败问题、识别死代码和冗余代码、验证代码复杂度等"
+        }
+      ]
+    },
+    {
+      "subtitle": "实际工作流演示",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "视频完整演示了从在 Cursor 中发起任务创建新分支、编写代码、打开 PR，到自动化触发执行安全审查的全流程"
+        },
+        {
+          "label": "关键数据/案例",
+          "content": "演示中：在 Cursor 中要求 AI 添加 mini map 功能 → AI 创建新分支 feature-GIF-creator → 手动在 GitHub 创建 PR → 自动化立即触发执行安全审查 → 可在 Run History 查看执行状态"
+        },
+        {
+          "label": "局限与挑战",
+          "content": "当前演示中自动化是在 PR 创建后被动触发，而非自动从 Cursor 的代码变更直接创建 PR 后立即执行，存在一定时间差"
+        }
+      ]
+    },
+    {
+      "subtitle": "自动化价值与应用场景",
+      "points": [
+        {
+          "label": "核心观点归纳",
+          "content": "自动化本质是将 PR 审查中的手动劳动自动化，可显著减少重复性工作并统一代码审查标准"
+        },
+        {
+          "label": "AI PM 视角/启发",
+          "content": "两大价值：1) 可替代第三方 bug bot 服务，节省软件订阅成本 2) 允许资深开发者将经验固化为自动化规则，团队新人可直接复用"
+        },
+        {
+          "label": "未来预测/行动项",
+          "content": "建议团队根据自身代码规范创建定制化自动化规则，如代码行数限制检测、特定安全模式检查、代码风格统一验证等"
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,198 @@
 [
   {
+    "context_analysis": "一支面向初学者的 Cursor Automations 教程视频，演示了如何利用自动化功能在 PR 流程中自动检测高风险安全漏洞。核心价值在于展示开发者工作流的自动化改造能力，可替代部分第三方 bug",
+    "id": "Vp7eUYjG2wk",
+    "type": "youtube",
+    "title": "How To Use Cursor Automations For Beginners",
+    "author": "corbin",
+    "date": "2026-04-12",
+    "dateText": "Apr 12",
+    "duration": "5:46",
+    "tldr": "Cursor Automations 允许开发者通过预设或自定义触发器，在 GitHub PR 流程中自动执行代码审查、安全漏洞检测等任务，大幅减少手动 PR 审查工作量。",
+    "takeaways": [
+      "Cursor 自动化功能入口位于 cursor.com 登录后的侧边栏，提供预置模板和自定义创建两种模式",
+      "预置自动化包括：每日定时扫描关键 bug、Slack 通知 bug 修复、每日代码变更汇总等",
+      "自定义自动化支持两种触发方式：cron 定时任务（每日/每周/每月）或 GitHub 原生动作（PR 打开等）",
+      "可选择不同模型执行自动化任务，高风险安全审查建议使用高级模型如 GPT 5.4",
+      "支持集成 MCP 服务器（如 Stripe MCP）和 Chat Memories，可针对团队特定成员配置自动化"
+    ],
+    "quote": "Review this PR and audit the code to ensure there is no high-level security risk. — 审查此 PR 并审计代码，确保没有高级安全风险",
+    "link": "https://www.youtube.com/watch?v=Vp7eUYjG2wk",
+    "tags": [
+      "Cursor",
+      "AI IDE",
+      "Automations",
+      "Workflow Automation",
+      "GitHub",
+      "PR Review"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "Cursor Automations 访问入口与功能概览",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "Cursor 自动化功能集成在 IDE 侧边栏中，提供开箱即用的安全漏洞检测和代码审查能力，是开发工作流自动化的原生入口"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "预置模板包括：Find Critical Bugs（每日 4:00 PM PST 扫描代码库）、Fix Bug Reported in Slack（Slack 通知）、Summarize Changes Daily（每日变更汇总）"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这意味着 AI IDE 已从单纯的代码补全工具演进为完整的开发工作流自动化平台，可替代部分第三方服务如专用 bug bot 软件"
+          }
+        ]
+      },
+      {
+        "subtitle": "自定义自动化创建流程",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "创建流程：1) 选择触发器（cron 或 GitHub 原生动作如 PR opened）2) 编写审查指令 3) 选择执行模型 4) 配置工具（Memories/MCP）5) 选择目标仓库 6) 可选指定团队成员"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "视频演示创建了一个「高风险 bug 检测」自动化，触发条件为 PR 打开，使用 GPT 5.4 模型执行「审查代码确保无高级安全风险」的指令"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "开发者可将自身积累的代码审查经验固化为自动化规则，例如：检测特定架构模式失败问题、识别死代码和冗余代码、验证代码复杂度等"
+          }
+        ]
+      },
+      {
+        "subtitle": "实际工作流演示",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "视频完整演示了从在 Cursor 中发起任务创建新分支、编写代码、打开 PR，到自动化触发执行安全审查的全流程"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "演示中：在 Cursor 中要求 AI 添加 mini map 功能 → AI 创建新分支 feature-GIF-creator → 手动在 GitHub 创建 PR → 自动化立即触发执行安全审查 → 可在 Run History 查看执行状态"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "当前演示中自动化是在 PR 创建后被动触发，而非自动从 Cursor 的代码变更直接创建 PR 后立即执行，存在一定时间差"
+          }
+        ]
+      },
+      {
+        "subtitle": "自动化价值与应用场景",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "自动化本质是将 PR 审查中的手动劳动自动化，可显著减少重复性工作并统一代码审查标准"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "两大价值：1) 可替代第三方 bug bot 服务，节省软件订阅成本 2) 允许资深开发者将经验固化为自动化规则，团队新人可直接复用"
+          },
+          {
+            "label": "未来预测/行动项",
+            "content": "建议团队根据自身代码规范创建定制化自动化规则，如代码行数限制检测、特定安全模式检查、代码风格统一验证等"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_analysis": "视频介绍了NVIDIA的DreamDojo论文，展示了如何通过人类视频让机器人学习物理世界理解。这个看似不可能的任务（因为人类和机器人身体结构不同，视频也没有动作标签）通过四个关键创新取得了突破：自监",
+    "id": "mFSFvKquXwI",
+    "type": "youtube",
+    "title": "NVIDIA’s New AI Shouldn’t Work…But It Does",
+    "author": "Two Minute Papers",
+    "date": "2026-04-11",
+    "dateText": "Apr 11",
+    "duration": "9:08",
+    "tldr": "NVIDIA的DreamDojo通过让机器人观看44000小时人类视频学习物理交互，实现了从2D视频像素理解现实世界物理规律的重大突破，经蒸馏后推理速度提升4倍达到10fps。",
+    "takeaways": [
+      "传统模拟训练到现实部署存在巨大鸿沟，原因在于模拟无法完美替代现实",
+      "人类视频对机器人学习看似无用，因为肢体结构不同且视频无动作标签信息",
+      "四大创新使不可能变可能：1）AI自监督理解视频；2）4十亿帧大规模数据压缩提取关键信息；3）相对动作而非绝对坐标；4）4帧分块预测防止作弊学习因果",
+      "原始模型需要35步去噪才能生成一次预测，经蒸馏后学生模型比教师模型快4倍，达到10fps交互速度",
+      "该方法采用2D像素视角而非NeRD的3D建模，因此能学习数千种日常物体，为通用家用机器人奠定基础"
+    ],
+    "quote": "\"This finally gives us smarter AI robots, and robots that we can all own ourselves.\" — \"这最终让我们拥有了更智能的AI机器人，以及我们每个人都可以拥有的机器人。\"",
+    "link": "https://www.youtube.com/watch?v=mFSFvKquXwI",
+    "tags": [
+      "NVIDIA",
+      "DreamDojo",
+      "Robot Learning",
+      "Sim2Real",
+      "Video Learning",
+      "AI Robotics"
+    ],
+    "detailedBreakdown": [
+      {
+        "subtitle": "核心问题：模拟与现实的鸿沟",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "AI机器人在模拟环境中表现优异，但部署到现实世界后效果大幅下降，根本原因是模拟无法完美替代现实"
+          },
+          {
+            "label": "关键数据/案例",
+            "content": "NVIDIA数据显示模拟中成功率为90%以上的策略，在现实场景中可能完全失效"
+          }
+        ]
+      },
+      {
+        "subtitle": "DreamDojo的四大创新机制",
+        "points": [
+          {
+            "label": "技术逻辑拆解",
+            "content": "创新1：自监督学习——AI无需标签自行理解视频内容；创新2：信息压缩——4十亿帧数据迫使AI像音乐家理解12音符一样提取关键模式；创新3：相对动作表示——用相对坐标替代绝对关节位置，使策略具备位置无关性；创新4：因果学习——4帧分块预测防止AI偷看未来答案，真正学习因果关系"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "从绝对到相对的范式转换是关键——这与移动互联网早期从原生应用到Web应用的设计哲学转变异曲同工，说明构建通用智能需要找到对位置、尺度不敏感的特征表示"
+          }
+        ]
+      },
+      {
+        "subtitle": "实验结果与性能突破",
+        "points": [
+          {
+            "label": "关键数据/案例",
+            "content": "原始模型需要35步重去噪生成单次预测，经蒸馏后学生模型速度提升4倍，达到10fps交互级推理速度；演示展示纸张揉皱和盖子移动等精细物理交互"
+          },
+          {
+            "label": "局限与挑战",
+            "content": "35步去噪推理成本仍然较高，虽然蒸馏解决了速度问题，但精度有轻微损失需要权衡"
+          }
+        ]
+      },
+      {
+        "subtitle": "与NeRD技术的对比定位",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "NeRD构建完美3D环境用于机器人想象训练，DreamDojo则采用2D像素视角直接学习；2D方法优势在于能泛化到数千种日常物体，而3D方法受限于目标环境建模"
+          },
+          {
+            "label": "AI PM 视角/启发",
+            "content": "这揭示了通往通用机器人的两条路径：精确3D重建 vs 规模化2D泛化；后者更接近人类通过观察学习物理常识的方式，可能更具规模化潜力"
+          }
+        ]
+      },
+      {
+        "subtitle": "开源价值与未来应用",
+        "points": [
+          {
+            "label": "核心观点归纳",
+            "content": "NVIDIA开源了全部代码和预训练模型，无订阅限制，用户可部署到自有设备；这降低了机器人AI的准入门槛，使家庭机器人、远程手术辅助等应用更接近现实"
+          },
+          {
+            "label": "未来预测/行动项",
+            "content": "该技术使机器人叠衣服、烹饪、远程手术等场景从科幻走向可实现，是通用家庭机器人的重要里程碑"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "context_analysis": "探讨Google产品经理岗位的现实：job description只描述了表面输出（PRD、roadmap、功能发布），但真正的游戏规则是影响力和框架思维。作者通过4年Google经验和1000+PM",
     "id": "GtZt8CXOf_A",
     "type": "youtube",
