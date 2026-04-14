@@ -1,0 +1,151 @@
+# Platform: Youtube
+# Language: en
+# URL: https://www.youtube.com/watch?v=neZkNUchHCM
+
+Kind: captions
+Language: en
+Hey, QuickBooks. Tell me my five most expensive vendors in the past year, which ones
+have raised prices in the last six months, and by how much? That's Intuit Intelligence,
+a conversational AI built right into QuickBooks Online. It can create custom reports, track down
+out of control spending, and help you create more cash flow. I'm David. I've partnered
+with QuickBooks Online to show you everything Intuit Intelligence can do and what it can't
+do yet while it's still in beta. And stay tuned.
+Later, I'll ask it how to increase my profit. To follow along, head to the
+link in the description below. That link lands you on the QuickBooks homepage. From here,
+click on See plans and pricing. Intuit Intelligence is available in all QuickBooks plans. And
+while it's in beta, you can ask it 25 questions a month. If you haven't
+chosen a plan yet, here's a quick overview. Choose Simple Start if it's just you.
+Choose Essentials if you have a finance team, or you have over 100 transactions per
+month that you need help categorizing.
+Choose Plus if you need project or inventory tracking, and choose Advanced if you need
+revenue recognition, financial forecasting, or custom dashboards and reports. Once you choose a plan, you
+can choose whether or not to opt-in to payroll. For this video, we'll continue
+without payroll. Then put in your information, click Create an Intuit account, and I'll
+see you on the other side. To find Intuit Intelligence, click the AI icon at
+the top right of any screen. You can ask questions in the side pane, but
+I prefer
+using the full screen experience by clicking this icon. Here we've got a pretty basic
+chatbot interface. On the left side of the screen, you can see and access your
+chat history, and of course you can ask questions in the main pane. Think of
+Intuit Intelligence like ChatGPT or Claude, except it already knows your financial data, so there's
+no uploading spreadsheets or copy pasting from any other source. Let's start off with a
+simple question. What were my biggest expenses last month? You press Enter, and about a
+minute later, you'll get your answer. Now,
+most of your answers will be overflowing with data just like this one. Here we've
+got a table of our biggest expenses, and down below, we see it visualized as
+a bar graph. Now, are you thinking what I'm thinking? This is a great way
+to get custom reports out of QuickBooks. You're just limited by the quality of your
+questions. Now we're going to cover four major categories of questions you can ask, starting
+with number one, Business Performance. This is where you check your company's vital signs. For
+example, how does my
+revenue in Q1 compared to 2025 Q4? These questions help you understand revenue and profit
+trends within your business. The answer shows a steep decline. In Q4, we got 65
+,000, but in Q1, it was only 22. And if you've ever done this kind
+of analysis, you know the next question is why? Sometimes the AI will help break
+that down for you in the chart. Sometimes this chart shows us a breakdown by
+month instead of quarter, which clearly reveals an anomaly. We didn't get
+lucky and see that this time, but fortunately, QuickBooks catalogs the sources it gets its
+data from. You access that by clicking the sources button under any response. The next
+step is to figure out why Q4 was so good. So let's use this profit
+and loss report to find out. So this looks suspicious, right? November's income almost triples
+October's and over quadruples December's. This may in fact be an accounting error that's been
+sitting in your books unnoticed. This is the pattern you'll use over and over. Ask
+the
+questions, discover insights, check sources, and then dive deeper. Here's another question in the
+same category. How's our cash flow now compared to six months ago? Again, we'll get
+a simple narrative, some key numbers, and then a chart. And with really poor performance
+in March, QuickBooks knows we want to dive deeper. Here are three potential follow ups.
+We could look at expenses, we could look at income, or we could look at
+the entire P&amp;amp;L. Let's choose the third one. You might think that this is just
+a fancy way to pull reports.
+And honestly, that's kind of the point. Because most business owners never pull these reports
+because they don't know which ones to ask for. Don't let this be you. Now
+you know the health of your business. It's time to find out what's happening to
+your money. That introduces category two expenses. Let's start with a simple one. How do
+my expenses in Q1 so far compared to Q4? We get this same summary overview
+again, but we actually want to go deeper. So let's ask another question. Show me
+the expense categories by amount.
+Each month of the two quarters, that's going to help us reconcile the difference between
+them. With this answer, we're starting to get somewhere. We get the expense categories for
+every single month.
+But this format is hard to compare from month to month. So let's go even
+deeper. Show me the percentage changes in expense amounts from Q4 to Q1 by expense
+category. And then we ask it to display the results as a table with specific
+columns. Let's see what it does.
+Now you see how specificity gets you the data that you want. We've got all
+the expense categories here with the percentage change and the chart below actually helps us
+visualize the before and after a lot better than before.
+Before we go further, here's something that most people miss. You can export any response
+you get as a PDF report. This is a great way to get summary data
+and reports to send to your accountant.
+Now let's push this even further. I want to see how lumpy my payments are
+for every vendor. So now I'm asking to show me the variation in terms of
+standard deviations.
+This is a prompt to give you full vendor pricing consistency at a glance. This is something
+that's hard to see out of the box in QuickBooks. So I hope you see
+how much power this gives you.
+So far we've just been asking questions, but what happens when you actually ask it
+to do something? It's just told us about our unpaid invoices. So let's see which
+customers are on our naughty list.
+Well, looks like that Kevin Cookie Company is at it again. We got to take
+care of this. So let's tell Intuit Intelligence to send a reminder to the
+Kevin Cookie Company for this invoice.
+And unfortunately, here's the honest answer. It can't do that, at least not yet. Intuit
+Intelligence can't take actions, but it does show you exactly how to do it
+yourself and it links you to the right place.
+Now if you've been around QuickBooks Online for a while, you'll know that you can
+use AI to create an invoice from text. Unfortunately, you can't do it in this
+experience either.
+Like before, there's no direct creation, just instructions. That is unfortunately the ceiling right now
+for actions.
+As a silver lining, though, this happens to highlight that this is a built-in
+help system. So if you need help with something in QuickBooks Online, try asking Intuit
+Intelligence first.
+So far, we've looked at business performance, expenses, and how-tos. Those are useful, but
+there's one more category and this is the one that should make accountants and bookkeepers
+nervous.
+And that's category number four strategic advice. This is a broad category. So let's run
+through a few examples first.
+First up in the spirit of tax season, let's talk about taxes. This is a
+new pattern. We're asking for historical data, but then looking for a recommendation on next
+steps.
+The AI advises us that we're probably not going to owe taxes this quarter with
+a net loss, but it's important to take this advice with a grain of salt,
+especially with important financial decisions.
+What I personally find useful, though, is that I don't know what I don't know.
+So this gives me a good idea of conversations to start with my CPA.
+A good example of this is tax deductions I might be missing. But take note
+that some of your questions will show this notice that the information might be out
+of date.
+Let's move on from taxes. Remember at the beginning of this video, I said I'd
+ask it how to increase my profit. Well, here we go. So here you see
+the analysis.
+We got a couple bullets to increase our income and a couple to reduce our
+spending. While this is in beta, you'll see a lot of high level advice like
+this.
+My hope is that Intuit Intelligence evolves so that we can have in-depth
+strategic discussions, much like you can have with other AI models.
+Now, before we wrap up, here's one more type of question you can ask. Just
+looking if anything looks off in your profit and loss statement.
+I'm sure now you see the pattern, historical data, plus analysis, plus recommendation on next
+steps.
+There's a lot of promise here, but with any beta product, there are limitations. For
+example, at the time of filming, you can't carry on multiple chats at the same
+time, like with other models.
+If you click new chat when it's working on something, it cancels your prompt. It
+can also make mistakes, so don't rely on it 100% for legal, financial, or
+compliance decisions.
+Now, that might seem ironic given that most decisions will be financial, so my advice
+is before you make a decision based on any answer, validate it with the underlying data
+in your reports.
+Don't expect it to catch everything either. For example, this 401k contribution being on a
+P&amp;amp;L wasn't flagged as a mistake.
+Now, you might ask, why not use ChatGPT or Claude instead? The reason is data
+privacy. Do you really want to send your financials to OpenAI or Anthropic or any
+other company?
+Intuit has developed their own models, and they don't use third parties. Intuit Intelligence is
+a power tool, especially if you're producing reports for clients.
+And unlike Claude or ChatGPT, your data never leaves QuickBooks. It's version 1, and it'll
+only get better from here.
+Check out the link in the description below to get started. I'm David, and I'll
+see you in the next video.
